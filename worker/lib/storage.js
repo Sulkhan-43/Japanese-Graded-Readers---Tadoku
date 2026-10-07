@@ -21,9 +21,8 @@ export function toLibraryEntry(metadata) {
     japaneseTitle: metadata.japaneseTitle || '',
     slug: metadata.slug,
     level: metadata.level || 'Unleveled',
-    description: metadata.description || '',
     originalUrl: metadata.originalUrl || '',
-    studyGuidePath: `/study/${metadata.slug}`,
+    pdfPath: `/pdf/${metadata.slug}`,
     coverPath: metadata.coverR2Key ? `/assets/books/${metadata.slug}/cover?v=${encodeURIComponent(metadata.updatedAt || '')}` : null,
     status: metadata.generationStatus,
   };

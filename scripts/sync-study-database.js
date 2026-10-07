@@ -8,6 +8,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const foldersRoot = path.join(root, 'Folders');
 const migrationsRoot = path.join(root, 'db', 'migrations');
 const upload = process.argv.includes('--upload');
+const migrateOnly = process.argv.includes('--migrate-only');
 
 function grammarSegments(record) {
   return record.patternSegments || record.segments || [];
@@ -180,18 +181,19 @@ if (!process.env.DATABASE_URL) {
   throw new Error('DATABASE_URL is missing. Add it to the ignored root .env file before syncing.');
 }
 
-const books = await loadBooks();
+const books = migrateOnly ? [] : await loadBooks();
 const connection = new URL(process.env.DATABASE_URL);
 connection.searchParams.set('sslmode', 'verify-full');
 const client = new Client({ connectionString: connection.toString() });
 try {
   await client.connect();
   await applyMigrations(client);
-  await importBooks(client, books);
+  if (!migrateOnly) await importBooks(client, books);
   const { rows: bookRows } = await client.query('SELECT COUNT(*)::integer AS count FROM study_books');
   const { rows: vocabRows } = await client.query('SELECT COUNT(*)::integer AS count FROM study_book_vocabulary');
   const { rows: grammarRows } = await client.query('SELECT COUNT(*)::integer AS count FROM study_book_grammar');
-  console.log(`Synced ${books.length} local reader(s). Database now has ${bookRows[0].count} reader(s), ${vocabRows[0].count} per-reader vocabulary records, and ${grammarRows[0].count} per-reader grammar records.`);
+  if (migrateOnly) console.log(`Database migrations applied. Database has ${bookRows[0].count} reader(s), ${vocabRows[0].count} per-reader vocabulary records, and ${grammarRows[0].count} per-reader grammar records.`);
+  else console.log(`Synced ${books.length} local reader(s). Database now has ${bookRows[0].count} reader(s), ${vocabRows[0].count} per-reader vocabulary records, and ${grammarRows[0].count} per-reader grammar records.`);
 } catch (error) {
   const code = error?.code ? ` (Postgres code ${error.code})` : '';
   throw new Error(`PostgreSQL sync failed${code}. Database details are hidden; check DATABASE_URL and migration access.`);
@@ -199,4 +201,4 @@ try {
   await client.end().catch(() => {});
 }
 
-if (upload) await uploadPublicMetadata(books);
+if (upload && !migrateOnly) await uploadPublicMetadata(books);
