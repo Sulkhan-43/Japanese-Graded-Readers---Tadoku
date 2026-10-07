@@ -1,10 +1,10 @@
-﻿import { api } from '../api.js';
+import { api } from '../api.js';
 import { escapeHTML, setPage } from '../utils.js';
 
 function shell(content) {
   return `<div class="site-shell">
     <header class="site-header"><a class="wordmark" href="/" aria-label="Tadoku home"><img class="wordmark-mark" src="/brand-mark.svg" alt=""><span>Tadoku<small>READER LIBRARY</small></span></a><nav class="header-nav" aria-label="Main navigation"><a href="/">The library</a></nav></header>
-    ${content}<footer class="site-footer"><span>A quiet place to read Japanese.</span><span lang="ja">г‚†гЃЈгЃЏг‚ЉиЄ­г‚“гЃ§гЂЃжҐЅгЃ—гЃЏе­¦гЃјгЃ†гЂ‚</span></footer>
+    ${content}<footer class="site-footer"><span>A quiet place to read Japanese.</span><span lang="ja">ゆっくり読んで、楽しく学ぼう。</span></footer>
   </div>`;
 }
 
@@ -43,7 +43,7 @@ function termPanel(items, kind, label, emptyMessage, pageSize) {
   return `<section id="${kind}-panel" role="tabpanel" aria-labelledby="${kind}-tab" class="study-term-panel" ${kind === 'grammar' ? 'hidden' : ''}>
     <div class="study-term-list" id="${listId}" data-visible-terms="${kind}">${visible.length ? visible.map((item) => termMarkup(item, kind)).join('') : `<p class="study-term-empty">${emptyMessage}</p>`}</div>
     ${paginationMarkup(listId, visible.length, pageSize)}
-    <a class="study-hidden-link" data-hidden-link="${kind}" href="/${kind}/hidden" ${hidden ? '' : 'hidden'}><span>Hidden ${label.toLowerCase()} <b data-hidden-count="${kind}">(Hidden ${hidden})</b></span><span class="study-hidden-link-action">View hidden ${label.toLowerCase()} <span aria-hidden="true">в†’</span></span></a>
+    <a class="study-hidden-link" data-hidden-link="${kind}" href="/${kind}/hidden" ${hidden ? '' : 'hidden'}><span>Hidden ${label.toLowerCase()} <b data-hidden-count="${kind}">(Hidden ${hidden})</b></span><span class="study-hidden-link-action">View hidden ${label.toLowerCase()} <span aria-hidden="true">→</span></span></a>
   </section>`;
 }
 
@@ -51,11 +51,11 @@ function hiddenPageMarkup(items, kind, pageSize) {
   const label = kind === 'vocabulary' ? 'Vocabulary' : 'Grammar';
   const listId = `${kind}-hidden`;
   return `<main class="study-terms-page study-hidden-page">
-    <a class="study-hidden-back" href="/vocabulary">в†ђ Back to vocabulary &amp; grammar</a>
+    <a class="study-hidden-back" href="/vocabulary">← Back to vocabulary &amp; grammar</a>
     <section class="study-terms-heading"><div><span class="eyebrow">YOUR STUDY COLLECTION</span><h1>Hidden ${label}</h1><p>These terms stay in your collection but are omitted from your study reports.</p></div><div class="study-terms-total"><strong data-hidden-total>${items.length}</strong><span>hidden items</span></div></section>
     <div class="study-term-list" id="${listId}">${items.length ? items.map((item) => termMarkup(item, kind)).join('') : `<p class="study-term-empty">No hidden ${label.toLowerCase()} items.</p>`}</div>
     ${paginationMarkup(listId, items.length, pageSize)}
-    <p class="study-terms-notice" id="study-terms-notice" role="status" aria-live="polite">Use вЂњShow in my reportsвЂќ to restore a term to your reports.</p>
+    <p class="study-terms-notice" id="study-terms-notice" role="status" aria-live="polite">Use “Show in my reports” to restore a term to your reports.</p>
   </main>`;
 }
 
