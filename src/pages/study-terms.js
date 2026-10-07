@@ -42,10 +42,15 @@ function termPanel(items, kind, label, emptyMessage) {
 function pageMarkup(data) {
   const vocab = data.vocabulary || [];
   const grammar = data.grammar || [];
+  const visibleCount = [...vocab, ...grammar].filter((item) => item.showInReport).length;
   const hiddenCount = [...vocab, ...grammar].filter((item) => !item.showInReport).length;
+  const visibleVocabularyCount = vocab.filter((item) => item.showInReport).length;
+  const hiddenVocabularyCount = vocab.length - visibleVocabularyCount;
+  const visibleGrammarCount = grammar.filter((item) => item.showInReport).length;
+  const hiddenGrammarCount = grammar.length - visibleGrammarCount;
   return `<main class="study-terms-page">
-    <section class="study-terms-heading"><div><span class="eyebrow">YOUR STUDY COLLECTION</span><h1>Vocabulary &amp; grammar</h1><p>Terms from your finished books, gathered in one place. Choose what appears in your study reports.</p></div><div class="study-terms-total"><strong>${vocab.length + grammar.length}</strong><span>study items</span><small class="study-terms-hidden-count">${hiddenCount} hidden</small></div></section>
-    <div class="study-term-tabs" role="tablist" aria-label="Study terms"><button type="button" role="tab" id="vocabulary-tab" aria-controls="vocabulary-panel" aria-selected="true" data-term-tab="vocabulary">Vocabulary <span>${vocab.length}</span></button><button type="button" role="tab" id="grammar-tab" aria-controls="grammar-panel" aria-selected="false" data-term-tab="grammar">Grammar <span>${grammar.length}</span></button></div>
+    <section class="study-terms-heading"><div><span class="eyebrow">YOUR STUDY COLLECTION</span><h1>Vocabulary &amp; grammar</h1><p>Terms from your finished books, gathered in one place. Choose what appears in your study reports.</p></div><div class="study-terms-total"><strong data-visible-total>${visibleCount}</strong><span>study items</span><small class="study-terms-hidden-count">(Hidden ${hiddenCount})</small></div></section>
+    <div class="study-term-tabs" role="tablist" aria-label="Study terms"><button type="button" role="tab" id="vocabulary-tab" aria-controls="vocabulary-panel" aria-selected="true" data-term-tab="vocabulary">Vocabulary <span class="study-term-tab-count" data-visible-count="vocabulary">${visibleVocabularyCount}</span><small class="study-term-tab-hidden" data-hidden-tab-count="vocabulary">(Hidden ${hiddenVocabularyCount})</small></button><button type="button" role="tab" id="grammar-tab" aria-controls="grammar-panel" aria-selected="false" data-term-tab="grammar">Grammar <span class="study-term-tab-count" data-visible-count="grammar">${visibleGrammarCount}</span><small class="study-term-tab-hidden" data-hidden-tab-count="grammar">(Hidden ${hiddenGrammarCount})</small></button></div>
     ${termPanel(vocab, 'vocabulary', 'Vocabulary', 'Finish a book to collect vocabulary here.')}
     ${termPanel(grammar, 'grammar', 'Grammar', 'Grammar notes from finished books will appear here.')}
     <p class="study-terms-notice" id="study-terms-notice" role="status" aria-live="polite">Hidden items stay here and can be revealed from the bottom of each list. Story Japanese is always kept intact.</p>
@@ -98,6 +103,16 @@ export async function showStudyTerms(user) {
             empty.textContent = `All ${kind} items are hidden. Open the hidden ${kind} section below to reveal them.`;
             panel.querySelector(`[data-visible-terms="${kind}"]`).append(empty);
           }
+          const vocabVisible = document.querySelectorAll('[data-visible-terms="vocabulary"] .study-term-card').length;
+          const grammarVisible = document.querySelectorAll('[data-visible-terms="grammar"] .study-term-card').length;
+          const vocabHidden = document.querySelectorAll('[data-hidden-terms="vocabulary"] .study-term-card').length;
+          const grammarHidden = document.querySelectorAll('[data-hidden-terms="grammar"] .study-term-card').length;
+          document.querySelector('[data-visible-count="vocabulary"]').textContent = vocabVisible;
+          document.querySelector('[data-hidden-tab-count="vocabulary"]').textContent = `(Hidden ${vocabHidden})`;
+          document.querySelector('[data-visible-count="grammar"]').textContent = grammarVisible;
+          document.querySelector('[data-hidden-tab-count="grammar"]').textContent = `(Hidden ${grammarHidden})`;
+          document.querySelector('[data-visible-total]').textContent = vocabVisible + grammarVisible;
+          document.querySelector('.study-terms-hidden-count').textContent = `(Hidden ${vocabHidden + grammarHidden})`;
           if (!checkbox.checked && hiddenCount === 1) hiddenGroup.open = false;
           notice.textContent = checkbox.checked ? 'This item will appear in your study reports.' : 'This item is hidden from your reports and remains here.';
         } catch (error) {
