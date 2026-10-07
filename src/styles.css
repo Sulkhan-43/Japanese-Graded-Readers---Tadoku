@@ -235,6 +235,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .auth-submit { width: 100%; margin-top: 10px; }
 .auth-footnote { margin: 17px 0 0; font-size: 10px; }
 .auth-error { margin: 5px 0 0; color: #9e493b; font-size: 11px; line-height: 1.5; }
+.auth-error--registered { display: grid; gap: 6px; border-left: 2px solid #c58b54; padding: 10px 12px; background: #f7eee1; color: #655139; }
+.auth-error--registered strong { font-size: 11px; font-weight: 600; }
+.auth-error--registered span { font-size: 10px; }
+.auth-error--registered .auth-hint-login { justify-self: start; border: 0; padding: 3px 0; background: transparent; color: #92533c; font-size: 10px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .dialog-close { position: absolute; top: 13px; right: 15px; width: 31px; height: 31px; border: 0; background: transparent; color: #71796f; font-size: 24px; cursor: pointer; }
 
 .reader-page { padding: 32px 0 5px; }

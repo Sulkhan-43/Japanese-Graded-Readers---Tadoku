@@ -20,7 +20,7 @@ function dialogMarkup() {
       </div>
       <label class="auth-hint-toggle" id="auth-hint-toggle" for="auth-show-hint" hidden><input id="auth-show-hint" type="checkbox"> Show my password hint</label>
       <p class="auth-hint-result" id="auth-hint-result" role="status" aria-live="polite" hidden></p>
-      <p class="auth-error" id="auth-error" role="alert" hidden></p>
+      <div class="auth-error" id="auth-error" role="alert" hidden></div>
       <button class="button button-primary auth-submit" type="submit">Log in</button>
     </form>
     <p class="auth-footnote">No email needed. Usernames and keys can be as short as four characters.</p>
@@ -65,6 +65,24 @@ export function mountAuth(user) {
     hintResult.textContent = '';
   };
 
+  const showRegisteredAccount = (hint, lookupFailed = false) => {
+    errorBox.replaceChildren();
+    errorBox.classList.add('auth-error--registered');
+    const title = document.createElement('strong');
+    title.textContent = 'This username already has an account.';
+    const detail = document.createElement('span');
+    detail.textContent = lookupFailed
+      ? 'Could not load the password hint. Try logging in.'
+      : hint ? `Password hint: ${hint}` : 'No password hint is saved for this account.';
+    const loginButton = document.createElement('button');
+    loginButton.className = 'auth-hint-login';
+    loginButton.type = 'button';
+    loginButton.textContent = 'Log in';
+    loginButton.addEventListener('click', () => dialog.querySelector('[data-auth-mode="login"]').click());
+    errorBox.append(title, detail, loginButton);
+    errorBox.hidden = false;
+  };
+
   const chooseMode = (nextMode) => {
     mode = nextMode;
     for (const tab of dialog.querySelectorAll('[data-auth-mode]')) tab.setAttribute('aria-selected', String(tab.dataset.authMode === mode));
@@ -75,6 +93,7 @@ export function mountAuth(user) {
     hintToggle.checked = false;
     hintInput.value = '';
     clearHintResult();
+    errorBox.classList.remove('auth-error--registered');
     errorBox.hidden = true;
     errorBox.textContent = '';
   };
@@ -120,6 +139,7 @@ export function mountAuth(user) {
     event.preventDefault();
     submit.disabled = true;
     errorBox.hidden = true;
+    errorBox.classList.remove('auth-error--registered');
     const username = form.elements.username.value;
     const key = form.elements.key.value;
     try {
@@ -127,8 +147,18 @@ export function mountAuth(user) {
       else await api.login(username, key);
       window.location.reload();
     } catch (error) {
-      errorBox.textContent = error.message;
-      errorBox.hidden = false;
+      if (mode === 'signup' && error.status === 409) {
+        try {
+          const { hint } = await api.passwordHint(username);
+          if (mode === 'signup' && usernameInput.value.trim() === username) showRegisteredAccount(hint);
+        } catch {
+          if (mode === 'signup' && usernameInput.value.trim() === username) showRegisteredAccount(null, true);
+        }
+      } else {
+        errorBox.replaceChildren();
+        errorBox.textContent = error.message;
+        errorBox.hidden = false;
+      }
       submit.disabled = false;
     }
   });
