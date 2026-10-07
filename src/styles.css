@@ -305,6 +305,18 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .study-term-tabs button .study-term-tab-count { display: grid; min-width: 23px; height: 23px; place-items: center; border: 1px solid #b5cbb8; border-radius: 50%; background: #e5efe5; color: #315c3d; font: 600 10px var(--font-mono); }
 .study-term-tabs button .study-term-tab-hidden { padding: 4px 7px; border: 1px solid #e7a75e; border-radius: 999px; background: #ffead1; color: #87400e; font: 600 8px var(--font-mono); letter-spacing: .025em; white-space: nowrap; }
 .study-term-list { display: grid; gap: 9px; padding-top: 13px; }
+.study-pagination { display: flex; align-items: center; justify-content: center; gap: 15px; margin: 18px 0 6px; color: #657468; font: 10px var(--font-mono); }
+.study-pagination button { min-height: 34px; padding: 0 12px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--moss-dark); cursor: pointer; font: 10px var(--font-mono); }
+.study-pagination button:hover:not(:disabled) { border-color: #91a58d; background: #edf2e9; }
+.study-pagination button:disabled { color: #9b9e95; cursor: default; }
+.study-hidden-link { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 22px; padding: 13px 15px; border: 1px solid #e7a75e; border-radius: 5px; background: #fff2e1; color: #844917; font-size: 11px; text-decoration: none; }
+.study-hidden-link:hover { background: #ffe7c8; }
+.study-hidden-link > span:first-child { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; }
+.study-hidden-link b { padding: 4px 7px; border: 1px solid #e7a75e; border-radius: 999px; background: #ffead1; color: #87400e; font: 600 8px var(--font-mono); }
+.study-hidden-link-action { color: #a3541f; font-size: 10px; }
+.study-hidden-back { display: inline-block; margin: 2px 0 17px; color: #8a4c20; font-size: 11px; text-decoration: none; }
+.study-hidden-back:hover { text-decoration: underline; }
+.study-hidden-page .study-terms-heading { margin-bottom: 10px; }
 .study-term-card { display: grid; grid-template-columns: minmax(0,1fr) minmax(110px,auto) minmax(170px,auto); align-items: center; gap: 21px; min-height: 91px; padding: 15px 18px; border: 1px solid var(--line); background: var(--surface); }
 .study-term-copy { min-width: 0; }
 .study-term-copy h3 { margin: 0 0 7px; color: var(--ink); font: 400 23px/1.35 "Yu Mincho", "Hiragino Mincho ProN", serif; overflow-wrap: anywhere; }
@@ -378,4 +390,5 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .study-term-copy h3 { font-size: 20px; }
   .study-term-count { grid-column: 2; grid-row: 1; }
   .study-term-toggle { grid-column: 1 / -1; justify-content: start; padding-top: 8px; border-top: 1px solid #e7e6df; }
+  .study-hidden-link { align-items: start; flex-direction: column; gap: 6px; }
 }
