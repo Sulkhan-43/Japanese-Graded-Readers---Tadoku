@@ -61,9 +61,7 @@ export async function showReader(slug, user) {
         const feedback = document.querySelector('#reader-feedback');
         try {
           await api.setProgress(book.slug, 'Finished');
-          feedback.textContent = 'Finished. Your study guide is now unlocked.';
-          feedback.hidden = false;
-          window.location.reload();
+          window.location.assign(`/study/${encodeURIComponent(book.slug)}`);
         } catch (error) {
           feedback.textContent = error.message;
           feedback.hidden = false;
