@@ -33,7 +33,7 @@ Add `-- --upload` to publish public book metadata to R2 after the import. Study 
 
 The Pages Function uses the `HYPERDRIVE` binding declared in `wrangler.toml`. Hyperdrive connects to Neon using its direct database endpoint. Its ID is stored in Wrangler configuration; credentials remain in Cloudflare's Hyperdrive configuration and the local `.env` file. The public site needs no database password variable.
 
-The guide route replaces the `MASTER-INDEX` marker region in R2 HTML with the current book vocabulary and grammar records, including counts from every imported book. The vocabulary table sorts by frequency in that reader, descending, with Japanese alphabetical ties. `/api/books/{slug}/study-index` exposes the same data as JSON. The generated R2 HTML remains a standalone fallback when downloaded directly.
+The guide route replaces the `MASTER-INDEX` marker region in R2 HTML with the current book vocabulary and grammar records. Each row shows one total across imported readers; both tables sort by frequency in the current reader, descending. `/api/books/{slug}/study-index` exposes the same data as JSON. The generated R2 HTML remains a standalone fallback when downloaded directly.
 
 ## Local development
 

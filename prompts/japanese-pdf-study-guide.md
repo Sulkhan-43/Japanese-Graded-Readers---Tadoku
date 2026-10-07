@@ -122,20 +122,23 @@ At the end, always include:
 MASTER VOCABULARY INDEX
 - Every unique vocabulary item introduced in the report, shown once in a table
 - Sort rows by occurrence count in this reader, highest first; break ties by Japanese alphabetical order
+- Show one total count across all imported readers, not separate counts by reader
 - Japanese with furigana
 - Romaji
 - English meaning
 - First page/passage where it was explained
-- Occurrence count in each reader, in one compact cell per row
+- One total occurrence count across all imported readers
 
 MASTER GRAMMAR INDEX
 - Every unique grammar point introduced, shown once in a table
+- Sort rows by occurrence count in this reader, highest first; break ties by pattern alphabetically
+- Show one total count across all imported readers, not separate counts by reader
 - Pattern and short explanation
 - First page/passage where it was explained
-- Occurrence count in each reader, in one compact cell per row
+- One total occurrence count across all imported readers
 
 Do not duplicate explanations in these indexes; they should summarize what was already introduced.
-Count only instances in the original Japanese story text, relevant captions/maps, and a story-specific synopsis. Exclude generated vocabulary/grammar notes, romaji, translations, and publisher material. Count a word at each genuine occurrence, grouping its inflected forms with its dictionary-form entry. For grammar, count each occurrence of the construction; repeated uses within one sentence count separately. Store each book's counts in its local metadata sidecar. PostgreSQL receives these records through `npm run update:study-index:db`; the production site uses the database to populate per-reader counts automatically.
+Count only instances in the original Japanese story text, relevant captions/maps, and a story-specific synopsis. Exclude generated vocabulary/grammar notes, romaji, translations, and publisher material. Count a word at each genuine occurrence, grouping its inflected forms with its dictionary-form entry. For grammar, count each occurrence of the construction; repeated uses within one sentence count separately. Store each book's counts in its local metadata sidecar. PostgreSQL receives these records through `npm run update:study-index:db`; the production site uses the database to populate the combined total while sorting each guide by its own per-reader frequency.
 
 Wrap both master index sections in the HTML with `<!-- MASTER-INDEX-START -->` and `<!-- MASTER-INDEX-END -->`. Include local fallback rows so the downloaded HTML remains useful by itself. The production Pages Function replaces the marked region with current database rows whenever it serves the guide.
 
@@ -150,7 +153,7 @@ Check that:
 - grammar explanations are not unnecessarily repeated
 - every kanji occurrence in Japanese text and study notes has hiragana furigana
 - furigana renders clearly above each kanji and is not clipped, crowded, or too small to read
-- both master indexes are present at the end, with one row per unique word/grammar point and per-reader occurrence counts
+- both master indexes are present at the end, with one row per unique word/grammar point, total occurrence count, and order by current-reader frequency
 - both master indexes are enclosed by the production replacement markers
 - counts are based on source story text, not repeated generated notes or indexes
 - page order is correct
