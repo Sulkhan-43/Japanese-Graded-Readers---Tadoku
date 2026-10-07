@@ -42,7 +42,7 @@ The Pages Function uses the `HYPERDRIVE` binding declared in `wrangler.toml`. Hy
 
 The guide route replaces the `MASTER-INDEX` marker region in R2 HTML with the current book vocabulary and grammar records. Each row shows one total across imported readers; both tables sort by frequency in the current reader, descending. Guide HTML and its study-index API require a signed-in user who has marked that reader Finished. Source PDFs remain public at `/pdf/{slug}`. Set a high-entropy `AUTH_PEPPER` Pages secret for keyed hashes used by the signup network guard; local development falls back to the private Hyperdrive connection string.
 
-Usernames and keys are stored as normalized usernames and salted PBKDF2 hashes. Sessions use random HttpOnly cookies with only a token hash stored in PostgreSQL. Account creation is limited to one successful signup per network IP in 24 hours. Reading statuses are private per-user records; users can track To Do, In Progress, and Finished counts overall and by level.
+Usernames are normalized, and keys are stored as salted bcrypt hashes created by PostgreSQL `pgcrypto`. Sessions use random HttpOnly cookies with only a token hash stored in PostgreSQL. Account creation is limited to one successful signup per network IP in 24 hours. Reading statuses are private per-user records; users can track To Do, In Progress, and Finished counts overall and by level.
 
 ## Local development
 

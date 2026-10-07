@@ -119,12 +119,10 @@ export async function currentUser(request, env) {
 export async function createAccount(request, env, payload) {
   const { username, usernameNormalized, key } = validateCredentials(payload);
   const ipHash = await hmacIp(request, env);
-  const salt = new Uint8Array(16);
-  crypto.getRandomValues(salt);
-  const passwordHash = await derivePassword(key, salt);
   const client = openDatabase(env);
   await client.connect();
   try {
+    const hashed = await client.query("SELECT crypt($1, gen_salt('bf', 12)) AS value", [await sha256(key)]);
     await client.query('BEGIN');
     await client.query('SELECT pg_advisory_xact_lock(hashtext($1))', [ipHash]);
     await client.query("DELETE FROM reader_signup_ip_guard WHERE created_at < NOW() - INTERVAL '24 hours'");
@@ -136,10 +134,10 @@ export async function createAccount(request, env, payload) {
 
     const inserted = await client.query(
       `INSERT INTO reader_users
-         (username, username_normalized, password_salt, password_hash, password_iterations, avatar_symbol)
-       VALUES ($1, $2, $3, $4, $5, $6)
+         (username, username_normalized, password_salt, password_hash, password_iterations, password_algorithm, avatar_symbol)
+       VALUES ($1, $2, NULL, $3, NULL, 'bcrypt', $4)
        RETURNING user_id AS id, username, avatar_symbol AS "avatarSymbol"`,
-      [username, usernameNormalized, bytesToBase64Url(salt), bytesToBase64Url(passwordHash), PASSWORD_ITERATIONS,
+      [username, usernameNormalized, hashed.rows[0].value,
         AVATAR_SYMBOLS[crypto.getRandomValues(new Uint32Array(1))[0] % AVATAR_SYMBOLS.length]],
     );
     await client.query(
@@ -191,15 +189,29 @@ export async function login(request, env, payload) {
 
     const found = await client.query(
       `SELECT user_id AS id, username, avatar_symbol AS "avatarSymbol", password_salt,
-              password_hash, password_iterations
+              password_hash, password_iterations, password_algorithm
        FROM reader_users WHERE username_normalized = $1`,
       [usernameNormalized],
     );
     const account = found.rows[0];
-    const salt = account ? base64UrlToBytes(account.password_salt) : new Uint8Array(16);
-    const expected = account ? base64UrlToBytes(account.password_hash) : new Uint8Array(32);
-    const actual = await derivePassword(key, salt, account?.password_iterations || PASSWORD_ITERATIONS);
-    if (!account || !sameBytes(actual, expected)) {
+    let matches = false;
+    if (account?.password_algorithm === 'bcrypt') {
+      const check = await client.query(
+        account
+          ? 'SELECT password_hash = crypt($1, password_hash) AS matches FROM reader_users WHERE user_id = $2'
+          : "SELECT crypt($1, gen_salt('bf', 12)) AS ignored",
+        account ? [await sha256(key), account.id] : [await sha256(key)],
+      );
+      matches = Boolean(account && check.rows[0].matches);
+    } else if (account) {
+      const salt = base64UrlToBytes(account.password_salt);
+      const expected = base64UrlToBytes(account.password_hash);
+      const actual = await derivePassword(key, salt, account.password_iterations || PASSWORD_ITERATIONS);
+      matches = sameBytes(actual, expected);
+    } else {
+      await client.query("SELECT crypt($1, gen_salt('bf', 12)) AS ignored", [await sha256(key)]);
+    }
+    if (!account || !matches) {
       await recordFailedLogin(client, ipHash, usernameNormalized);
       throw new AuthError('Username or key is incorrect.', 401);
     }
