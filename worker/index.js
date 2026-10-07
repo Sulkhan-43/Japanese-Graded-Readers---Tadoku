@@ -5,6 +5,7 @@ import {
   bookIsFinished,
   createAccount,
   currentUser,
+  lookupPasswordHint,
   login,
   logout,
   readingProgress,
@@ -93,6 +94,11 @@ async function route(request, env) {
   if (url.pathname === '/api/auth/signup' && request.method === 'POST') {
     requireSameOrigin(request);
     return authResponse(await createAccount(request, env, await readJsonBody(request)), 201);
+  }
+
+  if (url.pathname === '/api/auth/password-hint' && request.method === 'POST') {
+    requireSameOrigin(request);
+    return privateJson(await lookupPasswordHint(request, env, await readJsonBody(request)));
   }
 
   if (url.pathname === '/api/auth/login' && request.method === 'POST') {

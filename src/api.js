@@ -15,15 +15,20 @@ export const api = {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ status }),
   })),
+  passwordHint: async (username) => readJSON(await fetch('/api/auth/password-hint', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username }),
+  })),
   login: async (username, key) => readJSON(await fetch('/api/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username, key }),
   })),
-  signup: async (username, key) => readJSON(await fetch('/api/auth/signup', {
+  signup: async (username, key, passwordHint) => readJSON(await fetch('/api/auth/signup', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username, key }),
+    body: JSON.stringify({ username, key, passwordHint }),
   })),
   logout: async () => readJSON(await fetch('/api/auth/logout', {
     method: 'POST',

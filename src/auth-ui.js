@@ -13,6 +13,13 @@ function dialogMarkup() {
     <form id="auth-form">
       <label for="auth-username">Username</label><input id="auth-username" name="username" autocomplete="username" minlength="4" maxlength="48" required>
       <label for="auth-key">Key</label><input id="auth-key" name="key" type="password" autocomplete="current-password" minlength="4" maxlength="256" required>
+      <div class="auth-hint-signup" id="auth-hint-signup" hidden>
+        <label for="auth-password-hint">Password hint <span>(optional)</span></label>
+        <input id="auth-password-hint" name="passwordHint" maxlength="160" autocomplete="off" placeholder="A clue only you will recognize">
+        <p class="auth-hint-note">Anyone who knows your username can view this hint. Never enter your key or a clue that would reveal it.</p>
+      </div>
+      <label class="auth-hint-toggle" id="auth-hint-toggle" for="auth-show-hint" hidden><input id="auth-show-hint" type="checkbox"> Show my password hint</label>
+      <p class="auth-hint-result" id="auth-hint-result" role="status" aria-live="polite" hidden></p>
       <p class="auth-error" id="auth-error" role="alert" hidden></p>
       <button class="button button-primary auth-submit" type="submit">Log in</button>
     </form>
@@ -45,13 +52,29 @@ export function mountAuth(user) {
   const form = dialog.querySelector('#auth-form');
   const submit = form.querySelector('[type="submit"]');
   const errorBox = dialog.querySelector('#auth-error');
+  const usernameInput = dialog.querySelector('#auth-username');
+  const hintInput = dialog.querySelector('#auth-password-hint');
+  const hintToggle = dialog.querySelector('#auth-show-hint');
+  const hintResult = dialog.querySelector('#auth-hint-result');
+  let hintLookupId = 0;
   let mode = 'login';
+
+  const clearHintResult = () => {
+    hintLookupId += 1;
+    hintResult.hidden = true;
+    hintResult.textContent = '';
+  };
 
   const chooseMode = (nextMode) => {
     mode = nextMode;
     for (const tab of dialog.querySelectorAll('[data-auth-mode]')) tab.setAttribute('aria-selected', String(tab.dataset.authMode === mode));
     submit.textContent = mode === 'login' ? 'Log in' : 'Create account';
     dialog.querySelector('#auth-key').autocomplete = mode === 'login' ? 'current-password' : 'new-password';
+    dialog.querySelector('#auth-hint-signup').hidden = mode !== 'signup';
+    dialog.querySelector('#auth-hint-toggle').hidden = mode !== 'login';
+    hintToggle.checked = false;
+    hintInput.value = '';
+    clearHintResult();
     errorBox.hidden = true;
     errorBox.textContent = '';
   };
@@ -64,6 +87,35 @@ export function mountAuth(user) {
   for (const tab of dialog.querySelectorAll('[data-auth-mode]')) tab.addEventListener('click', () => chooseMode(tab.dataset.authMode));
   dialog.querySelector('[data-auth-close]').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', (event) => { if (event.target === dialog) dialog.close(); });
+  usernameInput.addEventListener('input', () => {
+    if (hintToggle.checked) hintToggle.checked = false;
+    clearHintResult();
+  });
+  hintToggle.addEventListener('change', async () => {
+    clearHintResult();
+    if (!hintToggle.checked) return;
+    const username = usernameInput.value.trim();
+    if ([...username].length < 4) {
+      hintToggle.checked = false;
+      hintResult.textContent = 'Enter your username first, then check this box.';
+      hintResult.hidden = false;
+      return;
+    }
+
+    const lookupId = hintLookupId;
+    hintResult.textContent = 'Looking up your hint…';
+    hintResult.hidden = false;
+    hintToggle.disabled = true;
+    try {
+      const { hint } = await api.passwordHint(username);
+      if (lookupId !== hintLookupId || !hintToggle.checked) return;
+      hintResult.textContent = hint ? `Your password hint: ${hint}` : 'No hint is available for this username.';
+    } catch (error) {
+      if (lookupId === hintLookupId) hintResult.textContent = error.message;
+    } finally {
+      hintToggle.disabled = false;
+    }
+  });
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     submit.disabled = true;
@@ -71,7 +123,7 @@ export function mountAuth(user) {
     const username = form.elements.username.value;
     const key = form.elements.key.value;
     try {
-      if (mode === 'signup') await api.signup(username, key);
+      if (mode === 'signup') await api.signup(username, key, hintInput.value);
       else await api.login(username, key);
       window.location.reload();
     } catch (error) {

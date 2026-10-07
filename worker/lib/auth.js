@@ -52,10 +52,12 @@ function normalizeUsername(value) {
 function validateCredentials(payload) {
   const username = typeof payload?.username === 'string' ? payload.username.trim() : '';
   const key = typeof payload?.key === 'string' ? payload.key : '';
+  const passwordHint = typeof payload?.passwordHint === 'string' ? payload.passwordHint.trim() : '';
   const length = [...username].length;
   if (length < 4 || length > 48) throw new AuthError('Username must be between 4 and 48 characters.');
   if ([...key].length < 4 || [...key].length > 256) throw new AuthError('Key must be between 4 and 256 characters.');
-  return { username, usernameNormalized: normalizeUsername(username), key };
+  if ([...passwordHint].length > 160) throw new AuthError('Password hint must be 160 characters or fewer.');
+  return { username, usernameNormalized: normalizeUsername(username), key, passwordHint };
 }
 
 async function derivePassword(key, salt, iterations = PASSWORD_ITERATIONS) {
@@ -117,7 +119,7 @@ export async function currentUser(request, env) {
 }
 
 export async function createAccount(request, env, payload) {
-  const { username, usernameNormalized, key } = validateCredentials(payload);
+  const { username, usernameNormalized, key, passwordHint } = validateCredentials(payload);
   const ipHash = await hmacIp(request, env);
   const client = openDatabase(env);
   await client.connect();
@@ -127,23 +129,27 @@ export async function createAccount(request, env, payload) {
     await client.query('SELECT pg_advisory_xact_lock(hashtext($1))', [ipHash]);
     await client.query("DELETE FROM reader_signup_ip_guard WHERE created_at < NOW() - INTERVAL '24 hours'");
     const recentSignup = await client.query(
-      'SELECT 1 FROM reader_signup_ip_guard WHERE ip_hash = $1 AND created_at > NOW() - INTERVAL \'24 hours\'',
+      'SELECT username_prefix FROM reader_signup_ip_guard WHERE ip_hash = $1 AND created_at > NOW() - INTERVAL \'24 hours\'',
       [ipHash],
     );
-    if (recentSignup.rowCount) throw new AuthError('An account has already been created from this network in the last 24 hours.', 429);
+    if (recentSignup.rowCount) {
+      const prefix = recentSignup.rows[0].username_prefix;
+      const accountHint = prefix ? ` The username starts with “${prefix}…”.` : '';
+      throw new AuthError(`You are already registered.${accountHint} Log in or try again after 24 hours.`, 429);
+    }
 
     const inserted = await client.query(
       `INSERT INTO reader_users
-         (username, username_normalized, password_salt, password_hash, password_iterations, password_algorithm, avatar_symbol)
-       VALUES ($1, $2, NULL, $3, NULL, 'bcrypt', $4)
+         (username, username_normalized, password_salt, password_hash, password_iterations, password_algorithm, avatar_symbol, password_hint)
+       VALUES ($1, $2, NULL, $3, NULL, 'bcrypt', $4, $5)
        RETURNING user_id AS id, username, avatar_symbol AS "avatarSymbol"`,
       [username, usernameNormalized, hashed.rows[0].value,
-        AVATAR_SYMBOLS[crypto.getRandomValues(new Uint32Array(1))[0] % AVATAR_SYMBOLS.length]],
+        AVATAR_SYMBOLS[crypto.getRandomValues(new Uint32Array(1))[0] % AVATAR_SYMBOLS.length], passwordHint],
     );
     await client.query(
-      `INSERT INTO reader_signup_ip_guard (ip_hash) VALUES ($1)
-       ON CONFLICT (ip_hash) DO UPDATE SET created_at = NOW()`,
-      [ipHash],
+      `INSERT INTO reader_signup_ip_guard (ip_hash, username_prefix) VALUES ($1, $2)
+       ON CONFLICT (ip_hash) DO UPDATE SET created_at = NOW(), username_prefix = EXCLUDED.username_prefix`,
+      [ipHash, [...username].slice(0, 4).join('')],
     );
     const cookie = await insertSession(client, request, inserted.rows[0].id);
     await client.query('COMMIT');
@@ -153,6 +159,41 @@ export async function createAccount(request, env, payload) {
     if (error instanceof AuthError) throw error;
     if (error?.code === '23505') throw new AuthError('That username is already in use.', 409);
     throw error;
+  } finally {
+    await client.end().catch(() => {});
+  }
+}
+
+export async function lookupPasswordHint(request, env, payload) {
+  const username = typeof payload?.username === 'string' ? payload.username.trim() : '';
+  const usernameLength = [...username].length;
+  if (usernameLength < 4 || usernameLength > 48) throw new AuthError('Enter your username to look up its hint.');
+
+  const ipHash = await hmacIp(request, env);
+  const client = openDatabase(env);
+  await client.connect();
+  try {
+    await client.query("DELETE FROM reader_password_hint_attempts WHERE window_started_at < NOW() - INTERVAL '1 day'");
+    const attempt = await client.query(
+      `INSERT INTO reader_password_hint_attempts (ip_hash, attempts, window_started_at)
+       VALUES ($1, 1, NOW())
+       ON CONFLICT (ip_hash) DO UPDATE SET
+         attempts = CASE WHEN reader_password_hint_attempts.window_started_at < NOW() - INTERVAL '15 minutes'
+                         THEN 1 ELSE reader_password_hint_attempts.attempts + 1 END,
+         window_started_at = CASE WHEN reader_password_hint_attempts.window_started_at < NOW() - INTERVAL '15 minutes'
+                                  THEN NOW() ELSE reader_password_hint_attempts.window_started_at END
+       RETURNING attempts`,
+      [ipHash],
+    );
+    if (attempt.rows[0].attempts > LOGIN_ATTEMPT_LIMIT) {
+      throw new AuthError('Too many password-hint requests. Try again in 15 minutes.', 429);
+    }
+
+    const result = await client.query(
+      'SELECT password_hint AS hint FROM reader_users WHERE username_normalized = $1',
+      [normalizeUsername(username)],
+    );
+    return { hint: result.rows[0]?.hint || null };
   } finally {
     await client.end().catch(() => {});
   }
