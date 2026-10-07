@@ -9,3 +9,5 @@ dist/
 Folders/
 .wrangler/
 .DS_Store
+prompts/
+Agents.md/
