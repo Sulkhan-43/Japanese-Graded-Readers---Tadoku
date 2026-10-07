@@ -1,4 +1,5 @@
 import { getLibrary, readJSON, toLibraryEntry } from './lib/storage.js';
+import { getBookStudyIndex, renderBookStudyIndex } from './lib/study-index.js';
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
@@ -23,6 +24,15 @@ async function getPublishedBook(bucket, slug) {
   return metadata?.generationStatus === 'completed' ? metadata : null;
 }
 
+function replaceMasterIndex(html, markup) {
+  const startMarker = '<!-- MASTER-INDEX-START -->';
+  const endMarker = '<!-- MASTER-INDEX-END -->';
+  const start = html.indexOf(startMarker);
+  const end = html.indexOf(endMarker);
+  if (start < 0 || end <= start) throw new Error('Study guide is missing its master-index markers.');
+  return `${html.slice(0, start)}${startMarker}\n${markup}\n${endMarker}${html.slice(end + endMarker.length)}`;
+}
+
 async function route(request, env) {
   const url = new URL(request.url);
 
@@ -30,6 +40,15 @@ async function route(request, env) {
     const library = await getLibrary(env.BOOKS_BUCKET);
     const books = library.books.filter((book) => book.status === 'completed');
     return json({ books, updatedAt: library.updatedAt });
+  }
+
+  const studyIndexMatch = url.pathname.match(/^\/api\/books\/([^/]+)\/study-index$/);
+  if (request.method === 'GET' && studyIndexMatch) {
+    const slug = decodeURIComponent(studyIndexMatch[1]);
+    if (!isSlug(slug)) return notFound('Reader not found.');
+    const metadata = await getPublishedBook(env.BOOKS_BUCKET, slug);
+    if (!metadata) return notFound('Reader not found.');
+    return json(await getBookStudyIndex(env, slug));
   }
 
   const bookMatch = url.pathname.match(/^\/api\/books\/([^/]+)$/);
@@ -45,13 +64,15 @@ async function route(request, env) {
     if (!metadata) return new Response('Study guide not found', { status: 404 });
     const guide = await env.BOOKS_BUCKET.get(metadata.htmlR2Key);
     if (!guide) return new Response('Study guide not found', { status: 404 });
-    return new Response(guide.body, {
+    const studyIndexMarkup = await renderBookStudyIndex(env, slug);
+    const html = replaceMasterIndex(await guide.text(), studyIndexMarkup);
+    return new Response(html, {
       headers: {
         'Content-Type': 'text/html; charset=utf-8',
         'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'self'",
         'X-Content-Type-Options': 'nosniff',
         'Referrer-Policy': 'no-referrer',
-        'Cache-Control': 'public, max-age=300',
+        'Cache-Control': 'public, max-age=60',
       },
     });
   }
@@ -81,7 +102,7 @@ export async function handleRequest(request, env) {
   try {
     return await route(request, env);
   } catch (error) {
-    console.error('Read request failed:', error);
+    console.error('Read request failed:', error?.code || 'storage or database error');
     return json({ error: 'The reader could not be loaded.' }, 500);
   }
 }

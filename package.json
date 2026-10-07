@@ -4,11 +4,17 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev:pages": "npm run build && wrangler pages dev dist",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name todaku"
+    "dev:pages": "npm run build && node --env-file=.env scripts/dev-pages.js",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name todaku",
+    "create:hyperdrive": "node --env-file=.env scripts/create-hyperdrive.js",
+    "refresh:guide-indexes": "node scripts/rebuild-study-index.js",
+    "update:study-index:db": "node --env-file=.env scripts/sync-study-database.js"
   },
   "devDependencies": {
     "vite": "latest",
     "wrangler": "latest"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
   }
 }

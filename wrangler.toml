@@ -1,8 +1,13 @@
 name = "todaku"
 compatibility_date = "2026-10-07"
+compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "./dist"
 
 [[r2_buckets]]
 binding = "BOOKS_BUCKET"
 bucket_name = "todaku"
 preview_bucket_name = "todaku-dev"
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "63720a3e27fa4d54a9595444fdac6b73"
