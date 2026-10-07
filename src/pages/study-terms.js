@@ -3,7 +3,7 @@ import { escapeHTML, setPage } from '../utils.js';
 
 function shell(content) {
   return `<div class="site-shell">
-    <header class="site-header"><a class="wordmark" href="/" aria-label="Tadoku home"><span class="wordmark-mark" lang="ja">жЎњ</span><span>Tadoku<small>READER LIBRARY</small></span></a><nav class="header-nav" aria-label="Main navigation"><a href="/">The library</a></nav></header>
+    <header class="site-header"><a class="wordmark" href="/" aria-label="Tadoku home"><img class="wordmark-mark" src="/brand-mark.svg" alt=""><span>Tadoku<small>READER LIBRARY</small></span></a><nav class="header-nav" aria-label="Main navigation"><a href="/">The library</a></nav></header>
     ${content}<footer class="site-footer"><span>A quiet place to read Japanese.</span><span lang="ja">г‚†гЃЈгЃЏг‚ЉиЄ­г‚“гЃ§гЂЃжҐЅгЃ—гЃЏе­¦гЃјгЃ†гЂ‚</span></footer>
   </div>`;
 }
