@@ -10,4 +10,7 @@ Folders/
 .wrangler/
 .DS_Store
 prompts/
-Agents.md/
+prompts/
+prompts/japanese-pdf-study-guide.md
+Agents.md
+AGENTS.md
