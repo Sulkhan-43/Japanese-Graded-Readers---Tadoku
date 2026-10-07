@@ -134,8 +134,8 @@ export async function createAccount(request, env, payload) {
     );
     if (recentSignup.rowCount) {
       const prefix = recentSignup.rows[0].username_prefix;
-      const accountHint = prefix ? ` The username starts with “${prefix}…”.` : '';
-      throw new AuthError(`You are already registered.${accountHint} Log in or try again after 24 hours.`, 429);
+      const accountHint = prefix ? ` as “${prefix}**”` : ' from this network';
+      throw new AuthError(`You are already registered${accountHint}. Log in or try again after 24 hours.`, 429);
     }
 
     const inserted = await client.query(
