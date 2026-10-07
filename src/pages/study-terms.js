@@ -20,7 +20,6 @@ function termMarkup(item, kind) {
   const subtitle = kind === 'vocabulary'
     ? `<span class="study-term-reading">${escapeHTML(item.romaji || item.reading || '')}</span><span>${escapeHTML(item.meaning || '')}</span>`
     : `<span>${escapeHTML(item.explanation || '')}</span>`;
-  const label = kind === 'vocabulary' ? 'Vocabulary' : 'Grammar';
   return `<article class="study-term-card">
     <div class="study-term-copy"><h3 lang="ja">${title}</h3><div class="study-term-description">${subtitle}</div></div>
     <div class="study-term-count"><strong>${Number(item.occurrences) || 0}</strong><span>encounters</span><small>across ${Number(item.finishedBookCount) || 0} finished ${item.finishedBookCount === 1 ? 'book' : 'books'}</small></div>
@@ -28,15 +27,27 @@ function termMarkup(item, kind) {
   </article>`;
 }
 
+function termPanel(items, kind, label, emptyMessage) {
+  const visible = items.filter((item) => item.showInReport);
+  const hidden = items.filter((item) => !item.showInReport);
+  return `<section id="${kind}-panel" role="tabpanel" aria-labelledby="${kind}-tab" class="study-term-panel" ${kind === 'grammar' ? 'hidden' : ''}>
+    <div class="study-term-list" data-visible-terms="${kind}">${visible.length ? visible.map((item) => termMarkup(item, kind)).join('') : `<p class="study-term-empty">${emptyMessage}</p>`}</div>
+    <details class="study-hidden-group" data-hidden-group="${kind}" ${hidden.length ? '' : 'hidden'}>
+      <summary>Hidden ${label.toLowerCase()} <span data-hidden-count="${kind}">${hidden.length}</span></summary>
+      <div class="study-term-list study-hidden-list" data-hidden-terms="${kind}">${hidden.map((item) => termMarkup(item, kind)).join('')}</div>
+    </details>
+  </section>`;
+}
+
 function pageMarkup(data) {
   const vocab = data.vocabulary || [];
   const grammar = data.grammar || [];
   return `<main class="study-terms-page">
     <section class="study-terms-heading"><div><span class="eyebrow">YOUR STUDY COLLECTION</span><h1>Vocabulary &amp; grammar</h1><p>Terms from your finished books, gathered in one place. Choose what appears in your study reports.</p></div><div class="study-terms-total"><strong>${vocab.length + grammar.length}</strong><span>study items</span></div></section>
-    <p class="study-terms-notice" id="study-terms-notice" role="status" aria-live="polite">Your choices apply to your account. Story Japanese is always kept intact.</p>
     <div class="study-term-tabs" role="tablist" aria-label="Study terms"><button type="button" role="tab" id="vocabulary-tab" aria-controls="vocabulary-panel" aria-selected="true" data-term-tab="vocabulary">Vocabulary <span>${vocab.length}</span></button><button type="button" role="tab" id="grammar-tab" aria-controls="grammar-panel" aria-selected="false" data-term-tab="grammar">Grammar <span>${grammar.length}</span></button></div>
-    <section id="vocabulary-panel" role="tabpanel" aria-labelledby="vocabulary-tab" class="study-term-list">${vocab.length ? vocab.map((item) => termMarkup(item, 'vocabulary')).join('') : '<p class="study-term-empty">Finish a book to collect vocabulary here.</p>'}</section>
-    <section id="grammar-panel" role="tabpanel" aria-labelledby="grammar-tab" class="study-term-list" hidden>${grammar.length ? grammar.map((item) => termMarkup(item, 'grammar')).join('') : '<p class="study-term-empty">Grammar notes from finished books will appear here.</p>'}</section>
+    ${termPanel(vocab, 'vocabulary', 'Vocabulary', 'Finish a book to collect vocabulary here.')}
+    ${termPanel(grammar, 'grammar', 'Grammar', 'Grammar notes from finished books will appear here.')}
+    <p class="study-terms-notice" id="study-terms-notice" role="status" aria-live="polite">Hidden items stay here and can be revealed from the bottom of each list. Story Japanese is always kept intact.</p>
   </main>`;
 }
 
@@ -65,6 +76,28 @@ export async function showStudyTerms(user) {
         notice.textContent = 'Saving your report preference…';
         try {
           await api.setStudyTermVisibility(checkbox.dataset.termKind, checkbox.dataset.termKey, checkbox.checked);
+          const kind = checkbox.dataset.termKind;
+          const panel = document.querySelector(`#${kind}-panel`);
+          const card = checkbox.closest('.study-term-card');
+          const source = card.parentElement;
+          const hiddenGroup = panel.querySelector(`[data-hidden-group="${kind}"]`);
+          const target = checkbox.checked
+            ? panel.querySelector(`[data-visible-terms="${kind}"]`)
+            : panel.querySelector(`[data-hidden-terms="${kind}"]`);
+          source.querySelector('.study-term-empty')?.remove();
+          target.querySelector('.study-term-empty')?.remove();
+          target.append(card);
+          const hiddenCount = panel.querySelectorAll(`[data-hidden-terms="${kind}"] .study-term-card`).length;
+          const visibleCount = panel.querySelectorAll(`[data-visible-terms="${kind}"] .study-term-card`).length;
+          hiddenGroup.hidden = hiddenCount === 0;
+          panel.querySelector(`[data-hidden-count="${kind}"]`).textContent = hiddenCount;
+          if (!visibleCount) {
+            const empty = document.createElement('p');
+            empty.className = 'study-term-empty';
+            empty.textContent = `All ${kind} items are hidden. Open the hidden ${kind} section below to reveal them.`;
+            panel.querySelector(`[data-visible-terms="${kind}"]`).append(empty);
+          }
+          if (!checkbox.checked && hiddenCount === 1) hiddenGroup.open = false;
           notice.textContent = checkbox.checked ? 'This item will appear in your study reports.' : 'This item is hidden from your reports and remains here.';
         } catch (error) {
           checkbox.checked = previous;
