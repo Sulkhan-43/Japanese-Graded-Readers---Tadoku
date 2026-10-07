@@ -9,6 +9,10 @@ const startMarker = '<!-- MASTER-INDEX-START -->';
 const endMarker = '<!-- MASTER-INDEX-END -->';
 const upload = process.argv.includes('--upload');
 
+function grammarSegments(record) {
+  return record.patternSegments || record.segments || [];
+}
+
 function escapeHtml(value = '') {
   return String(value).replace(/[&<>"']/g, (character) => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
@@ -64,7 +68,7 @@ function addRecord(index, record, book, kind) {
     : {
         key: record.key,
         pattern: record.pattern,
-        patternSegments: record.patternSegments || [],
+        patternSegments: grammarSegments(record),
         explanation: record.explanation || '',
       };
 
@@ -88,7 +92,9 @@ function occurrenceCell(entry) {
 }
 
 function renderMasterIndexes(metadata, globalIndex) {
-  const vocabRows = metadata.studyData.vocabulary.map((record) => {
+  const vocabRows = [...metadata.studyData.vocabulary]
+    .sort((a, b) => b.occurrenceCount - a.occurrenceCount || a.japanese.localeCompare(b.japanese, 'ja'))
+    .map((record) => {
     const global = globalIndex.vocabulary.find((item) => item.key === record.key);
     if (!global) throw new Error(`Global vocabulary index lacks ${record.key}`);
     return `<tr><td class="index-japanese">${renderJapanese(record.japaneseSegments)}</td>` +
@@ -99,7 +105,7 @@ function renderMasterIndexes(metadata, globalIndex) {
   const grammarRows = metadata.studyData.grammar.map((record) => {
     const global = globalIndex.grammar.find((item) => item.key === record.key);
     if (!global) throw new Error(`Global grammar index lacks ${record.key}`);
-    return `<tr><td class="index-japanese">${renderJapanese(record.patternSegments)}</td>` +
+    return `<tr><td class="index-japanese">${renderJapanese(grammarSegments(record))}</td>` +
       `<td>${escapeHtml(record.explanation)}</td><td>${escapeHtml(record.firstPassage)}</td>` +
       `<td>${occurrenceCell(global)}</td></tr>`;
   }).join('\n');

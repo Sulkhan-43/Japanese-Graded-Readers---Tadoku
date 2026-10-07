@@ -121,6 +121,7 @@ At the end, always include:
 
 MASTER VOCABULARY INDEX
 - Every unique vocabulary item introduced in the report, shown once in a table
+- Sort rows by occurrence count in this reader, highest first; break ties by Japanese alphabetical order
 - Japanese with furigana
 - Romaji
 - English meaning

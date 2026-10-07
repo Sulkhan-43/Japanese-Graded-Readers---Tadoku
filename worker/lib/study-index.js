@@ -62,6 +62,7 @@ export async function getBookStudyIndex(env, slug) {
     const vocabulary = await client.query(
         `SELECT v.vocabulary_key AS key, v.japanese, v.japanese_segments AS "japaneseSegments",
                 v.romaji, v.meaning, own.first_passage AS "firstPassage",
+                own.occurrence_count AS "currentOccurrences",
                 jsonb_agg(jsonb_build_object(
                   'slug', b.slug, 'name', b.name, 'level', b.level,
                   'occurrences', bv.occurrence_count
@@ -72,7 +73,7 @@ export async function getBookStudyIndex(env, slug) {
          JOIN study_book_vocabulary bv ON bv.vocabulary_key = v.vocabulary_key
          JOIN study_books b ON b.slug = bv.book_slug
          GROUP BY v.vocabulary_key, own.first_passage
-         ORDER BY v.japanese`,
+         ORDER BY own.occurrence_count DESC, v.japanese ASC`,
         [slug],
       );
     const grammar = await client.query(
