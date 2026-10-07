@@ -1,5 +1,11 @@
 import { getLibrary, readJSON, toLibraryEntry } from './lib/storage.js';
-import { getBookStudyIndex, renderBookStudyIndex } from './lib/study-index.js';
+import {
+  filterUserHiddenStudyNotes,
+  getBookStudyIndex,
+  getFinishedStudyTerms,
+  renderBookStudyIndex,
+  setStudyTermVisibility,
+} from './lib/study-index.js';
 import {
   AuthError,
   bookIsFinished,
@@ -117,6 +123,32 @@ async function route(request, env) {
     return privateJson(await readingProgress(env, user.id));
   }
 
+  if (url.pathname === '/api/study-terms' && request.method === 'GET') {
+    const user = await currentUser(request, env);
+    if (!user) return privateJson({ error: 'Sign in to view your vocabulary and grammar.' }, 401);
+    return privateJson(await getFinishedStudyTerms(env, user.id));
+  }
+
+  if (url.pathname === '/api/study-terms' && request.method === 'PATCH') {
+    requireSameOrigin(request);
+    const user = await currentUser(request, env);
+    if (!user) return privateJson({ error: 'Sign in to change your report preferences.' }, 401);
+    const { kind, key, showInReport } = await readJsonBody(request);
+    try {
+      return privateJson({ preference: await setStudyTermVisibility(env, user.id, kind, key, showInReport) });
+    } catch (error) {
+      if (error?.message === 'This item is not part of a finished book on your shelf.') {
+        throw new AuthError(error.message, 404);
+      }
+      if (error?.message === 'Choose a vocabulary or grammar item.'
+        || error?.message === 'Study term key is invalid.'
+        || error?.message === 'Choose whether this item appears in reports.') {
+        throw new AuthError(error.message, 400);
+      }
+      throw error;
+    }
+  }
+
   const progressMatch = url.pathname.match(/^\/api\/progress\/([^/]+)$/);
   if (progressMatch && request.method === 'PATCH') {
     requireSameOrigin(request);
@@ -151,7 +183,7 @@ async function route(request, env) {
     if (!user || !(await bookIsFinished(env, user.id, slug))) return notFound('Reader not found.');
     const metadata = await getPublishedBook(env.BOOKS_BUCKET, slug);
     if (!metadata) return notFound('Reader not found.');
-    return privateJson(await getBookStudyIndex(env, slug));
+    return privateJson(await getBookStudyIndex(env, slug, user.id));
   }
 
   const bookMatch = url.pathname.match(/^\/api\/books\/([^/]+)$/);
@@ -169,8 +201,10 @@ async function route(request, env) {
     if (!metadata) return new Response('Study guide not found', { status: 404, headers: { 'Cache-Control': 'no-store' } });
     const guide = await env.BOOKS_BUCKET.get(metadata.htmlR2Key);
     if (!guide) return new Response('Study guide not found', { status: 404, headers: { 'Cache-Control': 'no-store' } });
-    const studyIndexMarkup = await renderBookStudyIndex(env, slug);
-    const html = replaceMasterIndex(await guide.text(), studyIndexMarkup);
+    const sourceHtml = await guide.text();
+    const filteredHtml = await filterUserHiddenStudyNotes(env, slug, user.id, sourceHtml);
+    const studyIndexMarkup = await renderBookStudyIndex(env, slug, user.id);
+    const html = replaceMasterIndex(filteredHtml, studyIndexMarkup);
     return new Response(html, {
       headers: {
         'Content-Type': 'text/html; charset=utf-8',

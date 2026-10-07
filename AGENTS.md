@@ -33,3 +33,9 @@
 - Generate one self-contained, responsive HTML file with embedded CSS and no external dependencies. Follow the supplied Sakura-guide visual direction: warm, restrained sakura colors; a clear title panel and passage navigation; prominent Japanese; romaji and translation panels; distinct vocabulary and grammar note cards; readable mobile layout.
 - Include a self-contained reading loupe in each guide: a visible toggle plus magnified Japanese text on hover or keyboard focus in passage text, vocabulary and grammar cards, and both master indexes. Preserve ruby furigana in every popup and make study-note terms/examples individually zoomable. Keep it compatible with the reader's restrictive Content Security Policy; prefer HTML/CSS and do not add inline JavaScript unless the Worker policy is deliberately updated.
 - Keep the reusable batch prompt in `prompts/japanese-pdf-study-guide.md` aligned with these rules.
+
+## Personal vocabulary and grammar collection
+
+- The authenticated `/vocabulary` page lists only vocabulary and grammar attached to books the current account has marked `Finished`. It is available to every signed-in account; counts and hide/show preferences are scoped to that account.
+- Store per-account report visibility in PostgreSQL. A hidden item remains visible on that account's collection page but is omitted from its study-guide vocabulary/grammar notes and master indexes. Never alter original story Japanese when applying these preferences.
+- Keep R2 study-guide HTML as source content. The Worker applies the signed-in user's visibility preferences to each private guide response, after verifying that the user finished the book. Do not publish personal preferences or `studyData` to public R2 JSON.

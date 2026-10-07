@@ -4,6 +4,7 @@ import { mountAuth } from './auth-ui.js';
 import { showBook, showLibrary } from './pages/library.js';
 import { showProfile } from './pages/profile.js';
 import { showReader } from './pages/reader.js';
+import { showStudyTerms } from './pages/study-terms.js';
 
 async function start() {
   const user = (await api.session().catch(() => ({ user: null }))).user;
@@ -12,6 +13,7 @@ async function start() {
   const readerMatch = path.match(/^\/read\/([^/]+)\/?$/);
 
   if (path === '/profile' || path === '/profile/') await showProfile(user);
+  else if (path === '/vocabulary' || path === '/vocabulary/') await showStudyTerms(user);
   else if (readerMatch) await showReader(readerMatch[1], user);
   else if (bookMatch) await showBook(bookMatch[1], user);
   else await showLibrary(user);

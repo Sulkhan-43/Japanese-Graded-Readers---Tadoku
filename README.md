@@ -23,6 +23,7 @@ Neon PostgreSQL:
   reader_signup_ip_guard
   reader_login_attempts
   reader_book_progress
+  reader_hidden_study_terms       # per-account hide/show report preferences
 ```
 
 Local `Level{level}-{StoryTitle}.metadata.json` sidecars under `Folders/{level}` are the import files. They retain the study data and counts generated for each reader. The checked-in SQL migration creates normalized records and per-reader joins. Reimporting replaces that reader's rows in a transaction, so occurrence totals do not accumulate on retries.
@@ -69,4 +70,5 @@ The deploy script targets the `todaku` Pages project. Its `BOOKS_BUCKET` and `HY
 - Create an account with a username and key, then save per-reader status and view overall and per-level reading progress.
 - Unlock guide pages with Japanese text, readings, translations, vocabulary, grammar, and reading-loupe interactions after marking a reader Finished.
 - Serve guide HTML and cover images from R2 while querying vocabulary and grammar indexes from PostgreSQL.
+- Show each signed-in reader only vocabulary and grammar from their Finished books on `/vocabulary`; store their per-account report visibility in PostgreSQL and apply it privately when serving reports from R2.
 - Keep content generation and uploads outside the public site.

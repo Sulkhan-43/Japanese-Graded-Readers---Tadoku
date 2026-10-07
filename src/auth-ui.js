@@ -32,7 +32,7 @@ export function mountAuth(user) {
   if (!nav) return;
 
   if (user) {
-    nav.innerHTML = `<a href="/">The library</a><a class="profile-nav" href="/profile"><span class="profile-avatar" lang="ja">${escapeHTML(user.avatarSymbol || '桜')}</span><span>My progress</span></a><button class="header-auth-button" type="button" data-sign-out>Sign out</button>`;
+    nav.innerHTML = `<a href="/">The library</a><a href="/vocabulary">Vocabulary</a><a class="profile-nav" href="/profile"><span class="profile-avatar" lang="ja">${escapeHTML(user.avatarSymbol || '桜')}</span><span>My progress</span></a><button class="header-auth-button" type="button" data-sign-out>Sign out</button>`;
     nav.querySelector('[data-sign-out]').addEventListener('click', async (event) => {
       event.currentTarget.disabled = true;
       try {
