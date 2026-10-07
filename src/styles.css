@@ -296,6 +296,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .study-terms-heading p { max-width: 580px; margin: 0; color: #747d73; font-size: 12px; line-height: 1.7; }
 .study-terms-total { display: grid; justify-items: end; padding-bottom: 5px; color: #82877e; font: 9px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
 .study-terms-total strong { color: var(--moss-dark); font: 400 40px/1 var(--font-display); }
+.study-terms-hidden-count { margin-top: 5px; color: #a45f49; font: 9px var(--font-mono); letter-spacing: .04em; text-transform: uppercase; }
 .study-terms-notice { min-height: 42px; display: flex; align-items: center; margin: 26px 0 0; padding: 10px 14px; border-left: 2px solid #829b7c; background: #edf2e9; color: #526c54; font-size: 11px; line-height: 1.5; }
 .study-terms-notice.is-error { border-color: var(--rust); background: #f6ece6; color: #994a37; }
 .study-term-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line-strong); }

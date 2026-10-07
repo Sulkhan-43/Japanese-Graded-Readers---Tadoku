@@ -42,8 +42,9 @@ function termPanel(items, kind, label, emptyMessage) {
 function pageMarkup(data) {
   const vocab = data.vocabulary || [];
   const grammar = data.grammar || [];
+  const hiddenCount = [...vocab, ...grammar].filter((item) => !item.showInReport).length;
   return `<main class="study-terms-page">
-    <section class="study-terms-heading"><div><span class="eyebrow">YOUR STUDY COLLECTION</span><h1>Vocabulary &amp; grammar</h1><p>Terms from your finished books, gathered in one place. Choose what appears in your study reports.</p></div><div class="study-terms-total"><strong>${vocab.length + grammar.length}</strong><span>study items</span></div></section>
+    <section class="study-terms-heading"><div><span class="eyebrow">YOUR STUDY COLLECTION</span><h1>Vocabulary &amp; grammar</h1><p>Terms from your finished books, gathered in one place. Choose what appears in your study reports.</p></div><div class="study-terms-total"><strong>${vocab.length + grammar.length}</strong><span>study items</span><small class="study-terms-hidden-count">${hiddenCount} hidden</small></div></section>
     <div class="study-term-tabs" role="tablist" aria-label="Study terms"><button type="button" role="tab" id="vocabulary-tab" aria-controls="vocabulary-panel" aria-selected="true" data-term-tab="vocabulary">Vocabulary <span>${vocab.length}</span></button><button type="button" role="tab" id="grammar-tab" aria-controls="grammar-panel" aria-selected="false" data-term-tab="grammar">Grammar <span>${grammar.length}</span></button></div>
     ${termPanel(vocab, 'vocabulary', 'Vocabulary', 'Finish a book to collect vocabulary here.')}
     ${termPanel(grammar, 'grammar', 'Grammar', 'Grammar notes from finished books will appear here.')}
