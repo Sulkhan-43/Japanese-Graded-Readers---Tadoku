@@ -6,7 +6,10 @@ const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 function json(data, status = 200) {
   return Response.json(data, {
     status,
-    headers: { 'Cache-Control': 'public, max-age=60', 'X-Content-Type-Options': 'nosniff' },
+    headers: {
+      'Cache-Control': status >= 400 ? 'no-store' : 'public, max-age=60',
+      'X-Content-Type-Options': 'nosniff',
+    },
   });
 }
 
