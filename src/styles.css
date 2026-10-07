@@ -309,7 +309,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .study-term-copy ruby { ruby-position: over; }
 .study-term-copy rt { color: var(--rust); font: 9px/1.1 "Yu Gothic", sans-serif; }
 .study-term-description { display: flex; flex-wrap: wrap; gap: 2px 12px; color: #747d73; font-size: 11px; line-height: 1.5; }
-.study-term-reading { color: #68796e; font-family: var(--font-mono); font-size: 10px; }
+.study-term-detail { display: inline-flex; align-items: baseline; gap: 6px; }
+.study-term-detail small { color: #94958b; font: 8px var(--font-mono); letter-spacing: .1em; text-transform: uppercase; }
+.study-term-reading { color: #53765d; font-family: var(--font-mono); font-size: 10px; }
+.study-term-meaning { color: #676f67; }
 .study-term-count { display: grid; justify-items: center; gap: 2px; color: #81877d; text-align: center; }
 .study-term-count strong { color: var(--moss-dark); font: 400 27px/1 var(--font-display); }
 .study-term-count span { font: 9px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; }
