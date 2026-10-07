@@ -1,0 +1,14 @@
+{
+  "name": "japanese-reader-library",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev:pages": "npm run build && wrangler pages dev dist",
+    "deploy": "npm run build && wrangler pages deploy dist"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "wrangler": "latest"
+  }
+}
