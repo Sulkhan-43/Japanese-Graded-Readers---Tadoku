@@ -35,11 +35,12 @@ Wrangler serves the Pages app locally at the URL it prints (usually `http://loca
 
 ## Deploy
 
-Create the `reader-library` R2 bucket, then deploy the Pages project:
+Create the `todaku` and `todaku-dev` R2 buckets, then deploy the Pages project:
 
 ```sh
-npx wrangler r2 bucket create reader-library
+npx wrangler r2 bucket create todaku
+npx wrangler r2 bucket create todaku-dev
 npm run deploy
 ```
 
-The production Pages project needs the `BOOKS_BUCKET` R2 binding in `wrangler.toml`. Published study guides must already be present in R2 using the layout above.
+The deploy script targets the `todaku` Pages project. Its `BOOKS_BUCKET` R2 binding is declared in `wrangler.toml`. Published study guides must already be present in R2 using the layout above.

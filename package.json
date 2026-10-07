@@ -5,7 +5,7 @@
   "scripts": {
     "build": "vite build",
     "dev:pages": "npm run build && wrangler pages dev dist",
-    "deploy": "npm run build && wrangler pages deploy dist"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name todaku"
   },
   "devDependencies": {
     "vite": "latest",
