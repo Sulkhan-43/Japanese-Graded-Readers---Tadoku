@@ -203,11 +203,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .reading-status-control { display: inline-flex; }
 .reading-status-control select { min-height: 30px; max-width: 128px; border: 1px solid var(--line); padding: 3px 25px 3px 8px; background: rgba(251,250,246,.88); color: var(--ink); font-size: 10px; }
 .reading-status-control select:disabled { opacity: .55; }
-.book-card[data-reading-status="In_Progress"] { border-color: #c2d3c3; }
-.book-card[data-reading-status="In_Progress"] .book-card-copy,
+.book-card[data-reading-status="To_Do"] { border-color: #deded7; background: #efefeb; }
+.book-card[data-reading-status="In_Progress"] { border-color: #e6c9a9; background: #f7ecdf; }
+.book-card[data-reading-status="Finished"] { border-color: #c3d5c4; background: #e7efe7; }
 .detail-layout[data-reading-status="In_Progress"],
 .reader-page[data-reading-status="In_Progress"] .finish-reading { background: #edf4ed; }
-.book-card[data-reading-status="Finished"] { border-color: #cbd7cb; }
 .book-status { text-transform: capitalize; }
 .reading-summary-link { display: inline-flex; align-items: center; gap: 9px; margin-top: 21px; color: var(--moss); font: 11px var(--font-mono); text-decoration: none; }
 .reading-summary-link:hover { color: var(--rust); }

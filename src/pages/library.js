@@ -39,12 +39,16 @@ function bookCard(book, index, user, statuses) {
 
 function libraryMarkup(books, user, progress) {
   const statuses = new Map((progress?.books || []).map((entry) => [entry.slug, entry.status]));
+  const statusOrder = { To_Do: 0, In_Progress: 1, Finished: 2 };
+  const shelfBooks = books
+    .map((book, index) => ({ book, index, status: statuses.get(book.slug) || 'To_Do' }))
+    .sort((a, b) => (statusOrder[a.status] ?? 0) - (statusOrder[b.status] ?? 0) || a.index - b.index);
   const levels = [...new Set(books.map((book) => book.level).filter(Boolean))].sort((a, b) => a.localeCompare(b));
   const control = books.length ? `<div class="library-tools"><label class="search-field"><span class="sr-only">Search books</span><span class="search-icon" aria-hidden="true">⌕</span><input id="book-search" type="search" placeholder="Find a story" autocomplete="off"></label>
     <label class="select-field"><span class="sr-only">Filter by level</span><select id="level-filter"><option value="">All levels</option>${levels.map((level) => `<option value="${escapeHTML(level)}">${escapeHTML(level)}</option>`).join('')}</select></label>
     <span class="book-count"><strong id="visible-count">${books.length}</strong> ${books.length === 1 ? 'reader' : 'readers'}</span></div>` : '';
   const cards = books.length
-    ? `<div id="book-grid" class="book-grid">${books.map((book, index) => bookCard(book, index, user, statuses)).join('')}</div><p id="no-filter-results" class="filter-empty" hidden>No readers match those filters.</p>`
+    ? `<div id="book-grid" class="book-grid">${shelfBooks.map(({ book, index }) => bookCard(book, index, user, statuses)).join('')}</div><p id="no-filter-results" class="filter-empty" hidden>No readers match those filters.</p>`
     : `<section class="empty-state"><div class="empty-stamp" aria-hidden="true" lang="ja">読</div><span class="eyebrow">A quiet new shelf</span><h2>Readers will appear here.</h2><p>Come back when the next book is ready.</p></section>`;
   const accountNote = user
     ? `<a class="reading-summary-link" href="/profile">${progress?.totals?.Finished || 0} finished · ${progress?.totals?.In_Progress || 0} in progress <span aria-hidden="true">↗</span></a>`
