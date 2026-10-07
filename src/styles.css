@@ -296,14 +296,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .study-terms-heading p { max-width: 580px; margin: 0; color: #747d73; font-size: 12px; line-height: 1.7; }
 .study-terms-total { display: grid; justify-items: end; padding-bottom: 5px; color: #82877e; font: 9px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
 .study-terms-total strong { color: var(--moss-dark); font: 400 40px/1 var(--font-display); }
-.study-terms-hidden-count { display: inline-flex; align-items: center; margin-top: 6px; padding: 4px 8px; border: 1px solid #d5a092; border-radius: 999px; background: #f4e2dc; color: #8d3f2d; font: 600 9px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; }
+.study-terms-hidden-count { display: inline-flex; align-items: center; margin-top: 6px; padding: 4px 8px; border: 1px solid #e7a75e; border-radius: 999px; background: #ffead1; color: #87400e; font: 600 9px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; }
 .study-terms-notice { min-height: 42px; display: flex; align-items: center; margin: 26px 0 0; padding: 10px 14px; border-left: 2px solid #829b7c; background: #edf2e9; color: #526c54; font-size: 11px; line-height: 1.5; }
 .study-terms-notice.is-error { border-color: var(--rust); background: #f6ece6; color: #994a37; }
 .study-term-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line-strong); }
 .study-term-tabs button { display: flex; align-items: center; gap: 9px; min-height: 43px; padding: 0 17px; border: 0; border-bottom: 2px solid transparent; background: transparent; color: #778076; cursor: pointer; font-size: 12px; }
 .study-term-tabs button[aria-selected="true"] { border-bottom-color: var(--rust); color: var(--ink); }
 .study-term-tabs button .study-term-tab-count { display: grid; min-width: 23px; height: 23px; place-items: center; border: 1px solid #b5cbb8; border-radius: 50%; background: #e5efe5; color: #315c3d; font: 600 10px var(--font-mono); }
-.study-term-tabs button .study-term-tab-hidden { padding: 4px 7px; border: 1px solid #d5a092; border-radius: 999px; background: #f4e2dc; color: #8d3f2d; font: 600 8px var(--font-mono); letter-spacing: .025em; white-space: nowrap; }
+.study-term-tabs button .study-term-tab-hidden { padding: 4px 7px; border: 1px solid #e7a75e; border-radius: 999px; background: #ffead1; color: #87400e; font: 600 8px var(--font-mono); letter-spacing: .025em; white-space: nowrap; }
 .study-term-list { display: grid; gap: 9px; padding-top: 13px; }
 .study-term-card { display: grid; grid-template-columns: minmax(0,1fr) minmax(110px,auto) minmax(170px,auto); align-items: center; gap: 21px; min-height: 91px; padding: 15px 18px; border: 1px solid var(--line); background: var(--surface); }
 .study-term-copy { min-width: 0; }
@@ -314,7 +314,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .study-term-detail { display: inline-flex; align-items: baseline; gap: 6px; }
 .study-term-detail small { color: #94958b; font: 8px var(--font-mono); letter-spacing: .1em; text-transform: uppercase; }
 .study-term-reading { color: #53765d; font-family: var(--font-mono); font-size: 10px; }
-.study-term-meaning { color: #676f67; }
+.study-term-reading small { color: #547453; }
+.study-term-reading > span { color: #315f3d; font-weight: 600; }
+.study-term-meaning { color: #81512e; }
+.study-term-meaning small { color: #b15c2a; }
+.study-term-meaning > span { color: #754522; font-weight: 500; }
 .study-term-count { display: grid; justify-items: center; gap: 2px; color: #81877d; text-align: center; }
 .study-term-count strong { color: var(--moss-dark); font: 400 27px/1 var(--font-display); }
 .study-term-count span { font: 9px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; }
@@ -324,14 +328,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .study-term-toggle input:disabled { cursor: wait; }
 .study-term-empty { margin: 0; padding: 30px 18px; border: 1px dashed var(--line-strong); color: #788176; font-size: 12px; text-align: center; }
 .study-term-panel[hidden] { display: none; }
-.study-hidden-group { margin-top: 23px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.study-hidden-group > summary { display: flex; align-items: center; gap: 9px; min-height: 49px; color: #68776b; cursor: pointer; font-size: 11px; list-style: none; }
+.study-hidden-group { margin-top: 23px; overflow: hidden; border: 1px solid #edc18d; border-radius: 5px; background: #fff2e1; }
+.study-hidden-group > summary { display: flex; align-items: center; gap: 9px; min-height: 49px; padding: 0 12px; color: #844917; cursor: pointer; font-size: 11px; font-weight: 600; list-style: none; }
 .study-hidden-group > summary::-webkit-details-marker { display: none; }
-.study-hidden-group > summary::before { content: "+"; display: grid; width: 19px; height: 19px; place-items: center; border: 1px solid var(--line-strong); border-radius: 50%; color: var(--moss); font-size: 15px; line-height: 1; }
+.study-hidden-group > summary::before { content: "+"; display: grid; width: 19px; height: 19px; place-items: center; border: 1px solid #df9d54; border-radius: 50%; background: #ffdfb7; color: #8d470e; font-size: 15px; line-height: 1; }
 .study-hidden-group[open] > summary::before { content: "−"; }
-.study-hidden-group > summary span { display: grid; min-width: 20px; height: 20px; place-items: center; border-radius: 50%; background: #e9e9e1; color: #69746b; font: 9px var(--font-mono); }
-.study-hidden-list { padding: 0 0 13px; }
-.study-hidden-list .study-term-card { background: #f2f1eb; }
+.study-hidden-group > summary span { display: grid; min-width: 20px; height: 20px; place-items: center; border: 1px solid #e7a75e; border-radius: 50%; background: #ffe2bd; color: #87400e; font: 9px var(--font-mono); }
+.study-hidden-list { padding: 0 12px 13px; }
+.study-hidden-list .study-term-card { border-color: #edd4b2; background: #fffaf2; }
 
 @media (max-width: 768px) {
   .reader-heading { align-items: start; flex-direction: column; }
