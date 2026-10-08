@@ -99,9 +99,6 @@ function validateStudyData(data, sourceName) {
     if (!item.japanese || !item.reading || !item.romaji || !item.meaning || !Number.isInteger(item.occurrenceCount) || item.occurrenceCount < 0) {
       throw new Error(`${sourceName}: incomplete vocabulary item ${index + 1}.`);
     }
-    if (!Number.isInteger(item.firstPassage) || item.firstPassage < 1 || item.firstPassage > data.passages.length) {
-      throw new Error(`${sourceName}: invalid first passage for vocabulary ${item.japanese}.`);
-    }
     const canonicalKey = `vocabulary:${item.japanese}|${item.reading}`;
     if (item.key) vocabularyKeyAliases.set(item.key, canonicalKey);
     vocabularyKeyAliases.set(canonicalKey, canonicalKey);
@@ -112,9 +109,6 @@ function validateStudyData(data, sourceName) {
     if (!item.pattern || !item.explanation || !Number.isInteger(item.occurrenceCount) || item.occurrenceCount < 0) {
       throw new Error(`${sourceName}: incomplete grammar item ${index + 1}.`);
     }
-    if (!Number.isInteger(item.firstPassage) || item.firstPassage < 1 || item.firstPassage > data.passages.length) {
-      throw new Error(`${sourceName}: invalid first passage for grammar ${item.pattern}.`);
-    }
     const canonicalKey = `grammar:${item.pattern.normalize('NFKC').replace(/\s+/g, ' ').trim()}`;
     if (item.key) grammarKeyAliases.set(item.key, canonicalKey);
     grammarKeyAliases.set(canonicalKey, canonicalKey);
@@ -122,11 +116,33 @@ function validateStudyData(data, sourceName) {
   }
   const vocabularyKeys = new Set((data.vocabulary || []).map((item) => item.key));
   const grammarKeys = new Set((data.grammar || []).map((item) => item.key));
+  const firstVocabularyPassage = new Map();
+  const firstGrammarPassage = new Map();
   for (const [index, passage] of data.passages.entries()) {
     passage.vocabularyKeys = (passage.vocabularyKeys || []).map((key) => vocabularyKeyAliases.get(key) || key);
     passage.grammarKeys = (passage.grammarKeys || []).map((key) => grammarKeyAliases.get(key) || key);
-    for (const key of passage.vocabularyKeys || []) if (!vocabularyKeys.has(key)) throw new Error(`${sourceName}: unknown vocabulary key in passage ${index + 1}.`);
-    for (const key of passage.grammarKeys || []) if (!grammarKeys.has(key)) throw new Error(`${sourceName}: unknown grammar key in passage ${index + 1}.`);
+    for (const key of passage.vocabularyKeys) {
+      if (!vocabularyKeys.has(key)) throw new Error(`${sourceName}: unknown vocabulary key in passage ${index + 1}.`);
+      if (!firstVocabularyPassage.has(key)) firstVocabularyPassage.set(key, index + 1);
+    }
+    for (const key of passage.grammarKeys) {
+      if (!grammarKeys.has(key)) throw new Error(`${sourceName}: unknown grammar key in passage ${index + 1}.`);
+      if (!firstGrammarPassage.has(key)) firstGrammarPassage.set(key, index + 1);
+    }
+  }
+  for (const item of data.vocabulary) {
+    const linkedPassage = firstVocabularyPassage.get(item.key);
+    if (linkedPassage) item.firstPassage = linkedPassage;
+    if (!Number.isInteger(item.firstPassage) || item.firstPassage < 1 || item.firstPassage > data.passages.length) {
+      throw new Error(`${sourceName}: invalid first passage for vocabulary ${item.japanese}.`);
+    }
+  }
+  for (const item of data.grammar) {
+    const linkedPassage = firstGrammarPassage.get(item.key);
+    if (linkedPassage) item.firstPassage = linkedPassage;
+    if (!Number.isInteger(item.firstPassage) || item.firstPassage < 1 || item.firstPassage > data.passages.length) {
+      throw new Error(`${sourceName}: invalid first passage for grammar ${item.pattern}.`);
+    }
   }
   return data;
 }
