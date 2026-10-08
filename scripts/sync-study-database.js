@@ -1,10 +1,12 @@
-import { execFileSync } from 'node:child_process';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 import { readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Client } from 'pg';
 import { countJapaneseWordsInReport } from './japanese-word-count.js';
 
+const execFileAsync = promisify(execFile);
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const foldersRoot = path.join(root, 'Folders');
 const migrationsRoot = path.join(root, 'db', 'migrations');
@@ -185,10 +187,18 @@ async function uploadPublicMetadata(books) {
     const temporaryPath = `${metadataPath}.public-tmp`;
     try {
       await writeFile(temporaryPath, `${JSON.stringify(safeMetadata, null, 2)}\n`, 'utf8');
-      execFileSync(process.execPath, [wrangler, 'r2', 'object', 'put', `todaku/books/${metadata.slug}/metadata.json`, '--remote', '--file', temporaryPath, '--content-type', 'application/json; charset=utf-8'], {
-        cwd: root,
-        stdio: 'inherit',
-      });
+      const args = [wrangler, 'r2', 'object', 'put', `todaku/books/${metadata.slug}/metadata.json`, '--remote', '--file', temporaryPath, '--content-type', 'application/json; charset=utf-8'];
+      let uploaded = false;
+      for (let attempt = 1; attempt <= 3 && !uploaded; attempt += 1) {
+        try {
+          await execFileAsync(process.execPath, args, { cwd: root, windowsHide: true, maxBuffer: 1024 * 1024 });
+          uploaded = true;
+        } catch {
+          if (attempt === 3) throw new Error(`Could not upload public metadata for ${metadata.slug} after three attempts.`);
+          console.warn(`Metadata upload for ${metadata.slug} failed; retrying (${attempt + 1}/3).`);
+          await new Promise((resolve) => setTimeout(resolve, 800 * (2 ** (attempt - 1))));
+        }
+      }
     } finally {
       await rm(temporaryPath, { force: true });
     }
