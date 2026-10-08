@@ -173,7 +173,7 @@ Use one passage per story/content page or coherent short story section, in origi
 
 For each sentence use standard Hepburn romaji with macrons and a natural English translation that stays close to the Japanese. Vocabulary and grammar are global across this book: explain an item in the passage where it first becomes useful, and do not repeat it later unless its reading, sense, construction, or nuance changes. This glossary is independent for this PDF. Never omit a useful explanation because the same item exists in another book, report, sidecar, or shared database. Apply first-explanation deduplication only within this PDF. Put those note keys in the passage's vocabularyKeys/grammarKeys only where the explanation should appear. passage keys must exactly equal the normalized keys implied by the matching vocabulary/grammar entries. Vocabulary entries must be unique by Japanese headword plus reading/sense; grammar entries unique by construction. occurrenceCount counts genuine occurrences in original Japanese story material (including title, relevant captions, and story-specific synopsis) and excludes generated notes, romaji, translations, and publisher material. Group inflected forms under their dictionary-form vocabulary item; count each actual use and each grammar occurrence.
 
-Use keys conceptually as vocabulary:<Japanese>|<reading> and grammar:<normalized pattern>. firstPassage is the one-based passage where first explained. Keep the response compact but complete; no markdown fences or extra commentary.`;
+Use keys conceptually as vocabulary:<Japanese>|<reading> and grammar:<normalized pattern>. firstPassage is the one-based passage where first explained. Do not use placeholder records such as "none"; if a book has no genuine new vocabulary or grammar notes, return an empty array for that list. Keep the response compact but complete; no markdown fences or extra commentary.`;
 }
 
 async function responseJson(response, operation) {
@@ -365,7 +365,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         required: ['label', 'sentences', 'vocabularyKeys', 'grammarKeys'],
         additionalProperties: false,
       } },
-      vocabulary: { type: 'array', minItems: 1, items: {
+      vocabulary: { type: 'array', items: {
         type: 'object',
         properties: {
           key: { type: 'string' }, japanese: { type: 'string' }, japaneseSegments: { type: 'array', items: segmentSchema },
@@ -375,7 +375,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         required: ['key', 'japanese', 'japaneseSegments', 'reading', 'romaji', 'meaning', 'firstPassage', 'occurrenceCount'],
         additionalProperties: false,
       } },
-      grammar: { type: 'array', minItems: 1, items: {
+      grammar: { type: 'array', items: {
         type: 'object',
         properties: {
           key: { type: 'string' }, pattern: { type: 'string' }, patternSegments: { type: 'array', items: segmentSchema },
