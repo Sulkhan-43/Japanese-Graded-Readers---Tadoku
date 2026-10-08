@@ -19,7 +19,7 @@ function termMarkup(item, kind) {
   const title = kind === 'vocabulary' ? ruby(item.japaneseSegments, item.japanese) : ruby(item.patternSegments, item.pattern);
   const subtitle = kind === 'vocabulary'
     ? `<span class="study-term-detail study-term-reading"><small>${item.romaji ? 'Romaji' : 'Reading'}</small><span>${escapeHTML(item.romaji || item.reading || '')}</span></span><span class="study-term-detail study-term-meaning"><small>English</small><span>${escapeHTML(item.meaning || '')}</span></span>`
-    : `<span>${escapeHTML(item.explanation || '')}</span>`;
+    : `<span class="study-term-detail study-term-meaning"><small>English</small><span>${escapeHTML(item.explanation || '')}</span></span>`;
   return `<article class="study-term-card">
     <div class="study-term-copy"><h3 lang="ja">${title}</h3><div class="study-term-description">${subtitle}</div></div>
     <div class="study-term-count"><strong>${Number(item.occurrences) || 0}</strong><span>encounters</span><small>across ${Number(item.finishedBookCount) || 0} finished ${item.finishedBookCount === 1 ? 'book' : 'books'}</small></div>

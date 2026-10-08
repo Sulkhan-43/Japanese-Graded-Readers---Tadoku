@@ -19,6 +19,45 @@ import {
 } from './lib/auth.js';
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const STUDY_GUIDE_LANGUAGE_STYLES = `
+/* TADOKU-GUIDE-LANGUAGE-STYLES */
+.romaji,
+.translation {
+  display: block;
+  box-sizing: border-box;
+  margin: .65rem 0;
+  padding: .65rem .8rem;
+  border-left: 3px solid;
+  border-radius: 0 .4rem .4rem 0;
+}
+.romaji {
+  border-color: #73927a;
+  background: #eef3ed;
+  color: #315f3d;
+  font-size: .94rem;
+  font-style: italic;
+  line-height: 1.65;
+}
+.translation {
+  border-color: #c76b4d;
+  background: #fbf1e9;
+  color: #754522;
+  font-size: .98rem;
+  line-height: 1.65;
+}
+.line-label {
+  display: block;
+  margin-bottom: .15rem;
+  font: 600 .62rem/1.3 ui-monospace, monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.romaji .line-label { color: #607a68; }
+.translation .line-label { color: #b15c2a; }
+@media (max-width: 560px) {
+  .romaji, .translation { padding: .55rem .65rem; }
+}
+`;
 
 function json(data, status = 200, extraHeaders = {}) {
   return Response.json(data, {
@@ -56,6 +95,33 @@ function replaceMasterIndex(html, markup) {
   const end = html.indexOf(endMarker);
   if (start < 0 || end <= start) throw new Error('Study guide is missing its master-index markers.');
   return `${html.slice(0, start)}${startMarker}\n${markup}\n${endMarker}${html.slice(end + endMarker.length)}`;
+}
+
+function presentStudyGuideLanguages(html) {
+  let output = html;
+  if (!output.includes('TADOKU-GUIDE-LANGUAGE-STYLES')) {
+    let inserted = false;
+    output = output.replace(/<\/style\s*>/i, (closingTag) => {
+      inserted = true;
+      return `${STUDY_GUIDE_LANGUAGE_STYLES}\n${closingTag}`;
+    });
+    if (!inserted) {
+      const styleElement = `<style>${STUDY_GUIDE_LANGUAGE_STYLES}</style>`;
+      output = /<\/head\s*>/i.test(output)
+        ? output.replace(/<\/head\s*>/i, `${styleElement}</head>`)
+        : `${styleElement}${output}`;
+    }
+  }
+
+  const labels = [
+    ['romaji', 'Romaji'],
+    ['translation', 'English'],
+  ];
+  for (const [className, label] of labels) {
+    const openingTag = new RegExp(`(<(?:p|div)\\b[^>]*\\bclass="[^"]*\\b${className}\\b[^"]*"[^>]*>)(?!\\s*<span\\b[^>]*\\bclass="[^"]*\\bline-label\\b[^"]*"[^>]*>)`, 'gi');
+    output = output.replace(openingTag, `$1<span class="line-label">${label}</span>`);
+  }
+  return output;
 }
 
 function requireSameOrigin(request) {
@@ -204,7 +270,8 @@ async function route(request, env) {
     const sourceHtml = await guide.text();
     const filteredHtml = await filterUserHiddenStudyNotes(env, slug, user.id, sourceHtml);
     const studyIndexMarkup = await renderBookStudyIndex(env, slug, user.id);
-    const html = replaceMasterIndex(filteredHtml, studyIndexMarkup);
+    const styledHtml = presentStudyGuideLanguages(filteredHtml);
+    const html = replaceMasterIndex(styledHtml, studyIndexMarkup);
     return new Response(html, {
       headers: {
         'Content-Type': 'text/html; charset=utf-8',
