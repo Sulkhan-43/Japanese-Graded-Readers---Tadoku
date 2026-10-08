@@ -1,0 +1,698 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:木村家|きむらけ",
+      "japanese": "木村家",
+      "japaneseSegments": [
+        {
+          "base": "木村",
+          "reading": "きむら"
+        },
+        {
+          "base": "家",
+          "reading": "け"
+        }
+      ],
+      "reading": "きむらけ",
+      "romaji": "Kimura-ke",
+      "meaning": "the Kimura household",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:毎日|まいにち",
+      "japanese": "毎日",
+      "japaneseSegments": [
+        {
+          "base": "毎日",
+          "reading": "まいにち"
+        }
+      ],
+      "reading": "まいにち",
+      "romaji": "mainichi",
+      "meaning": "every day; daily life",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:いってきます|いってきます",
+      "japanese": "いってきます",
+      "japaneseSegments": [
+        {
+          "text": "いってきます"
+        }
+      ],
+      "reading": "いってきます",
+      "romaji": "ittekimasu",
+      "meaning": "a set phrase said when leaving: “I’m off.”",
+      "firstPassage": 1,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:朝|あさ",
+      "japanese": "朝",
+      "japaneseSegments": [
+        {
+          "base": "朝",
+          "reading": "あさ"
+        }
+      ],
+      "reading": "あさ",
+      "romaji": "asa",
+      "meaning": "morning",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:時|じ",
+      "japanese": "時",
+      "japaneseSegments": [
+        {
+          "base": "時",
+          "reading": "じ"
+        }
+      ],
+      "reading": "じ",
+      "romaji": "ji",
+      "meaning": "o’clock; the counter used for clock time",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:由美|ゆみ",
+      "japanese": "由美",
+      "japaneseSegments": [
+        {
+          "base": "由美",
+          "reading": "ゆみ"
+        }
+      ],
+      "reading": "ゆみ",
+      "romaji": "Yumi",
+      "meaning": "Yumi, a family member",
+      "firstPassage": 1,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:言う|いう",
+      "japanese": "言う",
+      "japaneseSegments": [
+        {
+          "base": "言",
+          "reading": "い"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "いう",
+      "romaji": "iu",
+      "meaning": "to say; to tell",
+      "firstPassage": 1,
+      "occurrenceCount": 15
+    },
+    {
+      "key": "vocabulary:おはよう|おはよう",
+      "japanese": "おはよう",
+      "japaneseSegments": [
+        {
+          "text": "おはよう"
+        }
+      ],
+      "reading": "おはよう",
+      "romaji": "ohayō",
+      "meaning": "good morning (casual greeting)",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:お母さん|おかあさん",
+      "japanese": "お母さん",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "母",
+          "reading": "かあ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "reading": "おかあさん",
+      "romaji": "okāsan",
+      "meaning": "mother; Mom",
+      "firstPassage": 1,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:一郎|いちろう",
+      "japanese": "一郎",
+      "japaneseSegments": [
+        {
+          "base": "一郎",
+          "reading": "いちろう"
+        }
+      ],
+      "reading": "いちろう",
+      "romaji": "Ichirō",
+      "meaning": "Ichiro, a family member",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:いってらっしゃい|いってらっしゃい",
+      "japanese": "いってらっしゃい",
+      "japaneseSegments": [
+        {
+          "text": "いってらっしゃい"
+        }
+      ],
+      "reading": "いってらっしゃい",
+      "romaji": "itterasshai",
+      "meaning": "a set phrase said to someone leaving: “Have a good day!”",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:友だち|ともだち",
+      "japanese": "友だち",
+      "japaneseSegments": [
+        {
+          "base": "友",
+          "reading": "とも"
+        },
+        {
+          "text": "だち"
+        }
+      ],
+      "reading": "ともだち",
+      "romaji": "tomodachi",
+      "meaning": "friend",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:来る|くる",
+      "japanese": "来る",
+      "japaneseSegments": [
+        {
+          "base": "来",
+          "reading": "く"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "くる",
+      "romaji": "kuru",
+      "meaning": "to come",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:学校|がっこう",
+      "japanese": "学校",
+      "japaneseSegments": [
+        {
+          "base": "学校",
+          "reading": "がっこう"
+        }
+      ],
+      "reading": "がっこう",
+      "romaji": "gakkō",
+      "meaning": "school",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:行く|いく",
+      "japanese": "行く",
+      "japaneseSegments": [
+        {
+          "base": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "いく",
+      "romaji": "iku",
+      "meaning": "to go",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:お父さん|おとうさん",
+      "japanese": "お父さん",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "父",
+          "reading": "とう"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "reading": "おとうさん",
+      "romaji": "otōsan",
+      "meaning": "father; Dad",
+      "firstPassage": 4,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:もう|もう",
+      "japanese": "もう",
+      "japaneseSegments": [
+        {
+          "text": "もう"
+        }
+      ],
+      "reading": "もう",
+      "romaji": "mō",
+      "meaning": "already",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:おはようございます|おはようございます",
+      "japanese": "おはようございます",
+      "japaneseSegments": [
+        {
+          "text": "おはようございます"
+        }
+      ],
+      "reading": "おはようございます",
+      "romaji": "ohayō gozaimasu",
+      "meaning": "good morning (polite greeting)",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:隣|となり",
+      "japanese": "隣",
+      "japaneseSegments": [
+        {
+          "base": "隣",
+          "reading": "となり"
+        }
+      ],
+      "reading": "となり",
+      "romaji": "tonari",
+      "meaning": "next door; neighboring",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:田中さん|たなかさん",
+      "japanese": "田中さん",
+      "japaneseSegments": [
+        {
+          "base": "田中",
+          "reading": "たなか"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "reading": "たなかさん",
+      "romaji": "Tanaka-san",
+      "meaning": "Mr. Tanaka, the neighbor",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:駅|えき",
+      "japanese": "駅",
+      "japaneseSegments": [
+        {
+          "base": "駅",
+          "reading": "えき"
+        }
+      ],
+      "reading": "えき",
+      "romaji": "eki",
+      "meaning": "station",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:かばん|かばん",
+      "japanese": "かばん",
+      "japaneseSegments": [
+        {
+          "text": "かばん"
+        }
+      ],
+      "reading": "かばん",
+      "romaji": "kaban",
+      "meaning": "bag",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ありがとう|ありがとう",
+      "japanese": "ありがとう",
+      "japaneseSegments": [
+        {
+          "text": "ありがとう"
+        }
+      ],
+      "reading": "ありがとう",
+      "romaji": "arigatō",
+      "meaning": "thank you",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:猫|ねこ",
+      "japanese": "猫",
+      "japaneseSegments": [
+        {
+          "base": "猫",
+          "reading": "ねこ"
+        }
+      ],
+      "reading": "ねこ",
+      "romaji": "neko",
+      "meaning": "cat",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ノン|のん",
+      "japanese": "ノン",
+      "japaneseSegments": [
+        {
+          "text": "ノン"
+        }
+      ],
+      "reading": "のん",
+      "romaji": "Non",
+      "meaning": "Non, the cat’s name",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:家族|かぞく",
+      "japanese": "家族",
+      "japaneseSegments": [
+        {
+          "base": "家族",
+          "reading": "かぞく"
+        }
+      ],
+      "reading": "かぞく",
+      "romaji": "kazoku",
+      "meaning": "family",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:今朝|けさ",
+      "japanese": "今朝",
+      "japaneseSegments": [
+        {
+          "base": "今朝",
+          "reading": "けさ"
+        }
+      ],
+      "reading": "けさ",
+      "romaji": "kesa",
+      "meaning": "this morning",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:人|にん",
+      "japanese": "人",
+      "japaneseSegments": [
+        {
+          "base": "人",
+          "reading": "にん"
+        }
+      ],
+      "reading": "にん",
+      "romaji": "nin",
+      "meaning": "people counter; in 4人 it is read yonin, “four people”",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:みんな|みんな",
+      "japanese": "みんな",
+      "japaneseSegments": [
+        {
+          "text": "みんな"
+        }
+      ],
+      "reading": "みんな",
+      "romaji": "minna",
+      "meaning": "everyone",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:元気|げんき",
+      "japanese": "元気",
+      "japaneseSegments": [
+        {
+          "base": "元気",
+          "reading": "げんき"
+        }
+      ],
+      "reading": "げんき",
+      "romaji": "genki",
+      "meaning": "well; in good spirits",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:出かける|でかける",
+      "japanese": "出かける",
+      "japaneseSegments": [
+        {
+          "base": "出",
+          "reading": "で"
+        },
+        {
+          "text": "かける"
+        }
+      ],
+      "reading": "でかける",
+      "romaji": "dekakeru",
+      "meaning": "to go out; to set out",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:わあ|わあ",
+      "japanese": "わあ",
+      "japaneseSegments": [
+        {
+          "text": "わあ"
+        }
+      ],
+      "reading": "わあ",
+      "romaji": "wā",
+      "meaning": "wow; an exclamation of surprise",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:あっ|あっ",
+      "japanese": "あっ",
+      "japaneseSegments": [
+        {
+          "text": "あっ"
+        }
+      ],
+      "reading": "あっ",
+      "romaji": "a",
+      "meaning": "ah!; an exclamation of sudden realization or surprise",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:はい|はい",
+      "japanese": "はい",
+      "japaneseSegments": [
+        {
+          "text": "はい"
+        }
+      ],
+      "reading": "はい",
+      "romaji": "hai",
+      "meaning": "yes; here you go (when handing something over)",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ニャーオ|にゃーお",
+      "japanese": "ニャーオ",
+      "japaneseSegments": [
+        {
+          "text": "ニャーオ"
+        }
+      ],
+      "reading": "にゃーお",
+      "romaji": "nyāō",
+      "meaning": "meow; a cat’s cry",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N の N",
+      "pattern": "N の N",
+      "patternSegments": [
+        {
+          "text": "N の N"
+        }
+      ],
+      "explanation": "の links two nouns, showing a relationship such as possession, association, or description. In the title, it means the everyday life of the Kimura family.",
+      "firstPassage": 1,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "grammar:N です",
+      "pattern": "N です",
+      "patternSegments": [
+        {
+          "text": "N です"
+        }
+      ],
+      "explanation": "です makes a polite statement, often identifying or describing something.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N が V",
+      "pattern": "N が V",
+      "patternSegments": [
+        {
+          "text": "N が V"
+        }
+      ],
+      "explanation": "が marks the subject performing an action; the story often uses this frame in its narration.",
+      "firstPassage": 1,
+      "occurrenceCount": 15
+    },
+    {
+      "key": "grammar:Vます",
+      "pattern": "Vます",
+      "patternSegments": [
+        {
+          "text": "Vます"
+        }
+      ],
+      "explanation": "ます gives a verb a polite, non-past form, used here for actions and repeated narration.",
+      "firstPassage": 1,
+      "occurrenceCount": 17
+    },
+    {
+      "key": "grammar:N も",
+      "pattern": "N も",
+      "patternSegments": [
+        {
+          "text": "N も"
+        }
+      ],
+      "explanation": "も means “also” or “too,” adding another person or thing to what has already been mentioned.",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:Vました",
+      "pattern": "Vました",
+      "patternSegments": [
+        {
+          "text": "Vました"
+        }
+      ],
+      "explanation": "ました is the polite past form of a verb.",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N と V",
+      "pattern": "N と V",
+      "patternSegments": [
+        {
+          "text": "N と V"
+        }
+      ],
+      "explanation": "と can mark someone accompanying the subject; here it means “with a friend.”",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N へ V",
+      "pattern": "N へ V",
+      "patternSegments": [
+        {
+          "text": "N へ V"
+        }
+      ],
+      "explanation": "へ marks the direction or destination of movement; it is pronounced e.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N だ",
+      "pattern": "N だ",
+      "patternSegments": [
+        {
+          "text": "N だ"
+        }
+      ],
+      "explanation": "だ is the plain form used to state or emphasize what something is; here it adds force to the exclamation about the time.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N は",
+      "pattern": "N は",
+      "patternSegments": [
+        {
+          "text": "N は"
+        }
+      ],
+      "explanation": "は marks the topic—the person or thing the sentence is about.",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N と N",
+      "pattern": "N と N",
+      "patternSegments": [
+        {
+          "text": "N と N"
+        }
+      ],
+      "explanation": "と connects nouns in a complete list, as in four people and a cat.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:なA に V",
+      "pattern": "なA に V",
+      "patternSegments": [
+        {
+          "text": "なA に V"
+        }
+      ],
+      "explanation": "A な-adjective can take に to describe how an action is done.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    }
+  ]
+}
