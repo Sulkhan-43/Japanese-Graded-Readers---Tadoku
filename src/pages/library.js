@@ -15,14 +15,18 @@ function progressSelect(book, status) {
   return `<label class="reading-status-control"><span class="sr-only">Reading status for ${escapeHTML(book.name)}</span><select data-book-status="${escapeHTML(book.slug)}">${values.map(([value, label]) => `<option value="${value}"${status === value ? ' selected' : ''}>${label}</option>`).join('')}</select></label>`;
 }
 
+function wordCountBadge(book) {
+  return Number.isInteger(book.wordCount) && book.wordCount > 0
+    ? `<div class="book-word-count"><strong>${new Intl.NumberFormat('en').format(book.wordCount)}</strong><span>Japanese words</span></div>`
+    : '';
+}
+
 function bookCard(book, index, user, statuses) {
   const art = book.coverPath
     ? `<img class="book-cover" src="${escapeHTML(book.coverPath)}" alt="Cover of ${escapeHTML(book.name)}" loading="lazy">`
     : `<div class="cover-art cover-art-${(index % 4) + 1}" aria-hidden="true"><span class="cover-edition">TADOKU · ${escapeHTML(book.level || 'READER')}</span><span class="cover-kanji" lang="ja">${escapeHTML(book.japaneseTitle || '本')}</span><span class="cover-title">${escapeHTML(book.name)}</span><span class="cover-seal" lang="ja">読</span></div>`;
   const status = statuses.get(book.slug) || 'To_Do';
-  const wordCount = Number.isInteger(book.wordCount) && book.wordCount > 0
-    ? `<p class="book-word-count">${new Intl.NumberFormat('en').format(book.wordCount)} Japanese words</p>`
-    : '';
+  const wordCount = wordCountBadge(book);
   const statusControl = user
     ? progressSelect(book, status)
     : '<span class="book-status"><i></i>PDF available</span>';
@@ -43,11 +47,11 @@ function bookCard(book, index, user, statuses) {
 
 function libraryMarkup(books, user, progress) {
   const statuses = new Map((progress?.books || []).map((entry) => [entry.slug, entry.status]));
-  const statusOrder = { To_Do: 0, In_Progress: 1, Finished: 2 };
+  const statusOrder = { In_Progress: 0, To_Do: 1, Finished: 2 };
   const shelfBooks = books
     .map((book, index) => ({ book, index, status: statuses.get(book.slug) || 'To_Do' }))
     .sort((a, b) => (statusOrder[a.status] ?? 0) - (statusOrder[b.status] ?? 0)
-      || (Number(b.book.wordCount) || 0) - (Number(a.book.wordCount) || 0)
+      || (Number(a.book.wordCount) || 0) - (Number(b.book.wordCount) || 0)
       || a.book.name.localeCompare(b.book.name, 'ja')
       || a.index - b.index);
   const levels = [...new Set(books.map((book) => book.level).filter(Boolean))].sort((a, b) => a.localeCompare(b));
@@ -138,7 +142,7 @@ export async function showBook(slug, user) {
     const statusControl = user
       ? progressSelect(book, status)
       : '<p class="access-note">Sign in to save your reading status. The original PDF is available to everyone.</p>';
-    const markup = `<main class="book-detail"><a class="back-link" href="/">← Back to the library</a><div class="detail-layout" data-reading-status="${status}">${cover}<section class="detail-copy"><span class="eyebrow">${escapeHTML(book.level || 'Unleveled')} · ${statusText}</span><h1>${escapeHTML(book.name)}</h1>${book.japaneseTitle ? `<p class="book-japanese" lang="ja">${escapeHTML(book.japaneseTitle)}</p>` : ''}<div class="detail-status">${statusControl}</div>${lockedNote}<div class="detail-actions">${actions}</div></section></div></main>`;
+    const markup = `<main class="book-detail"><a class="back-link" href="/">← Back to the library</a><div class="detail-layout" data-reading-status="${status}">${cover}<section class="detail-copy"><span class="eyebrow">${escapeHTML(book.level || 'Unleveled')} · ${statusText}</span><h1>${escapeHTML(book.name)}</h1>${book.japaneseTitle ? `<p class="book-japanese" lang="ja">${escapeHTML(book.japaneseTitle)}</p>` : ''}${wordCountBadge(book)}<div class="detail-status">${statusControl}</div>${lockedNote}<div class="detail-actions">${actions}</div></section></div></main>`;
     setPage(book.name, shell(markup));
     bindProgressControls();
   } catch (error) {
