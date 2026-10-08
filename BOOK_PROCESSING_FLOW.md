@@ -1,13 +1,13 @@
 # Book processing flow
 
-This is the repeatable workflow for converting an existing Surya OCR text file and its matching source PDF into a Tadoku reader. The OCR text is the only source for story wording and study analysis. Do not run OCR or use the PDF as a text source during this workflow. The PDF is used unchanged as the published reader and as the source for its cover image. Do not add the reading-loop/loupe feature to generated guides.
+This is the repeatable workflow for converting source PDFs and, when available, their matching Surya OCR text into Tadoku readers. Use the paired OCR transcript as the story source for books in an OCR batch. If the user explicitly designates a book for direct PDF processing (as with Sakura and Daizu in this run), read its rendered PDF pages directly and do not use an OCR transcript. Do not add the reading-loop/loupe feature to generated guides.
 
 ## Inputs and selection
 
 - Source PDFs are in `Folders/Books/{level}/`; OCR text files are in `Folders/OCR/`.
 - When given a level folder, sort its PDFs by natural filename order and select the first not already present in `Folders/Processed/{level}/PDF/` or published under its final slug. Process clear matches in that order.
 - Pair an OCR file by normalizing case, punctuation, whitespace, a leading `Level{n}-`, level suffixes such as `L0`, and OCR suffixes such as `-SuryaOCR`. Prefer an exact normalized title match. Never guess when there are multiple plausible matches or no match.
-- For a missing or ambiguous match, ask the user for the exact OCR file and wait up to 60 seconds. If unanswered, add a `WAITING_FOR_USER` entry to `BOOK_PROCESSING_REVIEW.md` with the PDF path, level, candidate OCR paths (or `none found`), and an empty selected-path field. Leave both inputs in place and continue with the next clear match. On rerun, process resolved queue entries and skip unresolved entries.
+- For a missing or ambiguous match, do not guess. If the user does not resolve it within 60 seconds, add a `WAITING_FOR_USER` entry to `BOOK_PROCESSING_REVIEW.md` with the PDF path, level, candidate OCR paths (or `none found`), and an empty selected-path field. Leave the PDF in place and continue with the next clear match. On rerun, process resolved queue entries and skip unresolved entries.
 
 ## Build the guide
 
@@ -20,7 +20,7 @@ This is the repeatable workflow for converting an existing Surya OCR text file a
 
 ## Local output layout
 
-Choose the English story title from the OCR content and use a lowercase level-prefixed slug. For `Level0-Sakura`, write:
+Choose the English story title from the PDF or paired OCR content and use a lowercase level-prefixed slug. For `Level0-Sakura`, write:
 
 ```text
 Folders/Processed/Level0/
@@ -31,7 +31,7 @@ Folders/Processed/Level0/
 └── PDF/Level0-Sakura.pdf
 ```
 
-Copy the source PDF and paired OCR TXT to staging outputs first. Move the originals out of `Books` and `OCR` only after guide validation, database import, and R2 publication all succeed. If any step fails, retain the input files for retry.
+Copy the source PDF into `PDF` and the paired OCR TXT into `OCR`; leave the source OCR TXT in `Folders/OCR`. After guide validation, database import, R2 asset upload, and the live catalog entry all succeed, verify that the processed PDF copy has the same file hash as its source, then delete the original PDF from `Folders/Books/{level}`. If any step fails, retain the source PDF for retry.
 
 ## Database and global totals
 
@@ -51,4 +51,4 @@ Upload the following to the existing `todaku` bucket under `books/{slug}/`:
 - `metadata.json` — public book details only; never put `studyData` or user preferences in this object.
 - `study-data.json` — the per-book sidecar archive, stored as a private R2 object with no public route; PostgreSQL remains canonical.
 
-Verify every uploaded object and the database rows before adding or updating the entry in root `library.json`. Publish that catalog entry last. A content-only reader update does not require redeploying the Pages app. Commit each complete change; do not include unrelated pre-existing working-tree changes.
+Verify every uploaded object and the database rows before adding or updating the entry in root `library.json`. Publish that catalog entry last. A content-only reader update does not require redeploying the Pages app. Run the Level 0 batch with `npm run process:level0`. Commit each complete code/configuration/workflow change; do not include unrelated pre-existing working-tree changes.

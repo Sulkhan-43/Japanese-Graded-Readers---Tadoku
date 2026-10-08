@@ -10,6 +10,7 @@ const foldersRoot = path.join(root, 'Folders');
 const wrangler = path.join(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
 const libraryPath = path.join(foldersRoot, '.library-current.json');
 const uploadConcurrency = Math.max(1, Math.min(5, Number(process.env.R2_UPLOAD_CONCURRENCY || 3)));
+const requestedSlugs = new Set(process.argv.find((arg) => arg.startsWith('--slugs='))?.slice('--slugs='.length).split(',').map((slug) => slug.trim()).filter(Boolean) || []);
 
 async function walk(directory) {
   let entries;
@@ -44,6 +45,7 @@ if (!metadataPaths.length) throw new Error('No local reader metadata files were 
 const books = [];
 for (const metadataPath of metadataPaths) {
   const metadata = JSON.parse(await readFile(metadataPath, 'utf8'));
+  if (requestedSlugs.size && !requestedSlugs.has(metadata.slug)) continue;
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(metadata.slug || '') || !metadata.name || !metadata.level) {
     throw new Error(`Invalid reader metadata in ${metadataPath}`);
   }
@@ -55,11 +57,16 @@ for (const metadataPath of metadataPaths) {
     metadataPath,
     htmlPath: path.join(outputRoot, 'HTML', `${filename}.html`),
     pdfPath: path.join(outputRoot, 'PDF', `${filename}.pdf`),
-    ocrPath: path.join(outputRoot, 'OCR', `${filename}-SuryaOCR.txt`),
+    ocrPath: metadata.ocrR2Key ? path.join(outputRoot, 'OCR', `${filename}-SuryaOCR.txt`) : null,
     coverPath: path.join(outputRoot, 'COVER', `${filename}.jpg`),
     studyDataPath: `${basePath}.study-data.json`,
     pdfKey: metadata.pdfR2Key || `books/${metadata.slug}/source.pdf`,
   });
+}
+if (requestedSlugs.size) {
+  const found = new Set(books.map(({ metadata }) => metadata.slug));
+  const missing = [...requestedSlugs].filter((slug) => !found.has(slug));
+  if (missing.length) throw new Error(`Could not find local reader files for: ${missing.join(', ')}.`);
 }
 
 await wranglerCommand(['r2', 'object', 'get', 'todaku/library.json', '--remote', '--file', libraryPath]);
@@ -101,7 +108,7 @@ async function worker() {
     try {
       await writeFile(publicMetadataPath, `${JSON.stringify(publicMetadata, null, 2)}\n`, 'utf8');
       await wranglerCommand(['r2', 'object', 'put', `todaku/${pdfKey}`, '--remote', '--file', pdfPath, '--content-type', 'application/pdf']);
-      await wranglerCommand(['r2', 'object', 'put', `todaku/books/${metadata.slug}/source-ocr.txt`, '--remote', '--file', ocrPath, '--content-type', 'text/plain; charset=utf-8']);
+      if (ocrPath) await wranglerCommand(['r2', 'object', 'put', `todaku/${metadata.ocrR2Key}`, '--remote', '--file', ocrPath, '--content-type', 'text/plain; charset=utf-8']);
       await wranglerCommand(['r2', 'object', 'put', `todaku/${metadata.coverR2Key || `books/${metadata.slug}/cover.jpg`}`, '--remote', '--file', coverPath, '--content-type', 'image/jpeg']);
       await wranglerCommand(['r2', 'object', 'put', `todaku/books/${metadata.slug}/study-data.json`, '--remote', '--file', studyDataPath, '--content-type', 'application/json; charset=utf-8']);
       await wranglerCommand(['r2', 'object', 'put', `todaku/books/${metadata.slug}/metadata.json`, '--remote', '--file', publicMetadataPath, '--content-type', 'application/json; charset=utf-8']);
@@ -124,7 +131,7 @@ try {
 
   await writeFile(libraryPath, `${JSON.stringify(library, null, 2)}\n`, 'utf8');
   await wranglerCommand(['r2', 'object', 'put', 'todaku/library.json', '--remote', '--file', libraryPath, '--content-type', 'application/json; charset=utf-8']);
-  console.log(`Published ${books.length} reader(s) (PDF, OCR, cover, study data, public metadata, and guide) and updated library.json with ${library.books.length} reader(s).`);
+  console.log(`Published ${books.length} reader(s) (PDF${books.some((book) => book.ocrPath) ? ', OCR' : ''}, cover, private study data, public metadata, and guide) and updated library.json with ${library.books.length} reader(s).`);
 } finally {
   await rm(libraryPath, { force: true });
 }

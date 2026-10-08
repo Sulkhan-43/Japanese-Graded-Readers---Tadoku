@@ -9,6 +9,7 @@ const foldersRoot = path.join(root, 'Folders');
 const migrationsRoot = path.join(root, 'db', 'migrations');
 const upload = process.argv.includes('--upload');
 const migrateOnly = process.argv.includes('--migrate-only');
+const requestedSlugs = new Set(process.argv.find((arg) => arg.startsWith('--slugs='))?.slice('--slugs='.length).split(',').map((slug) => slug.trim()).filter(Boolean) || []);
 
 function grammarSegments(record) {
   return record.patternSegments || record.segments || [];
@@ -37,6 +38,7 @@ async function loadBooks() {
   const books = [];
   for (const metadataPath of paths) {
     const metadata = JSON.parse(await readFile(metadataPath, 'utf8'));
+    if (requestedSlugs.size && !requestedSlugs.has(metadata.slug)) continue;
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(metadata.slug || '')) {
       throw new Error(`Invalid or missing slug in ${metadataPath}`);
     }
@@ -46,6 +48,11 @@ async function loadBooks() {
     validateRecords(metadata.studyData.vocabulary, metadata.slug, 'vocabulary');
     validateRecords(metadata.studyData.grammar, metadata.slug, 'grammar');
     books.push({ metadataPath, metadata });
+  }
+  if (requestedSlugs.size) {
+    const found = new Set(books.map(({ metadata }) => metadata.slug));
+    const missing = [...requestedSlugs].filter((slug) => !found.has(slug));
+    if (missing.length) throw new Error(`Could not find local study metadata for: ${missing.join(', ')}.`);
   }
   return books;
 }
