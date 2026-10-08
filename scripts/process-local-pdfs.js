@@ -83,6 +83,8 @@ function validateStudyData(data, sourceName) {
   if (data.japaneseTitle && plainSegments(data.japaneseTitleSegments) !== data.japaneseTitle) {
     throw new Error(`${sourceName}: Japanese title segments do not match the title text.`);
   }
+  const vocabularyKeyAliases = new Map();
+  const grammarKeyAliases = new Map();
   for (const [index, passage] of data.passages.entries()) {
     if (!Array.isArray(passage.sentences) || !passage.sentences.length) {
       throw new Error(`${sourceName}: passage ${index + 1} has no sentences.`);
@@ -100,7 +102,10 @@ function validateStudyData(data, sourceName) {
     if (!Number.isInteger(item.firstPassage) || item.firstPassage < 1 || item.firstPassage > data.passages.length) {
       throw new Error(`${sourceName}: invalid first passage for vocabulary ${item.japanese}.`);
     }
-    item.key = `vocabulary:${item.japanese}|${item.reading}`;
+    const canonicalKey = `vocabulary:${item.japanese}|${item.reading}`;
+    if (item.key) vocabularyKeyAliases.set(item.key, canonicalKey);
+    vocabularyKeyAliases.set(canonicalKey, canonicalKey);
+    item.key = canonicalKey;
   }
   for (const [index, item] of (data.grammar || []).entries()) {
     validateSegments(item.patternSegments, `${sourceName} grammar ${index + 1}`);
@@ -110,11 +115,16 @@ function validateStudyData(data, sourceName) {
     if (!Number.isInteger(item.firstPassage) || item.firstPassage < 1 || item.firstPassage > data.passages.length) {
       throw new Error(`${sourceName}: invalid first passage for grammar ${item.pattern}.`);
     }
-    item.key = `grammar:${item.pattern.normalize('NFKC').replace(/\s+/g, ' ').trim()}`;
+    const canonicalKey = `grammar:${item.pattern.normalize('NFKC').replace(/\s+/g, ' ').trim()}`;
+    if (item.key) grammarKeyAliases.set(item.key, canonicalKey);
+    grammarKeyAliases.set(canonicalKey, canonicalKey);
+    item.key = canonicalKey;
   }
   const vocabularyKeys = new Set((data.vocabulary || []).map((item) => item.key));
   const grammarKeys = new Set((data.grammar || []).map((item) => item.key));
   for (const [index, passage] of data.passages.entries()) {
+    passage.vocabularyKeys = (passage.vocabularyKeys || []).map((key) => vocabularyKeyAliases.get(key) || key);
+    passage.grammarKeys = (passage.grammarKeys || []).map((key) => grammarKeyAliases.get(key) || key);
     for (const key of passage.vocabularyKeys || []) if (!vocabularyKeys.has(key)) throw new Error(`${sourceName}: unknown vocabulary key in passage ${index + 1}.`);
     for (const key of passage.grammarKeys || []) if (!grammarKeys.has(key)) throw new Error(`${sourceName}: unknown grammar key in passage ${index + 1}.`);
   }
