@@ -34,8 +34,9 @@ const STUDY_GUIDE_LANGUAGE_STYLES = `
   border-color: #73927a;
   background: #eef3ed;
   color: #315f3d;
+  font-family: ui-monospace, monospace;
   font-size: .94rem;
-  font-style: italic;
+  font-weight: 500;
   line-height: 1.65;
 }
 .translation {
@@ -54,6 +55,13 @@ const STUDY_GUIDE_LANGUAGE_STYLES = `
 }
 .romaji .line-label { color: #607a68; }
 .translation .line-label { color: #b15c2a; }
+.guide-note-romaji {
+  color: #315f3d;
+  font-family: ui-monospace, monospace;
+  font-size: .9em;
+  font-weight: 600;
+}
+.guide-note-meaning { color: #754522; font-weight: 500; }
 @media (max-width: 560px) {
   .romaji, .translation { padding: .55rem .65rem; }
 }
@@ -121,6 +129,8 @@ function presentStudyGuideLanguages(html) {
     const openingTag = new RegExp(`(<(?:p|div)\\b[^>]*\\bclass="[^"]*\\b${className}\\b[^"]*"[^>]*>)(?!\\s*<span\\b[^>]*\\bclass="[^"]*\\bline-label\\b[^"]*"[^>]*>)`, 'gi');
     output = output.replace(openingTag, `$1<span class="line-label">${label}</span>`);
   }
+  output = output.replace(/(\([A-Za-zÀ-ž][^()<>]*\))(?=<span\b[^>]*\bclass="[^"]*\bjp-loupe\b|<\/strong>)/gi, '<span class="guide-note-romaji">$1</span>');
+  output = output.replace(/(<\/strong>\s*[—–]\s*)([^<]+)(?=<\/li>)/gi, '$1<span class="guide-note-meaning">$2</span>');
   return output;
 }
 

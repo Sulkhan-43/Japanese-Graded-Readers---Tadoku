@@ -8,7 +8,8 @@
     "deploy": "npm run build && wrangler pages deploy dist --project-name todaku",
     "create:hyperdrive": "node --env-file=.env scripts/create-hyperdrive.js",
     "refresh:guide-indexes": "node scripts/rebuild-study-index.js",
-    "update:study-index:db": "node --env-file=.env scripts/sync-study-database.js"
+    "update:study-index:db": "node --env-file=.env scripts/sync-study-database.js",
+    "publish:local-pdfs": "node --env-file=.env scripts/publish-local-pdfs.js"
   },
   "devDependencies": {
     "vite": "latest",
