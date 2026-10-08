@@ -21,10 +21,15 @@ export function countJapaneseWords(text) {
 }
 
 export function countJapaneseWordsInReport(html) {
-  const passages = String(html || '').matchAll(/<p\b[^>]*\bclass=["']([^"']*)["'][^>]*>([\s\S]*?)<\/p>/gi);
+  const source = String(html || '');
+  const openings = /<(div|p)\b[^>]*\bclass=["']([^"']*)["'][^>]*>/gi;
   let count = 0;
-  for (const [, classNames, markup] of passages) {
-    if (!classNames.split(/\s+/).includes('japanese')) continue;
+  for (const match of source.matchAll(openings)) {
+    const [, tagName, classNames] = match;
+    if (!classNames.split(/\s+/).some((name) => name === 'jp' || name === 'japanese')) continue;
+    const closeAt = source.indexOf(`</${tagName}>`, match.index + match[0].length);
+    if (closeAt < 0) continue;
+    const markup = source.slice(match.index + match[0].length, closeAt);
     const japaneseText = decodeHtmlEntities(markup
       .replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/gi, '')
       .replace(/<[^>]*>/g, ''));
