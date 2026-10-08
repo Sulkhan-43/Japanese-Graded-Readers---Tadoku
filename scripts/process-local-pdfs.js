@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { countJapaneseWordsInReport } from './japanese-word-count.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const foldersRoot = path.join(root, 'Folders');
@@ -618,6 +619,7 @@ async function processOne(pdfPath, manifest, slugs) {
       generationStatus: 'completed',
       generationProgress: 100,
       generationError: null,
+      wordCount: countJapaneseWordsInReport(guideHtml),
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       studyData,

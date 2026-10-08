@@ -32,11 +32,21 @@ async function walk(directory) {
 }
 
 async function wranglerCommand(args) {
-  await execFileAsync(process.execPath, [wrangler, ...args], {
-    cwd: root,
-    windowsHide: true,
-    maxBuffer: 1024 * 1024,
-  });
+  const attempts = 3;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      await execFileAsync(process.execPath, [wrangler, ...args], {
+        cwd: root,
+        windowsHide: true,
+        maxBuffer: 1024 * 1024,
+      });
+      return;
+    } catch (error) {
+      if (attempt === attempts) throw error;
+      console.warn(`R2 operation failed; retrying (${attempt + 1}/${attempts}).`);
+      await new Promise((resolve) => setTimeout(resolve, 800 * (2 ** (attempt - 1))));
+    }
+  }
 }
 
 const metadataPaths = (await walk(foldersRoot)).sort();
@@ -82,6 +92,7 @@ for (const { metadata } of books) {
     japaneseTitle: metadata.japaneseTitle || '',
     slug: metadata.slug,
     level: metadata.level,
+    wordCount: Number.isInteger(metadata.wordCount) && metadata.wordCount >= 0 ? metadata.wordCount : 0,
     description: '',
     originalUrl: metadata.originalUrl || '',
     studyGuidePath: `/study/${metadata.slug}`,

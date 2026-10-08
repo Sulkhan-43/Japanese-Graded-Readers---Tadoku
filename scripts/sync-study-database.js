@@ -3,6 +3,7 @@ import { readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Client } from 'pg';
+import { countJapaneseWordsInReport } from './japanese-word-count.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const foldersRoot = path.join(root, 'Folders');
@@ -47,6 +48,15 @@ async function loadBooks() {
     }
     validateRecords(metadata.studyData.vocabulary, metadata.slug, 'vocabulary');
     validateRecords(metadata.studyData.grammar, metadata.slug, 'grammar');
+    const filename = path.basename(metadataPath).replace(/\.metadata\.json$/, '');
+    const htmlPath = path.join(path.dirname(path.dirname(metadataPath)), 'HTML', `${filename}.html`);
+    try {
+      metadata.wordCount = countJapaneseWordsInReport(await readFile(htmlPath, 'utf8'));
+      await writeFile(metadataPath, `${JSON.stringify(metadata, null, 2)}\n`, 'utf8');
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+      metadata.wordCount = Number.isInteger(metadata.wordCount) && metadata.wordCount >= 0 ? metadata.wordCount : 0;
+    }
     books.push({ metadataPath, metadata });
   }
   if (requestedSlugs.size) {
@@ -103,14 +113,15 @@ async function importBooks(client, books) {
     for (const { metadata } of books) {
       const { studyData, ...publicMetadata } = metadata;
       await client.query(
-        `INSERT INTO study_books (slug, name, level, metadata)
-         VALUES ($1, $2, $3, $4::jsonb)
+        `INSERT INTO study_books (slug, name, level, metadata, word_count)
+         VALUES ($1, $2, $3, $4::jsonb, $5)
          ON CONFLICT (slug) DO UPDATE SET
            name = EXCLUDED.name,
            level = EXCLUDED.level,
            metadata = EXCLUDED.metadata,
+           word_count = EXCLUDED.word_count,
            updated_at = NOW()`,
-        [metadata.slug, metadata.name, metadata.level, JSON.stringify(publicMetadata)],
+        [metadata.slug, metadata.name, metadata.level, JSON.stringify(publicMetadata), metadata.wordCount],
       );
 
       // Replace each reader's joins so repeated imports set counts instead of adding to them.

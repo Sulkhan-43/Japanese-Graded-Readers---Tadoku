@@ -66,16 +66,30 @@ async function exists(filePath) {
 const pdfNames = await listPdfs(sourceRoot);
 if (!pdfNames.length) throw new Error('No source PDFs were found in Folders/Books/0.');
 
-const matchProblems = await checkOcrMatches(pdfNames);
-if (matchProblems.length) {
+const priorReview = await readFile(reviewPath, 'utf8').catch(() => '');
+const ignoredSections = priorReview.split(/(?=^## )/m)
+  .map((section) => section.trim())
+  .filter((section) => section.startsWith('## IGNORED:'));
+const ignoredNames = new Set(ignoredSections.map((section) => section.slice('## IGNORED:'.length).split(/\r?\n/, 1)[0].trim()));
+const ignoredPdfs = pdfNames.filter((pdfName) => ignoredNames.has(pdfName));
+const activePdfNames = pdfNames.filter((pdfName) => !ignoredNames.has(pdfName));
+
+let priorFailures = [];
+try { priorFailures = JSON.parse(await readFile(failuresPath, 'utf8')); } catch { /* no failure history yet */ }
+const activeFailures = priorFailures.filter((failure) => !ignoredNames.has(path.basename(failure.path || '')));
+if (activeFailures.length !== priorFailures.length) await writeFile(failuresPath, `${JSON.stringify(activeFailures, null, 2)}\n`, 'utf8');
+
+const matchProblems = await checkOcrMatches(activePdfNames);
+if (matchProblems.length || ignoredSections.length) {
   const queues = matchProblems.map(({ pdfName, matches }) => `## WAITING_FOR_USER: ${pdfName}\n\n- Level: 0\n- PDF: \`Folders/Books/0/${pdfName}\`\n- OCR candidates: ${matches.length ? matches.map((name) => `\`Folders/OCR/${name}\``).join(', ') : 'none found'}\n- Selected OCR path:\n`).join('\n');
-  await writeFile(reviewPath, `# Level 0 PDF/OCR matching review\n\nResolve these items when available. The current batch will continue with the two designated direct-PDF readers and every unambiguous OCR match.\n\n${queues}`, 'utf8');
+  const ignored = ignoredSections.join('\n\n');
+  await writeFile(reviewPath, `# Level 0 PDF/OCR matching review\n\nResolve waiting items when available. Ignored PDFs remain in Folders/Books/0 and are excluded from future batches.\n\n${ignored}${ignored && queues ? '\n\n' : ''}${queues}`, 'utf8');
 } else {
   await rm(reviewPath, { force: true });
 }
 
 const heldForReview = new Set(matchProblems.map(({ pdfName }) => pdfName));
-const clearSources = pdfNames.filter((pdfName) => !heldForReview.has(pdfName));
+const clearSources = activePdfNames.filter((pdfName) => !heldForReview.has(pdfName));
 if (!clearSources.length) throw new Error(`No unambiguous Level 0 PDFs are ready. Review ${path.relative(root, reviewPath)}.`);
 
 console.log(`Level 0 batch: ${clearSources.length} clear PDFs; Sakura and Daizu use direct PDF page images; the remaining clear readers use matching Surya OCR files.`);
@@ -108,8 +122,10 @@ for (const entry of processedEntries) {
 if (!publishable.length) {
   if (processorExit !== 0) {
     const failures = await readFile(failuresPath, 'utf8').catch(() => '[]');
-    const rows = JSON.parse(failures).map((failure) => `| ${failure.path.replaceAll('|', '\\|')} | ${failure.message.replaceAll('|', '\\|')} |`).join('\n');
-    await writeFile(reviewPath, `# Level 0 processing review\n\nNo guides were ready to publish. Failed PDFs remain in Folders/Books/0.\n\n| PDF | Issue |\n| --- | --- |\n${rows}\n`, 'utf8');
+    const rows = JSON.parse(failures).filter((failure) => !ignoredNames.has(path.basename(failure.path || '')))
+      .map((failure) => `| ${failure.path.replaceAll('|', '\\|')} | ${failure.message.replaceAll('|', '\\|')} |`).join('\n');
+    const ignored = ignoredSections.join('\n\n');
+    await writeFile(reviewPath, `# Level 0 processing review\n\nNo guides were ready to publish. Failed PDFs remain in Folders/Books/0.\n\n${ignored}${ignored ? '\n\n' : ''}| PDF | Issue |\n| --- | --- |\n${rows}\n`, 'utf8');
   }
   throw new Error('The batch produced no complete local readers; source PDFs were left in place.');
 }
@@ -142,13 +158,15 @@ for (const { entry, copiedPdf } of publishable) {
 
 let failures = [];
 try { failures = JSON.parse(await readFile(failuresPath, 'utf8')); } catch { /* no failure report yet */ }
-if (failures.length || matchProblems.length) {
+failures = failures.filter((failure) => !ignoredNames.has(path.basename(failure.path || '')));
+if (failures.length || matchProblems.length || ignoredSections.length) {
   const queues = matchProblems.map(({ pdfName, matches }) => `## WAITING_FOR_USER: ${pdfName}\n\n- Level: 0\n- PDF: \`Folders/Books/0/${pdfName}\`\n- OCR candidates: ${matches.length ? matches.map((name) => `\`Folders/OCR/${name}\``).join(', ') : 'none found'}\n- Selected OCR path:\n`).join('\n');
+  const ignored = ignoredSections.join('\n\n');
   const failureRows = failures.map((failure) => `| ${failure.path.replaceAll('|', '\\|')} | ${failure.message.replaceAll('|', '\\|')} |`).join('\n');
   const failureSection = failures.length ? `## Processing failures\n\nThese source PDFs were retained for retry.\n\n| PDF | Issue |\n| --- | --- |\n${failureRows}\n` : '';
-  await writeFile(reviewPath, `# Level 0 processing review\n\n${queues}${failureSection}`, 'utf8');
+  await writeFile(reviewPath, `# Level 0 processing review\n\n${ignored}${ignored && (queues || failureSection) ? '\n\n' : ''}${queues}${failureSection}`, 'utf8');
 } else {
   await rm(reviewPath, { force: true });
 }
 
-console.log(`Verified ${slugs.length} published reader(s), removed ${deleted} original PDF(s) after confirming their processed copies and public catalog entries.${failures.length ? ` ${failures.length} PDF(s) remain queued in ${path.relative(root, reviewPath)}.` : ''}`);
+console.log(`Verified ${slugs.length} published reader(s), removed ${deleted} original PDF(s) after confirming their processed copies and public catalog entries.${failures.length ? ` ${failures.length} PDF(s) remain queued in ${path.relative(root, reviewPath)}.` : ''}${ignoredPdfs.length ? ` ${ignoredPdfs.length} PDF(s) remain marked Ignored.` : ''}`);

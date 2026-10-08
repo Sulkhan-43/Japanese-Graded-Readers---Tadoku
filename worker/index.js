@@ -244,6 +244,7 @@ async function route(request, env) {
       japaneseTitle: book.japaneseTitle || '',
       slug: book.slug,
       level: book.level || 'Unleveled',
+      wordCount: Number.isInteger(book.wordCount) && book.wordCount >= 0 ? book.wordCount : 0,
       coverPath: book.coverPath || null,
       pdfPath: `/pdf/${book.slug}`,
       status: book.status,

@@ -20,6 +20,9 @@ function bookCard(book, index, user, statuses) {
     ? `<img class="book-cover" src="${escapeHTML(book.coverPath)}" alt="Cover of ${escapeHTML(book.name)}" loading="lazy">`
     : `<div class="cover-art cover-art-${(index % 4) + 1}" aria-hidden="true"><span class="cover-edition">TADOKU · ${escapeHTML(book.level || 'READER')}</span><span class="cover-kanji" lang="ja">${escapeHTML(book.japaneseTitle || '本')}</span><span class="cover-title">${escapeHTML(book.name)}</span><span class="cover-seal" lang="ja">読</span></div>`;
   const status = statuses.get(book.slug) || 'To_Do';
+  const wordCount = Number.isInteger(book.wordCount) && book.wordCount > 0
+    ? `<p class="book-word-count">${new Intl.NumberFormat('en').format(book.wordCount)} Japanese words</p>`
+    : '';
   const statusControl = user
     ? progressSelect(book, status)
     : '<span class="book-status"><i></i>PDF available</span>';
@@ -32,6 +35,7 @@ function bookCard(book, index, user, statuses) {
     <div class="book-card-copy"><div class="book-card-top"><span class="eyebrow">${escapeHTML(book.level || 'Unleveled')}</span>${statusControl}</div>
       <h2><a href="/book/${encodeURIComponent(book.slug)}">${escapeHTML(book.name)}</a></h2>
       ${book.japaneseTitle ? `<p class="book-japanese" lang="ja">${escapeHTML(book.japaneseTitle)}</p>` : ''}
+      ${wordCount}
       <div class="book-actions"><a class="button button-primary" href="/read/${encodeURIComponent(book.slug)}">Read the PDF <span aria-hidden="true">↗</span></a>${studyGuide}</div>
     </div>
   </article>`;
@@ -42,7 +46,10 @@ function libraryMarkup(books, user, progress) {
   const statusOrder = { To_Do: 0, In_Progress: 1, Finished: 2 };
   const shelfBooks = books
     .map((book, index) => ({ book, index, status: statuses.get(book.slug) || 'To_Do' }))
-    .sort((a, b) => (statusOrder[a.status] ?? 0) - (statusOrder[b.status] ?? 0) || a.index - b.index);
+    .sort((a, b) => (statusOrder[a.status] ?? 0) - (statusOrder[b.status] ?? 0)
+      || (Number(b.book.wordCount) || 0) - (Number(a.book.wordCount) || 0)
+      || a.book.name.localeCompare(b.book.name, 'ja')
+      || a.index - b.index);
   const levels = [...new Set(books.map((book) => book.level).filter(Boolean))].sort((a, b) => a.localeCompare(b));
   const control = books.length ? `<div class="library-tools"><label class="search-field"><span class="sr-only">Search books</span><span class="search-icon" aria-hidden="true">⌕</span><input id="book-search" type="search" placeholder="Find a story" autocomplete="off"></label>
     <label class="select-field"><span class="sr-only">Filter by level</span><select id="level-filter"><option value="">All levels</option>${levels.map((level) => `<option value="${escapeHTML(level)}">${escapeHTML(level)}</option>`).join('')}</select></label>

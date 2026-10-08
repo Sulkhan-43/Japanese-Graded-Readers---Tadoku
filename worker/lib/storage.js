@@ -21,6 +21,7 @@ export function toLibraryEntry(metadata) {
     japaneseTitle: metadata.japaneseTitle || '',
     slug: metadata.slug,
     level: metadata.level || 'Unleveled',
+    wordCount: Number.isInteger(metadata.wordCount) && metadata.wordCount >= 0 ? metadata.wordCount : 0,
     originalUrl: metadata.originalUrl || '',
     pdfPath: `/pdf/${metadata.slug}`,
     coverPath: metadata.coverR2Key ? `/assets/books/${metadata.slug}/cover?v=${encodeURIComponent(metadata.updatedAt || '')}` : null,
