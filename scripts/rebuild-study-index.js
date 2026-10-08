@@ -26,7 +26,7 @@ function renderJapanese(segments = []) {
     }
     return escapeHtml(segment.text || '');
   }).join('');
-  return `<span class="note-loupe-trigger" tabindex="0">${japanese}<span class="jp-loupe note-loupe" aria-hidden="true"><div class="loupe-kicker">Reading loupe · magnified</div><div class="jp jp-loupe-text note-loupe-text">${japanese}</div></span></span>`;
+  return japanese;
 }
 
 async function walk(directory) {

@@ -7,6 +7,8 @@
 - Save matching structured metadata locally beside the guide as `Level{folder-level}-{StoryTitle}.metadata.json`. This local sidecar is the import source for PostgreSQL; public R2 `books/{slug}/metadata.json` contains book details only and must omit `studyData`.
 - Use a lowercase, hyphenated R2 slug that includes the level, for example `level0-sakura`. For this library, publish each reader using `books/{slug}/source.pdf`, `books/{slug}/metadata.json`, `books/{slug}/study-guide.html`, and an optional `books/{slug}/cover.jpg`; update the root `library.json` while preserving existing entries.
 - Save structured book-specific vocabulary and grammar records, first-passage references, and source-text occurrence counts in the local metadata sidecar under `studyData`. PostgreSQL is the canonical store and the production source for cross-reader occurrence counts; `library.json` remains only the reader catalog. Production guides query the database through Cloudflare Hyperdrive and replace the master-index region on each request. Do not use a root `study-index.json` as a production data source or re-run OCR/AI analysis for older PDFs when adding a new title.
+- Build each PDF's vocabulary and grammar independently. A term explained in another book must still be available for explanation in this book; do not consult another PDF, its sidecar, or the shared database to suppress this report's notes. Deduplicate explanations only within the current PDF. Cross-reader database totals are for indexes/catalog views and do not control which study notes are generated. An account's explicit Hide preference is a separate report-display choice.
+- If a report already exists but is missing this book-specific vocabulary or grammar, regenerate its HTML and metadata sidecar from the existing PDF. Re-import the corrected sidecar and refresh the indexes; valid-looking old metadata is not evidence that its glossary is complete.
 - Use `studyData.version: 1`. Each vocabulary record must contain a stable key, Japanese headword, `japaneseSegments`, reading, romaji, English meaning, one-based `firstPassage`, and `occurrenceCount`. Each grammar record must contain a stable normalized key and pattern, `patternSegments`, concise explanation, one-based `firstPassage`, and `occurrenceCount`. Ruby segments use `{"base":"桜","reading":"さくら"}`; ordinary kana/text uses `{"text":"の"}`. Reuse the same key for the same sense/construction across books; include a sense suffix if a vocabulary reading or meaning differs.
 - Once all local metadata sidecars and guide files for the batch are ready, run `npm run update:study-index:db -- --upload`. This applies SQL migrations, replaces the imported readers' normalized records transactionally, and publishes public metadata without `studyData`. Upload source PDFs and guide HTML, then update `library.json` through the reader publishing workflow.
 - Keep the generated HTML self-contained. Do not change the Pages app or deploy the site as part of a PDF batch unless separately requested.
@@ -65,7 +67,7 @@ IMPORTANT RULES:
 
 VERY IMPORTANT — NO DUPLICATE EXPLANATIONS:
 
-Maintain a global list of vocabulary and grammar points already explained earlier in the document.
+Maintain a global list of vocabulary and grammar points already explained earlier in this document. Apply this duplicate-explanation rule only within the current PDF. Never omit a useful explanation because the same item exists in another book, report, sidecar, or shared database.
 
 If a vocabulary word has already been explained on an earlier page:
 - Do NOT explain it again.
@@ -93,13 +95,15 @@ Use:
 - a clear title/header
 - section cards for each page or passage
 - Japanese text in large font
-- Romaji directly below it
-- English translation below that
+- Romaji directly below the Japanese, in a restrained italic treatment with a visible “Romaji” label
+- English translation below the romaji, in its own warm, readable treatment with a visible “English” label
 - Vocabulary section
 - Grammar Notes section
 - subtle page/passage labels
 - readable spacing and typography
 - responsive layout suitable for desktop and mobile
+
+Keep the romaji and English translation visually distinct and consistent across every passage in every guide. Use labels as well as color, so the language role is clear without relying on color alone. Keep vocabulary romaji in the same green, compact treatment as passage romaji. Match vocabulary and grammar English meanings to the same warm treatment used for passage translations.
 
 Recommended visual hierarchy:
 
@@ -110,7 +114,7 @@ Vocabulary / Grammar → compact study-note format
 
 You may use embedded CSS inside the HTML.
 Do not require external libraries, JavaScript frameworks, fonts, or internet access.
-Include a visible, self-contained Reading Loupe toggle. When enabled, hovering or keyboard-focusing Japanese text should show a readable enlarged preview that preserves its furigana. Make it work on every passage, vocabulary item, grammar pattern/example, and both master indexes, not only the large passage block. In vocabulary and grammar cards, each Japanese term or example must be independently hoverable/focusable. Keep the feature compatible with the site's restrictive Content Security Policy; prefer HTML/CSS and do not add inline JavaScript unless the Worker policy is deliberately updated.
+Do not include a reading loupe, loop control, magnified duplicate Japanese text, or “Reading loupe · magnified” label anywhere in the report.
 
 At the beginning of the report, include:
 - Book title

@@ -68,7 +68,7 @@ The deploy script targets the `todaku` Pages project. Its `BOOKS_BUCKET` and `HY
 
 - Browse and filter published readers by title and level; open public source PDFs.
 - Create an account with a username and key, then save per-reader status and view overall and per-level reading progress.
-- Unlock guide pages with Japanese text, readings, translations, vocabulary, grammar, and reading-loupe interactions after marking a reader Finished.
+- Unlock guide pages with Japanese text, readings, translations, vocabulary, and grammar after marking a reader Finished.
 - Serve guide HTML and cover images from R2 while querying vocabulary and grammar indexes from PostgreSQL.
 - Show each signed-in reader only vocabulary and grammar from their Finished books on `/vocabulary`; store their per-account report visibility in PostgreSQL and apply it privately when serving reports from R2.
 - Keep content generation and uploads outside the public site.

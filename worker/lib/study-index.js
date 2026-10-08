@@ -15,7 +15,7 @@ function renderJapanese(segments = []) {
     }
     return escapeHtml(segment.text || '');
   }).join('');
-  return `<span class="note-loupe-trigger" tabindex="0">${text}<span class="jp-loupe note-loupe" aria-hidden="true"><div class="loupe-kicker">Reading loupe · magnified</div><div class="jp jp-loupe-text note-loupe-text">${text}</div></span></span>`;
+  return text;
 }
 
 function normalizeStudyLabel(value = '') {
@@ -25,8 +25,7 @@ function normalizeStudyLabel(value = '') {
 function noteLabel(listItem) {
   const strong = listItem.match(/<strong\b[^>]*>([\s\S]*?)<\/strong>/i)?.[1];
   if (!strong) return '';
-  const popupIndex = strong.search(/<span\b[^>]*class=["'][^"']*\bjp-loupe\b[^"']*["'][^>]*>/i);
-  const visible = (popupIndex >= 0 ? strong.slice(0, popupIndex) : strong)
+  const visible = strong
     .replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/gi, '')
     .replace(/<[^>]*>/g, '')
     .replace(/&nbsp;/gi, ' ')
