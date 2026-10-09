@@ -29,7 +29,7 @@ const STUDY_GUIDE_LANGUAGE_STYLES = `
 .study-guide-back {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
+  min-height: 44px;
   padding: 0 .8rem;
   border: 1px solid #d9ddd4;
   border-radius: 999px;
@@ -60,8 +60,9 @@ const STUDY_GUIDE_LANGUAGE_STYLES = `
   color: #754522;
 }
 .study-index-hide {
-  min-height: 29px;
-  padding: .3rem .62rem;
+  min-width: 44px;
+  min-height: 44px;
+  padding: .4rem .7rem;
   border: 1px solid #dfc6bd;
   border-radius: 999px;
   background: #fff8f4;
@@ -71,6 +72,26 @@ const STUDY_GUIDE_LANGUAGE_STYLES = `
 }
 .study-index-hide:hover { border-color: #c76b4d; background: #fbf1e9; }
 .study-index-hide:disabled { cursor: wait; opacity: .7; }
+.index-card {
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px solid #d9ddd4;
+  background: #fffefa;
+}
+.index-card-head h2 { margin: 0 0 5px; font: 500 21px/1.2 Georgia, serif; }
+.index-card-head p { margin: 0 0 12px; color: #6f7c72; font: 12px/1.55 Arial, sans-serif; }
+.index-table-wrap,
+.table-scroll,
+.table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+.index-table-wrap table,
+.table-scroll table,
+.table-wrap table { min-width: 620px; }
+.index-table-wrap .grammar-table { min-width: 550px; }
 .romaji,
 .translation {
   display: block;
@@ -113,8 +134,26 @@ const STUDY_GUIDE_LANGUAGE_STYLES = `
 }
 .guide-note-meaning { color: #754522; font-weight: 500; }
 @media (max-width: 560px) {
-  .study-guide-navigation { width: calc(100% - 20px); margin-top: 10px; }
-  .romaji, .translation { padding: .55rem .65rem; }
+  .study-guide-navigation { width: calc(100% - 24px); margin: 8px auto 0; }
+  .report { width: calc(100% - 20px); margin: 10px auto 36px; }
+  .report-header { padding: 21px 16px; }
+  .report-header h1 { font-size: clamp(30px, 9vw, 42px); overflow-wrap: anywhere; }
+  .report-header .japanese-title { font-size: 21px; line-height: 1.7; }
+  .synopsis { padding: 16px; }
+  .passage-card { margin: 13px 0; }
+  .passage-card > header { align-items: flex-start; flex-wrap: wrap; padding: 9px 12px; }
+  .passage-content { padding: 16px 13px 12px; }
+  .jp { font-size: clamp(21px, 6vw, 25px); line-height: 2.05; overflow-wrap: anywhere; }
+  .jp rt { font-size: 10px; line-height: 1.15; }
+  .romaji, .translation { padding: .55rem .65rem; font-size: 15px; }
+  .study-notes { grid-template-columns: 1fr; padding: 0 10px 12px; }
+  .notes { padding: 11px; }
+  .notes ul { font-size: 13px; line-height: 1.65; }
+  .master-index { margin-top: 27px; }
+  .index-card { margin: 15px 0; padding: 12px; }
+  .index-card-head h2 { font-size: 18px; }
+  .index-card-head p { font-size: 11px; }
+  th, td { padding: 7px 8px; }
 }
 `;
 

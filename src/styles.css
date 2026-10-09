@@ -161,7 +161,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .detail-cover { min-height: 260px; }
 }
 @media (max-width: 540px) {
-  .site-shell { width: min(100% - 30px, 460px); }
+  .site-shell { width: min(100% - 28px, 460px); }
   .site-header { min-height: 66px; }
   .wordmark { font-size: 15px; gap: 8px; }
   .wordmark-mark { width: 29px; height: 29px; }
@@ -194,7 +194,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .book-card h2 { margin-top: 10px; font-size: 21px; }
   .book-description { min-height: 0; margin-top: 6px; font-size: 10px; }
   .book-actions { gap: 3px; margin-top: 10px; }
-  .book-actions .button { justify-content: flex-start; min-height: 31px; padding-inline: 7px; font-size: 9px; }
+  .book-actions .button { justify-content: flex-start; min-height: 42px; padding-inline: 8px; font-size: 10px; }
   .book-actions .button span { font-size: 12px; }
   .empty-state { padding: 38px 18px; }
   .empty-state h2 { font-size: 29px; }
@@ -375,14 +375,22 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @media (max-width: 540px) {
   .header-nav { gap: 10px; }
   .header-nav > a:not(.profile-nav) { font-size: 9px; }
-  .header-auth-button { min-height: 34px; padding-inline: 8px; font-size: 9px; }
+  .header-nav > a, .header-auth-button { min-height: 44px; display: inline-flex; align-items: center; }
+  .header-auth-button { padding-inline: 8px; font-size: 9px; }
   .profile-nav { gap: 5px; }
   .profile-nav span:last-child { max-width: 66px; font-size: 9px; }
   .profile-avatar { width: 27px; height: 27px; font-size: 13px; }
-  .auth-dialog { padding: 29px 22px 24px; }
+  .auth-dialog { max-height: calc(100vh - 24px); overflow-y: auto; overscroll-behavior: contain; padding: 29px 22px 24px; }
+  .auth-dialog input { font-size: 16px; }
+  .dialog-close { top: 7px; right: 8px; width: 44px; height: 44px; }
+  .search-field input, .select-field select { height: 46px; font-size: 16px; }
+  .reading-status-control select { min-height: 44px; max-width: 100%; font-size: 16px; }
+  .button { min-height: 44px; }
   .reader-page { padding-top: 24px; }
   .reader-heading { padding-top: 20px; }
-  .pdf-viewer { height: 70vh; min-height: 400px; }
+  .reader-heading .button { min-height: 44px; align-self: stretch; }
+  .pdf-viewer { height: min(72vh, 700px); min-height: 360px; }
+  .finish-actions .button { min-height: 44px; }
   .profile-page { padding-top: 28px; }
   .profile-welcome { align-items: start; gap: 13px; }
   .large-profile-avatar { width: 58px; height: 58px; font-size: 24px; }
@@ -400,9 +408,25 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .study-terms-heading { align-items: start; }
   .study-terms-heading h1 { font-size: 37px; }
   .study-terms-total strong { font-size: 32px; }
+  .study-term-tabs { flex-wrap: wrap; }
+  .study-term-tabs button { flex: 1 1 145px; justify-content: center; min-height: 48px; gap: 6px; padding-inline: 7px; }
   .study-term-card { grid-template-columns: minmax(0,1fr) auto; gap: 11px; padding: 13px; }
   .study-term-copy h3 { font-size: 20px; }
+  .study-term-detail { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+  .study-term-detail > span { min-width: 0; overflow-wrap: anywhere; }
   .study-term-count { grid-column: 2; grid-row: 1; }
-  .study-term-toggle { grid-column: 1 / -1; justify-content: start; padding-top: 8px; border-top: 1px solid #e7e6df; }
+  .study-term-toggle { grid-column: 1 / -1; justify-content: start; min-height: 44px; padding-top: 8px; border-top: 1px solid #e7e6df; }
+  .study-term-toggle input { width: 22px; height: 22px; }
+  .study-pagination button { min-height: 44px; padding-inline: 14px; }
+  .study-hidden-back { min-height: 44px; display: inline-flex; align-items: center; }
   .study-hidden-link { align-items: start; flex-direction: column; gap: 6px; }
+  .progress-book-row .reading-status-control select { min-height: 44px; font-size: 16px; }
+  .progress-book-row .study-shortcut { min-height: 42px; display: inline-flex; align-items: center; }
+}
+
+@supports (height: 100dvh) {
+  @media (max-width: 540px) {
+    .auth-dialog { max-height: calc(100dvh - 24px); }
+    .pdf-viewer { height: min(72dvh, 700px); }
+  }
 }
