@@ -34,7 +34,7 @@ function bookCard(book, index, user, statuses) {
     ? `<a class="button button-quiet" href="/study/${encodeURIComponent(book.slug)}">Study guide <span aria-hidden="true">↗</span></a>`
     : '';
 
-  return `<article class="book-card" data-reading-status="${status}">
+  return `<article class="book-card" data-reading-status="${status}" data-word-count="${Number(book.wordCount) || 0}">
     <a class="cover-link" href="/read/${encodeURIComponent(book.slug)}" aria-label="Read the PDF: ${escapeHTML(book.name)}">${art}</a>
     <div class="book-card-copy"><div class="book-card-top"><span class="eyebrow">${escapeHTML(book.level || 'Unleveled')}</span>${statusControl}</div>
       <h2><a href="/book/${encodeURIComponent(book.slug)}">${escapeHTML(book.name)}</a></h2>
@@ -65,10 +65,18 @@ function libraryMarkup(books, user, progress) {
   const accountNote = user
     ? `<a class="reading-summary-link" href="/profile">${progress?.totals?.Finished || 0} finished · ${progress?.totals?.In_Progress || 0} in progress <span aria-hidden="true">↗</span></a>`
     : '';
+  const wordProgress = user
+    ? `<section class="word-progress" aria-labelledby="word-progress-title">
+      <div class="word-progress-heading"><div><span class="eyebrow">YOUR WORD PROGRESS</span><h3 id="word-progress-title">Keep track as you read</h3></div><span class="word-progress-reader-count"><strong data-progress-reader-count>0</strong> readers in this selection</span></div>
+      <div class="word-progress-metrics"><div class="word-progress-metric is-learned"><strong data-learned-word-count>0</strong><span>Words learned</span></div><div class="word-progress-metric is-to-learn"><strong data-to-learn-word-count>0</strong><span>Words to learn</span></div></div>
+      <div class="word-progress-track" role="progressbar" aria-label="Words in finished readers" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0"><span data-word-progress-fill></span></div>
+      <p data-word-progress-caption>Words in Finished readers count as learned; To do and In progress readers count as words to learn.</p>
+    </section>`
+    : '';
 
   return `<main><section class="library-intro"><div class="intro-copy"><span class="eyebrow"><span class="eyebrow-dot"></span> Japanese, at your own pace</span><h1>Read a little.<br><em>Understand more.</em></h1><p>Pick a graded reader, settle in with the original Japanese, and keep your place as you go.</p>${accountNote}</div>
     <div class="intro-aside"><div class="aside-rule"></div><p class="aside-japanese" lang="ja">桜を見れば、<br>春が近づく。</p><span>READ MORE · ONE PAGE AT A TIME</span></div></section>
-    <section class="library-section" aria-labelledby="shelf-title"><div class="section-heading"><div><span class="eyebrow">THE COLLECTION</span><h2 id="shelf-title">Stories for your next reading session</h2></div><span class="collection-count">${String(books.length).padStart(2, '0')} <span>IN THE LIBRARY</span></span></div>${control}${cards}</section></main>`;
+    <section class="library-section" aria-labelledby="shelf-title"><div class="section-heading"><div><span class="eyebrow">THE COLLECTION</span><h2 id="shelf-title">Stories for your next reading session</h2></div><span class="collection-count">${String(books.length).padStart(2, '0')} <span>IN THE LIBRARY</span></span></div>${control}${wordProgress}${cards}</section></main>`;
 }
 
 function bindFilters() {
@@ -79,22 +87,45 @@ function bindFilters() {
   const cards = [...document.querySelectorAll('.book-card')];
   const count = document.querySelector('#visible-count');
   const empty = document.querySelector('#no-filter-results');
+  const learnedWords = document.querySelector('[data-learned-word-count]');
+  const toLearnWords = document.querySelector('[data-to-learn-word-count]');
+  const progressReaders = document.querySelector('[data-progress-reader-count]');
+  const progressBar = document.querySelector('.word-progress-track');
+  const progressFill = document.querySelector('[data-word-progress-fill]');
   const update = () => {
     const query = search.value.trim().toLowerCase();
     let visible = 0;
+    let learned = 0;
+    let toLearn = 0;
     for (const card of cards) {
       const matches = card.textContent.toLowerCase().includes(query)
         && (!level.value || card.querySelector('.eyebrow').textContent === level.value)
         && (!status?.value || card.dataset.readingStatus === status.value);
       card.hidden = !matches;
-      if (matches) visible += 1;
+      if (matches) {
+        visible += 1;
+        const words = Number(card.dataset.wordCount) || 0;
+        if (card.dataset.readingStatus === 'Finished') learned += words;
+        else toLearn += words;
+      }
     }
     count.textContent = String(visible);
     empty.hidden = visible > 0;
+    if (learnedWords && toLearnWords && progressReaders && progressBar && progressFill) {
+      const total = learned + toLearn;
+      const percent = total ? (learned / total) * 100 : 0;
+      learnedWords.textContent = new Intl.NumberFormat('en').format(learned);
+      toLearnWords.textContent = new Intl.NumberFormat('en').format(toLearn);
+      progressReaders.textContent = String(visible);
+      progressBar.setAttribute('aria-valuemax', String(total));
+      progressBar.setAttribute('aria-valuenow', String(learned));
+      progressFill.style.width = `${percent}%`;
+    }
   };
   search.addEventListener('input', update);
   level.addEventListener('change', update);
   status?.addEventListener('change', update);
+  update();
 }
 
 function bindProgressControls() {
