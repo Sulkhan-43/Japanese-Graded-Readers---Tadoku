@@ -63,6 +63,7 @@ IMPORTANT RULES:
 - Ignore page numbers and decorative text.
 - If the PDF contains furigana, use it to determine the correct reading.
 - Show hiragana furigana above every kanji, every time it appears, throughout every passage/page and study note, including titles, vocabulary entries, grammar examples, dates, and tables that belong to the story. In HTML use `<ruby>漢字<rt>よみ</rt></ruby>`; leave okurigana outside the ruby, for example `<ruby>咲<rt>さ</rt></ruby>きます`. Do not leave later repetitions unannotated just because a reading appeared earlier. Make readings large and spaced enough to remain clearly visible directly above their kanji without clipping or colliding with adjacent lines. Before delivery, check visually and in the HTML that no Japanese kanji remain without furigana.
+- Keep prose fields such as the English title, synopsis, labels, romaji, translations, vocabulary meanings, and grammar explanations in English or Latin-script romaji only. Do not put Japanese kana or kanji in those plain-text fields. Render Japanese patterns and examples through ruby segments so every kanji can carry furigana.
 - If extracted PDF text is messy, use the page image/layout to reconstruct the correct Japanese text and reading order.
 
 VERY IMPORTANT — NO DUPLICATE EXPLANATIONS:
