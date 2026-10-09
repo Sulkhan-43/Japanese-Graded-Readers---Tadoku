@@ -1,0 +1,1718 @@
+{
+  "id": "level3-the-rich-man-of-koyama",
+  "name": "The Rich Man of Koyama",
+  "japaneseTitle": "湖山長者 ～ちょっとざんねんなお金持ちの話～",
+  "slug": "level3-the-rich-man-of-koyama",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-the-rich-man-of-koyama/source.pdf",
+  "ocrR2Key": "books/level3-the-rich-man-of-koyama/source-ocr.txt",
+  "coverR2Key": "books/level3-the-rich-man-of-koyama/cover.jpg",
+  "htmlR2Key": "books/level3-the-rich-man-of-koyama/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 578,
+  "createdAt": "2026-10-09T21:23:15.231Z",
+  "updatedAt": "2026-10-09T21:23:15.231Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:湖山長者|こやまちょうじゃ",
+        "japanese": "湖山長者",
+        "japaneseSegments": [
+          {
+            "base": "湖山長者",
+            "reading": "こやまちょうじゃ"
+          }
+        ],
+        "reading": "こやまちょうじゃ",
+        "romaji": "Koyama Chōja",
+        "meaning": "the Rich Man of Koyama; the man's local name",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ざんねん|ざんねん",
+        "japanese": "ざんねん",
+        "japaneseSegments": [
+          {
+            "text": "ざんねん"
+          }
+        ],
+        "reading": "ざんねん",
+        "romaji": "zannen",
+        "meaning": "disappointing; unfortunate",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お金持ち|おかねもち",
+        "japanese": "お金持ち",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "金持",
+            "reading": "かねも"
+          },
+          {
+            "text": "ち"
+          }
+        ],
+        "reading": "おかねもち",
+        "romaji": "okanemochi",
+        "meaning": "a rich person",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:池|いけ",
+        "japanese": "池",
+        "japaneseSegments": [
+          {
+            "base": "池",
+            "reading": "いけ"
+          }
+        ],
+        "reading": "いけ",
+        "romaji": "ike",
+        "meaning": "pond",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:名前|なまえ",
+        "japanese": "名前",
+        "japaneseSegments": [
+          {
+            "base": "名前",
+            "reading": "なまえ"
+          }
+        ],
+        "reading": "なまえ",
+        "romaji": "namae",
+        "meaning": "name",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:湖山池|こやまいけ",
+        "japanese": "湖山池",
+        "japaneseSegments": [
+          {
+            "base": "湖山池",
+            "reading": "こやまいけ"
+          }
+        ],
+        "reading": "こやまいけ",
+        "romaji": "Koyamaike",
+        "meaning": "Koyama Pond",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:むかし|むかし",
+        "japanese": "むかし",
+        "japaneseSegments": [
+          {
+            "text": "むかし"
+          }
+        ],
+        "reading": "むかし",
+        "romaji": "mukashi",
+        "meaning": "long ago; in the past",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:広い|ひろい",
+        "japanese": "広い",
+        "japaneseSegments": [
+          {
+            "base": "広",
+            "reading": "ひろ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "ひろい",
+        "romaji": "hiroi",
+        "meaning": "wide; spacious; large in area",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:田んぼ|たんぼ",
+        "japanese": "田んぼ",
+        "japaneseSegments": [
+          {
+            "base": "田",
+            "reading": "た"
+          },
+          {
+            "text": "んぼ"
+          }
+        ],
+        "reading": "たんぼ",
+        "romaji": "tanbo",
+        "meaning": "rice field",
+        "firstPassage": 2,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:全部|ぜんぶ",
+        "japanese": "全部",
+        "japaneseSegments": [
+          {
+            "base": "全部",
+            "reading": "ぜんぶ"
+          }
+        ],
+        "reading": "ぜんぶ",
+        "romaji": "zenbu",
+        "meaning": "all; the whole of something",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:なる|なる",
+        "japanese": "なる",
+        "japaneseSegments": [
+          {
+            "text": "なる"
+          }
+        ],
+        "reading": "なる",
+        "romaji": "naru",
+        "meaning": "to become",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:鳥取県|とっとりけん",
+        "japanese": "鳥取県",
+        "japaneseSegments": [
+          {
+            "base": "鳥取県",
+            "reading": "とっとりけん"
+          }
+        ],
+        "reading": "とっとりけん",
+        "romaji": "Tottori-ken",
+        "meaning": "Tottori Prefecture",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:むかし話|むかしばなし",
+        "japanese": "むかし話",
+        "japaneseSegments": [
+          {
+            "text": "むかし"
+          },
+          {
+            "base": "話",
+            "reading": "ばなし"
+          }
+        ],
+        "reading": "むかしばなし",
+        "romaji": "mukashibanashi",
+        "meaning": "folktale; tale from long ago",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:りっぱ|りっぱ",
+        "japanese": "りっぱ",
+        "japaneseSegments": [
+          {
+            "text": "りっぱ"
+          }
+        ],
+        "reading": "りっぱ",
+        "romaji": "rippa",
+        "meaning": "splendid; impressive",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:金|きん",
+        "japanese": "金",
+        "japaneseSegments": [
+          {
+            "base": "金",
+            "reading": "きん"
+          }
+        ],
+        "reading": "きん",
+        "romaji": "kin",
+        "meaning": "gold",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:銀|ぎん",
+        "japanese": "銀",
+        "japaneseSegments": [
+          {
+            "base": "銀",
+            "reading": "ぎん"
+          }
+        ],
+        "reading": "ぎん",
+        "romaji": "gin",
+        "meaning": "silver",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:たくさん|たくさん",
+        "japanese": "たくさん",
+        "japaneseSegments": [
+          {
+            "text": "たくさん"
+          }
+        ],
+        "reading": "たくさん",
+        "romaji": "takusan",
+        "meaning": "many; much; plenty",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:持つ|もつ",
+        "japanese": "持つ",
+        "japaneseSegments": [
+          {
+            "base": "持",
+            "reading": "も"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "もつ",
+        "romaji": "motsu",
+        "meaning": "to hold; to possess; to carry",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:村|むら",
+        "japanese": "村",
+        "japaneseSegments": [
+          {
+            "base": "村",
+            "reading": "むら"
+          }
+        ],
+        "reading": "むら",
+        "romaji": "mura",
+        "meaning": "village",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:呼ぶ|よぶ",
+        "japanese": "呼ぶ",
+        "japaneseSegments": [
+          {
+            "base": "呼",
+            "reading": "よ"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "よぶ",
+        "romaji": "yobu",
+        "meaning": "to call; to name",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:田植え|たうえ",
+        "japanese": "田植え",
+        "japaneseSegments": [
+          {
+            "base": "田植",
+            "reading": "たう"
+          },
+          {
+            "text": "え"
+          }
+        ],
+        "reading": "たうえ",
+        "romaji": "taue",
+        "meaning": "planting rice seedlings",
+        "firstPassage": 4,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "vocabulary:長者|ちょうじゃ",
+        "japanese": "長者",
+        "japaneseSegments": [
+          {
+            "base": "長者",
+            "reading": "ちょうじゃ"
+          }
+        ],
+        "reading": "ちょうじゃ",
+        "romaji": "chōja",
+        "meaning": "a wealthy man, especially in a folktale",
+        "firstPassage": 4,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "vocabulary:一日|いちにち",
+        "japanese": "一日",
+        "japaneseSegments": [
+          {
+            "base": "一日",
+            "reading": "いちにち"
+          }
+        ],
+        "reading": "いちにち",
+        "romaji": "ichinichi",
+        "meaning": "one day",
+        "firstPassage": 4,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:終える|おえる",
+        "japanese": "終える",
+        "japaneseSegments": [
+          {
+            "base": "終",
+            "reading": "お"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "おえる",
+        "romaji": "oeru",
+        "meaning": "to finish something",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:決まる|きまる",
+        "japanese": "決まる",
+        "japaneseSegments": [
+          {
+            "base": "決",
+            "reading": "き"
+          },
+          {
+            "text": "まる"
+          }
+        ],
+        "reading": "きまる",
+        "romaji": "kimaru",
+        "meaning": "to be decided; to be established",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:毎年|まいとし",
+        "japanese": "毎年",
+        "japaneseSegments": [
+          {
+            "base": "毎年",
+            "reading": "まいとし"
+          }
+        ],
+        "reading": "まいとし",
+        "romaji": "maitoshi",
+        "meaning": "every year",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:使う|つかう",
+        "japanese": "使う",
+        "japaneseSegments": [
+          {
+            "base": "使",
+            "reading": "つか"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "つかう",
+        "romaji": "tsukau",
+        "meaning": "to use; here, to employ people",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:終わる|おわる",
+        "japanese": "終わる",
+        "japaneseSegments": [
+          {
+            "base": "終",
+            "reading": "お"
+          },
+          {
+            "text": "わる"
+          }
+        ],
+        "reading": "おわる",
+        "romaji": "owaru",
+        "meaning": "to end; to be finished",
+        "firstPassage": 4,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:今年|ことし",
+        "japanese": "今年",
+        "japaneseSegments": [
+          {
+            "base": "今年",
+            "reading": "ことし"
+          }
+        ],
+        "reading": "ことし",
+        "romaji": "kotoshi",
+        "meaning": "this year",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:始まる|はじまる",
+        "japanese": "始まる",
+        "japaneseSegments": [
+          {
+            "base": "始",
+            "reading": "はじ"
+          },
+          {
+            "text": "まる"
+          }
+        ],
+        "reading": "はじまる",
+        "romaji": "hajimaru",
+        "meaning": "to begin",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:手伝う|てつだう",
+        "japanese": "手伝う",
+        "japaneseSegments": [
+          {
+            "base": "手伝",
+            "reading": "てつだ"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "てつだう",
+        "romaji": "tetsudau",
+        "meaning": "to help with a task",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:早い|はやい",
+        "japanese": "早い",
+        "japaneseSegments": [
+          {
+            "base": "早",
+            "reading": "はや"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "はやい",
+        "romaji": "hayai",
+        "meaning": "early",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:働く|はたらく",
+        "japanese": "働く",
+        "japaneseSegments": [
+          {
+            "base": "働",
+            "reading": "はたら"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "はたらく",
+        "romaji": "hataraku",
+        "meaning": "to work",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:考える|かんがえる",
+        "japanese": "考える",
+        "japaneseSegments": [
+          {
+            "base": "考",
+            "reading": "かんが"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "かんがえる",
+        "romaji": "kangaeru",
+        "meaning": "to think; to consider",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:近く|ちかく",
+        "japanese": "近く",
+        "japaneseSegments": [
+          {
+            "base": "近",
+            "reading": "ちか"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "ちかく",
+        "romaji": "chikaku",
+        "meaning": "nearby; the vicinity",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:サル|さる",
+        "japanese": "サル",
+        "japaneseSegments": [
+          {
+            "text": "サル"
+          }
+        ],
+        "reading": "さる",
+        "romaji": "saru",
+        "meaning": "monkey",
+        "firstPassage": 6,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:お母さん|おかあさん",
+        "japanese": "お母さん",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "母",
+            "reading": "かあ"
+          },
+          {
+            "text": "さん"
+          }
+        ],
+        "reading": "おかあさん",
+        "romaji": "okāsan",
+        "meaning": "mother",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:子ども|こども",
+        "japanese": "子ども",
+        "japaneseSegments": [
+          {
+            "base": "子",
+            "reading": "こ"
+          },
+          {
+            "text": "ども"
+          }
+        ],
+        "reading": "こども",
+        "romaji": "kodomo",
+        "meaning": "child",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:一人|ひとり",
+        "japanese": "一人",
+        "japaneseSegments": [
+          {
+            "base": "一人",
+            "reading": "ひとり"
+          }
+        ],
+        "reading": "ひとり",
+        "romaji": "hitori",
+        "meaning": "one person",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:見つける|みつける",
+        "japanese": "見つける",
+        "japaneseSegments": [
+          {
+            "base": "見",
+            "reading": "み"
+          },
+          {
+            "text": "つける"
+          }
+        ],
+        "reading": "みつける",
+        "romaji": "mitsukeru",
+        "meaning": "to find; to spot",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:声|こえ",
+        "japanese": "声",
+        "japaneseSegments": [
+          {
+            "base": "声",
+            "reading": "こえ"
+          }
+        ],
+        "reading": "こえ",
+        "romaji": "koe",
+        "meaning": "voice",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:びっくりする|びっくりする",
+        "japanese": "びっくりする",
+        "japaneseSegments": [
+          {
+            "text": "びっくりする"
+          }
+        ],
+        "reading": "びっくりする",
+        "romaji": "bikkuri suru",
+        "meaning": "to be surprised; to be startled",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:走る|はしる",
+        "japanese": "走る",
+        "japaneseSegments": [
+          {
+            "base": "走",
+            "reading": "はし"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "はしる",
+        "romaji": "hashiru",
+        "meaning": "to run",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:遠く|とおく",
+        "japanese": "遠く",
+        "japaneseSegments": [
+          {
+            "base": "遠",
+            "reading": "とお"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "とおく",
+        "romaji": "tōku",
+        "meaning": "far away; a distant place",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:帰る|かえる",
+        "japanese": "帰る",
+        "japaneseSegments": [
+          {
+            "base": "帰",
+            "reading": "かえ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return home",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:少し|すこし",
+        "japanese": "少し",
+        "japaneseSegments": [
+          {
+            "base": "少",
+            "reading": "すこ"
+          },
+          {
+            "text": "し"
+          }
+        ],
+        "reading": "すこし",
+        "romaji": "sukoshi",
+        "meaning": "a little; a short amount",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:時間|じかん",
+        "japanese": "時間",
+        "japaneseSegments": [
+          {
+            "base": "時間",
+            "reading": "じかん"
+          }
+        ],
+        "reading": "じかん",
+        "romaji": "jikan",
+        "meaning": "time; a period of time",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:仕事|しごと",
+        "japanese": "仕事",
+        "japaneseSegments": [
+          {
+            "base": "仕事",
+            "reading": "しごと"
+          }
+        ],
+        "reading": "しごと",
+        "romaji": "shigoto",
+        "meaning": "work",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:遅れる|おくれる",
+        "japanese": "遅れる",
+        "japaneseSegments": [
+          {
+            "base": "遅",
+            "reading": "おく"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "おくれる",
+        "romaji": "okureru",
+        "meaning": "to be delayed; to fall behind",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:夕方|ゆうがた",
+        "japanese": "夕方",
+        "japaneseSegments": [
+          {
+            "base": "夕方",
+            "reading": "ゆうがた"
+          }
+        ],
+        "reading": "ゆうがた",
+        "romaji": "yūgata",
+        "meaning": "late afternoon; early evening",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:青い|あおい",
+        "japanese": "青い",
+        "japaneseSegments": [
+          {
+            "base": "青",
+            "reading": "あお"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "あおい",
+        "romaji": "aoi",
+        "meaning": "blue; here, pale from shock or fear",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:決まり|きまり",
+        "japanese": "決まり",
+        "japaneseSegments": [
+          {
+            "base": "決",
+            "reading": "き"
+          },
+          {
+            "text": "まり"
+          }
+        ],
+        "reading": "きまり",
+        "romaji": "kimari",
+        "meaning": "rule; established custom",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お日さま|おひさま",
+        "japanese": "お日さま",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "日",
+            "reading": "ひ"
+          },
+          {
+            "text": "さま"
+          }
+        ],
+        "reading": "おひさま",
+        "romaji": "ohisama",
+        "meaning": "the sun, addressed affectionately or respectfully",
+        "firstPassage": 9,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:もどす|もどす",
+        "japanese": "もどす",
+        "japaneseSegments": [
+          {
+            "text": "もどす"
+          }
+        ],
+        "reading": "もどす",
+        "romaji": "modosu",
+        "meaning": "to bring something back; to return something",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:遅い|おそい",
+        "japanese": "遅い",
+        "japaneseSegments": [
+          {
+            "base": "遅",
+            "reading": "おそ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "おそい",
+        "romaji": "osoi",
+        "meaning": "late; slow",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おうぎ|おうぎ",
+        "japanese": "おうぎ",
+        "japaneseSegments": [
+          {
+            "text": "おうぎ"
+          }
+        ],
+        "reading": "おうぎ",
+        "romaji": "ōgi",
+        "meaning": "folding fan",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:もどる|もどる",
+        "japanese": "もどる",
+        "japaneseSegments": [
+          {
+            "text": "もどる"
+          }
+        ],
+        "reading": "もどる",
+        "romaji": "modoru",
+        "meaning": "to return; to go back",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:三回|さんかい",
+        "japanese": "三回",
+        "japaneseSegments": [
+          {
+            "base": "三回",
+            "reading": "さんかい"
+          }
+        ],
+        "reading": "さんかい",
+        "romaji": "sankai",
+        "meaning": "three times",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ふる|ふる",
+        "japanese": "ふる",
+        "japaneseSegments": [
+          {
+            "text": "ふる"
+          }
+        ],
+        "reading": "ふる",
+        "romaji": "furu",
+        "meaning": "to wave; to swing",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:高い|たかい",
+        "japanese": "高い",
+        "japaneseSegments": [
+          {
+            "base": "高",
+            "reading": "たか"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "たかい",
+        "romaji": "takai",
+        "meaning": "high",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:続ける|つづける",
+        "japanese": "続ける",
+        "japaneseSegments": [
+          {
+            "base": "続",
+            "reading": "つづ"
+          },
+          {
+            "text": "ける"
+          }
+        ],
+        "reading": "つづける",
+        "romaji": "tsuzukeru",
+        "meaning": "to continue something",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:招待する|しょうたいする",
+        "japanese": "招待する",
+        "japaneseSegments": [
+          {
+            "base": "招待",
+            "reading": "しょうたい"
+          },
+          {
+            "text": "する"
+          }
+        ],
+        "reading": "しょうたいする",
+        "romaji": "shōtai suru",
+        "meaning": "to invite",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お酒|おさけ",
+        "japanese": "お酒",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "酒",
+            "reading": "さけ"
+          }
+        ],
+        "reading": "おさけ",
+        "romaji": "osake",
+        "meaning": "sake; alcoholic drink",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:飲む|のむ",
+        "japanese": "飲む",
+        "japaneseSegments": [
+          {
+            "base": "飲",
+            "reading": "の"
+          },
+          {
+            "text": "む"
+          }
+        ],
+        "reading": "のむ",
+        "romaji": "nomu",
+        "meaning": "to drink",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:歌う|うたう",
+        "japanese": "歌う",
+        "japaneseSegments": [
+          {
+            "base": "歌",
+            "reading": "うた"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "うたう",
+        "romaji": "utau",
+        "meaning": "to sing",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:踊る|おどる",
+        "japanese": "踊る",
+        "japaneseSegments": [
+          {
+            "base": "踊",
+            "reading": "おど"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "おどる",
+        "romaji": "odoru",
+        "meaning": "to dance",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:外|そと",
+        "japanese": "外",
+        "japaneseSegments": [
+          {
+            "base": "外",
+            "reading": "そと"
+          }
+        ],
+        "reading": "そと",
+        "romaji": "soto",
+        "meaning": "outside",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大変|たいへん",
+        "japanese": "大変",
+        "japaneseSegments": [
+          {
+            "base": "大変",
+            "reading": "たいへん"
+          }
+        ],
+        "reading": "たいへん",
+        "romaji": "taihen",
+        "meaning": "serious; terrible; troubling",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:起こる|おこる",
+        "japanese": "起こる",
+        "japaneseSegments": [
+          {
+            "base": "起",
+            "reading": "お"
+          },
+          {
+            "text": "こる"
+          }
+        ],
+        "reading": "おこる",
+        "romaji": "okoru",
+        "meaning": "to happen; to occur",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:水|みず",
+        "japanese": "水",
+        "japaneseSegments": [
+          {
+            "base": "水",
+            "reading": "みず"
+          }
+        ],
+        "reading": "みず",
+        "romaji": "mizu",
+        "meaning": "water",
+        "firstPassage": 13,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:流れる|ながれる",
+        "japanese": "流れる",
+        "japaneseSegments": [
+          {
+            "base": "流",
+            "reading": "なが"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "ながれる",
+        "romaji": "nagareru",
+        "meaning": "to flow",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:入る|はいる",
+        "japanese": "入る",
+        "japaneseSegments": [
+          {
+            "base": "入",
+            "reading": "はい"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "はいる",
+        "romaji": "hairu",
+        "meaning": "to enter; to come in",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:間|あいだ",
+        "japanese": "間",
+        "japaneseSegments": [
+          {
+            "base": "間",
+            "reading": "あいだ"
+          }
+        ],
+        "reading": "あいだ",
+        "romaji": "aida",
+        "meaning": "an interval; during a period",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:下|した",
+        "japanese": "下",
+        "japaneseSegments": [
+          {
+            "base": "下",
+            "reading": "した"
+          }
+        ],
+        "reading": "した",
+        "romaji": "shita",
+        "meaning": "under; beneath",
+        "firstPassage": 13,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:深い|ふかい",
+        "japanese": "深い",
+        "japaneseSegments": [
+          {
+            "base": "深",
+            "reading": "ふか"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "ふかい",
+        "romaji": "fukai",
+        "meaning": "deep",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:かくす|かくす",
+        "japanese": "かくす",
+        "japaneseSegments": [
+          {
+            "text": "かくす"
+          }
+        ],
+        "reading": "かくす",
+        "romaji": "kakusu",
+        "meaning": "to hide; here, to cover from view",
+        "firstPassage": 13,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:かわり|かわり",
+        "japanese": "かわり",
+        "japaneseSegments": [
+          {
+            "text": "かわり"
+          }
+        ],
+        "reading": "かわり",
+        "romaji": "kawari",
+        "meaning": "replacement; in place of something",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:一つ|ひとつ",
+        "japanese": "一つ",
+        "japaneseSegments": [
+          {
+            "base": "一",
+            "reading": "ひと"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "ひとつ",
+        "romaji": "hitotsu",
+        "meaning": "one thing; one, using the general counter",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:なくなる|なくなる",
+        "japanese": "なくなる",
+        "japaneseSegments": [
+          {
+            "text": "なくなる"
+          }
+        ],
+        "reading": "なくなる",
+        "romaji": "nakunaru",
+        "meaning": "to disappear; to cease to exist",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:神様|かみさま",
+        "japanese": "神様",
+        "japaneseSegments": [
+          {
+            "base": "神様",
+            "reading": "かみさま"
+          }
+        ],
+        "reading": "かみさま",
+        "romaji": "kamisama",
+        "meaning": "a deity; a god, referred to respectfully",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:怒る|おこる",
+        "japanese": "怒る",
+        "japaneseSegments": [
+          {
+            "base": "怒",
+            "reading": "おこ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "おこる",
+        "romaji": "okoru",
+        "meaning": "to become angry",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:Nになる",
+        "pattern": "Nになる",
+        "patternSegments": [
+          {
+            "text": "Nになる"
+          }
+        ],
+        "explanation": "This pattern expresses becoming something or changing into a new state named by a noun.",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:~のでしょうか",
+        "pattern": "～のでしょうか",
+        "patternSegments": [
+          {
+            "text": "～のでしょうか"
+          }
+        ],
+        "explanation": "This pattern asks reflectively for an explanation, often meaning that the narrator wonders why something happened.",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:~ている",
+        "pattern": "～ている",
+        "patternSegments": [
+          {
+            "text": "～ている"
+          }
+        ],
+        "explanation": "This pattern describes an ongoing action or a continuing state resulting from an action. Past and negative forms retain this distinction.",
+        "firstPassage": 3,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:~と呼ぶ",
+        "pattern": "～と呼ぶ",
+        "patternSegments": [
+          {
+            "text": "～と"
+          },
+          {
+            "base": "呼",
+            "reading": "よ"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "explanation": "This pattern introduces the name or title by which someone or something is called.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:durationで",
+        "pattern": "durationで",
+        "patternSegments": [
+          {
+            "text": "durationで"
+          }
+        ],
+        "explanation": "This pattern marks the amount of time needed or allowed to complete an action.",
+        "firstPassage": 4,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:~と決まっている",
+        "pattern": "～と決まっている",
+        "patternSegments": [
+          {
+            "text": "～と"
+          },
+          {
+            "base": "決",
+            "reading": "き"
+          },
+          {
+            "text": "まっている"
+          }
+        ],
+        "explanation": "This pattern presents a quoted action or statement as an established rule or decision.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~ので",
+        "pattern": "～ので",
+        "patternSegments": [
+          {
+            "text": "～ので"
+          }
+        ],
+        "explanation": "This pattern connects a reason or cause to its result.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:~と考える",
+        "pattern": "～と考える",
+        "patternSegments": [
+          {
+            "text": "～と"
+          },
+          {
+            "base": "考",
+            "reading": "かんが"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "explanation": "This pattern marks the preceding statement as the content of someone's thought.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~と言う",
+        "pattern": "～と言う",
+        "patternSegments": [
+          {
+            "text": "～と"
+          },
+          {
+            "base": "言",
+            "reading": "い"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "explanation": "This pattern marks preceding words as what someone says. The speaking verb may be inflected or joined to another action.",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:~始める",
+        "pattern": "～始める",
+        "patternSegments": [
+          {
+            "text": "～"
+          },
+          {
+            "base": "始",
+            "reading": "はじ"
+          },
+          {
+            "text": "める"
+          }
+        ],
+        "explanation": "This pattern attaches to a verb stem to express beginning that action.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~まで",
+        "pattern": "～まで",
+        "patternSegments": [
+          {
+            "text": "～まで"
+          }
+        ],
+        "explanation": "This pattern follows a clause to mean until the event or endpoint described in that clause.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:verbの",
+        "pattern": "verbの",
+        "patternSegments": [
+          {
+            "text": "verbの"
+          }
+        ],
+        "explanation": "This pattern turns an action clause into a noun phrase so it can serve as a topic or an object.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:~とき",
+        "pattern": "～とき",
+        "patternSegments": [
+          {
+            "text": "～とき"
+          }
+        ],
+        "explanation": "This pattern introduces the time when an action or state occurs. The preceding verb form helps show its timing.",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:まだ~ていない",
+        "pattern": "まだ～ていない",
+        "patternSegments": [
+          {
+            "text": "まだ～ていない"
+          }
+        ],
+        "explanation": "This pattern means that an expected action has not happened or been completed yet. Here it is in the past.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:adjectiveくなる",
+        "pattern": "adjectiveくなる",
+        "patternSegments": [
+          {
+            "text": "adjectiveくなる"
+          }
+        ],
+        "explanation": "This pattern uses the adverbial form of an adjective to express becoming that way.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verbこと",
+        "pattern": "verbこと",
+        "patternSegments": [
+          {
+            "text": "verbこと"
+          }
+        ],
+        "explanation": "This pattern turns a verb clause into an abstract action or requirement. Here it identifies the content of a family rule.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~よう/~おう",
+        "pattern": "～よう／～おう",
+        "patternSegments": [
+          {
+            "text": "～よう／～おう"
+          }
+        ],
+        "explanation": "This pattern expresses the speaker's intention or proposes an action to others, meaning either I will or let us.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:~てくる",
+        "pattern": "～てくる",
+        "patternSegments": [
+          {
+            "text": "～てくる"
+          }
+        ],
+        "explanation": "This pattern describes an action or movement approaching the speaker or the scene being described, including bringing something there.",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:命令形",
+        "pattern": "命令形",
+        "patternSegments": [
+          {
+            "base": "命令形",
+            "reading": "めいれいけい"
+          }
+        ],
+        "explanation": "This pattern gives a direct, forceful command. The rich man uses it to order the sun to return and stay.",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:~ながら",
+        "pattern": "～ながら",
+        "patternSegments": [
+          {
+            "text": "～ながら"
+          }
+        ],
+        "explanation": "This pattern attaches to a verb stem to show that the same person performs two actions at the same time.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:すると",
+        "pattern": "すると",
+        "patternSegments": [
+          {
+            "text": "すると"
+          }
+        ],
+        "explanation": "This pattern introduces something that happens immediately after, or as a result of, the preceding event.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~ように",
+        "pattern": "～ように",
+        "patternSegments": [
+          {
+            "text": "～ように"
+          }
+        ],
+        "explanation": "This pattern expresses a desired outcome or purpose. The rich man's final phrase leaves the preceding instruction understood.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~間に",
+        "pattern": "～間に",
+        "patternSegments": [
+          {
+            "text": "～"
+          },
+          {
+            "base": "間",
+            "reading": "あいだ"
+          },
+          {
+            "text": "に"
+          }
+        ],
+        "explanation": "This pattern marks a period within which an event takes place.",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~てしまう",
+        "pattern": "～てしまう",
+        "patternSegments": [
+          {
+            "text": "～てしまう"
+          }
+        ],
+        "explanation": "This pattern emphasizes that an action is completed, often with an unfortunate or irreversible result.",
+        "firstPassage": 13,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:~からだ",
+        "pattern": "～からだ",
+        "patternSegments": [
+          {
+            "text": "～からだ"
+          }
+        ],
+        "explanation": "This pattern presents the preceding clause as the reason for an outcome. Here the final assertion becomes tentative.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~だろう",
+        "pattern": "～だろう",
+        "patternSegments": [
+          {
+            "text": "～だろう"
+          }
+        ],
+        "explanation": "This pattern expresses a conjecture or probable explanation rather than a certain fact.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

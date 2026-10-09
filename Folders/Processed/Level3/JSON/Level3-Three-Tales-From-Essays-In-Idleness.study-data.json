@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:連歌|れんが",
+      "japanese": "連歌",
+      "japaneseSegments": [
+        {
+          "base": "連歌",
+          "reading": "れんが"
+        }
+      ],
+      "reading": "れんが",
+      "romaji": "renga",
+      "meaning": "linked verse, a poetic game in which participants take turns composing verses",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:猫又|ねこまた",
+      "japanese": "猫又",
+      "japaneseSegments": [
+        {
+          "base": "猫又",
+          "reading": "ねこまた"
+        }
+      ],
+      "reading": "ねこまた",
+      "romaji": "nekomata",
+      "meaning": "a mythical cat creature said to prey on people",
+      "firstPassage": 7,
+      "occurrenceCount": 12
+    }
+  ],
+  "grammar": []
+}

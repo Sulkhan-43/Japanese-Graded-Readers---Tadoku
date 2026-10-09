@@ -1,0 +1,150 @@
+{
+  "id": "level3-magic",
+  "name": "Magic",
+  "japaneseTitle": "魔術",
+  "slug": "level3-magic",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-magic/source.pdf",
+  "ocrR2Key": "books/level3-magic/source-ocr.txt",
+  "coverR2Key": "books/level3-magic/cover.jpg",
+  "htmlR2Key": "books/level3-magic/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 3854,
+  "createdAt": "2026-10-09T20:01:42.365Z",
+  "updatedAt": "2026-10-09T20:01:42.365Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:人力車|じんりきしゃ",
+        "japanese": "人力車",
+        "japaneseSegments": [
+          {
+            "base": "人力車",
+            "reading": "じんりきしゃ"
+          }
+        ],
+        "reading": "じんりきしゃ",
+        "romaji": "jinrikisha",
+        "meaning": "rickshaw",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:表札|ひょうさつ",
+        "japanese": "表札",
+        "japaneseSegments": [
+          {
+            "base": "表札",
+            "reading": "ひょうさつ"
+          }
+        ],
+        "reading": "ひょうさつ",
+        "romaji": "hyōsatsu",
+        "meaning": "nameplate at a house entrance",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:銀座|ぎんざ",
+        "japanese": "銀座",
+        "japaneseSegments": [
+          {
+            "base": "銀座",
+            "reading": "ぎんざ"
+          }
+        ],
+        "reading": "ぎんざ",
+        "romaji": "Ginza",
+        "meaning": "Ginza, a district in Tokyo",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:石炭|せきたん",
+        "japanese": "石炭",
+        "japaneseSegments": [
+          {
+            "base": "石炭",
+            "reading": "せきたん"
+          }
+        ],
+        "reading": "せきたん",
+        "romaji": "sekitan",
+        "meaning": "coal",
+        "firstPassage": 9,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:金貨|きんか",
+        "japanese": "金貨",
+        "japaneseSegments": [
+          {
+            "base": "金貨",
+            "reading": "きんか"
+          }
+        ],
+        "reading": "きんか",
+        "romaji": "kinka",
+        "meaning": "gold coin",
+        "firstPassage": 9,
+        "occurrenceCount": 30
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:V-te imasu",
+        "pattern": "V-te imasu",
+        "patternSegments": [
+          {
+            "text": "V-te imasu"
+          }
+        ],
+        "explanation": "This pattern describes an action in progress or a resulting state that continues into the present.",
+        "firstPassage": 1,
+        "occurrenceCount": 11
+      },
+      {
+        "key": "grammar:V-te kara",
+        "pattern": "V-te kara",
+        "patternSegments": [
+          {
+            "text": "V-te kara"
+          }
+        ],
+        "explanation": "This pattern means that one action happens after another action has been completed.",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-tara",
+        "pattern": "V-tara",
+        "patternSegments": [
+          {
+            "text": "V-tara"
+          }
+        ],
+        "explanation": "This pattern presents a condition or trigger, often translated as “if” or “when.”",
+        "firstPassage": 6,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:V-nagara",
+        "pattern": "V-nagara",
+        "patternSegments": [
+          {
+            "text": "V-nagara"
+          }
+        ],
+        "explanation": "This pattern describes doing two actions at the same time.",
+        "firstPassage": 8,
+        "occurrenceCount": 12
+      }
+    ]
+  }
+}

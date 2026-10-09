@@ -1,0 +1,84 @@
+{
+  "id": "level3-the-restaurant-of-many-orders",
+  "name": "The Restaurant of Many Orders",
+  "japaneseTitle": "注文の多い料理店",
+  "slug": "level3-the-restaurant-of-many-orders",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-the-restaurant-of-many-orders/source.pdf",
+  "ocrR2Key": "books/level3-the-restaurant-of-many-orders/source-ocr.txt",
+  "coverR2Key": "books/level3-the-restaurant-of-many-orders/cover.jpg",
+  "htmlR2Key": "books/level3-the-restaurant-of-many-orders/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 1714,
+  "createdAt": "2026-10-09T19:50:37.945Z",
+  "updatedAt": "2026-10-09T19:50:37.945Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:鉄砲|てっぽう",
+        "japanese": "鉄砲",
+        "japaneseSegments": [
+          {
+            "base": "鉄砲",
+            "reading": "てっぽう"
+          }
+        ],
+        "reading": "てっぽう",
+        "romaji": "teppō",
+        "meaning": "gun; firearm",
+        "firstPassage": 1,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:案内|あんない",
+        "japanese": "案内",
+        "japaneseSegments": [
+          {
+            "base": "案内",
+            "reading": "あんない"
+          }
+        ],
+        "reading": "あんない",
+        "romaji": "annai",
+        "meaning": "guidance; escorting someone",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:注文|ちゅうもん",
+        "japanese": "注文",
+        "japaneseSegments": [
+          {
+            "base": "注文",
+            "reading": "ちゅうもん"
+          }
+        ],
+        "reading": "ちゅうもん",
+        "romaji": "chūmon",
+        "meaning": "order; request for food or goods",
+        "firstPassage": 5,
+        "occurrenceCount": 10
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:te shimau",
+        "pattern": "te shimau",
+        "patternSegments": [
+          {
+            "text": "V-te shimau"
+          }
+        ],
+        "explanation": "This pattern marks an action as completed, often with an unwanted, regrettable, or unintended result.",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      }
+    ]
+  }
+}

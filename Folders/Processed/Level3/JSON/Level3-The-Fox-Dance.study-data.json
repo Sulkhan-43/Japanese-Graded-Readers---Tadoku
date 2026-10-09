@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:伝説|でんせつ",
+      "japanese": "伝説",
+      "japaneseSegments": [
+        {
+          "base": "伝説",
+          "reading": "でんせつ"
+        }
+      ],
+      "reading": "でんせつ",
+      "romaji": "densetsu",
+      "meaning": "legend",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:練習|れんしゅう",
+      "japanese": "練習",
+      "japaneseSegments": [
+        {
+          "base": "練習",
+          "reading": "れんしゅう"
+        }
+      ],
+      "reading": "れんしゅう",
+      "romaji": "renshū",
+      "meaning": "practice; rehearsal",
+      "firstPassage": 6,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:先祖|せんぞ",
+      "japanese": "先祖",
+      "japaneseSegments": [
+        {
+          "base": "先祖",
+          "reading": "せんぞ"
+        }
+      ],
+      "reading": "せんぞ",
+      "romaji": "senzo",
+      "meaning": "ancestor",
+      "firstPassage": 7,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:夢|ゆめ",
+      "japanese": "夢",
+      "japaneseSegments": [
+        {
+          "base": "夢",
+          "reading": "ゆめ"
+        }
+      ],
+      "reading": "ゆめ",
+      "romaji": "yume",
+      "meaning": "dream",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:Shika ... nai",
+      "pattern": "Shika ... nai",
+      "patternSegments": [
+        {
+          "text": "N shika V-negative"
+        }
+      ],
+      "explanation": "This pattern limits the subject or object to the stated person or thing, with the verb in a negative form to mean that only that person or thing can do it.",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    }
+  ]
+}

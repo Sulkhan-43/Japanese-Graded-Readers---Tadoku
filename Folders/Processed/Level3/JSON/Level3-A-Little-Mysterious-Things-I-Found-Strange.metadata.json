@@ -1,0 +1,844 @@
+{
+  "id": "level3-a-little-mysterious-things-i-found-strange",
+  "name": "A Little Mysterious Things I Found Strange",
+  "japaneseTitle": "ふしぎだな―ぼくが感じた不思議なこと",
+  "slug": "level3-a-little-mysterious-things-i-found-strange",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-a-little-mysterious-things-i-found-strange/source.pdf",
+  "ocrR2Key": "books/level3-a-little-mysterious-things-i-found-strange/source-ocr.txt",
+  "coverR2Key": "books/level3-a-little-mysterious-things-i-found-strange/cover.jpg",
+  "htmlR2Key": "books/level3-a-little-mysterious-things-i-found-strange/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 180,
+  "createdAt": "2026-10-09T20:20:33.993Z",
+  "updatedAt": "2026-10-09T20:20:33.993Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:マスク|ますく",
+        "japanese": "マスク",
+        "japaneseSegments": [
+          {
+            "text": "マスク"
+          }
+        ],
+        "reading": "ますく",
+        "romaji": "masuku",
+        "meaning": "mask",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:夏|なつ",
+        "japanese": "夏",
+        "japaneseSegments": [
+          {
+            "base": "夏",
+            "reading": "なつ"
+          }
+        ],
+        "reading": "なつ",
+        "romaji": "natsu",
+        "meaning": "summer",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:人|ひと",
+        "japanese": "人",
+        "japaneseSegments": [
+          {
+            "base": "人",
+            "reading": "ひと"
+          }
+        ],
+        "reading": "ひと",
+        "romaji": "hito",
+        "meaning": "person; people",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:多い|おおい",
+        "japanese": "多い",
+        "japaneseSegments": [
+          {
+            "base": "多",
+            "reading": "おお"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "おおい",
+        "romaji": "ōi",
+        "meaning": "many; numerous",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:理由|りゆう",
+        "japanese": "理由",
+        "japaneseSegments": [
+          {
+            "base": "理由",
+            "reading": "りゆう"
+          }
+        ],
+        "reading": "りゆう",
+        "romaji": "riyū",
+        "meaning": "reason",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:知る|しる",
+        "japanese": "知る",
+        "japaneseSegments": [
+          {
+            "base": "知",
+            "reading": "し"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "しる",
+        "romaji": "shiru",
+        "meaning": "to know; find out",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:日本人|にほんじん",
+        "japanese": "日本人",
+        "japaneseSegments": [
+          {
+            "base": "日本人",
+            "reading": "にほんじん"
+          }
+        ],
+        "reading": "にほんじん",
+        "romaji": "Nihonjin",
+        "meaning": "Japanese person; Japanese people",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:友達|ともだち",
+        "japanese": "友達",
+        "japaneseSegments": [
+          {
+            "base": "友達",
+            "reading": "ともだち"
+          }
+        ],
+        "reading": "ともだち",
+        "romaji": "tomodachi",
+        "meaning": "friend",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:聞く|きく",
+        "japanese": "聞く",
+        "japaneseSegments": [
+          {
+            "base": "聞",
+            "reading": "き"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "きく",
+        "romaji": "kiku",
+        "meaning": "to ask; listen",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:化粧|けしょう",
+        "japanese": "化粧",
+        "japaneseSegments": [
+          {
+            "base": "化粧",
+            "reading": "けしょう"
+          }
+        ],
+        "reading": "けしょう",
+        "romaji": "keshō",
+        "meaning": "makeup",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:時間|じかん",
+        "japanese": "時間",
+        "japaneseSegments": [
+          {
+            "base": "時間",
+            "reading": "じかん"
+          }
+        ],
+        "reading": "じかん",
+        "romaji": "jikan",
+        "meaning": "time",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:顔|かお",
+        "japanese": "顔",
+        "japaneseSegments": [
+          {
+            "base": "顔",
+            "reading": "かお"
+          }
+        ],
+        "reading": "かお",
+        "romaji": "kao",
+        "meaning": "face",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:隠す|かくす",
+        "japanese": "隠す",
+        "japaneseSegments": [
+          {
+            "base": "隠",
+            "reading": "かく"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "かくす",
+        "romaji": "kakusu",
+        "meaning": "to hide",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:言う|いう",
+        "japanese": "言う",
+        "japaneseSegments": [
+          {
+            "base": "言",
+            "reading": "い"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "いう",
+        "romaji": "iu",
+        "meaning": "to say; tell",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:風邪|かぜ",
+        "japanese": "風邪",
+        "japaneseSegments": [
+          {
+            "base": "風邪",
+            "reading": "かぜ"
+          }
+        ],
+        "reading": "かぜ",
+        "romaji": "kaze",
+        "meaning": "a cold",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:高校生|こうこうせい",
+        "japanese": "高校生",
+        "japaneseSegments": [
+          {
+            "base": "高校生",
+            "reading": "こうこうせい"
+          }
+        ],
+        "reading": "こうこうせい",
+        "romaji": "kōkōsei",
+        "meaning": "high school student",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:歳|さい",
+        "japanese": "歳",
+        "japaneseSegments": [
+          {
+            "base": "歳",
+            "reading": "さい"
+          }
+        ],
+        "reading": "さい",
+        "romaji": "sai",
+        "meaning": "years old; age counter",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:女|おんな",
+        "japanese": "女",
+        "japaneseSegments": [
+          {
+            "base": "女",
+            "reading": "おんな"
+          }
+        ],
+        "reading": "おんな",
+        "romaji": "onna",
+        "meaning": "woman",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:不思議|ふしぎ",
+        "japanese": "不思議",
+        "japaneseSegments": [
+          {
+            "base": "不思議",
+            "reading": "ふしぎ"
+          }
+        ],
+        "reading": "ふしぎ",
+        "romaji": "fushigi",
+        "meaning": "strange; mysterious",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:思う|おもう",
+        "japanese": "思う",
+        "japaneseSegments": [
+          {
+            "base": "思",
+            "reading": "おも"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "おもう",
+        "romaji": "omou",
+        "meaning": "to think",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:実|じつ",
+        "japanese": "実",
+        "japaneseSegments": [
+          {
+            "base": "実",
+            "reading": "じつ"
+          }
+        ],
+        "reading": "じつ",
+        "romaji": "jitsu",
+        "meaning": "actually; in fact (as a sentence opener)",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:平安時代|へいあんじだい",
+        "japanese": "平安時代",
+        "japaneseSegments": [
+          {
+            "base": "平安時代",
+            "reading": "へいあんじだい"
+          }
+        ],
+        "reading": "へいあんじだい",
+        "romaji": "Heian jidai",
+        "meaning": "Heian period",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:伝わる|つたわる",
+        "japanese": "伝わる",
+        "japaneseSegments": [
+          {
+            "base": "伝",
+            "reading": "つた"
+          },
+          {
+            "text": "わる"
+          }
+        ],
+        "reading": "つたわる",
+        "romaji": "tsutawaru",
+        "meaning": "to be passed down",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:文化|ぶんか",
+        "japanese": "文化",
+        "japaneseSegments": [
+          {
+            "base": "文化",
+            "reading": "ぶんか"
+          }
+        ],
+        "reading": "ぶんか",
+        "romaji": "bunka",
+        "meaning": "culture; tradition",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:今|いま",
+        "japanese": "今",
+        "japaneseSegments": [
+          {
+            "base": "今",
+            "reading": "いま"
+          }
+        ],
+        "reading": "いま",
+        "romaji": "ima",
+        "meaning": "now; nowadays",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:マナー|まなー",
+        "japanese": "マナー",
+        "japaneseSegments": [
+          {
+            "text": "マナー"
+          }
+        ],
+        "reading": "まなー",
+        "romaji": "manā",
+        "meaning": "manners; etiquette",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:玄関|げんかん",
+        "japanese": "玄関",
+        "japaneseSegments": [
+          {
+            "base": "玄関",
+            "reading": "げんかん"
+          }
+        ],
+        "reading": "げんかん",
+        "romaji": "genkan",
+        "meaning": "entranceway; entry hall",
+        "firstPassage": 5,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:家|いえ",
+        "japanese": "家",
+        "japaneseSegments": [
+          {
+            "base": "家",
+            "reading": "いえ"
+          }
+        ],
+        "reading": "いえ",
+        "romaji": "ie",
+        "meaning": "house; home",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:入る|はいる",
+        "japanese": "入る",
+        "japaneseSegments": [
+          {
+            "base": "入",
+            "reading": "はい"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "はいる",
+        "romaji": "hairu",
+        "meaning": "to enter",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:靴|くつ",
+        "japanese": "靴",
+        "japaneseSegments": [
+          {
+            "base": "靴",
+            "reading": "くつ"
+          }
+        ],
+        "reading": "くつ",
+        "romaji": "kutsu",
+        "meaning": "shoes",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:脱ぐ|ぬぐ",
+        "japanese": "脱ぐ",
+        "japaneseSegments": [
+          {
+            "base": "脱",
+            "reading": "ぬ"
+          },
+          {
+            "text": "ぐ"
+          }
+        ],
+        "reading": "ぬぐ",
+        "romaji": "nugu",
+        "meaning": "to take off (clothing or shoes)",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:段差|だんさ",
+        "japanese": "段差",
+        "japaneseSegments": [
+          {
+            "base": "段差",
+            "reading": "だんさ"
+          }
+        ],
+        "reading": "だんさ",
+        "romaji": "dansa",
+        "meaning": "step; difference in floor level",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:マンガ|まんが",
+        "japanese": "マンガ",
+        "japaneseSegments": [
+          {
+            "text": "マンガ"
+          }
+        ],
+        "reading": "まんが",
+        "romaji": "manga",
+        "meaning": "manga; comic",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:アニメ|あにめ",
+        "japanese": "アニメ",
+        "japaneseSegments": [
+          {
+            "text": "アニメ"
+          }
+        ],
+        "reading": "あにめ",
+        "romaji": "anime",
+        "meaning": "anime",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:見る|みる",
+        "japanese": "見る",
+        "japaneseSegments": [
+          {
+            "base": "見",
+            "reading": "み"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "みる",
+        "romaji": "miru",
+        "meaning": "to see; watch",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:場所|ばしょ",
+        "japanese": "場所",
+        "japaneseSegments": [
+          {
+            "base": "場所",
+            "reading": "ばしょ"
+          }
+        ],
+        "reading": "ばしょ",
+        "romaji": "basho",
+        "meaning": "place; location",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大切|たいせつ",
+        "japanese": "大切",
+        "japaneseSegments": [
+          {
+            "base": "大切",
+            "reading": "たいせつ"
+          }
+        ],
+        "reading": "たいせつ",
+        "romaji": "taisetsu",
+        "meaning": "important; precious",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:外|そと",
+        "japanese": "外",
+        "japaneseSegments": [
+          {
+            "base": "外",
+            "reading": "そと"
+          }
+        ],
+        "reading": "そと",
+        "romaji": "soto",
+        "meaning": "outside",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:内|うち",
+        "japanese": "内",
+        "japaneseSegments": [
+          {
+            "base": "内",
+            "reading": "うち"
+          }
+        ],
+        "reading": "うち",
+        "romaji": "uchi",
+        "meaning": "inside",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:気持ち|きもち",
+        "japanese": "気持ち",
+        "japaneseSegments": [
+          {
+            "base": "気持",
+            "reading": "きも"
+          },
+          {
+            "text": "ち"
+          }
+        ],
+        "reading": "きもち",
+        "romaji": "kimochi",
+        "meaning": "feeling; mood",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:変わる|かわる",
+        "japanese": "変わる",
+        "japaneseSegments": [
+          {
+            "base": "変",
+            "reading": "か"
+          },
+          {
+            "text": "わる"
+          }
+        ],
+        "reading": "かわる",
+        "romaji": "kawaru",
+        "meaning": "to change",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:リラックス|りらっくす",
+        "japanese": "リラックス",
+        "japaneseSegments": [
+          {
+            "text": "リラックス"
+          }
+        ],
+        "reading": "りらっくす",
+        "romaji": "rirakkusu",
+        "meaning": "to relax; relaxation",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N de wa",
+        "pattern": "N de wa",
+        "patternSegments": [
+          {
+            "text": "N de wa"
+          }
+        ],
+        "explanation": "This pattern sets a place or context as the topic, often translated as “in” or “at” that context.",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N demo",
+        "pattern": "N demo",
+        "patternSegments": [
+          {
+            "text": "N demo"
+          }
+        ],
+        "explanation": "This pattern means “even” when presenting a surprising or inclusive example.",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-takute",
+        "pattern": "V-takute",
+        "patternSegments": [
+          {
+            "text": "V-takute"
+          }
+        ],
+        "explanation": "This pattern connects a desire to a following action or result, often meaning “wanting to do.”",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-nakute",
+        "pattern": "V-nakute",
+        "patternSegments": [
+          {
+            "text": "V-nakute"
+          }
+        ],
+        "explanation": "This pattern connects a negative state or action to what follows, often giving a reason or circumstance.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-nai yō ni",
+        "pattern": "V-nai yō ni",
+        "patternSegments": [
+          {
+            "text": "V-nai yō ni"
+          }
+        ],
+        "explanation": "This pattern expresses a purpose or precaution: doing something so that an unwanted event does not happen.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:そうだ (hearsay)",
+        "pattern": "そうだ (hearsay)",
+        "patternSegments": [
+          {
+            "text": "sō da (hearsay)"
+          }
+        ],
+        "explanation": "This pattern reports information heard from someone else, similar to “I hear that” or “apparently.”",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N kara N made",
+        "pattern": "N kara N made",
+        "patternSegments": [
+          {
+            "text": "N kara N made"
+          }
+        ],
+        "explanation": "This pattern marks the starting and ending points of a range, meaning “from N to N.”",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:to omou",
+        "pattern": "to omou",
+        "patternSegments": [
+          {
+            "text": "to omou"
+          }
+        ],
+        "explanation": "This pattern introduces a thought or opinion, similar to “I think that.”",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-te kuru",
+        "pattern": "V-te kuru",
+        "patternSegments": [
+          {
+            "text": "V-te kuru"
+          }
+        ],
+        "explanation": "This pattern describes an action or change that began in the past and has continued toward the present.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni naru",
+        "pattern": "N ni naru",
+        "patternSegments": [
+          {
+            "text": "N ni naru"
+          }
+        ],
+        "explanation": "This pattern describes a change of state, meaning “to become N.”",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-dictionary toki",
+        "pattern": "V-dictionary toki",
+        "patternSegments": [
+          {
+            "text": "V-dictionary toki"
+          }
+        ],
+        "explanation": "This pattern uses a verb to specify when an action takes place, meaning “when doing.”",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni totte",
+        "pattern": "N ni totte",
+        "patternSegments": [
+          {
+            "text": "N ni totte"
+          }
+        ],
+        "explanation": "This pattern marks the person or group for whom something is important or relevant, meaning “for N.”",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-dictionary dake de",
+        "pattern": "V-dictionary dake de",
+        "patternSegments": [
+          {
+            "text": "V-dictionary dake de"
+          }
+        ],
+        "explanation": "This pattern means “just by doing” and describes a result achieved with only that action.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,1481 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:日本|にほん",
+      "japanese": "日本",
+      "japaneseSegments": [
+        {
+          "base": "日本",
+          "reading": "にほん"
+        }
+      ],
+      "reading": "にほん",
+      "romaji": "Nihon",
+      "meaning": "Japan",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:温泉|おんせん",
+      "japanese": "温泉",
+      "japaneseSegments": [
+        {
+          "base": "温泉",
+          "reading": "おんせん"
+        }
+      ],
+      "reading": "おんせん",
+      "romaji": "onsen",
+      "meaning": "hot spring; hot spring water, also used within compound names",
+      "firstPassage": 1,
+      "occurrenceCount": 55
+    },
+    {
+      "key": "vocabulary:好き|すき",
+      "japanese": "好き",
+      "japaneseSegments": [
+        {
+          "base": "好",
+          "reading": "す"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "すき",
+      "romaji": "suki",
+      "meaning": "liked; fond of",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:多い|おおい",
+      "japanese": "多い",
+      "japaneseSegments": [
+        {
+          "base": "多",
+          "reading": "おお"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "おおい",
+      "romaji": "ōi",
+      "meaning": "many; much; plentiful",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:水|みず",
+      "japanese": "水",
+      "japaneseSegments": [
+        {
+          "base": "水",
+          "reading": "みず"
+        }
+      ],
+      "reading": "みず",
+      "romaji": "mizu",
+      "meaning": "water",
+      "firstPassage": 2,
+      "occurrenceCount": 15
+    },
+    {
+      "key": "vocabulary:特徴|とくちょう",
+      "japanese": "特徴",
+      "japaneseSegments": [
+        {
+          "base": "特徴",
+          "reading": "とくちょう"
+        }
+      ],
+      "reading": "とくちょう",
+      "romaji": "tokuchō",
+      "meaning": "characteristic; distinguishing feature",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:最初|さいしょ",
+      "japanese": "最初",
+      "japaneseSegments": [
+        {
+          "base": "最初",
+          "reading": "さいしょ"
+        }
+      ],
+      "reading": "さいしょ",
+      "romaji": "saisho",
+      "meaning": "the beginning; first",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:地下|ちか",
+      "japanese": "地下",
+      "japaneseSegments": [
+        {
+          "base": "地下",
+          "reading": "ちか"
+        }
+      ],
+      "reading": "ちか",
+      "romaji": "chika",
+      "meaning": "underground; below ground",
+      "firstPassage": 3,
+      "occurrenceCount": 14
+    },
+    {
+      "key": "vocabulary:自然|しぜん",
+      "japanese": "自然",
+      "japaneseSegments": [
+        {
+          "base": "自然",
+          "reading": "しぜん"
+        }
+      ],
+      "reading": "しぜん",
+      "romaji": "shizen",
+      "meaning": "nature; naturally when used adverbially",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:出る|でる",
+      "japanese": "出る",
+      "japaneseSegments": [
+        {
+          "base": "出",
+          "reading": "で"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "でる",
+      "romaji": "deru",
+      "meaning": "come out; emerge; get out",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:出す|だす",
+      "japanese": "出す",
+      "japaneseSegments": [
+        {
+          "base": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "だす",
+      "romaji": "dasu",
+      "meaning": "bring out; extract",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:全部|ぜんぶ",
+      "japanese": "全部",
+      "japaneseSegments": [
+        {
+          "base": "全部",
+          "reading": "ぜんぶ"
+        }
+      ],
+      "reading": "ぜんぶ",
+      "romaji": "zenbu",
+      "meaning": "all; everything; in total",
+      "firstPassage": 4,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:知る|しる",
+      "japanese": "知る",
+      "japaneseSegments": [
+        {
+          "base": "知",
+          "reading": "し"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "しる",
+      "romaji": "shiru",
+      "meaning": "know; find out",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:調べる|しらべる",
+      "japanese": "調べる",
+      "japaneseSegments": [
+        {
+          "base": "調",
+          "reading": "しら"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "reading": "しらべる",
+      "romaji": "shiraberu",
+      "meaning": "check; investigate; examine",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:温度|おんど",
+      "japanese": "温度",
+      "japaneseSegments": [
+        {
+          "base": "温度",
+          "reading": "おんど"
+        }
+      ],
+      "reading": "おんど",
+      "romaji": "ondo",
+      "meaning": "temperature",
+      "firstPassage": 5,
+      "occurrenceCount": 12
+    },
+    {
+      "key": "vocabulary:成分|せいぶん",
+      "japanese": "成分",
+      "japaneseSegments": [
+        {
+          "base": "成分",
+          "reading": "せいぶん"
+        }
+      ],
+      "reading": "せいぶん",
+      "romaji": "seibun",
+      "meaning": "component; constituent substance",
+      "firstPassage": 5,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:以上|いじょう",
+      "japanese": "以上",
+      "japaneseSegments": [
+        {
+          "base": "以上",
+          "reading": "いじょう"
+        }
+      ],
+      "reading": "いじょう",
+      "romaji": "ijō",
+      "meaning": "at least; or more; includes the stated amount",
+      "firstPassage": 6,
+      "occurrenceCount": 23
+    },
+    {
+      "key": "vocabulary:高い|たかい",
+      "japanese": "高い",
+      "japaneseSegments": [
+        {
+          "base": "高",
+          "reading": "たか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "たかい",
+      "romaji": "takai",
+      "meaning": "high",
+      "firstPassage": 6,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:熱|ねつ",
+      "japanese": "熱",
+      "japaneseSegments": [
+        {
+          "base": "熱",
+          "reading": "ねつ"
+        }
+      ],
+      "reading": "ねつ",
+      "romaji": "netsu",
+      "meaning": "heat",
+      "firstPassage": 7,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:タイプ|タイプ",
+      "japanese": "タイプ",
+      "japaneseSegments": [
+        {
+          "text": "タイプ"
+        }
+      ],
+      "reading": "タイプ",
+      "romaji": "taipu",
+      "meaning": "type; category",
+      "firstPassage": 7,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "vocabulary:火山|かざん",
+      "japanese": "火山",
+      "japaneseSegments": [
+        {
+          "base": "火山",
+          "reading": "かざん"
+        }
+      ],
+      "reading": "かざん",
+      "romaji": "kazan",
+      "meaning": "volcano",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:熱い|あつい",
+      "japanese": "熱い",
+      "japaneseSegments": [
+        {
+          "base": "熱",
+          "reading": "あつ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "あつい",
+      "romaji": "atsui",
+      "meaning": "hot to the touch; hot in temperature",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:火山性温泉|かざんせいおんせん",
+      "japanese": "火山性温泉",
+      "japaneseSegments": [
+        {
+          "base": "火山性温泉",
+          "reading": "かざんせいおんせん"
+        }
+      ],
+      "reading": "かざんせいおんせん",
+      "romaji": "kazansei onsen",
+      "meaning": "volcanic hot spring",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:深い|ふかい",
+      "japanese": "深い",
+      "japaneseSegments": [
+        {
+          "base": "深",
+          "reading": "ふか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "ふかい",
+      "romaji": "fukai",
+      "meaning": "deep",
+      "firstPassage": 8,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:所|ところ",
+      "japanese": "所",
+      "japaneseSegments": [
+        {
+          "base": "所",
+          "reading": "ところ"
+        }
+      ],
+      "reading": "ところ",
+      "romaji": "tokoro",
+      "meaning": "place; location",
+      "firstPassage": 8,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:どんどん|どんどん",
+      "japanese": "どんどん",
+      "japaneseSegments": [
+        {
+          "text": "どんどん"
+        }
+      ],
+      "reading": "どんどん",
+      "romaji": "dondon",
+      "meaning": "steadily; increasingly",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:非火山性温泉|ひかざんせいおんせん",
+      "japanese": "非火山性温泉",
+      "japaneseSegments": [
+        {
+          "base": "非火山性温泉",
+          "reading": "ひかざんせいおんせん"
+        }
+      ],
+      "reading": "ひかざんせいおんせん",
+      "romaji": "hikazansei onsen",
+      "meaning": "non-volcanic hot spring",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:近く|ちかく",
+      "japanese": "近く",
+      "japaneseSegments": [
+        {
+          "base": "近",
+          "reading": "ちか"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "ちかく",
+      "romaji": "chikaku",
+      "meaning": "nearby; vicinity",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:持つ|もつ",
+      "japanese": "持つ",
+      "japaneseSegments": [
+        {
+          "base": "持",
+          "reading": "も"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "reading": "もつ",
+      "romaji": "motsu",
+      "meaning": "have; hold; possess",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:入る|はいる",
+      "japanese": "入る",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "はい"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "はいる",
+      "romaji": "hairu",
+      "meaning": "enter; be contained in",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:物|もの",
+      "japanese": "物",
+      "japaneseSegments": [
+        {
+          "base": "物",
+          "reading": "もの"
+        }
+      ],
+      "reading": "もの",
+      "romaji": "mono",
+      "meaning": "thing; substance",
+      "firstPassage": 10,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:表|ひょう",
+      "japanese": "表",
+      "japaneseSegments": [
+        {
+          "base": "表",
+          "reading": "ひょう"
+        }
+      ],
+      "reading": "ひょう",
+      "romaji": "hyō",
+      "meaning": "table; chart",
+      "firstPassage": 11,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:低い|ひくい",
+      "japanese": "低い",
+      "japaneseSegments": [
+        {
+          "base": "低",
+          "reading": "ひく"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "ひくい",
+      "romaji": "hikui",
+      "meaning": "low",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:決める|きめる",
+      "japanese": "決める",
+      "japaneseSegments": [
+        {
+          "base": "決",
+          "reading": "き"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "reading": "きめる",
+      "romaji": "kimeru",
+      "meaning": "determine; decide; specify",
+      "firstPassage": 13,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:単純温泉|たんじゅんおんせん",
+      "japanese": "単純温泉",
+      "japaneseSegments": [
+        {
+          "base": "単純温泉",
+          "reading": "たんじゅんおんせん"
+        }
+      ],
+      "reading": "たんじゅんおんせん",
+      "romaji": "tanjun onsen",
+      "meaning": "simple hot spring; a low-concentration hot spring category",
+      "firstPassage": 13,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:二酸化炭素泉|にさんかたんそせん",
+      "japanese": "二酸化炭素泉",
+      "japaneseSegments": [
+        {
+          "base": "二酸化炭素泉",
+          "reading": "にさんかたんそせん"
+        }
+      ],
+      "reading": "にさんかたんそせん",
+      "romaji": "nisankatanso-sen",
+      "meaning": "carbon dioxide spring",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:炭酸水素塩泉|たんさんすいそえんせん",
+      "japanese": "炭酸水素塩泉",
+      "japaneseSegments": [
+        {
+          "base": "炭酸水素塩泉",
+          "reading": "たんさんすいそえんせん"
+        }
+      ],
+      "reading": "たんさんすいそえんせん",
+      "romaji": "tansan suiso en-sen",
+      "meaning": "hydrogen carbonate spring; bicarbonate spring",
+      "firstPassage": 13,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:塩化物泉|えんかぶつせん",
+      "japanese": "塩化物泉",
+      "japaneseSegments": [
+        {
+          "base": "塩化物泉",
+          "reading": "えんかぶつせん"
+        }
+      ],
+      "reading": "えんかぶつせん",
+      "romaji": "enkabutsu-sen",
+      "meaning": "chloride spring",
+      "firstPassage": 13,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:含よう素泉|がんようそせん",
+      "japanese": "含よう素泉",
+      "japaneseSegments": [
+        {
+          "base": "含",
+          "reading": "がん"
+        },
+        {
+          "text": "よう"
+        },
+        {
+          "base": "素泉",
+          "reading": "そせん"
+        }
+      ],
+      "reading": "がんようそせん",
+      "romaji": "gan'yōso-sen",
+      "meaning": "iodine-containing spring",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:硫酸塩泉|りゅうさんえんせん",
+      "japanese": "硫酸塩泉",
+      "japaneseSegments": [
+        {
+          "base": "硫酸塩泉",
+          "reading": "りゅうさんえんせん"
+        }
+      ],
+      "reading": "りゅうさんえんせん",
+      "romaji": "ryūsan'en-sen",
+      "meaning": "sulfate spring",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:含鉄泉|がんてつせん",
+      "japanese": "含鉄泉",
+      "japaneseSegments": [
+        {
+          "base": "含鉄泉",
+          "reading": "がんてつせん"
+        }
+      ],
+      "reading": "がんてつせん",
+      "romaji": "gantetsu-sen",
+      "meaning": "iron-containing spring",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:硫黄泉|いおうせん",
+      "japanese": "硫黄泉",
+      "japaneseSegments": [
+        {
+          "base": "硫黄泉",
+          "reading": "いおうせん"
+        }
+      ],
+      "reading": "いおうせん",
+      "romaji": "iō-sen",
+      "meaning": "sulfur spring",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:酸性泉|さんせいせん",
+      "japanese": "酸性泉",
+      "japaneseSegments": [
+        {
+          "base": "酸性泉",
+          "reading": "さんせいせん"
+        }
+      ],
+      "reading": "さんせいせん",
+      "romaji": "sansei-sen",
+      "meaning": "acidic spring",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:放射能泉|ほうしゃのうせん",
+      "japanese": "放射能泉",
+      "japaneseSegments": [
+        {
+          "base": "放射能泉",
+          "reading": "ほうしゃのうせん"
+        }
+      ],
+      "reading": "ほうしゃのうせん",
+      "romaji": "hōshanō-sen",
+      "meaning": "radioactive spring",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:違う|ちがう",
+      "japanese": "違う",
+      "japaneseSegments": [
+        {
+          "base": "違",
+          "reading": "ちが"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "ちがう",
+      "romaji": "chigau",
+      "meaning": "differ; be different",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:肌|はだ",
+      "japanese": "肌",
+      "japaneseSegments": [
+        {
+          "base": "肌",
+          "reading": "はだ"
+        }
+      ],
+      "reading": "はだ",
+      "romaji": "hada",
+      "meaning": "skin",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:流す|ながす",
+      "japanese": "流す",
+      "japaneseSegments": [
+        {
+          "base": "流",
+          "reading": "なが"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "ながす",
+      "romaji": "nagasu",
+      "meaning": "wash away; let flow",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:体|からだ",
+      "japanese": "体",
+      "japaneseSegments": [
+        {
+          "base": "体",
+          "reading": "からだ"
+        }
+      ],
+      "reading": "からだ",
+      "romaji": "karada",
+      "meaning": "body",
+      "firstPassage": 14,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:お湯|おゆ",
+      "japanese": "お湯",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "湯",
+          "reading": "ゆ"
+        }
+      ],
+      "reading": "おゆ",
+      "romaji": "oyu",
+      "meaning": "hot water; bathwater",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:後|あと",
+      "japanese": "後",
+      "japaneseSegments": [
+        {
+          "base": "後",
+          "reading": "あと"
+        }
+      ],
+      "reading": "あと",
+      "romaji": "ato",
+      "meaning": "after; afterward",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:長い|ながい",
+      "japanese": "長い",
+      "japaneseSegments": [
+        {
+          "base": "長",
+          "reading": "なが"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "ながい",
+      "romaji": "nagai",
+      "meaning": "long",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:時間|じかん",
+      "japanese": "時間",
+      "japaneseSegments": [
+        {
+          "base": "時間",
+          "reading": "じかん"
+        }
+      ],
+      "reading": "じかん",
+      "romaji": "jikan",
+      "meaning": "time; duration",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:温かい|あたたかい",
+      "japanese": "温かい",
+      "japaneseSegments": [
+        {
+          "base": "温",
+          "reading": "あたた"
+        },
+        {
+          "text": "かい"
+        }
+      ],
+      "reading": "あたたかい",
+      "romaji": "atatakai",
+      "meaning": "warm",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:昔|むかし",
+      "japanese": "昔",
+      "japaneseSegments": [
+        {
+          "base": "昔",
+          "reading": "むかし"
+        }
+      ],
+      "reading": "むかし",
+      "romaji": "mukashi",
+      "meaning": "long ago; the past",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:人々|ひとびと",
+      "japanese": "人々",
+      "japaneseSegments": [
+        {
+          "base": "人々",
+          "reading": "ひとびと"
+        }
+      ],
+      "reading": "ひとびと",
+      "romaji": "hitobito",
+      "meaning": "people",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:疲れる|つかれる",
+      "japanese": "疲れる",
+      "japaneseSegments": [
+        {
+          "base": "疲",
+          "reading": "つか"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "つかれる",
+      "romaji": "tsukareru",
+      "meaning": "get tired",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:病気|びょうき",
+      "japanese": "病気",
+      "japaneseSegments": [
+        {
+          "base": "病気",
+          "reading": "びょうき"
+        }
+      ],
+      "reading": "びょうき",
+      "romaji": "byōki",
+      "meaning": "illness; disease",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:治す|なおす",
+      "japanese": "治す",
+      "japaneseSegments": [
+        {
+          "base": "治",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "なおす",
+      "romaji": "naosu",
+      "meaning": "cure; heal",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:秘密|ひみつ",
+      "japanese": "秘密",
+      "japaneseSegments": [
+        {
+          "base": "秘密",
+          "reading": "ひみつ"
+        }
+      ],
+      "reading": "ひみつ",
+      "romaji": "himitsu",
+      "meaning": "secret; mystery",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:法律|ほうりつ",
+      "japanese": "法律",
+      "japaneseSegments": [
+        {
+          "base": "法律",
+          "reading": "ほうりつ"
+        }
+      ],
+      "reading": "ほうりつ",
+      "romaji": "hōritsu",
+      "meaning": "law",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:外国|がいこく",
+      "japanese": "外国",
+      "japaneseSegments": [
+        {
+          "base": "外国",
+          "reading": "がいこく"
+        }
+      ],
+      "reading": "がいこく",
+      "romaji": "gaikoku",
+      "meaning": "foreign country; abroad",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:地域|ちいき",
+      "japanese": "地域",
+      "japaneseSegments": [
+        {
+          "base": "地域",
+          "reading": "ちいき"
+        }
+      ],
+      "reading": "ちいき",
+      "romaji": "chiiki",
+      "meaning": "region; area",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:同じ|おなじ",
+      "japanese": "同じ",
+      "japaneseSegments": [
+        {
+          "base": "同",
+          "reading": "おな"
+        },
+        {
+          "text": "じ"
+        }
+      ],
+      "reading": "おなじ",
+      "romaji": "onaji",
+      "meaning": "the same",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:特別|とくべつ",
+      "japanese": "特別",
+      "japaneseSegments": [
+        {
+          "base": "特別",
+          "reading": "とくべつ"
+        }
+      ],
+      "reading": "とくべつ",
+      "romaji": "tokubetsu",
+      "meaning": "special; particular",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:濃い|こい",
+      "japanese": "濃い",
+      "japaneseSegments": [
+        {
+          "base": "濃",
+          "reading": "こ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "こい",
+      "romaji": "koi",
+      "meaning": "concentrated; strong",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:名前|なまえ",
+      "japanese": "名前",
+      "japaneseSegments": [
+        {
+          "base": "名前",
+          "reading": "なまえ"
+        }
+      ],
+      "reading": "なまえ",
+      "romaji": "namae",
+      "meaning": "name",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:使う|つかう",
+      "japanese": "使う",
+      "japaneseSegments": [
+        {
+          "base": "使",
+          "reading": "つか"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "つかう",
+      "romaji": "tsukau",
+      "meaning": "use",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:療養泉|りょうようせん",
+      "japanese": "療養泉",
+      "japaneseSegments": [
+        {
+          "base": "療養泉",
+          "reading": "りょうようせん"
+        }
+      ],
+      "reading": "りょうようせん",
+      "romaji": "ryōyōsen",
+      "meaning": "therapeutic spring; spring suitable for therapeutic use",
+      "firstPassage": 16,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:調子|ちょうし",
+      "japanese": "調子",
+      "japaneseSegments": [
+        {
+          "base": "調子",
+          "reading": "ちょうし"
+        }
+      ],
+      "reading": "ちょうし",
+      "romaji": "chōshi",
+      "meaning": "condition; state of health",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:意味|いみ",
+      "japanese": "意味",
+      "japaneseSegments": [
+        {
+          "base": "意味",
+          "reading": "いみ"
+        }
+      ],
+      "reading": "いみ",
+      "romaji": "imi",
+      "meaning": "meaning",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N tte",
+      "pattern": "N tte",
+      "patternSegments": [
+        {
+          "text": "Nって"
+        }
+      ],
+      "explanation": "This pattern informally introduces a topic, often when asking what something means or is.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N ga suki",
+      "pattern": "N ga suki",
+      "patternSegments": [
+        {
+          "text": "Nが"
+        },
+        {
+          "base": "好",
+          "reading": "す"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "explanation": "This pattern expresses liking or fondness for the marked noun.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N de wa arimasen / N ja nai desu",
+      "pattern": "N de wa arimasen / N ja nai desu",
+      "patternSegments": [
+        {
+          "text": "Nではありません／Nじゃないです"
+        }
+      ],
+      "explanation": "This pattern politely states that something is not a noun or does not have a stated quality. The second form is more conversational.",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:donna N",
+      "pattern": "donna N",
+      "patternSegments": [
+        {
+          "text": "どんなN"
+        }
+      ],
+      "explanation": "This pattern asks what kind of person or thing something is.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:plain form + to iu koto",
+      "pattern": "plain form + to iu koto",
+      "patternSegments": [
+        {
+          "base": "普通形",
+          "reading": "ふつうけい"
+        },
+        {
+          "text": "ということ"
+        }
+      ],
+      "explanation": "This pattern turns a statement into a fact or idea that can be explained as a noun.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ru koto mo aru",
+      "pattern": "V-ru koto mo aru",
+      "patternSegments": [
+        {
+          "text": "Vることもある"
+        }
+      ],
+      "explanation": "This pattern says that an action sometimes occurs or is one of the possible situations.",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:ka dō ka",
+      "pattern": "ka dō ka",
+      "patternSegments": [
+        {
+          "text": "かどうか"
+        }
+      ],
+      "explanation": "This pattern embeds a yes-or-no question, meaning whether or not.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ru tame ni",
+      "pattern": "V-ru tame ni",
+      "patternSegments": [
+        {
+          "text": "Vるために"
+        }
+      ],
+      "explanation": "This pattern gives the purpose of an action, meaning in order to do something.",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:V-mashō",
+      "pattern": "V-mashō",
+      "patternSegments": [
+        {
+          "text": "Vましょう"
+        }
+      ],
+      "explanation": "This pattern politely suggests doing something together or invites the reader to take an action.",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:tara",
+      "pattern": "tara",
+      "patternSegments": [
+        {
+          "text": "たら"
+        }
+      ],
+      "explanation": "This pattern forms a condition meaning if or when, using the past-form ending followed by the conditional ending.",
+      "firstPassage": 6,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:kara desu",
+      "pattern": "kara desu",
+      "patternSegments": [
+        {
+          "text": "からです"
+        }
+      ],
+      "explanation": "This pattern supplies a reason in response to a question or preceding statement.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N yori",
+      "pattern": "N yori",
+      "patternSegments": [
+        {
+          "text": "Nより"
+        }
+      ],
+      "explanation": "This pattern marks the comparison standard, meaning than. With quantities, the following adjective determines whether the amount is greater or smaller.",
+      "firstPassage": 7,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "grammar:i-adjective stem + ku naru",
+      "pattern": "i-adjective stem + ku naru",
+      "patternSegments": [
+        {
+          "text": "い"
+        },
+        {
+          "base": "形容詞",
+          "reading": "けいようし"
+        },
+        {
+          "text": "くなる"
+        }
+      ],
+      "explanation": "This pattern expresses a change of state by replacing an adjective's final vowel ending with the adverbial ending and adding become.",
+      "firstPassage": 7,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "grammar:N to iimasu",
+      "pattern": "N to iimasu",
+      "patternSegments": [
+        {
+          "text": "Nといいます"
+        }
+      ],
+      "explanation": "This pattern gives the name of something, meaning is called.",
+      "firstPassage": 7,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:V-ru to",
+      "pattern": "V-ru to",
+      "patternSegments": [
+        {
+          "text": "Vると"
+        }
+      ],
+      "explanation": "This pattern links a condition to its regular or predictable result, meaning when or if.",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:te mo",
+      "pattern": "te mo",
+      "patternSegments": [
+        {
+          "text": "ても"
+        }
+      ],
+      "explanation": "This pattern means even if or even though. It follows a linking form and can also follow a negative form.",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:ba",
+      "pattern": "ba",
+      "patternSegments": [
+        {
+          "text": "ば"
+        }
+      ],
+      "explanation": "This pattern forms a condition meaning if; here, the existence of hot water is the condition.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:kamo shiremasen",
+      "pattern": "kamo shiremasen",
+      "patternSegments": [
+        {
+          "text": "かもしれません"
+        }
+      ],
+      "explanation": "This pattern expresses an uncertain possibility, meaning may or might.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te iru",
+      "pattern": "V-te iru",
+      "patternSegments": [
+        {
+          "text": "Vている"
+        }
+      ],
+      "explanation": "This pattern describes an ongoing action or a continuing resulting state. Here it describes substances being contained in water and criteria being established.",
+      "firstPassage": 10,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:nara",
+      "pattern": "nara",
+      "patternSegments": [
+        {
+          "text": "なら"
+        }
+      ],
+      "explanation": "This pattern sets a condition based on a stated situation, meaning if that is the case.",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ta ato",
+      "pattern": "V-ta ato",
+      "patternSegments": [
+        {
+          "text": "Vた"
+        },
+        {
+          "base": "後",
+          "reading": "あと"
+        }
+      ],
+      "explanation": "This pattern means after an action has happened and uses the verb's past form before the time noun.",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-stem + sō desu",
+      "pattern": "V-stem + sō desu",
+      "patternSegments": [
+        {
+          "text": "Vそうです"
+        }
+      ],
+      "explanation": "This pattern expresses an impression based on appearances or evidence, meaning seems likely to or appears to.",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N to iu N",
+      "pattern": "N to iu N",
+      "patternSegments": [
+        {
+          "text": "NというN"
+        }
+      ],
+      "explanation": "This pattern introduces a name or explains what a following noun means, often translated as called or meaning.",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N to shite",
+      "pattern": "N to shite",
+      "patternSegments": [
+        {
+          "text": "Nとして"
+        }
+      ],
+      "explanation": "This pattern indicates the role or capacity in which something is used, meaning as.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-reru / V-rareru",
+      "pattern": "V-reru / V-rareru",
+      "patternSegments": [
+        {
+          "text": "Vれる／Vられる"
+        }
+      ],
+      "explanation": "This pattern forms the passive, focusing on something that receives an action; here, the names are used.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ru koto ga dekiru",
+      "pattern": "V-ru koto ga dekiru",
+      "patternSegments": [
+        {
+          "text": "Vることができる"
+        }
+      ],
+      "explanation": "This pattern expresses ability or possibility, meaning can do something.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:node",
+      "pattern": "node",
+      "patternSegments": [
+        {
+          "text": "ので"
+        }
+      ],
+      "explanation": "This pattern introduces the reason or explanation for the following statement.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    }
+  ]
+}

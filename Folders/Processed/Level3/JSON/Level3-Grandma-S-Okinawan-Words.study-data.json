@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:あきさみよー|あきさみよー",
+      "japanese": "あきさみよー",
+      "japaneseSegments": [
+        {
+          "text": "あきさみよー"
+        }
+      ],
+      "reading": "あきさみよー",
+      "romaji": "akisamiyō",
+      "meaning": "An Okinawan exclamation of surprise, like “Oh!” or “Wow!”",
+      "firstPassage": 4,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:うちなーぐち|うちなーぐち",
+      "japanese": "うちなーぐち",
+      "japaneseSegments": [
+        {
+          "text": "うちなーぐち"
+        }
+      ],
+      "reading": "うちなーぐち",
+      "romaji": "uchināguchi",
+      "meaning": "Okinawan language or dialect",
+      "firstPassage": 5,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:うちなーすば|うちなーすば",
+      "japanese": "うちなーすば",
+      "japaneseSegments": [
+        {
+          "text": "うちなーすば"
+        }
+      ],
+      "reading": "うちなーすば",
+      "romaji": "uchināsoba",
+      "meaning": "Okinawa soba",
+      "firstPassage": 6,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:くわっちーさびら|くわっちーさびら",
+      "japanese": "くわっちーさびら",
+      "japaneseSegments": [
+        {
+          "text": "くわっちーさびら"
+        }
+      ],
+      "reading": "くわっちーさびら",
+      "romaji": "kwacchīsabira",
+      "meaning": "An Okinawan expression said before eating, like “Let’s eat”",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:まーさん|まーさん",
+      "japanese": "まーさん",
+      "japaneseSegments": [
+        {
+          "text": "まーさん"
+        }
+      ],
+      "reading": "まーさん",
+      "romaji": "māsan",
+      "meaning": "Delicious; tasty",
+      "firstPassage": 7,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:じょうとう|じょうとう",
+      "japanese": "じょうとう",
+      "japaneseSegments": [
+        {
+          "text": "じょうとう"
+        }
+      ],
+      "reading": "じょうとう",
+      "romaji": "jōtō",
+      "meaning": "Good, fine, or skillful; used to praise someone or something in Okinawa",
+      "firstPassage": 8,
+      "occurrenceCount": 12
+    },
+    {
+      "key": "vocabulary:チャンプルー|チャンプルー",
+      "japanese": "チャンプルー",
+      "japaneseSegments": [
+        {
+          "text": "チャンプルー"
+        }
+      ],
+      "reading": "チャンプルー",
+      "romaji": "chanpurū",
+      "meaning": "A mixture; a dish made by combining ingredients",
+      "firstPassage": 10,
+      "occurrenceCount": 20
+    },
+    {
+      "key": "vocabulary:かめ|かめ",
+      "japanese": "かめ",
+      "japaneseSegments": [
+        {
+          "text": "かめ"
+        }
+      ],
+      "reading": "かめ",
+      "romaji": "kame",
+      "meaning": "An Okinawan way to say “eat” or “go ahead and eat”",
+      "firstPassage": 14,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:ぬちぐすい|ぬちぐすい",
+      "japanese": "ぬちぐすい",
+      "japaneseSegments": [
+        {
+          "text": "ぬちぐすい"
+        }
+      ],
+      "reading": "ぬちぐすい",
+      "romaji": "nuchigusui",
+      "meaning": "Literally “medicine for life”; something that nourishes or comforts you",
+      "firstPassage": 15,
+      "occurrenceCount": 2
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:〜てみる",
+      "pattern": "〜てみる",
+      "patternSegments": [
+        {
+          "text": "〜てみる"
+        }
+      ],
+      "explanation": "This pattern means to try doing something and see how it goes.",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:〜ながら",
+      "pattern": "〜ながら",
+      "patternSegments": [
+        {
+          "text": "〜ながら"
+        }
+      ],
+      "explanation": "This pattern connects two actions done at the same time; the action before it is happening while the next action takes place.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:〜ば",
+      "pattern": "〜ば",
+      "patternSegments": [
+        {
+          "text": "〜ば"
+        }
+      ],
+      "explanation": "This pattern forms a conditional meaning “if” or “when,” describing what follows when a condition is met.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    }
+  ]
+}

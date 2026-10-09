@@ -1,0 +1,614 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:伝説|でんせつ",
+      "japanese": "伝説",
+      "japaneseSegments": [
+        {
+          "base": "伝説",
+          "reading": "でんせつ"
+        }
+      ],
+      "reading": "でんせつ",
+      "romaji": "densetsu",
+      "meaning": "legend",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:住む|すむ",
+      "japanese": "住む",
+      "japaneseSegments": [
+        {
+          "base": "住",
+          "reading": "す"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "reading": "すむ",
+      "romaji": "sumu",
+      "meaning": "to live; reside",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:結婚|けっこん",
+      "japanese": "結婚",
+      "japaneseSegments": [
+        {
+          "base": "結婚",
+          "reading": "けっこん"
+        }
+      ],
+      "reading": "けっこん",
+      "romaji": "kekkon",
+      "meaning": "marriage; to marry",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:夫|おっと",
+      "japanese": "夫",
+      "japaneseSegments": [
+        {
+          "base": "夫",
+          "reading": "おっと"
+        }
+      ],
+      "reading": "おっと",
+      "romaji": "otto",
+      "meaning": "husband",
+      "firstPassage": 2,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "vocabulary:働く|はたらく",
+      "japanese": "働く",
+      "japaneseSegments": [
+        {
+          "base": "働",
+          "reading": "はたら"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "はたらく",
+      "romaji": "hataraku",
+      "meaning": "to work",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:薬草|やくそう",
+      "japanese": "薬草",
+      "japaneseSegments": [
+        {
+          "base": "薬草",
+          "reading": "やくそう"
+        }
+      ],
+      "reading": "やくそう",
+      "romaji": "yakusō",
+      "meaning": "medicinal herbs",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:売る|うる",
+      "japanese": "売る",
+      "japaneseSegments": [
+        {
+          "base": "売",
+          "reading": "う"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "うる",
+      "romaji": "uru",
+      "meaning": "to sell",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:庭園|ていえん",
+      "japanese": "庭園",
+      "japaneseSegments": [
+        {
+          "base": "庭園",
+          "reading": "ていえん"
+        }
+      ],
+      "reading": "ていえん",
+      "romaji": "teien",
+      "meaning": "garden",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:貧乏|びんぼう",
+      "japanese": "貧乏",
+      "japaneseSegments": [
+        {
+          "base": "貧乏",
+          "reading": "びんぼう"
+        }
+      ],
+      "reading": "びんぼう",
+      "romaji": "binbō",
+      "meaning": "poor; poverty",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:病気|びょうき",
+      "japanese": "病気",
+      "japaneseSegments": [
+        {
+          "base": "病気",
+          "reading": "びょうき"
+        }
+      ],
+      "reading": "びょうき",
+      "romaji": "byōki",
+      "meaning": "illness",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:見つける|みつける",
+      "japanese": "見つける",
+      "japaneseSegments": [
+        {
+          "base": "見",
+          "reading": "み"
+        },
+        {
+          "text": "つける"
+        }
+      ],
+      "reading": "みつける",
+      "romaji": "mitsukeru",
+      "meaning": "to find",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:不安|ふあん",
+      "japanese": "不安",
+      "japaneseSegments": [
+        {
+          "base": "不安",
+          "reading": "ふあん"
+        }
+      ],
+      "reading": "ふあん",
+      "romaji": "fuan",
+      "meaning": "anxious; uneasy",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:助け|たすけ",
+      "japanese": "助け",
+      "japaneseSegments": [
+        {
+          "base": "助",
+          "reading": "たす"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "reading": "たすけ",
+      "romaji": "tasuke",
+      "meaning": "help; assistance",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:不思議|ふしぎ",
+      "japanese": "不思議",
+      "japaneseSegments": [
+        {
+          "base": "不思議",
+          "reading": "ふしぎ"
+        }
+      ],
+      "reading": "ふしぎ",
+      "romaji": "fushigi",
+      "meaning": "mysterious; strange",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:男|おとこ",
+      "japanese": "男",
+      "japaneseSegments": [
+        {
+          "base": "男",
+          "reading": "おとこ"
+        }
+      ],
+      "reading": "おとこ",
+      "romaji": "otoko",
+      "meaning": "man",
+      "firstPassage": 4,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:数珠|じゅず",
+      "japanese": "数珠",
+      "japaneseSegments": [
+        {
+          "base": "数珠",
+          "reading": "じゅず"
+        }
+      ],
+      "reading": "じゅず",
+      "romaji": "juzu",
+      "meaning": "string of prayer beads",
+      "firstPassage": 4,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:願い|ねがい",
+      "japanese": "願い",
+      "japaneseSegments": [
+        {
+          "base": "願",
+          "reading": "ねが"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "ねがい",
+      "romaji": "negai",
+      "meaning": "wish",
+      "firstPassage": 5,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:代価|だいか",
+      "japanese": "代価",
+      "japaneseSegments": [
+        {
+          "base": "代価",
+          "reading": "だいか"
+        }
+      ],
+      "reading": "だいか",
+      "romaji": "daika",
+      "meaning": "price; cost",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:払う|はらう",
+      "japanese": "払う",
+      "japaneseSegments": [
+        {
+          "base": "払",
+          "reading": "はら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "はらう",
+      "romaji": "harau",
+      "meaning": "to pay",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:治す|なおす",
+      "japanese": "治す",
+      "japaneseSegments": [
+        {
+          "base": "治",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "なおす",
+      "romaji": "naosu",
+      "meaning": "to cure; heal",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:元気|げんき",
+      "japanese": "元気",
+      "japaneseSegments": [
+        {
+          "base": "元気",
+          "reading": "げんき"
+        }
+      ],
+      "reading": "げんき",
+      "romaji": "genki",
+      "meaning": "healthy; well",
+      "firstPassage": 7,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:嬉しい|うれしい",
+      "japanese": "嬉しい",
+      "japaneseSegments": [
+        {
+          "base": "嬉",
+          "reading": "うれ"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "うれしい",
+      "romaji": "ureshii",
+      "meaning": "happy; glad",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:有名|ゆうめい",
+      "japanese": "有名",
+      "japaneseSegments": [
+        {
+          "base": "有名",
+          "reading": "ゆうめい"
+        }
+      ],
+      "reading": "ゆうめい",
+      "romaji": "yūmei",
+      "meaning": "famous",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:離婚|りこん",
+      "japanese": "離婚",
+      "japaneseSegments": [
+        {
+          "base": "離婚",
+          "reading": "りこん"
+        }
+      ],
+      "reading": "りこん",
+      "romaji": "rikon",
+      "meaning": "divorce",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:女性|じょせい",
+      "japanese": "女性",
+      "japaneseSegments": [
+        {
+          "base": "女性",
+          "reading": "じょせい"
+        }
+      ],
+      "reading": "じょせい",
+      "romaji": "josei",
+      "meaning": "woman",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:寂しい|さびしい",
+      "japanese": "寂しい",
+      "japaneseSegments": [
+        {
+          "base": "寂",
+          "reading": "さび"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "さびしい",
+      "romaji": "sabishii",
+      "meaning": "lonely",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:文句|もんく",
+      "japanese": "文句",
+      "japaneseSegments": [
+        {
+          "base": "文句",
+          "reading": "もんく"
+        }
+      ],
+      "reading": "もんく",
+      "romaji": "monku",
+      "meaning": "complaint",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:悪魔|あくま",
+      "japanese": "悪魔",
+      "japaneseSegments": [
+        {
+          "base": "悪魔",
+          "reading": "あくま"
+        }
+      ],
+      "reading": "あくま",
+      "romaji": "akuma",
+      "meaning": "demon; devil",
+      "firstPassage": 10,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:変わる|かわる",
+      "japanese": "変わる",
+      "japaneseSegments": [
+        {
+          "base": "変",
+          "reading": "か"
+        },
+        {
+          "text": "わる"
+        }
+      ],
+      "reading": "かわる",
+      "romaji": "kawaru",
+      "meaning": "to change; turn into",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:人生|じんせい",
+      "japanese": "人生",
+      "japaneseSegments": [
+        {
+          "base": "人生",
+          "reading": "じんせい"
+        }
+      ],
+      "reading": "じんせい",
+      "romaji": "jinsei",
+      "meaning": "life",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:自分|じぶん",
+      "japanese": "自分",
+      "japaneseSegments": [
+        {
+          "base": "自分",
+          "reading": "じぶん"
+        }
+      ],
+      "reading": "じぶん",
+      "romaji": "jibun",
+      "meaning": "oneself",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:魂|たましい",
+      "japanese": "魂",
+      "japaneseSegments": [
+        {
+          "base": "魂",
+          "reading": "たましい"
+        }
+      ],
+      "reading": "たましい",
+      "romaji": "tamashii",
+      "meaning": "spirit; soul",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:自由|じゆう",
+      "japanese": "自由",
+      "japaneseSegments": [
+        {
+          "base": "自由",
+          "reading": "じゆう"
+        }
+      ],
+      "reading": "じゆう",
+      "romaji": "jiyū",
+      "meaning": "freedom; free",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:買う|かう",
+      "japanese": "買う",
+      "japaneseSegments": [
+        {
+          "base": "買",
+          "reading": "か"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "かう",
+      "romaji": "kau",
+      "meaning": "to buy",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:V-tame ni",
+      "pattern": "V-tame ni",
+      "patternSegments": [
+        {
+          "text": "V-ために"
+        }
+      ],
+      "explanation": "This pattern expresses the purpose or goal of an action, often translated as “in order to.”",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-te shimau",
+      "pattern": "V-te shimau",
+      "patternSegments": [
+        {
+          "text": "V-てしまう"
+        }
+      ],
+      "explanation": "This pattern can show that an action is completed, often with a sense of regret or an undesirable outcome.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-tara",
+      "pattern": "V-tara",
+      "patternSegments": [
+        {
+          "text": "V-たら"
+        }
+      ],
+      "explanation": "This pattern marks a condition, often translated as “if” or “when.”",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:V-nakereba naranai",
+      "pattern": "V-nakereba naranai",
+      "patternSegments": [
+        {
+          "text": "V-なければならない"
+        }
+      ],
+      "explanation": "This pattern expresses necessity or obligation: something must be done.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N-dake de naku",
+      "pattern": "N-dake de naku",
+      "patternSegments": [
+        {
+          "text": "N-だけでなく"
+        }
+      ],
+      "explanation": "This pattern means “not only,” and usually introduces an additional fact.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    }
+  ]
+}

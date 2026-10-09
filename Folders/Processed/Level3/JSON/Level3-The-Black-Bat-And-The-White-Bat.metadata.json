@@ -1,0 +1,847 @@
+{
+  "id": "level3-the-black-bat-and-the-white-bat",
+  "name": "The Black Bat and the White Bat",
+  "japaneseTitle": "黒コウモリと白コウモリ",
+  "slug": "level3-the-black-bat-and-the-white-bat",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-the-black-bat-and-the-white-bat/source.pdf",
+  "ocrR2Key": "books/level3-the-black-bat-and-the-white-bat/source-ocr.txt",
+  "coverR2Key": "books/level3-the-black-bat-and-the-white-bat/cover.jpg",
+  "htmlR2Key": "books/level3-the-black-bat-and-the-white-bat/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 1402,
+  "createdAt": "2026-10-09T20:32:41.846Z",
+  "updatedAt": "2026-10-09T20:32:41.846Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:洞窟|どうくつ",
+        "japanese": "洞窟",
+        "japaneseSegments": [
+          {
+            "base": "洞窟",
+            "reading": "どうくつ"
+          }
+        ],
+        "reading": "どうくつ",
+        "romaji": "dōkutsu",
+        "meaning": "cave",
+        "firstPassage": 1,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:見上げる|みあげる",
+        "japanese": "見上げる",
+        "japaneseSegments": [
+          {
+            "base": "見上",
+            "reading": "みあ"
+          },
+          {
+            "text": "げる"
+          }
+        ],
+        "reading": "みあげる",
+        "romaji": "miageru",
+        "meaning": "to look up",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:飛ぶ|とぶ",
+        "japanese": "飛ぶ",
+        "japaneseSegments": [
+          {
+            "base": "飛",
+            "reading": "と"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "とぶ",
+        "romaji": "tobu",
+        "meaning": "to fly",
+        "firstPassage": 1,
+        "occurrenceCount": 17
+      },
+      {
+        "key": "vocabulary:越える|こえる",
+        "japanese": "越える",
+        "japaneseSegments": [
+          {
+            "base": "越",
+            "reading": "こ"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "こえる",
+        "romaji": "koeru",
+        "meaning": "to cross; go over",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:続ける|つづける",
+        "japanese": "続ける",
+        "japaneseSegments": [
+          {
+            "base": "続",
+            "reading": "つづ"
+          },
+          {
+            "text": "ける"
+          }
+        ],
+        "reading": "つづける",
+        "romaji": "tsuzukeru",
+        "meaning": "to continue doing",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:枝|えだ",
+        "japanese": "枝",
+        "japaneseSegments": [
+          {
+            "base": "枝",
+            "reading": "えだ"
+          }
+        ],
+        "reading": "えだ",
+        "romaji": "eda",
+        "meaning": "branch",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:羽|はね",
+        "japanese": "羽",
+        "japaneseSegments": [
+          {
+            "base": "羽",
+            "reading": "はね"
+          }
+        ],
+        "reading": "はね",
+        "romaji": "hane",
+        "meaning": "wing; feather",
+        "firstPassage": 3,
+        "occurrenceCount": 14
+      },
+      {
+        "key": "vocabulary:声をかける|こえをかける",
+        "japanese": "声をかける",
+        "japaneseSegments": [
+          {
+            "base": "声",
+            "reading": "こえ"
+          },
+          {
+            "text": "をかける"
+          }
+        ],
+        "reading": "こえをかける",
+        "romaji": "koe o kakeru",
+        "meaning": "to speak to; call out to",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:家族|かぞく",
+        "japanese": "家族",
+        "japaneseSegments": [
+          {
+            "base": "家族",
+            "reading": "かぞく"
+          }
+        ],
+        "reading": "かぞく",
+        "romaji": "kazoku",
+        "meaning": "family",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:仲良くなる|なかよくなる",
+        "japanese": "仲良くなる",
+        "japaneseSegments": [
+          {
+            "base": "仲良",
+            "reading": "なかよ"
+          },
+          {
+            "text": "くなる"
+          }
+        ],
+        "reading": "なかよくなる",
+        "romaji": "nakayoku naru",
+        "meaning": "to become friends; get along",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:暮らす|くらす",
+        "japanese": "暮らす",
+        "japaneseSegments": [
+          {
+            "base": "暮",
+            "reading": "く"
+          },
+          {
+            "text": "らす"
+          }
+        ],
+        "reading": "くらす",
+        "romaji": "kurasu",
+        "meaning": "to live; make a home",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:風|かぜ",
+        "japanese": "風",
+        "japaneseSegments": [
+          {
+            "base": "風",
+            "reading": "かぜ"
+          }
+        ],
+        "reading": "かぜ",
+        "romaji": "kaze",
+        "meaning": "wind",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:違う|ちがう",
+        "japanese": "違う",
+        "japaneseSegments": [
+          {
+            "base": "違",
+            "reading": "ちが"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "ちがう",
+        "romaji": "chigau",
+        "meaning": "to differ; be different",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:考え方|かんがえかた",
+        "japanese": "考え方",
+        "japaneseSegments": [
+          {
+            "base": "考",
+            "reading": "かんが"
+          },
+          {
+            "text": "え"
+          },
+          {
+            "base": "方",
+            "reading": "かた"
+          }
+        ],
+        "reading": "かんがえかた",
+        "romaji": "kangaekata",
+        "meaning": "way of thinking",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:生まれる|うまれる",
+        "japanese": "生まれる",
+        "japaneseSegments": [
+          {
+            "base": "生",
+            "reading": "う"
+          },
+          {
+            "text": "まれる"
+          }
+        ],
+        "reading": "うまれる",
+        "romaji": "umareru",
+        "meaning": "to be born",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:好き|すき",
+        "japanese": "好き",
+        "japaneseSegments": [
+          {
+            "base": "好",
+            "reading": "す"
+          },
+          {
+            "text": "き"
+          }
+        ],
+        "reading": "すき",
+        "romaji": "suki",
+        "meaning": "to like; fond of",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:驚く|おどろく",
+        "japanese": "驚く",
+        "japaneseSegments": [
+          {
+            "base": "驚",
+            "reading": "おどろ"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "おどろく",
+        "romaji": "odoroku",
+        "meaning": "to be surprised",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:静か|しずか",
+        "japanese": "静か",
+        "japaneseSegments": [
+          {
+            "base": "静",
+            "reading": "しず"
+          },
+          {
+            "text": "か"
+          }
+        ],
+        "reading": "しずか",
+        "romaji": "shizuka",
+        "meaning": "quiet; peaceful",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:逃げる|にげる",
+        "japanese": "逃げる",
+        "japaneseSegments": [
+          {
+            "base": "逃",
+            "reading": "に"
+          },
+          {
+            "text": "げる"
+          }
+        ],
+        "reading": "にげる",
+        "romaji": "nigeru",
+        "meaning": "to flee; escape",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:集まる|あつまる",
+        "japanese": "集まる",
+        "japaneseSegments": [
+          {
+            "base": "集",
+            "reading": "あつ"
+          },
+          {
+            "text": "まる"
+          }
+        ],
+        "reading": "あつまる",
+        "romaji": "atsumaru",
+        "meaning": "to gather",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:場所|ばしょ",
+        "japanese": "場所",
+        "japaneseSegments": [
+          {
+            "base": "場所",
+            "reading": "ばしょ"
+          }
+        ],
+        "reading": "ばしょ",
+        "romaji": "basho",
+        "meaning": "place",
+        "firstPassage": 12,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:怒る|おこる",
+        "japanese": "怒る",
+        "japaneseSegments": [
+          {
+            "base": "怒",
+            "reading": "おこ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "おこる",
+        "romaji": "okoru",
+        "meaning": "to get angry",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:止める|とめる",
+        "japanese": "止める",
+        "japaneseSegments": [
+          {
+            "base": "止",
+            "reading": "と"
+          },
+          {
+            "text": "める"
+          }
+        ],
+        "reading": "とめる",
+        "romaji": "tomeru",
+        "meaning": "to stop; hold back",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:遅れる|おくれる",
+        "japanese": "遅れる",
+        "japaneseSegments": [
+          {
+            "base": "遅",
+            "reading": "おく"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "おくれる",
+        "romaji": "okureru",
+        "meaning": "to be late; lag behind",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:新しい|あたらしい",
+        "japanese": "新しい",
+        "japaneseSegments": [
+          {
+            "base": "新",
+            "reading": "あたら"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "あたらしい",
+        "romaji": "atarashii",
+        "meaning": "new",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:旅|たび",
+        "japanese": "旅",
+        "japaneseSegments": [
+          {
+            "base": "旅",
+            "reading": "たび"
+          }
+        ],
+        "reading": "たび",
+        "romaji": "tabi",
+        "meaning": "journey",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:親切|しんせつ",
+        "japanese": "親切",
+        "japaneseSegments": [
+          {
+            "base": "親切",
+            "reading": "しんせつ"
+          }
+        ],
+        "reading": "しんせつ",
+        "romaji": "shinsetsu",
+        "meaning": "kindness; kind",
+        "firstPassage": 16,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:残る|のこる",
+        "japanese": "残る",
+        "japaneseSegments": [
+          {
+            "base": "残",
+            "reading": "のこ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "のこる",
+        "romaji": "nokoru",
+        "meaning": "to remain; stay",
+        "firstPassage": 17,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:台風|たいふう",
+        "japanese": "台風",
+        "japaneseSegments": [
+          {
+            "base": "台風",
+            "reading": "たいふう"
+          }
+        ],
+        "reading": "たいふう",
+        "romaji": "taifū",
+        "meaning": "typhoon",
+        "firstPassage": 18,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:助ける|たすける",
+        "japanese": "助ける",
+        "japaneseSegments": [
+          {
+            "base": "助",
+            "reading": "たす"
+          },
+          {
+            "text": "ける"
+          }
+        ],
+        "reading": "たすける",
+        "romaji": "tasukeru",
+        "meaning": "to help",
+        "firstPassage": 18,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:天井|てんじょう",
+        "japanese": "天井",
+        "japaneseSegments": [
+          {
+            "base": "天井",
+            "reading": "てんじょう"
+          }
+        ],
+        "reading": "てんじょう",
+        "romaji": "tenjō",
+        "meaning": "ceiling",
+        "firstPassage": 19,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:床|ゆか",
+        "japanese": "床",
+        "japaneseSegments": [
+          {
+            "base": "床",
+            "reading": "ゆか"
+          }
+        ],
+        "reading": "ゆか",
+        "romaji": "yuka",
+        "meaning": "floor",
+        "firstPassage": 19,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:濡れる|ぬれる",
+        "japanese": "濡れる",
+        "japaneseSegments": [
+          {
+            "base": "濡",
+            "reading": "ぬ"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "ぬれる",
+        "romaji": "nureru",
+        "meaning": "to get wet",
+        "firstPassage": 20,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:喜ぶ|よろこぶ",
+        "japanese": "喜ぶ",
+        "japaneseSegments": [
+          {
+            "base": "喜",
+            "reading": "よろこ"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "よろこぶ",
+        "romaji": "yorokobu",
+        "meaning": "to be delighted; rejoice",
+        "firstPassage": 20,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:朝日|あさひ",
+        "japanese": "朝日",
+        "japaneseSegments": [
+          {
+            "base": "朝日",
+            "reading": "あさひ"
+          }
+        ],
+        "reading": "あさひ",
+        "romaji": "asahi",
+        "meaning": "morning sun",
+        "firstPassage": 21,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:昇る|のぼる",
+        "japanese": "昇る",
+        "japaneseSegments": [
+          {
+            "base": "昇",
+            "reading": "のぼ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "のぼる",
+        "romaji": "noboru",
+        "meaning": "to rise",
+        "firstPassage": 21,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:verb-taku-naru",
+        "pattern": "verb-taku-naru",
+        "patternSegments": [
+          {
+            "text": "verb-taku-naru"
+          }
+        ],
+        "explanation": "Adding this pattern to a verb expresses that the subject comes to want to do something.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-stem-tsuzukeru",
+        "pattern": "verb-stem-tsuzukeru",
+        "patternSegments": [
+          {
+            "text": "verb-stem-tsuzukeru"
+          }
+        ],
+        "explanation": "Attach this pattern to a verb stem to say that an action continues.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-te-iru",
+        "pattern": "verb-te-iru",
+        "patternSegments": [
+          {
+            "text": "verb-te-iru"
+          }
+        ],
+        "explanation": "This pattern describes an ongoing action or a continuing state.",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:nante",
+        "pattern": "nante",
+        "patternSegments": [
+          {
+            "text": "nante"
+          }
+        ],
+        "explanation": "This pattern can introduce an example or express surprise, dismissal, or emphasis, depending on context.",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:verb-yoku-naru",
+        "pattern": "verb-yoku-naru",
+        "patternSegments": [
+          {
+            "text": "verb-yoku-naru"
+          }
+        ],
+        "explanation": "This pattern describes a change into a new state or condition.",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:verb-tari-verb-tari",
+        "pattern": "verb-tari-verb-tari",
+        "patternSegments": [
+          {
+            "text": "verb-tari-verb-tari"
+          }
+        ],
+        "explanation": "This pattern gives examples of actions, often implying that other similar actions are included.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:shi-listing",
+        "pattern": "shi-listing",
+        "patternSegments": [
+          {
+            "text": "shi-listing"
+          }
+        ],
+        "explanation": "This pattern lists reasons or features, often suggesting that the list is not exhaustive.",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:verb-tai-to-omou",
+        "pattern": "verb-tai-to-omou",
+        "patternSegments": [
+          {
+            "text": "verb-tai-to-omou"
+          }
+        ],
+        "explanation": "This pattern reports what someone thinks they want to do.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-te-miru",
+        "pattern": "verb-te-miru",
+        "patternSegments": [
+          {
+            "text": "verb-te-miru"
+          }
+        ],
+        "explanation": "This pattern means to try doing something and see how it goes.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-naku-naru",
+        "pattern": "verb-naku-naru",
+        "patternSegments": [
+          {
+            "text": "verb-naku-naru"
+          }
+        ],
+        "explanation": "This pattern expresses that something becomes impossible or ceases to happen.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-ta-koto-ga-nai",
+        "pattern": "verb-ta-koto-ga-nai",
+        "patternSegments": [
+          {
+            "text": "verb-ta-koto-ga-nai"
+          }
+        ],
+        "explanation": "This pattern says that someone has never had the experience of doing something.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-volitional-to-suru",
+        "pattern": "verb-volitional-to-suru",
+        "patternSegments": [
+          {
+            "text": "verb-volitional-to-suru"
+          }
+        ],
+        "explanation": "This pattern expresses an attempt or intention to do something.",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-ba-ii",
+        "pattern": "verb-ba-ii",
+        "patternSegments": [
+          {
+            "text": "verb-ba-ii"
+          }
+        ],
+        "explanation": "This pattern gives a suggestion about what would be good to do.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:mae-yori",
+        "pattern": "mae-yori",
+        "patternSegments": [
+          {
+            "text": "mae-yori"
+          }
+        ],
+        "explanation": "This pattern compares something with an earlier time or previous state.",
+        "firstPassage": 17,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb-volitional",
+        "pattern": "verb-volitional",
+        "patternSegments": [
+          {
+            "text": "verb-volitional"
+          }
+        ],
+        "explanation": "This form expresses the speaker’s intention or invitation to act together.",
+        "firstPassage": 18,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:kara-reason",
+        "pattern": "kara-reason",
+        "patternSegments": [
+          {
+            "text": "kara-reason"
+          }
+        ],
+        "explanation": "This pattern gives a reason or cause for the statement that follows.",
+        "firstPassage": 19,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:verb-te-kureru",
+        "pattern": "verb-te-kureru",
+        "patternSegments": [
+          {
+            "text": "verb-te-kureru"
+          }
+        ],
+        "explanation": "This pattern describes someone doing something for the speaker or the speaker’s group, with a sense of benefit.",
+        "firstPassage": 20,
+        "occurrenceCount": 2
+      }
+    ]
+  }
+}

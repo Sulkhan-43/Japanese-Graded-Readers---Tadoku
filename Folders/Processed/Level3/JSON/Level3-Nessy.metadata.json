@@ -1,0 +1,386 @@
+{
+  "id": "level3-nessy",
+  "name": "Nessy",
+  "japaneseTitle": "Nessy",
+  "slug": "level3-nessy",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-nessy/source.pdf",
+  "ocrR2Key": "books/level3-nessy/source-ocr.txt",
+  "coverR2Key": "books/level3-nessy/cover.jpg",
+  "htmlR2Key": "books/level3-nessy/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 471,
+  "createdAt": "2026-10-09T20:13:32.517Z",
+  "updatedAt": "2026-10-09T20:13:32.517Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:不思議|ふしぎ",
+        "japanese": "不思議",
+        "japaneseSegments": [
+          {
+            "base": "不思議",
+            "reading": "ふしぎ"
+          }
+        ],
+        "reading": "ふしぎ",
+        "romaji": "fushigi",
+        "meaning": "strange; mysterious",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:鳴き声|なきごえ",
+        "japanese": "鳴き声",
+        "japaneseSegments": [
+          {
+            "base": "鳴",
+            "reading": "な"
+          },
+          {
+            "text": "き"
+          },
+          {
+            "base": "声",
+            "reading": "ごえ"
+          }
+        ],
+        "reading": "なきごえ",
+        "romaji": "nakigoe",
+        "meaning": "animal cry; call",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:カワウソ|カワウソ",
+        "japanese": "カワウソ",
+        "japaneseSegments": [
+          {
+            "text": "カワウソ"
+          }
+        ],
+        "reading": "カワウソ",
+        "romaji": "kawauso",
+        "meaning": "otter",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:怖がる|こわがる",
+        "japanese": "怖がる",
+        "japaneseSegments": [
+          {
+            "base": "怖",
+            "reading": "こわ"
+          },
+          {
+            "text": "がる"
+          }
+        ],
+        "reading": "こわがる",
+        "romaji": "kowagaru",
+        "meaning": "to be afraid; to fear",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:触れる|ふれる",
+        "japanese": "触れる",
+        "japaneseSegments": [
+          {
+            "base": "触",
+            "reading": "ふ"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "ふれる",
+        "romaji": "fureru",
+        "meaning": "to touch",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:慣れる|なれる",
+        "japanese": "慣れる",
+        "japaneseSegments": [
+          {
+            "base": "慣",
+            "reading": "な"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "なれる",
+        "romaji": "nareru",
+        "meaning": "to get used to",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:洗面所|せんめんじょ",
+        "japanese": "洗面所",
+        "japaneseSegments": [
+          {
+            "base": "洗面所",
+            "reading": "せんめんじょ"
+          }
+        ],
+        "reading": "せんめんじょ",
+        "romaji": "senmenjo",
+        "meaning": "washroom; bathroom",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:大好物|だいこうぶつ",
+        "japanese": "大好物",
+        "japaneseSegments": [
+          {
+            "base": "大好物",
+            "reading": "だいこうぶつ"
+          }
+        ],
+        "reading": "だいこうぶつ",
+        "romaji": "daikōbutsu",
+        "meaning": "favorite food",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:サーモントラウト|サーモントラウト",
+        "japanese": "サーモントラウト",
+        "japaneseSegments": [
+          {
+            "text": "サーモントラウト"
+          }
+        ],
+        "reading": "サーモントラウト",
+        "romaji": "sāmon torauto",
+        "meaning": "salmon trout",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:骨|ほね",
+        "japanese": "骨",
+        "japaneseSegments": [
+          {
+            "base": "骨",
+            "reading": "ほね"
+          }
+        ],
+        "reading": "ほね",
+        "romaji": "hone",
+        "meaning": "bone",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:噛む|かむ",
+        "japanese": "噛む",
+        "japaneseSegments": [
+          {
+            "base": "噛",
+            "reading": "か"
+          },
+          {
+            "text": "む"
+          }
+        ],
+        "reading": "かむ",
+        "romaji": "kamu",
+        "meaning": "to bite; to chew",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:引き出し|ひきだし",
+        "japanese": "引き出し",
+        "japaneseSegments": [
+          {
+            "base": "引",
+            "reading": "ひ"
+          },
+          {
+            "text": "き"
+          },
+          {
+            "base": "出",
+            "reading": "だ"
+          },
+          {
+            "text": "し"
+          }
+        ],
+        "reading": "ひきだし",
+        "romaji": "hikidashi",
+        "meaning": "drawer",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:死んだふり|しんだふり",
+        "japanese": "死んだふり",
+        "japaneseSegments": [
+          {
+            "base": "死",
+            "reading": "し"
+          },
+          {
+            "text": "んだふり"
+          }
+        ],
+        "reading": "しんだふり",
+        "romaji": "shinda furi",
+        "meaning": "pretending to be dead",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:追い越す|おいこす",
+        "japanese": "追い越す",
+        "japaneseSegments": [
+          {
+            "base": "追",
+            "reading": "お"
+          },
+          {
+            "text": "い"
+          },
+          {
+            "base": "越",
+            "reading": "こ"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "おいこす",
+        "romaji": "oikosu",
+        "meaning": "to overtake; pass",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:捨てる|すてる",
+        "japanese": "捨てる",
+        "japaneseSegments": [
+          {
+            "base": "捨",
+            "reading": "す"
+          },
+          {
+            "text": "てる"
+          }
+        ],
+        "reading": "すてる",
+        "romaji": "suteru",
+        "meaning": "to abandon; throw away",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:投げ入れる|なげいれる",
+        "japanese": "投げ入れる",
+        "japaneseSegments": [
+          {
+            "base": "投",
+            "reading": "な"
+          },
+          {
+            "text": "げ"
+          },
+          {
+            "base": "入",
+            "reading": "い"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "なげいれる",
+        "romaji": "nageireru",
+        "meaning": "to throw into",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:恋しい|こいしい",
+        "japanese": "恋しい",
+        "japaneseSegments": [
+          {
+            "base": "恋",
+            "reading": "こい"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "こいしい",
+        "romaji": "koishii",
+        "meaning": "to miss; to long for",
+        "firstPassage": 15,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:ようになる",
+        "pattern": "ようになる",
+        "patternSegments": [
+          {
+            "text": "ようになる"
+          }
+        ],
+        "explanation": "This pattern describes a change in state or the beginning of a new ability or habit.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:しか〜ない",
+        "pattern": "しか〜ない",
+        "patternSegments": [
+          {
+            "text": "しか〜ない"
+          }
+        ],
+        "explanation": "This pattern means “only” and is used with a negative verb to show that nothing else applies.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:ので",
+        "pattern": "ので",
+        "patternSegments": [
+          {
+            "text": "ので"
+          }
+        ],
+        "explanation": "This pattern gives a reason or cause, often with a softer tone than a direct assertion.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:ことになる",
+        "pattern": "ことになる",
+        "patternSegments": [
+          {
+            "text": "ことになる"
+          }
+        ],
+        "explanation": "This pattern describes an outcome or decision that comes about, often due to circumstances.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

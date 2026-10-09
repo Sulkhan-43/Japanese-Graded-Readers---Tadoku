@@ -1,0 +1,71 @@
+{
+  "id": "level3-the-crane-s-return-of-a-favor",
+  "name": "The Crane’s Return of a Favor",
+  "japaneseTitle": "鶴の恩返し",
+  "slug": "level3-the-crane-s-return-of-a-favor",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-the-crane-s-return-of-a-favor/source.pdf",
+  "ocrR2Key": "books/level3-the-crane-s-return-of-a-favor/source-ocr.txt",
+  "coverR2Key": "books/level3-the-crane-s-return-of-a-favor/cover.jpg",
+  "htmlR2Key": "books/level3-the-crane-s-return-of-a-favor/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 2370,
+  "createdAt": "2026-10-09T20:03:52.343Z",
+  "updatedAt": "2026-10-09T20:03:52.343Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:貧乏|びんぼう",
+        "japanese": "貧乏",
+        "japaneseSegments": [
+          {
+            "base": "貧乏",
+            "reading": "びんぼう"
+          }
+        ],
+        "reading": "びんぼう",
+        "romaji": "binbō",
+        "meaning": "poverty; poor",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:怪我|けが",
+        "japanese": "怪我",
+        "japaneseSegments": [
+          {
+            "base": "怪我",
+            "reading": "けが"
+          }
+        ],
+        "reading": "けが",
+        "romaji": "kega",
+        "meaning": "injury; hurt",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:約束|やくそく",
+        "japanese": "約束",
+        "japaneseSegments": [
+          {
+            "base": "約束",
+            "reading": "やくそく"
+          }
+        ],
+        "reading": "やくそく",
+        "romaji": "yakusoku",
+        "meaning": "promise",
+        "firstPassage": 8,
+        "occurrenceCount": 4
+      }
+    ],
+    "grammar": []
+  }
+}

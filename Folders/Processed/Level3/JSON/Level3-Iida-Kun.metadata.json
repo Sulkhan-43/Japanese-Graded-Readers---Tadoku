@@ -1,0 +1,148 @@
+{
+  "id": "level3-iida-kun",
+  "name": "Iida-kun",
+  "japaneseTitle": "飯田くん",
+  "slug": "level3-iida-kun",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-iida-kun/source.pdf",
+  "ocrR2Key": "books/level3-iida-kun/source-ocr.txt",
+  "coverR2Key": "books/level3-iida-kun/cover.jpg",
+  "htmlR2Key": "books/level3-iida-kun/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 1072,
+  "createdAt": "2026-10-09T20:31:26.440Z",
+  "updatedAt": "2026-10-09T20:31:26.440Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:おんぶする|おんぶする",
+        "japanese": "おんぶする",
+        "japaneseSegments": [
+          {
+            "text": "おんぶする"
+          }
+        ],
+        "reading": "おんぶする",
+        "romaji": "onbu suru",
+        "meaning": "to carry someone on one’s back",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:真っ白|まっしろ",
+        "japanese": "真っ白",
+        "japaneseSegments": [
+          {
+            "base": "真っ白",
+            "reading": "まっしろ"
+          }
+        ],
+        "reading": "まっしろ",
+        "romaji": "masshiro",
+        "meaning": "pure white",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:原子爆弾|げんしばくだん",
+        "japanese": "原子爆弾",
+        "japaneseSegments": [
+          {
+            "base": "原子爆弾",
+            "reading": "げんしばくだん"
+          }
+        ],
+        "reading": "げんしばくだん",
+        "romaji": "genshibakudan",
+        "meaning": "atomic bomb",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お葬式屋さん|おそうしきやさん",
+        "japanese": "お葬式屋さん",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "葬式屋",
+            "reading": "そうしきや"
+          },
+          {
+            "text": "さん"
+          }
+        ],
+        "reading": "おそうしきやさん",
+        "romaji": "osōshikiya-san",
+        "meaning": "funeral director",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:棺桶|かんおけ",
+        "japanese": "棺桶",
+        "japaneseSegments": [
+          {
+            "base": "棺桶",
+            "reading": "かんおけ"
+          }
+        ],
+        "reading": "かんおけ",
+        "romaji": "kan’oke",
+        "meaning": "coffin",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:めまい|めまい",
+        "japanese": "めまい",
+        "japaneseSegments": [
+          {
+            "text": "めまい"
+          }
+        ],
+        "reading": "めまい",
+        "romaji": "memai",
+        "meaning": "dizziness",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:火傷|やけど",
+        "japanese": "火傷",
+        "japaneseSegments": [
+          {
+            "base": "火傷",
+            "reading": "やけど"
+          }
+        ],
+        "reading": "やけど",
+        "romaji": "yakedo",
+        "meaning": "burn",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:~ようになる",
+        "pattern": "～ようになる",
+        "patternSegments": [
+          {
+            "text": "～ようになる"
+          }
+        ],
+        "explanation": "This pattern describes a change in ability, habit, or state over time: someone begins to do something or comes to be a certain way.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

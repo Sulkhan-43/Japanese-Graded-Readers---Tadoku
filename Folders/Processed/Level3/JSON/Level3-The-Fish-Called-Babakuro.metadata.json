@@ -1,0 +1,101 @@
+{
+  "id": "level3-the-fish-called-babakuro",
+  "name": "The Fish Called Babakurō",
+  "japaneseTitle": "吉四六さんの話～「ババクロウ」という魚～",
+  "slug": "level3-the-fish-called-babakuro",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-the-fish-called-babakuro/source.pdf",
+  "ocrR2Key": "books/level3-the-fish-called-babakuro/source-ocr.txt",
+  "coverR2Key": "books/level3-the-fish-called-babakuro/cover.jpg",
+  "htmlR2Key": "books/level3-the-fish-called-babakuro/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 409,
+  "createdAt": "2026-10-09T20:22:37.525Z",
+  "updatedAt": "2026-10-09T20:22:37.525Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:干す|ほす",
+        "japanese": "干す",
+        "japaneseSegments": [
+          {
+            "base": "干",
+            "reading": "ほ"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "ほす",
+        "romaji": "hosu",
+        "meaning": "to dry (in the sun or air)",
+        "firstPassage": 5,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:怒る|おこる",
+        "japanese": "怒る",
+        "japaneseSegments": [
+          {
+            "base": "怒",
+            "reading": "おこ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "おこる",
+        "romaji": "okoru",
+        "meaning": "to get angry",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:感心|かんしん",
+        "japanese": "感心",
+        "japaneseSegments": [
+          {
+            "base": "感",
+            "reading": "かん"
+          },
+          {
+            "base": "心",
+            "reading": "しん"
+          }
+        ],
+        "reading": "かんしん",
+        "romaji": "kanshin",
+        "meaning": "to be impressed",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:tara",
+        "pattern": "tara",
+        "patternSegments": [
+          {
+            "text": "～"
+          },
+          {
+            "base": "た",
+            "reading": "た"
+          },
+          {
+            "text": "ら"
+          }
+        ],
+        "explanation": "This pattern expresses a condition or sequence: when or if one thing happens, another follows.",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      }
+    ]
+  }
+}

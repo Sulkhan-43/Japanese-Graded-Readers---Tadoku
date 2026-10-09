@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:旅館|りょかん",
+      "japanese": "旅館",
+      "japaneseSegments": [
+        {
+          "base": "旅館",
+          "reading": "りょかん"
+        }
+      ],
+      "reading": "りょかん",
+      "romaji": "ryokan",
+      "meaning": "Japanese inn",
+      "firstPassage": 1,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "vocabulary:宿場|しゅくば",
+      "japanese": "宿場",
+      "japaneseSegments": [
+        {
+          "base": "宿場",
+          "reading": "しゅくば"
+        }
+      ],
+      "reading": "しゅくば",
+      "romaji": "shukuba",
+      "meaning": "post station",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:泊まる|とまる",
+      "japanese": "泊まる",
+      "japaneseSegments": [
+        {
+          "base": "泊",
+          "reading": "とま"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "reading": "とまる",
+      "romaji": "tomaru",
+      "meaning": "to stay overnight",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:忘れる|わすれる",
+      "japanese": "忘れる",
+      "japaneseSegments": [
+        {
+          "base": "忘",
+          "reading": "わす"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "わすれる",
+      "romaji": "wasureru",
+      "meaning": "to forget",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:急ぐ|いそぐ",
+      "japanese": "急ぐ",
+      "japaneseSegments": [
+        {
+          "base": "急",
+          "reading": "いそ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "reading": "いそぐ",
+      "romaji": "isogu",
+      "meaning": "to hurry",
+      "firstPassage": 5,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:正直|しょうじき",
+      "japanese": "正直",
+      "japaneseSegments": [
+        {
+          "base": "正直",
+          "reading": "しょうじき"
+        }
+      ],
+      "reading": "しょうじき",
+      "romaji": "shōjiki",
+      "meaning": "honest; honesty",
+      "firstPassage": 6,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:お金|おかね",
+      "japanese": "お金",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "金",
+          "reading": "かね"
+        }
+      ],
+      "reading": "おかね",
+      "romaji": "okane",
+      "meaning": "money",
+      "firstPassage": 6,
+      "occurrenceCount": 10
+    },
+    {
+      "key": "vocabulary:届ける|とどける",
+      "japanese": "届ける",
+      "japaneseSegments": [
+        {
+          "base": "届",
+          "reading": "とど"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "reading": "とどける",
+      "romaji": "todokeru",
+      "meaning": "to deliver; to bring to someone",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:受け取る|うけとる",
+      "japanese": "受け取る",
+      "japaneseSegments": [
+        {
+          "base": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "base": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "うけとる",
+      "romaji": "uketoru",
+      "meaning": "to accept; to receive",
+      "firstPassage": 9,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:感心|かんしん",
+      "japanese": "感心",
+      "japaneseSegments": [
+        {
+          "base": "感心",
+          "reading": "かんしん"
+        }
+      ],
+      "reading": "かんしん",
+      "romaji": "kanshin",
+      "meaning": "to be impressed",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:te iru",
+      "pattern": "te iru",
+      "patternSegments": [
+        {
+          "text": "ている"
+        }
+      ],
+      "explanation": "This pattern describes an action in progress or a continuing state.",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:to",
+      "pattern": "to",
+      "patternSegments": [
+        {
+          "text": "と"
+        }
+      ],
+      "explanation": "This pattern links an action or condition to what happens next, often describing a natural discovery or result.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ba",
+      "pattern": "ba",
+      "patternSegments": [
+        {
+          "text": "ば"
+        }
+      ],
+      "explanation": "This pattern expresses a condition: if one thing happens, another follows.",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:nagara",
+      "pattern": "nagara",
+      "patternSegments": [
+        {
+          "text": "ながら"
+        }
+      ],
+      "explanation": "This pattern describes doing one action while doing another.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:kurai nara",
+      "pattern": "kurai nara",
+      "patternSegments": [
+        {
+          "text": "くらいなら"
+        }
+      ],
+      "explanation": "This pattern presents one action as a condition that would make the speaker choose a different course.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    }
+  ]
+}

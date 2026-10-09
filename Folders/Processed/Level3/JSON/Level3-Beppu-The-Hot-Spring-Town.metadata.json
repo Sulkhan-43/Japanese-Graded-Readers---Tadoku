@@ -1,0 +1,393 @@
+{
+  "id": "level3-beppu-the-hot-spring-town",
+  "name": "Beppu, the Hot Spring Town",
+  "japaneseTitle": "温泉の町 別府",
+  "slug": "level3-beppu-the-hot-spring-town",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-beppu-the-hot-spring-town/source.pdf",
+  "ocrR2Key": "books/level3-beppu-the-hot-spring-town/source-ocr.txt",
+  "coverR2Key": "books/level3-beppu-the-hot-spring-town/cover.jpg",
+  "htmlR2Key": "books/level3-beppu-the-hot-spring-town/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 593,
+  "createdAt": "2026-10-09T20:50:31.616Z",
+  "updatedAt": "2026-10-09T20:50:31.616Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:有名|ゆうめい",
+        "japanese": "有名",
+        "japaneseSegments": [
+          {
+            "base": "有名",
+            "reading": "ゆうめい"
+          }
+        ],
+        "reading": "ゆうめい",
+        "romaji": "yūmei",
+        "meaning": "famous",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:旅行客|りょこうきゃく",
+        "japanese": "旅行客",
+        "japaneseSegments": [
+          {
+            "base": "旅行客",
+            "reading": "りょこうきゃく"
+          }
+        ],
+        "reading": "りょこうきゃく",
+        "romaji": "ryokōkyaku",
+        "meaning": "traveler; visitor",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:建物|たてもの",
+        "japanese": "建物",
+        "japaneseSegments": [
+          {
+            "base": "建物",
+            "reading": "たてもの"
+          }
+        ],
+        "reading": "たてもの",
+        "romaji": "tatemono",
+        "meaning": "building",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:種類|しゅるい",
+        "japanese": "種類",
+        "japaneseSegments": [
+          {
+            "base": "種類",
+            "reading": "しゅるい"
+          }
+        ],
+        "reading": "しゅるい",
+        "romaji": "shurui",
+        "meaning": "kind; type",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:水着|みずぎ",
+        "japanese": "水着",
+        "japaneseSegments": [
+          {
+            "base": "水着",
+            "reading": "みずぎ"
+          }
+        ],
+        "reading": "みずぎ",
+        "romaji": "mizugi",
+        "meaning": "swimsuit",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:泥湯|どろゆ",
+        "japanese": "泥湯",
+        "japaneseSegments": [
+          {
+            "base": "泥湯",
+            "reading": "どろゆ"
+          }
+        ],
+        "reading": "どろゆ",
+        "romaji": "doroyu",
+        "meaning": "mud bath",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:肌|はだ",
+        "japanese": "肌",
+        "japaneseSegments": [
+          {
+            "base": "肌",
+            "reading": "はだ"
+          }
+        ],
+        "reading": "はだ",
+        "romaji": "hada",
+        "meaning": "skin",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:砂湯|すなゆ",
+        "japanese": "砂湯",
+        "japaneseSegments": [
+          {
+            "base": "砂湯",
+            "reading": "すなゆ"
+          }
+        ],
+        "reading": "すなゆ",
+        "romaji": "sunayu",
+        "meaning": "sand bath",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:むし湯|むしゆ",
+        "japanese": "むし湯",
+        "japaneseSegments": [
+          {
+            "text": "むし"
+          },
+          {
+            "base": "湯",
+            "reading": "ゆ"
+          }
+        ],
+        "reading": "むしゆ",
+        "romaji": "mushiyu",
+        "meaning": "steam bath",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:薬草|やくそう",
+        "japanese": "薬草",
+        "japaneseSegments": [
+          {
+            "base": "薬草",
+            "reading": "やくそう"
+          }
+        ],
+        "reading": "やくそう",
+        "romaji": "yakusō",
+        "meaning": "medicinal herbs",
+        "firstPassage": 15,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:足湯|あしゆ",
+        "japanese": "足湯",
+        "japaneseSegments": [
+          {
+            "base": "足湯",
+            "reading": "あしゆ"
+          }
+        ],
+        "reading": "あしゆ",
+        "romaji": "ashiyu",
+        "meaning": "foot bath",
+        "firstPassage": 16,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:手湯|てゆ",
+        "japanese": "手湯",
+        "japaneseSegments": [
+          {
+            "base": "手湯",
+            "reading": "てゆ"
+          }
+        ],
+        "reading": "てゆ",
+        "romaji": "teyu",
+        "meaning": "hand bath",
+        "firstPassage": 17,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:湯治宿|とうじやど",
+        "japanese": "湯治宿",
+        "japaneseSegments": [
+          {
+            "base": "湯治宿",
+            "reading": "とうじやど"
+          }
+        ],
+        "reading": "とうじやど",
+        "romaji": "tōji-yado",
+        "meaning": "hot spring treatment inn",
+        "firstPassage": 20,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:湯治客|とうじきゃく",
+        "japanese": "湯治客",
+        "japaneseSegments": [
+          {
+            "base": "湯治客",
+            "reading": "とうじきゃく"
+          }
+        ],
+        "reading": "とうじきゃく",
+        "romaji": "tōji-kyaku",
+        "meaning": "hot spring treatment guest",
+        "firstPassage": 20,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:湯けむり|ゆけむり",
+        "japanese": "湯けむり",
+        "japaneseSegments": [
+          {
+            "base": "湯",
+            "reading": "ゆ"
+          },
+          {
+            "text": "けむり"
+          }
+        ],
+        "reading": "ゆけむり",
+        "romaji": "yukemuri",
+        "meaning": "hot spring steam",
+        "firstPassage": 21,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:解消|かいしょう",
+        "japanese": "解消",
+        "japaneseSegments": [
+          {
+            "base": "解消",
+            "reading": "かいしょう"
+          }
+        ],
+        "reading": "かいしょう",
+        "romaji": "kaishō",
+        "meaning": "relief; alleviation",
+        "firstPassage": 22,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:Nとして",
+        "pattern": "Nとして",
+        "patternSegments": [
+          {
+            "text": "N to shite"
+          }
+        ],
+        "explanation": "This pattern means “as” or “in the role of” and describes a capacity or status.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vてくる",
+        "pattern": "Vてくる",
+        "patternSegments": [
+          {
+            "text": "V te kuru"
+          }
+        ],
+        "explanation": "This pattern describes an action or change that began in the past and has continued up to the present.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:NもNも",
+        "pattern": "NもNも",
+        "patternSegments": [
+          {
+            "text": "N mo N mo"
+          }
+        ],
+        "explanation": "This pattern means “both…and…” or “as well as…and…” when listing two things alike.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vながら",
+        "pattern": "Vながら",
+        "patternSegments": [
+          {
+            "text": "V nagara"
+          }
+        ],
+        "explanation": "This pattern describes doing two actions at the same time.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vると",
+        "pattern": "Vると",
+        "patternSegments": [
+          {
+            "text": "V ru to"
+          }
+        ],
+        "explanation": "This pattern links an action or condition with its natural result: “when” or “if.”",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Nなのに",
+        "pattern": "Nなのに",
+        "patternSegments": [
+          {
+            "text": "N na noni"
+          }
+        ],
+        "explanation": "This pattern expresses contrast or surprise, similar to “even though.”",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vたまま",
+        "pattern": "Vたまま",
+        "patternSegments": [
+          {
+            "text": "V ta mama"
+          }
+        ],
+        "explanation": "This pattern means something remains in a state after an action, such as keeping clothes on while doing something.",
+        "firstPassage": 15,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:Vために",
+        "pattern": "Vために",
+        "patternSegments": [
+          {
+            "text": "V tame ni"
+          }
+        ],
+        "explanation": "This pattern expresses purpose: doing something in order to achieve a goal.",
+        "firstPassage": 20,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:NというN",
+        "pattern": "NというN",
+        "patternSegments": [
+          {
+            "text": "N to iu N"
+          }
+        ],
+        "explanation": "This pattern introduces or identifies something by name, meaning “a place or thing called…”",
+        "firstPassage": 20,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vてみる",
+        "pattern": "Vてみる",
+        "patternSegments": [
+          {
+            "text": "V te miru"
+          }
+        ],
+        "explanation": "This pattern means to try doing something and see how it goes.",
+        "firstPassage": 23,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

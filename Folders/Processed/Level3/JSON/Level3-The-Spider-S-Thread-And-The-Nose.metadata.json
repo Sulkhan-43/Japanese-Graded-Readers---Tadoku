@@ -1,0 +1,724 @@
+{
+  "id": "level3-the-spider-s-thread-and-the-nose",
+  "name": "The Spider’s Thread and The Nose",
+  "japaneseTitle": "蜘蛛の糸・鼻",
+  "slug": "level3-the-spider-s-thread-and-the-nose",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-the-spider-s-thread-and-the-nose/source.pdf",
+  "ocrR2Key": "books/level3-the-spider-s-thread-and-the-nose/source-ocr.txt",
+  "coverR2Key": "books/level3-the-spider-s-thread-and-the-nose/cover.jpg",
+  "htmlR2Key": "books/level3-the-spider-s-thread-and-the-nose/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 3037,
+  "createdAt": "2026-10-09T19:58:08.275Z",
+  "updatedAt": "2026-10-09T19:58:08.275Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:極楽|ごくらく",
+        "japanese": "極楽",
+        "japaneseSegments": [
+          {
+            "base": "極楽",
+            "reading": "ごくらく"
+          }
+        ],
+        "reading": "ごくらく",
+        "romaji": "gokuraku",
+        "meaning": "paradise; Pure Land",
+        "firstPassage": 1,
+        "occurrenceCount": 14
+      },
+      {
+        "key": "vocabulary:地獄|じごく",
+        "japanese": "地獄",
+        "japaneseSegments": [
+          {
+            "base": "地獄",
+            "reading": "じごく"
+          }
+        ],
+        "reading": "じごく",
+        "romaji": "jigoku",
+        "meaning": "hell",
+        "firstPassage": 1,
+        "occurrenceCount": 18
+      },
+      {
+        "key": "vocabulary:罪人|ざいにん",
+        "japanese": "罪人",
+        "japaneseSegments": [
+          {
+            "base": "罪人",
+            "reading": "ざいにん"
+          }
+        ],
+        "reading": "ざいにん",
+        "romaji": "zainin",
+        "meaning": "sinner; criminal",
+        "firstPassage": 1,
+        "occurrenceCount": 12
+      },
+      {
+        "key": "vocabulary:逃げる|にげる",
+        "japanese": "逃げる",
+        "japaneseSegments": [
+          {
+            "base": "逃",
+            "reading": "に"
+          },
+          {
+            "text": "げる"
+          }
+        ],
+        "reading": "にげる",
+        "romaji": "nigeru",
+        "meaning": "to escape; run away",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:蓮|はす",
+        "japanese": "蓮",
+        "japaneseSegments": [
+          {
+            "base": "蓮",
+            "reading": "はす"
+          }
+        ],
+        "reading": "はす",
+        "romaji": "hasu",
+        "meaning": "lotus",
+        "firstPassage": 1,
+        "occurrenceCount": 11
+      },
+      {
+        "key": "vocabulary:蜘蛛|くも",
+        "japanese": "蜘蛛",
+        "japaneseSegments": [
+          {
+            "base": "蜘蛛",
+            "reading": "くも"
+          }
+        ],
+        "reading": "くも",
+        "romaji": "kumo",
+        "meaning": "spider",
+        "firstPassage": 2,
+        "occurrenceCount": 12
+      },
+      {
+        "key": "vocabulary:糸|いと",
+        "japanese": "糸",
+        "japaneseSegments": [
+          {
+            "base": "糸",
+            "reading": "いと"
+          }
+        ],
+        "reading": "いと",
+        "romaji": "ito",
+        "meaning": "thread",
+        "firstPassage": 2,
+        "occurrenceCount": 17
+      },
+      {
+        "key": "vocabulary:思い出す|おもいだす",
+        "japanese": "思い出す",
+        "japaneseSegments": [
+          {
+            "base": "思",
+            "reading": "おも"
+          },
+          {
+            "base": "出",
+            "reading": "だ"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "おもいだす",
+        "romaji": "omoidasu",
+        "meaning": "to remember; recall",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:暗い|くらい",
+        "japanese": "暗い",
+        "japaneseSegments": [
+          {
+            "base": "暗",
+            "reading": "くら"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "くらい",
+        "romaji": "kurai",
+        "meaning": "dark",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:疲れる|つかれる",
+        "japanese": "疲れる",
+        "japaneseSegments": [
+          {
+            "base": "疲",
+            "reading": "つか"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "つかれる",
+        "romaji": "tsukareru",
+        "meaning": "to become tired",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:喜ぶ|よろこぶ",
+        "japanese": "喜ぶ",
+        "japaneseSegments": [
+          {
+            "base": "喜",
+            "reading": "よろこ"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "よろこぶ",
+        "romaji": "yorokobu",
+        "meaning": "to be glad; rejoice",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:心配|しんぱい",
+        "japanese": "心配",
+        "japaneseSegments": [
+          {
+            "base": "心配",
+            "reading": "しんぱい"
+          }
+        ],
+        "reading": "しんぱい",
+        "romaji": "shinpai",
+        "meaning": "worry; concern",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:落ちる|おちる",
+        "japanese": "落ちる",
+        "japaneseSegments": [
+          {
+            "base": "落",
+            "reading": "お"
+          },
+          {
+            "text": "ちる"
+          }
+        ],
+        "reading": "おちる",
+        "romaji": "ochiru",
+        "meaning": "to fall",
+        "firstPassage": 5,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:途中|とちゅう",
+        "japanese": "途中",
+        "japaneseSegments": [
+          {
+            "base": "途中",
+            "reading": "とちゅう"
+          }
+        ],
+        "reading": "とちゅう",
+        "romaji": "tochū",
+        "meaning": "halfway; along the way",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大切|たいせつ",
+        "japanese": "大切",
+        "japaneseSegments": [
+          {
+            "base": "大切",
+            "reading": "たいせつ"
+          }
+        ],
+        "reading": "たいせつ",
+        "romaji": "taisetsu",
+        "meaning": "important; precious",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:弟子|でし",
+        "japanese": "弟子",
+        "japaneseSegments": [
+          {
+            "base": "弟子",
+            "reading": "でし"
+          }
+        ],
+        "reading": "でし",
+        "romaji": "deshi",
+        "meaning": "disciple; pupil",
+        "firstPassage": 7,
+        "occurrenceCount": 25
+      },
+      {
+        "key": "vocabulary:不便|ふべん",
+        "japanese": "不便",
+        "japaneseSegments": [
+          {
+            "base": "不便",
+            "reading": "ふべん"
+          }
+        ],
+        "reading": "ふべん",
+        "romaji": "fuben",
+        "meaning": "inconvenient",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:理由|りゆう",
+        "japanese": "理由",
+        "japaneseSegments": [
+          {
+            "base": "理由",
+            "reading": "りゆう"
+          }
+        ],
+        "reading": "りゆう",
+        "romaji": "riyū",
+        "meaning": "reason",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:方法|ほうほう",
+        "japanese": "方法",
+        "japaneseSegments": [
+          {
+            "base": "方法",
+            "reading": "ほうほう"
+          }
+        ],
+        "reading": "ほうほう",
+        "romaji": "hōhō",
+        "meaning": "method; way",
+        "firstPassage": 8,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:残念|ざんねん",
+        "japanese": "残念",
+        "japaneseSegments": [
+          {
+            "base": "残念",
+            "reading": "ざんねん"
+          }
+        ],
+        "reading": "ざんねん",
+        "romaji": "zannen",
+        "meaning": "disappointed; regrettable",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:薬|くすり",
+        "japanese": "薬",
+        "japaneseSegments": [
+          {
+            "base": "薬",
+            "reading": "くすり"
+          }
+        ],
+        "reading": "くすり",
+        "romaji": "kusuri",
+        "meaning": "medicine",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:医者|いしゃ",
+        "japanese": "医者",
+        "japaneseSegments": [
+          {
+            "base": "医者",
+            "reading": "いしゃ"
+          }
+        ],
+        "reading": "いしゃ",
+        "romaji": "isha",
+        "meaning": "doctor",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:柔らかい|やわらかい",
+        "japanese": "柔らかい",
+        "japaneseSegments": [
+          {
+            "base": "柔",
+            "reading": "やわ"
+          },
+          {
+            "text": "らかい"
+          }
+        ],
+        "reading": "やわらかい",
+        "romaji": "yawarakai",
+        "meaning": "soft",
+        "firstPassage": 9,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:全部|ぜんぶ",
+        "japanese": "全部",
+        "japaneseSegments": [
+          {
+            "base": "全部",
+            "reading": "ぜんぶ"
+          }
+        ],
+        "reading": "ぜんぶ",
+        "romaji": "zenbu",
+        "meaning": "all; everything",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:鏡|かがみ",
+        "japanese": "鏡",
+        "japaneseSegments": [
+          {
+            "base": "鏡",
+            "reading": "かがみ"
+          }
+        ],
+        "reading": "かがみ",
+        "romaji": "kagami",
+        "meaning": "mirror",
+        "firstPassage": 10,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:恥ずかしい|はずかしい",
+        "japanese": "恥ずかしい",
+        "japaneseSegments": [
+          {
+            "base": "恥",
+            "reading": "は"
+          },
+          {
+            "text": "ずかしい"
+          }
+        ],
+        "reading": "はずかしい",
+        "romaji": "hazukashii",
+        "meaning": "embarrassed; shy",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:珍しい|めずらしい",
+        "japanese": "珍しい",
+        "japaneseSegments": [
+          {
+            "base": "珍",
+            "reading": "めずら"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "めずらしい",
+        "romaji": "mezurashii",
+        "meaning": "unusual; rare",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:冷たい|つめたい",
+        "japanese": "冷たい",
+        "japaneseSegments": [
+          {
+            "base": "冷",
+            "reading": "つめ"
+          },
+          {
+            "text": "たい"
+          }
+        ],
+        "reading": "つめたい",
+        "romaji": "tsumetai",
+        "meaning": "cold; unkind",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:周り|まわり",
+        "japanese": "周り",
+        "japaneseSegments": [
+          {
+            "base": "周",
+            "reading": "まわ"
+          },
+          {
+            "text": "り"
+          }
+        ],
+        "reading": "まわり",
+        "romaji": "mawari",
+        "meaning": "surroundings; people around",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:庭|にわ",
+        "japanese": "庭",
+        "japaneseSegments": [
+          {
+            "base": "庭",
+            "reading": "にわ"
+          }
+        ],
+        "reading": "にわ",
+        "romaji": "niwa",
+        "meaning": "garden",
+        "firstPassage": 12,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:風|かぜ",
+        "japanese": "風",
+        "japaneseSegments": [
+          {
+            "base": "風",
+            "reading": "かぜ"
+          }
+        ],
+        "reading": "かぜ",
+        "romaji": "kaze",
+        "meaning": "wind",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:変|へん",
+        "japanese": "変",
+        "japaneseSegments": [
+          {
+            "base": "変",
+            "reading": "へん"
+          }
+        ],
+        "reading": "へん",
+        "romaji": "hen",
+        "meaning": "strange; unusual",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:V-tara",
+        "pattern": "V-tara",
+        "patternSegments": [
+          {
+            "text": "V-tara"
+          }
+        ],
+        "explanation": "This pattern marks a condition or an event that happens after another event; the following clause describes the result or discovery.",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:node",
+        "pattern": "node",
+        "patternSegments": [
+          {
+            "text": "node"
+          }
+        ],
+        "explanation": "This pattern gives a reason or cause, often with a softer explanatory tone than a direct assertion.",
+        "firstPassage": 1,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "grammar:V-tari",
+        "pattern": "V-tari",
+        "patternSegments": [
+          {
+            "text": "V-tari"
+          }
+        ],
+        "explanation": "This pattern lists representative actions or states, suggesting examples rather than an exhaustive list.",
+        "firstPassage": 2,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:V-nagara",
+        "pattern": "V-nagara",
+        "patternSegments": [
+          {
+            "text": "V-nagara"
+          }
+        ],
+        "explanation": "This pattern links two actions done by the same person at the same time.",
+        "firstPassage": 3,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:V koto ga dekiru",
+        "pattern": "V koto ga dekiru",
+        "patternSegments": [
+          {
+            "text": "V koto ga dekiru"
+          }
+        ],
+        "explanation": "This pattern expresses ability or possibility: being able to do an action.",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-te shimau",
+        "pattern": "V-te shimau",
+        "patternSegments": [
+          {
+            "text": "V-te shimau"
+          }
+        ],
+        "explanation": "This pattern presents an action as completed, often with a sense of regret, mishap, or an unintended result.",
+        "firstPassage": 5,
+        "occurrenceCount": 11
+      },
+      {
+        "key": "grammar:shika ... nai",
+        "pattern": "shika ... nai",
+        "patternSegments": [
+          {
+            "text": "shika ... nai"
+          }
+        ],
+        "explanation": "This pattern means that there is only the stated thing, with the negative form emphasizing the limitation.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-yō to suru",
+        "pattern": "V-yō to suru",
+        "patternSegments": [
+          {
+            "text": "V-yō to suru"
+          }
+        ],
+        "explanation": "This pattern describes trying or intending to do something.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:dake de naku",
+        "pattern": "dake de naku",
+        "patternSegments": [
+          {
+            "text": "dake de naku"
+          }
+        ],
+        "explanation": "This pattern means “not only” and introduces an additional place, person, or fact.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-te morau",
+        "pattern": "V-te morau",
+        "patternSegments": [
+          {
+            "text": "V-te morau"
+          }
+        ],
+        "explanation": "This pattern describes receiving help or a favor from someone who performs the action.",
+        "firstPassage": 8,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-hajimeru",
+        "pattern": "V-hajimeru",
+        "patternSegments": [
+          {
+            "text": "V-hajimeru"
+          }
+        ],
+        "explanation": "This pattern attaches to a verb stem to show that an action begins.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:yō ni",
+        "pattern": "yō ni",
+        "patternSegments": [
+          {
+            "text": "yō ni"
+          }
+        ],
+        "explanation": "This pattern describes manner or appearance, and can mean “as if” when paired with a verb or state.",
+        "firstPassage": 9,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:V-te miru",
+        "pattern": "V-te miru",
+        "patternSegments": [
+          {
+            "text": "V-te miru"
+          }
+        ],
+        "explanation": "This pattern means to try doing an action and see what happens.",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-yō ni naru",
+        "pattern": "V-yō ni naru",
+        "patternSegments": [
+          {
+            "text": "V-yō ni naru"
+          }
+        ],
+        "explanation": "This pattern describes a change that leads to a new state, habit, or ability.",
+        "firstPassage": 11,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:V-te kuru",
+        "pattern": "V-te kuru",
+        "patternSegments": [
+          {
+            "text": "V-te kuru"
+          }
+        ],
+        "explanation": "This pattern describes a change or action that develops toward the present or the speaker’s viewpoint.",
+        "firstPassage": 12,
+        "occurrenceCount": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "level3-koizumi-yakumo-s-scary-tales-mujina-and-ghost-falls",
+  "name": "Koizumi Yakumo’s Scary Tales Mujina and Ghost Falls",
+  "japaneseTitle": "小泉八雲の怖い話 むじな／幽霊滝",
+  "slug": "level3-koizumi-yakumo-s-scary-tales-mujina-and-ghost-falls",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-koizumi-yakumo-s-scary-tales-mujina-and-ghost-falls/source.pdf",
+  "ocrR2Key": "books/level3-koizumi-yakumo-s-scary-tales-mujina-and-ghost-falls/source-ocr.txt",
+  "coverR2Key": "books/level3-koizumi-yakumo-s-scary-tales-mujina-and-ghost-falls/cover.jpg",
+  "htmlR2Key": "books/level3-koizumi-yakumo-s-scary-tales-mujina-and-ghost-falls/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 1823,
+  "createdAt": "2026-10-09T19:38:44.104Z",
+  "updatedAt": "2026-10-09T19:38:44.104Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:紀ノ国坂|きのくにざか",
+        "japanese": "紀ノ国坂",
+        "japaneseSegments": [
+          {
+            "base": "紀ノ国坂",
+            "reading": "きのくにざか"
+          }
+        ],
+        "reading": "きのくにざか",
+        "romaji": "Ki no Kuni-zaka",
+        "meaning": "Kii no Kuni-zaka, a road in Tokyo",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:着物|きもの",
+        "japanese": "着物",
+        "japaneseSegments": [
+          {
+            "base": "着物",
+            "reading": "きもの"
+          }
+        ],
+        "reading": "きもの",
+        "romaji": "kimono",
+        "meaning": "traditional Japanese clothing; kimono",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:麻|あさ",
+        "japanese": "麻",
+        "japaneseSegments": [
+          {
+            "base": "麻",
+            "reading": "あさ"
+          }
+        ],
+        "reading": "あさ",
+        "romaji": "asa",
+        "meaning": "hemp; the plant fiber used for cloth",
+        "firstPassage": 6,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:神社|じんじゃ",
+        "japanese": "神社",
+        "japaneseSegments": [
+          {
+            "base": "神社",
+            "reading": "じんじゃ"
+          }
+        ],
+        "reading": "じんじゃ",
+        "romaji": "jinja",
+        "meaning": "Shinto shrine",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:賽銭箱|さいせんばこ",
+        "japanese": "賽銭箱",
+        "japaneseSegments": [
+          {
+            "base": "賽銭箱",
+            "reading": "さいせんばこ"
+          }
+        ],
+        "reading": "さいせんばこ",
+        "romaji": "saisen-bako",
+        "meaning": "offering box at a shrine or temple",
+        "firstPassage": 9,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:おんぶ|おんぶ",
+        "japanese": "おんぶ",
+        "japaneseSegments": [
+          {
+            "text": "おんぶ"
+          }
+        ],
+        "reading": "おんぶ",
+        "romaji": "onbu",
+        "meaning": "carrying someone on one’s back",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N to iu no wa",
+        "pattern": "N to iu no wa",
+        "patternSegments": [
+          {
+            "text": "N to iu no wa"
+          }
+        ],
+        "explanation": "This pattern introduces an explanation or definition of a word or thing.",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N nagara",
+        "pattern": "N nagara",
+        "patternSegments": [
+          {
+            "text": "N nagara"
+          }
+        ],
+        "explanation": "This pattern links two actions happening at the same time; the same person usually does both.",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-ru koto ga dekiru",
+        "pattern": "V-ru koto ga dekiru",
+        "patternSegments": [
+          {
+            "text": "V-ru koto ga dekiru"
+          }
+        ],
+        "explanation": "This pattern expresses that someone is able to do an action.",
+        "firstPassage": 7,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-ta mama",
+        "pattern": "V-ta mama",
+        "patternSegments": [
+          {
+            "text": "V-ta mama"
+          }
+        ],
+        "explanation": "This pattern describes something remaining in the state created by an action.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      }
+    ]
+  }
+}

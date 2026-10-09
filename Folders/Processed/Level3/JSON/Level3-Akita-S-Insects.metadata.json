@@ -1,0 +1,265 @@
+{
+  "id": "level3-akita-s-insects",
+  "name": "Akita’s Insects",
+  "japaneseTitle": "秋田の虫",
+  "slug": "level3-akita-s-insects",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-akita-s-insects/source.pdf",
+  "ocrR2Key": "books/level3-akita-s-insects/source-ocr.txt",
+  "coverR2Key": "books/level3-akita-s-insects/cover.jpg",
+  "htmlR2Key": "books/level3-akita-s-insects/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 680,
+  "createdAt": "2026-10-09T20:28:32.584Z",
+  "updatedAt": "2026-10-09T20:28:32.584Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:国際関係|こくさいかんけい",
+        "japanese": "国際関係",
+        "japaneseSegments": [
+          {
+            "base": "国際関係",
+            "reading": "こくさいかんけい"
+          }
+        ],
+        "reading": "こくさいかんけい",
+        "romaji": "kokusai kankei",
+        "meaning": "international relations",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:感染拡大|かんせんかくだい",
+        "japanese": "感染拡大",
+        "japaneseSegments": [
+          {
+            "base": "感染拡大",
+            "reading": "かんせんかくだい"
+          }
+        ],
+        "reading": "かんせんかくだい",
+        "romaji": "kansen kakudai",
+        "meaning": "spread of infection",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:留学|りゅうがく",
+        "japanese": "留学",
+        "japaneseSegments": [
+          {
+            "base": "留学",
+            "reading": "りゅうがく"
+          }
+        ],
+        "reading": "りゅうがく",
+        "romaji": "ryūgaku",
+        "meaning": "study abroad",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:農園|のうえん",
+        "japanese": "農園",
+        "japaneseSegments": [
+          {
+            "base": "農園",
+            "reading": "のうえん"
+          }
+        ],
+        "reading": "のうえん",
+        "romaji": "nōen",
+        "meaning": "garden; farm plot",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:幸運|こううん",
+        "japanese": "幸運",
+        "japaneseSegments": [
+          {
+            "base": "幸運",
+            "reading": "こううん"
+          }
+        ],
+        "reading": "こううん",
+        "romaji": "kōun",
+        "meaning": "good luck; good fortune",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:発見|はっけん",
+        "japanese": "発見",
+        "japaneseSegments": [
+          {
+            "base": "発見",
+            "reading": "はっけん"
+          }
+        ],
+        "reading": "はっけん",
+        "romaji": "hakken",
+        "meaning": "discovery; spotting",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:眺める|ながめる",
+        "japanese": "眺める",
+        "japaneseSegments": [
+          {
+            "base": "眺",
+            "reading": "なが"
+          },
+          {
+            "text": "める"
+          }
+        ],
+        "reading": "ながめる",
+        "romaji": "nagameru",
+        "meaning": "to gaze at; to watch",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:思い出|おもいで",
+        "japanese": "思い出",
+        "japaneseSegments": [
+          {
+            "base": "思",
+            "reading": "おも"
+          },
+          {
+            "text": "い"
+          },
+          {
+            "base": "出",
+            "reading": "で"
+          }
+        ],
+        "reading": "おもいで",
+        "romaji": "omoide",
+        "meaning": "memory; recollection",
+        "firstPassage": 10,
+        "occurrenceCount": 4
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:V-たとき",
+        "pattern": "V-たとき",
+        "patternSegments": [
+          {
+            "text": "V-たとき"
+          }
+        ],
+        "explanation": "Attach this pattern to a verb in the past form to say “when” an action happened.",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-ることにする",
+        "pattern": "V-ることにする",
+        "patternSegments": [
+          {
+            "text": "V-ることにする"
+          }
+        ],
+        "explanation": "This pattern means to decide to do something.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-ていたので",
+        "pattern": "V-ていたので",
+        "patternSegments": [
+          {
+            "text": "V-ていたので"
+          }
+        ],
+        "explanation": "This pattern gives a reason, with an ongoing or past continuing action as the reason.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-るようになる",
+        "pattern": "V-るようになる",
+        "patternSegments": [
+          {
+            "text": "V-るようになる"
+          }
+        ],
+        "explanation": "This pattern describes a change that leads someone to start doing something or come to feel a certain way.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:plain form + そうだ",
+        "pattern": "plain form + そうだ",
+        "patternSegments": [
+          {
+            "text": "plain form + そうだ"
+          }
+        ],
+        "explanation": "This pattern reports information the speaker has heard or learned from another source.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-てしまう",
+        "pattern": "V-てしまう",
+        "patternSegments": [
+          {
+            "text": "V-てしまう"
+          }
+        ],
+        "explanation": "This pattern can show that an action was completed, often with an unintended or regrettable result.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-そうに見える",
+        "pattern": "V-そうに見える",
+        "patternSegments": [
+          {
+            "text": "V-そうにみえる"
+          }
+        ],
+        "explanation": "This pattern describes how something appears or seems based on what can be seen.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:けど (contrast)",
+        "pattern": "けど (contrast)",
+        "patternSegments": [
+          {
+            "text": "けど"
+          }
+        ],
+        "explanation": "This pattern links two clauses and introduces a contrast, similar to “but” or “although.”",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-たら",
+        "pattern": "V-たら",
+        "patternSegments": [
+          {
+            "text": "V-たら"
+          }
+        ],
+        "explanation": "This pattern presents a condition, meaning “if” or “when” the action happens.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

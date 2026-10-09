@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:稲むら|いなむら",
+      "japanese": "稲むら",
+      "japaneseSegments": [
+        {
+          "base": "稲",
+          "reading": "いな"
+        },
+        {
+          "text": "むら"
+        }
+      ],
+      "reading": "いなむら",
+      "romaji": "inamura",
+      "meaning": "A stack or sheaf of harvested rice plants.",
+      "firstPassage": 1,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:物語|ものがたり",
+      "japanese": "物語",
+      "japaneseSegments": [
+        {
+          "base": "物語",
+          "reading": "ものがたり"
+        }
+      ],
+      "reading": "ものがたり",
+      "romaji": "monogatari",
+      "meaning": "A story or tale.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:地震|じしん",
+      "japanese": "地震",
+      "japaneseSegments": [
+        {
+          "base": "地震",
+          "reading": "じしん"
+        }
+      ],
+      "reading": "じしん",
+      "romaji": "jishin",
+      "meaning": "An earthquake.",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:津波|つなみ",
+      "japanese": "津波",
+      "japaneseSegments": [
+        {
+          "base": "津波",
+          "reading": "つなみ"
+        }
+      ],
+      "reading": "つなみ",
+      "romaji": "tsunami",
+      "meaning": "A tsunami; a series of large sea waves caused by an undersea disturbance.",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:たいまつ|たいまつ",
+      "japanese": "たいまつ",
+      "japaneseSegments": [
+        {
+          "text": "たいまつ"
+        }
+      ],
+      "reading": "たいまつ",
+      "romaji": "taimatsu",
+      "meaning": "A torch.",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:煙|けむり",
+      "japanese": "煙",
+      "japaneseSegments": [
+        {
+          "base": "煙",
+          "reading": "けむり"
+        }
+      ],
+      "reading": "けむり",
+      "romaji": "kemuri",
+      "meaning": "Smoke.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:堤防|ていぼう",
+      "japanese": "堤防",
+      "japaneseSegments": [
+        {
+          "base": "堤防",
+          "reading": "ていぼう"
+        }
+      ],
+      "reading": "ていぼう",
+      "romaji": "teibō",
+      "meaning": "An embankment built to protect land from flooding.",
+      "firstPassage": 15,
+      "occurrenceCount": 2
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:nagara",
+      "pattern": "nagara",
+      "patternSegments": [
+        {
+          "text": "nagara"
+        }
+      ],
+      "explanation": "This pattern connects two actions done at the same time by the same subject.",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:node",
+      "pattern": "node",
+      "patternSegments": [
+        {
+          "text": "node"
+        }
+      ],
+      "explanation": "This pattern gives a reason or cause for the following result.",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    }
+  ]
+}

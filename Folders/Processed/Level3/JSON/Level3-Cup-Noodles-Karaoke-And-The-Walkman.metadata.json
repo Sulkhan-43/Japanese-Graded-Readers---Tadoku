@@ -1,0 +1,659 @@
+{
+  "id": "level3-cup-noodles-karaoke-and-the-walkman",
+  "name": "Cup Noodles, Karaoke, and the Walkman",
+  "japaneseTitle": "カップヌードル／カラオケ／ウォークマン ～日本で生まれて世界へ～",
+  "slug": "level3-cup-noodles-karaoke-and-the-walkman",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-cup-noodles-karaoke-and-the-walkman/source.pdf",
+  "ocrR2Key": "books/level3-cup-noodles-karaoke-and-the-walkman/source-ocr.txt",
+  "coverR2Key": "books/level3-cup-noodles-karaoke-and-the-walkman/cover.jpg",
+  "htmlR2Key": "books/level3-cup-noodles-karaoke-and-the-walkman/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 2491,
+  "createdAt": "2026-10-09T20:12:34.872Z",
+  "updatedAt": "2026-10-09T20:12:34.872Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:世界中|せかいじゅう",
+        "japanese": "世界中",
+        "japaneseSegments": [
+          {
+            "base": "世界",
+            "reading": "せかい"
+          },
+          {
+            "text": ""
+          },
+          {
+            "base": "中",
+            "reading": "じゅう"
+          }
+        ],
+        "reading": "せかいじゅう",
+        "romaji": "sekaijū",
+        "meaning": "all over the world",
+        "firstPassage": 1,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "vocabulary:誕生|たんじょう",
+        "japanese": "誕生",
+        "japaneseSegments": [
+          {
+            "base": "誕生",
+            "reading": "たんじょう"
+          }
+        ],
+        "reading": "たんじょう",
+        "romaji": "tanjō",
+        "meaning": "birth; creation",
+        "firstPassage": 2,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:歩行者天国|ほこうしゃてんごく",
+        "japanese": "歩行者天国",
+        "japaneseSegments": [
+          {
+            "base": "歩行者",
+            "reading": "ほこうしゃ"
+          },
+          {
+            "base": "天国",
+            "reading": "てんごく"
+          }
+        ],
+        "reading": "ほこうしゃてんごく",
+        "romaji": "hokōsha tengoku",
+        "meaning": "pedestrian zone closed to cars",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:社員|しゃいん",
+        "japanese": "社員",
+        "japaneseSegments": [
+          {
+            "base": "社員",
+            "reading": "しゃいん"
+          }
+        ],
+        "reading": "しゃいん",
+        "romaji": "shain",
+        "meaning": "company employee",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:丼|どんぶり",
+        "japanese": "丼",
+        "japaneseSegments": [
+          {
+            "base": "丼",
+            "reading": "どんぶり"
+          }
+        ],
+        "reading": "どんぶり",
+        "romaji": "donburi",
+        "meaning": "large bowl, often used for noodles or rice",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:材料|ざいりょう",
+        "japanese": "材料",
+        "japaneseSegments": [
+          {
+            "base": "材料",
+            "reading": "ざいりょう"
+          }
+        ],
+        "reading": "ざいりょう",
+        "romaji": "zairyō",
+        "meaning": "material; ingredient",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:発泡スチロール|はっぽうすちろーる",
+        "japanese": "発泡スチロール",
+        "japaneseSegments": [
+          {
+            "base": "発泡",
+            "reading": "はっぽう"
+          },
+          {
+            "text": "スチロール"
+          }
+        ],
+        "reading": "はっぽうすちろーる",
+        "romaji": "happō suchirōru",
+        "meaning": "expanded polystyrene",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:卵|たまご",
+        "japanese": "卵",
+        "japaneseSegments": [
+          {
+            "base": "卵",
+            "reading": "たまご"
+          }
+        ],
+        "reading": "たまご",
+        "romaji": "tamago",
+        "meaning": "egg",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:野菜|やさい",
+        "japanese": "野菜",
+        "japaneseSegments": [
+          {
+            "base": "野菜",
+            "reading": "やさい"
+          }
+        ],
+        "reading": "やさい",
+        "romaji": "yasai",
+        "meaning": "vegetables",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:楽器|がっき",
+        "japanese": "楽器",
+        "japaneseSegments": [
+          {
+            "base": "楽器",
+            "reading": "がっき"
+          }
+        ],
+        "reading": "がっき",
+        "romaji": "gakki",
+        "meaning": "musical instrument",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:機械|きかい",
+        "japanese": "機械",
+        "japaneseSegments": [
+          {
+            "base": "機械",
+            "reading": "きかい"
+          }
+        ],
+        "reading": "きかい",
+        "romaji": "kikai",
+        "meaning": "machine",
+        "firstPassage": 6,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:下手|へた",
+        "japanese": "下手",
+        "japaneseSegments": [
+          {
+            "base": "下手",
+            "reading": "へた"
+          }
+        ],
+        "reading": "へた",
+        "romaji": "heta",
+        "meaning": "unskilled; poor at something",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:社長|しゃちょう",
+        "japanese": "社長",
+        "japaneseSegments": [
+          {
+            "base": "社長",
+            "reading": "しゃちょう"
+          }
+        ],
+        "reading": "しゃちょう",
+        "romaji": "shachō",
+        "meaning": "company president",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:特許|とっきょ",
+        "japanese": "特許",
+        "japaneseSegments": [
+          {
+            "base": "特許",
+            "reading": "とっきょ"
+          }
+        ],
+        "reading": "とっきょ",
+        "romaji": "tokkyo",
+        "meaning": "patent",
+        "firstPassage": 8,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:大金持ち|おおがねもち",
+        "japanese": "大金持ち",
+        "japaneseSegments": [
+          {
+            "base": "大金持",
+            "reading": "おおがねも"
+          },
+          {
+            "text": "ち"
+          }
+        ],
+        "reading": "おおがねもち",
+        "romaji": "ōganemochi",
+        "meaning": "very rich person",
+        "firstPassage": 8,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:受賞|じゅしょう",
+        "japanese": "受賞",
+        "japaneseSegments": [
+          {
+            "base": "受賞",
+            "reading": "じゅしょう"
+          }
+        ],
+        "reading": "じゅしょう",
+        "romaji": "jushō",
+        "meaning": "receiving an award",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:平和|へいわ",
+        "japanese": "平和",
+        "japaneseSegments": [
+          {
+            "base": "平和",
+            "reading": "へいわ"
+          }
+        ],
+        "reading": "へいわ",
+        "romaji": "heiwa",
+        "meaning": "peace",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:宝物|たからもの",
+        "japanese": "宝物",
+        "japaneseSegments": [
+          {
+            "base": "宝物",
+            "reading": "たからもの"
+          }
+        ],
+        "reading": "たからもの",
+        "romaji": "takaramono",
+        "meaning": "treasure",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:夢|ゆめ",
+        "japanese": "夢",
+        "japaneseSegments": [
+          {
+            "base": "夢",
+            "reading": "ゆめ"
+          }
+        ],
+        "reading": "ゆめ",
+        "romaji": "yume",
+        "meaning": "dream; aspiration",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:音楽|おんがく",
+        "japanese": "音楽",
+        "japaneseSegments": [
+          {
+            "base": "音楽",
+            "reading": "おんがく"
+          }
+        ],
+        "reading": "おんがく",
+        "romaji": "ongaku",
+        "meaning": "music",
+        "firstPassage": 11,
+        "occurrenceCount": 16
+      },
+      {
+        "key": "vocabulary:持つ|もつ",
+        "japanese": "持つ",
+        "japaneseSegments": [
+          {
+            "base": "持",
+            "reading": "も"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "もつ",
+        "romaji": "motsu",
+        "meaning": "to own; to carry",
+        "firstPassage": 11,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:名誉会長|めいよかいちょう",
+        "japanese": "名誉会長",
+        "japaneseSegments": [
+          {
+            "base": "名誉",
+            "reading": "めいよ"
+          },
+          {
+            "base": "会長",
+            "reading": "かいちょう"
+          }
+        ],
+        "reading": "めいよかいちょう",
+        "romaji": "meiyo kaichō",
+        "meaning": "honorary chairman",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:録音|ろくおん",
+        "japanese": "録音",
+        "japaneseSegments": [
+          {
+            "base": "録音",
+            "reading": "ろくおん"
+          }
+        ],
+        "reading": "ろくおん",
+        "romaji": "rokuon",
+        "meaning": "recording sound",
+        "firstPassage": 12,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:値段|ねだん",
+        "japanese": "値段",
+        "japaneseSegments": [
+          {
+            "base": "値段",
+            "reading": "ねだん"
+          }
+        ],
+        "reading": "ねだん",
+        "romaji": "nedan",
+        "meaning": "price",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:心配|しんぱい",
+        "japanese": "心配",
+        "japaneseSegments": [
+          {
+            "base": "心配",
+            "reading": "しんぱい"
+          }
+        ],
+        "reading": "しんぱい",
+        "romaji": "shinpai",
+        "meaning": "worry; concern",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:製品|せいひん",
+        "japanese": "製品",
+        "japaneseSegments": [
+          {
+            "base": "製品",
+            "reading": "せいひん"
+          }
+        ],
+        "reading": "せいひん",
+        "romaji": "seihin",
+        "meaning": "product",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:準備|じゅんび",
+        "japanese": "準備",
+        "japaneseSegments": [
+          {
+            "base": "準備",
+            "reading": "じゅんび"
+          }
+        ],
+        "reading": "じゅんび",
+        "romaji": "junbi",
+        "meaning": "preparation; readiness",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:辞書|じしょ",
+        "japanese": "辞書",
+        "japaneseSegments": [
+          {
+            "base": "辞書",
+            "reading": "じしょ"
+          }
+        ],
+        "reading": "じしょ",
+        "romaji": "jisho",
+        "meaning": "dictionary",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:外国人|がいこくじん",
+        "japanese": "外国人",
+        "japaneseSegments": [
+          {
+            "base": "外国",
+            "reading": "がいこく"
+          },
+          {
+            "base": "人",
+            "reading": "じん"
+          }
+        ],
+        "reading": "がいこくじん",
+        "romaji": "gaikokujin",
+        "meaning": "foreigner",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:Vながら",
+        "pattern": "Vながら",
+        "patternSegments": [
+          {
+            "text": "Vながら"
+          }
+        ],
+        "explanation": "Attach this pattern to a verb stem to say that two actions happen at the same time, with the attached verb as the background action.",
+        "firstPassage": 2,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:Vないで",
+        "pattern": "Vないで",
+        "patternSegments": [
+          {
+            "text": "Vないで"
+          }
+        ],
+        "explanation": "This pattern connects actions by saying that one is done without doing the first action.",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:Vてあります",
+        "pattern": "Vてあります",
+        "patternSegments": [
+          {
+            "text": "Vてあります"
+          }
+        ],
+        "explanation": "This pattern describes a deliberate action whose result remains in place.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vてから",
+        "pattern": "Vてから",
+        "patternSegments": [
+          {
+            "text": "Vてから"
+          }
+        ],
+        "explanation": "This pattern marks that one action or event happens after another is completed.",
+        "firstPassage": 5,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:Vようと思う",
+        "pattern": "Vようと思う",
+        "patternSegments": [
+          {
+            "text": "Vよう"
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "V"
+          }
+        ],
+        "explanation": "This pattern expresses a decision, intention, or thought about doing something.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:Vてもいい",
+        "pattern": "Vてもいい",
+        "patternSegments": [
+          {
+            "text": "Vてもいい"
+          }
+        ],
+        "explanation": "This pattern says that an action is allowed or acceptable.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:Vていたら",
+        "pattern": "Vていたら",
+        "patternSegments": [
+          {
+            "text": "Vていたら"
+          }
+        ],
+        "explanation": "This pattern describes a hypothetical condition based on something that would have happened.",
+        "firstPassage": 8,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:VたりVたりする",
+        "pattern": "VたりVたりする",
+        "patternSegments": [
+          {
+            "text": "VたりVたりする"
+          }
+        ],
+        "explanation": "This pattern gives examples of actions, often implying there are other similar actions too.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:なら",
+        "pattern": "なら",
+        "patternSegments": [
+          {
+            "text": "なら"
+          }
+        ],
+        "explanation": "This pattern sets a condition or topic, often meaning “if that is the case” or “as for someone who is.”",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vなければならない",
+        "pattern": "Vなければならない",
+        "patternSegments": [
+          {
+            "text": "Vなければならない"
+          }
+        ],
+        "explanation": "This pattern expresses necessity or obligation: something must be done.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:かもしれない",
+        "pattern": "かもしれない",
+        "patternSegments": [
+          {
+            "text": "かもしれない"
+          }
+        ],
+        "explanation": "This pattern expresses uncertainty or possibility, similar to “might” or “perhaps.”",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:Vすぎる",
+        "pattern": "Vすぎる",
+        "patternSegments": [
+          {
+            "text": "Vすぎる"
+          }
+        ],
+        "explanation": "This pattern means that an action or state goes beyond an expected or suitable degree.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V始める",
+        "pattern": "V始める",
+        "patternSegments": [
+          {
+            "text": "V"
+          },
+          {
+            "base": "始",
+            "reading": "はじ"
+          },
+          {
+            "text": "める"
+          }
+        ],
+        "explanation": "This pattern means to begin doing an action.",
+        "firstPassage": 15,
+        "occurrenceCount": 3
+      }
+    ]
+  }
+}

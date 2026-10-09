@@ -1,0 +1,487 @@
+{
+  "id": "level3-aladdin-and-the-magic-lamp",
+  "name": "Aladdin and the Magic Lamp",
+  "japaneseTitle": "アラジンと魔法のランプ",
+  "slug": "level3-aladdin-and-the-magic-lamp",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-aladdin-and-the-magic-lamp/source.pdf",
+  "ocrR2Key": "books/level3-aladdin-and-the-magic-lamp/source-ocr.txt",
+  "coverR2Key": "books/level3-aladdin-and-the-magic-lamp/cover.jpg",
+  "htmlR2Key": "books/level3-aladdin-and-the-magic-lamp/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 2264,
+  "createdAt": "2026-10-09T20:49:21.569Z",
+  "updatedAt": "2026-10-09T20:49:21.569Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:暮らす|くらす",
+        "japanese": "暮らす",
+        "japaneseSegments": [
+          {
+            "base": "暮",
+            "reading": "く"
+          },
+          {
+            "text": "らす"
+          }
+        ],
+        "reading": "くらす",
+        "romaji": "kurasu",
+        "meaning": "to live; to make a living",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:珍しい|めずらしい",
+        "japanese": "珍しい",
+        "japaneseSegments": [
+          {
+            "base": "珍",
+            "reading": "めずら"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "めずらしい",
+        "romaji": "mezurashii",
+        "meaning": "unusual; rare",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:枝|えだ",
+        "japanese": "枝",
+        "japaneseSegments": [
+          {
+            "base": "枝",
+            "reading": "えだ"
+          }
+        ],
+        "reading": "えだ",
+        "romaji": "eda",
+        "meaning": "branch",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:粉|こな",
+        "japanese": "粉",
+        "japaneseSegments": [
+          {
+            "base": "粉",
+            "reading": "こな"
+          }
+        ],
+        "reading": "こな",
+        "romaji": "kona",
+        "meaning": "powder",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:階段|かいだん",
+        "japanese": "階段",
+        "japaneseSegments": [
+          {
+            "base": "階段",
+            "reading": "かいだん"
+          }
+        ],
+        "reading": "かいだん",
+        "romaji": "kaidan",
+        "meaning": "staircase",
+        "firstPassage": 3,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:指輪|ゆびわ",
+        "japanese": "指輪",
+        "japaneseSegments": [
+          {
+            "base": "指輪",
+            "reading": "ゆびわ"
+          }
+        ],
+        "reading": "ゆびわ",
+        "romaji": "yubiwa",
+        "meaning": "ring",
+        "firstPassage": 3,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:宝石|ほうせき",
+        "japanese": "宝石",
+        "japaneseSegments": [
+          {
+            "base": "宝石",
+            "reading": "ほうせき"
+          }
+        ],
+        "reading": "ほうせき",
+        "romaji": "hōseki",
+        "meaning": "gemstone",
+        "firstPassage": 4,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:金色|きんいろ",
+        "japanese": "金色",
+        "japaneseSegments": [
+          {
+            "base": "金色",
+            "reading": "きんいろ"
+          }
+        ],
+        "reading": "きんいろ",
+        "romaji": "kiniro",
+        "meaning": "golden; gold-colored",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:魔法使い|まほうつかい",
+        "japanese": "魔法使い",
+        "japaneseSegments": [
+          {
+            "base": "魔法使",
+            "reading": "まほうつか"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "まほうつかい",
+        "romaji": "mahōtsukai",
+        "meaning": "magician",
+        "firstPassage": 5,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:真面目|まじめ",
+        "japanese": "真面目",
+        "japaneseSegments": [
+          {
+            "base": "真面目",
+            "reading": "まじめ"
+          }
+        ],
+        "reading": "まじめ",
+        "romaji": "majime",
+        "meaning": "serious; diligent",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:家来|けらい",
+        "japanese": "家来",
+        "japaneseSegments": [
+          {
+            "base": "家来",
+            "reading": "けらい"
+          }
+        ],
+        "reading": "けらい",
+        "romaji": "kerai",
+        "meaning": "attendant; servant",
+        "firstPassage": 6,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "vocabulary:布|ぬの",
+        "japanese": "布",
+        "japaneseSegments": [
+          {
+            "base": "布",
+            "reading": "ぬの"
+          }
+        ],
+        "reading": "ぬの",
+        "romaji": "nuno",
+        "meaning": "cloth",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大金持ち|おおがねもち",
+        "japanese": "大金持ち",
+        "japaneseSegments": [
+          {
+            "base": "大金持",
+            "reading": "おおがねも"
+          },
+          {
+            "text": "ち"
+          }
+        ],
+        "reading": "おおがねもち",
+        "romaji": "ōganemochi",
+        "meaning": "very wealthy person",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:結婚する|けっこんする",
+        "japanese": "結婚する",
+        "japaneseSegments": [
+          {
+            "base": "結婚",
+            "reading": "けっこん"
+          },
+          {
+            "text": "する"
+          }
+        ],
+        "reading": "けっこんする",
+        "romaji": "kekkon suru",
+        "meaning": "to marry",
+        "firstPassage": 8,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:貧乏人|びんぼうにん",
+        "japanese": "貧乏人",
+        "japaneseSegments": [
+          {
+            "base": "貧乏人",
+            "reading": "びんぼうにん"
+          }
+        ],
+        "reading": "びんぼうにん",
+        "romaji": "binbōnin",
+        "meaning": "poor person",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:皿|さら",
+        "japanese": "皿",
+        "japaneseSegments": [
+          {
+            "base": "皿",
+            "reading": "さら"
+          }
+        ],
+        "reading": "さら",
+        "romaji": "sara",
+        "meaning": "dish; tray",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:調べる|しらべる",
+        "japanese": "調べる",
+        "japaneseSegments": [
+          {
+            "base": "調",
+            "reading": "しら"
+          },
+          {
+            "text": "べる"
+          }
+        ],
+        "reading": "しらべる",
+        "romaji": "shiraberu",
+        "meaning": "to investigate; to check",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:用意する|よういする",
+        "japanese": "用意する",
+        "japaneseSegments": [
+          {
+            "base": "用意",
+            "reading": "ようい"
+          },
+          {
+            "text": "する"
+          }
+        ],
+        "reading": "よういする",
+        "romaji": "yōi suru",
+        "meaning": "to prepare",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:換える|かえる",
+        "japanese": "換える",
+        "japaneseSegments": [
+          {
+            "base": "換",
+            "reading": "か"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to exchange; to replace",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:触る|さわる",
+        "japanese": "触る",
+        "japaneseSegments": [
+          {
+            "base": "触",
+            "reading": "さわ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "さわる",
+        "romaji": "sawaru",
+        "meaning": "to touch",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:眠り薬|ねむりぐすり",
+        "japanese": "眠り薬",
+        "japaneseSegments": [
+          {
+            "base": "眠",
+            "reading": "ねむ"
+          },
+          {
+            "text": "り"
+          },
+          {
+            "base": "薬",
+            "reading": "ぐすり"
+          }
+        ],
+        "reading": "ねむりぐすり",
+        "romaji": "nemurigusuri",
+        "meaning": "sleeping medicine; sleeping potion",
+        "firstPassage": 13,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:隣|となり",
+        "japanese": "隣",
+        "japaneseSegments": [
+          {
+            "base": "隣",
+            "reading": "となり"
+          }
+        ],
+        "reading": "となり",
+        "romaji": "tonari",
+        "meaning": "next door; next to",
+        "firstPassage": 13,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:〜という",
+        "pattern": "〜という",
+        "patternSegments": [
+          {
+            "text": "N to iu"
+          }
+        ],
+        "explanation": "This pattern introduces a name, label, or quoted expression.",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:〜ようとする",
+        "pattern": "〜ようとする",
+        "patternSegments": [
+          {
+            "text": "V volitional + to suru"
+          }
+        ],
+        "explanation": "This pattern describes trying or intending to do something.",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜と",
+        "pattern": "〜と",
+        "patternSegments": [
+          {
+            "text": "V dictionary form + to"
+          }
+        ],
+        "explanation": "This pattern links an action or condition to a natural result or discovery.",
+        "firstPassage": 3,
+        "occurrenceCount": 12
+      },
+      {
+        "key": "grammar:〜てしまう",
+        "pattern": "〜てしまう",
+        "patternSegments": [
+          {
+            "text": "V te-form + shimau"
+          }
+        ],
+        "explanation": "This pattern marks completion, often with regret or an unintended result.",
+        "firstPassage": 5,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:〜なければならない",
+        "pattern": "〜なければならない",
+        "patternSegments": [
+          {
+            "text": "V negative conditional + naranai"
+          }
+        ],
+        "explanation": "This pattern expresses obligation: something must be done.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜てもらう",
+        "pattern": "〜てもらう",
+        "patternSegments": [
+          {
+            "text": "V te-form + morau"
+          }
+        ],
+        "explanation": "This pattern describes receiving a favor or having someone do something for you.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜にしか〜ない",
+        "pattern": "〜にしか〜ない",
+        "patternSegments": [
+          {
+            "text": "N + ni shika + negative"
+          }
+        ],
+        "explanation": "This pattern means that only the named person or thing can do something.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ながら",
+        "pattern": "〜ながら",
+        "patternSegments": [
+          {
+            "text": "V stem + nagara"
+          }
+        ],
+        "explanation": "This pattern describes two actions happening at the same time.",
+        "firstPassage": 13,
+        "occurrenceCount": 3
+      }
+    ]
+  }
+}

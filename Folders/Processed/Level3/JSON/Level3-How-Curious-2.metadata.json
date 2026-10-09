@@ -1,0 +1,474 @@
+{
+  "id": "level3-how-curious-2",
+  "name": "How Curious! 2",
+  "japaneseTitle": "ふしぎだな――ぼくが感じた不思議なこと2",
+  "slug": "level3-how-curious-2",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-how-curious-2/source.pdf",
+  "ocrR2Key": "books/level3-how-curious-2/source-ocr.txt",
+  "coverR2Key": "books/level3-how-curious-2/cover.jpg",
+  "htmlR2Key": "books/level3-how-curious-2/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 387,
+  "createdAt": "2026-10-09T20:20:45.439Z",
+  "updatedAt": "2026-10-09T20:20:45.439Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:刺身|さしみ",
+        "japanese": "刺身",
+        "japaneseSegments": [
+          {
+            "base": "刺身",
+            "reading": "さしみ"
+          }
+        ],
+        "reading": "さしみ",
+        "romaji": "sashimi",
+        "meaning": "sliced raw fish; sashimi",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:思い浮かべる|おもいうかべる",
+        "japanese": "思い浮かべる",
+        "japaneseSegments": [
+          {
+            "base": "思",
+            "reading": "おも"
+          },
+          {
+            "text": "い"
+          },
+          {
+            "base": "浮",
+            "reading": "う"
+          },
+          {
+            "text": "かべる"
+          }
+        ],
+        "reading": "おもいうかべる",
+        "romaji": "omoiukaberu",
+        "meaning": "to think of; to picture",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:怖い|こわい",
+        "japanese": "怖い",
+        "japaneseSegments": [
+          {
+            "base": "怖",
+            "reading": "こわ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "こわい",
+        "romaji": "kowai",
+        "meaning": "frightening; scary",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:江戸時代|えどじだい",
+        "japanese": "江戸時代",
+        "japaneseSegments": [
+          {
+            "base": "江戸時代",
+            "reading": "えどじだい"
+          }
+        ],
+        "reading": "えどじだい",
+        "romaji": "Edo-jidai",
+        "meaning": "Edo period",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:醤油|しょうゆ",
+        "japanese": "醤油",
+        "japaneseSegments": [
+          {
+            "base": "醤油",
+            "reading": "しょうゆ"
+          }
+        ],
+        "reading": "しょうゆ",
+        "romaji": "shōyu",
+        "meaning": "soy sauce",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:印鑑|いんかん",
+        "japanese": "印鑑",
+        "japaneseSegments": [
+          {
+            "base": "印鑑",
+            "reading": "いんかん"
+          }
+        ],
+        "reading": "いんかん",
+        "romaji": "inkan",
+        "meaning": "personal seal; stamp",
+        "firstPassage": 3,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:配達|はいたつ",
+        "japanese": "配達",
+        "japaneseSegments": [
+          {
+            "base": "配達",
+            "reading": "はいたつ"
+          }
+        ],
+        "reading": "はいたつ",
+        "romaji": "haitatsu",
+        "meaning": "delivery",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:若者|わかもの",
+        "japanese": "若者",
+        "japaneseSegments": [
+          {
+            "base": "若者",
+            "reading": "わかもの"
+          }
+        ],
+        "reading": "わかもの",
+        "romaji": "wakamono",
+        "meaning": "young people; youth",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:通帳|つうちょう",
+        "japanese": "通帳",
+        "japaneseSegments": [
+          {
+            "base": "通帳",
+            "reading": "つうちょう"
+          }
+        ],
+        "reading": "つうちょう",
+        "romaji": "tsūchō",
+        "meaning": "bankbook",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:必要|ひつよう",
+        "japanese": "必要",
+        "japaneseSegments": [
+          {
+            "base": "必要",
+            "reading": "ひつよう"
+          }
+        ],
+        "reading": "ひつよう",
+        "romaji": "hitsuyō",
+        "meaning": "necessary; required",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:納豆|なっとう",
+        "japanese": "納豆",
+        "japaneseSegments": [
+          {
+            "base": "納豆",
+            "reading": "なっとう"
+          }
+        ],
+        "reading": "なっとう",
+        "romaji": "nattō",
+        "meaning": "fermented soybeans; natto",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:慣れる|なれる",
+        "japanese": "慣れる",
+        "japaneseSegments": [
+          {
+            "base": "慣",
+            "reading": "な"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "なれる",
+        "romaji": "nareru",
+        "meaning": "to get used to",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:地域|ちいき",
+        "japanese": "地域",
+        "japaneseSegments": [
+          {
+            "base": "地域",
+            "reading": "ちいき"
+          }
+        ],
+        "reading": "ちいき",
+        "romaji": "chiiki",
+        "meaning": "region; area",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:健康|けんこう",
+        "japanese": "健康",
+        "japaneseSegments": [
+          {
+            "base": "健康",
+            "reading": "けんこう"
+          }
+        ],
+        "reading": "けんこう",
+        "romaji": "kenkō",
+        "meaning": "health",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:増える|ふえる",
+        "japanese": "増える",
+        "japaneseSegments": [
+          {
+            "base": "増",
+            "reading": "ふ"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "ふえる",
+        "romaji": "fueru",
+        "meaning": "to increase",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:左側|ひだりがわ",
+        "japanese": "左側",
+        "japaneseSegments": [
+          {
+            "base": "左",
+            "reading": "ひだり"
+          },
+          {
+            "base": "側",
+            "reading": "がわ"
+          }
+        ],
+        "reading": "ひだりがわ",
+        "romaji": "hidarigawa",
+        "meaning": "left side",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:右側|みぎがわ",
+        "japanese": "右側",
+        "japaneseSegments": [
+          {
+            "base": "右",
+            "reading": "みぎ"
+          },
+          {
+            "base": "側",
+            "reading": "がわ"
+          }
+        ],
+        "reading": "みぎがわ",
+        "romaji": "migigawa",
+        "meaning": "right side",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:通行|つうこう",
+        "japanese": "通行",
+        "japaneseSegments": [
+          {
+            "base": "通行",
+            "reading": "つうこう"
+          }
+        ],
+        "reading": "つうこう",
+        "romaji": "tsūkō",
+        "meaning": "passing; going through",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:冗談|じょうだん",
+        "japanese": "冗談",
+        "japaneseSegments": [
+          {
+            "base": "冗談",
+            "reading": "じょうだん"
+          }
+        ],
+        "reading": "じょうだん",
+        "romaji": "jōdan",
+        "meaning": "joke",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:表現|ひょうげん",
+        "japanese": "表現",
+        "japaneseSegments": [
+          {
+            "base": "表現",
+            "reading": "ひょうげん"
+          }
+        ],
+        "reading": "ひょうげん",
+        "romaji": "hyōgen",
+        "meaning": "expression",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N to iu to",
+        "pattern": "N to iu to",
+        "patternSegments": [
+          {
+            "text": "N to iu to"
+          }
+        ],
+        "explanation": "This pattern introduces a typical association or image that comes to mind when something is mentioned.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-ta koto ga aru",
+        "pattern": "V-ta koto ga aru",
+        "patternSegments": [
+          {
+            "text": "V-ta koto ga aru"
+          }
+        ],
+        "explanation": "This pattern describes having experienced something; its negative form says the experience has never happened.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-ru koto ga suki",
+        "pattern": "V-ru koto ga suki",
+        "patternSegments": [
+          {
+            "text": "V-ru koto ga suki"
+          }
+        ],
+        "explanation": "This pattern expresses liking or disliking the action named before it.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-tara",
+        "pattern": "V-tara",
+        "patternSegments": [
+          {
+            "text": "V-tara"
+          }
+        ],
+        "explanation": "This pattern presents a condition or situation that must happen first, often translated as “if” or “when.”",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-te miru",
+        "pattern": "V-te miru",
+        "patternSegments": [
+          {
+            "text": "V-te miru"
+          }
+        ],
+        "explanation": "This pattern means to try doing an action and see what it is like.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:node",
+        "pattern": "node",
+        "patternSegments": [
+          {
+            "text": "node"
+          }
+        ],
+        "explanation": "This pattern gives a reason or cause, often with a gentle explanatory tone.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni yotte",
+        "pattern": "N ni yotte",
+        "patternSegments": [
+          {
+            "text": "N ni yotte"
+          }
+        ],
+        "explanation": "This pattern indicates that something varies depending on the person, place, or other factor named before it.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-ru toki",
+        "pattern": "V-ru toki",
+        "patternSegments": [
+          {
+            "text": "V-ru toki"
+          }
+        ],
+        "explanation": "This pattern locates an action at the time when another action or situation occurs.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N no tame",
+        "pattern": "N no tame",
+        "patternSegments": [
+          {
+            "text": "N no tame"
+          }
+        ],
+        "explanation": "This pattern indicates the intended purpose or beneficiary of an action or arrangement.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:de wa arimasen ga",
+        "pattern": "de wa arimasen ga",
+        "patternSegments": [
+          {
+            "text": "de wa arimasen ga"
+          }
+        ],
+        "explanation": "This pattern politely denies or qualifies a statement, then connects it to a contrasting explanation.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

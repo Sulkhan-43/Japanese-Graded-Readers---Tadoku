@@ -1,0 +1,219 @@
+{
+  "id": "level3-the-wild-rose",
+  "name": "The Wild Rose",
+  "japaneseTitle": "野ばら",
+  "slug": "level3-the-wild-rose",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-the-wild-rose/source.pdf",
+  "ocrR2Key": "books/level3-the-wild-rose/source-ocr.txt",
+  "coverR2Key": "books/level3-the-wild-rose/cover.jpg",
+  "htmlR2Key": "books/level3-the-wild-rose/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 1186,
+  "createdAt": "2026-10-09T20:30:28.258Z",
+  "updatedAt": "2026-10-09T20:30:28.258Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:平和|へいわ",
+        "japanese": "平和",
+        "japaneseSegments": [
+          {
+            "base": "平和",
+            "reading": "へいわ"
+          }
+        ],
+        "reading": "へいわ",
+        "romaji": "heiwa",
+        "meaning": "peace; peacefulness",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:国境|こっきょう",
+        "japanese": "国境",
+        "japaneseSegments": [
+          {
+            "base": "国境",
+            "reading": "こっきょう"
+          }
+        ],
+        "reading": "こっきょう",
+        "romaji": "kokkyō",
+        "meaning": "border",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:兵士|へいし",
+        "japanese": "兵士",
+        "japaneseSegments": [
+          {
+            "base": "兵士",
+            "reading": "へいし"
+          }
+        ],
+        "reading": "へいし",
+        "romaji": "heishi",
+        "meaning": "soldier",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:老人|ろうじん",
+        "japanese": "老人",
+        "japaneseSegments": [
+          {
+            "base": "老人",
+            "reading": "ろうじん"
+          }
+        ],
+        "reading": "ろうじん",
+        "romaji": "rōjin",
+        "meaning": "old man",
+        "firstPassage": 6,
+        "occurrenceCount": 19
+      },
+      {
+        "key": "vocabulary:青年|せいねん",
+        "japanese": "青年",
+        "japaneseSegments": [
+          {
+            "base": "青年",
+            "reading": "せいねん"
+          }
+        ],
+        "reading": "せいねん",
+        "romaji": "seinen",
+        "meaning": "young man",
+        "firstPassage": 6,
+        "occurrenceCount": 17
+      },
+      {
+        "key": "vocabulary:戦争|せんそう",
+        "japanese": "戦争",
+        "japaneseSegments": [
+          {
+            "base": "戦争",
+            "reading": "せんそう"
+          }
+        ],
+        "reading": "せんそう",
+        "romaji": "sensō",
+        "meaning": "war",
+        "firstPassage": 7,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:問題|もんだい",
+        "japanese": "問題",
+        "japaneseSegments": [
+          {
+            "base": "問題",
+            "reading": "もんだい"
+          }
+        ],
+        "reading": "もんだい",
+        "romaji": "mondai",
+        "meaning": "problem; issue",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:旅人|たびびと",
+        "japanese": "旅人",
+        "japaneseSegments": [
+          {
+            "base": "旅人",
+            "reading": "たびびと"
+          }
+        ],
+        "reading": "たびびと",
+        "romaji": "tabibito",
+        "meaning": "traveler",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:yori",
+        "pattern": "yori",
+        "patternSegments": [
+          {
+            "text": "N yori"
+          }
+        ],
+        "explanation": "This pattern marks a comparison, meaning “than.”",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V you ni naru",
+        "pattern": "V you ni naru",
+        "patternSegments": [
+          {
+            "text": "V you ni naru"
+          }
+        ],
+        "explanation": "This pattern describes a change in ability, habit, or state: someone comes to do something or becomes a certain way.",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V to",
+        "pattern": "V to",
+        "patternSegments": [
+          {
+            "text": "V to"
+          }
+        ],
+        "explanation": "This pattern links an event with what follows, often meaning “when” or “once.”",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V te morau",
+        "pattern": "V te morau",
+        "patternSegments": [
+          {
+            "text": "V te morau"
+          }
+        ],
+        "explanation": "This pattern describes receiving a favor or benefit from someone doing an action.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V te bakari iru",
+        "pattern": "V te bakari iru",
+        "patternSegments": [
+          {
+            "text": "V te bakari iru"
+          }
+        ],
+        "explanation": "This pattern emphasizes repeatedly doing one thing, often with a sense of doing little else.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V tara",
+        "pattern": "V tara",
+        "patternSegments": [
+          {
+            "text": "V tara"
+          }
+        ],
+        "explanation": "This pattern expresses a condition or a sequence, often translated as “if” or “when.”",
+        "firstPassage": 8,
+        "occurrenceCount": 3
+      }
+    ]
+  }
+}

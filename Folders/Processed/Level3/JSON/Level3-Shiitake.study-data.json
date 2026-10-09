@@ -1,0 +1,1240 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:しいたけ|しいたけ",
+      "japanese": "しいたけ",
+      "japaneseSegments": [
+        {
+          "text": "しいたけ"
+        }
+      ],
+      "reading": "しいたけ",
+      "romaji": "shītake",
+      "meaning": "shiitake mushroom",
+      "firstPassage": 1,
+      "occurrenceCount": 75
+    },
+    {
+      "key": "vocabulary:留学生|りゅうがくせい",
+      "japanese": "留学生",
+      "japaneseSegments": [
+        {
+          "base": "留学生",
+          "reading": "りゅうがくせい"
+        }
+      ],
+      "reading": "りゅうがくせい",
+      "romaji": "ryūgakusei",
+      "meaning": "international student",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:現在|げんざい",
+      "japanese": "現在",
+      "japaneseSegments": [
+        {
+          "base": "現在",
+          "reading": "げんざい"
+        }
+      ],
+      "reading": "げんざい",
+      "romaji": "genzai",
+      "meaning": "currently; the present",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:九州|きゅうしゅう",
+      "japanese": "九州",
+      "japaneseSegments": [
+        {
+          "base": "九州",
+          "reading": "きゅうしゅう"
+        }
+      ],
+      "reading": "きゅうしゅう",
+      "romaji": "Kyūshū",
+      "meaning": "Kyushu, a main island of Japan",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大分県|おおいたけん",
+      "japanese": "大分県",
+      "japaneseSegments": [
+        {
+          "base": "大分県",
+          "reading": "おおいたけん"
+        }
+      ],
+      "reading": "おおいたけん",
+      "romaji": "Ōita-ken",
+      "meaning": "Oita Prefecture",
+      "firstPassage": 1,
+      "occurrenceCount": 13
+    },
+    {
+      "key": "vocabulary:先生|せんせい",
+      "japanese": "先生",
+      "japaneseSegments": [
+        {
+          "base": "先生",
+          "reading": "せんせい"
+        }
+      ],
+      "reading": "せんせい",
+      "romaji": "sensei",
+      "meaning": "teacher",
+      "firstPassage": 2,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:料理|りょうり",
+      "japanese": "料理",
+      "japaneseSegments": [
+        {
+          "base": "料理",
+          "reading": "りょうり"
+        }
+      ],
+      "reading": "りょうり",
+      "romaji": "ryōri",
+      "meaning": "cooking; a prepared dish",
+      "firstPassage": 2,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:台所|だいどころ",
+      "japanese": "台所",
+      "japaneseSegments": [
+        {
+          "base": "台所",
+          "reading": "だいどころ"
+        }
+      ],
+      "reading": "だいどころ",
+      "romaji": "daidokoro",
+      "meaning": "kitchen",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:茶色い|ちゃいろい",
+      "japanese": "茶色い",
+      "japaneseSegments": [
+        {
+          "base": "茶色",
+          "reading": "ちゃいろ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "ちゃいろい",
+      "romaji": "chairoi",
+      "meaning": "brown",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:固い|かたい",
+      "japanese": "固い",
+      "japaneseSegments": [
+        {
+          "base": "固",
+          "reading": "かた"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "かたい",
+      "romaji": "katai",
+      "meaning": "hard; firm",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:木|き",
+      "japanese": "木",
+      "japaneseSegments": [
+        {
+          "base": "木",
+          "reading": "き"
+        }
+      ],
+      "reading": "き",
+      "romaji": "ki",
+      "meaning": "tree; wood; log",
+      "firstPassage": 3,
+      "occurrenceCount": 32
+    },
+    {
+      "key": "vocabulary:ほししいたけ|ほししいたけ",
+      "japanese": "ほししいたけ",
+      "japaneseSegments": [
+        {
+          "text": "ほししいたけ"
+        }
+      ],
+      "reading": "ほししいたけ",
+      "romaji": "hoshi shītake",
+      "meaning": "dried shiitake",
+      "firstPassage": 5,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:野菜|やさい",
+      "japanese": "野菜",
+      "japaneseSegments": [
+        {
+          "base": "野菜",
+          "reading": "やさい"
+        }
+      ],
+      "reading": "やさい",
+      "romaji": "yasai",
+      "meaning": "vegetable",
+      "firstPassage": 6,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:体|からだ",
+      "japanese": "体",
+      "japaneseSegments": [
+        {
+          "base": "体",
+          "reading": "からだ"
+        }
+      ],
+      "reading": "からだ",
+      "romaji": "karada",
+      "meaning": "body; physical health",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:柔らかい|やわらかい",
+      "japanese": "柔らかい",
+      "japaneseSegments": [
+        {
+          "base": "柔",
+          "reading": "やわ"
+        },
+        {
+          "text": "らかい"
+        }
+      ],
+      "reading": "やわらかい",
+      "romaji": "yawarakai",
+      "meaning": "soft",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:探す|さがす",
+      "japanese": "探す",
+      "japaneseSegments": [
+        {
+          "base": "探",
+          "reading": "さが"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "さがす",
+      "romaji": "sagasu",
+      "meaning": "look for; search for",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:山|やま",
+      "japanese": "山",
+      "japaneseSegments": [
+        {
+          "base": "山",
+          "reading": "やま"
+        }
+      ],
+      "reading": "やま",
+      "romaji": "yama",
+      "meaning": "mountain; mountainous woodland",
+      "firstPassage": 8,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:見つける|みつける",
+      "japanese": "見つける",
+      "japaneseSegments": [
+        {
+          "base": "見",
+          "reading": "み"
+        },
+        {
+          "text": "つける"
+        }
+      ],
+      "reading": "みつける",
+      "romaji": "mitsukeru",
+      "meaning": "find; discover",
+      "firstPassage": 9,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:持って帰る|もってかえる",
+      "japanese": "持って帰る",
+      "japaneseSegments": [
+        {
+          "base": "持",
+          "reading": "も"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "base": "帰",
+          "reading": "かえ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "もってかえる",
+      "romaji": "motte kaeru",
+      "meaning": "take back home",
+      "firstPassage": 10,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:難しい|むずかしい",
+      "japanese": "難しい",
+      "japaneseSegments": [
+        {
+          "base": "難",
+          "reading": "むずか"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "むずかしい",
+      "romaji": "muzukashii",
+      "meaning": "difficult",
+      "firstPassage": 11,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:飛行機|ひこうき",
+      "japanese": "飛行機",
+      "japaneseSegments": [
+        {
+          "base": "飛行機",
+          "reading": "ひこうき"
+        }
+      ],
+      "reading": "ひこうき",
+      "romaji": "hikōki",
+      "meaning": "airplane",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:菌|きん",
+      "japanese": "菌",
+      "japaneseSegments": [
+        {
+          "base": "菌",
+          "reading": "きん"
+        }
+      ],
+      "reading": "きん",
+      "romaji": "kin",
+      "meaning": "fungus; microorganism",
+      "firstPassage": 12,
+      "occurrenceCount": 24
+    },
+    {
+      "key": "vocabulary:言葉|ことば",
+      "japanese": "言葉",
+      "japaneseSegments": [
+        {
+          "base": "言葉",
+          "reading": "ことば"
+        }
+      ],
+      "reading": "ことば",
+      "romaji": "kotoba",
+      "meaning": "word; language",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:生き物|いきもの",
+      "japanese": "生き物",
+      "japaneseSegments": [
+        {
+          "base": "生",
+          "reading": "い"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "base": "物",
+          "reading": "もの"
+        }
+      ],
+      "reading": "いきもの",
+      "romaji": "ikimono",
+      "meaning": "living thing",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:働き|はたらき",
+      "japanese": "働き",
+      "japaneseSegments": [
+        {
+          "base": "働",
+          "reading": "はたら"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "はたらき",
+      "romaji": "hataraki",
+      "meaning": "action; function",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:牛乳|ぎゅうにゅう",
+      "japanese": "牛乳",
+      "japaneseSegments": [
+        {
+          "base": "牛乳",
+          "reading": "ぎゅうにゅう"
+        }
+      ],
+      "reading": "ぎゅうにゅう",
+      "romaji": "gyūnyū",
+      "meaning": "milk",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:麦|むぎ",
+      "japanese": "麦",
+      "japaneseSegments": [
+        {
+          "base": "麦",
+          "reading": "むぎ"
+        }
+      ],
+      "reading": "むぎ",
+      "romaji": "mugi",
+      "meaning": "barley; wheat or similar grain",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:栄養|えいよう",
+      "japanese": "栄養",
+      "japaneseSegments": [
+        {
+          "base": "栄養",
+          "reading": "えいよう"
+        }
+      ],
+      "reading": "えいよう",
+      "romaji": "eiyō",
+      "meaning": "nutrition; nutrients",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:歴史|れきし",
+      "japanese": "歴史",
+      "japaneseSegments": [
+        {
+          "base": "歴史",
+          "reading": "れきし"
+        }
+      ],
+      "reading": "れきし",
+      "romaji": "rekishi",
+      "meaning": "history",
+      "firstPassage": 15,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:炭|すみ",
+      "japanese": "炭",
+      "japaneseSegments": [
+        {
+          "base": "炭",
+          "reading": "すみ"
+        }
+      ],
+      "reading": "すみ",
+      "romaji": "sumi",
+      "meaning": "charcoal",
+      "firstPassage": 16,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:傷|きず",
+      "japanese": "傷",
+      "japaneseSegments": [
+        {
+          "base": "傷",
+          "reading": "きず"
+        }
+      ],
+      "reading": "きず",
+      "romaji": "kizu",
+      "meaning": "cut; mark; damage",
+      "firstPassage": 18,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:方法|ほうほう",
+      "japanese": "方法",
+      "japaneseSegments": [
+        {
+          "base": "方法",
+          "reading": "ほうほう"
+        }
+      ],
+      "reading": "ほうほう",
+      "romaji": "hōhō",
+      "meaning": "method; way of doing something",
+      "firstPassage": 19,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:村|むら",
+      "japanese": "村",
+      "japaneseSegments": [
+        {
+          "base": "村",
+          "reading": "むら"
+        }
+      ],
+      "reading": "むら",
+      "romaji": "mura",
+      "meaning": "village",
+      "firstPassage": 24,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:お金|おかね",
+      "japanese": "お金",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "金",
+          "reading": "かね"
+        }
+      ],
+      "reading": "おかね",
+      "romaji": "okane",
+      "meaning": "money",
+      "firstPassage": 24,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:生活|せいかつ",
+      "japanese": "生活",
+      "japaneseSegments": [
+        {
+          "base": "生活",
+          "reading": "せいかつ"
+        }
+      ],
+      "reading": "せいかつ",
+      "romaji": "seikatsu",
+      "meaning": "daily life; making a living",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:心配|しんぱい",
+      "japanese": "心配",
+      "japaneseSegments": [
+        {
+          "base": "心配",
+          "reading": "しんぱい"
+        }
+      ],
+      "reading": "しんぱい",
+      "romaji": "shinpai",
+      "meaning": "worry; concern",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:農業|のうぎょう",
+      "japanese": "農業",
+      "japaneseSegments": [
+        {
+          "base": "農業",
+          "reading": "のうぎょう"
+        }
+      ],
+      "reading": "のうぎょう",
+      "romaji": "nōgyō",
+      "meaning": "agriculture; farming",
+      "firstPassage": 26,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:研究|けんきゅう",
+      "japanese": "研究",
+      "japaneseSegments": [
+        {
+          "base": "研究",
+          "reading": "けんきゅう"
+        }
+      ],
+      "reading": "けんきゅう",
+      "romaji": "kenkyū",
+      "meaning": "research; investigate",
+      "firstPassage": 26,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:顕微鏡|けんびきょう",
+      "japanese": "顕微鏡",
+      "japaneseSegments": [
+        {
+          "base": "顕微鏡",
+          "reading": "けんびきょう"
+        }
+      ],
+      "reading": "けんびきょう",
+      "romaji": "kenbikyō",
+      "meaning": "microscope",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:毎晩|まいばん",
+      "japanese": "毎晩",
+      "japaneseSegments": [
+        {
+          "base": "毎晩",
+          "reading": "まいばん"
+        }
+      ],
+      "reading": "まいばん",
+      "romaji": "maiban",
+      "meaning": "every night",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:棒|ぼう",
+      "japanese": "棒",
+      "japaneseSegments": [
+        {
+          "base": "棒",
+          "reading": "ぼう"
+        }
+      ],
+      "reading": "ぼう",
+      "romaji": "bō",
+      "meaning": "rod; stick",
+      "firstPassage": 27,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:種ごま|たねごま",
+      "japanese": "種ごま",
+      "japaneseSegments": [
+        {
+          "base": "種",
+          "reading": "たね"
+        },
+        {
+          "text": "ごま"
+        }
+      ],
+      "reading": "たねごま",
+      "romaji": "tanegoma",
+      "meaning": "mushroom spawn plug",
+      "firstPassage": 27,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:成功|せいこう",
+      "japanese": "成功",
+      "japaneseSegments": [
+        {
+          "base": "成功",
+          "reading": "せいこう"
+        }
+      ],
+      "reading": "せいこう",
+      "romaji": "seikō",
+      "meaning": "success; succeed",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:優しい|やさしい",
+      "japanese": "優しい",
+      "japaneseSegments": [
+        {
+          "base": "優",
+          "reading": "やさ"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "やさしい",
+      "romaji": "yasashii",
+      "meaning": "kind; gentle",
+      "firstPassage": 28,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:クヌギ|くぬぎ",
+      "japanese": "クヌギ",
+      "japaneseSegments": [
+        {
+          "text": "クヌギ"
+        }
+      ],
+      "reading": "くぬぎ",
+      "romaji": "kunugi",
+      "meaning": "sawtooth oak",
+      "firstPassage": 30,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:コナラ|こなら",
+      "japanese": "コナラ",
+      "japaneseSegments": [
+        {
+          "text": "コナラ"
+        }
+      ],
+      "reading": "こなら",
+      "romaji": "konara",
+      "meaning": "konara oak",
+      "firstPassage": 30,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:乾燥|かんそう",
+      "japanese": "乾燥",
+      "japaneseSegments": [
+        {
+          "base": "乾燥",
+          "reading": "かんそう"
+        }
+      ],
+      "reading": "かんそう",
+      "romaji": "kansō",
+      "meaning": "drying; become dry",
+      "firstPassage": 30,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:腐る|くさる",
+      "japanese": "腐る",
+      "japaneseSegments": [
+        {
+          "base": "腐",
+          "reading": "くさ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "くさる",
+      "romaji": "kusaru",
+      "meaning": "rot; spoil",
+      "firstPassage": 32,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:軽い|かるい",
+      "japanese": "軽い",
+      "japaneseSegments": [
+        {
+          "base": "軽",
+          "reading": "かる"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "かるい",
+      "romaji": "karui",
+      "meaning": "light in weight",
+      "firstPassage": 32,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:カロリー|かろりー",
+      "japanese": "カロリー",
+      "japaneseSegments": [
+        {
+          "text": "カロリー"
+        }
+      ],
+      "reading": "かろりー",
+      "romaji": "karorī",
+      "meaning": "calorie; calorie content",
+      "firstPassage": 34,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:Vてくださる",
+      "pattern": "Vてくださる",
+      "patternSegments": [
+        {
+          "text": "Vてくださる"
+        }
+      ],
+      "explanation": "This pattern respectfully describes someone doing something for the speaker or the speaker's group.",
+      "firstPassage": 2,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "grammar:Nのよう",
+      "pattern": "Nのよう",
+      "patternSegments": [
+        {
+          "text": "Nのよう"
+        }
+      ],
+      "explanation": "This pattern expresses resemblance or comparison: like or similar to something.",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:Vてみる",
+      "pattern": "Vてみる",
+      "patternSegments": [
+        {
+          "text": "Vてみる"
+        }
+      ],
+      "explanation": "This pattern means to try doing something to see what happens.",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:Vたことがある",
+      "pattern": "Vたことがある",
+      "patternSegments": [
+        {
+          "text": "Vたことがある"
+        }
+      ],
+      "explanation": "This pattern describes having experienced an action before. The topic marker can replace the subject marker for emphasis.",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:Vたことがない",
+      "pattern": "Vたことがない",
+      "patternSegments": [
+        {
+          "text": "Vたことがない"
+        }
+      ],
+      "explanation": "This pattern describes never having experienced an action. The topic marker can replace the subject marker.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ので",
+      "pattern": "ので",
+      "patternSegments": [
+        {
+          "text": "ので"
+        }
+      ],
+      "explanation": "This pattern connects a reason or cause with its result.",
+      "firstPassage": 5,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:Vてほしい",
+      "pattern": "Vてほしい",
+      "patternSegments": [
+        {
+          "text": "Vてほしい"
+        }
+      ],
+      "explanation": "This pattern expresses wanting someone else to perform an action.",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:Vてから",
+      "pattern": "Vてから",
+      "patternSegments": [
+        {
+          "text": "Vてから"
+        }
+      ],
+      "explanation": "This pattern means to do the following action after completing the first action.",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:って",
+      "pattern": "って",
+      "patternSegments": [
+        {
+          "text": "って"
+        }
+      ],
+      "explanation": "This pattern casually introduces a topic, often when asking what something is or how it works.",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:だけじゃなくて",
+      "pattern": "だけじゃなくて",
+      "patternSegments": [
+        {
+          "text": "だけじゃなくて"
+        }
+      ],
+      "explanation": "This pattern adds another quality or fact: not only one thing, but also another.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:と",
+      "pattern": "と",
+      "patternSegments": [
+        {
+          "text": "と"
+        }
+      ],
+      "explanation": "This pattern introduces a consequence or discovery following a condition or action: if, when, or upon doing something.",
+      "firstPassage": 8,
+      "occurrenceCount": 12
+    },
+    {
+      "key": "grammar:Vに行く",
+      "pattern": "Vに行く",
+      "patternSegments": [
+        {
+          "text": "Vに"
+        },
+        {
+          "base": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "explanation": "This pattern uses a verb stem to state the purpose of going somewhere.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vことにする",
+      "pattern": "Vことにする",
+      "patternSegments": [
+        {
+          "text": "Vことにする"
+        }
+      ],
+      "explanation": "This pattern expresses deciding to perform an action.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:し",
+      "pattern": "し",
+      "patternSegments": [
+        {
+          "text": "し"
+        }
+      ],
+      "explanation": "This pattern lists qualities or reasons, implying that further reasons may also exist.",
+      "firstPassage": 10,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:そうだ",
+      "pattern": "そうだ",
+      "patternSegments": [
+        {
+          "text": "そうだ"
+        }
+      ],
+      "explanation": "This pattern reports information heard from someone else: apparently or I hear that.",
+      "firstPassage": 10,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:Vことができる",
+      "pattern": "Vことができる",
+      "patternSegments": [
+        {
+          "text": "Vことができる"
+        }
+      ],
+      "explanation": "This pattern expresses ability or possibility. It can be negative, and the topic marker may replace the subject marker.",
+      "firstPassage": 10,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:Nという",
+      "pattern": "Nという",
+      "patternSegments": [
+        {
+          "text": "Nという"
+        }
+      ],
+      "explanation": "This pattern introduces a name or term before describing the person or thing bearing it.",
+      "firstPassage": 12,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:Nとは",
+      "pattern": "Nとは",
+      "patternSegments": [
+        {
+          "text": "Nとは"
+        }
+      ],
+      "explanation": "This pattern introduces a term for explanation or definition.",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:かもしれない",
+      "pattern": "かもしれない",
+      "patternSegments": [
+        {
+          "text": "かもしれない"
+        }
+      ],
+      "explanation": "This pattern expresses uncertainty or possibility: might or perhaps.",
+      "firstPassage": 17,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:Vとおり",
+      "pattern": "Vとおり",
+      "patternSegments": [
+        {
+          "text": "Vとおり"
+        }
+      ],
+      "explanation": "This pattern means exactly as an action, expectation, or description indicates.",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vようになる",
+      "pattern": "Vようになる",
+      "patternSegments": [
+        {
+          "text": "Vようになる"
+        }
+      ],
+      "explanation": "This pattern describes a change into a new habit, ability, or ongoing situation.",
+      "firstPassage": 19,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:によると",
+      "pattern": "によると",
+      "patternSegments": [
+        {
+          "text": "によると"
+        }
+      ],
+      "explanation": "This pattern identifies the source of reported information: according to.",
+      "firstPassage": 20,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V(ら)れる",
+      "pattern": "V(ら)れる",
+      "patternSegments": [
+        {
+          "text": "V(ら)れる"
+        }
+      ],
+      "explanation": "This pattern forms the passive, presenting the subject as receiving an action. Here it describes shiitake being grown.",
+      "firstPassage": 21,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "grammar:Vなければならない",
+      "pattern": "Vなければならない",
+      "patternSegments": [
+        {
+          "text": "Vなければならない"
+        }
+      ],
+      "explanation": "This pattern expresses obligation or necessity: must or have to.",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vてしまう",
+      "pattern": "Vてしまう",
+      "patternSegments": [
+        {
+          "text": "Vてしまう"
+        }
+      ],
+      "explanation": "This pattern can present an action as an unfortunate or unintended outcome.",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vば",
+      "pattern": "Vば",
+      "patternSegments": [
+        {
+          "text": "Vば"
+        }
+      ],
+      "explanation": "This pattern introduces a condition. In the question here, it asks what action would make the desired result possible.",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vやすい",
+      "pattern": "Vやすい",
+      "patternSegments": [
+        {
+          "text": "Vやすい"
+        }
+      ],
+      "explanation": "This pattern attaches to a verb stem to mean that an action is easy to do.",
+      "firstPassage": 26,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:Vために",
+      "pattern": "Vために",
+      "patternSegments": [
+        {
+          "text": "Vために"
+        }
+      ],
+      "explanation": "This pattern states the purpose of an action: in order to do something.",
+      "firstPassage": 26,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:Vことに成功する",
+      "pattern": "Vことに成功する",
+      "patternSegments": [
+        {
+          "text": "Vことに"
+        },
+        {
+          "base": "成功",
+          "reading": "せいこう"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "explanation": "This pattern means to succeed in performing the specified action.",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vてあげる",
+      "pattern": "Vてあげる",
+      "patternSegments": [
+        {
+          "text": "Vてあげる"
+        }
+      ],
+      "explanation": "This pattern presents an action as something done for someone else's benefit.",
+      "firstPassage": 29,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:Vたら",
+      "pattern": "Vたら",
+      "patternSegments": [
+        {
+          "text": "Vたら"
+        }
+      ],
+      "explanation": "This pattern introduces a condition or a completed stage: if, when, or once something happens.",
+      "firstPassage": 31,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:Vておく",
+      "pattern": "Vておく",
+      "patternSegments": [
+        {
+          "text": "Vておく"
+        }
+      ],
+      "explanation": "This pattern means to do something in preparation or leave the resulting arrangement in place.",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Nなら",
+      "pattern": "Nなら",
+      "patternSegments": [
+        {
+          "text": "Nなら"
+        }
+      ],
+      "explanation": "This pattern makes a statement conditional on the specified topic: if it is or when it comes to.",
+      "firstPassage": 32,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vてもらう",
+      "pattern": "Vてもらう",
+      "patternSegments": [
+        {
+          "text": "Vてもらう"
+        }
+      ],
+      "explanation": "This pattern describes having someone perform an action that benefits the speaker. Here it expresses wanting the family to eat the prepared food.",
+      "firstPassage": 33,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vつもり",
+      "pattern": "Vつもり",
+      "patternSegments": [
+        {
+          "text": "Vつもり"
+        }
+      ],
+      "explanation": "This pattern expresses an intention or plan to perform an action.",
+      "firstPassage": 33,
+      "occurrenceCount": 1
+    }
+  ]
+}

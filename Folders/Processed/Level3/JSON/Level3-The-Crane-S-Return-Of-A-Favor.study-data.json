@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:貧乏|びんぼう",
+      "japanese": "貧乏",
+      "japaneseSegments": [
+        {
+          "base": "貧乏",
+          "reading": "びんぼう"
+        }
+      ],
+      "reading": "びんぼう",
+      "romaji": "binbō",
+      "meaning": "poverty; poor",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:怪我|けが",
+      "japanese": "怪我",
+      "japaneseSegments": [
+        {
+          "base": "怪我",
+          "reading": "けが"
+        }
+      ],
+      "reading": "けが",
+      "romaji": "kega",
+      "meaning": "injury; hurt",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:約束|やくそく",
+      "japanese": "約束",
+      "japaneseSegments": [
+        {
+          "base": "約束",
+          "reading": "やくそく"
+        }
+      ],
+      "reading": "やくそく",
+      "romaji": "yakusoku",
+      "meaning": "promise",
+      "firstPassage": 8,
+      "occurrenceCount": 4
+    }
+  ],
+  "grammar": []
+}

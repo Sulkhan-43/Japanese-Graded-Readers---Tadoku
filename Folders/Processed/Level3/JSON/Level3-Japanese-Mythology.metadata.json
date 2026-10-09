@@ -1,0 +1,1283 @@
+{
+  "id": "level3-japanese-mythology",
+  "name": "Japanese Myths",
+  "japaneseTitle": "日本の神話",
+  "slug": "level3-japanese-mythology",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-japanese-mythology/source.pdf",
+  "ocrR2Key": "books/level3-japanese-mythology/source-ocr.txt",
+  "coverR2Key": "books/level3-japanese-mythology/cover.jpg",
+  "htmlR2Key": "books/level3-japanese-mythology/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 2983,
+  "createdAt": "2026-10-09T21:57:14.594Z",
+  "updatedAt": "2026-10-09T21:57:14.594Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:神話|しんわ",
+        "japanese": "神話",
+        "japaneseSegments": [
+          {
+            "base": "神話",
+            "reading": "しんわ"
+          }
+        ],
+        "reading": "しんわ",
+        "romaji": "shinwa",
+        "meaning": "myth; mythology",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:古事記|こじき",
+        "japanese": "古事記",
+        "japaneseSegments": [
+          {
+            "base": "古事記",
+            "reading": "こじき"
+          }
+        ],
+        "reading": "こじき",
+        "romaji": "Kojiki",
+        "meaning": "Record of Ancient Matters; the source collection",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:高天原|たかまがはら",
+        "japanese": "高天原",
+        "japaneseSegments": [
+          {
+            "base": "高天原",
+            "reading": "たかまがはら"
+          }
+        ],
+        "reading": "たかまがはら",
+        "romaji": "Takamagahara",
+        "meaning": "the heavenly realm of the gods",
+        "firstPassage": 2,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:会議|かいぎ",
+        "japanese": "会議",
+        "japaneseSegments": [
+          {
+            "base": "会議",
+            "reading": "かいぎ"
+          }
+        ],
+        "reading": "かいぎ",
+        "romaji": "kaigi",
+        "meaning": "meeting; conference",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:男女|だんじょ",
+        "japanese": "男女",
+        "japaneseSegments": [
+          {
+            "base": "男女",
+            "reading": "だんじょ"
+          }
+        ],
+        "reading": "だんじょ",
+        "romaji": "danjo",
+        "meaning": "men and women; a male and a female",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:矛|ほこ",
+        "japanese": "矛",
+        "japaneseSegments": [
+          {
+            "base": "矛",
+            "reading": "ほこ"
+          }
+        ],
+        "reading": "ほこ",
+        "romaji": "hoko",
+        "meaning": "spear",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:地面|じめん",
+        "japanese": "地面",
+        "japaneseSegments": [
+          {
+            "base": "地面",
+            "reading": "じめん"
+          }
+        ],
+        "reading": "じめん",
+        "romaji": "jimen",
+        "meaning": "ground; surface of the earth",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:結婚|けっこん",
+        "japanese": "結婚",
+        "japaneseSegments": [
+          {
+            "base": "結婚",
+            "reading": "けっこん"
+          }
+        ],
+        "reading": "けっこん",
+        "romaji": "kekkon",
+        "meaning": "marriage; marrying",
+        "firstPassage": 3,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:淡路島|あわじしま",
+        "japanese": "淡路島",
+        "japaneseSegments": [
+          {
+            "base": "淡路島",
+            "reading": "あわじしま"
+          }
+        ],
+        "reading": "あわじしま",
+        "romaji": "Awajishima",
+        "meaning": "Awaji Island",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:四国|しこく",
+        "japanese": "四国",
+        "japaneseSegments": [
+          {
+            "base": "四国",
+            "reading": "しこく"
+          }
+        ],
+        "reading": "しこく",
+        "romaji": "Shikoku",
+        "meaning": "Shikoku, one of Japan's main islands",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:隠岐島|おきのしま",
+        "japanese": "隠岐島",
+        "japaneseSegments": [
+          {
+            "base": "隠岐島",
+            "reading": "おきのしま"
+          }
+        ],
+        "reading": "おきのしま",
+        "romaji": "Okinoshima",
+        "meaning": "Oki Island",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:九州|きゅうしゅう",
+        "japanese": "九州",
+        "japaneseSegments": [
+          {
+            "base": "九州",
+            "reading": "きゅうしゅう"
+          }
+        ],
+        "reading": "きゅうしゅう",
+        "romaji": "Kyūshū",
+        "meaning": "Kyushu, one of Japan's main islands",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:島々|しまじま",
+        "japanese": "島々",
+        "japaneseSegments": [
+          {
+            "base": "島々",
+            "reading": "しまじま"
+          }
+        ],
+        "reading": "しまじま",
+        "romaji": "shimajima",
+        "meaning": "islands; the various islands",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:黄泉|よみ",
+        "japanese": "黄泉",
+        "japaneseSegments": [
+          {
+            "base": "黄泉",
+            "reading": "よみ"
+          }
+        ],
+        "reading": "よみ",
+        "romaji": "Yomi",
+        "meaning": "the land of the dead",
+        "firstPassage": 4,
+        "occurrenceCount": 14
+      },
+      {
+        "key": "vocabulary:入り口|いりぐち",
+        "japanese": "入り口",
+        "japaneseSegments": [
+          {
+            "base": "入",
+            "reading": "い"
+          },
+          {
+            "text": "り"
+          },
+          {
+            "base": "口",
+            "reading": "ぐち"
+          }
+        ],
+        "reading": "いりぐち",
+        "romaji": "iriguchi",
+        "meaning": "entrance",
+        "firstPassage": 4,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:残念|ざんねん",
+        "japanese": "残念",
+        "japaneseSegments": [
+          {
+            "base": "残念",
+            "reading": "ざんねん"
+          }
+        ],
+        "reading": "ざんねん",
+        "romaji": "zannen",
+        "meaning": "regrettable; unfortunate",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:絶対|ぜったい",
+        "japanese": "絶対",
+        "japaneseSegments": [
+          {
+            "base": "絶対",
+            "reading": "ぜったい"
+          }
+        ],
+        "reading": "ぜったい",
+        "romaji": "zettai",
+        "meaning": "absolutely; under any circumstances",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:臭い|くさい",
+        "japanese": "臭い",
+        "japaneseSegments": [
+          {
+            "base": "臭",
+            "reading": "くさ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "くさい",
+        "romaji": "kusai",
+        "meaning": "foul-smelling; stinking",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:鬼|おに",
+        "japanese": "鬼",
+        "japaneseSegments": [
+          {
+            "base": "鬼",
+            "reading": "おに"
+          }
+        ],
+        "reading": "おに",
+        "romaji": "oni",
+        "meaning": "demon; ogre",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:桃|もも",
+        "japanese": "桃",
+        "japaneseSegments": [
+          {
+            "base": "桃",
+            "reading": "もも"
+          }
+        ],
+        "reading": "もも",
+        "romaji": "momo",
+        "meaning": "peach",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:岩|いわ",
+        "japanese": "岩",
+        "japaneseSegments": [
+          {
+            "base": "岩",
+            "reading": "いわ"
+          }
+        ],
+        "reading": "いわ",
+        "romaji": "iwa",
+        "meaning": "rock; boulder",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:天の岩戸|あまのいわと",
+        "japanese": "天の岩戸",
+        "japaneseSegments": [
+          {
+            "base": "天",
+            "reading": "あま"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "base": "岩戸",
+            "reading": "いわと"
+          }
+        ],
+        "reading": "あまのいわと",
+        "romaji": "Ama no Iwato",
+        "meaning": "the Heavenly Rock Door; Amaterasu's cave",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:叱る|しかる",
+        "japanese": "叱る",
+        "japaneseSegments": [
+          {
+            "base": "叱",
+            "reading": "しか"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "しかる",
+        "romaji": "shikaru",
+        "meaning": "to scold",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:田|た",
+        "japanese": "田",
+        "japaneseSegments": [
+          {
+            "base": "田",
+            "reading": "た"
+          }
+        ],
+        "reading": "た",
+        "romaji": "ta",
+        "meaning": "rice paddy",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:畑|はたけ",
+        "japanese": "畑",
+        "japaneseSegments": [
+          {
+            "base": "畑",
+            "reading": "はたけ"
+          }
+        ],
+        "reading": "はたけ",
+        "romaji": "hatake",
+        "meaning": "field for growing crops",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:布|ぬの",
+        "japanese": "布",
+        "japaneseSegments": [
+          {
+            "base": "布",
+            "reading": "ぬの"
+          }
+        ],
+        "reading": "ぬの",
+        "romaji": "nuno",
+        "meaning": "cloth; fabric",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:織る|おる",
+        "japanese": "織る",
+        "japaneseSegments": [
+          {
+            "base": "織",
+            "reading": "お"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "おる",
+        "romaji": "oru",
+        "meaning": "to weave",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:機|はた",
+        "japanese": "機",
+        "japaneseSegments": [
+          {
+            "base": "機",
+            "reading": "はた"
+          }
+        ],
+        "reading": "はた",
+        "romaji": "hata",
+        "meaning": "loom",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:洞窟|どうくつ",
+        "japanese": "洞窟",
+        "japaneseSegments": [
+          {
+            "base": "洞窟",
+            "reading": "どうくつ"
+          }
+        ],
+        "reading": "どうくつ",
+        "romaji": "dōkutsu",
+        "meaning": "cave",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:鶏|にわとり",
+        "japanese": "鶏",
+        "japaneseSegments": [
+          {
+            "base": "鶏",
+            "reading": "にわとり"
+          }
+        ],
+        "reading": "にわとり",
+        "romaji": "niwatori",
+        "meaning": "chicken",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:立派|りっぱ",
+        "japanese": "立派",
+        "japaneseSegments": [
+          {
+            "base": "立派",
+            "reading": "りっぱ"
+          }
+        ],
+        "reading": "りっぱ",
+        "romaji": "rippa",
+        "meaning": "splendid; distinguished; admirable",
+        "firstPassage": 8,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:鏡|かがみ",
+        "japanese": "鏡",
+        "japaneseSegments": [
+          {
+            "base": "鏡",
+            "reading": "かがみ"
+          }
+        ],
+        "reading": "かがみ",
+        "romaji": "kagami",
+        "meaning": "mirror",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:腕|うで",
+        "japanese": "腕",
+        "japaneseSegments": [
+          {
+            "base": "腕",
+            "reading": "うで"
+          }
+        ],
+        "reading": "うで",
+        "romaji": "ude",
+        "meaning": "arm",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:八岐大蛇|やまたのおろち",
+        "japanese": "八岐大蛇",
+        "japaneseSegments": [
+          {
+            "base": "八岐大蛇",
+            "reading": "やまたのおろち"
+          }
+        ],
+        "reading": "やまたのおろち",
+        "romaji": "Yamata no Orochi",
+        "meaning": "the eight-headed giant serpent",
+        "firstPassage": 9,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:葦原中国|あしはらのなかつくに",
+        "japanese": "葦原中国",
+        "japaneseSegments": [
+          {
+            "base": "葦原中国",
+            "reading": "あしはらのなかつくに"
+          }
+        ],
+        "reading": "あしはらのなかつくに",
+        "romaji": "Ashihara no Nakatsukuni",
+        "meaning": "the earthly realm below heaven",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:出雲|いずも",
+        "japanese": "出雲",
+        "japaneseSegments": [
+          {
+            "base": "出雲",
+            "reading": "いずも"
+          }
+        ],
+        "reading": "いずも",
+        "romaji": "Izumo",
+        "meaning": "Izumo, the region where Susanoo descends",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:島根県|しまねけん",
+        "japanese": "島根県",
+        "japaneseSegments": [
+          {
+            "base": "島根県",
+            "reading": "しまねけん"
+          }
+        ],
+        "reading": "しまねけん",
+        "romaji": "Shimane-ken",
+        "meaning": "Shimane Prefecture",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:箸|はし",
+        "japanese": "箸",
+        "japaneseSegments": [
+          {
+            "base": "箸",
+            "reading": "はし"
+          }
+        ],
+        "reading": "はし",
+        "romaji": "hashi",
+        "meaning": "chopsticks",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:流れる|ながれる",
+        "japanese": "流れる",
+        "japaneseSegments": [
+          {
+            "base": "流",
+            "reading": "なが"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "ながれる",
+        "romaji": "nagareru",
+        "meaning": "to flow; to drift along",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:樽|たる",
+        "japanese": "樽",
+        "japaneseSegments": [
+          {
+            "base": "樽",
+            "reading": "たる"
+          }
+        ],
+        "reading": "たる",
+        "romaji": "taru",
+        "meaning": "barrel; cask",
+        "firstPassage": 11,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:酒|さけ",
+        "japanese": "酒",
+        "japaneseSegments": [
+          {
+            "base": "酒",
+            "reading": "さけ"
+          }
+        ],
+        "reading": "さけ",
+        "romaji": "sake",
+        "meaning": "sake; alcoholic drink",
+        "firstPassage": 11,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:酔う|よう",
+        "japanese": "酔う",
+        "japaneseSegments": [
+          {
+            "base": "酔",
+            "reading": "よ"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "よう",
+        "romaji": "you",
+        "meaning": "to become drunk",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:切り落とす|きりおとす",
+        "japanese": "切り落とす",
+        "japaneseSegments": [
+          {
+            "base": "切",
+            "reading": "き"
+          },
+          {
+            "text": "り"
+          },
+          {
+            "base": "落",
+            "reading": "お"
+          },
+          {
+            "text": "とす"
+          }
+        ],
+        "reading": "きりおとす",
+        "romaji": "kiriotosu",
+        "meaning": "to cut off",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:血|ち",
+        "japanese": "血",
+        "japaneseSegments": [
+          {
+            "base": "血",
+            "reading": "ち"
+          }
+        ],
+        "reading": "ち",
+        "romaji": "chi",
+        "meaning": "blood",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:因幡|いなば",
+        "japanese": "因幡",
+        "japaneseSegments": [
+          {
+            "base": "因幡",
+            "reading": "いなば"
+          }
+        ],
+        "reading": "いなば",
+        "romaji": "Inaba",
+        "meaning": "Inaba, the land the rabbit wants to reach",
+        "firstPassage": 12,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:孫|まご",
+        "japanese": "孫",
+        "japaneseSegments": [
+          {
+            "base": "孫",
+            "reading": "まご"
+          }
+        ],
+        "reading": "まご",
+        "romaji": "mago",
+        "meaning": "grandchild",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:大国主|おおくにぬし",
+        "japanese": "大国主",
+        "japaneseSegments": [
+          {
+            "base": "大国主",
+            "reading": "おおくにぬし"
+          }
+        ],
+        "reading": "おおくにぬし",
+        "romaji": "Ōkuninushi",
+        "meaning": "Okuninushi, the god who helps the rabbit",
+        "firstPassage": 12,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:八上姫|やがみひめ",
+        "japanese": "八上姫",
+        "japaneseSegments": [
+          {
+            "base": "八上姫",
+            "reading": "やがみひめ"
+          }
+        ],
+        "reading": "やがみひめ",
+        "romaji": "Yagamihime",
+        "meaning": "Yagamihime, the beautiful woman in Inaba",
+        "firstPassage": 12,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:荷物|にもつ",
+        "japanese": "荷物",
+        "japaneseSegments": [
+          {
+            "base": "荷物",
+            "reading": "にもつ"
+          }
+        ],
+        "reading": "にもつ",
+        "romaji": "nimotsu",
+        "meaning": "luggage; baggage",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:鮫|さめ",
+        "japanese": "鮫",
+        "japaneseSegments": [
+          {
+            "base": "鮫",
+            "reading": "さめ"
+          }
+        ],
+        "reading": "さめ",
+        "romaji": "same",
+        "meaning": "shark",
+        "firstPassage": 13,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:数える|かぞえる",
+        "japanese": "数える",
+        "japaneseSegments": [
+          {
+            "base": "数",
+            "reading": "かぞ"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "かぞえる",
+        "romaji": "kazoeru",
+        "meaning": "to count",
+        "firstPassage": 13,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:嘘|うそ",
+        "japanese": "嘘",
+        "japaneseSegments": [
+          {
+            "base": "嘘",
+            "reading": "うそ"
+          }
+        ],
+        "reading": "うそ",
+        "romaji": "uso",
+        "meaning": "lie; falsehood",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:噛みつく|かみつく",
+        "japanese": "噛みつく",
+        "japaneseSegments": [
+          {
+            "base": "噛",
+            "reading": "か"
+          },
+          {
+            "text": "みつく"
+          }
+        ],
+        "reading": "かみつく",
+        "romaji": "kamitsuku",
+        "meaning": "to bite into; to bite onto",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:蒲|がま",
+        "japanese": "蒲",
+        "japaneseSegments": [
+          {
+            "base": "蒲",
+            "reading": "がま"
+          }
+        ],
+        "reading": "がま",
+        "romaji": "gama",
+        "meaning": "cattail; a waterside plant",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:痛み|いたみ",
+        "japanese": "痛み",
+        "japaneseSegments": [
+          {
+            "base": "痛",
+            "reading": "いた"
+          },
+          {
+            "text": "み"
+          }
+        ],
+        "reading": "いたみ",
+        "romaji": "itami",
+        "meaning": "pain",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:出雲大社|いずもたいしゃ",
+        "japanese": "出雲大社",
+        "japaneseSegments": [
+          {
+            "base": "出雲大社",
+            "reading": "いずもたいしゃ"
+          }
+        ],
+        "reading": "いずもたいしゃ",
+        "romaji": "Izumo Taisha",
+        "meaning": "Izumo Grand Shrine",
+        "firstPassage": 16,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:本殿|ほんでん",
+        "japanese": "本殿",
+        "japaneseSegments": [
+          {
+            "base": "本殿",
+            "reading": "ほんでん"
+          }
+        ],
+        "reading": "ほんでん",
+        "romaji": "honden",
+        "meaning": "main sanctuary of a shrine",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:神社|じんじゃ",
+        "japanese": "神社",
+        "japaneseSegments": [
+          {
+            "base": "神社",
+            "reading": "じんじゃ"
+          }
+        ],
+        "reading": "じんじゃ",
+        "romaji": "jinja",
+        "meaning": "Shinto shrine",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:のよう",
+        "pattern": "のよう",
+        "patternSegments": [
+          {
+            "text": "のよう"
+          }
+        ],
+        "explanation": "After a noun, this pattern expresses resemblance: like or similar to something. It can describe a noun or how something happens.",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:てしまう",
+        "pattern": "てしまう",
+        "patternSegments": [
+          {
+            "text": "てしまう"
+          }
+        ],
+        "explanation": "This pattern marks a completed action or result, often with regret or an unintended outcome.",
+        "firstPassage": 4,
+        "occurrenceCount": 11
+      },
+      {
+        "key": "grammar:ながら",
+        "pattern": "ながら",
+        "patternSegments": [
+          {
+            "text": "ながら"
+          }
+        ],
+        "explanation": "Attached to a verb stem, this pattern means doing one action while doing another.",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:てくれる",
+        "pattern": "てくれる",
+        "patternSegments": [
+          {
+            "text": "てくれる"
+          }
+        ],
+        "explanation": "This pattern presents someone else's action as a favor to the speaker or someone close to the speaker.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:ことができる",
+        "pattern": "ことができる",
+        "patternSegments": [
+          {
+            "text": "ことができる"
+          }
+        ],
+        "explanation": "After a dictionary-form verb, this pattern expresses ability or possibility. The topic particle can replace the subject particle for emphasis.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:てみる",
+        "pattern": "てみる",
+        "patternSegments": [
+          {
+            "text": "てみる"
+          }
+        ],
+        "explanation": "This pattern means trying an action to see what happens.",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:ないでください",
+        "pattern": "ないでください",
+        "patternSegments": [
+          {
+            "text": "ないでください"
+          }
+        ],
+        "explanation": "This pattern politely asks someone not to do something.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:いくら〜ても",
+        "pattern": "いくら〜ても",
+        "patternSegments": [
+          {
+            "text": "いくら〜ても"
+          }
+        ],
+        "explanation": "This pattern means no matter how much or how long an action is done, the stated result remains unchanged.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:なくなる",
+        "pattern": "なくなる",
+        "patternSegments": [
+          {
+            "text": "なくなる"
+          }
+        ],
+        "explanation": "Following a negative verb form, this pattern describes becoming unable to do something or no longer doing it.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:てはいけない",
+        "pattern": "てはいけない",
+        "patternSegments": [
+          {
+            "text": "てはいけない"
+          }
+        ],
+        "explanation": "This pattern expresses a prohibition: an action must not be done.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:のに",
+        "pattern": "のに",
+        "patternSegments": [
+          {
+            "text": "のに"
+          }
+        ],
+        "explanation": "This pattern means although or despite, often highlighting an unexpected or disappointing result.",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:なら",
+        "pattern": "なら",
+        "patternSegments": [
+          {
+            "text": "なら"
+          }
+        ],
+        "explanation": "This pattern introduces a condition based on a proposed action or situation: if that is what happens.",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:ずつ",
+        "pattern": "ずつ",
+        "patternSegments": [
+          {
+            "text": "ずつ"
+          }
+        ],
+        "explanation": "After a quantity, this pattern indicates equal amounts per person, event, or interval, or distribution one at a time.",
+        "firstPassage": 6,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:ようになる",
+        "pattern": "ようになる",
+        "patternSegments": [
+          {
+            "text": "ようになる"
+          }
+        ],
+        "explanation": "After a verb, this pattern describes a change into a new regular situation or behavior.",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:ために",
+        "pattern": "ために",
+        "patternSegments": [
+          {
+            "text": "ために"
+          }
+        ],
+        "explanation": "After a dictionary-form verb, this pattern states the purpose of an action: in order to do something.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:てばかりいる",
+        "pattern": "てばかりいる",
+        "patternSegments": [
+          {
+            "text": "てばかりいる"
+          }
+        ],
+        "explanation": "This pattern describes repeatedly or exclusively doing an action, often with criticism.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:てもいい",
+        "pattern": "てもいい",
+        "patternSegments": [
+          {
+            "text": "てもいい"
+          }
+        ],
+        "explanation": "This pattern gives permission or says that an action is acceptable.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜始める",
+        "pattern": "〜始める",
+        "patternSegments": [
+          {
+            "text": "〜"
+          },
+          {
+            "base": "始",
+            "reading": "はじ"
+          },
+          {
+            "text": "める"
+          }
+        ],
+        "explanation": "Added to a verb stem, this pattern means beginning to perform that action.",
+        "firstPassage": 7,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:〜たり〜たりする",
+        "pattern": "〜たり〜たりする",
+        "patternSegments": [
+          {
+            "text": "〜たり〜たりする"
+          }
+        ],
+        "explanation": "This pattern lists representative actions or states without implying that the list is complete.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:なければならない",
+        "pattern": "なければならない",
+        "patternSegments": [
+          {
+            "text": "なければならない"
+          }
+        ],
+        "explanation": "This pattern expresses necessity or obligation: someone has to do something.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:でしょう",
+        "pattern": "でしょう",
+        "patternSegments": [
+          {
+            "text": "でしょう"
+          }
+        ],
+        "explanation": "This pattern expresses a prediction or a likely outcome.",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:てあげる",
+        "pattern": "てあげる",
+        "patternSegments": [
+          {
+            "text": "てあげる"
+          }
+        ],
+        "explanation": "This pattern presents an action as something done for another person's benefit.",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:〜そう",
+        "pattern": "〜そう",
+        "patternSegments": [
+          {
+            "text": "〜そう"
+          }
+        ],
+        "explanation": "Attached to an adjective stem, this pattern describes an impression based on appearance: something looks or seems a certain way.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:なんて",
+        "pattern": "なんて",
+        "patternSegments": [
+          {
+            "text": "なんて"
+          }
+        ],
+        "explanation": "This pattern singles out an idea with an emotional or dismissive tone; here it dismisses the supposed counting as a lie.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:だけ",
+        "pattern": "だけ",
+        "patternSegments": [
+          {
+            "text": "だけ"
+          }
+        ],
+        "explanation": "This pattern limits a statement to one thing: only or just.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:ではなく",
+        "pattern": "ではなく",
+        "patternSegments": [
+          {
+            "text": "ではなく"
+          }
+        ],
+        "explanation": "This pattern rejects one alternative and connects it to the alternative that applies instead.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:と言われている",
+        "pattern": "と言われている",
+        "patternSegments": [
+          {
+            "text": "と"
+          },
+          {
+            "base": "言",
+            "reading": "い"
+          },
+          {
+            "text": "われている"
+          }
+        ],
+        "explanation": "This pattern reports a generally accepted account or belief: it is said that something is the case.",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "level3-i-grew-tomatoes",
+  "name": "I Grew Tomatoes",
+  "japaneseTitle": "トマトを育てました",
+  "slug": "level3-i-grew-tomatoes",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-i-grew-tomatoes/source.pdf",
+  "ocrR2Key": "books/level3-i-grew-tomatoes/source-ocr.txt",
+  "coverR2Key": "books/level3-i-grew-tomatoes/cover.jpg",
+  "htmlR2Key": "books/level3-i-grew-tomatoes/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 655,
+  "createdAt": "2026-10-09T20:19:30.624Z",
+  "updatedAt": "2026-10-09T20:19:30.624Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:穴|あな",
+        "japanese": "穴",
+        "japaneseSegments": [
+          {
+            "base": "穴",
+            "reading": "あな"
+          }
+        ],
+        "reading": "あな",
+        "romaji": "ana",
+        "meaning": "hole",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:籾殻|もみがら",
+        "japanese": "籾殻",
+        "japaneseSegments": [
+          {
+            "base": "籾殻",
+            "reading": "もみがら"
+          }
+        ],
+        "reading": "もみがら",
+        "romaji": "momigara",
+        "meaning": "rice husks",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:米糠|こめぬか",
+        "japanese": "米糠",
+        "japaneseSegments": [
+          {
+            "base": "米糠",
+            "reading": "こめぬか"
+          }
+        ],
+        "reading": "こめぬか",
+        "romaji": "komenuka",
+        "meaning": "rice bran",
+        "firstPassage": 6,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:温床|おんしょう",
+        "japanese": "温床",
+        "japaneseSegments": [
+          {
+            "base": "温床",
+            "reading": "おんしょう"
+          }
+        ],
+        "reading": "おんしょう",
+        "romaji": "onshō",
+        "meaning": "heated seedbed or hotbed",
+        "firstPassage": 7,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:発酵|はっこう",
+        "japanese": "発酵",
+        "japaneseSegments": [
+          {
+            "base": "発酵",
+            "reading": "はっこう"
+          }
+        ],
+        "reading": "はっこう",
+        "romaji": "hakkō",
+        "meaning": "fermentation",
+        "firstPassage": 7,
+        "occurrenceCount": 5
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:koto ga dekiru",
+        "pattern": "koto ga dekiru",
+        "patternSegments": [
+          {
+            "text": "V dictionary form + koto ga dekiru"
+          }
+        ],
+        "explanation": "This pattern expresses ability or possibility: being able to do something.",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:te shimau",
+        "pattern": "te shimau",
+        "patternSegments": [
+          {
+            "text": "V te-form + shimau"
+          }
+        ],
+        "explanation": "This pattern indicates that an action or change is completed, often with an unwanted or regrettable result in context.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:nakereba naranai",
+        "pattern": "nakereba naranai",
+        "patternSegments": [
+          {
+            "text": "V negative stem + nakereba naranai"
+          }
+        ],
+        "explanation": "This pattern expresses obligation or necessity: must do something.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

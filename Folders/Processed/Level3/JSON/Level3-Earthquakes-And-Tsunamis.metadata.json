@@ -1,0 +1,139 @@
+{
+  "id": "level3-earthquakes-and-tsunamis",
+  "name": "Earthquakes and Tsunamis",
+  "japaneseTitle": "地震と津波",
+  "slug": "level3-earthquakes-and-tsunamis",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-earthquakes-and-tsunamis/source.pdf",
+  "ocrR2Key": "books/level3-earthquakes-and-tsunamis/source-ocr.txt",
+  "coverR2Key": "books/level3-earthquakes-and-tsunamis/cover.jpg",
+  "htmlR2Key": "books/level3-earthquakes-and-tsunamis/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 2922,
+  "createdAt": "2026-10-09T20:13:23.353Z",
+  "updatedAt": "2026-10-09T20:13:23.353Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:地震|じしん",
+        "japanese": "地震",
+        "japaneseSegments": [
+          {
+            "base": "地震",
+            "reading": "じしん"
+          }
+        ],
+        "reading": "じしん",
+        "romaji": "jishin",
+        "meaning": "earthquake",
+        "firstPassage": 1,
+        "occurrenceCount": 53
+      },
+      {
+        "key": "vocabulary:津波|つなみ",
+        "japanese": "津波",
+        "japaneseSegments": [
+          {
+            "base": "津波",
+            "reading": "つなみ"
+          }
+        ],
+        "reading": "つなみ",
+        "romaji": "tsunami",
+        "meaning": "tsunami",
+        "firstPassage": 1,
+        "occurrenceCount": 25
+      },
+      {
+        "key": "vocabulary:被害|ひがい",
+        "japanese": "被害",
+        "japaneseSegments": [
+          {
+            "base": "被害",
+            "reading": "ひがい"
+          }
+        ],
+        "reading": "ひがい",
+        "romaji": "higai",
+        "meaning": "damage; harm",
+        "firstPassage": 3,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "vocabulary:ボランティア|ぼらんてぃあ",
+        "japanese": "ボランティア",
+        "japaneseSegments": [
+          {
+            "text": "ボランティア"
+          }
+        ],
+        "reading": "ぼらんてぃあ",
+        "romaji": "borantia",
+        "meaning": "volunteer",
+        "firstPassage": 4,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:震度|しんど",
+        "japanese": "震度",
+        "japaneseSegments": [
+          {
+            "base": "震度",
+            "reading": "しんど"
+          }
+        ],
+        "reading": "しんど",
+        "romaji": "shindo",
+        "meaning": "seismic intensity",
+        "firstPassage": 5,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:マグニチュード|まぐにちゅーど",
+        "japanese": "マグニチュード",
+        "japaneseSegments": [
+          {
+            "text": "マグニチュード"
+          }
+        ],
+        "reading": "まぐにちゅーど",
+        "romaji": "magunichūdo",
+        "meaning": "magnitude of an earthquake",
+        "firstPassage": 5,
+        "occurrenceCount": 9
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:〜たり〜たりする",
+        "pattern": "〜たり〜たりする",
+        "patternSegments": [
+          {
+            "text": "tari-tari suru"
+          }
+        ],
+        "explanation": "This pattern lists representative actions or events among several possibilities.",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:〜ので",
+        "pattern": "〜ので",
+        "patternSegments": [
+          {
+            "text": "node"
+          }
+        ],
+        "explanation": "This pattern gives a reason or cause for the statement that follows.",
+        "firstPassage": 3,
+        "occurrenceCount": 6
+      }
+    ]
+  }
+}

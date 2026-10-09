@@ -1,0 +1,1017 @@
+{
+  "id": "level3-who-are-these-people-the-story-of-japanese-banknotes",
+  "name": "Who Are These People The Story of Banknotes",
+  "japaneseTitle": "この人だあれ？ ～お札の話～",
+  "slug": "level3-who-are-these-people-the-story-of-japanese-banknotes",
+  "level": "Level 3",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level3-who-are-these-people-the-story-of-japanese-banknotes/source.pdf",
+  "ocrR2Key": "books/level3-who-are-these-people-the-story-of-japanese-banknotes/source-ocr.txt",
+  "coverR2Key": "books/level3-who-are-these-people-the-story-of-japanese-banknotes/cover.jpg",
+  "htmlR2Key": "books/level3-who-are-these-people-the-story-of-japanese-banknotes/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 2968,
+  "createdAt": "2026-10-09T21:47:43.922Z",
+  "updatedAt": "2026-10-09T21:47:43.922Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:技術|ぎじゅつ",
+        "japanese": "技術",
+        "japaneseSegments": [
+          {
+            "base": "技術",
+            "reading": "ぎじゅつ"
+          }
+        ],
+        "reading": "ぎじゅつ",
+        "romaji": "gijutsu",
+        "meaning": "technology; technical skill",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:偽札|にせさつ",
+        "japanese": "偽札",
+        "japaneseSegments": [
+          {
+            "base": "偽札",
+            "reading": "にせさつ"
+          }
+        ],
+        "reading": "にせさつ",
+        "romaji": "nisesatsu",
+        "meaning": "counterfeit banknote",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:医学者|いがくしゃ",
+        "japanese": "医学者",
+        "japaneseSegments": [
+          {
+            "base": "医学者",
+            "reading": "いがくしゃ"
+          }
+        ],
+        "reading": "いがくしゃ",
+        "romaji": "igakusha",
+        "meaning": "medical scientist",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:貧乏|びんぼう",
+        "japanese": "貧乏",
+        "japaneseSegments": [
+          {
+            "base": "貧乏",
+            "reading": "びんぼう"
+          }
+        ],
+        "reading": "びんぼう",
+        "romaji": "binbō",
+        "meaning": "poverty; being poor",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:いろり|いろり",
+        "japanese": "いろり",
+        "japaneseSegments": [
+          {
+            "text": "いろり"
+          }
+        ],
+        "reading": "いろり",
+        "romaji": "irori",
+        "meaning": "traditional sunken hearth",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:成績|せいせき",
+        "japanese": "成績",
+        "japaneseSegments": [
+          {
+            "base": "成績",
+            "reading": "せいせき"
+          }
+        ],
+        "reading": "せいせき",
+        "romaji": "seiseki",
+        "meaning": "grades; academic results",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:高等小学校|こうとうしょうがっこう",
+        "japanese": "高等小学校",
+        "japaneseSegments": [
+          {
+            "base": "高等小学校",
+            "reading": "こうとうしょうがっこう"
+          }
+        ],
+        "reading": "こうとうしょうがっこう",
+        "romaji": "kōtō shōgakkō",
+        "meaning": "historical higher elementary school",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:手術|しゅじゅつ",
+        "japanese": "手術",
+        "japaneseSegments": [
+          {
+            "base": "手術",
+            "reading": "しゅじゅつ"
+          }
+        ],
+        "reading": "しゅじゅつ",
+        "romaji": "shujutsu",
+        "meaning": "surgery; operation",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:校長|こうちょう",
+        "japanese": "校長",
+        "japaneseSegments": [
+          {
+            "base": "校長",
+            "reading": "こうちょう"
+          }
+        ],
+        "reading": "こうちょう",
+        "romaji": "kōchō",
+        "meaning": "school principal",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:外国語|がいこくご",
+        "japanese": "外国語",
+        "japaneseSegments": [
+          {
+            "base": "外国語",
+            "reading": "がいこくご"
+          }
+        ],
+        "reading": "がいこくご",
+        "romaji": "gaikokugo",
+        "meaning": "foreign language",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:合格|ごうかく",
+        "japanese": "合格",
+        "japaneseSegments": [
+          {
+            "base": "合格",
+            "reading": "ごうかく"
+          }
+        ],
+        "reading": "ごうかく",
+        "romaji": "gōkaku",
+        "meaning": "passing an examination",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:細菌|さいきん",
+        "japanese": "細菌",
+        "japaneseSegments": [
+          {
+            "base": "細菌",
+            "reading": "さいきん"
+          }
+        ],
+        "reading": "さいきん",
+        "romaji": "saikin",
+        "meaning": "bacteria",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:生物|せいぶつ",
+        "japanese": "生物",
+        "japaneseSegments": [
+          {
+            "base": "生物",
+            "reading": "せいぶつ"
+          }
+        ],
+        "reading": "せいぶつ",
+        "romaji": "seibutsu",
+        "meaning": "living organism",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:伝染病研究所|でんせんびょうけんきゅうじょ",
+        "japanese": "伝染病研究所",
+        "japaneseSegments": [
+          {
+            "base": "伝染病研究所",
+            "reading": "でんせんびょうけんきゅうじょ"
+          }
+        ],
+        "reading": "でんせんびょうけんきゅうじょ",
+        "romaji": "Densenbyō Kenkyūjo",
+        "meaning": "Institute for Infectious Diseases",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:研究室|けんきゅうしつ",
+        "japanese": "研究室",
+        "japaneseSegments": [
+          {
+            "base": "研究室",
+            "reading": "けんきゅうしつ"
+          }
+        ],
+        "reading": "けんきゅうしつ",
+        "romaji": "kenkyūshitsu",
+        "meaning": "laboratory; research room",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:博士|はくし",
+        "japanese": "博士",
+        "japaneseSegments": [
+          {
+            "base": "博士",
+            "reading": "はくし"
+          }
+        ],
+        "reading": "はくし",
+        "romaji": "hakushi",
+        "meaning": "holder of a doctorate",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:黄熱病|おうねつびょう",
+        "japanese": "黄熱病",
+        "japaneseSegments": [
+          {
+            "base": "黄熱病",
+            "reading": "おうねつびょう"
+          }
+        ],
+        "reading": "おうねつびょう",
+        "romaji": "ōnetsubyō",
+        "meaning": "yellow fever",
+        "firstPassage": 6,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:墓|はか",
+        "japanese": "墓",
+        "japaneseSegments": [
+          {
+            "base": "墓",
+            "reading": "はか"
+          }
+        ],
+        "reading": "はか",
+        "romaji": "haka",
+        "meaning": "grave; tomb",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:女性|じょせい",
+        "japanese": "女性",
+        "japaneseSegments": [
+          {
+            "base": "女性",
+            "reading": "じょせい"
+          }
+        ],
+        "reading": "じょせい",
+        "romaji": "josei",
+        "meaning": "woman; female",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:小説家|しょうせつか",
+        "japanese": "小説家",
+        "japaneseSegments": [
+          {
+            "base": "小説家",
+            "reading": "しょうせつか"
+          }
+        ],
+        "reading": "しょうせつか",
+        "romaji": "shōsetsuka",
+        "meaning": "novelist; fiction writer",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:政治家|せいじか",
+        "japanese": "政治家",
+        "japaneseSegments": [
+          {
+            "base": "政治家",
+            "reading": "せいじか"
+          }
+        ],
+        "reading": "せいじか",
+        "romaji": "seijika",
+        "meaning": "politician",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:男性|だんせい",
+        "japanese": "男性",
+        "japaneseSegments": [
+          {
+            "base": "男性",
+            "reading": "だんせい"
+          }
+        ],
+        "reading": "だんせい",
+        "romaji": "dansei",
+        "meaning": "man; male",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:短歌|たんか",
+        "japanese": "短歌",
+        "japaneseSegments": [
+          {
+            "base": "短歌",
+            "reading": "たんか"
+          }
+        ],
+        "reading": "たんか",
+        "romaji": "tanka",
+        "meaning": "Japanese poem with thirty-one syllabic units",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:詩|し",
+        "japanese": "詩",
+        "japaneseSegments": [
+          {
+            "base": "詩",
+            "reading": "し"
+          }
+        ],
+        "reading": "し",
+        "romaji": "shi",
+        "meaning": "poem; poetry",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:初恋|はつこい",
+        "japanese": "初恋",
+        "japaneseSegments": [
+          {
+            "base": "初恋",
+            "reading": "はつこい"
+          }
+        ],
+        "reading": "はつこい",
+        "romaji": "hatsukoi",
+        "meaning": "first love",
+        "firstPassage": 8,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:芸者|げいしゃ",
+        "japanese": "芸者",
+        "japaneseSegments": [
+          {
+            "base": "芸者",
+            "reading": "げいしゃ"
+          }
+        ],
+        "reading": "げいしゃ",
+        "romaji": "geisha",
+        "meaning": "professional entertainer trained in traditional arts",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:僧|そう",
+        "japanese": "僧",
+        "japaneseSegments": [
+          {
+            "base": "僧",
+            "reading": "そう"
+          }
+        ],
+        "reading": "そう",
+        "romaji": "sō",
+        "meaning": "Buddhist monk",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:両親|りょうしん",
+        "japanese": "両親",
+        "japaneseSegments": [
+          {
+            "base": "両親",
+            "reading": "りょうしん"
+          }
+        ],
+        "reading": "りょうしん",
+        "romaji": "ryōshin",
+        "meaning": "parents",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:人生|じんせい",
+        "japanese": "人生",
+        "japaneseSegments": [
+          {
+            "base": "人生",
+            "reading": "じんせい"
+          }
+        ],
+        "reading": "じんせい",
+        "romaji": "jinsei",
+        "meaning": "a person's life",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:雑誌|ざっし",
+        "japanese": "雑誌",
+        "japaneseSegments": [
+          {
+            "base": "雑誌",
+            "reading": "ざっし"
+          }
+        ],
+        "reading": "ざっし",
+        "romaji": "zasshi",
+        "meaning": "magazine",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:次々|つぎつぎ",
+        "japanese": "次々",
+        "japaneseSegments": [
+          {
+            "base": "次々",
+            "reading": "つぎつぎ"
+          }
+        ],
+        "reading": "つぎつぎ",
+        "romaji": "tsugitsugi",
+        "meaning": "one after another",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:結婚|けっこん",
+        "japanese": "結婚",
+        "japaneseSegments": [
+          {
+            "base": "結婚",
+            "reading": "けっこん"
+          }
+        ],
+        "reading": "けっこん",
+        "romaji": "kekkon",
+        "meaning": "marriage; getting married",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:身分制度|みぶんせいど",
+        "japanese": "身分制度",
+        "japaneseSegments": [
+          {
+            "base": "身分制度",
+            "reading": "みぶんせいど"
+          }
+        ],
+        "reading": "みぶんせいど",
+        "romaji": "mibun seido",
+        "meaning": "system of hereditary social ranks",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:奥平|おくだいら",
+        "japanese": "奥平",
+        "japaneseSegments": [
+          {
+            "base": "奥平",
+            "reading": "おくだいら"
+          }
+        ],
+        "reading": "おくだいら",
+        "romaji": "Okudaira",
+        "meaning": "the lord's family name",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:便所|べんじょ",
+        "japanese": "便所",
+        "japaneseSegments": [
+          {
+            "base": "便所",
+            "reading": "べんじょ"
+          }
+        ],
+        "reading": "べんじょ",
+        "romaji": "benjo",
+        "meaning": "toilet; lavatory",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:清|しん",
+        "japanese": "清",
+        "japaneseSegments": [
+          {
+            "base": "清",
+            "reading": "しん"
+          }
+        ],
+        "reading": "しん",
+        "romaji": "Shin",
+        "meaning": "Qing China",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:貿易|ぼうえき",
+        "japanese": "貿易",
+        "japaneseSegments": [
+          {
+            "base": "貿易",
+            "reading": "ぼうえき"
+          }
+        ],
+        "reading": "ぼうえき",
+        "romaji": "bōeki",
+        "meaning": "international trade",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:塾|じゅく",
+        "japanese": "塾",
+        "japaneseSegments": [
+          {
+            "base": "塾",
+            "reading": "じゅく"
+          }
+        ],
+        "reading": "じゅく",
+        "romaji": "juku",
+        "meaning": "private school; here, a historical academy",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:男尊女卑|だんそんじょひ",
+        "japanese": "男尊女卑",
+        "japaneseSegments": [
+          {
+            "base": "男尊女卑",
+            "reading": "だんそんじょひ"
+          }
+        ],
+        "reading": "だんそんじょひ",
+        "romaji": "danson johi",
+        "meaning": "belief in male superiority and female inferiority",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:尊皇攘夷|そんのうじょうい",
+        "japanese": "尊皇攘夷",
+        "japaneseSegments": [
+          {
+            "base": "尊皇攘夷",
+            "reading": "そんのうじょうい"
+          }
+        ],
+        "reading": "そんのうじょうい",
+        "romaji": "sonnō jōi",
+        "meaning": "revere the emperor and expel foreigners",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:天皇|てんのう",
+        "japanese": "天皇",
+        "japaneseSegments": [
+          {
+            "base": "天皇",
+            "reading": "てんのう"
+          }
+        ],
+        "reading": "てんのう",
+        "romaji": "tennō",
+        "meaning": "Japanese emperor",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:地球|ちきゅう",
+        "japanese": "地球",
+        "japaneseSegments": [
+          {
+            "base": "地球",
+            "reading": "ちきゅう"
+          }
+        ],
+        "reading": "ちきゅう",
+        "romaji": "chikyū",
+        "meaning": "Earth; the globe",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:電柱|でんちゅう",
+        "japanese": "電柱",
+        "japaneseSegments": [
+          {
+            "base": "電柱",
+            "reading": "でんちゅう"
+          }
+        ],
+        "reading": "でんちゅう",
+        "romaji": "denchū",
+        "meaning": "utility pole; telegraph pole",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:塔|とう",
+        "japanese": "塔",
+        "japaneseSegments": [
+          {
+            "base": "塔",
+            "reading": "とう"
+          }
+        ],
+        "reading": "とう",
+        "romaji": "tō",
+        "meaning": "tower",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:気球|ききゅう",
+        "japanese": "気球",
+        "japaneseSegments": [
+          {
+            "base": "気球",
+            "reading": "ききゅう"
+          }
+        ],
+        "reading": "ききゅう",
+        "romaji": "kikyū",
+        "meaning": "balloon used for flight",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:汽車|きしゃ",
+        "japanese": "汽車",
+        "japaneseSegments": [
+          {
+            "base": "汽車",
+            "reading": "きしゃ"
+          }
+        ],
+        "reading": "きしゃ",
+        "romaji": "kisha",
+        "meaning": "steam train; train",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:汽船|きせん",
+        "japanese": "汽船",
+        "japaneseSegments": [
+          {
+            "base": "汽船",
+            "reading": "きせん"
+          }
+        ],
+        "reading": "きせん",
+        "romaji": "kisen",
+        "meaning": "steamship",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:四海一家五族兄弟|しかいいっかごぞくけいてい",
+        "japanese": "四海一家五族兄弟",
+        "japaneseSegments": [
+          {
+            "base": "四海一家五族兄弟",
+            "reading": "しかいいっかごぞくけいてい"
+          }
+        ],
+        "reading": "しかいいっかごぞくけいてい",
+        "romaji": "shikai ikka gozoku keitei",
+        "meaning": "the whole world is one family, and the five peoples are brothers",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:江戸時代|えどじだい",
+        "japanese": "江戸時代",
+        "japaneseSegments": [
+          {
+            "base": "江戸時代",
+            "reading": "えどじだい"
+          }
+        ],
+        "reading": "えどじだい",
+        "romaji": "Edo jidai",
+        "meaning": "Edo period",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:明治時代|めいじじだい",
+        "japanese": "明治時代",
+        "japaneseSegments": [
+          {
+            "base": "明治時代",
+            "reading": "めいじじだい"
+          }
+        ],
+        "reading": "めいじじだい",
+        "romaji": "Meiji jidai",
+        "meaning": "Meiji period",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:独立自尊|どくりつじそん",
+        "japanese": "独立自尊",
+        "japaneseSegments": [
+          {
+            "base": "独立自尊",
+            "reading": "どくりつじそん"
+          }
+        ],
+        "reading": "どくりつじそん",
+        "romaji": "dokuritsu jison",
+        "meaning": "independence and self-respect",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:独立|どくりつ",
+        "japanese": "独立",
+        "japaneseSegments": [
+          {
+            "base": "独立",
+            "reading": "どくりつ"
+          }
+        ],
+        "reading": "どくりつ",
+        "romaji": "dokuritsu",
+        "meaning": "independence; self-reliance",
+        "firstPassage": 13,
+        "occurrenceCount": 3
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:verb stem + nagara",
+        "pattern": "verb stem + nagara",
+        "patternSegments": [
+          {
+            "text": "～ながら"
+          }
+        ],
+        "explanation": "This pattern links two simultaneous actions performed by the same person; the main action comes last.",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:negative stem + nakereba naranai",
+        "pattern": "negative stem + nakereba naranai",
+        "patternSegments": [
+          {
+            "text": "～なければならない"
+          }
+        ],
+        "explanation": "This pattern expresses an obligation or necessity: someone must do something.",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:age + to iu wakasa de",
+        "pattern": "age + to iu wakasa de",
+        "patternSegments": [
+          {
+            "text": "～という"
+          },
+          {
+            "base": "若",
+            "reading": "わか"
+          },
+          {
+            "text": "さで"
+          }
+        ],
+        "explanation": "This pattern emphasizes that something happened at a surprisingly young age.",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:verb + you ni naru",
+        "pattern": "verb + you ni naru",
+        "patternSegments": [
+          {
+            "text": "～ようになる"
+          }
+        ],
+        "explanation": "This pattern describes a change in ability or a new habitual situation: becoming able to do something or beginning to do it regularly.",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:noun + bakari",
+        "pattern": "noun + bakari",
+        "patternSegments": [
+          {
+            "text": "～ばかり"
+          }
+        ],
+        "explanation": "This pattern means only or nothing but, emphasizing a limited or repeated focus.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:naze nara ... kara da",
+        "pattern": "naze nara ... kara da",
+        "patternSegments": [
+          {
+            "text": "なぜなら～からだ"
+          }
+        ],
+        "explanation": "This pattern explicitly introduces the reason for the preceding statement.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:past verb + koto ga aru / nai",
+        "pattern": "past verb + koto ga aru / nai",
+        "patternSegments": [
+          {
+            "text": "～たことがある／ない"
+          }
+        ],
+        "explanation": "This pattern describes whether someone has ever had an experience; its negative form means never having done it.",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:shika + negative predicate",
+        "pattern": "shika + negative predicate",
+        "patternSegments": [
+          {
+            "text": "～しか～ない"
+          }
+        ],
+        "explanation": "This pattern means only, presenting the amount or extent as limited, and requires a negative predicate.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:noun + to iu no wa",
+        "pattern": "noun + to iu no wa",
+        "patternSegments": [
+          {
+            "text": "～というのは"
+          }
+        ],
+        "explanation": "This pattern introduces a term as the topic of a definition or explanation.",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:verb + tari ... verb + tari suru",
+        "pattern": "verb + tari ... verb + tari suru",
+        "patternSegments": [
+          {
+            "text": "～たり～たりする"
+          }
+        ],
+        "explanation": "This pattern lists representative actions without implying that the list is exhaustive.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:past verb + mama",
+        "pattern": "past verb + mama",
+        "patternSegments": [
+          {
+            "text": "～たまま"
+          }
+        ],
+        "explanation": "This pattern indicates that a resulting state remains unchanged while another action occurs.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:plain clause + you da",
+        "pattern": "plain clause + you da",
+        "patternSegments": [
+          {
+            "text": "～ようだ"
+          }
+        ],
+        "explanation": "This pattern presents an inference based on available evidence, meaning that something seems to be the case.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb te-form + wa ikenai",
+        "pattern": "verb te-form + wa ikenai",
+        "patternSegments": [
+          {
+            "text": "～てはいけない"
+          }
+        ],
+        "explanation": "This pattern expresses prohibition: an action is not allowed.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb te-form + miru",
+        "pattern": "verb te-form + miru",
+        "patternSegments": [
+          {
+            "text": "～てみる"
+          }
+        ],
+        "explanation": "This pattern means trying an action to discover what happens or what it is like.",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:donna ni ... te mo",
+        "pattern": "donna ni ... te mo",
+        "patternSegments": [
+          {
+            "text": "どんなに～ても"
+          }
+        ],
+        "explanation": "This pattern means no matter how much, showing that even a great degree of effort does not change the result.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:clause + koto ni naru",
+        "pattern": "clause + koto ni naru",
+        "patternSegments": [
+          {
+            "text": "～ことになる"
+          }
+        ],
+        "explanation": "This pattern states a logical consequence or conclusion; here it means that a figure amounts to a particular proportion of readers.",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb negative stem + zu",
+        "pattern": "verb negative stem + zu",
+        "patternSegments": [
+          {
+            "text": "～ず"
+          }
+        ],
+        "explanation": "This pattern is a literary negative ending equivalent to the usual modern negative form; it appears twice in the quotation.",
+        "firstPassage": 13,
+        "occurrenceCount": 2
+      }
+    ]
+  }
+}
