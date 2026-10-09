@@ -15,7 +15,9 @@ const maxPdfBytes = Number(process.env.MAX_PDF_SIZE_MB || 50) * 1024 * 1024;
 const codexProvider = process.argv.includes('--codex') || process.env.PDF_AI_PROVIDER === 'codex';
 const codexModel = process.env.CODEX_MODEL || 'gpt-6-luna';
 const codexReasoning = process.env.CODEX_REASONING_EFFORT || 'xhigh';
-const concurrency = codexProvider ? 1 : Math.max(1, Math.min(3, Number(process.env.MAX_CONCURRENT_PAGES || 2)));
+const concurrency = codexProvider
+  ? Math.max(1, Math.min(2, Number(process.env.MAX_CONCURRENT_CODEX || 1)))
+  : Math.max(1, Math.min(3, Number(process.env.MAX_CONCURRENT_PAGES || 2)));
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith('--limit='))?.split('=')[1] || 0);
 const sourceDirectoryArg = process.argv.find((arg) => arg.startsWith('--source-dir='))?.slice('--source-dir='.length);
 const ocrDirectoryArg = process.argv.find((arg) => arg.startsWith('--ocr-dir='))?.slice('--ocr-dir='.length);
@@ -356,7 +358,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
   await mkdir(responseDirectory, { recursive: true });
   await mkdir(codexWorkingDirectory, { recursive: true });
   const responsePath = path.join(responseDirectory, `${hash}.json`);
-  const schemaPath = path.join(responseDirectory, 'study-data.schema.json');
+  const schemaPath = path.join(responseDirectory, `${hash}.study-data.schema.json`);
   const segmentSchema = {
     anyOf: [
       { type: 'object', properties: { base: { type: 'string' }, reading: { type: 'string' } }, required: ['base', 'reading'], additionalProperties: false },
