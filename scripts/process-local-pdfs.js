@@ -64,7 +64,7 @@ function validateSegments(segments, context) {
   if (!Array.isArray(segments)) throw new Error(`${context}: furigana segments are missing.`);
   for (const segment of segments) {
     if (typeof segment.text === 'string') {
-      if (/[\u3400-\u4dbf\u4e00-\u9fff々〆ヶ]/u.test(segment.text)) {
+      if (/\p{Script=Han}/u.test(segment.text)) {
         throw new Error(`${context}: a text segment contains kanji without furigana.`);
       }
     } else if (typeof segment.base === 'string' && typeof segment.reading === 'string' && segment.reading) {
