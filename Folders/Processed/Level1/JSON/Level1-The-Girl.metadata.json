@@ -1,0 +1,807 @@
+{
+  "id": "level1-the-girl",
+  "name": "The Girl",
+  "japaneseTitle": "女の子",
+  "slug": "level1-the-girl",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-the-girl/source.pdf",
+  "ocrR2Key": "books/level1-the-girl/source-ocr.txt",
+  "coverR2Key": "books/level1-the-girl/cover.jpg",
+  "htmlR2Key": "books/level1-the-girl/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 227,
+  "createdAt": "2026-10-09T14:55:37.828Z",
+  "updatedAt": "2026-10-09T14:55:37.828Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:女の子|おんなのこ",
+        "japanese": "女の子",
+        "japaneseSegments": [
+          {
+            "base": "女",
+            "reading": "おんな"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "base": "子",
+            "reading": "こ"
+          }
+        ],
+        "reading": "おんなのこ",
+        "romaji": "onna no ko",
+        "meaning": "girl",
+        "firstPassage": 1,
+        "occurrenceCount": 16
+      },
+      {
+        "key": "vocabulary:大きい|おおきい",
+        "japanese": "大きい",
+        "japaneseSegments": [
+          {
+            "base": "大",
+            "reading": "おお"
+          },
+          {
+            "text": "きい"
+          }
+        ],
+        "reading": "おおきい",
+        "romaji": "ōkii",
+        "meaning": "big; large",
+        "firstPassage": 1,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:家|いえ",
+        "japanese": "家",
+        "japaneseSegments": [
+          {
+            "base": "家",
+            "reading": "いえ"
+          }
+        ],
+        "reading": "いえ",
+        "romaji": "ie",
+        "meaning": "house; home",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:ある|ある",
+        "japanese": "ある",
+        "japaneseSegments": [
+          {
+            "text": "ある"
+          }
+        ],
+        "reading": "ある",
+        "romaji": "aru",
+        "meaning": "to exist; to be (for things)",
+        "firstPassage": 1,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:部屋|へや",
+        "japanese": "部屋",
+        "japaneseSegments": [
+          {
+            "base": "部屋",
+            "reading": "へや"
+          }
+        ],
+        "reading": "へや",
+        "romaji": "heya",
+        "meaning": "room",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:絵本|えほん",
+        "japanese": "絵本",
+        "japaneseSegments": [
+          {
+            "base": "絵本",
+            "reading": "えほん"
+          }
+        ],
+        "reading": "えほん",
+        "romaji": "ehon",
+        "meaning": "picture book",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ピアノ|ぴあの",
+        "japanese": "ピアノ",
+        "japaneseSegments": [
+          {
+            "text": "ピアノ"
+          }
+        ],
+        "reading": "ぴあの",
+        "romaji": "piano",
+        "meaning": "piano",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:テレビ|てれび",
+        "japanese": "テレビ",
+        "japaneseSegments": [
+          {
+            "text": "テレビ"
+          }
+        ],
+        "reading": "てれび",
+        "romaji": "terebi",
+        "meaning": "television; TV",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:人形|にんぎょう",
+        "japanese": "人形",
+        "japaneseSegments": [
+          {
+            "base": "人形",
+            "reading": "にんぎょう"
+          }
+        ],
+        "reading": "にんぎょう",
+        "romaji": "ningyō",
+        "meaning": "doll",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:一つ|ひとつ",
+        "japanese": "一つ",
+        "japaneseSegments": [
+          {
+            "base": "一",
+            "reading": "ひと"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "ひとつ",
+        "romaji": "hitotsu",
+        "meaning": "one thing",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:言葉|ことば",
+        "japanese": "言葉",
+        "japaneseSegments": [
+          {
+            "base": "言葉",
+            "reading": "ことば"
+          }
+        ],
+        "reading": "ことば",
+        "romaji": "kotoba",
+        "meaning": "word; language",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:言う|いう",
+        "japanese": "言う",
+        "japaneseSegments": [
+          {
+            "base": "言",
+            "reading": "い"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "いう",
+        "romaji": "iu",
+        "meaning": "to say; to tell",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:笑う|わらう",
+        "japanese": "笑う",
+        "japaneseSegments": [
+          {
+            "base": "笑",
+            "reading": "わら"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "わらう",
+        "romaji": "warau",
+        "meaning": "to smile; to laugh",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:いる|いる",
+        "japanese": "いる",
+        "japaneseSegments": [
+          {
+            "text": "いる"
+          }
+        ],
+        "reading": "いる",
+        "romaji": "iru",
+        "meaning": "to exist; to be (for people and animals)",
+        "firstPassage": 2,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:お父さん|おとうさん",
+        "japanese": "お父さん",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "父",
+            "reading": "とう"
+          },
+          {
+            "text": "さん"
+          }
+        ],
+        "reading": "おとうさん",
+        "romaji": "otōsan",
+        "meaning": "father; dad",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:お母さん|おかあさん",
+        "japanese": "お母さん",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "母",
+            "reading": "かあ"
+          },
+          {
+            "text": "さん"
+          }
+        ],
+        "reading": "おかあさん",
+        "romaji": "okāsan",
+        "meaning": "mother; mom",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:一人|ひとり",
+        "japanese": "一人",
+        "japaneseSegments": [
+          {
+            "base": "一人",
+            "reading": "ひとり"
+          }
+        ],
+        "reading": "ひとり",
+        "romaji": "hitori",
+        "meaning": "alone; one person",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:隣|となり",
+        "japanese": "隣",
+        "japaneseSegments": [
+          {
+            "base": "隣",
+            "reading": "となり"
+          }
+        ],
+        "reading": "となり",
+        "romaji": "tonari",
+        "meaning": "next door; next to",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:声|こえ",
+        "japanese": "声",
+        "japaneseSegments": [
+          {
+            "base": "声",
+            "reading": "こえ"
+          }
+        ],
+        "reading": "こえ",
+        "romaji": "koe",
+        "meaning": "voice",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ドア|どあ",
+        "japanese": "ドア",
+        "japaneseSegments": [
+          {
+            "text": "ドア"
+          }
+        ],
+        "reading": "どあ",
+        "romaji": "doa",
+        "meaning": "door",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:音|おと",
+        "japanese": "音",
+        "japaneseSegments": [
+          {
+            "base": "音",
+            "reading": "おと"
+          }
+        ],
+        "reading": "おと",
+        "romaji": "oto",
+        "meaning": "sound",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:古い|ふるい",
+        "japanese": "古い",
+        "japaneseSegments": [
+          {
+            "base": "古",
+            "reading": "ふる"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "ふるい",
+        "romaji": "furui",
+        "meaning": "old",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:アパート|あぱーと",
+        "japanese": "アパート",
+        "japaneseSegments": [
+          {
+            "text": "アパート"
+          }
+        ],
+        "reading": "あぱーと",
+        "romaji": "apāto",
+        "meaning": "apartment building; apartment",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:毎日|まいにち",
+        "japanese": "毎日",
+        "japaneseSegments": [
+          {
+            "base": "毎日",
+            "reading": "まいにち"
+          }
+        ],
+        "reading": "まいにち",
+        "romaji": "mainichi",
+        "meaning": "every day",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:窓|まど",
+        "japanese": "窓",
+        "japaneseSegments": [
+          {
+            "base": "窓",
+            "reading": "まど"
+          }
+        ],
+        "reading": "まど",
+        "romaji": "mado",
+        "meaning": "window",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:外|そと",
+        "japanese": "外",
+        "japaneseSegments": [
+          {
+            "base": "外",
+            "reading": "そと"
+          }
+        ],
+        "reading": "そと",
+        "romaji": "soto",
+        "meaning": "outside",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:自転車|じてんしゃ",
+        "japanese": "自転車",
+        "japaneseSegments": [
+          {
+            "base": "自転車",
+            "reading": "じてんしゃ"
+          }
+        ],
+        "reading": "じてんしゃ",
+        "romaji": "jitensha",
+        "meaning": "bicycle",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:走る|はしる",
+        "japanese": "走る",
+        "japaneseSegments": [
+          {
+            "base": "走",
+            "reading": "はし"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "はしる",
+        "romaji": "hashiru",
+        "meaning": "to run; to travel along",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:バイク|ばいく",
+        "japanese": "バイク",
+        "japaneseSegments": [
+          {
+            "text": "バイク"
+          }
+        ],
+        "reading": "ばいく",
+        "romaji": "baiku",
+        "meaning": "motorcycle",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おじいさん|おじいさん",
+        "japanese": "おじいさん",
+        "japaneseSegments": [
+          {
+            "text": "おじいさん"
+          }
+        ],
+        "reading": "おじいさん",
+        "romaji": "ojiisan",
+        "meaning": "old man; grandfather",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おばあさん|おばあさん",
+        "japanese": "おばあさん",
+        "japaneseSegments": [
+          {
+            "text": "おばあさん"
+          }
+        ],
+        "reading": "おばあさん",
+        "romaji": "obāsan",
+        "meaning": "old woman; grandmother",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:子ども|こども",
+        "japanese": "子ども",
+        "japaneseSegments": [
+          {
+            "base": "子",
+            "reading": "こ"
+          },
+          {
+            "text": "ども"
+          }
+        ],
+        "reading": "こども",
+        "romaji": "kodomo",
+        "meaning": "child",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:猫|ねこ",
+        "japanese": "猫",
+        "japaneseSegments": [
+          {
+            "base": "猫",
+            "reading": "ねこ"
+          }
+        ],
+        "reading": "ねこ",
+        "romaji": "neko",
+        "meaning": "cat",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:男の子|おとこのこ",
+        "japanese": "男の子",
+        "japaneseSegments": [
+          {
+            "base": "男",
+            "reading": "おとこ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "base": "子",
+            "reading": "こ"
+          }
+        ],
+        "reading": "おとこのこ",
+        "romaji": "otoko no ko",
+        "meaning": "boy",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:学校|がっこう",
+        "japanese": "学校",
+        "japaneseSegments": [
+          {
+            "base": "学校",
+            "reading": "がっこう"
+          }
+        ],
+        "reading": "がっこう",
+        "romaji": "gakkō",
+        "meaning": "school",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:行く|いく",
+        "japanese": "行く",
+        "japaneseSegments": [
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "いく",
+        "romaji": "iku",
+        "meaning": "to go",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:元気|げんき",
+        "japanese": "元気",
+        "japaneseSegments": [
+          {
+            "base": "元気",
+            "reading": "げんき"
+          }
+        ],
+        "reading": "げんき",
+        "romaji": "genki",
+        "meaning": "lively; energetic; well",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おはよう|おはよう",
+        "japanese": "おはよう",
+        "japaneseSegments": [
+          {
+            "text": "おはよう"
+          }
+        ],
+        "reading": "おはよう",
+        "romaji": "ohayō",
+        "meaning": "good morning (informal)",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ある日|あるひ",
+        "japanese": "ある日",
+        "japaneseSegments": [
+          {
+            "text": "ある"
+          },
+          {
+            "base": "日",
+            "reading": "ひ"
+          }
+        ],
+        "reading": "あるひ",
+        "romaji": "aru hi",
+        "meaning": "one day",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:花|はな",
+        "japanese": "花",
+        "japaneseSegments": [
+          {
+            "base": "花",
+            "reading": "はな"
+          }
+        ],
+        "reading": "はな",
+        "romaji": "hana",
+        "meaning": "flower",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:手|て",
+        "japanese": "手",
+        "japaneseSegments": [
+          {
+            "base": "手",
+            "reading": "て"
+          }
+        ],
+        "reading": "て",
+        "romaji": "te",
+        "meaning": "hand",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ありがとう|ありがとう",
+        "japanese": "ありがとう",
+        "japaneseSegments": [
+          {
+            "text": "ありがとう"
+          }
+        ],
+        "reading": "ありがとう",
+        "romaji": "arigatō",
+        "meaning": "thank you",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N ga arimasu / arimasen",
+        "pattern": "N ga arimasu / arimasen",
+        "patternSegments": [
+          {
+            "text": "N ga arimasu / arimasen"
+          }
+        ],
+        "explanation": "Use arimasu and arimasen to say that an inanimate thing exists or does not exist.",
+        "firstPassage": 1,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "grammar:N wa / ga / mo imasu",
+        "pattern": "N wa / ga / mo imasu",
+        "patternSegments": [
+          {
+            "text": "N wa / ga / mo imasu"
+          }
+        ],
+        "explanation": "Use imasu to say that a person or animal is present; wa, ga, and mo mark the person or animal in different ways.",
+        "firstPassage": 2,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "grammar:N mo",
+        "pattern": "N mo",
+        "patternSegments": [
+          {
+            "text": "N mo"
+          }
+        ],
+        "explanation": "Mo adds the sense of “also” or “too,” and can connect items in a list.",
+        "firstPassage": 2,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "grammar:demo",
+        "pattern": "demo",
+        "patternSegments": [
+          {
+            "text": "demo"
+          }
+        ],
+        "explanation": "Demo means “but” or “however” and introduces a contrast.",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-masen",
+        "pattern": "V-masen",
+        "patternSegments": [
+          {
+            "text": "V-masen"
+          }
+        ],
+        "explanation": "The polite negative verb ending; it says that someone does not do something.",
+        "firstPassage": 2,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:N ni wa",
+        "pattern": "N ni wa",
+        "patternSegments": [
+          {
+            "text": "N ni wa"
+          }
+        ],
+        "explanation": "Ni wa marks a place as the topic, often highlighting what is or is not there.",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N kara",
+        "pattern": "N kara",
+        "patternSegments": [
+          {
+            "text": "N kara"
+          }
+        ],
+        "explanation": "Kara marks a starting point or source and means “from.”",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:Nani mo + negative",
+        "pattern": "Nani mo + negative",
+        "patternSegments": [
+          {
+            "text": "Nani mo + negative"
+          }
+        ],
+        "explanation": "Nani mo followed by a negative means “nothing” or “not anything.”",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N to N",
+        "pattern": "N to N",
+        "patternSegments": [
+          {
+            "text": "N to N"
+          }
+        ],
+        "explanation": "To connects nouns and means “and” when listing people or things.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:貝|かい",
+      "japanese": "貝",
+      "japaneseSegments": [
+        {
+          "base": "貝",
+          "reading": "かい"
+        }
+      ],
+      "reading": "かい",
+      "romaji": "kai",
+      "meaning": "Shellfish; a general word for clams and other shellfish.",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:にぎり寿司|にぎりずし",
+      "japanese": "にぎり寿司",
+      "japaneseSegments": [
+        {
+          "text": "にぎり"
+        },
+        {
+          "base": "寿司",
+          "reading": "ずし"
+        }
+      ],
+      "reading": "にぎりずし",
+      "romaji": "nigiri-zushi",
+      "meaning": "Hand-pressed sushi made by shaping rice and topping it with fish or another ingredient.",
+      "firstPassage": 2,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:箸|はし",
+      "japanese": "箸",
+      "japaneseSegments": [
+        {
+          "base": "箸",
+          "reading": "はし"
+        }
+      ],
+      "reading": "はし",
+      "romaji": "hashi",
+      "meaning": "Chopsticks.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:湯飲み|ゆのみ",
+      "japanese": "湯飲み",
+      "japaneseSegments": [
+        {
+          "base": "湯飲",
+          "reading": "ゆの"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "reading": "ゆのみ",
+      "romaji": "yunomi",
+      "meaning": "A cup for drinking tea, usually without a handle.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:東南アジア|とうなんあじあ",
+      "japanese": "東南アジア",
+      "japaneseSegments": [
+        {
+          "base": "東南",
+          "reading": "とうなん"
+        },
+        {
+          "text": "アジア"
+        }
+      ],
+      "reading": "とうなんあじあ",
+      "romaji": "Tōnan Ajia",
+      "meaning": "Southeast Asia.",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:押し寿司|おしずし",
+      "japanese": "押し寿司",
+      "japaneseSegments": [
+        {
+          "base": "押",
+          "reading": "お"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "base": "寿司",
+          "reading": "ずし"
+        }
+      ],
+      "reading": "おしずし",
+      "romaji": "oshizushi",
+      "meaning": "Pressed sushi, made by pressing rice and toppings into a mold.",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:いなり寿司|いなりずし",
+      "japanese": "いなり寿司",
+      "japaneseSegments": [
+        {
+          "text": "いなり"
+        },
+        {
+          "base": "寿司",
+          "reading": "ずし"
+        }
+      ],
+      "reading": "いなりずし",
+      "romaji": "inarizushi",
+      "meaning": "Sushi rice tucked into a pouch of fried tofu.",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:ちらし寿司|ちらしずし",
+      "japanese": "ちらし寿司",
+      "japaneseSegments": [
+        {
+          "text": "ちらし"
+        },
+        {
+          "base": "寿司",
+          "reading": "ずし"
+        }
+      ],
+      "reading": "ちらしずし",
+      "romaji": "chirashizushi",
+      "meaning": "Sushi rice served in a bowl with ingredients scattered on top.",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:屋台|やたい",
+      "japanese": "屋台",
+      "japaneseSegments": [
+        {
+          "base": "屋台",
+          "reading": "やたい"
+        }
+      ],
+      "reading": "やたい",
+      "romaji": "yatai",
+      "meaning": "A small street stall selling food or other goods.",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:酢|す",
+      "japanese": "酢",
+      "japaneseSegments": [
+        {
+          "base": "酢",
+          "reading": "す"
+        }
+      ],
+      "reading": "す",
+      "romaji": "su",
+      "meaning": "Vinegar.",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:値段|ねだん",
+      "japanese": "値段",
+      "japaneseSegments": [
+        {
+          "base": "値段",
+          "reading": "ねだん"
+        }
+      ],
+      "reading": "ねだん",
+      "romaji": "nedan",
+      "meaning": "Price or cost.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:回転寿司|かいてんずし",
+      "japanese": "回転寿司",
+      "japaneseSegments": [
+        {
+          "base": "回転",
+          "reading": "かいてん"
+        },
+        {
+          "base": "寿司",
+          "reading": "ずし"
+        }
+      ],
+      "reading": "かいてんずし",
+      "romaji": "kaiten-zushi",
+      "meaning": "Conveyor belt sushi, where plates of sushi pass customers on a moving belt.",
+      "firstPassage": 7,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:手巻き寿司|てまきずし",
+      "japanese": "手巻き寿司",
+      "japaneseSegments": [
+        {
+          "base": "手",
+          "reading": "て"
+        },
+        {
+          "base": "巻",
+          "reading": "ま"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "base": "寿司",
+          "reading": "ずし"
+        }
+      ],
+      "reading": "てまきずし",
+      "romaji": "temaki-zushi",
+      "meaning": "Hand-rolled sushi wrapped in nori around rice and fillings.",
+      "firstPassage": 10,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:のり巻き|のりまき",
+      "japanese": "のり巻き",
+      "japaneseSegments": [
+        {
+          "text": "のり"
+        },
+        {
+          "base": "巻",
+          "reading": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "のりまき",
+      "romaji": "norimaki",
+      "meaning": "Sushi rice and fillings rolled in nori.",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:鮭|さけ",
+      "japanese": "鮭",
+      "japaneseSegments": [
+        {
+          "base": "鮭",
+          "reading": "さけ"
+        }
+      ],
+      "reading": "さけ",
+      "romaji": "sake",
+      "meaning": "Salmon.",
+      "firstPassage": 12,
+      "occurrenceCount": 3
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:V-mashou",
+      "pattern": "V-mashou",
+      "patternSegments": [
+        {
+          "text": "V-mashou"
+        }
+      ],
+      "explanation": "Use this polite verb form to make a suggestion such as “let’s eat” or “let’s go.”",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:N kara N e",
+      "pattern": "N kara N e",
+      "patternSegments": [
+        {
+          "text": "N kara N e"
+        }
+      ],
+      "explanation": "Marks movement or change from a starting point toward a destination or result.",
+      "firstPassage": 4,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:N gurai",
+      "pattern": "N gurai",
+      "patternSegments": [
+        {
+          "text": "N gurai"
+        }
+      ],
+      "explanation": "Means “about” or “approximately” when used with an amount or length of time.",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N no ue ni",
+      "pattern": "N no ue ni",
+      "patternSegments": [
+        {
+          "text": "N no ue ni"
+        }
+      ],
+      "explanation": "Means “on top of N” and marks where something is placed.",
+      "firstPassage": 10,
+      "occurrenceCount": 5
+    }
+  ]
+}

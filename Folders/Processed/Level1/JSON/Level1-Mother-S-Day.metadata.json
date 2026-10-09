@@ -1,0 +1,874 @@
+{
+  "id": "level1-mother-s-day",
+  "name": "Mother's Day",
+  "japaneseTitle": "母の日",
+  "slug": "level1-mother-s-day",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-mother-s-day/source.pdf",
+  "ocrR2Key": "books/level1-mother-s-day/source-ocr.txt",
+  "coverR2Key": "books/level1-mother-s-day/cover.jpg",
+  "htmlR2Key": "books/level1-mother-s-day/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 152,
+  "createdAt": "2026-10-09T16:47:35.871Z",
+  "updatedAt": "2026-10-09T16:47:35.871Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:5月|ごがつ",
+        "japanese": "5月",
+        "japaneseSegments": [
+          {
+            "text": "5"
+          },
+          {
+            "base": "月",
+            "reading": "がつ"
+          }
+        ],
+        "reading": "ごがつ",
+        "romaji": "gogatsu",
+        "meaning": "May",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:日曜日|にちようび",
+        "japanese": "日曜日",
+        "japaneseSegments": [
+          {
+            "base": "日曜日",
+            "reading": "にちようび"
+          }
+        ],
+        "reading": "にちようび",
+        "romaji": "nichiyōbi",
+        "meaning": "Sunday",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:母の日|ははのひ",
+        "japanese": "母の日",
+        "japaneseSegments": [
+          {
+            "base": "母",
+            "reading": "はは"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "base": "日",
+            "reading": "ひ"
+          }
+        ],
+        "reading": "ははのひ",
+        "romaji": "haha no hi",
+        "meaning": "Mother's Day",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:今日|きょう",
+        "japanese": "今日",
+        "japaneseSegments": [
+          {
+            "base": "今日",
+            "reading": "きょう"
+          }
+        ],
+        "reading": "きょう",
+        "romaji": "kyō",
+        "meaning": "today",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お母さん|おかあさん",
+        "japanese": "お母さん",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "母",
+            "reading": "かあ"
+          },
+          {
+            "text": "さん"
+          }
+        ],
+        "reading": "おかあさん",
+        "romaji": "okaasan",
+        "meaning": "mother; mom",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:プレゼント|ぷれぜんと",
+        "japanese": "プレゼント",
+        "japaneseSegments": [
+          {
+            "text": "プレゼント"
+          }
+        ],
+        "reading": "ぷれぜんと",
+        "romaji": "purezento",
+        "meaning": "present; gift",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:買う|かう",
+        "japanese": "買う",
+        "japaneseSegments": [
+          {
+            "base": "買",
+            "reading": "か"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "かう",
+        "romaji": "kau",
+        "meaning": "to buy",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お父さん|おとうさん",
+        "japanese": "お父さん",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "父",
+            "reading": "とう"
+          },
+          {
+            "text": "さん"
+          }
+        ],
+        "reading": "おとうさん",
+        "romaji": "otōsan",
+        "meaning": "father; dad",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:いっしょ|いっしょ",
+        "japanese": "いっしょ",
+        "japaneseSegments": [
+          {
+            "text": "いっしょ"
+          }
+        ],
+        "reading": "いっしょ",
+        "romaji": "issho",
+        "meaning": "together",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:行く|いく",
+        "japanese": "行く",
+        "japaneseSegments": [
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "いく",
+        "romaji": "iku",
+        "meaning": "to go",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:二人|ふたり",
+        "japanese": "二人",
+        "japaneseSegments": [
+          {
+            "base": "二人",
+            "reading": "ふたり"
+          }
+        ],
+        "reading": "ふたり",
+        "romaji": "futari",
+        "meaning": "two people; the two of us",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ううん|ううん",
+        "japanese": "ううん",
+        "japaneseSegments": [
+          {
+            "text": "ううん"
+          }
+        ],
+        "reading": "ううん",
+        "romaji": "uun",
+        "meaning": "no (casual)",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:うん|うん",
+        "japanese": "うん",
+        "japaneseSegments": [
+          {
+            "text": "うん"
+          }
+        ],
+        "reading": "うん",
+        "romaji": "un",
+        "meaning": "yeah (casual)",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:だいじょうぶ|だいじょうぶ",
+        "japanese": "だいじょうぶ",
+        "japaneseSegments": [
+          {
+            "text": "だいじょうぶ"
+          }
+        ],
+        "reading": "だいじょうぶ",
+        "romaji": "daijōbu",
+        "meaning": "all right; okay",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:じゃあ|じゃあ",
+        "japanese": "じゃあ",
+        "japaneseSegments": [
+          {
+            "text": "じゃあ"
+          }
+        ],
+        "reading": "じゃあ",
+        "romaji": "jā",
+        "meaning": "then; well then",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:花屋|はなや",
+        "japanese": "花屋",
+        "japaneseSegments": [
+          {
+            "base": "花屋",
+            "reading": "はなや"
+          }
+        ],
+        "reading": "はなや",
+        "romaji": "hanaya",
+        "meaning": "flower shop",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:カーネーション|かーねーしょん",
+        "japanese": "カーネーション",
+        "japaneseSegments": [
+          {
+            "text": "カーネーション"
+          }
+        ],
+        "reading": "かーねーしょん",
+        "romaji": "kānēshon",
+        "meaning": "carnation",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:いっぱい|いっぱい",
+        "japanese": "いっぱい",
+        "japaneseSegments": [
+          {
+            "text": "いっぱい"
+          }
+        ],
+        "reading": "いっぱい",
+        "romaji": "ippai",
+        "meaning": "a lot; many",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:赤い|あかい",
+        "japanese": "赤い",
+        "japaneseSegments": [
+          {
+            "base": "赤",
+            "reading": "あか"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "あかい",
+        "romaji": "akai",
+        "meaning": "red",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:赤|あか",
+        "japanese": "赤",
+        "japaneseSegments": [
+          {
+            "base": "赤",
+            "reading": "あか"
+          }
+        ],
+        "reading": "あか",
+        "romaji": "aka",
+        "meaning": "red; the color red",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ください|ください",
+        "japanese": "ください",
+        "japaneseSegments": [
+          {
+            "text": "ください"
+          }
+        ],
+        "reading": "ください",
+        "romaji": "kudasai",
+        "meaning": "please (when making a request)",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:はい|はい",
+        "japanese": "はい",
+        "japaneseSegments": [
+          {
+            "text": "はい"
+          }
+        ],
+        "reading": "はい",
+        "romaji": "hai",
+        "meaning": "yes; certainly",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:ピンク|ぴんく",
+        "japanese": "ピンク",
+        "japaneseSegments": [
+          {
+            "text": "ピンク"
+          }
+        ],
+        "reading": "ぴんく",
+        "romaji": "pinku",
+        "meaning": "pink",
+        "firstPassage": 6,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:好き|すき",
+        "japanese": "好き",
+        "japaneseSegments": [
+          {
+            "base": "好",
+            "reading": "す"
+          },
+          {
+            "text": "き"
+          }
+        ],
+        "reading": "すき",
+        "romaji": "suki",
+        "meaning": "to like",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:どうぞ|どうぞ",
+        "japanese": "どうぞ",
+        "japaneseSegments": [
+          {
+            "text": "どうぞ"
+          }
+        ],
+        "reading": "どうぞ",
+        "romaji": "dōzo",
+        "meaning": "here you are; please",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:つぎ|つぎ",
+        "japanese": "つぎ",
+        "japaneseSegments": [
+          {
+            "text": "つぎ"
+          }
+        ],
+        "reading": "つぎ",
+        "romaji": "tsugi",
+        "meaning": "next",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ケーキ屋|けーきや",
+        "japanese": "ケーキ屋",
+        "japaneseSegments": [
+          {
+            "text": "ケーキ"
+          },
+          {
+            "base": "屋",
+            "reading": "や"
+          }
+        ],
+        "reading": "けーきや",
+        "romaji": "kēkiya",
+        "meaning": "cake shop",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:どれ|どれ",
+        "japanese": "どれ",
+        "japaneseSegments": [
+          {
+            "text": "どれ"
+          }
+        ],
+        "reading": "どれ",
+        "romaji": "dore",
+        "meaning": "which one",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:いい|いい",
+        "japanese": "いい",
+        "japaneseSegments": [
+          {
+            "text": "いい"
+          }
+        ],
+        "reading": "いい",
+        "romaji": "ii",
+        "meaning": "good; suitable",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:いちご|いちご",
+        "japanese": "いちご",
+        "japaneseSegments": [
+          {
+            "text": "いちご"
+          }
+        ],
+        "reading": "いちご",
+        "romaji": "ichigo",
+        "meaning": "strawberry",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ショートケーキ|しょーとけーき",
+        "japanese": "ショートケーキ",
+        "japaneseSegments": [
+          {
+            "text": "ショートケーキ"
+          }
+        ],
+        "reading": "しょーとけーき",
+        "romaji": "shōtokēki",
+        "meaning": "shortcake",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おうち|おうち",
+        "japanese": "おうち",
+        "japaneseSegments": [
+          {
+            "text": "おうち"
+          }
+        ],
+        "reading": "おうち",
+        "romaji": "ōchi",
+        "meaning": "home; house",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:帰る|かえる",
+        "japanese": "帰る",
+        "japaneseSegments": [
+          {
+            "base": "帰",
+            "reading": "かえ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return; go home",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:カード|かーど",
+        "japanese": "カード",
+        "japaneseSegments": [
+          {
+            "text": "カード"
+          }
+        ],
+        "reading": "かーど",
+        "romaji": "kādo",
+        "meaning": "card",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:書く|かく",
+        "japanese": "書く",
+        "japaneseSegments": [
+          {
+            "base": "書",
+            "reading": "か"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "かく",
+        "romaji": "kaku",
+        "meaning": "to write",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おり紙|おりがみ",
+        "japanese": "おり紙",
+        "japaneseSegments": [
+          {
+            "text": "おり"
+          },
+          {
+            "base": "紙",
+            "reading": "がみ"
+          }
+        ],
+        "reading": "おりがみ",
+        "romaji": "origami",
+        "meaning": "origami paper",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:きいろ|きいろ",
+        "japanese": "きいろ",
+        "japaneseSegments": [
+          {
+            "text": "きいろ"
+          }
+        ],
+        "reading": "きいろ",
+        "romaji": "kiiro",
+        "meaning": "yellow",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:水いろ|みずいろ",
+        "japanese": "水いろ",
+        "japaneseSegments": [
+          {
+            "base": "水",
+            "reading": "みず"
+          },
+          {
+            "text": "いろ"
+          }
+        ],
+        "reading": "みずいろ",
+        "romaji": "mizuiro",
+        "meaning": "light blue",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:いつも|いつも",
+        "japanese": "いつも",
+        "japaneseSegments": [
+          {
+            "text": "いつも"
+          }
+        ],
+        "reading": "いつも",
+        "romaji": "itsumo",
+        "meaning": "always",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ありがとう|ありがとう",
+        "japanese": "ありがとう",
+        "japaneseSegments": [
+          {
+            "text": "ありがとう"
+          }
+        ],
+        "reading": "ありがとう",
+        "romaji": "arigatō",
+        "meaning": "thank you",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:6月|ろくがつ",
+        "japanese": "6月",
+        "japaneseSegments": [
+          {
+            "text": "6"
+          },
+          {
+            "base": "月",
+            "reading": "がつ"
+          }
+        ],
+        "reading": "ろくがつ",
+        "romaji": "rokugatsu",
+        "meaning": "June",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:父の日|ちちのひ",
+        "japanese": "父の日",
+        "japaneseSegments": [
+          {
+            "base": "父",
+            "reading": "ちち"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "base": "日",
+            "reading": "ひ"
+          }
+        ],
+        "reading": "ちちのひ",
+        "romaji": "chichi no hi",
+        "meaning": "Father's Day",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N no N",
+        "pattern": "N no N",
+        "patternSegments": [
+          {
+            "text": "N no N"
+          }
+        ],
+        "explanation": "Links two nouns, often showing a relationship or specifying what kind of thing the second noun is.",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:dai + number",
+        "pattern": "dai + number",
+        "patternSegments": [
+          {
+            "text": "dai + number"
+          }
+        ],
+        "explanation": "The prefix dai before a number marks an ordinal, such as a numbered Sunday in the month.",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N wa",
+        "pattern": "N wa",
+        "patternSegments": [
+          {
+            "text": "N wa"
+          }
+        ],
+        "explanation": "Marks the topic of a sentence: what the speaker is talking about.",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:N desu",
+        "pattern": "N desu",
+        "patternSegments": [
+          {
+            "text": "N desu"
+          }
+        ],
+        "explanation": "A polite way to state or identify something using a noun.",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:N ni",
+        "pattern": "N ni",
+        "patternSegments": [
+          {
+            "text": "N ni"
+          }
+        ],
+        "explanation": "Marks a recipient, destination, or the setting of an action, depending on the phrase.",
+        "firstPassage": 2,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:N mo",
+        "pattern": "N mo",
+        "patternSegments": [
+          {
+            "text": "N mo"
+          }
+        ],
+        "explanation": "Adds the meaning 'also' or 'too' to a noun or noun phrase.",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-tai",
+        "pattern": "V-tai",
+        "patternSegments": [
+          {
+            "text": "V-tai"
+          }
+        ],
+        "explanation": "Attaches to a verb stem to say that the speaker wants to do something.",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-volitional",
+        "pattern": "V-volitional",
+        "patternSegments": [
+          {
+            "text": "V-volitional"
+          }
+        ],
+        "explanation": "The volitional form is used to suggest doing something together, like 'let's go.'",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:ka (question)",
+        "pattern": "ka (question)",
+        "patternSegments": [
+          {
+            "text": "ka (question)"
+          }
+        ],
+        "explanation": "Placed at the end of a sentence to form a question or suggestion.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N de",
+        "pattern": "N de",
+        "patternSegments": [
+          {
+            "text": "N de"
+          }
+        ],
+        "explanation": "Marks how or with whom an action is done; here it means 'as a pair' or 'the two of us.'",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ga",
+        "pattern": "N ga",
+        "patternSegments": [
+          {
+            "text": "N ga"
+          }
+        ],
+        "explanation": "Marks the subject or the thing being described in a sentence.",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N (object) + kudasai",
+        "pattern": "N (object) + kudasai",
+        "patternSegments": [
+          {
+            "text": "N (object) + kudasai"
+          }
+        ],
+        "explanation": "Adds a polite 'please' to a requested item; the object particle is often omitted in these examples.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:ne",
+        "pattern": "ne",
+        "patternSegments": [
+          {
+            "text": "ne"
+          }
+        ],
+        "explanation": "A sentence ending that invites agreement or adds a gentle, confirming tone.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:to",
+        "pattern": "to",
+        "patternSegments": [
+          {
+            "text": "to"
+          }
+        ],
+        "explanation": "Connects nouns with the meaning 'and.'",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:kana",
+        "pattern": "kana",
+        "patternSegments": [
+          {
+            "text": "kana"
+          }
+        ],
+        "explanation": "Often used at the end of a thought or question when wondering aloud, like 'I wonder.'",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

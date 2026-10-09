@@ -1,0 +1,476 @@
+{
+  "id": "level1-hachi-s-story",
+  "name": "Hachi's Story",
+  "japaneseTitle": "ハチの話",
+  "slug": "level1-hachi-s-story",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-hachi-s-story/source.pdf",
+  "ocrR2Key": "books/level1-hachi-s-story/source-ocr.txt",
+  "coverR2Key": "books/level1-hachi-s-story/cover.jpg",
+  "htmlR2Key": "books/level1-hachi-s-story/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 342,
+  "createdAt": "2026-10-09T14:59:44.814Z",
+  "updatedAt": "2026-10-09T14:59:44.815Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:大学|だいがく",
+        "japanese": "大学",
+        "japaneseSegments": [
+          {
+            "base": "大学",
+            "reading": "だいがく"
+          }
+        ],
+        "reading": "だいがく",
+        "romaji": "daigaku",
+        "meaning": "university",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:先生|せんせい",
+        "japanese": "先生",
+        "japaneseSegments": [
+          {
+            "base": "先生",
+            "reading": "せんせい"
+          }
+        ],
+        "reading": "せんせい",
+        "romaji": "sensei",
+        "meaning": "teacher; professor",
+        "firstPassage": 1,
+        "occurrenceCount": 23
+      },
+      {
+        "key": "vocabulary:もらう|もらう",
+        "japanese": "もらう",
+        "japaneseSegments": [
+          {
+            "text": "もらう"
+          }
+        ],
+        "reading": "もらう",
+        "romaji": "morau",
+        "meaning": "to receive; to be given",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:一緒|いっしょ",
+        "japanese": "一緒",
+        "japaneseSegments": [
+          {
+            "base": "一緒",
+            "reading": "いっしょ"
+          }
+        ],
+        "reading": "いっしょ",
+        "romaji": "issho",
+        "meaning": "together",
+        "firstPassage": 2,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:遊ぶ|あそぶ",
+        "japanese": "遊ぶ",
+        "japaneseSegments": [
+          {
+            "base": "遊",
+            "reading": "あそ"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "あそぶ",
+        "romaji": "asobu",
+        "meaning": "to play",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ご飯|ごはん",
+        "japanese": "ご飯",
+        "japaneseSegments": [
+          {
+            "text": "ご"
+          },
+          {
+            "base": "飯",
+            "reading": "はん"
+          }
+        ],
+        "reading": "ごはん",
+        "romaji": "gohan",
+        "meaning": "meal; rice",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:食べる|たべる",
+        "japanese": "食べる",
+        "japaneseSegments": [
+          {
+            "base": "食",
+            "reading": "た"
+          },
+          {
+            "text": "べる"
+          }
+        ],
+        "reading": "たべる",
+        "romaji": "taberu",
+        "meaning": "to eat",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:渋谷駅|しぶやえき",
+        "japanese": "渋谷駅",
+        "japaneseSegments": [
+          {
+            "base": "渋谷",
+            "reading": "しぶや"
+          },
+          {
+            "base": "駅",
+            "reading": "えき"
+          }
+        ],
+        "reading": "しぶやえき",
+        "romaji": "Shibuya-eki",
+        "meaning": "Shibuya Station",
+        "firstPassage": 3,
+        "occurrenceCount": 12
+      },
+      {
+        "key": "vocabulary:電車|でんしゃ",
+        "japanese": "電車",
+        "japaneseSegments": [
+          {
+            "base": "電車",
+            "reading": "でんしゃ"
+          }
+        ],
+        "reading": "でんしゃ",
+        "romaji": "densha",
+        "meaning": "train",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:乗る|のる",
+        "japanese": "乗る",
+        "japaneseSegments": [
+          {
+            "base": "乗",
+            "reading": "の"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "のる",
+        "romaji": "noru",
+        "meaning": "to get on; to ride",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:行ってきます|いってきます",
+        "japanese": "行ってきます",
+        "japaneseSegments": [
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "ってきます"
+          }
+        ],
+        "reading": "いってきます",
+        "romaji": "ittekimasu",
+        "meaning": "a phrase said when leaving home, implying one will return",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:帰る|かえる",
+        "japanese": "帰る",
+        "japaneseSegments": [
+          {
+            "base": "帰",
+            "reading": "かえ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return; to go home",
+        "firstPassage": 3,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:夕方|ゆうがた",
+        "japanese": "夕方",
+        "japaneseSegments": [
+          {
+            "base": "夕方",
+            "reading": "ゆうがた"
+          }
+        ],
+        "reading": "ゆうがた",
+        "romaji": "yūgata",
+        "meaning": "evening",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:降りる|おりる",
+        "japanese": "降りる",
+        "japaneseSegments": [
+          {
+            "base": "降",
+            "reading": "お"
+          },
+          {
+            "text": "りる"
+          }
+        ],
+        "reading": "おりる",
+        "romaji": "oriru",
+        "meaning": "to get off; to descend",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:うれしい|うれしい",
+        "japanese": "うれしい",
+        "japaneseSegments": [
+          {
+            "text": "うれしい"
+          }
+        ],
+        "reading": "うれしい",
+        "romaji": "ureshii",
+        "meaning": "happy; glad",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:倒れる|たおれる",
+        "japanese": "倒れる",
+        "japaneseSegments": [
+          {
+            "base": "倒",
+            "reading": "たお"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "たおれる",
+        "romaji": "taoreru",
+        "meaning": "to collapse; to fall down",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:病院|びょういん",
+        "japanese": "病院",
+        "japaneseSegments": [
+          {
+            "base": "病院",
+            "reading": "びょういん"
+          }
+        ],
+        "reading": "びょういん",
+        "romaji": "byōin",
+        "meaning": "hospital",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:分かる|わかる",
+        "japanese": "分かる",
+        "japaneseSegments": [
+          {
+            "base": "分",
+            "reading": "わ"
+          },
+          {
+            "text": "かる"
+          }
+        ],
+        "reading": "わかる",
+        "romaji": "wakaru",
+        "meaning": "to understand",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:待つ|まつ",
+        "japanese": "待つ",
+        "japaneseSegments": [
+          {
+            "base": "待",
+            "reading": "ま"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "まつ",
+        "romaji": "matsu",
+        "meaning": "to wait",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:十年|じゅうねん",
+        "japanese": "十年",
+        "japaneseSegments": [
+          {
+            "base": "十",
+            "reading": "じゅう"
+          },
+          {
+            "base": "年",
+            "reading": "ねん"
+          }
+        ],
+        "reading": "じゅうねん",
+        "romaji": "jūnen",
+        "meaning": "ten years",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:前|まえ",
+        "japanese": "前",
+        "japaneseSegments": [
+          {
+            "base": "前",
+            "reading": "まえ"
+          }
+        ],
+        "reading": "まえ",
+        "romaji": "mae",
+        "meaning": "in front of; before",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:像|ぞう",
+        "japanese": "像",
+        "japaneseSegments": [
+          {
+            "base": "像",
+            "reading": "ぞう"
+          }
+        ],
+        "reading": "ぞう",
+        "romaji": "zō",
+        "meaning": "statue; image",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:issho ni + verb",
+        "pattern": "issho ni + verb",
+        "patternSegments": [
+          {
+            "base": "一緒",
+            "reading": "いっしょ"
+          },
+          {
+            "text": "に V"
+          }
+        ],
+        "explanation": "Use this expression to say that people do an action together.",
+        "firstPassage": 2,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:N e iku",
+        "pattern": "N e iku",
+        "patternSegments": [
+          {
+            "text": "Nへ"
+          },
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "explanation": "Marks the destination of going; the particle is pronounced “e.”",
+        "firstPassage": 3,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:N de V",
+        "pattern": "N de V",
+        "patternSegments": [
+          {
+            "text": "Nで V"
+          }
+        ],
+        "explanation": "Marks the place where an action takes place.",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V masen",
+        "pattern": "V masen",
+        "patternSegments": [
+          {
+            "text": "Vません"
+          }
+        ],
+        "explanation": "The polite negative form of a verb, used to say that someone does not do something.",
+        "firstPassage": 6,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:mō + V masen",
+        "pattern": "mō + V masen",
+        "patternSegments": [
+          {
+            "text": "もう + Vません"
+          }
+        ],
+        "explanation": "With a negative verb, this means that something no longer happens or someone is no longer present.",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:soshite",
+        "pattern": "soshite",
+        "patternSegments": [
+          {
+            "text": "そして"
+          }
+        ],
+        "explanation": "Connects events in sequence, meaning “and then.”",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      }
+    ]
+  }
+}

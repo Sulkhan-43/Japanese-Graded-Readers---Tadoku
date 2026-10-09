@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:笠|かさ",
+      "japanese": "笠",
+      "japaneseSegments": [
+        {
+          "base": "笠",
+          "reading": "かさ"
+        }
+      ],
+      "reading": "かさ",
+      "romaji": "kasa",
+      "meaning": "straw hat",
+      "firstPassage": 1,
+      "occurrenceCount": 23
+    },
+    {
+      "key": "vocabulary:お金|おかね",
+      "japanese": "お金",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "金",
+          "reading": "かね"
+        }
+      ],
+      "reading": "おかね",
+      "romaji": "okane",
+      "meaning": "money",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:お正月|おしょうがつ",
+      "japanese": "お正月",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "正月",
+          "reading": "しょうがつ"
+        }
+      ],
+      "reading": "おしょうがつ",
+      "romaji": "oshōgatsu",
+      "meaning": "New Year’s Day; the New Year holiday",
+      "firstPassage": 1,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:食べ物|たべもの",
+      "japanese": "食べ物",
+      "japaneseSegments": [
+        {
+          "base": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べ"
+        },
+        {
+          "base": "物",
+          "reading": "もの"
+        }
+      ],
+      "reading": "たべもの",
+      "romaji": "tabemono",
+      "meaning": "food",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:作る|つくる",
+      "japanese": "作る",
+      "japaneseSegments": [
+        {
+          "base": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "つくる",
+      "romaji": "tsukuru",
+      "meaning": "to make",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:売る|うる",
+      "japanese": "売る",
+      "japaneseSegments": [
+        {
+          "base": "売",
+          "reading": "う"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "うる",
+      "romaji": "uru",
+      "meaning": "to sell",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:町|まち",
+      "japanese": "町",
+      "japaneseSegments": [
+        {
+          "base": "町",
+          "reading": "まち"
+        }
+      ],
+      "reading": "まち",
+      "romaji": "machi",
+      "meaning": "town",
+      "firstPassage": 2,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:歩く|あるく",
+      "japanese": "歩く",
+      "japaneseSegments": [
+        {
+          "base": "歩",
+          "reading": "ある"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "あるく",
+      "romaji": "aruku",
+      "meaning": "to walk",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:雪|ゆき",
+      "japanese": "雪",
+      "japaneseSegments": [
+        {
+          "base": "雪",
+          "reading": "ゆき"
+        }
+      ],
+      "reading": "ゆき",
+      "romaji": "yuki",
+      "meaning": "snow",
+      "firstPassage": 2,
+      "occurrenceCount": 7
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:V-mashō",
+      "pattern": "V-mashō",
+      "patternSegments": [
+        {
+          "text": "V-mashō"
+        }
+      ],
+      "explanation": "Attach mashō to a verb stem to make a polite suggestion or offer, meaning “let’s” or “I’ll.”",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:V-tai",
+      "pattern": "V-tai",
+      "patternSegments": [
+        {
+          "text": "V-tai"
+        }
+      ],
+      "explanation": "Attach tai to a verb stem to say what someone wants to do.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:desu kara",
+      "pattern": "desu kara",
+      "patternSegments": [
+        {
+          "text": "desu kara"
+        }
+      ],
+      "explanation": "Desu kara connects a reason to a result: “because…” or “so…”.",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:daremo + negative",
+      "pattern": "daremo + negative",
+      "patternSegments": [
+        {
+          "text": "daremo + negative"
+        }
+      ],
+      "explanation": "Daremo with a negative predicate means “nobody” or “no one.”",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:deshō",
+      "pattern": "deshō",
+      "patternSegments": [
+        {
+          "text": "deshō"
+        }
+      ],
+      "explanation": "At the end of a sentence, deshō expresses a supposition or gentle expectation, often “probably” or “must be.”",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    }
+  ]
+}

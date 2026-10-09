@@ -1,0 +1,689 @@
+{
+  "id": "level1-schmoe-house-what-each-of-us-can-do",
+  "name": "Schmoe House What Each of Us Can Do",
+  "japaneseTitle": "シュモーハウス ～一人ひとりができること～",
+  "slug": "level1-schmoe-house-what-each-of-us-can-do",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-schmoe-house-what-each-of-us-can-do/source.pdf",
+  "ocrR2Key": "books/level1-schmoe-house-what-each-of-us-can-do/source-ocr.txt",
+  "coverR2Key": "books/level1-schmoe-house-what-each-of-us-can-do/cover.jpg",
+  "htmlR2Key": "books/level1-schmoe-house-what-each-of-us-can-do/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 642,
+  "createdAt": "2026-10-09T17:53:42.610Z",
+  "updatedAt": "2026-10-09T17:53:42.610Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:原子爆弾|げんしばくだん",
+        "japanese": "原子爆弾",
+        "japaneseSegments": [
+          {
+            "base": "原子爆弾",
+            "reading": "げんしばくだん"
+          }
+        ],
+        "reading": "げんしばくだん",
+        "romaji": "genshi bakudan",
+        "meaning": "atomic bomb",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:落とす|おとす",
+        "japanese": "落とす",
+        "japaneseSegments": [
+          {
+            "base": "落",
+            "reading": "お"
+          },
+          {
+            "text": "とす"
+          }
+        ],
+        "reading": "おとす",
+        "romaji": "otosu",
+        "meaning": "to drop",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:死ぬ|しぬ",
+        "japanese": "死ぬ",
+        "japaneseSegments": [
+          {
+            "base": "死",
+            "reading": "し"
+          },
+          {
+            "text": "ぬ"
+          }
+        ],
+        "reading": "しぬ",
+        "romaji": "shinu",
+        "meaning": "to die",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:暗い|くらい",
+        "japanese": "暗い",
+        "japaneseSegments": [
+          {
+            "base": "暗",
+            "reading": "くら"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "くらい",
+        "romaji": "kurai",
+        "meaning": "gloomy; dark",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:聞く|きく",
+        "japanese": "聞く",
+        "japaneseSegments": [
+          {
+            "base": "聞",
+            "reading": "き"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "きく",
+        "romaji": "kiku",
+        "meaning": "to hear; to ask",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:だめ|だめ",
+        "japanese": "だめ",
+        "japaneseSegments": [
+          {
+            "text": "だめ"
+          }
+        ],
+        "reading": "だめ",
+        "romaji": "dame",
+        "meaning": "no good; not enough",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:手紙|てがみ",
+        "japanese": "手紙",
+        "japaneseSegments": [
+          {
+            "base": "手紙",
+            "reading": "てがみ"
+          }
+        ],
+        "reading": "てがみ",
+        "romaji": "tegami",
+        "meaning": "letter",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:書く|かく",
+        "japanese": "書く",
+        "japaneseSegments": [
+          {
+            "base": "書",
+            "reading": "か"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "かく",
+        "romaji": "kaku",
+        "meaning": "to write",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お金|おかね",
+        "japanese": "お金",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "金",
+            "reading": "かね"
+          }
+        ],
+        "reading": "おかね",
+        "romaji": "okane",
+        "meaning": "money",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:出す|だす",
+        "japanese": "出す",
+        "japaneseSegments": [
+          {
+            "base": "出",
+            "reading": "だ"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "だす",
+        "romaji": "dasu",
+        "meaning": "to put out; to contribute",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:待つ|まつ",
+        "japanese": "待つ",
+        "japaneseSegments": [
+          {
+            "base": "待",
+            "reading": "ま"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "まつ",
+        "romaji": "matsu",
+        "meaning": "to wait",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大工|だいく",
+        "japanese": "大工",
+        "japaneseSegments": [
+          {
+            "base": "大工",
+            "reading": "だいく"
+          }
+        ],
+        "reading": "だいく",
+        "romaji": "daiku",
+        "meaning": "carpenter",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:重い|おもい",
+        "japanese": "重い",
+        "japaneseSegments": [
+          {
+            "base": "重",
+            "reading": "おも"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "おもい",
+        "romaji": "omoi",
+        "meaning": "heavy",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:瓦|かわら",
+        "japanese": "瓦",
+        "japaneseSegments": [
+          {
+            "base": "瓦",
+            "reading": "かわら"
+          }
+        ],
+        "reading": "かわら",
+        "romaji": "kawara",
+        "meaning": "roof tile",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:屋根|やね",
+        "japanese": "屋根",
+        "japaneseSegments": [
+          {
+            "base": "屋根",
+            "reading": "やね"
+          }
+        ],
+        "reading": "やね",
+        "romaji": "yane",
+        "meaning": "roof",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:働く|はたらく",
+        "japanese": "働く",
+        "japaneseSegments": [
+          {
+            "base": "働",
+            "reading": "はたら"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "はたらく",
+        "romaji": "hataraku",
+        "meaning": "to work",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:楽しい|たのしい",
+        "japanese": "楽しい",
+        "japaneseSegments": [
+          {
+            "base": "楽",
+            "reading": "たの"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "たのしい",
+        "romaji": "tanoshii",
+        "meaning": "enjoyable; fun",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:庭|にわ",
+        "japanese": "庭",
+        "japaneseSegments": [
+          {
+            "base": "庭",
+            "reading": "にわ"
+          }
+        ],
+        "reading": "にわ",
+        "romaji": "niwa",
+        "meaning": "garden",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:スイカ|すいか",
+        "japanese": "スイカ",
+        "japaneseSegments": [
+          {
+            "text": "スイカ"
+          }
+        ],
+        "reading": "すいか",
+        "romaji": "suika",
+        "meaning": "watermelon",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:口|くち",
+        "japanese": "口",
+        "japaneseSegments": [
+          {
+            "base": "口",
+            "reading": "くち"
+          }
+        ],
+        "reading": "くち",
+        "romaji": "kuchi",
+        "meaning": "mouth",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:開ける|あける",
+        "japanese": "開ける",
+        "japaneseSegments": [
+          {
+            "base": "開",
+            "reading": "あ"
+          },
+          {
+            "text": "ける"
+          }
+        ],
+        "reading": "あける",
+        "romaji": "akeru",
+        "meaning": "to open",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:明るい|あかるい",
+        "japanese": "明るい",
+        "japaneseSegments": [
+          {
+            "base": "明",
+            "reading": "あか"
+          },
+          {
+            "text": "るい"
+          }
+        ],
+        "reading": "あかるい",
+        "romaji": "akarui",
+        "meaning": "bright; cheerful",
+        "firstPassage": 7,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:好き|すき",
+        "japanese": "好き",
+        "japaneseSegments": [
+          {
+            "base": "好",
+            "reading": "す"
+          },
+          {
+            "text": "き"
+          }
+        ],
+        "reading": "すき",
+        "romaji": "suki",
+        "meaning": "to like",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:水|みず",
+        "japanese": "水",
+        "japaneseSegments": [
+          {
+            "base": "水",
+            "reading": "みず"
+          }
+        ],
+        "reading": "みず",
+        "romaji": "mizu",
+        "meaning": "water",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:新しい|あたらしい",
+        "japanese": "新しい",
+        "japaneseSegments": [
+          {
+            "base": "新",
+            "reading": "あたら"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "あたらしい",
+        "romaji": "atarashii",
+        "meaning": "new",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:住む|すむ",
+        "japanese": "住む",
+        "japaneseSegments": [
+          {
+            "base": "住",
+            "reading": "す"
+          },
+          {
+            "text": "む"
+          }
+        ],
+        "reading": "すむ",
+        "romaji": "sumu",
+        "meaning": "to live; reside",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:住宅|じゅうたく",
+        "japanese": "住宅",
+        "japaneseSegments": [
+          {
+            "base": "住宅",
+            "reading": "じゅうたく"
+          }
+        ],
+        "reading": "じゅうたく",
+        "romaji": "jūtaku",
+        "meaning": "house; residence",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:戦争|せんそう",
+        "japanese": "戦争",
+        "japaneseSegments": [
+          {
+            "base": "戦争",
+            "reading": "せんそう"
+          }
+        ],
+        "reading": "せんそう",
+        "romaji": "sensō",
+        "meaning": "war",
+        "firstPassage": 11,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:朝鮮半島|ちょうせんはんとう",
+        "japanese": "朝鮮半島",
+        "japaneseSegments": [
+          {
+            "base": "朝鮮半島",
+            "reading": "ちょうせんはんとう"
+          }
+        ],
+        "reading": "ちょうせんはんとう",
+        "romaji": "Chōsen-hantō",
+        "meaning": "Korean Peninsula",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:韓国|かんこく",
+        "japanese": "韓国",
+        "japaneseSegments": [
+          {
+            "base": "韓国",
+            "reading": "かんこく"
+          }
+        ],
+        "reading": "かんこく",
+        "romaji": "Kankoku",
+        "meaning": "South Korea",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:井戸|いど",
+        "japanese": "井戸",
+        "japaneseSegments": [
+          {
+            "base": "井戸",
+            "reading": "いど"
+          }
+        ],
+        "reading": "いど",
+        "romaji": "ido",
+        "meaning": "well",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:願う|ねがう",
+        "japanese": "願う",
+        "japaneseSegments": [
+          {
+            "base": "願",
+            "reading": "ねが"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "ねがう",
+        "romaji": "negau",
+        "meaning": "to wish for; hope for",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:亡くなる|なくなる",
+        "japanese": "亡くなる",
+        "japaneseSegments": [
+          {
+            "base": "亡",
+            "reading": "な"
+          },
+          {
+            "text": "くなる"
+          }
+        ],
+        "reading": "なくなる",
+        "romaji": "nakunaru",
+        "meaning": "to pass away",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:〜ています",
+        "pattern": "〜ています",
+        "patternSegments": [
+          {
+            "text": "〜ています"
+          }
+        ],
+        "explanation": "This pattern can describe a continuing action or a state that is currently true.",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:〜になる",
+        "pattern": "〜になる",
+        "patternSegments": [
+          {
+            "text": "〜になる"
+          }
+        ],
+        "explanation": "This pattern describes a change into a new state. With an i-adjective, use its stem before the ending; with a noun or a na-adjective, use the full word.",
+        "firstPassage": 2,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:〜だけでは",
+        "pattern": "〜だけでは",
+        "patternSegments": [
+          {
+            "text": "〜だけでは"
+          }
+        ],
+        "explanation": "This pattern means that doing only the stated action is insufficient, often followed by a negative judgment.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ましょう",
+        "pattern": "〜ましょう",
+        "patternSegments": [
+          {
+            "text": "〜ましょう"
+          }
+        ],
+        "explanation": "This pattern makes a polite suggestion or invitation to do something together.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜や〜など",
+        "pattern": "〜や〜など",
+        "patternSegments": [
+          {
+            "text": "〜や〜など"
+          }
+        ],
+        "explanation": "This pattern gives examples from a larger, non-exhaustive group.",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜に来る",
+        "pattern": "〜に来る",
+        "patternSegments": [
+          {
+            "text": "〜に"
+          },
+          {
+            "base": "来",
+            "reading": "く"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "explanation": "This pattern describes coming somewhere in order to do an action.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ましたから",
+        "pattern": "〜ましたから",
+        "patternSegments": [
+          {
+            "text": "〜ましたから"
+          }
+        ],
+        "explanation": "This pattern gives a reason, meaning that the preceding event or situation is why something happened.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:〜たい",
+        "pattern": "〜たい",
+        "patternSegments": [
+          {
+            "text": "〜たい"
+          }
+        ],
+        "explanation": "This pattern expresses the speaker’s desire to do an action.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜だけ",
+        "pattern": "〜だけ",
+        "patternSegments": [
+          {
+            "text": "〜だけ"
+          }
+        ],
+        "explanation": "This pattern means “only” and limits the statement to the item named before it.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

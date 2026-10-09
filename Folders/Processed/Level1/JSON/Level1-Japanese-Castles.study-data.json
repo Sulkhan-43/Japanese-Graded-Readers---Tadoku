@@ -1,0 +1,501 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:日本|にほん",
+      "japanese": "日本",
+      "japaneseSegments": [
+        {
+          "base": "日本",
+          "reading": "にほん"
+        }
+      ],
+      "reading": "にほん",
+      "romaji": "Nihon",
+      "meaning": "Japan",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:城|しろ",
+      "japanese": "城",
+      "japaneseSegments": [
+        {
+          "base": "城",
+          "reading": "しろ"
+        }
+      ],
+      "reading": "しろ",
+      "romaji": "shiro",
+      "meaning": "castle",
+      "firstPassage": 1,
+      "occurrenceCount": 12
+    },
+    {
+      "key": "vocabulary:天守|てんしゅ",
+      "japanese": "天守",
+      "japaneseSegments": [
+        {
+          "base": "天守",
+          "reading": "てんしゅ"
+        }
+      ],
+      "reading": "てんしゅ",
+      "romaji": "tenshu",
+      "meaning": "castle keep",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:鯱|しゃちほこ",
+      "japanese": "鯱",
+      "japaneseSegments": [
+        {
+          "base": "鯱",
+          "reading": "しゃちほこ"
+        }
+      ],
+      "reading": "しゃちほこ",
+      "romaji": "shachihoko",
+      "meaning": "ornamental roof finial shaped like a fish",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:石垣|いしがき",
+      "japanese": "石垣",
+      "japaneseSegments": [
+        {
+          "base": "石垣",
+          "reading": "いしがき"
+        }
+      ],
+      "reading": "いしがき",
+      "romaji": "ishigaki",
+      "meaning": "stone wall",
+      "firstPassage": 2,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:堀|ほり",
+      "japanese": "堀",
+      "japaneseSegments": [
+        {
+          "base": "堀",
+          "reading": "ほり"
+        }
+      ],
+      "reading": "ほり",
+      "romaji": "hori",
+      "meaning": "moat",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:桜|さくら",
+      "japanese": "桜",
+      "japaneseSegments": [
+        {
+          "base": "桜",
+          "reading": "さくら"
+        }
+      ],
+      "reading": "さくら",
+      "romaji": "sakura",
+      "meaning": "cherry blossom",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:夜桜|よざくら",
+      "japanese": "夜桜",
+      "japaneseSegments": [
+        {
+          "base": "夜桜",
+          "reading": "よざくら"
+        }
+      ],
+      "reading": "よざくら",
+      "romaji": "yozakura",
+      "meaning": "cherry blossoms viewed at night",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:城下町|じょうかまち",
+      "japanese": "城下町",
+      "japaneseSegments": [
+        {
+          "base": "城下町",
+          "reading": "じょうかまち"
+        }
+      ],
+      "reading": "じょうかまち",
+      "romaji": "jōkamachi",
+      "meaning": "castle town",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:江戸時代|えどじだい",
+      "japanese": "江戸時代",
+      "japaneseSegments": [
+        {
+          "base": "江戸時代",
+          "reading": "えどじだい"
+        }
+      ],
+      "reading": "えどじだい",
+      "romaji": "Edo-jidai",
+      "meaning": "Edo period",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:そば|そば",
+      "japanese": "そば",
+      "japaneseSegments": [
+        {
+          "text": "そば"
+        }
+      ],
+      "reading": "そば",
+      "romaji": "soba",
+      "meaning": "buckwheat noodles",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:将軍|しょうぐん",
+      "japanese": "将軍",
+      "japaneseSegments": [
+        {
+          "base": "将軍",
+          "reading": "しょうぐん"
+        }
+      ],
+      "reading": "しょうぐん",
+      "romaji": "shōgun",
+      "meaning": "military ruler",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:皇居|こうきょ",
+      "japanese": "皇居",
+      "japaneseSegments": [
+        {
+          "base": "皇居",
+          "reading": "こうきょ"
+        }
+      ],
+      "reading": "こうきょ",
+      "romaji": "Kōkyo",
+      "meaning": "Imperial Palace",
+      "firstPassage": 7,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:お花見|おはなみ",
+      "japanese": "お花見",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "花",
+          "reading": "はな"
+        },
+        {
+          "base": "見",
+          "reading": "み"
+        }
+      ],
+      "reading": "おはなみ",
+      "romaji": "ohanami",
+      "meaning": "cherry blossom viewing",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:祭り|まつり",
+      "japanese": "祭り",
+      "japaneseSegments": [
+        {
+          "base": "祭",
+          "reading": "まつ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "reading": "まつり",
+      "romaji": "matsuri",
+      "meaning": "festival",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:日本庭園|にほんていえん",
+      "japanese": "日本庭園",
+      "japaneseSegments": [
+        {
+          "base": "日本",
+          "reading": "にほん"
+        },
+        {
+          "base": "庭園",
+          "reading": "ていえん"
+        }
+      ],
+      "reading": "にほんていえん",
+      "romaji": "Nihon teien",
+      "meaning": "Japanese garden",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:花火大会|はなびたいかい",
+      "japanese": "花火大会",
+      "japaneseSegments": [
+        {
+          "base": "花火大会",
+          "reading": "はなびたいかい"
+        }
+      ],
+      "reading": "はなびたいかい",
+      "romaji": "hanabi taikai",
+      "meaning": "fireworks festival",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:白鷺|しらさぎ",
+      "japanese": "白鷺",
+      "japaneseSegments": [
+        {
+          "base": "白鷺",
+          "reading": "しらさぎ"
+        }
+      ],
+      "reading": "しらさぎ",
+      "romaji": "shirasagi",
+      "meaning": "white heron",
+      "firstPassage": 17,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:門|もん",
+      "japanese": "門",
+      "japaneseSegments": [
+        {
+          "base": "門",
+          "reading": "もん"
+        }
+      ],
+      "reading": "もん",
+      "romaji": "mon",
+      "meaning": "gate",
+      "firstPassage": 18,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:屋根|やね",
+      "japanese": "屋根",
+      "japaneseSegments": [
+        {
+          "base": "屋根",
+          "reading": "やね"
+        }
+      ],
+      "reading": "やね",
+      "romaji": "yane",
+      "meaning": "roof",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:侍|さむらい",
+      "japanese": "侍",
+      "japaneseSegments": [
+        {
+          "base": "侍",
+          "reading": "さむらい"
+        }
+      ],
+      "reading": "さむらい",
+      "romaji": "samurai",
+      "meaning": "samurai",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:和菓子|わがし",
+      "japanese": "和菓子",
+      "japaneseSegments": [
+        {
+          "base": "和菓子",
+          "reading": "わがし"
+        }
+      ],
+      "reading": "わがし",
+      "romaji": "wagashi",
+      "meaning": "traditional Japanese sweets",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:雲|くも",
+      "japanese": "雲",
+      "japaneseSegments": [
+        {
+          "base": "雲",
+          "reading": "くも"
+        }
+      ],
+      "reading": "くも",
+      "romaji": "kumo",
+      "meaning": "cloud",
+      "firstPassage": 21,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:地震|じしん",
+      "japanese": "地震",
+      "japaneseSegments": [
+        {
+          "base": "地震",
+          "reading": "じしん"
+        }
+      ],
+      "reading": "じしん",
+      "romaji": "jishin",
+      "meaning": "earthquake",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:修理|しゅうり",
+      "japanese": "修理",
+      "japaneseSegments": [
+        {
+          "base": "修理",
+          "reading": "しゅうり"
+        }
+      ],
+      "reading": "しゅうり",
+      "romaji": "shūri",
+      "meaning": "repair",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:王様|おうさま",
+      "japanese": "王様",
+      "japaneseSegments": [
+        {
+          "base": "王様",
+          "reading": "おうさま"
+        }
+      ],
+      "reading": "おうさま",
+      "romaji": "ōsama",
+      "meaning": "king",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:龍|りゅう",
+      "japanese": "龍",
+      "japaneseSegments": [
+        {
+          "base": "龍",
+          "reading": "りゅう"
+        }
+      ],
+      "reading": "りゅう",
+      "romaji": "ryū",
+      "meaning": "dragon",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:火事|かじ",
+      "japanese": "火事",
+      "japaneseSegments": [
+        {
+          "base": "火事",
+          "reading": "かじ"
+        }
+      ],
+      "reading": "かじ",
+      "romaji": "kaji",
+      "meaning": "fire",
+      "firstPassage": 26,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N ga arimasu",
+      "pattern": "N ga arimasu",
+      "patternSegments": [
+        {
+          "text": "N ga arimasu"
+        }
+      ],
+      "explanation": "This pattern says that something exists or is present; the thing that exists is the subject.",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N mo",
+      "pattern": "N mo",
+      "patternSegments": [
+        {
+          "text": "N mo"
+        }
+      ],
+      "explanation": "This pattern adds the meaning “also” or emphasizes an unexpectedly large amount, depending on context.",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:N kara",
+      "pattern": "N kara",
+      "patternSegments": [
+        {
+          "text": "N kara"
+        }
+      ],
+      "explanation": "This pattern marks a starting point in time or space, meaning “from” or “since.”",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-mashō",
+      "pattern": "V-mashō",
+      "patternSegments": [
+        {
+          "text": "V-mashō"
+        }
+      ],
+      "explanation": "This pattern uses the polite volitional form to make a friendly suggestion, meaning “let’s do.”",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N ni N ga imasu",
+      "pattern": "N ni N ga imasu",
+      "patternSegments": [
+        {
+          "text": "N ni N ga imasu"
+        }
+      ],
+      "explanation": "This pattern describes a person or living thing being in a place; the place is marked as the location and the living thing as the subject.",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    }
+  ]
+}

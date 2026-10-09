@@ -1,0 +1,636 @@
+{
+  "id": "level1-kimono",
+  "name": "Kimono",
+  "japaneseTitle": "着物",
+  "slug": "level1-kimono",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-kimono/source.pdf",
+  "ocrR2Key": "books/level1-kimono/source-ocr.txt",
+  "coverR2Key": "books/level1-kimono/cover.jpg",
+  "htmlR2Key": "books/level1-kimono/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 525,
+  "createdAt": "2026-10-09T15:42:08.479Z",
+  "updatedAt": "2026-10-09T15:42:08.479Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:着物|きもの",
+        "japanese": "着物",
+        "japaneseSegments": [
+          {
+            "base": "着物",
+            "reading": "きもの"
+          }
+        ],
+        "reading": "きもの",
+        "romaji": "kimono",
+        "meaning": "Traditional Japanese garment worn wrapped around the body.",
+        "firstPassage": 1,
+        "occurrenceCount": 20
+      },
+      {
+        "key": "vocabulary:いろいろ|いろいろ",
+        "japanese": "いろいろ",
+        "japaneseSegments": [
+          {
+            "text": "いろいろ"
+          }
+        ],
+        "reading": "いろいろ",
+        "romaji": "iroiro",
+        "meaning": "Various; many different kinds.",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:生まれる|うまれる",
+        "japanese": "生まれる",
+        "japaneseSegments": [
+          {
+            "base": "生",
+            "reading": "う"
+          },
+          {
+            "text": "まれる"
+          }
+        ],
+        "reading": "うまれる",
+        "romaji": "umareru",
+        "meaning": "To be born; to originate.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:小袖|こそで",
+        "japanese": "小袖",
+        "japaneseSegments": [
+          {
+            "base": "小袖",
+            "reading": "こそで"
+          }
+        ],
+        "reading": "こそで",
+        "romaji": "kosode",
+        "meaning": "A traditional short-sleeved garment and predecessor of the modern kimono.",
+        "firstPassage": 2,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:袴|はかま",
+        "japanese": "袴",
+        "japaneseSegments": [
+          {
+            "base": "袴",
+            "reading": "はかま"
+          }
+        ],
+        "reading": "はかま",
+        "romaji": "hakama",
+        "meaning": "Traditional divided skirt or trousers worn over a kimono.",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:着る|きる",
+        "japanese": "着る",
+        "japaneseSegments": [
+          {
+            "base": "着",
+            "reading": "き"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "きる",
+        "romaji": "kiru",
+        "meaning": "To wear clothing on the upper body or over other clothes.",
+        "firstPassage": 2,
+        "occurrenceCount": 17
+      },
+      {
+        "key": "vocabulary:帯|おび",
+        "japanese": "帯",
+        "japaneseSegments": [
+          {
+            "base": "帯",
+            "reading": "おび"
+          }
+        ],
+        "reading": "おび",
+        "romaji": "obi",
+        "meaning": "A sash tied around a kimono.",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:洋服|ようふく",
+        "japanese": "洋服",
+        "japaneseSegments": [
+          {
+            "base": "洋服",
+            "reading": "ようふく"
+          }
+        ],
+        "reading": "ようふく",
+        "romaji": "yōfuku",
+        "meaning": "Western-style clothes.",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:お宮参り|おみやまいり",
+        "japanese": "お宮参り",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "宮",
+            "reading": "みや"
+          },
+          {
+            "base": "参",
+            "reading": "まい"
+          },
+          {
+            "text": "り"
+          }
+        ],
+        "reading": "おみやまいり",
+        "romaji": "omiyamairi",
+        "meaning": "A baby's first visit to a shrine, traditionally around one month after birth.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:神社|じんじゃ",
+        "japanese": "神社",
+        "japaneseSegments": [
+          {
+            "base": "神社",
+            "reading": "じんじゃ"
+          }
+        ],
+        "reading": "じんじゃ",
+        "romaji": "jinja",
+        "meaning": "Shinto shrine.",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:七五三|しちごさん",
+        "japanese": "七五三",
+        "japaneseSegments": [
+          {
+            "base": "七五三",
+            "reading": "しちごさん"
+          }
+        ],
+        "reading": "しちごさん",
+        "romaji": "shichi-go-san",
+        "meaning": "A celebration for girls aged three and seven and boys aged five.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:成人式|せいじんしき",
+        "japanese": "成人式",
+        "japaneseSegments": [
+          {
+            "base": "成人式",
+            "reading": "せいじんしき"
+          }
+        ],
+        "reading": "せいじんしき",
+        "romaji": "seijinshiki",
+        "meaning": "Coming-of-age ceremony.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:二十歳|はたち",
+        "japanese": "二十歳",
+        "japaneseSegments": [
+          {
+            "base": "二十歳",
+            "reading": "はたち"
+          }
+        ],
+        "reading": "はたち",
+        "romaji": "hatachi",
+        "meaning": "Twenty years old; the age of adulthood in this story.",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:卒業式|そつぎょうしき",
+        "japanese": "卒業式",
+        "japaneseSegments": [
+          {
+            "base": "卒業式",
+            "reading": "そつぎょうしき"
+          }
+        ],
+        "reading": "そつぎょうしき",
+        "romaji": "sotsugyōshiki",
+        "meaning": "Graduation ceremony.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:勉強|べんきょう",
+        "japanese": "勉強",
+        "japaneseSegments": [
+          {
+            "base": "勉強",
+            "reading": "べんきょう"
+          }
+        ],
+        "reading": "べんきょう",
+        "romaji": "benkyō",
+        "meaning": "Study; studying.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:結婚式|けっこんしき",
+        "japanese": "結婚式",
+        "japaneseSegments": [
+          {
+            "base": "結婚式",
+            "reading": "けっこんしき"
+          }
+        ],
+        "reading": "けっこんしき",
+        "romaji": "kekkonshiki",
+        "meaning": "Wedding ceremony.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:花嫁|はなよめ",
+        "japanese": "花嫁",
+        "japaneseSegments": [
+          {
+            "base": "花嫁",
+            "reading": "はなよめ"
+          }
+        ],
+        "reading": "はなよめ",
+        "romaji": "hanayome",
+        "meaning": "Bride.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:打ち掛け|うちかけ",
+        "japanese": "打ち掛け",
+        "japaneseSegments": [
+          {
+            "base": "打",
+            "reading": "う"
+          },
+          {
+            "text": "ち"
+          },
+          {
+            "base": "掛",
+            "reading": "か"
+          },
+          {
+            "text": "け"
+          }
+        ],
+        "reading": "うちかけ",
+        "romaji": "uchikake",
+        "meaning": "A formal, often ornate outer kimono worn by a bride.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:花婿|はなむこ",
+        "japanese": "花婿",
+        "japaneseSegments": [
+          {
+            "base": "花婿",
+            "reading": "はなむこ"
+          }
+        ],
+        "reading": "はなむこ",
+        "romaji": "hanamuko",
+        "meaning": "Groom.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:羽織|はおり",
+        "japanese": "羽織",
+        "japaneseSegments": [
+          {
+            "base": "羽織",
+            "reading": "はおり"
+          }
+        ],
+        "reading": "はおり",
+        "romaji": "haori",
+        "meaning": "A traditional jacket worn over a kimono.",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:留袖|とめそで",
+        "japanese": "留袖",
+        "japaneseSegments": [
+          {
+            "base": "留袖",
+            "reading": "とめそで"
+          }
+        ],
+        "reading": "とめそで",
+        "romaji": "tomesode",
+        "meaning": "A formal kimono, often worn by married women at ceremonies.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:モーニング|もーにんぐ",
+        "japanese": "モーニング",
+        "japaneseSegments": [
+          {
+            "text": "モーニング"
+          }
+        ],
+        "reading": "もーにんぐ",
+        "romaji": "mōningu",
+        "meaning": "Formal morning coat.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:布|ぬの",
+        "japanese": "布",
+        "japaneseSegments": [
+          {
+            "base": "布",
+            "reading": "ぬの"
+          }
+        ],
+        "reading": "ぬの",
+        "romaji": "nuno",
+        "meaning": "Cloth; fabric.",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:切る|きる",
+        "japanese": "切る",
+        "japaneseSegments": [
+          {
+            "base": "切",
+            "reading": "き"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "きる",
+        "romaji": "kiru",
+        "meaning": "To cut.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:足袋|たび",
+        "japanese": "足袋",
+        "japaneseSegments": [
+          {
+            "base": "足袋",
+            "reading": "たび"
+          }
+        ],
+        "reading": "たび",
+        "romaji": "tabi",
+        "meaning": "Traditional split-toe socks worn with sandals.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:裾よけ|すそよけ",
+        "japanese": "裾よけ",
+        "japaneseSegments": [
+          {
+            "base": "裾",
+            "reading": "すそ"
+          },
+          {
+            "text": "よけ"
+          }
+        ],
+        "reading": "すそよけ",
+        "romaji": "suso-yoke",
+        "meaning": "An undergarment worn below the waist under a kimono.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:肌襦袢|はだじゅばん",
+        "japanese": "肌襦袢",
+        "japaneseSegments": [
+          {
+            "base": "肌襦袢",
+            "reading": "はだじゅばん"
+          }
+        ],
+        "reading": "はだじゅばん",
+        "romaji": "hadajuban",
+        "meaning": "A light undergarment worn next to the skin under a kimono.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:長襦袢|ながじゅばん",
+        "japanese": "長襦袢",
+        "japaneseSegments": [
+          {
+            "base": "長襦袢",
+            "reading": "ながじゅばん"
+          }
+        ],
+        "reading": "ながじゅばん",
+        "romaji": "nagajuban",
+        "meaning": "A long under-kimono worn over the hadajuban.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:雪駄|せった",
+        "japanese": "雪駄",
+        "japaneseSegments": [
+          {
+            "base": "雪駄",
+            "reading": "せった"
+          }
+        ],
+        "reading": "せった",
+        "romaji": "setta",
+        "meaning": "Traditional flat sandals.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:浴衣|ゆかた",
+        "japanese": "浴衣",
+        "japaneseSegments": [
+          {
+            "base": "浴衣",
+            "reading": "ゆかた"
+          }
+        ],
+        "reading": "ゆかた",
+        "romaji": "yukata",
+        "meaning": "A light summer kimono, often made of cotton.",
+        "firstPassage": 11,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:おはしょり|おはしょり",
+        "japanese": "おはしょり",
+        "japaneseSegments": [
+          {
+            "text": "おはしょり"
+          }
+        ],
+        "reading": "おはしょり",
+        "romaji": "ohashori",
+        "meaning": "The folded excess length of a kimono at the waist.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:花火大会|はなびたいかい",
+        "japanese": "花火大会",
+        "japaneseSegments": [
+          {
+            "base": "花火",
+            "reading": "はなび"
+          },
+          {
+            "base": "大会",
+            "reading": "たいかい"
+          }
+        ],
+        "reading": "はなびたいかい",
+        "romaji": "hanabi taikai",
+        "meaning": "Fireworks festival.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N mo N mo",
+        "pattern": "N mo N mo",
+        "patternSegments": [
+          {
+            "text": "N mo N mo"
+          }
+        ],
+        "explanation": "Connects two nouns to say that both are included: “both N and N.”",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N no ue ni",
+        "pattern": "N no ue ni",
+        "patternSegments": [
+          {
+            "text": "N no ue ni"
+          }
+        ],
+        "explanation": "Means “on top of N” or “over N,” often describing layers of clothing.",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:number + gurai",
+        "pattern": "number + gurai",
+        "patternSegments": [
+          {
+            "text": "number + gurai"
+          }
+        ],
+        "explanation": "Adds an approximate amount or number: “about” or “approximately.”",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:sentence + kara",
+        "pattern": "sentence + kara",
+        "patternSegments": [
+          {
+            "text": "sentence + kara"
+          }
+        ],
+        "explanation": "Gives a reason, meaning “because” or “since.”",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-masen",
+        "pattern": "V-masen",
+        "patternSegments": [
+          {
+            "text": "V-masen"
+          }
+        ],
+        "explanation": "The polite negative verb form, meaning “do not” or “does not.”",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N kara",
+        "pattern": "N kara",
+        "patternSegments": [
+          {
+            "text": "N kara"
+          }
+        ],
+        "explanation": "Marks a starting point or source, meaning “from N.”",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N dake",
+        "pattern": "N dake",
+        "patternSegments": [
+          {
+            "text": "N dake"
+          }
+        ],
+        "explanation": "Means “only N” or “N alone.”",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-mashou",
+        "pattern": "V-mashou",
+        "patternSegments": [
+          {
+            "text": "V-mashou"
+          }
+        ],
+        "explanation": "A polite invitation or suggestion: “let's do something.”",
+        "firstPassage": 11,
+        "occurrenceCount": 3
+      }
+    ]
+  }
+}

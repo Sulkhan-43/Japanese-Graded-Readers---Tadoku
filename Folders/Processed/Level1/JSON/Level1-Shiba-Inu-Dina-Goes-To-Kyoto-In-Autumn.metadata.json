@@ -1,0 +1,624 @@
+{
+  "id": "level1-shiba-inu-dina-goes-to-kyoto-in-autumn",
+  "name": "Shiba Inu Dina Goes to Kyoto in Autumn!",
+  "japaneseTitle": "柴犬ディナちゃん、秋の京都へ行く！",
+  "slug": "level1-shiba-inu-dina-goes-to-kyoto-in-autumn",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-shiba-inu-dina-goes-to-kyoto-in-autumn/source.pdf",
+  "ocrR2Key": "books/level1-shiba-inu-dina-goes-to-kyoto-in-autumn/source-ocr.txt",
+  "coverR2Key": "books/level1-shiba-inu-dina-goes-to-kyoto-in-autumn/cover.jpg",
+  "htmlR2Key": "books/level1-shiba-inu-dina-goes-to-kyoto-in-autumn/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 220,
+  "createdAt": "2026-10-09T16:44:08.829Z",
+  "updatedAt": "2026-10-09T16:44:08.829Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:柴犬|しばいぬ",
+        "japanese": "柴犬",
+        "japaneseSegments": [
+          {
+            "base": "柴犬",
+            "reading": "しばいぬ"
+          }
+        ],
+        "reading": "しばいぬ",
+        "romaji": "shiba inu",
+        "meaning": "Shiba Inu; a Japanese dog breed",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:京都|きょうと",
+        "japanese": "京都",
+        "japaneseSegments": [
+          {
+            "base": "京都",
+            "reading": "きょうと"
+          }
+        ],
+        "reading": "きょうと",
+        "romaji": "Kyōto",
+        "meaning": "Kyoto",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:行く|いく",
+        "japanese": "行く",
+        "japaneseSegments": [
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "いく",
+        "romaji": "iku",
+        "meaning": "to go",
+        "firstPassage": 1,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:ロシア|ろしあ",
+        "japanese": "ロシア",
+        "japaneseSegments": [
+          {
+            "text": "ロシア"
+          }
+        ],
+        "reading": "ろしあ",
+        "romaji": "Roshia",
+        "meaning": "Russia",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:サンクトペテルブルグ|さんくとぺてるぶるぐ",
+        "japanese": "サンクトペテルブルグ",
+        "japaneseSegments": [
+          {
+            "text": "サンクトペテルブルグ"
+          }
+        ],
+        "reading": "さんくとぺてるぶるぐ",
+        "romaji": "Sankuto Peteruburugu",
+        "meaning": "Saint Petersburg",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:関西空港|かんさいくうこう",
+        "japanese": "関西空港",
+        "japaneseSegments": [
+          {
+            "base": "関西空港",
+            "reading": "かんさいくうこう"
+          }
+        ],
+        "reading": "かんさいくうこう",
+        "romaji": "Kansai Kūkō",
+        "meaning": "Kansai Airport",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:着く|つく",
+        "japanese": "着く",
+        "japaneseSegments": [
+          {
+            "base": "着",
+            "reading": "つ"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "つく",
+        "romaji": "tsuku",
+        "meaning": "to arrive",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:すっげー|すっげー",
+        "japanese": "すっげー",
+        "japaneseSegments": [
+          {
+            "text": "すっげー"
+          }
+        ],
+        "reading": "すっげー",
+        "romaji": "suggē",
+        "meaning": "awesome; amazing (very casual)",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:旅館|りょかん",
+        "japanese": "旅館",
+        "japaneseSegments": [
+          {
+            "base": "旅館",
+            "reading": "りょかん"
+          }
+        ],
+        "reading": "りょかん",
+        "romaji": "ryokan",
+        "meaning": "Japanese-style inn",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:疲れる|つかれる",
+        "japanese": "疲れる",
+        "japaneseSegments": [
+          {
+            "base": "疲",
+            "reading": "つか"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "つかれる",
+        "romaji": "tsukareru",
+        "meaning": "to get tired",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:散歩|さんぽ",
+        "japanese": "散歩",
+        "japaneseSegments": [
+          {
+            "base": "散歩",
+            "reading": "さんぽ"
+          }
+        ],
+        "reading": "さんぽ",
+        "romaji": "sanpo",
+        "meaning": "walk; stroll",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:食べる|たべる",
+        "japanese": "食べる",
+        "japaneseSegments": [
+          {
+            "base": "食",
+            "reading": "た"
+          },
+          {
+            "text": "べる"
+          }
+        ],
+        "reading": "たべる",
+        "romaji": "taberu",
+        "meaning": "to eat",
+        "firstPassage": 4,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:ラーメン|らーめん",
+        "japanese": "ラーメン",
+        "japaneseSegments": [
+          {
+            "text": "ラーメン"
+          }
+        ],
+        "reading": "らーめん",
+        "romaji": "rāmen",
+        "meaning": "ramen",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:着物|きもの",
+        "japanese": "着物",
+        "japaneseSegments": [
+          {
+            "base": "着物",
+            "reading": "きもの"
+          }
+        ],
+        "reading": "きもの",
+        "romaji": "kimono",
+        "meaning": "kimono; traditional Japanese clothing",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:着る|きる",
+        "japanese": "着る",
+        "japaneseSegments": [
+          {
+            "base": "着",
+            "reading": "き"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "きる",
+        "romaji": "kiru",
+        "meaning": "to wear (clothing)",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:歩く|あるく",
+        "japanese": "歩く",
+        "japaneseSegments": [
+          {
+            "base": "歩",
+            "reading": "ある"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "あるく",
+        "romaji": "aruku",
+        "meaning": "to walk",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:舞妓|まいこ",
+        "japanese": "舞妓",
+        "japaneseSegments": [
+          {
+            "base": "舞妓",
+            "reading": "まいこ"
+          }
+        ],
+        "reading": "まいこ",
+        "romaji": "maiko",
+        "meaning": "apprentice geisha in Kyoto",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:金閣寺|きんかくじ",
+        "japanese": "金閣寺",
+        "japaneseSegments": [
+          {
+            "base": "金閣寺",
+            "reading": "きんかくじ"
+          }
+        ],
+        "reading": "きんかくじ",
+        "romaji": "Kinkakuji",
+        "meaning": "Kinkakuji, the Golden Pavilion temple",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:竜安寺|りょうあんじ",
+        "japanese": "竜安寺",
+        "japaneseSegments": [
+          {
+            "base": "竜安寺",
+            "reading": "りょうあんじ"
+          }
+        ],
+        "reading": "りょうあんじ",
+        "romaji": "Ryōanji",
+        "meaning": "Ryoanji temple",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:清水寺|きよみずでら",
+        "japanese": "清水寺",
+        "japaneseSegments": [
+          {
+            "base": "清水寺",
+            "reading": "きよみずでら"
+          }
+        ],
+        "reading": "きよみずでら",
+        "romaji": "Kiyomizudera",
+        "meaning": "Kiyomizudera temple",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:初めて|はじめて",
+        "japanese": "初めて",
+        "japaneseSegments": [
+          {
+            "base": "初",
+            "reading": "はじ"
+          },
+          {
+            "text": "めて"
+          }
+        ],
+        "reading": "はじめて",
+        "romaji": "hajimete",
+        "meaning": "for the first time",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:あめ|あめ",
+        "japanese": "あめ",
+        "japaneseSegments": [
+          {
+            "text": "あめ"
+          }
+        ],
+        "reading": "あめ",
+        "romaji": "ame",
+        "meaning": "candy; sweets",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:団子|だんご",
+        "japanese": "団子",
+        "japaneseSegments": [
+          {
+            "base": "団子",
+            "reading": "だんご"
+          }
+        ],
+        "reading": "だんご",
+        "romaji": "dango",
+        "meaning": "dango; Japanese rice dumplings",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:暗い|くらい",
+        "japanese": "暗い",
+        "japaneseSegments": [
+          {
+            "base": "暗",
+            "reading": "くら"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "くらい",
+        "romaji": "kurai",
+        "meaning": "dark",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:鴨川|かもがわ",
+        "japanese": "鴨川",
+        "japaneseSegments": [
+          {
+            "base": "鴨川",
+            "reading": "かもがわ"
+          }
+        ],
+        "reading": "かもがわ",
+        "romaji": "Kamogawa",
+        "meaning": "Kamo River in Kyoto",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:帰る|かえる",
+        "japanese": "帰る",
+        "japaneseSegments": [
+          {
+            "base": "帰",
+            "reading": "かえ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return; to go back",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:居酒屋|いざかや",
+        "japanese": "居酒屋",
+        "japaneseSegments": [
+          {
+            "base": "居酒屋",
+            "reading": "いざかや"
+          }
+        ],
+        "reading": "いざかや",
+        "romaji": "izakaya",
+        "meaning": "Japanese-style pub",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:乾杯|かんぱい",
+        "japanese": "乾杯",
+        "japaneseSegments": [
+          {
+            "base": "乾杯",
+            "reading": "かんぱい"
+          }
+        ],
+        "reading": "かんぱい",
+        "romaji": "kanpai",
+        "meaning": "cheers; a toast",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:えだまめ|えだまめ",
+        "japanese": "えだまめ",
+        "japaneseSegments": [
+          {
+            "text": "えだまめ"
+          }
+        ],
+        "reading": "えだまめ",
+        "romaji": "edamame",
+        "meaning": "edamame; young soybeans",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:verb stem + tai",
+        "pattern": "verb stem + tai",
+        "patternSegments": [
+          {
+            "text": "V-stem + たい"
+          }
+        ],
+        "explanation": "Attach tai to a verb stem to say that someone wants to do something.",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:verb stem + mashō",
+        "pattern": "verb stem + mashō",
+        "patternSegments": [
+          {
+            "text": "V-stem + ましょう"
+          }
+        ],
+        "explanation": "Attach mashō to a verb stem to make a polite suggestion or invitation, meaning “let's.”",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:destination + iku",
+        "pattern": "destination + iku",
+        "patternSegments": [
+          {
+            "text": "Nへ/に + "
+          },
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "explanation": "Use e or ni after a destination before iku, meaning to go to that place.",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:destination + ni + tsuku",
+        "pattern": "destination + ni + tsuku",
+        "patternSegments": [
+          {
+            "text": "Nに "
+          },
+          {
+            "base": "着",
+            "reading": "つ"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "explanation": "Use ni with tsuku to say that someone arrives at a place.",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:te-form + iru",
+        "pattern": "te-form + iru",
+        "patternSegments": [
+          {
+            "text": "V-て + いる"
+          }
+        ],
+        "explanation": "This form can describe an ongoing action or a state that continues; here it describes being tired.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:i-adjective stem + sō",
+        "pattern": "i-adjective stem + sō",
+        "patternSegments": [
+          {
+            "text": "i-adjective stem + そう"
+          }
+        ],
+        "explanation": "Add sō to an i-adjective stem to say that something looks or seems a certain way.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:i-adjective + ku naru",
+        "pattern": "i-adjective + ku naru",
+        "patternSegments": [
+          {
+            "text": "i-adjective + くなる"
+          }
+        ],
+        "explanation": "Change an i-adjective ending to ku before naru to describe becoming that way.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:verb stem + taku nai",
+        "pattern": "verb stem + taku nai",
+        "patternSegments": [
+          {
+            "text": "V-stem + たくない"
+          }
+        ],
+        "explanation": "This negative form expresses not wanting to do something.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N kara kuru",
+        "pattern": "N kara kuru",
+        "patternSegments": [
+          {
+            "text": "Nから "
+          },
+          {
+            "base": "来",
+            "reading": "く"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "explanation": "Kara marks where someone comes from; kuru means to come.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:plain past + no?",
+        "pattern": "plain past + no?",
+        "patternSegments": [
+          {
+            "text": "plain past + の？"
+          }
+        ],
+        "explanation": "Adding no to a plain-form question can ask for confirmation or an explanation.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:家族|かぞく",
+      "japanese": "家族",
+      "japaneseSegments": [
+        {
+          "base": "家族",
+          "reading": "かぞく"
+        }
+      ],
+      "reading": "かぞく",
+      "romaji": "kazoku",
+      "meaning": "family",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:子うさぎ|こうさぎ",
+      "japanese": "子うさぎ",
+      "japaneseSegments": [
+        {
+          "base": "子",
+          "reading": "こ"
+        },
+        {
+          "text": "うさぎ"
+        }
+      ],
+      "reading": "こうさぎ",
+      "romaji": "kōusagi",
+      "meaning": "baby rabbit",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:お母さん|おかあさん",
+      "japanese": "お母さん",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "母",
+          "reading": "かあ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "reading": "おかあさん",
+      "romaji": "okāsan",
+      "meaning": "mother; mom",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:子ども|こども",
+      "japanese": "子ども",
+      "japaneseSegments": [
+        {
+          "base": "子",
+          "reading": "こ"
+        },
+        {
+          "text": "ども"
+        }
+      ],
+      "reading": "こども",
+      "romaji": "kodomo",
+      "meaning": "child",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:外|そと",
+      "japanese": "外",
+      "japaneseSegments": [
+        {
+          "base": "外",
+          "reading": "そと"
+        }
+      ],
+      "reading": "そと",
+      "romaji": "soto",
+      "meaning": "outside",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:遊ぶ|あそぶ",
+      "japanese": "遊ぶ",
+      "japaneseSegments": [
+        {
+          "base": "遊",
+          "reading": "あそ"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "reading": "あそぶ",
+      "romaji": "asobu",
+      "meaning": "to play",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:行く|いく",
+      "japanese": "行く",
+      "japaneseSegments": [
+        {
+          "base": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "いく",
+      "romaji": "iku",
+      "meaning": "to go; includes the set expressions for leaving and returning",
+      "firstPassage": 2,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:家|いえ",
+      "japanese": "家",
+      "japaneseSegments": [
+        {
+          "base": "家",
+          "reading": "いえ"
+        }
+      ],
+      "reading": "いえ",
+      "romaji": "ie",
+      "meaning": "house; home",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:怖い|こわい",
+      "japanese": "怖い",
+      "japaneseSegments": [
+        {
+          "base": "怖",
+          "reading": "こわ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "こわい",
+      "romaji": "kowai",
+      "meaning": "scary; frightening",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:近く|ちかく",
+      "japanese": "近く",
+      "japaneseSegments": [
+        {
+          "base": "近",
+          "reading": "ちか"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "ちかく",
+      "romaji": "chikaku",
+      "meaning": "nearby; near",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ブラックベリー|ぶらっくべりー",
+      "japanese": "ブラックベリー",
+      "japaneseSegments": [
+        {
+          "text": "ブラックベリー"
+        }
+      ],
+      "reading": "ぶらっくべりー",
+      "romaji": "burakkuberī",
+      "meaning": "blackberry",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:木戸|きど",
+      "japanese": "木戸",
+      "japaneseSegments": [
+        {
+          "base": "木戸",
+          "reading": "きど"
+        }
+      ],
+      "reading": "きど",
+      "romaji": "kido",
+      "meaning": "gate; wooden gate",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:入る|はいる",
+      "japanese": "入る",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "はい"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "はいる",
+      "romaji": "hairu",
+      "meaning": "to enter; to go in",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:畑|はたけ",
+      "japanese": "畑",
+      "japaneseSegments": [
+        {
+          "base": "畑",
+          "reading": "はたけ"
+        }
+      ],
+      "reading": "はたけ",
+      "romaji": "hatake",
+      "meaning": "field; vegetable patch",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:にんじん|にんじん",
+      "japanese": "にんじん",
+      "japaneseSegments": [
+        {
+          "text": "にんじん"
+        }
+      ],
+      "reading": "にんじん",
+      "romaji": "ninjin",
+      "meaning": "carrot",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:食べる|たべる",
+      "japanese": "食べる",
+      "japaneseSegments": [
+        {
+          "base": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "reading": "たべる",
+      "romaji": "taberu",
+      "meaning": "to eat",
+      "firstPassage": 6,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:歩く|あるく",
+      "japanese": "歩く",
+      "japaneseSegments": [
+        {
+          "base": "歩",
+          "reading": "ある"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "あるく",
+      "romaji": "aruku",
+      "meaning": "to walk",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:走る|はしる",
+      "japanese": "走る",
+      "japaneseSegments": [
+        {
+          "base": "走",
+          "reading": "はし"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "はしる",
+      "romaji": "hashiru",
+      "meaning": "to run",
+      "firstPassage": 9,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:待つ|まつ",
+      "japanese": "待つ",
+      "japaneseSegments": [
+        {
+          "base": "待",
+          "reading": "ま"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "reading": "まつ",
+      "romaji": "matsu",
+      "meaning": "to wait; used here as a command to stop",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:どろぼう|どろぼう",
+      "japanese": "どろぼう",
+      "japaneseSegments": [
+        {
+          "text": "どろぼう"
+        }
+      ],
+      "reading": "どろぼう",
+      "romaji": "dorobō",
+      "meaning": "thief",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:痛い|いたい",
+      "japanese": "痛い",
+      "japaneseSegments": [
+        {
+          "base": "痛",
+          "reading": "いた"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "いたい",
+      "romaji": "itai",
+      "meaning": "painful; hurts",
+      "firstPassage": 11,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:泣く|なく",
+      "japanese": "泣く",
+      "japaneseSegments": [
+        {
+          "base": "泣",
+          "reading": "な"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "なく",
+      "romaji": "naku",
+      "meaning": "to cry",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:鳥|とり",
+      "japanese": "鳥",
+      "japaneseSegments": [
+        {
+          "base": "鳥",
+          "reading": "とり"
+        }
+      ],
+      "reading": "とり",
+      "romaji": "tori",
+      "meaning": "bird",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:来る|くる",
+      "japanese": "来る",
+      "japaneseSegments": [
+        {
+          "base": "来",
+          "reading": "く"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "くる",
+      "romaji": "kuru",
+      "meaning": "to come",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:また|また",
+      "japanese": "また",
+      "japaneseSegments": [
+        {
+          "text": "また"
+        }
+      ],
+      "reading": "また",
+      "romaji": "mata",
+      "meaning": "again",
+      "firstPassage": 12,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:帰る|かえる",
+      "japanese": "帰る",
+      "japaneseSegments": [
+        {
+          "base": "帰",
+          "reading": "かえ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "かえる",
+      "romaji": "kaeru",
+      "meaning": "to return; to go home",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:道|みち",
+      "japanese": "道",
+      "japaneseSegments": [
+        {
+          "base": "道",
+          "reading": "みち"
+        }
+      ],
+      "reading": "みち",
+      "romaji": "michi",
+      "meaning": "way; road",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:疲れる|つかれる",
+      "japanese": "疲れる",
+      "japaneseSegments": [
+        {
+          "base": "疲",
+          "reading": "つか"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "つかれる",
+      "romaji": "tsukareru",
+      "meaning": "to get tired",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:寝る|ねる",
+      "japanese": "寝る",
+      "japaneseSegments": [
+        {
+          "base": "寝",
+          "reading": "ね"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "ねる",
+      "romaji": "neru",
+      "meaning": "to sleep; to go to bed",
+      "firstPassage": 17,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:服|ふく",
+      "japanese": "服",
+      "japaneseSegments": [
+        {
+          "base": "服",
+          "reading": "ふく"
+        }
+      ],
+      "reading": "ふく",
+      "romaji": "fuku",
+      "meaning": "clothes",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:たくさん|たくさん",
+      "japanese": "たくさん",
+      "japaneseSegments": [
+        {
+          "text": "たくさん"
+        }
+      ],
+      "reading": "たくさん",
+      "romaji": "takusan",
+      "meaning": "a lot; many",
+      "firstPassage": 18,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:薬|くすり",
+      "japanese": "薬",
+      "japaneseSegments": [
+        {
+          "base": "薬",
+          "reading": "くすり"
+        }
+      ],
+      "reading": "くすり",
+      "romaji": "kusuri",
+      "meaning": "medicine",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:作る|つくる",
+      "japanese": "作る",
+      "japaneseSegments": [
+        {
+          "base": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "つくる",
+      "romaji": "tsukuru",
+      "meaning": "to make",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:何も|なにも",
+      "japanese": "何も",
+      "japaneseSegments": [
+        {
+          "base": "何",
+          "reading": "なに"
+        },
+        {
+          "text": "も"
+        }
+      ],
+      "reading": "なにも",
+      "romaji": "nani mo",
+      "meaning": "anything; with a negative verb, nothing",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N no N",
+      "pattern": "N no N",
+      "patternSegments": [
+        {
+          "text": "N no N"
+        }
+      ],
+      "explanation": "Links two nouns; the first noun describes or belongs to the second, as in “the family of rabbits.”",
+      "firstPassage": 1,
+      "occurrenceCount": 15
+    },
+    {
+      "key": "grammar:N ga imasu",
+      "pattern": "N ga imasu",
+      "patternSegments": [
+        {
+          "text": "N ga imasu"
+        }
+      ],
+      "explanation": "Imasu states that a person or animal exists or is present; ga marks that subject.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-tai",
+      "pattern": "V-tai",
+      "patternSegments": [
+        {
+          "text": "V-tai"
+        }
+      ],
+      "explanation": "Attach tai to the verb stem to say that someone wants to do something.",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N made",
+      "pattern": "N made",
+      "patternSegments": [
+        {
+          "text": "N made"
+        }
+      ],
+      "explanation": "Made marks an endpoint, meaning “to” or “until.”",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N mo",
+      "pattern": "N mo",
+      "patternSegments": [
+        {
+          "text": "N mo"
+        }
+      ],
+      "explanation": "Mo means “also” or “too,” replacing the topic marker wa in these sentences.",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-ta kara",
+      "pattern": "V-ta kara",
+      "patternSegments": [
+        {
+          "text": "V-ta kara"
+        }
+      ],
+      "explanation": "Kara after a past-form verb gives a reason: “because” or “so.”",
+      "firstPassage": 17,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N mo + negative",
+      "pattern": "N mo + negative",
+      "patternSegments": [
+        {
+          "text": "N mo + negative"
+        }
+      ],
+      "explanation": "Nani mo with a negative verb means “nothing” or “not anything.”",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    }
+  ]
+}

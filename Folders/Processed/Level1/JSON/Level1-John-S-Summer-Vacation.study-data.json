@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:夏休み|なつやすみ",
+      "japanese": "夏休み",
+      "japaneseSegments": [
+        {
+          "base": "夏休",
+          "reading": "なつやす"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "reading": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "meaning": "summer vacation",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:ホームステイ|ほーむすてい",
+      "japanese": "ホームステイ",
+      "japaneseSegments": [
+        {
+          "text": "ホームステイ"
+        }
+      ],
+      "reading": "ほーむすてい",
+      "romaji": "hōmusutei",
+      "meaning": "homestay",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:新幹線|しんかんせん",
+      "japanese": "新幹線",
+      "japaneseSegments": [
+        {
+          "base": "新幹線",
+          "reading": "しんかんせん"
+        }
+      ],
+      "reading": "しんかんせん",
+      "romaji": "shinkansen",
+      "meaning": "bullet train",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:改札|かいさつ",
+      "japanese": "改札",
+      "japaneseSegments": [
+        {
+          "base": "改札",
+          "reading": "かいさつ"
+        }
+      ],
+      "reading": "かいさつ",
+      "romaji": "kaisatsu",
+      "meaning": "ticket gate",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:背が高い|せがたかい",
+      "japanese": "背が高い",
+      "japaneseSegments": [
+        {
+          "base": "背",
+          "reading": "せ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "base": "高",
+          "reading": "たか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "せがたかい",
+      "romaji": "se ga takai",
+      "meaning": "tall; of tall stature",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:大丈夫|だいじょうぶ",
+      "japanese": "大丈夫",
+      "japaneseSegments": [
+        {
+          "base": "大丈夫",
+          "reading": "だいじょうぶ"
+        }
+      ],
+      "reading": "だいじょうぶ",
+      "romaji": "daijōbu",
+      "meaning": "all right; okay",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:花火|はなび",
+      "japanese": "花火",
+      "japaneseSegments": [
+        {
+          "base": "花火",
+          "reading": "はなび"
+        }
+      ],
+      "reading": "はなび",
+      "romaji": "hanabi",
+      "meaning": "fireworks",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:七夕|たなばた",
+      "japanese": "七夕",
+      "japaneseSegments": [
+        {
+          "base": "七夕",
+          "reading": "たなばた"
+        }
+      ],
+      "reading": "たなばた",
+      "romaji": "tanabata",
+      "meaning": "Tanabata; Star Festival",
+      "firstPassage": 6,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:短冊|たんざく",
+      "japanese": "短冊",
+      "japaneseSegments": [
+        {
+          "base": "短冊",
+          "reading": "たんざく"
+        }
+      ],
+      "reading": "たんざく",
+      "romaji": "tanzaku",
+      "meaning": "paper strip for writing a wish",
+      "firstPassage": 7,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:ぬいぐるみ|ぬいぐるみ",
+      "japanese": "ぬいぐるみ",
+      "japaneseSegments": [
+        {
+          "text": "ぬいぐるみ"
+        }
+      ],
+      "reading": "ぬいぐるみ",
+      "romaji": "nuigurumi",
+      "meaning": "stuffed toy",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:送る|おくる",
+      "japanese": "送る",
+      "japaneseSegments": [
+        {
+          "base": "送",
+          "reading": "おく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "おくる",
+      "romaji": "okuru",
+      "meaning": "to send",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:住所|じゅうしょ",
+      "japanese": "住所",
+      "japaneseSegments": [
+        {
+          "base": "住所",
+          "reading": "じゅうしょ"
+        }
+      ],
+      "reading": "じゅうしょ",
+      "romaji": "jūsho",
+      "meaning": "address",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N kara N made",
+      "pattern": "N kara N made",
+      "patternSegments": [
+        {
+          "text": "N kara N made"
+        }
+      ],
+      "explanation": "Marks the starting and ending points of a range: from N to N.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Place e iku",
+      "pattern": "Place e iku",
+      "patternSegments": [
+        {
+          "text": "Place e iku"
+        }
+      ],
+      "explanation": "Use e with a destination and iku to say that someone goes to a place.",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N ja arimasen",
+      "pattern": "N ja arimasen",
+      "patternSegments": [
+        {
+          "text": "N ja arimasen"
+        }
+      ],
+      "explanation": "A polite negative form meaning that something is not N.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N ga hoshii",
+      "pattern": "N ga hoshii",
+      "patternSegments": [
+        {
+          "text": "N ga hoshii"
+        }
+      ],
+      "explanation": "Use ga hoshii to say that you want a thing or person.",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-tai n desu ga",
+      "pattern": "V-tai n desu ga",
+      "patternSegments": [
+        {
+          "text": "V-tai n desu ga"
+        }
+      ],
+      "explanation": "Adds a polite, tentative tone to a request or statement of what you would like to do.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    }
+  ]
+}

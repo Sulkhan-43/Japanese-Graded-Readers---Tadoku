@@ -1,0 +1,653 @@
+{
+  "id": "level1-mexican-dogs",
+  "name": "Mexican Dogs",
+  "japaneseTitle": "メキシコの犬",
+  "slug": "level1-mexican-dogs",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-mexican-dogs/source.pdf",
+  "ocrR2Key": "books/level1-mexican-dogs/source-ocr.txt",
+  "coverR2Key": "books/level1-mexican-dogs/cover.jpg",
+  "htmlR2Key": "books/level1-mexican-dogs/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 107,
+  "createdAt": "2026-10-09T16:32:29.598Z",
+  "updatedAt": "2026-10-09T16:32:29.598Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:メキシコ|めきしこ",
+        "japanese": "メキシコ",
+        "japaneseSegments": [
+          {
+            "text": "メキシコ"
+          }
+        ],
+        "reading": "めきしこ",
+        "romaji": "Mekishiko",
+        "meaning": "Mexico",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:犬|いぬ",
+        "japanese": "犬",
+        "japaneseSegments": [
+          {
+            "base": "犬",
+            "reading": "いぬ"
+          }
+        ],
+        "reading": "いぬ",
+        "romaji": "inu",
+        "meaning": "dog",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:ショロ|しょろ",
+        "japanese": "ショロ",
+        "japaneseSegments": [
+          {
+            "text": "ショロ"
+          }
+        ],
+        "reading": "しょろ",
+        "romaji": "Shoro",
+        "meaning": "Xolo; short name for the Xoloitzcuintle",
+        "firstPassage": 2,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:ショロイツクインツレ|しょろいつくいんつれ",
+        "japanese": "ショロイツクインツレ",
+        "japaneseSegments": [
+          {
+            "text": "ショロイツクインツレ"
+          }
+        ],
+        "reading": "しょろいつくいんつれ",
+        "romaji": "Shoroitsukuintsure",
+        "meaning": "Xoloitzcuintle, a Mexican dog breed",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:小さい|ちいさい",
+        "japanese": "小さい",
+        "japaneseSegments": [
+          {
+            "base": "小",
+            "reading": "ちい"
+          },
+          {
+            "text": "さい"
+          }
+        ],
+        "reading": "ちいさい",
+        "romaji": "chiisai",
+        "meaning": "small",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大きい|おおきい",
+        "japanese": "大きい",
+        "japaneseSegments": [
+          {
+            "base": "大",
+            "reading": "おお"
+          },
+          {
+            "text": "きい"
+          }
+        ],
+        "reading": "おおきい",
+        "romaji": "ookii",
+        "meaning": "large",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:いる|いる",
+        "japanese": "いる",
+        "japaneseSegments": [
+          {
+            "text": "いる"
+          }
+        ],
+        "reading": "いる",
+        "romaji": "iru",
+        "meaning": "to exist; used for people and animals",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:毛|け",
+        "japanese": "毛",
+        "japaneseSegments": [
+          {
+            "base": "毛",
+            "reading": "け"
+          }
+        ],
+        "reading": "け",
+        "romaji": "ke",
+        "meaning": "hair; fur",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ある|ある",
+        "japanese": "ある",
+        "japaneseSegments": [
+          {
+            "text": "ある"
+          }
+        ],
+        "reading": "ある",
+        "romaji": "aru",
+        "meaning": "to exist; to have",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:つるつる|つるつる",
+        "japanese": "つるつる",
+        "japaneseSegments": [
+          {
+            "text": "つるつる"
+          }
+        ],
+        "reading": "つるつる",
+        "romaji": "tsurutsuru",
+        "meaning": "smooth; sleek",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ハアハア|はあはあ",
+        "japanese": "ハアハア",
+        "japaneseSegments": [
+          {
+            "text": "ハアハア"
+          }
+        ],
+        "reading": "はあはあ",
+        "romaji": "Hāhā",
+        "meaning": "panting sound",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:とても|とても",
+        "japanese": "とても",
+        "japaneseSegments": [
+          {
+            "text": "とても"
+          }
+        ],
+        "reading": "とても",
+        "romaji": "totemo",
+        "meaning": "very",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:暑い|あつい",
+        "japanese": "暑い",
+        "japaneseSegments": [
+          {
+            "base": "暑",
+            "reading": "あつ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "あつい",
+        "romaji": "atsui",
+        "meaning": "hot (weather)",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:黒|くろ",
+        "japanese": "黒",
+        "japaneseSegments": [
+          {
+            "base": "黒",
+            "reading": "くろ"
+          }
+        ],
+        "reading": "くろ",
+        "romaji": "kuro",
+        "meaning": "black",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:茶色|ちゃいろ",
+        "japanese": "茶色",
+        "japaneseSegments": [
+          {
+            "base": "茶色",
+            "reading": "ちゃいろ"
+          }
+        ],
+        "reading": "ちゃいろ",
+        "romaji": "chairo",
+        "meaning": "brown",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:灰色|はいいろ",
+        "japanese": "灰色",
+        "japaneseSegments": [
+          {
+            "base": "灰色",
+            "reading": "はいいろ"
+          }
+        ],
+        "reading": "はいいろ",
+        "romaji": "haiiro",
+        "meaning": "gray",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:白い|しろい",
+        "japanese": "白い",
+        "japaneseSegments": [
+          {
+            "base": "白",
+            "reading": "しろ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "しろい",
+        "romaji": "shiroi",
+        "meaning": "white",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ぶち|ぶち",
+        "japanese": "ぶち",
+        "japaneseSegments": [
+          {
+            "text": "ぶち"
+          }
+        ],
+        "reading": "ぶち",
+        "romaji": "buchi",
+        "meaning": "spot; patch of color",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:アステカ|あすてか",
+        "japanese": "アステカ",
+        "japaneseSegments": [
+          {
+            "text": "アステカ"
+          }
+        ],
+        "reading": "あすてか",
+        "romaji": "Asuteka",
+        "meaning": "Aztec",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:時代|じだい",
+        "japanese": "時代",
+        "japaneseSegments": [
+          {
+            "base": "時代",
+            "reading": "じだい"
+          }
+        ],
+        "reading": "じだい",
+        "romaji": "jidai",
+        "meaning": "era; period",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:伝説|でんせつ",
+        "japanese": "伝説",
+        "japaneseSegments": [
+          {
+            "base": "伝説",
+            "reading": "でんせつ"
+          }
+        ],
+        "reading": "でんせつ",
+        "romaji": "densetsu",
+        "meaning": "legend",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:神|かみ",
+        "japanese": "神",
+        "japaneseSegments": [
+          {
+            "base": "神",
+            "reading": "かみ"
+          }
+        ],
+        "reading": "かみ",
+        "romaji": "kami",
+        "meaning": "god",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:使い|つかい",
+        "japanese": "使い",
+        "japaneseSegments": [
+          {
+            "base": "使",
+            "reading": "つか"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "つかい",
+        "romaji": "tsukai",
+        "meaning": "messenger; servant",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:死ぬ|しぬ",
+        "japanese": "死ぬ",
+        "japaneseSegments": [
+          {
+            "base": "死",
+            "reading": "し"
+          },
+          {
+            "text": "ぬ"
+          }
+        ],
+        "reading": "しぬ",
+        "romaji": "shinu",
+        "meaning": "to die",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:人|ひと",
+        "japanese": "人",
+        "japaneseSegments": [
+          {
+            "base": "人",
+            "reading": "ひと"
+          }
+        ],
+        "reading": "ひと",
+        "romaji": "hito",
+        "meaning": "person",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:死者|ししゃ",
+        "japanese": "死者",
+        "japaneseSegments": [
+          {
+            "base": "死者",
+            "reading": "ししゃ"
+          }
+        ],
+        "reading": "ししゃ",
+        "romaji": "shisha",
+        "meaning": "the dead; deceased people",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:世界|せかい",
+        "japanese": "世界",
+        "japaneseSegments": [
+          {
+            "base": "世界",
+            "reading": "せかい"
+          }
+        ],
+        "reading": "せかい",
+        "romaji": "sekai",
+        "meaning": "world",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:案内|あんない",
+        "japanese": "案内",
+        "japaneseSegments": [
+          {
+            "base": "案内",
+            "reading": "あんない"
+          }
+        ],
+        "reading": "あんない",
+        "romaji": "annai",
+        "meaning": "guidance; showing the way",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:特別|とくべつ",
+        "japanese": "特別",
+        "japaneseSegments": [
+          {
+            "base": "特別",
+            "reading": "とくべつ"
+          }
+        ],
+        "reading": "とくべつ",
+        "romaji": "tokubetsu",
+        "meaning": "special",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大切|たいせつ",
+        "japanese": "大切",
+        "japaneseSegments": [
+          {
+            "base": "大切",
+            "reading": "たいせつ"
+          }
+        ],
+        "reading": "たいせつ",
+        "romaji": "taisetsu",
+        "meaning": "important; precious",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N wa",
+        "pattern": "N wa",
+        "patternSegments": [
+          {
+            "text": "N wa"
+          }
+        ],
+        "explanation": "Wa marks the topic of a sentence, showing what the sentence is about.",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:N no N",
+        "pattern": "N no N",
+        "patternSegments": [
+          {
+            "text": "N no N"
+          }
+        ],
+        "explanation": "No links two nouns; the first noun describes or is related to the second.",
+        "firstPassage": 1,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:N desu",
+        "pattern": "N desu",
+        "patternSegments": [
+          {
+            "text": "N desu"
+          }
+        ],
+        "explanation": "Desu makes a polite statement or identifies something; it can also follow an adjective.",
+        "firstPassage": 1,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:N ga imasu",
+        "pattern": "N ga imasu",
+        "patternSegments": [
+          {
+            "text": "N ga imasu"
+          }
+        ],
+        "explanation": "Imasu states that a person or animal exists; ga marks the person or animal being described.",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N ga arimasu / arimasen",
+        "pattern": "N ga arimasu / arimasen",
+        "patternSegments": [
+          {
+            "text": "N ga arimasu / arimasen"
+          }
+        ],
+        "explanation": "Arimasu and arimasen express that a thing exists or does not exist; they can also describe having something.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N ya N ya N",
+        "pattern": "N ya N ya N",
+        "patternSegments": [
+          {
+            "text": "N ya N ya N"
+          }
+        ],
+        "explanation": "Ya lists examples without implying that the list is complete.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N mo",
+        "pattern": "N mo",
+        "patternSegments": [
+          {
+            "text": "N mo"
+          }
+        ],
+        "explanation": "Mo means also or too, and replaces particles such as ga in this sentence.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N kara",
+        "pattern": "N kara",
+        "patternSegments": [
+          {
+            "text": "N kara"
+          }
+        ],
+        "explanation": "Kara marks a starting point and means from.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N de wa",
+        "pattern": "N de wa",
+        "patternSegments": [
+          {
+            "text": "N de wa"
+          }
+        ],
+        "explanation": "De wa sets a place or context as the setting for the statement, meaning in or as for that context.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-ta + N",
+        "pattern": "V-ta + N",
+        "patternSegments": [
+          {
+            "text": "V-ta + N"
+          }
+        ],
+        "explanation": "A verb in the ta-form can come before a noun to describe someone or something that did the action.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N ni annai suru",
+        "pattern": "N ni annai suru",
+        "patternSegments": [
+          {
+            "text": "N ni annai suru"
+          }
+        ],
+        "explanation": "Ni marks the destination that someone is guided to with annai suru.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni wa",
+        "pattern": "N ni wa",
+        "patternSegments": [
+          {
+            "text": "N ni wa"
+          }
+        ],
+        "explanation": "Ni wa marks the person or thing in relation to which something is true; here it means for the dogs.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:na-adj + de",
+        "pattern": "na-adj + de",
+        "patternSegments": [
+          {
+            "text": "na-adj + de"
+          }
+        ],
+        "explanation": "De connects na-adjectives, with the sense of and.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:na-adj + na + N",
+        "pattern": "na-adj + na + N",
+        "patternSegments": [
+          {
+            "text": "na-adj + na + N"
+          }
+        ],
+        "explanation": "A na-adjective uses na before a noun to describe it.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

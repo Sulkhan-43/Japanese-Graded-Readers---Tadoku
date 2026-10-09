@@ -1,0 +1,466 @@
+{
+  "id": "level1-urashima-taro",
+  "name": "Urashima Taro",
+  "japaneseTitle": "浦島太郎",
+  "slug": "level1-urashima-taro",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-urashima-taro/source.pdf",
+  "ocrR2Key": "books/level1-urashima-taro/source-ocr.txt",
+  "coverR2Key": "books/level1-urashima-taro/cover.jpg",
+  "htmlR2Key": "books/level1-urashima-taro/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 842,
+  "createdAt": "2026-10-09T17:43:51.467Z",
+  "updatedAt": "2026-10-09T17:43:51.468Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:海|うみ",
+        "japanese": "海",
+        "japaneseSegments": [
+          {
+            "base": "海",
+            "reading": "うみ"
+          }
+        ],
+        "reading": "うみ",
+        "romaji": "umi",
+        "meaning": "sea",
+        "firstPassage": 1,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:魚|さかな",
+        "japanese": "魚",
+        "japaneseSegments": [
+          {
+            "base": "魚",
+            "reading": "さかな"
+          }
+        ],
+        "reading": "さかな",
+        "romaji": "sakana",
+        "meaning": "fish",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:毎日|まいにち",
+        "japanese": "毎日",
+        "japaneseSegments": [
+          {
+            "base": "毎日",
+            "reading": "まいにち"
+          }
+        ],
+        "reading": "まいにち",
+        "romaji": "mainichi",
+        "meaning": "every day",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:近く|ちかく",
+        "japanese": "近く",
+        "japaneseSegments": [
+          {
+            "base": "近",
+            "reading": "ちか"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "ちかく",
+        "romaji": "chikaku",
+        "meaning": "nearby; vicinity",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:亀|かめ",
+        "japanese": "亀",
+        "japaneseSegments": [
+          {
+            "base": "亀",
+            "reading": "かめ"
+          }
+        ],
+        "reading": "かめ",
+        "romaji": "kame",
+        "meaning": "turtle",
+        "firstPassage": 2,
+        "occurrenceCount": 21
+      },
+      {
+        "key": "vocabulary:たたく|たたく",
+        "japanese": "たたく",
+        "japaneseSegments": [
+          {
+            "text": "たたく"
+          }
+        ],
+        "reading": "たたく",
+        "romaji": "tataku",
+        "meaning": "to hit; to strike",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:痛い|いたい",
+        "japanese": "痛い",
+        "japaneseSegments": [
+          {
+            "base": "痛",
+            "reading": "いた"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "いたい",
+        "romaji": "itai",
+        "meaning": "painful; ouch",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:たくさん|たくさん",
+        "japanese": "たくさん",
+        "japaneseSegments": [
+          {
+            "text": "たくさん"
+          }
+        ],
+        "reading": "たくさん",
+        "romaji": "takusan",
+        "meaning": "many; a lot",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:一週間|いっしゅうかん",
+        "japanese": "一週間",
+        "japaneseSegments": [
+          {
+            "base": "一週間",
+            "reading": "いっしゅうかん"
+          }
+        ],
+        "reading": "いっしゅうかん",
+        "romaji": "isshūkan",
+        "meaning": "one week",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ありがとう|ありがとう",
+        "japanese": "ありがとう",
+        "japaneseSegments": [
+          {
+            "text": "ありがとう"
+          }
+        ],
+        "reading": "ありがとう",
+        "romaji": "arigatō",
+        "meaning": "thank you",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:乗る|のる",
+        "japanese": "乗る",
+        "japaneseSegments": [
+          {
+            "base": "乗",
+            "reading": "の"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "のる",
+        "romaji": "noru",
+        "meaning": "to ride; to get on",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:帰る|かえる",
+        "japanese": "帰る",
+        "japaneseSegments": [
+          {
+            "base": "帰",
+            "reading": "かえ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return; to go home",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:竜宮城|りゅうぐうじょう",
+        "japanese": "竜宮城",
+        "japaneseSegments": [
+          {
+            "base": "竜宮城",
+            "reading": "りゅうぐうじょう"
+          }
+        ],
+        "reading": "りゅうぐうじょう",
+        "romaji": "Ryūgūjō",
+        "meaning": "Dragon Palace under the sea",
+        "firstPassage": 5,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:乙姫さま|おとひめさま",
+        "japanese": "乙姫さま",
+        "japaneseSegments": [
+          {
+            "base": "乙姫",
+            "reading": "おとひめ"
+          },
+          {
+            "text": "さま"
+          }
+        ],
+        "reading": "おとひめさま",
+        "romaji": "Otōhime-sama",
+        "meaning": "Princess Otohime; the princess of the Dragon Palace",
+        "firstPassage": 5,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:食べ物|たべもの",
+        "japanese": "食べ物",
+        "japaneseSegments": [
+          {
+            "base": "食",
+            "reading": "た"
+          },
+          {
+            "text": "べ"
+          },
+          {
+            "base": "物",
+            "reading": "もの"
+          }
+        ],
+        "reading": "たべもの",
+        "romaji": "tabemono",
+        "meaning": "food",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:お酒|おさけ",
+        "japanese": "お酒",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "酒",
+            "reading": "さけ"
+          }
+        ],
+        "reading": "おさけ",
+        "romaji": "osake",
+        "meaning": "sake; alcoholic drink",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:遊ぶ|あそぶ",
+        "japanese": "遊ぶ",
+        "japaneseSegments": [
+          {
+            "base": "遊",
+            "reading": "あそ"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "あそぶ",
+        "romaji": "asobu",
+        "meaning": "to play; to spend time having fun",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:箱|はこ",
+        "japanese": "箱",
+        "japaneseSegments": [
+          {
+            "base": "箱",
+            "reading": "はこ"
+          }
+        ],
+        "reading": "はこ",
+        "romaji": "hako",
+        "meaning": "box",
+        "firstPassage": 7,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:百年|ひゃくねん",
+        "japanese": "百年",
+        "japaneseSegments": [
+          {
+            "base": "百年",
+            "reading": "ひゃくねん"
+          }
+        ],
+        "reading": "ひゃくねん",
+        "romaji": "hyaku-nen",
+        "meaning": "one hundred years",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:助ける|たすける",
+        "japanese": "助ける",
+        "japaneseSegments": [
+          {
+            "base": "助",
+            "reading": "たす"
+          },
+          {
+            "text": "ける"
+          }
+        ],
+        "reading": "たすける",
+        "romaji": "tasukeru",
+        "meaning": "to help; to save",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:玉手箱|たまてばこ",
+        "japanese": "玉手箱",
+        "japaneseSegments": [
+          {
+            "base": "玉手箱",
+            "reading": "たまてばこ"
+          }
+        ],
+        "reading": "たまてばこ",
+        "romaji": "tamatebako",
+        "meaning": "jewel box; the magical box in the folktale",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N e",
+        "pattern": "N e",
+        "patternSegments": [
+          {
+            "text": "N へ"
+          }
+        ],
+        "explanation": "This pattern marks the direction or destination of movement.",
+        "firstPassage": 1,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "grammar:N o kudasai",
+        "pattern": "N o kudasai",
+        "patternSegments": [
+          {
+            "text": "N をください"
+          }
+        ],
+        "explanation": "This pattern is used to politely ask for an item.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-mashō",
+        "pattern": "V-mashō",
+        "patternSegments": [
+          {
+            "text": "V ましょう"
+          }
+        ],
+        "explanation": "This pattern makes a polite suggestion or invitation to do something together.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:ne",
+        "pattern": "ne",
+        "patternSegments": [
+          {
+            "text": "ね"
+          }
+        ],
+        "explanation": "This pattern seeks agreement or a response by adding a gentle checking tone to a statement.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:kara (reason)",
+        "pattern": "kara (reason)",
+        "patternSegments": [
+          {
+            "text": "〜から"
+          }
+        ],
+        "explanation": "Attached to a reason clause, this pattern explains why the next action or situation follows.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ga arimasen",
+        "pattern": "N ga arimasen",
+        "patternSegments": [
+          {
+            "text": "N がありません"
+          }
+        ],
+        "explanation": "This pattern says that something does not exist or is unavailable.",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N wa doko desu ka",
+        "pattern": "N wa doko desu ka",
+        "patternSegments": [
+          {
+            "text": "N はどこですか"
+          }
+        ],
+        "explanation": "This pattern asks where a person or thing is.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-te mireba",
+        "pattern": "V-te mireba",
+        "patternSegments": [
+          {
+            "text": "V てみれば"
+          }
+        ],
+        "explanation": "This pattern describes doing something and then seeing what happens.",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      }
+    ]
+  }
+}

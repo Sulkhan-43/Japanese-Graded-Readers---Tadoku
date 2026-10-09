@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:星|ほし",
+      "japanese": "星",
+      "japaneseSegments": [
+        {
+          "base": "星",
+          "reading": "ほし"
+        }
+      ],
+      "reading": "ほし",
+      "romaji": "hoshi",
+      "meaning": "star",
+      "firstPassage": 1,
+      "occurrenceCount": 10
+    },
+    {
+      "key": "vocabulary:取る|とる",
+      "japanese": "取る",
+      "japaneseSegments": [
+        {
+          "base": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "とる",
+      "romaji": "toru",
+      "meaning": "to take or get; to catch or gather",
+      "firstPassage": 1,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:棒|ぼう",
+      "japanese": "棒",
+      "japaneseSegments": [
+        {
+          "base": "棒",
+          "reading": "ぼう"
+        }
+      ],
+      "reading": "ぼう",
+      "romaji": "bō",
+      "meaning": "stick; pole",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:長い|ながい",
+      "japanese": "長い",
+      "japaneseSegments": [
+        {
+          "base": "長",
+          "reading": "なが"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "ながい",
+      "romaji": "nagai",
+      "meaning": "long",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:遠い|とおい",
+      "japanese": "遠い",
+      "japaneseSegments": [
+        {
+          "base": "遠",
+          "reading": "とお"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "とおい",
+      "romaji": "tōi",
+      "meaning": "far away",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:うぐいす|うぐいす",
+      "japanese": "うぐいす",
+      "japaneseSegments": [
+        {
+          "text": "うぐいす"
+        }
+      ],
+      "reading": "うぐいす",
+      "romaji": "uguisu",
+      "meaning": "Japanese bush warbler",
+      "firstPassage": 2,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:鳴く|なく",
+      "japanese": "鳴く",
+      "japaneseSegments": [
+        {
+          "base": "鳴",
+          "reading": "な"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "なく",
+      "romaji": "naku",
+      "meaning": "to sing or call (of a bird)",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:声|こえ",
+      "japanese": "声",
+      "japaneseSegments": [
+        {
+          "base": "声",
+          "reading": "こえ"
+        }
+      ],
+      "reading": "こえ",
+      "romaji": "koe",
+      "meaning": "voice; sound",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:今年|ことし",
+      "japanese": "今年",
+      "japaneseSegments": [
+        {
+          "base": "今年",
+          "reading": "ことし"
+        }
+      ],
+      "reading": "ことし",
+      "romaji": "kotoshi",
+      "meaning": "this year",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:一番|いちばん",
+      "japanese": "一番",
+      "japaneseSegments": [
+        {
+          "base": "一番",
+          "reading": "いちばん"
+        }
+      ],
+      "reading": "いちばん",
+      "romaji": "ichiban",
+      "meaning": "first; the most",
+      "firstPassage": 2,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:聞く|きく",
+      "japanese": "聞く",
+      "japaneseSegments": [
+        {
+          "base": "聞",
+          "reading": "き"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "きく",
+      "romaji": "kiku",
+      "meaning": "to hear; to listen",
+      "firstPassage": 2,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:お金|おかね",
+      "japanese": "お金",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "金",
+          "reading": "かね"
+        }
+      ],
+      "reading": "おかね",
+      "romaji": "okane",
+      "meaning": "money",
+      "firstPassage": 3,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:舟|ふね",
+      "japanese": "舟",
+      "japaneseSegments": [
+        {
+          "base": "舟",
+          "reading": "ふね"
+        }
+      ],
+      "reading": "ふね",
+      "romaji": "fune",
+      "meaning": "boat",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:着物|きもの",
+      "japanese": "着物",
+      "japaneseSegments": [
+        {
+          "base": "着物",
+          "reading": "きもの"
+        }
+      ],
+      "reading": "きもの",
+      "romaji": "kimono",
+      "meaning": "kimono; traditional Japanese garment",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:化粧|けしょう",
+      "japanese": "化粧",
+      "japaneseSegments": [
+        {
+          "base": "化粧",
+          "reading": "けしょう"
+        }
+      ],
+      "reading": "けしょう",
+      "romaji": "keshō",
+      "meaning": "makeup",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大変|たいへん",
+      "japanese": "大変",
+      "japaneseSegments": [
+        {
+          "base": "大変",
+          "reading": "たいへん"
+        }
+      ],
+      "reading": "たいへん",
+      "romaji": "taihen",
+      "meaning": "difficult; hard",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:働く|はたらく",
+      "japanese": "働く",
+      "japaneseSegments": [
+        {
+          "base": "働",
+          "reading": "はたら"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "はたらく",
+      "romaji": "hataraku",
+      "meaning": "to work",
+      "firstPassage": 4,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:疲れる|つかれる",
+      "japanese": "疲れる",
+      "japaneseSegments": [
+        {
+          "base": "疲",
+          "reading": "つか"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "つかれる",
+      "romaji": "tsukareru",
+      "meaning": "to get tired",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:料理|りょうり",
+      "japanese": "料理",
+      "japaneseSegments": [
+        {
+          "base": "料理",
+          "reading": "りょうり"
+        }
+      ],
+      "reading": "りょうり",
+      "romaji": "ryōri",
+      "meaning": "cooking; meal preparation",
+      "firstPassage": 4,
+      "occurrenceCount": 4
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:~tai",
+      "pattern": "~tai",
+      "patternSegments": [
+        {
+          "text": "〜たい"
+        }
+      ],
+      "explanation": "Attach to a verb stem to say what someone wants to do. The negative form is ~takunai.",
+      "firstPassage": 1,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "grammar:~ja arimasen",
+      "pattern": "~ja arimasen",
+      "patternSegments": [
+        {
+          "text": "〜じゃありません"
+        }
+      ],
+      "explanation": "A polite way to say that something or someone is not something.",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:~kara~made",
+      "pattern": "~kara~made",
+      "patternSegments": [
+        {
+          "text": "〜から〜まで"
+        }
+      ],
+      "explanation": "Marks the span from one time or place to another, meaning “from ... until/as far as ...”.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    }
+  ]
+}

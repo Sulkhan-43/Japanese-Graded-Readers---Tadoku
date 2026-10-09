@@ -1,0 +1,1125 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:ベトナム|べとなむ",
+      "japanese": "ベトナム",
+      "japaneseSegments": [
+        {
+          "text": "ベトナム"
+        }
+      ],
+      "reading": "べとなむ",
+      "romaji": "Betonamu",
+      "meaning": "Vietnam",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:生春巻き|なまはるまき",
+      "japanese": "生春巻き",
+      "japaneseSegments": [
+        {
+          "base": "生",
+          "reading": "なま"
+        },
+        {
+          "base": "春",
+          "reading": "はる"
+        },
+        {
+          "base": "巻",
+          "reading": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "なまはるまき",
+      "romaji": "Namaharumaki",
+      "meaning": "Fresh spring roll",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:材料|ざいりょう",
+      "japanese": "材料",
+      "japaneseSegments": [
+        {
+          "base": "材料",
+          "reading": "ざいりょう"
+        }
+      ],
+      "reading": "ざいりょう",
+      "romaji": "Zairyō",
+      "meaning": "Ingredients",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ライスペーパー|らいすぺーぱー",
+      "japanese": "ライスペーパー",
+      "japaneseSegments": [
+        {
+          "text": "ライスペーパー"
+        }
+      ],
+      "reading": "らいすぺーぱー",
+      "romaji": "Raisupēpā",
+      "meaning": "Rice paper",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:枚|まい",
+      "japanese": "枚",
+      "japaneseSegments": [
+        {
+          "base": "枚",
+          "reading": "まい"
+        }
+      ],
+      "reading": "まい",
+      "romaji": "mai",
+      "meaning": "Counter for flat objects",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ビーフン|びーふん",
+      "japanese": "ビーフン",
+      "japaneseSegments": [
+        {
+          "text": "ビーフン"
+        }
+      ],
+      "reading": "びーふん",
+      "romaji": "Bīfun",
+      "meaning": "Rice vermicelli",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:豚肉|ぶたにく",
+      "japanese": "豚肉",
+      "japaneseSegments": [
+        {
+          "base": "豚肉",
+          "reading": "ぶたにく"
+        }
+      ],
+      "reading": "ぶたにく",
+      "romaji": "Butaniku",
+      "meaning": "Pork",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:えび|えび",
+      "japanese": "えび",
+      "japaneseSegments": [
+        {
+          "text": "えび"
+        }
+      ],
+      "reading": "えび",
+      "romaji": "Ebi",
+      "meaning": "Shrimp",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:きゅうり|きゅうり",
+      "japanese": "きゅうり",
+      "japaneseSegments": [
+        {
+          "text": "きゅうり"
+        }
+      ],
+      "reading": "きゅうり",
+      "romaji": "Kyūri",
+      "meaning": "Cucumber",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:にんじん|にんじん",
+      "japanese": "にんじん",
+      "japaneseSegments": [
+        {
+          "text": "にんじん"
+        }
+      ],
+      "reading": "にんじん",
+      "romaji": "Ninjin",
+      "meaning": "Carrot",
+      "firstPassage": 3,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:にら|にら",
+      "japanese": "にら",
+      "japaneseSegments": [
+        {
+          "text": "にら"
+        }
+      ],
+      "reading": "にら",
+      "romaji": "Nira",
+      "meaning": "Chives",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:レタス|れたす",
+      "japanese": "レタス",
+      "japaneseSegments": [
+        {
+          "text": "レタス"
+        }
+      ],
+      "reading": "れたす",
+      "romaji": "Retasu",
+      "meaning": "Lettuce",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:大葉|おおば",
+      "japanese": "大葉",
+      "japaneseSegments": [
+        {
+          "base": "大葉",
+          "reading": "おおば"
+        }
+      ],
+      "reading": "おおば",
+      "romaji": "Ōba",
+      "meaning": "Perilla leaf",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:本|ほん",
+      "japanese": "本",
+      "japaneseSegments": [
+        {
+          "base": "本",
+          "reading": "ほん"
+        }
+      ],
+      "reading": "ほん",
+      "romaji": "hon",
+      "meaning": "Counter for long, cylindrical items",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:束|たば",
+      "japanese": "束",
+      "japaneseSegments": [
+        {
+          "base": "束",
+          "reading": "たば"
+        }
+      ],
+      "reading": "たば",
+      "romaji": "taba",
+      "meaning": "Bunch; bundle",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:個|こ",
+      "japanese": "個",
+      "japaneseSegments": [
+        {
+          "base": "個",
+          "reading": "こ"
+        }
+      ],
+      "reading": "こ",
+      "romaji": "ko",
+      "meaning": "Counter for small items",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:レモン汁|れもんじる",
+      "japanese": "レモン汁",
+      "japaneseSegments": [
+        {
+          "text": "レモン"
+        },
+        {
+          "base": "汁",
+          "reading": "じる"
+        }
+      ],
+      "reading": "れもんじる",
+      "romaji": "Remon jiru",
+      "meaning": "Lemon juice",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ヌクマム|ぬくまむ",
+      "japanese": "ヌクマム",
+      "japaneseSegments": [
+        {
+          "text": "ヌクマム"
+        }
+      ],
+      "reading": "ぬくまむ",
+      "romaji": "Nukumamu",
+      "meaning": "Vietnamese fish sauce",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:ナンプラー|なんぷらー",
+      "japanese": "ナンプラー",
+      "japaneseSegments": [
+        {
+          "text": "ナンプラー"
+        }
+      ],
+      "reading": "なんぷらー",
+      "romaji": "Nanpurā",
+      "meaning": "Fish sauce",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:砂糖|さとう",
+      "japanese": "砂糖",
+      "japaneseSegments": [
+        {
+          "base": "砂糖",
+          "reading": "さとう"
+        }
+      ],
+      "reading": "さとう",
+      "romaji": "Satō",
+      "meaning": "Sugar",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:唐辛子|とうがらし",
+      "japanese": "唐辛子",
+      "japaneseSegments": [
+        {
+          "base": "唐辛子",
+          "reading": "とうがらし"
+        }
+      ],
+      "reading": "とうがらし",
+      "romaji": "Tōgarashi",
+      "meaning": "Chili pepper",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:にんにく|にんにく",
+      "japanese": "にんにく",
+      "japaneseSegments": [
+        {
+          "text": "にんにく"
+        }
+      ],
+      "reading": "にんにく",
+      "romaji": "Ninniku",
+      "meaning": "Garlic",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:水|みず",
+      "japanese": "水",
+      "japaneseSegments": [
+        {
+          "base": "水",
+          "reading": "みず"
+        }
+      ],
+      "reading": "みず",
+      "romaji": "Mizu",
+      "meaning": "Water",
+      "firstPassage": 4,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:作り方|つくりかた",
+      "japanese": "作り方",
+      "japaneseSegments": [
+        {
+          "base": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "方",
+          "reading": "かた"
+        }
+      ],
+      "reading": "つくりかた",
+      "romaji": "Tsukurikata",
+      "meaning": "How to make; method",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:中身|なかみ",
+      "japanese": "中身",
+      "japaneseSegments": [
+        {
+          "base": "中身",
+          "reading": "なかみ"
+        }
+      ],
+      "reading": "なかみ",
+      "romaji": "Nakami",
+      "meaning": "Filling; contents",
+      "firstPassage": 5,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:準備|じゅんび",
+      "japanese": "準備",
+      "japaneseSegments": [
+        {
+          "base": "準備",
+          "reading": "じゅんび"
+        }
+      ],
+      "reading": "じゅんび",
+      "romaji": "Junbi",
+      "meaning": "Preparation",
+      "firstPassage": 5,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:野菜|やさい",
+      "japanese": "野菜",
+      "japaneseSegments": [
+        {
+          "base": "野菜",
+          "reading": "やさい"
+        }
+      ],
+      "reading": "やさい",
+      "romaji": "Yasai",
+      "meaning": "Vegetables",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:洗う|あらう",
+      "japanese": "洗う",
+      "japaneseSegments": [
+        {
+          "base": "洗",
+          "reading": "あら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "あらう",
+      "romaji": "Arau",
+      "meaning": "To wash",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:切る|きる",
+      "japanese": "切る",
+      "japaneseSegments": [
+        {
+          "base": "切",
+          "reading": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "きる",
+      "romaji": "Kiru",
+      "meaning": "To cut; to drain",
+      "firstPassage": 6,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:皮|かわ",
+      "japanese": "皮",
+      "japaneseSegments": [
+        {
+          "base": "皮",
+          "reading": "かわ"
+        }
+      ],
+      "reading": "かわ",
+      "romaji": "Kawa",
+      "meaning": "Skin; peel",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:むく|むく",
+      "japanese": "むく",
+      "japaneseSegments": [
+        {
+          "text": "むく"
+        }
+      ],
+      "reading": "むく",
+      "romaji": "Muku",
+      "meaning": "To peel",
+      "firstPassage": 7,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:分|ふん",
+      "japanese": "分",
+      "japaneseSegments": [
+        {
+          "base": "分",
+          "reading": "ふん"
+        }
+      ],
+      "reading": "ふん",
+      "romaji": "fun",
+      "meaning": "Minute counter",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:くらい|くらい",
+      "japanese": "くらい",
+      "japaneseSegments": [
+        {
+          "text": "くらい"
+        }
+      ],
+      "reading": "くらい",
+      "romaji": "kurai",
+      "meaning": "About; approximately",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ゆでる|ゆでる",
+      "japanese": "ゆでる",
+      "japaneseSegments": [
+        {
+          "text": "ゆでる"
+        }
+      ],
+      "reading": "ゆでる",
+      "romaji": "Yuderu",
+      "meaning": "To boil",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:ザル|ざる",
+      "japanese": "ザル",
+      "japaneseSegments": [
+        {
+          "text": "ザル"
+        }
+      ],
+      "reading": "ざる",
+      "romaji": "Zaru",
+      "meaning": "Strainer",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:入れる|いれる",
+      "japanese": "入れる",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "いれる",
+      "romaji": "Ireru",
+      "meaning": "To put in",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:冷やす|ひやす",
+      "japanese": "冷やす",
+      "japaneseSegments": [
+        {
+          "base": "冷",
+          "reading": "ひ"
+        },
+        {
+          "text": "やす"
+        }
+      ],
+      "reading": "ひやす",
+      "romaji": "H ಪiyas(u)",
+      "meaning": "To cool",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:縦|たて",
+      "japanese": "縦",
+      "japaneseSegments": [
+        {
+          "base": "縦",
+          "reading": "たて"
+        }
+      ],
+      "reading": "たて",
+      "romaji": "Tate",
+      "meaning": "Lengthwise; vertical",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:半分|はんぶん",
+      "japanese": "半分",
+      "japaneseSegments": [
+        {
+          "base": "半分",
+          "reading": "はんぶん"
+        }
+      ],
+      "reading": "はんぶん",
+      "romaji": "Hanbun",
+      "meaning": "Half",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:薄い|うすい",
+      "japanese": "薄い",
+      "japaneseSegments": [
+        {
+          "base": "薄",
+          "reading": "うす"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "うすい",
+      "romaji": "Usui",
+      "meaning": "Thin",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:春巻き|はるまき",
+      "japanese": "春巻き",
+      "japaneseSegments": [
+        {
+          "base": "春",
+          "reading": "はる"
+        },
+        {
+          "base": "巻",
+          "reading": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "はるまき",
+      "romaji": "Harumaki",
+      "meaning": "Spring roll",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:秒|びょう",
+      "japanese": "秒",
+      "japaneseSegments": [
+        {
+          "base": "秒",
+          "reading": "びょう"
+        }
+      ],
+      "reading": "びょう",
+      "romaji": "Byō",
+      "meaning": "Second counter",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:板|いた",
+      "japanese": "板",
+      "japaneseSegments": [
+        {
+          "base": "板",
+          "reading": "いた"
+        }
+      ],
+      "reading": "いた",
+      "romaji": "Ita",
+      "meaning": "Board",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大きい|おおきい",
+      "japanese": "大きい",
+      "japaneseSegments": [
+        {
+          "base": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "きい"
+        }
+      ],
+      "reading": "おおきい",
+      "romaji": "Ōkii",
+      "meaning": "Large",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:皿|さら",
+      "japanese": "皿",
+      "japaneseSegments": [
+        {
+          "base": "皿",
+          "reading": "さら"
+        }
+      ],
+      "reading": "さら",
+      "romaji": "Sara",
+      "meaning": "Plate",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:など|など",
+      "japanese": "など",
+      "japaneseSegments": [
+        {
+          "text": "など"
+        }
+      ],
+      "reading": "など",
+      "romaji": "nado",
+      "meaning": "And so on; and things like that",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:置く|おく",
+      "japanese": "置く",
+      "japaneseSegments": [
+        {
+          "base": "置",
+          "reading": "お"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "おく",
+      "romaji": "Oku",
+      "meaning": "To place",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:上|うえ",
+      "japanese": "上",
+      "japaneseSegments": [
+        {
+          "base": "上",
+          "reading": "うえ"
+        }
+      ],
+      "reading": "うえ",
+      "romaji": "Ue",
+      "meaning": "On; above",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:載せる|のせる",
+      "japanese": "載せる",
+      "japaneseSegments": [
+        {
+          "base": "載",
+          "reading": "の"
+        },
+        {
+          "text": "せる"
+        }
+      ],
+      "reading": "のせる",
+      "romaji": "Noseru",
+      "meaning": "To place on top",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:巻く|まく",
+      "japanese": "巻く",
+      "japaneseSegments": [
+        {
+          "base": "巻",
+          "reading": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "まく",
+      "romaji": "Maku",
+      "meaning": "To roll; to wrap",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:できる|できる",
+      "japanese": "できる",
+      "japaneseSegments": [
+        {
+          "text": "できる"
+        }
+      ],
+      "reading": "できる",
+      "romaji": "Dekiru",
+      "meaning": "To be ready; to be completed",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ソース|そーす",
+      "japanese": "ソース",
+      "japaneseSegments": [
+        {
+          "text": "ソース"
+        }
+      ],
+      "reading": "そーす",
+      "romaji": "Sōsu",
+      "meaning": "Sauce",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:魚|さかな",
+      "japanese": "魚",
+      "japaneseSegments": [
+        {
+          "base": "魚",
+          "reading": "さかな"
+        }
+      ],
+      "reading": "さかな",
+      "romaji": "Sakana",
+      "meaning": "Fish",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:作る|つくる",
+      "japanese": "作る",
+      "japaneseSegments": [
+        {
+          "base": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "つくる",
+      "romaji": "Tsukuru",
+      "meaning": "To make",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:しょうゆ|しょうゆ",
+      "japanese": "しょうゆ",
+      "japaneseSegments": [
+        {
+          "text": "しょうゆ"
+        }
+      ],
+      "reading": "しょうゆ",
+      "romaji": "Shōyu",
+      "meaning": "Soy sauce",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:料理|りょうり",
+      "japanese": "料理",
+      "japaneseSegments": [
+        {
+          "base": "料理",
+          "reading": "りょうり"
+        }
+      ],
+      "reading": "りょうり",
+      "romaji": "Ryōri",
+      "meaning": "Cooking; cuisine",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:よく|よく",
+      "japanese": "よく",
+      "japaneseSegments": [
+        {
+          "text": "よく"
+        }
+      ],
+      "reading": "よく",
+      "romaji": "Yoku",
+      "meaning": "Often; well",
+      "firstPassage": 13,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:使う|つかう",
+      "japanese": "使う",
+      "japaneseSegments": [
+        {
+          "base": "使",
+          "reading": "つか"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "つかう",
+      "romaji": "Tsukau",
+      "meaning": "To use",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大さじ|おおさじ",
+      "japanese": "大さじ",
+      "japaneseSegments": [
+        {
+          "base": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "さじ"
+        }
+      ],
+      "reading": "おおさじ",
+      "romaji": "Ōsaji",
+      "meaning": "Tablespoon measure",
+      "firstPassage": 13,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:片|へん",
+      "japanese": "片",
+      "japaneseSegments": [
+        {
+          "base": "片",
+          "reading": "へん"
+        }
+      ],
+      "reading": "へん",
+      "romaji": "hen",
+      "meaning": "Counter for cloves",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:小さい|ちいさい",
+      "japanese": "小さい",
+      "japaneseSegments": [
+        {
+          "base": "小",
+          "reading": "ちい"
+        },
+        {
+          "text": "さい"
+        }
+      ],
+      "reading": "ちいさい",
+      "romaji": "Chiisai",
+      "meaning": "Small",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:全部|ぜんぶ",
+      "japanese": "全部",
+      "japaneseSegments": [
+        {
+          "base": "全部",
+          "reading": "ぜんぶ"
+        }
+      ],
+      "reading": "ぜんぶ",
+      "romaji": "Zenbu",
+      "meaning": "Everything; all",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:混ぜる|まぜる",
+      "japanese": "混ぜる",
+      "japaneseSegments": [
+        {
+          "base": "混",
+          "reading": "ま"
+        },
+        {
+          "text": "ぜる"
+        }
+      ],
+      "reading": "まぜる",
+      "romaji": "Mazeru",
+      "meaning": "To mix",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:いただく|いただく",
+      "japanese": "いただく",
+      "japaneseSegments": [
+        {
+          "text": "いただく"
+        }
+      ],
+      "reading": "いただく",
+      "romaji": "Itadaku",
+      "meaning": "To receive; polite expression said before eating",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N no N",
+      "pattern": "N no N",
+      "patternSegments": [
+        {
+          "text": "N no N"
+        }
+      ],
+      "explanation": "This pattern links two nouns; the first noun describes or identifies the second.",
+      "firstPassage": 1,
+      "occurrenceCount": 10
+    },
+    {
+      "key": "grammar:N o V",
+      "pattern": "N o V",
+      "patternSegments": [
+        {
+          "text": "N o V"
+        }
+      ],
+      "explanation": "This pattern marks the direct object of an action.",
+      "firstPassage": 5,
+      "occurrenceCount": 15
+    },
+    {
+      "key": "grammar:N de V",
+      "pattern": "N de V",
+      "patternSegments": [
+        {
+          "text": "N de V"
+        }
+      ],
+      "explanation": "This pattern marks the means, tool, or setting for an action.",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N ni V",
+      "pattern": "N ni V",
+      "patternSegments": [
+        {
+          "text": "N ni V"
+        }
+      ],
+      "explanation": "This pattern marks a destination or place where something is put.",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N kurai",
+      "pattern": "N kurai",
+      "patternSegments": [
+        {
+          "text": "N kurai"
+        }
+      ],
+      "explanation": "This pattern means approximately the stated amount or duration.",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:adjective-ku V",
+      "pattern": "adjective-ku V",
+      "patternSegments": [
+        {
+          "text": "adjective-ku V"
+        }
+      ],
+      "explanation": "This pattern changes an i-adjective into an adverb that describes how an action is done.",
+      "firstPassage": 10,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N ya N nado",
+      "pattern": "N ya N nado",
+      "patternSegments": [
+        {
+          "text": "N ya N nado"
+        }
+      ],
+      "explanation": "This pattern lists examples and indicates that there may be other similar items.",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N wa X",
+      "pattern": "N wa X",
+      "patternSegments": [
+        {
+          "text": "N wa X"
+        }
+      ],
+      "explanation": "This pattern marks the topic that the rest of the statement describes.",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N kara V",
+      "pattern": "N kara V",
+      "patternSegments": [
+        {
+          "text": "N kara V"
+        }
+      ],
+      "explanation": "This pattern marks the source or starting point of an action or process.",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:頑張る|がんばる",
+      "japanese": "頑張る",
+      "japaneseSegments": [
+        {
+          "base": "頑張",
+          "reading": "がんば"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "がんばる",
+      "romaji": "ganbaru",
+      "meaning": "to do one's best",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:みなさん|みなさん",
+      "japanese": "みなさん",
+      "japaneseSegments": [
+        {
+          "text": "みなさん"
+        }
+      ],
+      "reading": "みなさん",
+      "romaji": "minasan",
+      "meaning": "everyone; you all",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:仕事|しごと",
+      "japanese": "仕事",
+      "japaneseSegments": [
+        {
+          "base": "仕事",
+          "reading": "しごと"
+        }
+      ],
+      "reading": "しごと",
+      "romaji": "shigoto",
+      "meaning": "work; job",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:忙しい|いそがしい",
+      "japanese": "忙しい",
+      "japaneseSegments": [
+        {
+          "base": "忙",
+          "reading": "いそが"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "いそがしい",
+      "romaji": "isogashii",
+      "meaning": "busy",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:毎日|まいにち",
+      "japanese": "毎日",
+      "japaneseSegments": [
+        {
+          "base": "毎日",
+          "reading": "まいにち"
+        }
+      ],
+      "reading": "まいにち",
+      "romaji": "mainichi",
+      "meaning": "every day",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:疲れる|つかれる",
+      "japanese": "疲れる",
+      "japaneseSegments": [
+        {
+          "base": "疲",
+          "reading": "つか"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "つかれる",
+      "romaji": "tsukareru",
+      "meaning": "to get tired; tiredness",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:学校|がっこう",
+      "japanese": "学校",
+      "japaneseSegments": [
+        {
+          "base": "学校",
+          "reading": "がっこう"
+        }
+      ],
+      "reading": "がっこう",
+      "romaji": "gakkō",
+      "meaning": "school",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:アルバイト|あるばいと",
+      "japanese": "アルバイト",
+      "japaneseSegments": [
+        {
+          "text": "アルバイト"
+        }
+      ],
+      "reading": "あるばいと",
+      "romaji": "arubaito",
+      "meaning": "part-time job",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:とても|とても",
+      "japanese": "とても",
+      "japaneseSegments": [
+        {
+          "text": "とても"
+        }
+      ],
+      "reading": "とても",
+      "romaji": "totemo",
+      "meaning": "very",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:それに|それに",
+      "japanese": "それに",
+      "japaneseSegments": [
+        {
+          "text": "それに"
+        }
+      ],
+      "reading": "それに",
+      "romaji": "sore ni",
+      "meaning": "besides; in addition",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:帰り道|かえりみち",
+      "japanese": "帰り道",
+      "japaneseSegments": [
+        {
+          "base": "帰",
+          "reading": "かえ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "道",
+          "reading": "みち"
+        }
+      ],
+      "reading": "かえりみち",
+      "romaji": "kaerimichi",
+      "meaning": "way home",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:一人|ひとり",
+      "japanese": "一人",
+      "japaneseSegments": [
+        {
+          "base": "一人",
+          "reading": "ひとり"
+        }
+      ],
+      "reading": "ひとり",
+      "romaji": "hitori",
+      "meaning": "alone; by oneself",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:今日|きょう",
+      "japanese": "今日",
+      "japaneseSegments": [
+        {
+          "base": "今日",
+          "reading": "きょう"
+        }
+      ],
+      "reading": "きょう",
+      "romaji": "kyō",
+      "meaning": "today",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:寂しい|さびしい",
+      "japanese": "寂しい",
+      "japaneseSegments": [
+        {
+          "base": "寂",
+          "reading": "さび"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "さびしい",
+      "romaji": "sabishii",
+      "meaning": "lonely; lonesome",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:月|つき",
+      "japanese": "月",
+      "japaneseSegments": [
+        {
+          "base": "月",
+          "reading": "つき"
+        }
+      ],
+      "reading": "つき",
+      "romaji": "tsuki",
+      "meaning": "moon",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:きれい|きれい",
+      "japanese": "きれい",
+      "japaneseSegments": [
+        {
+          "text": "きれい"
+        }
+      ],
+      "reading": "きれい",
+      "romaji": "kirei",
+      "meaning": "beautiful; pretty",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:星|ほし",
+      "japanese": "星",
+      "japaneseSegments": [
+        {
+          "base": "星",
+          "reading": "ほし"
+        }
+      ],
+      "reading": "ほし",
+      "romaji": "hoshi",
+      "meaning": "star",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:たくさん|たくさん",
+      "japanese": "たくさん",
+      "japaneseSegments": [
+        {
+          "text": "たくさん"
+        }
+      ],
+      "reading": "たくさん",
+      "romaji": "takusan",
+      "meaning": "many; a lot",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:見える|みえる",
+      "japanese": "見える",
+      "japaneseSegments": [
+        {
+          "base": "見",
+          "reading": "み"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "reading": "みえる",
+      "romaji": "mieru",
+      "meaning": "to be visible; to be able to see",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:見る|みる",
+      "japanese": "見る",
+      "japaneseSegments": [
+        {
+          "base": "見",
+          "reading": "み"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "みる",
+      "romaji": "miru",
+      "meaning": "to look at; to see",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:だんだん|だんだん",
+      "japanese": "だんだん",
+      "japaneseSegments": [
+        {
+          "text": "だんだん"
+        }
+      ],
+      "reading": "だんだん",
+      "romaji": "dandan",
+      "meaning": "gradually; little by little",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:空|そら",
+      "japanese": "空",
+      "japaneseSegments": [
+        {
+          "base": "空",
+          "reading": "そら"
+        }
+      ],
+      "reading": "そら",
+      "romaji": "sora",
+      "meaning": "sky",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:見上げる|みあげる",
+      "japanese": "見上げる",
+      "japaneseSegments": [
+        {
+          "base": "見上",
+          "reading": "みあ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "reading": "みあげる",
+      "romaji": "miageru",
+      "meaning": "to look up at",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:V-te iru",
+      "pattern": "V-te iru",
+      "patternSegments": [
+        {
+          "text": "V-te iru"
+        }
+      ],
+      "explanation": "Shows an ongoing action or continuing state; here, someone is in the state of doing their best.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N no N",
+      "pattern": "N no N",
+      "patternSegments": [
+        {
+          "text": "N no N"
+        }
+      ],
+      "explanation": "Links two nouns, often showing possession or association.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-masen ka",
+      "pattern": "V-masen ka",
+      "patternSegments": [
+        {
+          "text": "V-masen ka"
+        }
+      ],
+      "explanation": "A polite negative question used here to gently ask about someone's condition.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:mo",
+      "pattern": "mo",
+      "patternSegments": [
+        {
+          "text": "mo"
+        }
+      ],
+      "explanation": "Means “also” or “too,” and can mark each item in a pair to include both.",
+      "firstPassage": 2,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "grammar:na-adjective + na + N",
+      "pattern": "na-adjective + na + N",
+      "patternSegments": [
+        {
+          "text": "na-adjective + na + N"
+        }
+      ],
+      "explanation": "A na-adjective takes na when it comes directly before a noun.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N to N",
+      "pattern": "N to N",
+      "patternSegments": [
+        {
+          "text": "N to N"
+        }
+      ],
+      "explanation": "Connects two nouns with the meaning “and.”",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ru to",
+      "pattern": "V-ru to",
+      "patternSegments": [
+        {
+          "text": "V-ru to"
+        }
+      ],
+      "explanation": "After a plain verb, to can mean “when” and introduce a result that follows.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:I-adjective-ku naru",
+      "pattern": "I-adjective-ku naru",
+      "patternSegments": [
+        {
+          "text": "I-adjective-ku naru"
+        }
+      ],
+      "explanation": "Changes an i-adjective into its ku form before naru to describe a change of state.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ta toki",
+      "pattern": "V-ta toki",
+      "patternSegments": [
+        {
+          "text": "V-ta toki"
+        }
+      ],
+      "explanation": "Uses the past form before toki to mean “when” or “at the time of” doing something.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te mimashou",
+      "pattern": "V-te mimashou",
+      "patternSegments": [
+        {
+          "text": "V-te mimashou"
+        }
+      ],
+      "explanation": "A polite suggestion to try doing something.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ne",
+      "pattern": "ne",
+      "patternSegments": [
+        {
+          "text": "ne"
+        }
+      ],
+      "explanation": "A sentence-ending particle that softens a suggestion and invites agreement.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    }
+  ]
+}

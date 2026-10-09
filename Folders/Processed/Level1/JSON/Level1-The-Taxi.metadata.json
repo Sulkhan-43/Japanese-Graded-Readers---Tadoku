@@ -1,0 +1,1107 @@
+{
+  "id": "level1-the-taxi",
+  "name": "The Taxi",
+  "japaneseTitle": "タクシー",
+  "slug": "level1-the-taxi",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-the-taxi/source.pdf",
+  "ocrR2Key": "books/level1-the-taxi/source-ocr.txt",
+  "coverR2Key": "books/level1-the-taxi/cover.jpg",
+  "htmlR2Key": "books/level1-the-taxi/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 545,
+  "createdAt": "2026-10-09T17:01:52.325Z",
+  "updatedAt": "2026-10-09T17:01:52.325Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:運転手|うんてんしゅ",
+        "japanese": "運転手",
+        "japaneseSegments": [
+          {
+            "base": "運転手",
+            "reading": "うんてんしゅ"
+          }
+        ],
+        "reading": "うんてんしゅ",
+        "romaji": "untenshu",
+        "meaning": "driver",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:交差点|こうさてん",
+        "japanese": "交差点",
+        "japaneseSegments": [
+          {
+            "base": "交差点",
+            "reading": "こうさてん"
+          }
+        ],
+        "reading": "こうさてん",
+        "romaji": "kōsaten",
+        "meaning": "intersection",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:走る|はしる",
+        "japanese": "走る",
+        "japaneseSegments": [
+          {
+            "base": "走",
+            "reading": "はし"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "はしる",
+        "romaji": "hashiru",
+        "meaning": "to drive; to run",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:寒い|さむい",
+        "japanese": "寒い",
+        "japaneseSegments": [
+          {
+            "base": "寒",
+            "reading": "さむ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "さむい",
+        "romaji": "samui",
+        "meaning": "cold (weather)",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:上げる|あげる",
+        "japanese": "上げる",
+        "japaneseSegments": [
+          {
+            "base": "上",
+            "reading": "あ"
+          },
+          {
+            "text": "げる"
+          }
+        ],
+        "reading": "あげる",
+        "romaji": "ageru",
+        "meaning": "to raise; to lift",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:止まる|とまる",
+        "japanese": "止まる",
+        "japaneseSegments": [
+          {
+            "base": "止",
+            "reading": "と"
+          },
+          {
+            "text": "まる"
+          }
+        ],
+        "reading": "とまる",
+        "romaji": "tomaru",
+        "meaning": "to stop",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:前|まえ",
+        "japanese": "前",
+        "japaneseSegments": [
+          {
+            "base": "前",
+            "reading": "まえ"
+          }
+        ],
+        "reading": "まえ",
+        "romaji": "mae",
+        "meaning": "front; before; ago",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:大きい|おおきい",
+        "japanese": "大きい",
+        "japaneseSegments": [
+          {
+            "base": "大",
+            "reading": "おお"
+          },
+          {
+            "text": "きい"
+          }
+        ],
+        "reading": "おおきい",
+        "romaji": "ōkii",
+        "meaning": "big; loud",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:開ける|あける",
+        "japanese": "開ける",
+        "japaneseSegments": [
+          {
+            "base": "開",
+            "reading": "あ"
+          },
+          {
+            "text": "ける"
+          }
+        ],
+        "reading": "あける",
+        "romaji": "akeru",
+        "meaning": "to open",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:乗る|のる",
+        "japanese": "乗る",
+        "japaneseSegments": [
+          {
+            "base": "乗",
+            "reading": "の"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "のる",
+        "romaji": "noru",
+        "meaning": "to ride; to get into a vehicle",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:聞く|きく",
+        "japanese": "聞く",
+        "japaneseSegments": [
+          {
+            "base": "聞",
+            "reading": "き"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "きく",
+        "romaji": "kiku",
+        "meaning": "to ask; to hear",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:行く|いく",
+        "japanese": "行く",
+        "japaneseSegments": [
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "いく",
+        "romaji": "iku",
+        "meaning": "to go",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:答える|こたえる",
+        "japanese": "答える",
+        "japaneseSegments": [
+          {
+            "base": "答",
+            "reading": "こた"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "こたえる",
+        "romaji": "kotaeru",
+        "meaning": "to answer; to reply",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:桜公園|さくらこうえん",
+        "japanese": "桜公園",
+        "japaneseSegments": [
+          {
+            "base": "桜公園",
+            "reading": "さくらこうえん"
+          }
+        ],
+        "reading": "さくらこうえん",
+        "romaji": "Sakura Kōen",
+        "meaning": "Sakura Park",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:歳|さい",
+        "japanese": "歳",
+        "japaneseSegments": [
+          {
+            "base": "歳",
+            "reading": "さい"
+          }
+        ],
+        "reading": "さい",
+        "romaji": "sai",
+        "meaning": "years of age; age counter",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:黄色い|きいろい",
+        "japanese": "黄色い",
+        "japaneseSegments": [
+          {
+            "base": "黄色",
+            "reading": "きいろ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "きいろい",
+        "romaji": "kiiroi",
+        "meaning": "yellow",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:服|ふく",
+        "japanese": "服",
+        "japaneseSegments": [
+          {
+            "base": "服",
+            "reading": "ふく"
+          }
+        ],
+        "reading": "ふく",
+        "romaji": "fuku",
+        "meaning": "clothes",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:九時|くじ",
+        "japanese": "九時",
+        "japaneseSegments": [
+          {
+            "base": "九時",
+            "reading": "くじ"
+          }
+        ],
+        "reading": "くじ",
+        "romaji": "kuji",
+        "meaning": "nine o'clock",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:一人|ひとり",
+        "japanese": "一人",
+        "japaneseSegments": [
+          {
+            "base": "一人",
+            "reading": "ひとり"
+          }
+        ],
+        "reading": "ひとり",
+        "romaji": "hitori",
+        "meaning": "one person; alone",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:少し|すこし",
+        "japanese": "少し",
+        "japaneseSegments": [
+          {
+            "base": "少",
+            "reading": "すこ"
+          },
+          {
+            "text": "し"
+          }
+        ],
+        "reading": "すこし",
+        "romaji": "sukoshi",
+        "meaning": "a little; a bit",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:友だち|ともだち",
+        "japanese": "友だち",
+        "japaneseSegments": [
+          {
+            "base": "友",
+            "reading": "とも"
+          },
+          {
+            "text": "だち"
+          }
+        ],
+        "reading": "ともだち",
+        "romaji": "tomodachi",
+        "meaning": "friend",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:家|いえ",
+        "japanese": "家",
+        "japaneseSegments": [
+          {
+            "base": "家",
+            "reading": "いえ"
+          }
+        ],
+        "reading": "いえ",
+        "romaji": "ie",
+        "meaning": "house; home",
+        "firstPassage": 3,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:自転車|じてんしゃ",
+        "japanese": "自転車",
+        "japaneseSegments": [
+          {
+            "base": "自転車",
+            "reading": "じてんしゃ"
+          }
+        ],
+        "reading": "じてんしゃ",
+        "romaji": "jitensha",
+        "meaning": "bicycle",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:来る|くる",
+        "japanese": "来る",
+        "japaneseSegments": [
+          {
+            "base": "来",
+            "reading": "く"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "くる",
+        "romaji": "kuru",
+        "meaning": "to come",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:壊れる|こわれる",
+        "japanese": "壊れる",
+        "japaneseSegments": [
+          {
+            "base": "壊",
+            "reading": "こわ"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "こわれる",
+        "romaji": "kowareru",
+        "meaning": "to break",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大変|たいへん",
+        "japanese": "大変",
+        "japaneseSegments": [
+          {
+            "base": "大変",
+            "reading": "たいへん"
+          }
+        ],
+        "reading": "たいへん",
+        "romaji": "taihen",
+        "meaning": "difficult; serious",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:何分|なんぷん",
+        "japanese": "何分",
+        "japaneseSegments": [
+          {
+            "base": "何分",
+            "reading": "なんぷん"
+          }
+        ],
+        "reading": "なんぷん",
+        "romaji": "nanpun",
+        "meaning": "how many minutes",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:十分|じゅっぷん",
+        "japanese": "十分",
+        "japaneseSegments": [
+          {
+            "base": "十分",
+            "reading": "じゅっぷん"
+          }
+        ],
+        "reading": "じゅっぷん",
+        "romaji": "juppun",
+        "meaning": "ten minutes",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:着く|つく",
+        "japanese": "着く",
+        "japaneseSegments": [
+          {
+            "base": "着",
+            "reading": "つ"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "つく",
+        "romaji": "tsuku",
+        "meaning": "to arrive",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:隣|となり",
+        "japanese": "隣",
+        "japaneseSegments": [
+          {
+            "base": "隣",
+            "reading": "となり"
+          }
+        ],
+        "reading": "となり",
+        "romaji": "tonari",
+        "meaning": "next to; neighboring",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:小さい|ちいさい",
+        "japanese": "小さい",
+        "japaneseSegments": [
+          {
+            "base": "小",
+            "reading": "ちい"
+          },
+          {
+            "text": "さい"
+          }
+        ],
+        "reading": "ちいさい",
+        "romaji": "chiisai",
+        "meaning": "small",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:私|わたし",
+        "japanese": "私",
+        "japaneseSegments": [
+          {
+            "base": "私",
+            "reading": "わたし"
+          }
+        ],
+        "reading": "わたし",
+        "romaji": "watashi",
+        "meaning": "I; me; my",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:今|いま",
+        "japanese": "今",
+        "japaneseSegments": [
+          {
+            "base": "今",
+            "reading": "いま"
+          }
+        ],
+        "reading": "いま",
+        "romaji": "ima",
+        "meaning": "now",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:お金|おかね",
+        "japanese": "お金",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "金",
+            "reading": "かね"
+          }
+        ],
+        "reading": "おかね",
+        "romaji": "okane",
+        "meaning": "money",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:母|はは",
+        "japanese": "母",
+        "japaneseSegments": [
+          {
+            "base": "母",
+            "reading": "はは"
+          }
+        ],
+        "reading": "はは",
+        "romaji": "haha",
+        "meaning": "mother (one's own)",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:もらう|もらう",
+        "japanese": "もらう",
+        "japaneseSegments": [
+          {
+            "text": "もらう"
+          }
+        ],
+        "reading": "もらう",
+        "romaji": "morau",
+        "meaning": "to receive; to get",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:入る|はいる",
+        "japanese": "入る",
+        "japaneseSegments": [
+          {
+            "base": "入",
+            "reading": "はい"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "はいる",
+        "romaji": "hairu",
+        "meaning": "to enter; to go inside",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:車|くるま",
+        "japanese": "車",
+        "japaneseSegments": [
+          {
+            "base": "車",
+            "reading": "くるま"
+          }
+        ],
+        "reading": "くるま",
+        "romaji": "kuruma",
+        "meaning": "car",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:五分|ごふん",
+        "japanese": "五分",
+        "japaneseSegments": [
+          {
+            "base": "五分",
+            "reading": "ごふん"
+          }
+        ],
+        "reading": "ごふん",
+        "romaji": "gofun",
+        "meaning": "five minutes",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:待つ|まつ",
+        "japanese": "待つ",
+        "japaneseSegments": [
+          {
+            "base": "待",
+            "reading": "ま"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "まつ",
+        "romaji": "matsu",
+        "meaning": "to wait",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:降りる|おりる",
+        "japanese": "降りる",
+        "japaneseSegments": [
+          {
+            "base": "降",
+            "reading": "お"
+          },
+          {
+            "text": "りる"
+          }
+        ],
+        "reading": "おりる",
+        "romaji": "oriru",
+        "meaning": "to get off; to descend",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:声|こえ",
+        "japanese": "声",
+        "japaneseSegments": [
+          {
+            "base": "声",
+            "reading": "こえ"
+          }
+        ],
+        "reading": "こえ",
+        "romaji": "koe",
+        "meaning": "voice",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:四十歳|よんじゅっさい",
+        "japanese": "四十歳",
+        "japaneseSegments": [
+          {
+            "base": "四十歳",
+            "reading": "よんじゅっさい"
+          }
+        ],
+        "reading": "よんじゅっさい",
+        "romaji": "yonjussai",
+        "meaning": "forty years old",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:何|なん",
+        "japanese": "何",
+        "japaneseSegments": [
+          {
+            "base": "何",
+            "reading": "なん"
+          }
+        ],
+        "reading": "なん",
+        "romaji": "nan",
+        "meaning": "what",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:タクシー代|たくしーだい",
+        "japanese": "タクシー代",
+        "japaneseSegments": [
+          {
+            "text": "タクシー"
+          },
+          {
+            "base": "代",
+            "reading": "だい"
+          }
+        ],
+        "reading": "たくしーだい",
+        "romaji": "takushīdai",
+        "meaning": "taxi fare",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:髪|かみ",
+        "japanese": "髪",
+        "japaneseSegments": [
+          {
+            "base": "髪",
+            "reading": "かみ"
+          }
+        ],
+        "reading": "かみ",
+        "romaji": "kami",
+        "meaning": "hair",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:長い|ながい",
+        "japanese": "長い",
+        "japaneseSegments": [
+          {
+            "base": "長",
+            "reading": "なが"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "ながい",
+        "romaji": "nagai",
+        "meaning": "long",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:静か|しずか",
+        "japanese": "静か",
+        "japaneseSegments": [
+          {
+            "base": "静",
+            "reading": "しず"
+          },
+          {
+            "text": "か"
+          }
+        ],
+        "reading": "しずか",
+        "romaji": "shizuka",
+        "meaning": "quiet",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:三日前|みっかまえ",
+        "japanese": "三日前",
+        "japaneseSegments": [
+          {
+            "base": "三日",
+            "reading": "みっか"
+          },
+          {
+            "base": "前",
+            "reading": "まえ"
+          }
+        ],
+        "reading": "みっかまえ",
+        "romaji": "mikka mae",
+        "meaning": "three days ago",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:交通事故|こうつうじこ",
+        "japanese": "交通事故",
+        "japaneseSegments": [
+          {
+            "base": "交通事故",
+            "reading": "こうつうじこ"
+          }
+        ],
+        "reading": "こうつうじこ",
+        "romaji": "kōtsū jiko",
+        "meaning": "traffic accident",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:死ぬ|しぬ",
+        "japanese": "死ぬ",
+        "japaneseSegments": [
+          {
+            "base": "死",
+            "reading": "し"
+          },
+          {
+            "text": "ぬ"
+          }
+        ],
+        "reading": "しぬ",
+        "romaji": "shinu",
+        "meaning": "to die",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:事故|じこ",
+        "japanese": "事故",
+        "japaneseSegments": [
+          {
+            "base": "事故",
+            "reading": "じこ"
+          }
+        ],
+        "reading": "じこ",
+        "romaji": "jiko",
+        "meaning": "accident",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:トラック|とらっく",
+        "japanese": "トラック",
+        "japaneseSegments": [
+          {
+            "text": "トラック"
+          }
+        ],
+        "reading": "とらっく",
+        "romaji": "torakku",
+        "meaning": "truck",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:子ども|こども",
+        "japanese": "子ども",
+        "japaneseSegments": [
+          {
+            "base": "子",
+            "reading": "こ"
+          },
+          {
+            "text": "ども"
+          }
+        ],
+        "reading": "こども",
+        "romaji": "kodomo",
+        "meaning": "child",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:いつも|いつも",
+        "japanese": "いつも",
+        "japaneseSegments": [
+          {
+            "text": "いつも"
+          }
+        ],
+        "reading": "いつも",
+        "romaji": "itsumo",
+        "meaning": "always; usually",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:帰る|かえる",
+        "japanese": "帰る",
+        "japaneseSegments": [
+          {
+            "base": "帰",
+            "reading": "かえ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return; to go home",
+        "firstPassage": 8,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:電話|でんわ",
+        "japanese": "電話",
+        "japaneseSegments": [
+          {
+            "base": "電話",
+            "reading": "でんわ"
+          }
+        ],
+        "reading": "でんわ",
+        "romaji": "denwa",
+        "meaning": "telephone; phone call",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:病院|びょういん",
+        "japanese": "病院",
+        "japaneseSegments": [
+          {
+            "base": "病院",
+            "reading": "びょういん"
+          }
+        ],
+        "reading": "びょういん",
+        "romaji": "byōin",
+        "meaning": "hospital",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:すぐ|すぐ",
+        "japanese": "すぐ",
+        "japaneseSegments": [
+          {
+            "text": "すぐ"
+          }
+        ],
+        "reading": "すぐ",
+        "romaji": "sugu",
+        "meaning": "right away; immediately",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:体|からだ",
+        "japanese": "体",
+        "japaneseSegments": [
+          {
+            "base": "体",
+            "reading": "からだ"
+          }
+        ],
+        "reading": "からだ",
+        "romaji": "karada",
+        "meaning": "body",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:魂|たましい",
+        "japanese": "魂",
+        "japaneseSegments": [
+          {
+            "base": "魂",
+            "reading": "たましい"
+          }
+        ],
+        "reading": "たましい",
+        "romaji": "tamashii",
+        "meaning": "soul; spirit",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N made",
+        "pattern": "N made",
+        "patternSegments": [
+          {
+            "text": "N made"
+          }
+        ],
+        "explanation": "This pattern marks an endpoint or limit, often meaning “up to” or “as far as.”",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:N ni noru",
+        "pattern": "N ni noru",
+        "patternSegments": [
+          {
+            "text": "N ni noru"
+          }
+        ],
+        "explanation": "This pattern uses a destination marker with a vehicle to say that someone gets on or rides in it.",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:N gurai",
+        "pattern": "N gurai",
+        "patternSegments": [
+          {
+            "text": "N gurai"
+          }
+        ],
+        "explanation": "This pattern gives an approximate amount, age, or duration, meaning “about” or “around.”",
+        "firstPassage": 2,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "grammar:Demo, ...",
+        "pattern": "Demo, ...",
+        "patternSegments": [
+          {
+            "text": "Demo, ..."
+          }
+        ],
+        "explanation": "This pattern introduces a contrast with what came before, meaning “but” or “however.”",
+        "firstPassage": 3,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:kara",
+        "pattern": "kara",
+        "patternSegments": [
+          {
+            "text": "kara"
+          }
+        ],
+        "explanation": "This pattern can mark a starting point or give a reason, depending on what it follows.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N mo N mo",
+        "pattern": "N mo N mo",
+        "patternSegments": [
+          {
+            "text": "N mo N mo"
+          }
+        ],
+        "explanation": "This pattern adds two items with the sense “both ... and ...”; in a negative sentence, it can mean “neither ... nor ...”.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:masen",
+        "pattern": "masen",
+        "patternSegments": [
+          {
+            "text": "masen"
+          }
+        ],
+        "explanation": "This pattern forms the polite negative of a verb, meaning “do not” or “does not.”",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      }
+    ]
+  }
+}

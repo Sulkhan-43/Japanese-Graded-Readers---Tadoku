@@ -1,0 +1,621 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:犬|いぬ",
+      "japanese": "犬",
+      "japaneseSegments": [
+        {
+          "base": "犬",
+          "reading": "いぬ"
+        }
+      ],
+      "reading": "いぬ",
+      "romaji": "inu",
+      "meaning": "dog",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:山|やま",
+      "japanese": "山",
+      "japaneseSegments": [
+        {
+          "base": "山",
+          "reading": "やま"
+        }
+      ],
+      "reading": "やま",
+      "romaji": "yama",
+      "meaning": "mountain",
+      "firstPassage": 1,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:大好き|だいすき",
+      "japanese": "大好き",
+      "japaneseSegments": [
+        {
+          "base": "大",
+          "reading": "だい"
+        },
+        {
+          "base": "好",
+          "reading": "す"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "だいすき",
+      "romaji": "daisuki",
+      "meaning": "to love; to really like",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:言う|いう",
+      "japanese": "言う",
+      "japaneseSegments": [
+        {
+          "base": "言",
+          "reading": "い"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "いう",
+      "romaji": "iu",
+      "meaning": "to say",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:行く|いく",
+      "japanese": "行く",
+      "japaneseSegments": [
+        {
+          "base": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "いく",
+      "romaji": "iku",
+      "meaning": "to go",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:キャンプ|キャンプ",
+      "japanese": "キャンプ",
+      "japaneseSegments": [
+        {
+          "text": "キャンプ"
+        }
+      ],
+      "reading": "キャンプ",
+      "romaji": "kyampu",
+      "meaning": "camping; camp",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:車|くるま",
+      "japanese": "車",
+      "japaneseSegments": [
+        {
+          "base": "車",
+          "reading": "くるま"
+        }
+      ],
+      "reading": "くるま",
+      "romaji": "kuruma",
+      "meaning": "car",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:シエラネバダ|シエラネバダ",
+      "japanese": "シエラネバダ",
+      "japaneseSegments": [
+        {
+          "text": "シエラネバダ"
+        }
+      ],
+      "reading": "シエラネバダ",
+      "romaji": "Shieranebada",
+      "meaning": "Sierra Nevada, a mountain range",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大きい|おおきい",
+      "japanese": "大きい",
+      "japaneseSegments": [
+        {
+          "base": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "きい"
+        }
+      ],
+      "reading": "おおきい",
+      "romaji": "ōkii",
+      "meaning": "big; large",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:きれい|きれい",
+      "japanese": "きれい",
+      "japaneseSegments": [
+        {
+          "text": "きれい"
+        }
+      ],
+      "reading": "きれい",
+      "romaji": "kirei",
+      "meaning": "beautiful; clean",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:上|うえ",
+      "japanese": "上",
+      "japaneseSegments": [
+        {
+          "base": "上",
+          "reading": "うえ"
+        }
+      ],
+      "reading": "うえ",
+      "romaji": "ue",
+      "meaning": "top; above",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:来る|くる",
+      "japanese": "来る",
+      "japaneseSegments": [
+        {
+          "base": "来",
+          "reading": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "くる",
+      "romaji": "kuru",
+      "meaning": "to come",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:湖|みずうみ",
+      "japanese": "湖",
+      "japaneseSegments": [
+        {
+          "base": "湖",
+          "reading": "みずうみ"
+        }
+      ],
+      "reading": "みずうみ",
+      "romaji": "mizūmi",
+      "meaning": "lake",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:魚|さかな",
+      "japanese": "魚",
+      "japaneseSegments": [
+        {
+          "base": "魚",
+          "reading": "さかな"
+        }
+      ],
+      "reading": "さかな",
+      "romaji": "sakana",
+      "meaning": "fish",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:たくさん|たくさん",
+      "japanese": "たくさん",
+      "japaneseSegments": [
+        {
+          "text": "たくさん"
+        }
+      ],
+      "reading": "たくさん",
+      "romaji": "takusan",
+      "meaning": "many; a lot",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:食べる|たべる",
+      "japanese": "食べる",
+      "japaneseSegments": [
+        {
+          "base": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "reading": "たべる",
+      "romaji": "taberu",
+      "meaning": "to eat",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:寒い|さむい",
+      "japanese": "寒い",
+      "japaneseSegments": [
+        {
+          "base": "寒",
+          "reading": "さむ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "さむい",
+      "romaji": "samui",
+      "meaning": "cold (weather or temperature)",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:寝る|ねる",
+      "japanese": "寝る",
+      "japaneseSegments": [
+        {
+          "base": "寝",
+          "reading": "ね"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "ねる",
+      "romaji": "neru",
+      "meaning": "to sleep; to go to bed",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ハイキング|ハイキング",
+      "japanese": "ハイキング",
+      "japaneseSegments": [
+        {
+          "text": "ハイキング"
+        }
+      ],
+      "reading": "ハイキング",
+      "romaji": "haikingu",
+      "meaning": "hiking",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:けむり|けむり",
+      "japanese": "けむり",
+      "japaneseSegments": [
+        {
+          "text": "けむり"
+        }
+      ],
+      "reading": "けむり",
+      "romaji": "kemuri",
+      "meaning": "smoke",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:山火事|やまかじ",
+      "japanese": "山火事",
+      "japaneseSegments": [
+        {
+          "base": "山",
+          "reading": "やま"
+        },
+        {
+          "base": "火",
+          "reading": "か"
+        },
+        {
+          "base": "事",
+          "reading": "じ"
+        }
+      ],
+      "reading": "やまかじ",
+      "romaji": "yamakaji",
+      "meaning": "forest fire",
+      "firstPassage": 6,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:遠い|とおい",
+      "japanese": "遠い",
+      "japaneseSegments": [
+        {
+          "base": "遠",
+          "reading": "とお"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "とおい",
+      "romaji": "tōi",
+      "meaning": "far; distant",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大丈夫|だいじょうぶ",
+      "japanese": "大丈夫",
+      "japaneseSegments": [
+        {
+          "base": "大",
+          "reading": "だい"
+        },
+        {
+          "base": "丈",
+          "reading": "じょう"
+        },
+        {
+          "base": "夫",
+          "reading": "ぶ"
+        }
+      ],
+      "reading": "だいじょうぶ",
+      "romaji": "daijōbu",
+      "meaning": "all right; okay",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:灰|はい",
+      "japanese": "灰",
+      "japaneseSegments": [
+        {
+          "base": "灰",
+          "reading": "はい"
+        }
+      ],
+      "reading": "はい",
+      "romaji": "hai",
+      "meaning": "ash",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:下りる|おりる",
+      "japanese": "下りる",
+      "japaneseSegments": [
+        {
+          "base": "下",
+          "reading": "お"
+        },
+        {
+          "text": "りる"
+        }
+      ],
+      "reading": "おりる",
+      "romaji": "oriru",
+      "meaning": "to go down; to descend",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:時間|じかん",
+      "japanese": "時間",
+      "japaneseSegments": [
+        {
+          "base": "時",
+          "reading": "じ"
+        },
+        {
+          "base": "間",
+          "reading": "かん"
+        }
+      ],
+      "reading": "じかん",
+      "romaji": "jikan",
+      "meaning": "time; hours",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:歩く|あるく",
+      "japanese": "歩く",
+      "japaneseSegments": [
+        {
+          "base": "歩",
+          "reading": "ある"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "あるく",
+      "romaji": "aruku",
+      "meaning": "to walk",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ラジオ|ラジオ",
+      "japanese": "ラジオ",
+      "japaneseSegments": [
+        {
+          "text": "ラジオ"
+        }
+      ],
+      "reading": "ラジオ",
+      "romaji": "rajio",
+      "meaning": "radio",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:家|いえ",
+      "japanese": "家",
+      "japaneseSegments": [
+        {
+          "base": "家",
+          "reading": "いえ"
+        }
+      ],
+      "reading": "いえ",
+      "romaji": "ie",
+      "meaning": "home; house",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:帰る|かえる",
+      "japanese": "帰る",
+      "japaneseSegments": [
+        {
+          "base": "帰",
+          "reading": "かえ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "かえる",
+      "romaji": "kaeru",
+      "meaning": "to return; to go home",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:楽しい|たのしい",
+      "japanese": "楽しい",
+      "japaneseSegments": [
+        {
+          "base": "楽",
+          "reading": "たの"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "たのしい",
+      "romaji": "tanoshii",
+      "meaning": "fun; enjoyable",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:こわい|こわい",
+      "japanese": "こわい",
+      "japaneseSegments": [
+        {
+          "text": "こわい"
+        }
+      ],
+      "reading": "こわい",
+      "romaji": "kowai",
+      "meaning": "scary; frightening",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:疲れる|つかれる",
+      "japanese": "疲れる",
+      "japaneseSegments": [
+        {
+          "base": "疲",
+          "reading": "つか"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "つかれる",
+      "romaji": "tsukareru",
+      "meaning": "to get tired",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:Vたい",
+      "pattern": "Vたい",
+      "patternSegments": [
+        {
+          "text": "Vたい"
+        }
+      ],
+      "explanation": "Attach this pattern to a verb stem to say that the subject wants to do that action.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:〜ですね",
+      "pattern": "〜ですね",
+      "patternSegments": [
+        {
+          "text": "〜ですね"
+        }
+      ],
+      "explanation": "This pattern adds a gentle check for agreement or shared observation after a statement.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Vよう",
+      "pattern": "Vよう",
+      "patternSegments": [
+        {
+          "text": "Vよう"
+        }
+      ],
+      "explanation": "This pattern uses the plain volitional form to suggest doing something together.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:〜から",
+      "pattern": "〜から",
+      "patternSegments": [
+        {
+          "text": "〜から"
+        }
+      ],
+      "explanation": "This pattern gives a reason and is usually translated as “because” or “since.”",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:〜よね",
+      "pattern": "〜よね",
+      "patternSegments": [
+        {
+          "text": "〜よね"
+        }
+      ],
+      "explanation": "This pattern asks for agreement or reassurance, with a conversational expectation that the listener will agree.",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    }
+  ]
+}

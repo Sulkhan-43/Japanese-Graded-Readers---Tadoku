@@ -1,0 +1,287 @@
+{
+  "id": "level1-why-did-the-shrimp-s-body-bend-why-are-there-no-cat-year",
+  "name": "Why Did the Shrimp’s Body Bend Why Are There No Cat Years",
+  "japaneseTitle": "どうしてエビの体は曲がった？ どうしてねこ年がない？",
+  "slug": "level1-why-did-the-shrimp-s-body-bend-why-are-there-no-cat-year",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-why-did-the-shrimp-s-body-bend-why-are-there-no-cat-year/source.pdf",
+  "ocrR2Key": "books/level1-why-did-the-shrimp-s-body-bend-why-are-there-no-cat-year/source-ocr.txt",
+  "coverR2Key": "books/level1-why-did-the-shrimp-s-body-bend-why-are-there-no-cat-year/cover.jpg",
+  "htmlR2Key": "books/level1-why-did-the-shrimp-s-body-bend-why-are-there-no-cat-year/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 805,
+  "createdAt": "2026-10-09T17:08:18.270Z",
+  "updatedAt": "2026-10-09T17:08:18.270Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:まっすぐ|まっすぐ",
+        "japanese": "まっすぐ",
+        "japaneseSegments": [
+          {
+            "text": "まっすぐ"
+          }
+        ],
+        "reading": "まっすぐ",
+        "romaji": "massugu",
+        "meaning": "straight; in a straight line",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:疲れる|つかれる",
+        "japanese": "疲れる",
+        "japaneseSegments": [
+          {
+            "base": "疲",
+            "reading": "つか"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "つかれる",
+        "romaji": "tsukareru",
+        "meaning": "to get tired",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:くしゃみ|くしゃみ",
+        "japanese": "くしゃみ",
+        "japaneseSegments": [
+          {
+            "text": "くしゃみ"
+          }
+        ],
+        "reading": "くしゃみ",
+        "romaji": "kushami",
+        "meaning": "sneeze",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:鼻|はな",
+        "japanese": "鼻",
+        "japaneseSegments": [
+          {
+            "base": "鼻",
+            "reading": "はな"
+          }
+        ],
+        "reading": "はな",
+        "romaji": "hana",
+        "meaning": "nose",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:起きる|おきる",
+        "japanese": "起きる",
+        "japaneseSegments": [
+          {
+            "base": "起",
+            "reading": "お"
+          },
+          {
+            "text": "きる"
+          }
+        ],
+        "reading": "おきる",
+        "romaji": "okiru",
+        "meaning": "to wake up",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:答える|こたえる",
+        "japanese": "答える",
+        "japaneseSegments": [
+          {
+            "base": "答",
+            "reading": "こた"
+          },
+          {
+            "text": "える"
+          }
+        ],
+        "reading": "こたえる",
+        "romaji": "kotaeru",
+        "meaning": "to answer",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ゆっくり|ゆっくり",
+        "japanese": "ゆっくり",
+        "japaneseSegments": [
+          {
+            "text": "ゆっくり"
+          }
+        ],
+        "reading": "ゆっくり",
+        "romaji": "yukkuri",
+        "meaning": "slowly",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:屋根|やね",
+        "japanese": "屋根",
+        "japaneseSegments": [
+          {
+            "base": "屋根",
+            "reading": "やね"
+          }
+        ],
+        "reading": "やね",
+        "romaji": "yane",
+        "meaning": "roof",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:乗る|のる",
+        "japanese": "乗る",
+        "japaneseSegments": [
+          {
+            "base": "乗",
+            "reading": "の"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "のる",
+        "romaji": "noru",
+        "meaning": "to ride; to get on",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:開く|あく",
+        "japanese": "開く",
+        "japaneseSegments": [
+          {
+            "base": "開",
+            "reading": "あ"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "あく",
+        "romaji": "aku",
+        "meaning": "to open",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:降りる|おりる",
+        "japanese": "降りる",
+        "japaneseSegments": [
+          {
+            "base": "降",
+            "reading": "お"
+          },
+          {
+            "text": "りる"
+          }
+        ],
+        "reading": "おりる",
+        "romaji": "oriru",
+        "meaning": "to get down; to descend",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:すぐ|すぐ",
+        "japanese": "すぐ",
+        "japaneseSegments": [
+          {
+            "text": "すぐ"
+          }
+        ],
+        "reading": "すぐ",
+        "romaji": "sugu",
+        "meaning": "right away; straight away",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:嫌い|きらい",
+        "japanese": "嫌い",
+        "japaneseSegments": [
+          {
+            "base": "嫌",
+            "reading": "きら"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "きらい",
+        "romaji": "kirai",
+        "meaning": "to dislike; to hate",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:V tai",
+        "pattern": "V tai",
+        "patternSegments": [
+          {
+            "text": "V たい"
+          }
+        ],
+        "explanation": "Attach this pattern to the verb stem to express what someone wants to do.",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V mashō",
+        "pattern": "V mashō",
+        "patternSegments": [
+          {
+            "text": "V ましょう"
+          }
+        ],
+        "explanation": "Attach this pattern to the verb stem to make a polite suggestion meaning “let’s do it.”",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V kara",
+        "pattern": "V kara",
+        "patternSegments": [
+          {
+            "text": "V から"
+          }
+        ],
+        "explanation": "After a clause, this pattern gives a reason or explanation, similar to “because” or “so.”",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N kara N made",
+        "pattern": "N kara N made",
+        "patternSegments": [
+          {
+            "text": "N から N まで"
+          }
+        ],
+        "explanation": "This pattern marks a range, meaning “from N to N.”",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "id": "level1-my-family",
+  "name": "My Family",
+  "japaneseTitle": "ぼくの かぞく",
+  "slug": "level1-my-family",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-my-family/source.pdf",
+  "ocrR2Key": "books/level1-my-family/source-ocr.txt",
+  "coverR2Key": "books/level1-my-family/cover.jpg",
+  "htmlR2Key": "books/level1-my-family/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 152,
+  "createdAt": "2026-10-09T16:30:17.456Z",
+  "updatedAt": "2026-10-09T16:30:17.456Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:ぼく|ぼく",
+        "japanese": "ぼく",
+        "japaneseSegments": [
+          {
+            "text": "ぼく"
+          }
+        ],
+        "reading": "ぼく",
+        "romaji": "boku",
+        "meaning": "I; me, typically used by boys and men",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:家族|かぞく",
+        "japanese": "家族",
+        "japaneseSegments": [
+          {
+            "base": "家",
+            "reading": "か"
+          },
+          {
+            "base": "族",
+            "reading": "ぞく"
+          }
+        ],
+        "reading": "かぞく",
+        "romaji": "kazoku",
+        "meaning": "family",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:くま|くま",
+        "japanese": "くま",
+        "japaneseSegments": [
+          {
+            "text": "くま"
+          }
+        ],
+        "reading": "くま",
+        "romaji": "kuma",
+        "meaning": "bear; teddy bear",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ぬいぐるみ|ぬいぐるみ",
+        "japanese": "ぬいぐるみ",
+        "japaneseSegments": [
+          {
+            "text": "ぬいぐるみ"
+          }
+        ],
+        "reading": "ぬいぐるみ",
+        "romaji": "nuigurumi",
+        "meaning": "stuffed toy; plush toy",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:年|ねん",
+        "japanese": "年",
+        "japaneseSegments": [
+          {
+            "base": "年",
+            "reading": "ねん"
+          }
+        ],
+        "reading": "ねん",
+        "romaji": "nen",
+        "meaning": "year; used after a number to state a year",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:うち|うち",
+        "japanese": "うち",
+        "japaneseSegments": [
+          {
+            "text": "うち"
+          }
+        ],
+        "reading": "うち",
+        "romaji": "uchi",
+        "meaning": "home; one's house",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:来る|くる",
+        "japanese": "来る",
+        "japaneseSegments": [
+          {
+            "base": "来",
+            "reading": "く"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "くる",
+        "romaji": "kuru",
+        "meaning": "to come",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:よく|よく",
+        "japanese": "よく",
+        "japaneseSegments": [
+          {
+            "text": "よく"
+          }
+        ],
+        "reading": "よく",
+        "romaji": "yoku",
+        "meaning": "often; a lot",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:食べる|たべる",
+        "japanese": "食べる",
+        "japaneseSegments": [
+          {
+            "base": "食",
+            "reading": "た"
+          },
+          {
+            "text": "べる"
+          }
+        ],
+        "reading": "たべる",
+        "romaji": "taberu",
+        "meaning": "to eat",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:泣く|なく",
+        "japanese": "泣く",
+        "japaneseSegments": [
+          {
+            "base": "泣",
+            "reading": "な"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "なく",
+        "romaji": "naku",
+        "meaning": "to cry",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:笑う|わらう",
+        "japanese": "笑う",
+        "japaneseSegments": [
+          {
+            "base": "笑",
+            "reading": "わら"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "わらう",
+        "romaji": "warau",
+        "meaning": "to laugh; to smile",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:うんちする|うんちする",
+        "japanese": "うんちする",
+        "japaneseSegments": [
+          {
+            "text": "うんちする"
+          }
+        ],
+        "reading": "うんちする",
+        "romaji": "unchi suru",
+        "meaning": "to poop",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:大好き|だいすき",
+        "japanese": "大好き",
+        "japaneseSegments": [
+          {
+            "base": "大",
+            "reading": "だい"
+          },
+          {
+            "base": "好",
+            "reading": "す"
+          },
+          {
+            "text": "き"
+          }
+        ],
+        "reading": "だいすき",
+        "romaji": "daisuki",
+        "meaning": "to love; to like very much",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ときどき|ときどき",
+        "japanese": "ときどき",
+        "japaneseSegments": [
+          {
+            "text": "ときどき"
+          }
+        ],
+        "reading": "ときどき",
+        "romaji": "tokidoki",
+        "meaning": "sometimes",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ずっと|ずっと",
+        "japanese": "ずっと",
+        "japaneseSegments": [
+          {
+            "text": "ずっと"
+          }
+        ],
+        "reading": "ずっと",
+        "romaji": "zutto",
+        "meaning": "all along; for a long time; always",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:一緒|いっしょ",
+        "japanese": "一緒",
+        "japaneseSegments": [
+          {
+            "base": "一緒",
+            "reading": "いっしょ"
+          }
+        ],
+        "reading": "いっしょ",
+        "romaji": "issho",
+        "meaning": "together",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:いる|いる",
+        "japanese": "いる",
+        "japaneseSegments": [
+          {
+            "text": "いる"
+          }
+        ],
+        "reading": "いる",
+        "romaji": "iru",
+        "meaning": "to be; to exist (for people and animals)",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:一番|いちばん",
+        "japanese": "一番",
+        "japaneseSegments": [
+          {
+            "base": "一番",
+            "reading": "いちばん"
+          }
+        ],
+        "reading": "いちばん",
+        "romaji": "ichiban",
+        "meaning": "number one; best",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:白い|しろい",
+        "japanese": "白い",
+        "japaneseSegments": [
+          {
+            "base": "白",
+            "reading": "しろ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "しろい",
+        "romaji": "shiroi",
+        "meaning": "white",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ドレス|ドレス",
+        "japanese": "ドレス",
+        "japaneseSegments": [
+          {
+            "text": "ドレス"
+          }
+        ],
+        "reading": "ドレス",
+        "romaji": "doresu",
+        "meaning": "dress",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:きれい|きれい",
+        "japanese": "きれい",
+        "japaneseSegments": [
+          {
+            "text": "きれい"
+          }
+        ],
+        "reading": "きれい",
+        "romaji": "kirei",
+        "meaning": "pretty; beautiful",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:新しい|あたらしい",
+        "japanese": "新しい",
+        "japaneseSegments": [
+          {
+            "base": "新",
+            "reading": "あたら"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "あたらしい",
+        "romaji": "atarashii",
+        "meaning": "new",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:誰|だれ",
+        "japanese": "誰",
+        "japaneseSegments": [
+          {
+            "base": "誰",
+            "reading": "だれ"
+          }
+        ],
+        "reading": "だれ",
+        "romaji": "dare",
+        "meaning": "who",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:オレ|おれ",
+        "japanese": "オレ",
+        "japaneseSegments": [
+          {
+            "text": "オレ"
+          }
+        ],
+        "reading": "おれ",
+        "romaji": "ore",
+        "meaning": "I; me, a rough or emphatic masculine form",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:赤ちゃん|あかちゃん",
+        "japanese": "赤ちゃん",
+        "japaneseSegments": [
+          {
+            "base": "赤",
+            "reading": "あか"
+          },
+          {
+            "text": "ちゃん"
+          }
+        ],
+        "reading": "あかちゃん",
+        "romaji": "akachan",
+        "meaning": "baby",
+        "firstPassage": 9,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:いつも|いつも",
+        "japanese": "いつも",
+        "japaneseSegments": [
+          {
+            "text": "いつも"
+          }
+        ],
+        "reading": "いつも",
+        "romaji": "itsumo",
+        "meaning": "always; all the time",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:誕生日|たんじょうび",
+        "japanese": "誕生日",
+        "japaneseSegments": [
+          {
+            "base": "誕生日",
+            "reading": "たんじょうび"
+          }
+        ],
+        "reading": "たんじょうび",
+        "romaji": "tanjōbi",
+        "meaning": "birthday",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:プレゼント|プレゼント",
+        "japanese": "プレゼント",
+        "japaneseSegments": [
+          {
+            "text": "プレゼント"
+          }
+        ],
+        "reading": "プレゼント",
+        "romaji": "purezento",
+        "meaning": "present; gift",
+        "firstPassage": 13,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:好き|すき",
+        "japanese": "好き",
+        "japaneseSegments": [
+          {
+            "base": "好",
+            "reading": "す"
+          },
+          {
+            "text": "き"
+          }
+        ],
+        "reading": "すき",
+        "romaji": "suki",
+        "meaning": "to like",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N wa",
+        "pattern": "N wa",
+        "patternSegments": [
+          {
+            "text": "N wa"
+          }
+        ],
+        "explanation": "Wa marks the topic of a sentence, often translated as “as for” or left implicit in English.",
+        "firstPassage": 1,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:N no N",
+        "pattern": "N no N",
+        "patternSegments": [
+          {
+            "text": "N no N"
+          }
+        ],
+        "explanation": "No links two nouns to show possession or association, as in a person's home or a family's member.",
+        "firstPassage": 1,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:V-masu / V-mashita",
+        "pattern": "V-masu / V-mashita",
+        "patternSegments": [
+          {
+            "text": "V-masu / V-mashita"
+          }
+        ],
+        "explanation": "Masu forms make verbs polite; masu is nonpast, while mashita marks the past.",
+        "firstPassage": 1,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "grammar:N ga suki / daisuki",
+        "pattern": "N ga suki / daisuki",
+        "patternSegments": [
+          {
+            "text": "N ga suki / daisuki"
+          }
+        ],
+        "explanation": "Use ga with suki or daisuki to mark the person or thing someone likes.",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N to",
+        "pattern": "N to",
+        "patternSegments": [
+          {
+            "text": "N to"
+          }
+        ],
+        "explanation": "To links nouns with the meaning “and” or “with,” depending on the sentence.",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:i-adjective + N",
+        "pattern": "i-adjective + N",
+        "patternSegments": [
+          {
+            "text": "i-adjective + N"
+          }
+        ],
+        "explanation": "An i-adjective can come directly before a noun to describe it.",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:sentence-final ne",
+        "pattern": "sentence-final ne",
+        "patternSegments": [
+          {
+            "text": "sentence-final ne"
+          }
+        ],
+        "explanation": "Ne at the end of a sentence invites agreement or adds a warm, conversational tone.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:X da yo",
+        "pattern": "X da yo",
+        "patternSegments": [
+          {
+            "text": "X da yo"
+          }
+        ],
+        "explanation": "Da yo gives an informal, emphatic statement or announcement.",
+        "firstPassage": 13,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N ni mo",
+        "pattern": "N ni mo",
+        "patternSegments": [
+          {
+            "text": "N ni mo"
+          }
+        ],
+        "explanation": "Ni mo means “to/for ... too” or “also at/in ...,” depending on context.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

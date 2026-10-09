@@ -1,0 +1,478 @@
+{
+  "id": "level1-john-on-the-bus",
+  "name": "John on the Bus",
+  "japaneseTitle": "ジョンさんバスの中で",
+  "slug": "level1-john-on-the-bus",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-john-on-the-bus/source.pdf",
+  "ocrR2Key": "books/level1-john-on-the-bus/source-ocr.txt",
+  "coverR2Key": "books/level1-john-on-the-bus/cover.jpg",
+  "htmlR2Key": "books/level1-john-on-the-bus/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 603,
+  "createdAt": "2026-10-09T17:47:21.756Z",
+  "updatedAt": "2026-10-09T17:47:21.756Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:雑誌|ざっし",
+        "japanese": "雑誌",
+        "japaneseSegments": [
+          {
+            "base": "雑誌",
+            "reading": "ざっし"
+          }
+        ],
+        "reading": "ざっし",
+        "romaji": "zasshi",
+        "meaning": "magazine",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ジーンズ|ジーンズ",
+        "japanese": "ジーンズ",
+        "japaneseSegments": [
+          {
+            "text": "ジーンズ"
+          }
+        ],
+        "reading": "ジーンズ",
+        "romaji": "jīnzu",
+        "meaning": "jeans",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:高い|たかい",
+        "japanese": "高い",
+        "japaneseSegments": [
+          {
+            "base": "高",
+            "reading": "たか"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "たかい",
+        "romaji": "takai",
+        "meaning": "expensive; high",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:切る|きる",
+        "japanese": "切る",
+        "japaneseSegments": [
+          {
+            "base": "切",
+            "reading": "き"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "きる",
+        "romaji": "kiru",
+        "meaning": "to cut",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:鏡|かがみ",
+        "japanese": "鏡",
+        "japaneseSegments": [
+          {
+            "base": "鏡",
+            "reading": "かがみ"
+          }
+        ],
+        "reading": "かがみ",
+        "romaji": "kagami",
+        "meaning": "mirror",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:髪|かみ",
+        "japanese": "髪",
+        "japaneseSegments": [
+          {
+            "base": "髪",
+            "reading": "かみ"
+          }
+        ],
+        "reading": "かみ",
+        "romaji": "kami",
+        "meaning": "hair",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:友だち|ともだち",
+        "japanese": "友だち",
+        "japaneseSegments": [
+          {
+            "base": "友",
+            "reading": "とも"
+          },
+          {
+            "text": "だち"
+          }
+        ],
+        "reading": "ともだち",
+        "romaji": "tomodachi",
+        "meaning": "friend",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:お金|おかね",
+        "japanese": "お金",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "金",
+            "reading": "かね"
+          }
+        ],
+        "reading": "おかね",
+        "romaji": "okane",
+        "meaning": "money",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:乗る|のる",
+        "japanese": "乗る",
+        "japaneseSegments": [
+          {
+            "base": "乗",
+            "reading": "の"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "のる",
+        "romaji": "noru",
+        "meaning": "to ride; to get on",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:自分|じぶん",
+        "japanese": "自分",
+        "japaneseSegments": [
+          {
+            "base": "自分",
+            "reading": "じぶん"
+          }
+        ],
+        "reading": "じぶん",
+        "romaji": "jibun",
+        "meaning": "oneself; one's own",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:どういたしまして|どういたしまして",
+        "japanese": "どういたしまして",
+        "japaneseSegments": [
+          {
+            "text": "どういたしまして"
+          }
+        ],
+        "reading": "どういたしまして",
+        "romaji": "dō itashimashite",
+        "meaning": "you're welcome",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:歩く|あるく",
+        "japanese": "歩く",
+        "japaneseSegments": [
+          {
+            "base": "歩",
+            "reading": "ある"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "あるく",
+        "romaji": "aruku",
+        "meaning": "to walk",
+        "firstPassage": 4,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:降りる|おりる",
+        "japanese": "降りる",
+        "japaneseSegments": [
+          {
+            "base": "降",
+            "reading": "お"
+          },
+          {
+            "text": "りる"
+          }
+        ],
+        "reading": "おりる",
+        "romaji": "oriru",
+        "meaning": "to get off; to descend",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:毎朝|まいあさ",
+        "japanese": "毎朝",
+        "japaneseSegments": [
+          {
+            "base": "毎朝",
+            "reading": "まいあさ"
+          }
+        ],
+        "reading": "まいあさ",
+        "romaji": "maiasa",
+        "meaning": "every morning",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:頃|ごろ",
+        "japanese": "頃",
+        "japaneseSegments": [
+          {
+            "base": "頃",
+            "reading": "ごろ"
+          }
+        ],
+        "reading": "ごろ",
+        "romaji": "goro",
+        "meaning": "around; approximately (a time)",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:授業|じゅぎょう",
+        "japanese": "授業",
+        "japaneseSegments": [
+          {
+            "base": "授業",
+            "reading": "じゅぎょう"
+          }
+        ],
+        "reading": "じゅぎょう",
+        "romaji": "jugyō",
+        "meaning": "class; lesson",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:昨日|きのう",
+        "japanese": "昨日",
+        "japaneseSegments": [
+          {
+            "base": "昨日",
+            "reading": "きのう"
+          }
+        ],
+        "reading": "きのう",
+        "romaji": "kinō",
+        "meaning": "yesterday",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お酒|おさけ",
+        "japanese": "お酒",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "酒",
+            "reading": "さけ"
+          }
+        ],
+        "reading": "おさけ",
+        "romaji": "osake",
+        "meaning": "alcohol; sake",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:眠い|ねむい",
+        "japanese": "眠い",
+        "japaneseSegments": [
+          {
+            "base": "眠",
+            "reading": "ねむ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "ねむい",
+        "romaji": "nemui",
+        "meaning": "sleepy",
+        "firstPassage": 6,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:起きる|おきる",
+        "japanese": "起きる",
+        "japaneseSegments": [
+          {
+            "base": "起",
+            "reading": "お"
+          },
+          {
+            "text": "きる"
+          }
+        ],
+        "reading": "おきる",
+        "romaji": "okiru",
+        "meaning": "to wake up; to get up",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:一人|ひとり",
+        "japanese": "一人",
+        "japaneseSegments": [
+          {
+            "base": "一人",
+            "reading": "ひとり"
+          }
+        ],
+        "reading": "ひとり",
+        "romaji": "hitori",
+        "meaning": "one person; alone",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:時計|とけい",
+        "japanese": "時計",
+        "japaneseSegments": [
+          {
+            "base": "時計",
+            "reading": "とけい"
+          }
+        ],
+        "reading": "とけい",
+        "romaji": "tokei",
+        "meaning": "clock",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:五分|ごふん",
+        "japanese": "五分",
+        "japaneseSegments": [
+          {
+            "base": "五分",
+            "reading": "ごふん"
+          }
+        ],
+        "reading": "ごふん",
+        "romaji": "gofun",
+        "meaning": "five minutes; five past the hour",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N に乗る",
+        "pattern": "N に乗る",
+        "patternSegments": [
+          {
+            "text": "N に "
+          },
+          {
+            "base": "乗",
+            "reading": "の"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "explanation": "This pattern uses the particle after a vehicle noun to mark what someone boards.",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N を降りる",
+        "pattern": "N を降りる",
+        "patternSegments": [
+          {
+            "text": "N を"
+          },
+          {
+            "base": "降",
+            "reading": "お"
+          },
+          {
+            "text": "りる"
+          }
+        ],
+        "explanation": "This pattern marks the vehicle or conveyance someone gets off.",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:N から N まで",
+        "pattern": "N から N まで",
+        "patternSegments": [
+          {
+            "text": "N から N まで"
+          }
+        ],
+        "explanation": "This pattern gives a starting point and an ending point, meaning “from ... to ...” or “from ... through ...”.",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:だから",
+        "pattern": "だから",
+        "patternSegments": [
+          {
+            "text": "だから"
+          }
+        ],
+        "explanation": "This pattern links a reason with its result, meaning “so” or “therefore.”",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:一人も〜ない",
+        "pattern": "一人も〜ない",
+        "patternSegments": [
+          {
+            "base": "一人",
+            "reading": "ひとり"
+          },
+          {
+            "text": "も〜ない"
+          }
+        ],
+        "explanation": "This pattern emphasizes that not even one person is included in a negative statement.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

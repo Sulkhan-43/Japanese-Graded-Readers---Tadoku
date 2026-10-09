@@ -1,0 +1,485 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:チワワ|ちわわ",
+      "japanese": "チワワ",
+      "japaneseSegments": [
+        {
+          "text": "チワワ"
+        }
+      ],
+      "reading": "ちわわ",
+      "romaji": "chiwawa",
+      "meaning": "Chihuahua",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:花すけ|はなすけ",
+      "japanese": "花すけ",
+      "japaneseSegments": [
+        {
+          "base": "花",
+          "reading": "はな"
+        },
+        {
+          "text": "すけ"
+        }
+      ],
+      "reading": "はなすけ",
+      "romaji": "Hanasuke",
+      "meaning": "Hanasuke, the dog's name",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:男の子|おとこのこ",
+      "japanese": "男の子",
+      "japaneseSegments": [
+        {
+          "base": "男",
+          "reading": "おとこ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "base": "子",
+          "reading": "こ"
+        }
+      ],
+      "reading": "おとこのこ",
+      "romaji": "otokonoko",
+      "meaning": "boy",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:一番|いちばん",
+      "japanese": "一番",
+      "japaneseSegments": [
+        {
+          "base": "一番",
+          "reading": "いちばん"
+        }
+      ],
+      "reading": "いちばん",
+      "romaji": "ichiban",
+      "meaning": "most; number one",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:マフラー|まふらー",
+      "japanese": "マフラー",
+      "japaneseSegments": [
+        {
+          "text": "マフラー"
+        }
+      ],
+      "reading": "まふらー",
+      "romaji": "mafurā",
+      "meaning": "scarf",
+      "firstPassage": 2,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:ふわふわ|ふわふわ",
+      "japanese": "ふわふわ",
+      "japaneseSegments": [
+        {
+          "text": "ふわふわ"
+        }
+      ],
+      "reading": "ふわふわ",
+      "romaji": "fuwafuwa",
+      "meaning": "fluffy; soft",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:温かい|あたたかい",
+      "japanese": "温かい",
+      "japaneseSegments": [
+        {
+          "base": "温",
+          "reading": "あたた"
+        },
+        {
+          "text": "かい"
+        }
+      ],
+      "reading": "あたたかい",
+      "romaji": "atatakai",
+      "meaning": "warm",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:かわいい|かわいい",
+      "japanese": "かわいい",
+      "japaneseSegments": [
+        {
+          "text": "かわいい"
+        }
+      ],
+      "reading": "かわいい",
+      "romaji": "kawaii",
+      "meaning": "cute; adorable",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:返す|かえす",
+      "japanese": "返す",
+      "japaneseSegments": [
+        {
+          "base": "返",
+          "reading": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "かえす",
+      "romaji": "kaesu",
+      "meaning": "to return; give back",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:一週間|いっしゅうかん",
+      "japanese": "一週間",
+      "japaneseSegments": [
+        {
+          "base": "一週間",
+          "reading": "いっしゅうかん"
+        }
+      ],
+      "reading": "いっしゅうかん",
+      "romaji": "isshūkan",
+      "meaning": "one week",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:帽子|ぼうし",
+      "japanese": "帽子",
+      "japaneseSegments": [
+        {
+          "base": "帽子",
+          "reading": "ぼうし"
+        }
+      ],
+      "reading": "ぼうし",
+      "romaji": "bōshi",
+      "meaning": "hat",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:線|せん",
+      "japanese": "線",
+      "japaneseSegments": [
+        {
+          "base": "線",
+          "reading": "せん"
+        }
+      ],
+      "reading": "せん",
+      "romaji": "sen",
+      "meaning": "line; stripe",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:笑う|わらう",
+      "japanese": "笑う",
+      "japaneseSegments": [
+        {
+          "base": "笑",
+          "reading": "わら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "わらう",
+      "romaji": "warau",
+      "meaning": "to smile; laugh",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:作る|つくる",
+      "japanese": "作る",
+      "japaneseSegments": [
+        {
+          "base": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "つくる",
+      "romaji": "tsukuru",
+      "meaning": "to make",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:プレゼント|ぷれぜんと",
+      "japanese": "プレゼント",
+      "japaneseSegments": [
+        {
+          "text": "プレゼント"
+        }
+      ],
+      "reading": "ぷれぜんと",
+      "romaji": "purezento",
+      "meaning": "present; gift",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ぴょんぴょん|ぴょんぴょん",
+      "japanese": "ぴょんぴょん",
+      "japaneseSegments": [
+        {
+          "text": "ぴょんぴょん"
+        }
+      ],
+      "reading": "ぴょんぴょん",
+      "romaji": "pyonpyon",
+      "meaning": "in repeated hops",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:飛ぶ|とぶ",
+      "japanese": "飛ぶ",
+      "japaneseSegments": [
+        {
+          "base": "飛",
+          "reading": "と"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "reading": "とぶ",
+      "romaji": "tobu",
+      "meaning": "to jump; fly",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:くるくる|くるくる",
+      "japanese": "くるくる",
+      "japaneseSegments": [
+        {
+          "text": "くるくる"
+        }
+      ],
+      "reading": "くるくる",
+      "romaji": "kurukuru",
+      "meaning": "round and round",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:回る|まわる",
+      "japanese": "回る",
+      "japaneseSegments": [
+        {
+          "base": "回",
+          "reading": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "まわる",
+      "romaji": "mawaru",
+      "meaning": "to turn; spin",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:踊る|おどる",
+      "japanese": "踊る",
+      "japaneseSegments": [
+        {
+          "base": "踊",
+          "reading": "おど"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "おどる",
+      "romaji": "odoru",
+      "meaning": "to dance",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:あくび|あくび",
+      "japanese": "あくび",
+      "japaneseSegments": [
+        {
+          "text": "あくび"
+        }
+      ],
+      "reading": "あくび",
+      "romaji": "akubi",
+      "meaning": "yawn",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:気持ち|きもち",
+      "japanese": "気持ち",
+      "japaneseSegments": [
+        {
+          "base": "気",
+          "reading": "き"
+        },
+        {
+          "base": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "reading": "きもち",
+      "romaji": "kimochi",
+      "meaning": "feeling; sensation",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:眠い|ねむい",
+      "japanese": "眠い",
+      "japaneseSegments": [
+        {
+          "base": "眠",
+          "reading": "ねむ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "ねむい",
+      "romaji": "nemui",
+      "meaning": "sleepy",
+      "firstPassage": 9,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:夢|ゆめ",
+      "japanese": "夢",
+      "japaneseSegments": [
+        {
+          "base": "夢",
+          "reading": "ゆめ"
+        }
+      ],
+      "reading": "ゆめ",
+      "romaji": "yume",
+      "meaning": "dream",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N wa N (desu)",
+      "pattern": "N wa N (desu)",
+      "patternSegments": [
+        {
+          "text": "N wa N (desu)"
+        }
+      ],
+      "explanation": "A topic followed by a noun identifies or describes it; desu may be omitted in casual statements.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:I-adjective kute",
+      "pattern": "I-adjective kute",
+      "patternSegments": [
+        {
+          "text": "I-adjective kute"
+        }
+      ],
+      "explanation": "An i-adjective changes to kute to connect it to another description or clause.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N ni arimasu",
+      "pattern": "N ni arimasu",
+      "patternSegments": [
+        {
+          "text": "N ni arimasu"
+        }
+      ],
+      "explanation": "Use ni arimasu to say that an inanimate thing is located somewhere.",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V te (request)",
+      "pattern": "V te (request)",
+      "patternSegments": [
+        {
+          "text": "V te (request)"
+        }
+      ],
+      "explanation": "The te-form can make a casual request, such as asking someone to look or return something.",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:V nagara",
+      "pattern": "V nagara",
+      "patternSegments": [
+        {
+          "text": "V nagara"
+        }
+      ],
+      "explanation": "Attach nagara to a verb stem to show that two actions happen at the same time.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V te imasu",
+      "pattern": "V te imasu",
+      "patternSegments": [
+        {
+          "text": "V te imasu"
+        }
+      ],
+      "explanation": "This form describes an ongoing action or a state resulting from an action.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V ta no",
+      "pattern": "V ta no",
+      "patternSegments": [
+        {
+          "text": "V ta no"
+        }
+      ],
+      "explanation": "In casual speech, no after a verb can add an explanatory tone or form a question asking for an explanation.",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    }
+  ]
+}

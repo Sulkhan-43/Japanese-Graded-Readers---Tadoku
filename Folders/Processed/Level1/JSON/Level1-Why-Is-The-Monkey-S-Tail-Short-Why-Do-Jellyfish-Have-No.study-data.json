@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:岩|いわ",
+      "japanese": "岩",
+      "japaneseSegments": [
+        {
+          "base": "岩",
+          "reading": "いわ"
+        }
+      ],
+      "reading": "いわ",
+      "romaji": "iwa",
+      "meaning": "rock",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:顔|かお",
+      "japanese": "顔",
+      "japaneseSegments": [
+        {
+          "base": "顔",
+          "reading": "かお"
+        }
+      ],
+      "reading": "かお",
+      "romaji": "kao",
+      "meaning": "face",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:お后様|おきさきさま",
+      "japanese": "お后様",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "后",
+          "reading": "きさき"
+        },
+        {
+          "base": "様",
+          "reading": "さま"
+        }
+      ],
+      "reading": "おきさきさま",
+      "romaji": "okisaki-sama",
+      "meaning": "queen; the king’s wife",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:洗濯|せんたく",
+      "japanese": "洗濯",
+      "japaneseSegments": [
+        {
+          "base": "洗濯",
+          "reading": "せんたく"
+        }
+      ],
+      "reading": "せんたく",
+      "romaji": "sentaku",
+      "meaning": "washing; laundry",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:一人|ひとり",
+      "japanese": "一人",
+      "japaneseSegments": [
+        {
+          "base": "一人",
+          "reading": "ひとり"
+        }
+      ],
+      "reading": "ひとり",
+      "romaji": "hitori",
+      "meaning": "alone; one person",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:deshō (soft question or conjecture)",
+      "pattern": "deshō (soft question or conjecture)",
+      "patternSegments": [
+        {
+          "text": "でしょう"
+        }
+      ],
+      "explanation": "Adds a tentative or wondering tone, often used in a question such as “I wonder why.”",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:verb stem + tai",
+      "pattern": "verb stem + tai",
+      "patternSegments": [
+        {
+          "text": "たい"
+        }
+      ],
+      "explanation": "Attaches to a verb stem to express what the speaker wants to do.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:A yori (comparison)",
+      "pattern": "A yori (comparison)",
+      "patternSegments": [
+        {
+          "text": "より"
+        }
+      ],
+      "explanation": "Marks the standard for comparison: “than A.”",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:clause + kara (reason)",
+      "pattern": "clause + kara (reason)",
+      "patternSegments": [
+        {
+          "text": "から"
+        }
+      ],
+      "explanation": "Follows a clause to give a reason: “because…” or “so…”.",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    }
+  ]
+}

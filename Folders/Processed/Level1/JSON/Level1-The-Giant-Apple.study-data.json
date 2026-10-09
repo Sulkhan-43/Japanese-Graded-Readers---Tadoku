@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:りんご|りんご",
+      "japanese": "りんご",
+      "japaneseSegments": [
+        {
+          "text": "りんご"
+        }
+      ],
+      "reading": "りんご",
+      "romaji": "ringo",
+      "meaning": "apple",
+      "firstPassage": 1,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:赤い|あかい",
+      "japanese": "赤い",
+      "japaneseSegments": [
+        {
+          "base": "赤",
+          "reading": "あか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "あかい",
+      "romaji": "akai",
+      "meaning": "red",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:山田さん|やまださん",
+      "japanese": "山田さん",
+      "japaneseSegments": [
+        {
+          "base": "山田",
+          "reading": "やまだ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "reading": "やまださん",
+      "romaji": "Yamada-san",
+      "meaning": "Mr. Yamada",
+      "firstPassage": 1,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:畑|はたけ",
+      "japanese": "畑",
+      "japaneseSegments": [
+        {
+          "base": "畑",
+          "reading": "はたけ"
+        }
+      ],
+      "reading": "はたけ",
+      "romaji": "hatake",
+      "meaning": "field; farm",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:とても|とても",
+      "japanese": "とても",
+      "japaneseSegments": [
+        {
+          "text": "とても"
+        }
+      ],
+      "reading": "とても",
+      "romaji": "totemo",
+      "meaning": "very",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:大きい|おおきい",
+      "japanese": "大きい",
+      "japaneseSegments": [
+        {
+          "base": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "きい"
+        }
+      ],
+      "reading": "おおきい",
+      "romaji": "ōkii",
+      "meaning": "big; large",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:全部|ぜんぶ",
+      "japanese": "全部",
+      "japaneseSegments": [
+        {
+          "base": "全部",
+          "reading": "ぜんぶ"
+        }
+      ],
+      "reading": "ぜんぶ",
+      "romaji": "zenbu",
+      "meaning": "all; everything",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:町|まち",
+      "japanese": "町",
+      "japaneseSegments": [
+        {
+          "base": "町",
+          "reading": "まち"
+        }
+      ],
+      "reading": "まち",
+      "romaji": "machi",
+      "meaning": "town",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:売る|うる",
+      "japanese": "売る",
+      "japaneseSegments": [
+        {
+          "base": "売",
+          "reading": "う"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "うる",
+      "romaji": "uru",
+      "meaning": "to sell",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:悲しい|かなしい",
+      "japanese": "悲しい",
+      "japaneseSegments": [
+        {
+          "base": "悲",
+          "reading": "かな"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "かなしい",
+      "romaji": "kanashii",
+      "meaning": "sad",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:小鳥|ことり",
+      "japanese": "小鳥",
+      "japaneseSegments": [
+        {
+          "base": "小鳥",
+          "reading": "ことり"
+        }
+      ],
+      "reading": "ことり",
+      "romaji": "kotori",
+      "meaning": "little bird",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:友だち|ともだち",
+      "japanese": "友だち",
+      "japaneseSegments": [
+        {
+          "base": "友",
+          "reading": "とも"
+        },
+        {
+          "text": "だち"
+        }
+      ],
+      "reading": "ともだち",
+      "romaji": "tomodachi",
+      "meaning": "friend",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:子ども|こども",
+      "japanese": "子ども",
+      "japaneseSegments": [
+        {
+          "base": "子",
+          "reading": "こ"
+        },
+        {
+          "text": "ども"
+        }
+      ],
+      "reading": "こども",
+      "romaji": "kodomo",
+      "meaning": "child",
+      "firstPassage": 5,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:デカい|でかい",
+      "japanese": "デカい",
+      "japaneseSegments": [
+        {
+          "text": "デカい"
+        }
+      ],
+      "reading": "でかい",
+      "romaji": "dekai",
+      "meaning": "huge; colloquial",
+      "firstPassage": 5,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:かご|かご",
+      "japanese": "かご",
+      "japaneseSegments": [
+        {
+          "text": "かご"
+        }
+      ],
+      "reading": "かご",
+      "romaji": "kago",
+      "meaning": "basket",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ジロジロ|ジロジロ",
+      "japanese": "ジロジロ",
+      "japaneseSegments": [
+        {
+          "text": "ジロジロ"
+        }
+      ],
+      "reading": "ジロジロ",
+      "romaji": "jirojiro",
+      "meaning": "intently; staringly",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:笑う|わらう",
+      "japanese": "笑う",
+      "japaneseSegments": [
+        {
+          "base": "笑",
+          "reading": "わら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "わらう",
+      "romaji": "warau",
+      "meaning": "to laugh",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:買う|かう",
+      "japanese": "買う",
+      "japaneseSegments": [
+        {
+          "base": "買",
+          "reading": "か"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "かう",
+      "romaji": "kau",
+      "meaning": "to buy",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:疲れる|つかれる",
+      "japanese": "疲れる",
+      "japaneseSegments": [
+        {
+          "base": "疲",
+          "reading": "つか"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "つかれる",
+      "romaji": "tsukareru",
+      "meaning": "to get tired",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:重い|おもい",
+      "japanese": "重い",
+      "japaneseSegments": [
+        {
+          "base": "重",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "おもい",
+      "romaji": "omoi",
+      "meaning": "heavy",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:夕方|ゆうがた",
+      "japanese": "夕方",
+      "japaneseSegments": [
+        {
+          "base": "夕方",
+          "reading": "ゆうがた"
+        }
+      ],
+      "reading": "ゆうがた",
+      "romaji": "yūgata",
+      "meaning": "evening",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:川|かわ",
+      "japanese": "川",
+      "japaneseSegments": [
+        {
+          "base": "川",
+          "reading": "かわ"
+        }
+      ],
+      "reading": "かわ",
+      "romaji": "kawa",
+      "meaning": "river",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:捨てる|すてる",
+      "japanese": "捨てる",
+      "japaneseSegments": [
+        {
+          "base": "捨",
+          "reading": "す"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "reading": "すてる",
+      "romaji": "suteru",
+      "meaning": "to throw away",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:何日|なんにち",
+      "japanese": "何日",
+      "japaneseSegments": [
+        {
+          "base": "何日",
+          "reading": "なんにち"
+        }
+      ],
+      "reading": "なんにち",
+      "romaji": "nannichi",
+      "meaning": "how many days; many days in this phrase",
+      "firstPassage": 10,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:海|うみ",
+      "japanese": "海",
+      "japaneseSegments": [
+        {
+          "base": "海",
+          "reading": "うみ"
+        }
+      ],
+      "reading": "うみ",
+      "romaji": "umi",
+      "meaning": "sea",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:木|き",
+      "japanese": "木",
+      "japaneseSegments": [
+        {
+          "base": "木",
+          "reading": "き"
+        }
+      ],
+      "reading": "き",
+      "romaji": "ki",
+      "meaning": "tree",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:島|しま",
+      "japanese": "島",
+      "japaneseSegments": [
+        {
+          "base": "島",
+          "reading": "しま"
+        }
+      ],
+      "reading": "しま",
+      "romaji": "shima",
+      "meaning": "island",
+      "firstPassage": 11,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:食べる|たべる",
+      "japanese": "食べる",
+      "japaneseSegments": [
+        {
+          "base": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "reading": "たべる",
+      "romaji": "taberu",
+      "meaning": "to eat",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ムシャムシャ|ムシャムシャ",
+      "japanese": "ムシャムシャ",
+      "japaneseSegments": [
+        {
+          "text": "ムシャムシャ"
+        }
+      ],
+      "reading": "ムシャムシャ",
+      "romaji": "mushamusha",
+      "meaning": "munching; chewing noisily",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:うれしい|うれしい",
+      "japanese": "うれしい",
+      "japaneseSegments": [
+        {
+          "text": "うれしい"
+        }
+      ],
+      "reading": "うれしい",
+      "romaji": "ureshii",
+      "meaning": "happy; glad",
+      "firstPassage": 13,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:幸せ|しあわせ",
+      "japanese": "幸せ",
+      "japaneseSegments": [
+        {
+          "base": "幸",
+          "reading": "しあわ"
+        },
+        {
+          "text": "せ"
+        }
+      ],
+      "reading": "しあわせ",
+      "romaji": "shiawase",
+      "meaning": "happiness; happy",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N no N",
+      "pattern": "N no N",
+      "patternSegments": [
+        {
+          "text": "N の N"
+        }
+      ],
+      "explanation": "This pattern links two nouns; the first noun describes or identifies the second.",
+      "firstPassage": 1,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "grammar:N mo + negative verb",
+      "pattern": "N mo + negative verb",
+      "patternSegments": [
+        {
+          "text": "N も + negative verb"
+        }
+      ],
+      "explanation": "With a negative verb, this pattern means nobody or nothing, depending on the noun.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Verb stem + tai",
+      "pattern": "Verb stem + tai",
+      "patternSegments": [
+        {
+          "text": "Verb stem + tai"
+        }
+      ],
+      "explanation": "This pattern attaches to a verb stem to express wanting to do that action.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    }
+  ]
+}

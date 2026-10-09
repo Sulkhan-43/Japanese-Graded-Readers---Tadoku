@@ -1,0 +1,616 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:日本|にほん",
+      "japanese": "日本",
+      "japaneseSegments": [
+        {
+          "base": "日本",
+          "reading": "にほん"
+        }
+      ],
+      "reading": "にほん",
+      "romaji": "Nihon",
+      "meaning": "Japan",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:秋|あき",
+      "japanese": "秋",
+      "japaneseSegments": [
+        {
+          "base": "秋",
+          "reading": "あき"
+        }
+      ],
+      "reading": "あき",
+      "romaji": "aki",
+      "meaning": "autumn",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:旅|たび",
+      "japanese": "旅",
+      "japaneseSegments": [
+        {
+          "base": "旅",
+          "reading": "たび"
+        }
+      ],
+      "reading": "たび",
+      "romaji": "tabi",
+      "meaning": "journey; trip",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:季節|きせつ",
+      "japanese": "季節",
+      "japaneseSegments": [
+        {
+          "base": "季節",
+          "reading": "きせつ"
+        }
+      ],
+      "reading": "きせつ",
+      "romaji": "kisetsu",
+      "meaning": "season",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:楽しみ|たのしみ",
+      "japanese": "楽しみ",
+      "japaneseSegments": [
+        {
+          "base": "楽",
+          "reading": "たの"
+        },
+        {
+          "text": "しみ"
+        }
+      ],
+      "reading": "たのしみ",
+      "romaji": "tanoshimi",
+      "meaning": "something to look forward to",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:いろいろ|いろいろ",
+      "japanese": "いろいろ",
+      "japaneseSegments": [
+        {
+          "text": "いろいろ"
+        }
+      ],
+      "reading": "いろいろ",
+      "romaji": "iroiro",
+      "meaning": "various; all kinds of",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ところ|ところ",
+      "japanese": "ところ",
+      "japaneseSegments": [
+        {
+          "text": "ところ"
+        }
+      ],
+      "reading": "ところ",
+      "romaji": "tokoro",
+      "meaning": "place",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:やって来る|やってくる",
+      "japanese": "やって来る",
+      "japaneseSegments": [
+        {
+          "text": "やって"
+        },
+        {
+          "base": "来",
+          "reading": "く"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "やってくる",
+      "romaji": "yatte kuru",
+      "meaning": "to come; to arrive",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:葉っぱ|はっぱ",
+      "japanese": "葉っぱ",
+      "japaneseSegments": [
+        {
+          "base": "葉",
+          "reading": "は"
+        },
+        {
+          "text": "っぱ"
+        }
+      ],
+      "reading": "はっぱ",
+      "romaji": "happa",
+      "meaning": "leaf",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:赤い|あかい",
+      "japanese": "赤い",
+      "japaneseSegments": [
+        {
+          "base": "赤",
+          "reading": "あか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "あかい",
+      "romaji": "akai",
+      "meaning": "red",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:きれい|きれい",
+      "japanese": "きれい",
+      "japaneseSegments": [
+        {
+          "text": "きれい"
+        }
+      ],
+      "reading": "きれい",
+      "romaji": "kirei",
+      "meaning": "beautiful; pretty",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:びっくりする|びっくりする",
+      "japanese": "びっくりする",
+      "japaneseSegments": [
+        {
+          "text": "びっくりする"
+        }
+      ],
+      "reading": "びっくりする",
+      "romaji": "bikkuri suru",
+      "meaning": "to be surprised",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:焼き芋|やきいも",
+      "japanese": "焼き芋",
+      "japaneseSegments": [
+        {
+          "base": "焼",
+          "reading": "や"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "base": "芋",
+          "reading": "いも"
+        }
+      ],
+      "reading": "やきいも",
+      "romaji": "yakiimo",
+      "meaning": "roasted sweet potato",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:おいしい|おいしい",
+      "japanese": "おいしい",
+      "japaneseSegments": [
+        {
+          "text": "おいしい"
+        }
+      ],
+      "reading": "おいしい",
+      "romaji": "oishii",
+      "meaning": "delicious",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:町|まち",
+      "japanese": "町",
+      "japaneseSegments": [
+        {
+          "base": "町",
+          "reading": "まち"
+        }
+      ],
+      "reading": "まち",
+      "romaji": "machi",
+      "meaning": "town",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:かぼちゃ|かぼちゃ",
+      "japanese": "かぼちゃ",
+      "japaneseSegments": [
+        {
+          "text": "かぼちゃ"
+        }
+      ],
+      "reading": "かぼちゃ",
+      "romaji": "kabocha",
+      "meaning": "pumpkin",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:お菓子|おかし",
+      "japanese": "お菓子",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "菓子",
+          "reading": "かし"
+        }
+      ],
+      "reading": "おかし",
+      "romaji": "okashi",
+      "meaning": "sweets; confectionery",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:並ぶ|ならぶ",
+      "japanese": "並ぶ",
+      "japaneseSegments": [
+        {
+          "base": "並",
+          "reading": "なら"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "reading": "ならぶ",
+      "romaji": "narabu",
+      "meaning": "to line up; to be lined up",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:何|なに",
+      "japanese": "何",
+      "japaneseSegments": [
+        {
+          "base": "何",
+          "reading": "なに"
+        }
+      ],
+      "reading": "なに",
+      "romaji": "nani",
+      "meaning": "what",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ハロウィン|はろうぃん",
+      "japanese": "ハロウィン",
+      "japaneseSegments": [
+        {
+          "text": "ハロウィン"
+        }
+      ],
+      "reading": "はろうぃん",
+      "romaji": "Harowin",
+      "meaning": "Halloween",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:イベント|いべんと",
+      "japanese": "イベント",
+      "japaneseSegments": [
+        {
+          "text": "イベント"
+        }
+      ],
+      "reading": "いべんと",
+      "romaji": "ibento",
+      "meaning": "event",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:通り|とおり",
+      "japanese": "通り",
+      "japaneseSegments": [
+        {
+          "base": "通",
+          "reading": "とお"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "reading": "とおり",
+      "romaji": "tōri",
+      "meaning": "street",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:服|ふく",
+      "japanese": "服",
+      "japaneseSegments": [
+        {
+          "base": "服",
+          "reading": "ふく"
+        }
+      ],
+      "reading": "ふく",
+      "romaji": "fuku",
+      "meaning": "clothes",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:着る|きる",
+      "japanese": "着る",
+      "japaneseSegments": [
+        {
+          "base": "着",
+          "reading": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "きる",
+      "romaji": "kiru",
+      "meaning": "to wear; to put on",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:人|ひと",
+      "japanese": "人",
+      "japaneseSegments": [
+        {
+          "base": "人",
+          "reading": "ひと"
+        }
+      ],
+      "reading": "ひと",
+      "romaji": "hito",
+      "meaning": "person; people",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:いっぱい|いっぱい",
+      "japanese": "いっぱい",
+      "japaneseSegments": [
+        {
+          "text": "いっぱい"
+        }
+      ],
+      "reading": "いっぱい",
+      "romaji": "ippai",
+      "meaning": "full; a lot",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:みんな|みんな",
+      "japanese": "みんな",
+      "japaneseSegments": [
+        {
+          "text": "みんな"
+        }
+      ],
+      "reading": "みんな",
+      "romaji": "minna",
+      "meaning": "everyone",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:かわいい|かわいい",
+      "japanese": "かわいい",
+      "japaneseSegments": [
+        {
+          "text": "かわいい"
+        }
+      ],
+      "reading": "かわいい",
+      "romaji": "kawaii",
+      "meaning": "cute",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:日|ひ",
+      "japanese": "日",
+      "japaneseSegments": [
+        {
+          "base": "日",
+          "reading": "ひ"
+        }
+      ],
+      "reading": "ひ",
+      "romaji": "hi",
+      "meaning": "day",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:渋谷|しぶや",
+      "japanese": "渋谷",
+      "japaneseSegments": [
+        {
+          "base": "渋谷",
+          "reading": "しぶや"
+        }
+      ],
+      "reading": "しぶや",
+      "romaji": "Shibuya",
+      "meaning": "Shibuya",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:次|つぎ",
+      "japanese": "次",
+      "japaneseSegments": [
+        {
+          "base": "次",
+          "reading": "つぎ"
+        }
+      ],
+      "reading": "つぎ",
+      "romaji": "tsugi",
+      "meaning": "next",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:行く|いく",
+      "japanese": "行く",
+      "japaneseSegments": [
+        {
+          "base": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "いく",
+      "romaji": "iku",
+      "meaning": "to go",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:続く|つづく",
+      "japanese": "続く",
+      "japaneseSegments": [
+        {
+          "base": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "つづく",
+      "romaji": "tsuzuku",
+      "meaning": "to continue",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:plain past verb + noun",
+      "pattern": "plain past verb + noun",
+      "patternSegments": [
+        {
+          "text": "Vた + N"
+        }
+      ],
+      "explanation": "A plain past verb before a noun modifies that noun, identifying which person or thing is meant.",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:sentence-final na / naa",
+      "pattern": "sentence-final na / naa",
+      "patternSegments": [
+        {
+          "text": "な / なあ"
+        }
+      ],
+      "explanation": "At the end of an informal sentence, this adds a reflective or impressed tone.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:adjective stem + sou",
+      "pattern": "adjective stem + sou",
+      "patternSegments": [
+        {
+          "text": "〜そう"
+        }
+      ],
+      "explanation": "Attach this to an adjective stem to say that something looks or seems that way.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:place + ni wa",
+      "pattern": "place + ni wa",
+      "patternSegments": [
+        {
+          "text": "Nには"
+        }
+      ],
+      "explanation": "This marks a place as the setting or topic, often meaning 'in' or 'as for' that place.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:verb te-form + iru",
+      "pattern": "verb te-form + iru",
+      "patternSegments": [
+        {
+          "text": "〜ている"
+        }
+      ],
+      "explanation": "This form can describe an ongoing action or a resulting state; here it describes sweets being lined up.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:noun + de ippai",
+      "pattern": "noun + de ippai",
+      "patternSegments": [
+        {
+          "text": "Nでいっぱい"
+        }
+      ],
+      "explanation": "This means a place is full of the people or things named before it.",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:volitional form + kana",
+      "pattern": "volitional form + kana",
+      "patternSegments": [
+        {
+          "text": "V-volitional + かな"
+        }
+      ],
+      "explanation": "This expresses a tentative self-directed thought, such as wondering what to do next.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    }
+  ]
+}

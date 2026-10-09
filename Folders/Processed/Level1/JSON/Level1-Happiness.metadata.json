@@ -1,0 +1,596 @@
+{
+  "id": "level1-happiness",
+  "name": "Happiness",
+  "japaneseTitle": "しあわせ ～島崎藤村「幸福」より",
+  "slug": "level1-happiness",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-happiness/source.pdf",
+  "ocrR2Key": "books/level1-happiness/source-ocr.txt",
+  "coverR2Key": "books/level1-happiness/cover.jpg",
+  "htmlR2Key": "books/level1-happiness/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 175,
+  "createdAt": "2026-10-09T16:04:14.072Z",
+  "updatedAt": "2026-10-09T16:04:14.072Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:しあわせ|しあわせ",
+        "japanese": "しあわせ",
+        "japaneseSegments": [
+          {
+            "text": "しあわせ"
+          }
+        ],
+        "reading": "しあわせ",
+        "romaji": "shiawase",
+        "meaning": "happiness; good fortune",
+        "firstPassage": 1,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:大好き|だいすき",
+        "japanese": "大好き",
+        "japaneseSegments": [
+          {
+            "base": "大好き",
+            "reading": "だいすき"
+          }
+        ],
+        "reading": "だいすき",
+        "romaji": "daisuki",
+        "meaning": "to like very much; to love",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:来る|くる",
+        "japanese": "来る",
+        "japaneseSegments": [
+          {
+            "base": "来",
+            "reading": "く"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "くる",
+        "romaji": "kuru",
+        "meaning": "to come",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:神様|かみさま",
+        "japanese": "神様",
+        "japaneseSegments": [
+          {
+            "base": "神様",
+            "reading": "かみさま"
+          }
+        ],
+        "reading": "かみさま",
+        "romaji": "kamisama",
+        "meaning": "god; deity",
+        "firstPassage": 3,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:家|いえ",
+        "japanese": "家",
+        "japaneseSegments": [
+          {
+            "base": "家",
+            "reading": "いえ"
+          }
+        ],
+        "reading": "いえ",
+        "romaji": "ie",
+        "meaning": "house; home",
+        "firstPassage": 3,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "vocabulary:行く|いく",
+        "japanese": "行く",
+        "japaneseSegments": [
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "いく",
+        "romaji": "iku",
+        "meaning": "to go",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:待つ|まつ",
+        "japanese": "待つ",
+        "japaneseSegments": [
+          {
+            "base": "待",
+            "reading": "ま"
+          },
+          {
+            "text": "つ"
+          }
+        ],
+        "reading": "まつ",
+        "romaji": "matsu",
+        "meaning": "to wait",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:古い|ふるい",
+        "japanese": "古い",
+        "japaneseSegments": [
+          {
+            "base": "古",
+            "reading": "ふる"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "ふるい",
+        "romaji": "furui",
+        "meaning": "old",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:汚い|きたない",
+        "japanese": "汚い",
+        "japaneseSegments": [
+          {
+            "base": "汚",
+            "reading": "きたな"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "きたない",
+        "romaji": "kitanai",
+        "meaning": "dirty",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:服|ふく",
+        "japanese": "服",
+        "japaneseSegments": [
+          {
+            "base": "服",
+            "reading": "ふく"
+          }
+        ],
+        "reading": "ふく",
+        "romaji": "fuku",
+        "meaning": "clothes",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:着る|きる",
+        "japanese": "着る",
+        "japaneseSegments": [
+          {
+            "base": "着",
+            "reading": "き"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "きる",
+        "romaji": "kiru",
+        "meaning": "to wear clothing",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お金|おかね",
+        "japanese": "お金",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "金",
+            "reading": "かね"
+          }
+        ],
+        "reading": "おかね",
+        "romaji": "okane",
+        "meaning": "money",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:貧乏|びんぼう",
+        "japanese": "貧乏",
+        "japaneseSegments": [
+          {
+            "base": "貧乏",
+            "reading": "びんぼう"
+          }
+        ],
+        "reading": "びんぼう",
+        "romaji": "binbō",
+        "meaning": "poverty; being poor",
+        "firstPassage": 4,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:空|そら",
+        "japanese": "空",
+        "japaneseSegments": [
+          {
+            "base": "空",
+            "reading": "そら"
+          }
+        ],
+        "reading": "そら",
+        "romaji": "sora",
+        "meaning": "sky",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おりる|おりる",
+        "japanese": "おりる",
+        "japaneseSegments": [
+          {
+            "text": "おりる"
+          }
+        ],
+        "reading": "おりる",
+        "romaji": "oriru",
+        "meaning": "to descend; to come down",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:犬|いぬ",
+        "japanese": "犬",
+        "japaneseSegments": [
+          {
+            "base": "犬",
+            "reading": "いぬ"
+          }
+        ],
+        "reading": "いぬ",
+        "romaji": "inu",
+        "meaning": "dog",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:戸|と",
+        "japanese": "戸",
+        "japaneseSegments": [
+          {
+            "base": "戸",
+            "reading": "と"
+          }
+        ],
+        "reading": "と",
+        "romaji": "to",
+        "meaning": "door, especially a sliding door",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ピシャン|ぴしゃん",
+        "japanese": "ピシャン",
+        "japaneseSegments": [
+          {
+            "text": "ピシャン"
+          }
+        ],
+        "reading": "ぴしゃん",
+        "romaji": "pishan",
+        "meaning": "sound of a door slamming shut",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:閉める|しめる",
+        "japanese": "閉める",
+        "japaneseSegments": [
+          {
+            "base": "閉",
+            "reading": "し"
+          },
+          {
+            "text": "める"
+          }
+        ],
+        "reading": "しめる",
+        "romaji": "shimeru",
+        "meaning": "to close; to shut",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:鶏|にわとり",
+        "japanese": "鶏",
+        "japaneseSegments": [
+          {
+            "base": "鶏",
+            "reading": "にわとり"
+          }
+        ],
+        "reading": "にわとり",
+        "romaji": "niwatori",
+        "meaning": "chicken; hen",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:うさぎ|うさぎ",
+        "japanese": "うさぎ",
+        "japaneseSegments": [
+          {
+            "text": "うさぎ"
+          }
+        ],
+        "reading": "うさぎ",
+        "romaji": "usagi",
+        "meaning": "rabbit",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おにぎり|おにぎり",
+        "japanese": "おにぎり",
+        "japaneseSegments": [
+          {
+            "text": "おにぎり"
+          }
+        ],
+        "reading": "おにぎり",
+        "romaji": "onigiri",
+        "meaning": "rice ball",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:あげる|あげる",
+        "japanese": "あげる",
+        "japaneseSegments": [
+          {
+            "text": "あげる"
+          }
+        ],
+        "reading": "あげる",
+        "romaji": "ageru",
+        "meaning": "to give",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:うれしい|うれしい",
+        "japanese": "うれしい",
+        "japaneseSegments": [
+          {
+            "text": "うれしい"
+          }
+        ],
+        "reading": "うれしい",
+        "romaji": "ureshii",
+        "meaning": "happy; glad",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:置く|おく",
+        "japanese": "置く",
+        "japaneseSegments": [
+          {
+            "base": "置",
+            "reading": "お"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "おく",
+        "romaji": "oku",
+        "meaning": "to put; to place",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:~ desu yo ne",
+        "pattern": "~ desu yo ne",
+        "patternSegments": [
+          {
+            "text": "〜ですよね"
+          }
+        ],
+        "explanation": "Adds a friendly tag seeking agreement, like “right?” after a statement.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:donna + noun",
+        "pattern": "donna + noun",
+        "patternSegments": [
+          {
+            "text": "どんな N"
+          }
+        ],
+        "explanation": "Use donna before a noun to ask what kind of something it is.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:~ no deshou ka",
+        "pattern": "~ no deshou ka",
+        "patternSegments": [
+          {
+            "text": "〜のでしょうか"
+          }
+        ],
+        "explanation": "A polite wondering question, often meaning “I wonder...” or “I wonder whether...”.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni kuru",
+        "pattern": "N ni kuru",
+        "patternSegments": [
+          {
+            "text": "N に "
+          },
+          {
+            "base": "来",
+            "reading": "く"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "explanation": "Means to come to a place; the destination is marked by ni.",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:N ni N ga imashita",
+        "pattern": "N ni N ga imashita",
+        "patternSegments": [
+          {
+            "text": "N に N がいました"
+          }
+        ],
+        "explanation": "Use ni plus ga imashita to say an animate being was at a place; imashita is the polite past form of imasu.",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:i-adjective -kute",
+        "pattern": "i-adjective -kute",
+        "patternSegments": [
+          {
+            "text": "i-adjective くて"
+          }
+        ],
+        "explanation": "Connects adjectives by changing the final i to ku and adding te.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N no nai",
+        "pattern": "N no nai",
+        "patternSegments": [
+          {
+            "text": "N のない"
+          }
+        ],
+        "explanation": "Means “without N” or “having no N,” and describes the following noun.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ja nai",
+        "pattern": "N ja nai",
+        "patternSegments": [
+          {
+            "text": "N じゃない"
+          }
+        ],
+        "explanation": "A casual way to say that something is not N.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:onomatopoeia to verb",
+        "pattern": "onomatopoeia to verb",
+        "patternSegments": [
+          {
+            "text": "onomatopoeia と V"
+          }
+        ],
+        "explanation": "An onomatopoeic word followed by to can describe the sound or manner of an action.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:number + tsu-me",
+        "pattern": "number + tsu-me",
+        "patternSegments": [
+          {
+            "text": "number + つ"
+          },
+          {
+            "base": "目",
+            "reading": "め"
+          }
+        ],
+        "explanation": "Adds an ordinal meaning, such as second or third, after a count using tsu.",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:N ni N o ageru",
+        "pattern": "N ni N o ageru",
+        "patternSegments": [
+          {
+            "text": "N に N をあげる"
+          }
+        ],
+        "explanation": "Means to give one thing to someone; the recipient takes ni and the thing given takes o.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:i-adjective -katta desu",
+        "pattern": "i-adjective -katta desu",
+        "patternSegments": [
+          {
+            "text": "i-adjective -katta desu"
+          }
+        ],
+        "explanation": "Forms the polite past of an i-adjective by replacing its final i with katta before desu.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni N o oku",
+        "pattern": "N ni N o oku",
+        "patternSegments": [
+          {
+            "text": "N に N を"
+          },
+          {
+            "base": "置",
+            "reading": "お"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "explanation": "Means to put or place one thing in or at a location.",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

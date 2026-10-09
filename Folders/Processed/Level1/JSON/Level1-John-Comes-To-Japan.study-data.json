@@ -1,0 +1,640 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:日本|にほん",
+      "japanese": "日本",
+      "japaneseSegments": [
+        {
+          "base": "日本",
+          "reading": "にほん"
+        }
+      ],
+      "reading": "にほん",
+      "romaji": "Nihon",
+      "meaning": "Japan",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:飛行機|ひこうき",
+      "japanese": "飛行機",
+      "japaneseSegments": [
+        {
+          "base": "飛行機",
+          "reading": "ひこうき"
+        }
+      ],
+      "reading": "ひこうき",
+      "romaji": "hikōki",
+      "meaning": "airplane",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:勉強|べんきょう",
+      "japanese": "勉強",
+      "japaneseSegments": [
+        {
+          "base": "勉強",
+          "reading": "べんきょう"
+        }
+      ],
+      "reading": "べんきょう",
+      "romaji": "benkyō",
+      "meaning": "study",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:鞄|かばん",
+      "japanese": "鞄",
+      "japaneseSegments": [
+        {
+          "base": "鞄",
+          "reading": "かばん"
+        }
+      ],
+      "reading": "かばん",
+      "romaji": "kaban",
+      "meaning": "bag",
+      "firstPassage": 1,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:漫画|まんが",
+      "japanese": "漫画",
+      "japaneseSegments": [
+        {
+          "base": "漫画",
+          "reading": "まんが"
+        }
+      ],
+      "reading": "まんが",
+      "romaji": "manga",
+      "meaning": "manga; comic",
+      "firstPassage": 1,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:隣|となり",
+      "japanese": "隣",
+      "japaneseSegments": [
+        {
+          "base": "隣",
+          "reading": "となり"
+        }
+      ],
+      "reading": "となり",
+      "romaji": "tonari",
+      "meaning": "next to; neighboring",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:同じ|おなじ",
+      "japanese": "同じ",
+      "japaneseSegments": [
+        {
+          "base": "同",
+          "reading": "おな"
+        },
+        {
+          "text": "じ"
+        }
+      ],
+      "reading": "おなじ",
+      "romaji": "onaji",
+      "meaning": "same",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:日本語|にほんご",
+      "japanese": "日本語",
+      "japaneseSegments": [
+        {
+          "base": "日本語",
+          "reading": "にほんご"
+        }
+      ],
+      "reading": "にほんご",
+      "romaji": "Nihongo",
+      "meaning": "Japanese language",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大好き|だいすき",
+      "japanese": "大好き",
+      "japaneseSegments": [
+        {
+          "base": "大好",
+          "reading": "だいす"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "だいすき",
+      "romaji": "daisuki",
+      "meaning": "love; be very fond of",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:仕事|しごと",
+      "japanese": "仕事",
+      "japaneseSegments": [
+        {
+          "base": "仕事",
+          "reading": "しごと"
+        }
+      ],
+      "reading": "しごと",
+      "romaji": "shigoto",
+      "meaning": "work; job",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:東京|とうきょう",
+      "japanese": "東京",
+      "japaneseSegments": [
+        {
+          "base": "東京",
+          "reading": "とうきょう"
+        }
+      ],
+      "reading": "とうきょう",
+      "romaji": "Tōkyō",
+      "meaning": "Tokyo",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:富士山|ふじさん",
+      "japanese": "富士山",
+      "japaneseSegments": [
+        {
+          "base": "富士山",
+          "reading": "ふじさん"
+        }
+      ],
+      "reading": "ふじさん",
+      "romaji": "Fujisan",
+      "meaning": "Mount Fuji",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:窓|まど",
+      "japanese": "窓",
+      "japaneseSegments": [
+        {
+          "base": "窓",
+          "reading": "まど"
+        }
+      ],
+      "reading": "まど",
+      "romaji": "mado",
+      "meaning": "window",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:外|そと",
+      "japanese": "外",
+      "japaneseSegments": [
+        {
+          "base": "外",
+          "reading": "そと"
+        }
+      ],
+      "reading": "そと",
+      "romaji": "soto",
+      "meaning": "outside",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:電車|でんしゃ",
+      "japanese": "電車",
+      "japaneseSegments": [
+        {
+          "base": "電車",
+          "reading": "でんしゃ"
+        }
+      ],
+      "reading": "でんしゃ",
+      "romaji": "densha",
+      "meaning": "train",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:手紙|てがみ",
+      "japanese": "手紙",
+      "japaneseSegments": [
+        {
+          "base": "手紙",
+          "reading": "てがみ"
+        }
+      ],
+      "reading": "てがみ",
+      "romaji": "tegami",
+      "meaning": "letter",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:電話|でんわ",
+      "japanese": "電話",
+      "japaneseSegments": [
+        {
+          "base": "電話",
+          "reading": "でんわ"
+        }
+      ],
+      "reading": "でんわ",
+      "romaji": "denwa",
+      "meaning": "telephone",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:今日|きょう",
+      "japanese": "今日",
+      "japaneseSegments": [
+        {
+          "base": "今日",
+          "reading": "きょう"
+        }
+      ],
+      "reading": "きょう",
+      "romaji": "kyō",
+      "meaning": "today",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:会う|あう",
+      "japanese": "会う",
+      "japaneseSegments": [
+        {
+          "base": "会",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "あう",
+      "romaji": "au",
+      "meaning": "to meet",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:銀座駅|ぎんざえき",
+      "japanese": "銀座駅",
+      "japaneseSegments": [
+        {
+          "base": "銀座",
+          "reading": "ぎんざ"
+        },
+        {
+          "base": "駅",
+          "reading": "えき"
+        }
+      ],
+      "reading": "ぎんざえき",
+      "romaji": "Ginza-eki",
+      "meaning": "Ginza Station",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:歌舞伎座|かぶきざ",
+      "japanese": "歌舞伎座",
+      "japaneseSegments": [
+        {
+          "base": "歌舞伎",
+          "reading": "かぶき"
+        },
+        {
+          "base": "座",
+          "reading": "ざ"
+        }
+      ],
+      "reading": "かぶきざ",
+      "romaji": "Kabuki-za",
+      "meaning": "Kabuki Theater",
+      "firstPassage": 6,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:入り口|いりぐち",
+      "japanese": "入り口",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "い"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "口",
+          "reading": "ぐち"
+        }
+      ],
+      "reading": "いりぐち",
+      "romaji": "iriguchi",
+      "meaning": "entrance",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:チケット|ちけっと",
+      "japanese": "チケット",
+      "japaneseSegments": [
+        {
+          "text": "チケット"
+        }
+      ],
+      "reading": "ちけっと",
+      "romaji": "chiketto",
+      "meaning": "ticket",
+      "firstPassage": 6,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:席|せき",
+      "japanese": "席",
+      "japaneseSegments": [
+        {
+          "base": "席",
+          "reading": "せき"
+        }
+      ],
+      "reading": "せき",
+      "romaji": "seki",
+      "meaning": "seat",
+      "firstPassage": 7,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:飲む|のむ",
+      "japanese": "飲む",
+      "japaneseSegments": [
+        {
+          "base": "飲",
+          "reading": "の"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "reading": "のむ",
+      "romaji": "nomu",
+      "meaning": "to drink",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ロビー|ろびー",
+      "japanese": "ロビー",
+      "japaneseSegments": [
+        {
+          "text": "ロビー"
+        }
+      ],
+      "reading": "ろびー",
+      "romaji": "robī",
+      "meaning": "lobby",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:おじいさん|おじいさん",
+      "japanese": "おじいさん",
+      "japaneseSegments": [
+        {
+          "text": "おじいさん"
+        }
+      ],
+      "reading": "おじいさん",
+      "romaji": "ojiisan",
+      "meaning": "old man; grandfather",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:おばあさん|おばあさん",
+      "japanese": "おばあさん",
+      "japaneseSegments": [
+        {
+          "text": "おばあさん"
+        }
+      ],
+      "reading": "おばあさん",
+      "romaji": "obaasan",
+      "meaning": "old woman; grandmother",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:少し|すこし",
+      "japanese": "少し",
+      "japaneseSegments": [
+        {
+          "base": "少",
+          "reading": "すこ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "reading": "すこし",
+      "romaji": "sukoshi",
+      "meaning": "a little; slightly",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:笑う|わらう",
+      "japanese": "笑う",
+      "japaneseSegments": [
+        {
+          "base": "笑",
+          "reading": "わら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "わらう",
+      "romaji": "warau",
+      "meaning": "to laugh",
+      "firstPassage": 9,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:声|こえ",
+      "japanese": "声",
+      "japaneseSegments": [
+        {
+          "base": "声",
+          "reading": "こえ"
+        }
+      ],
+      "reading": "こえ",
+      "romaji": "koe",
+      "meaning": "voice",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:始まる|はじまる",
+      "japanese": "始まる",
+      "japaneseSegments": [
+        {
+          "base": "始",
+          "reading": "はじ"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "reading": "はじまる",
+      "romaji": "hajimaru",
+      "meaning": "to begin",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N kara",
+      "pattern": "N kara",
+      "patternSegments": [
+        {
+          "text": "N kara"
+        }
+      ],
+      "explanation": "Kara marks a starting point in time or a source, such as when something begins or where something is taken from.",
+      "firstPassage": 1,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "grammar:N de",
+      "pattern": "N de",
+      "patternSegments": [
+        {
+          "text": "N de"
+        }
+      ],
+      "explanation": "De marks the place where an action happens, or the means used to do it.",
+      "firstPassage": 1,
+      "occurrenceCount": 10
+    },
+    {
+      "key": "grammar:N mo",
+      "pattern": "N mo",
+      "patternSegments": [
+        {
+          "text": "N mo"
+        }
+      ],
+      "explanation": "Mo means “also” or “too,” adding another person or thing to the statement.",
+      "firstPassage": 1,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "grammar:N yo",
+      "pattern": "N yo",
+      "patternSegments": [
+        {
+          "text": "N yo"
+        }
+      ],
+      "explanation": "Yo adds emphasis when giving information or pointing something out to the listener.",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:N desu ka",
+      "pattern": "N desu ka",
+      "patternSegments": [
+        {
+          "text": "N desu ka"
+        }
+      ],
+      "explanation": "Desu ka forms a polite question, often asking whether something is so or requesting information.",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:N mae",
+      "pattern": "N mae",
+      "patternSegments": [
+        {
+          "text": "N mae"
+        }
+      ],
+      "explanation": "Mae means “before” when placed after a time or place expression.",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N desu kara",
+      "pattern": "N desu kara",
+      "patternSegments": [
+        {
+          "text": "N desu kara"
+        }
+      ],
+      "explanation": "Desu kara gives a reason: “because it is...” or “since it is...”.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-mashō ka",
+      "pattern": "V-mashō ka",
+      "patternSegments": [
+        {
+          "text": "V-mashō ka"
+        }
+      ],
+      "explanation": "Mashō ka makes a polite suggestion, such as “Shall we...?”",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Place ni Person ga imasu",
+      "pattern": "Place ni Person ga imasu",
+      "patternSegments": [
+        {
+          "text": "Place ni Person ga imasu"
+        }
+      ],
+      "explanation": "This pattern says that a person or other living thing is present at a place.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N desu kedo",
+      "pattern": "N desu kedo",
+      "patternSegments": [
+        {
+          "text": "N desu kedo"
+        }
+      ],
+      "explanation": "Kedo means “but”; here it softens a statement that trails off and invites a response.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    }
+  ]
+}

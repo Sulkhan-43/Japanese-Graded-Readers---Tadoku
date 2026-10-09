@@ -1,0 +1,808 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:来る|くる",
+      "japanese": "来る",
+      "japaneseSegments": [
+        {
+          "base": "来",
+          "reading": "く"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "くる",
+      "romaji": "kuru",
+      "meaning": "to come",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:今|いま",
+      "japanese": "今",
+      "japaneseSegments": [
+        {
+          "base": "今",
+          "reading": "いま"
+        }
+      ],
+      "reading": "いま",
+      "romaji": "ima",
+      "meaning": "now",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:東京|とうきょう",
+      "japanese": "東京",
+      "japaneseSegments": [
+        {
+          "base": "東京",
+          "reading": "とうきょう"
+        }
+      ],
+      "reading": "とうきょう",
+      "romaji": "Tōkyō",
+      "meaning": "Tokyo",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:住む|すむ",
+      "japanese": "住む",
+      "japaneseSegments": [
+        {
+          "base": "住",
+          "reading": "す"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "reading": "すむ",
+      "romaji": "sumu",
+      "meaning": "to live; to reside",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大学|だいがく",
+      "japanese": "大学",
+      "japaneseSegments": [
+        {
+          "base": "大学",
+          "reading": "だいがく"
+        }
+      ],
+      "reading": "だいがく",
+      "romaji": "daigaku",
+      "meaning": "university",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:留学生|りゅうがくせい",
+      "japanese": "留学生",
+      "japaneseSegments": [
+        {
+          "base": "留学生",
+          "reading": "りゅうがくせい"
+        }
+      ],
+      "reading": "りゅうがくせい",
+      "romaji": "ryūgakusei",
+      "meaning": "international student",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:趣味|しゅみ",
+      "japanese": "趣味",
+      "japaneseSegments": [
+        {
+          "base": "趣味",
+          "reading": "しゅみ"
+        }
+      ],
+      "reading": "しゅみ",
+      "romaji": "shumi",
+      "meaning": "hobby",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:旅行|りょこう",
+      "japanese": "旅行",
+      "japaneseSegments": [
+        {
+          "base": "旅行",
+          "reading": "りょこう"
+        }
+      ],
+      "reading": "りょこう",
+      "romaji": "ryokō",
+      "meaning": "travel; trip",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:本屋|ほんや",
+      "japanese": "本屋",
+      "japaneseSegments": [
+        {
+          "base": "本屋",
+          "reading": "ほんや"
+        }
+      ],
+      "reading": "ほんや",
+      "romaji": "hon'ya",
+      "meaning": "bookstore",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:アルバイト|あるばいと",
+      "japanese": "アルバイト",
+      "japaneseSegments": [
+        {
+          "text": "アルバイト"
+        }
+      ],
+      "reading": "あるばいと",
+      "romaji": "arubaito",
+      "meaning": "part-time job",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:冬休み|ふゆやすみ",
+      "japanese": "冬休み",
+      "japaneseSegments": [
+        {
+          "base": "冬休",
+          "reading": "ふゆやす"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "reading": "ふゆやすみ",
+      "romaji": "fuyu-yasumi",
+      "meaning": "winter vacation",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:うち|うち",
+      "japanese": "うち",
+      "japaneseSegments": [
+        {
+          "text": "うち"
+        }
+      ],
+      "reading": "うち",
+      "romaji": "uchi",
+      "meaning": "home; house",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:山梨|やまなし",
+      "japanese": "山梨",
+      "japaneseSegments": [
+        {
+          "base": "山梨",
+          "reading": "やまなし"
+        }
+      ],
+      "reading": "やまなし",
+      "romaji": "Yamanashi",
+      "meaning": "Yamanashi",
+      "firstPassage": 2,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:どこ|どこ",
+      "japanese": "どこ",
+      "japaneseSegments": [
+        {
+          "text": "どこ"
+        }
+      ],
+      "reading": "どこ",
+      "romaji": "doko",
+      "meaning": "where",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:西|にし",
+      "japanese": "西",
+      "japaneseSegments": [
+        {
+          "base": "西",
+          "reading": "にし"
+        }
+      ],
+      "reading": "にし",
+      "romaji": "nishi",
+      "meaning": "west",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:雪|ゆき",
+      "japanese": "雪",
+      "japaneseSegments": [
+        {
+          "base": "雪",
+          "reading": "ゆき"
+        }
+      ],
+      "reading": "ゆき",
+      "romaji": "yuki",
+      "meaning": "snow",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:たくさん|たくさん",
+      "japanese": "たくさん",
+      "japaneseSegments": [
+        {
+          "text": "たくさん"
+        }
+      ],
+      "reading": "たくさん",
+      "romaji": "takusan",
+      "meaning": "a lot; many",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ある|ある",
+      "japanese": "ある",
+      "japaneseSegments": [
+        {
+          "text": "ある"
+        }
+      ],
+      "reading": "ある",
+      "romaji": "aru",
+      "meaning": "to exist; there is (for things)",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:行く|いく",
+      "japanese": "行く",
+      "japaneseSegments": [
+        {
+          "base": "行",
+          "reading": "い"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "いく",
+      "romaji": "iku",
+      "meaning": "to go",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:週間|しゅうかん",
+      "japanese": "週間",
+      "japaneseSegments": [
+        {
+          "base": "週間",
+          "reading": "しゅうかん"
+        }
+      ],
+      "reading": "しゅうかん",
+      "romaji": "shūkan",
+      "meaning": "week (duration)",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:乗る|のる",
+      "japanese": "乗る",
+      "japaneseSegments": [
+        {
+          "base": "乗",
+          "reading": "の"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "のる",
+      "romaji": "noru",
+      "meaning": "to ride; to board",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:時間|じかん",
+      "japanese": "時間",
+      "japaneseSegments": [
+        {
+          "base": "時間",
+          "reading": "じかん"
+        }
+      ],
+      "reading": "じかん",
+      "romaji": "jikan",
+      "meaning": "hour; time",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:遠い|とおい",
+      "japanese": "遠い",
+      "japaneseSegments": [
+        {
+          "base": "遠",
+          "reading": "とお"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "とおい",
+      "romaji": "tōi",
+      "meaning": "far",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:降りる|おりる",
+      "japanese": "降りる",
+      "japaneseSegments": [
+        {
+          "base": "降",
+          "reading": "お"
+        },
+        {
+          "text": "りる"
+        }
+      ],
+      "reading": "おりる",
+      "romaji": "oriru",
+      "meaning": "to get off; to descend",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:富士山|ふじさん",
+      "japanese": "富士山",
+      "japaneseSegments": [
+        {
+          "base": "富士山",
+          "reading": "ふじさん"
+        }
+      ],
+      "reading": "ふじさん",
+      "romaji": "Fujisan",
+      "meaning": "Mount Fuji",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:白い|しろい",
+      "japanese": "白い",
+      "japaneseSegments": [
+        {
+          "base": "白",
+          "reading": "しろ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "しろい",
+      "romaji": "shiroi",
+      "meaning": "white",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:きれい|きれい",
+      "japanese": "きれい",
+      "japaneseSegments": [
+        {
+          "text": "きれい"
+        }
+      ],
+      "reading": "きれい",
+      "romaji": "kirei",
+      "meaning": "beautiful; pretty",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:何|なに",
+      "japanese": "何",
+      "japaneseSegments": [
+        {
+          "base": "何",
+          "reading": "なに"
+        }
+      ],
+      "reading": "なに",
+      "romaji": "nani",
+      "meaning": "what",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:つらら|つらら",
+      "japanese": "つらら",
+      "japaneseSegments": [
+        {
+          "text": "つらら"
+        }
+      ],
+      "reading": "つらら",
+      "romaji": "tsurara",
+      "meaning": "icicle",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:庭|にわ",
+      "japanese": "庭",
+      "japaneseSegments": [
+        {
+          "base": "庭",
+          "reading": "にわ"
+        }
+      ],
+      "reading": "にわ",
+      "romaji": "niwa",
+      "meaning": "garden",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:遊ぶ|あそぶ",
+      "japanese": "遊ぶ",
+      "japaneseSegments": [
+        {
+          "base": "遊",
+          "reading": "あそ"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "reading": "あそぶ",
+      "romaji": "asobu",
+      "meaning": "to play",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:雪だるま|ゆきだるま",
+      "japanese": "雪だるま",
+      "japaneseSegments": [
+        {
+          "base": "雪",
+          "reading": "ゆき"
+        },
+        {
+          "text": "だるま"
+        }
+      ],
+      "reading": "ゆきだるま",
+      "romaji": "yukidaruma",
+      "meaning": "snowman",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:作る|つくる",
+      "japanese": "作る",
+      "japaneseSegments": [
+        {
+          "base": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "つくる",
+      "romaji": "tsukuru",
+      "meaning": "to make",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:できる|できる",
+      "japanese": "できる",
+      "japaneseSegments": [
+        {
+          "text": "できる"
+        }
+      ],
+      "reading": "できる",
+      "romaji": "dekiru",
+      "meaning": "to be completed; to be made",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:次|つぎ",
+      "japanese": "次",
+      "japaneseSegments": [
+        {
+          "base": "次",
+          "reading": "つぎ"
+        }
+      ],
+      "reading": "つぎ",
+      "romaji": "tsugi",
+      "meaning": "next",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:かまくら|かまくら",
+      "japanese": "かまくら",
+      "japaneseSegments": [
+        {
+          "text": "かまくら"
+        }
+      ],
+      "reading": "かまくら",
+      "romaji": "kamakura",
+      "meaning": "snow hut",
+      "firstPassage": 10,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:家|いえ",
+      "japanese": "家",
+      "japaneseSegments": [
+        {
+          "base": "家",
+          "reading": "いえ"
+        }
+      ],
+      "reading": "いえ",
+      "romaji": "ie",
+      "meaning": "house",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:中|なか",
+      "japanese": "中",
+      "japaneseSegments": [
+        {
+          "base": "中",
+          "reading": "なか"
+        }
+      ],
+      "reading": "なか",
+      "romaji": "naka",
+      "meaning": "inside; middle",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:入る|はいる",
+      "japanese": "入る",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "はい"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "はいる",
+      "romaji": "hairu",
+      "meaning": "to enter",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:暖かい|あたたかい",
+      "japanese": "暖かい",
+      "japaneseSegments": [
+        {
+          "base": "暖",
+          "reading": "あたた"
+        },
+        {
+          "text": "かい"
+        }
+      ],
+      "reading": "あたたかい",
+      "romaji": "atatakai",
+      "meaning": "warm",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:もうひとつ|もうひとつ",
+      "japanese": "もうひとつ",
+      "japaneseSegments": [
+        {
+          "text": "もうひとつ"
+        }
+      ],
+      "reading": "もうひとつ",
+      "romaji": "mō hitotsu",
+      "meaning": "one more; another one",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N kara V",
+      "pattern": "N kara V",
+      "patternSegments": [
+        {
+          "text": "N kara V"
+        }
+      ],
+      "explanation": "Use kara after a place or origin to say where someone came from.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N ni sunde imasu",
+      "pattern": "N ni sunde imasu",
+      "patternSegments": [
+        {
+          "text": "N ni sunde imasu"
+        }
+      ],
+      "explanation": "Use ni with sumu to name the place where someone lives; the te-imasu form describes a continuing state.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N no N",
+      "pattern": "N no N",
+      "patternSegments": [
+        {
+          "text": "N no N"
+        }
+      ],
+      "explanation": "No connects two nouns, often showing possession or describing the relationship between them.",
+      "firstPassage": 1,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "grammar:N de V",
+      "pattern": "N de V",
+      "patternSegments": [
+        {
+          "text": "N de V"
+        }
+      ],
+      "explanation": "Use de after a place to say where an action happens.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-te imasu",
+      "pattern": "V-te imasu",
+      "patternSegments": [
+        {
+          "text": "V-te imasu"
+        }
+      ],
+      "explanation": "This form describes an ongoing state or a regular activity, depending on the verb.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-masen ka",
+      "pattern": "V-masen ka",
+      "patternSegments": [
+        {
+          "text": "V-masen ka"
+        }
+      ],
+      "explanation": "This polite question form invites or offers someone to do something.",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N wa doko ni arimasu ka",
+      "pattern": "N wa doko ni arimasu ka",
+      "patternSegments": [
+        {
+          "text": "N wa doko ni arimasu ka"
+        }
+      ],
+      "explanation": "Use this question to ask where something is located.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N ga takusan arimasu",
+      "pattern": "N ga takusan arimasu",
+      "patternSegments": [
+        {
+          "text": "N ga takusan arimasu"
+        }
+      ],
+      "explanation": "This pattern says that a large amount of something exists or is present.",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N kara N e",
+      "pattern": "N kara N e",
+      "patternSegments": [
+        {
+          "text": "N kara N e"
+        }
+      ],
+      "explanation": "Use kara for the starting point and e for the direction or destination of travel.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N made tōi desu ka",
+      "pattern": "N made tōi desu ka",
+      "patternSegments": [
+        {
+          "text": "N made tōi desu ka"
+        }
+      ],
+      "explanation": "Made marks the destination or extent; this question asks whether it is far to that place.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:quantity kurai",
+      "pattern": "quantity kurai",
+      "patternSegments": [
+        {
+          "text": "quantity kurai"
+        }
+      ],
+      "explanation": "Kurai after an amount gives an approximate number or duration, meaning about that much.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-mashou",
+      "pattern": "V-mashou",
+      "patternSegments": [
+        {
+          "text": "V-mashou"
+        }
+      ],
+      "explanation": "This polite form suggests doing something together: “let’s …”.",
+      "firstPassage": 8,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:Adj-i desho",
+      "pattern": "Adj-i desho",
+      "patternSegments": [
+        {
+          "text": "Adj-i desho"
+        }
+      ],
+      "explanation": "Desho after an adjective seeks agreement, similar to “isn’t it?” or “right?”.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:何|なん",
+      "japanese": "何",
+      "japaneseSegments": [
+        {
+          "base": "何",
+          "reading": "なん"
+        }
+      ],
+      "reading": "なん",
+      "romaji": "nan",
+      "meaning": "what",
+      "firstPassage": 1,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "vocabulary:使う|つかう",
+      "japanese": "使う",
+      "japaneseSegments": [
+        {
+          "base": "使",
+          "reading": "つか"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "つかう",
+      "romaji": "tsukau",
+      "meaning": "to use",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:蚊取り豚|かとりぶた",
+      "japanese": "蚊取り豚",
+      "japaneseSegments": [
+        {
+          "base": "蚊",
+          "reading": "か"
+        },
+        {
+          "base": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "豚",
+          "reading": "ぶた"
+        }
+      ],
+      "reading": "かとりぶた",
+      "romaji": "katoributa",
+      "meaning": "pig-shaped mosquito coil holder",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:蚊取り線香|かとりせんこう",
+      "japanese": "蚊取り線香",
+      "japaneseSegments": [
+        {
+          "base": "蚊",
+          "reading": "か"
+        },
+        {
+          "base": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "線香",
+          "reading": "せんこう"
+        }
+      ],
+      "reading": "かとりせんこう",
+      "romaji": "katorisenkō",
+      "meaning": "mosquito coil",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:入れる|いれる",
+      "japanese": "入れる",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "いれる",
+      "romaji": "ireru",
+      "meaning": "to put in",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:煙|けむり",
+      "japanese": "煙",
+      "japaneseSegments": [
+        {
+          "base": "煙",
+          "reading": "けむり"
+        }
+      ],
+      "reading": "けむり",
+      "romaji": "kemuri",
+      "meaning": "smoke",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:死ぬ|しぬ",
+      "japanese": "死ぬ",
+      "japaneseSegments": [
+        {
+          "base": "死",
+          "reading": "し"
+        },
+        {
+          "text": "ぬ"
+        }
+      ],
+      "reading": "しぬ",
+      "romaji": "shinu",
+      "meaning": "to die",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:忍者|にんじゃ",
+      "japanese": "忍者",
+      "japaneseSegments": [
+        {
+          "base": "忍者",
+          "reading": "にんじゃ"
+        }
+      ],
+      "reading": "にんじゃ",
+      "romaji": "ninja",
+      "meaning": "ninja",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:けん玉|けんだま",
+      "japanese": "けん玉",
+      "japaneseSegments": [
+        {
+          "text": "けん"
+        },
+        {
+          "base": "玉",
+          "reading": "だま"
+        }
+      ],
+      "reading": "けんだま",
+      "romaji": "kendama",
+      "meaning": "traditional cup-and-ball toy",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:難しい|むずかしい",
+      "japanese": "難しい",
+      "japaneseSegments": [
+        {
+          "base": "難",
+          "reading": "むずか"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "むずかしい",
+      "romaji": "muzukashii",
+      "meaning": "difficult",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:遊び|あそび",
+      "japanese": "遊び",
+      "japaneseSegments": [
+        {
+          "base": "遊",
+          "reading": "あそ"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "reading": "あそび",
+      "romaji": "asobi",
+      "meaning": "game; play",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:模様|もよう",
+      "japanese": "模様",
+      "japaneseSegments": [
+        {
+          "base": "模様",
+          "reading": "もよう"
+        }
+      ],
+      "reading": "もよう",
+      "romaji": "moyō",
+      "meaning": "pattern",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ふろしき|ふろしき",
+      "japanese": "ふろしき",
+      "japaneseSegments": [
+        {
+          "text": "ふろしき"
+        }
+      ],
+      "reading": "ふろしき",
+      "romaji": "furoshiki",
+      "meaning": "wrapping cloth",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:包む|つつむ",
+      "japanese": "包む",
+      "japaneseSegments": [
+        {
+          "base": "包",
+          "reading": "つつ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "reading": "つつむ",
+      "romaji": "tsutsumu",
+      "meaning": "to wrap",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:便利|べんり",
+      "japanese": "便利",
+      "japaneseSegments": [
+        {
+          "base": "便",
+          "reading": "べん"
+        },
+        {
+          "base": "利",
+          "reading": "り"
+        }
+      ],
+      "reading": "べんり",
+      "romaji": "benri",
+      "meaning": "convenient",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:冬|ふゆ",
+      "japanese": "冬",
+      "japaneseSegments": [
+        {
+          "base": "冬",
+          "reading": "ふゆ"
+        }
+      ],
+      "reading": "ふゆ",
+      "romaji": "fuyu",
+      "meaning": "winter",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:猫|ねこ",
+      "japanese": "猫",
+      "japaneseSegments": [
+        {
+          "base": "猫",
+          "reading": "ねこ"
+        }
+      ],
+      "reading": "ねこ",
+      "romaji": "neko",
+      "meaning": "cat",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大好き|だいすき",
+      "japanese": "大好き",
+      "japaneseSegments": [
+        {
+          "base": "大好き",
+          "reading": "だいすき"
+        }
+      ],
+      "reading": "だいすき",
+      "romaji": "daisuki",
+      "meaning": "to love; to like very much",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:こたつ|こたつ",
+      "japanese": "こたつ",
+      "japaneseSegments": [
+        {
+          "text": "こたつ"
+        }
+      ],
+      "reading": "こたつ",
+      "romaji": "kotatsu",
+      "meaning": "heated low table with a blanket",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:暖かい|あたたかい",
+      "japanese": "暖かい",
+      "japaneseSegments": [
+        {
+          "base": "暖",
+          "reading": "あたた"
+        },
+        {
+          "text": "かい"
+        }
+      ],
+      "reading": "あたたかい",
+      "romaji": "atatakai",
+      "meaning": "warm",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:出る|でる",
+      "japanese": "出る",
+      "japaneseSegments": [
+        {
+          "base": "出",
+          "reading": "で"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "でる",
+      "romaji": "deru",
+      "meaning": "to leave; to come out",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:魚|さかな",
+      "japanese": "魚",
+      "japaneseSegments": [
+        {
+          "base": "魚",
+          "reading": "さかな"
+        }
+      ],
+      "reading": "さかな",
+      "romaji": "sakana",
+      "meaning": "fish",
+      "firstPassage": 9,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:タイ焼き|たいやき",
+      "japanese": "タイ焼き",
+      "japaneseSegments": [
+        {
+          "text": "タイ"
+        },
+        {
+          "base": "焼",
+          "reading": "や"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "たいやき",
+      "romaji": "taiyaki",
+      "meaning": "fish-shaped cake filled with sweet bean paste",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:あんこ|あんこ",
+      "japanese": "あんこ",
+      "japaneseSegments": [
+        {
+          "text": "あんこ"
+        }
+      ],
+      "reading": "あんこ",
+      "romaji": "anko",
+      "meaning": "sweet bean paste",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:お菓子|おかし",
+      "japanese": "お菓子",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "菓子",
+          "reading": "かし"
+        }
+      ],
+      "reading": "おかし",
+      "romaji": "okashi",
+      "meaning": "sweets; confectionery",
+      "firstPassage": 10,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:人形|にんぎょう",
+      "japanese": "人形",
+      "japaneseSegments": [
+        {
+          "base": "人形",
+          "reading": "にんぎょう"
+        }
+      ],
+      "reading": "にんぎょう",
+      "romaji": "ningyō",
+      "meaning": "doll",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:目|め",
+      "japanese": "目",
+      "japaneseSegments": [
+        {
+          "base": "目",
+          "reading": "め"
+        }
+      ],
+      "reading": "め",
+      "romaji": "me",
+      "meaning": "eye",
+      "firstPassage": 11,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:怖い|こわい",
+      "japanese": "怖い",
+      "japaneseSegments": [
+        {
+          "base": "怖",
+          "reading": "こわ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "こわい",
+      "romaji": "kowai",
+      "meaning": "scary",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:描く|かく",
+      "japanese": "描く",
+      "japaneseSegments": [
+        {
+          "base": "描",
+          "reading": "か"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "かく",
+      "romaji": "kaku",
+      "meaning": "to draw",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:大学|だいがく",
+      "japanese": "大学",
+      "japaneseSegments": [
+        {
+          "base": "大学",
+          "reading": "だいがく"
+        }
+      ],
+      "reading": "だいがく",
+      "romaji": "daigaku",
+      "meaning": "university",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:合格する|ごうかくする",
+      "japanese": "合格する",
+      "japaneseSegments": [
+        {
+          "base": "合格",
+          "reading": "ごうかく"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "reading": "ごうかくする",
+      "romaji": "gōkaku suru",
+      "meaning": "to pass; to be accepted",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:だるま|だるま",
+      "japanese": "だるま",
+      "japaneseSegments": [
+        {
+          "text": "だるま"
+        }
+      ],
+      "reading": "だるま",
+      "romaji": "daruma",
+      "meaning": "daruma doll",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:酒屋|さかや",
+      "japanese": "酒屋",
+      "japaneseSegments": [
+        {
+          "base": "酒",
+          "reading": "さか"
+        },
+        {
+          "base": "屋",
+          "reading": "や"
+        }
+      ],
+      "reading": "さかや",
+      "romaji": "sakaya",
+      "meaning": "sake shop",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:入り口|いりぐち",
+      "japanese": "入り口",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "い"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "口",
+          "reading": "ぐち"
+        }
+      ],
+      "reading": "いりぐち",
+      "romaji": "iriguchi",
+      "meaning": "entrance",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:杉玉|すぎだま",
+      "japanese": "杉玉",
+      "japaneseSegments": [
+        {
+          "base": "杉",
+          "reading": "すぎ"
+        },
+        {
+          "base": "玉",
+          "reading": "だま"
+        }
+      ],
+      "reading": "すぎだま",
+      "romaji": "sugitama",
+      "meaning": "cedar ball hung outside a sake brewery or shop",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:下げる|さげる",
+      "japanese": "下げる",
+      "japaneseSegments": [
+        {
+          "base": "下",
+          "reading": "さ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "reading": "さげる",
+      "romaji": "sageru",
+      "meaning": "to hang; to lower",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:お化け|おばけ",
+      "japanese": "お化け",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "化",
+          "reading": "ば"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "reading": "おばけ",
+      "romaji": "obake",
+      "meaning": "ghost; monster",
+      "firstPassage": 15,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:曇り|くもり",
+      "japanese": "曇り",
+      "japaneseSegments": [
+        {
+          "base": "曇",
+          "reading": "くも"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "reading": "くもり",
+      "romaji": "kumori",
+      "meaning": "cloudy weather",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:てるてる坊主|てるてるぼうず",
+      "japanese": "てるてる坊主",
+      "japaneseSegments": [
+        {
+          "text": "てるてる"
+        },
+        {
+          "base": "坊主",
+          "reading": "ぼうず"
+        }
+      ],
+      "reading": "てるてるぼうず",
+      "romaji": "teruteru bōzu",
+      "meaning": "paper doll traditionally hung to wish for fine weather",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:出かける|でかける",
+      "japanese": "出かける",
+      "japaneseSegments": [
+        {
+          "base": "出",
+          "reading": "で"
+        },
+        {
+          "text": "かける"
+        }
+      ],
+      "reading": "でかける",
+      "romaji": "dekakeru",
+      "meaning": "to go out",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:天気|てんき",
+      "japanese": "天気",
+      "japaneseSegments": [
+        {
+          "base": "天",
+          "reading": "てん"
+        },
+        {
+          "base": "気",
+          "reading": "き"
+        }
+      ],
+      "reading": "てんき",
+      "romaji": "tenki",
+      "meaning": "weather",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:晴れる|はれる",
+      "japanese": "晴れる",
+      "japaneseSegments": [
+        {
+          "base": "晴",
+          "reading": "は"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "はれる",
+      "romaji": "hareru",
+      "meaning": "to clear up; to become sunny",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:~ deshō",
+      "pattern": "~ deshō",
+      "patternSegments": [
+        {
+          "text": "~ deshō"
+        }
+      ],
+      "explanation": "Adds a tentative or wondering tone to a question, like “what could it be?”",
+      "firstPassage": 1,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "grammar:~masu ka",
+      "pattern": "~masu ka",
+      "patternSegments": [
+        {
+          "text": "~masu ka"
+        }
+      ],
+      "explanation": "Adds ka to a polite verb form to make a question.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:~ desu ga",
+      "pattern": "~ desu ga",
+      "patternSegments": [
+        {
+          "text": "~ desu ga"
+        }
+      ],
+      "explanation": "Connects clauses with a contrast, meaning “but.”",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:dono N ni mo",
+      "pattern": "dono N ni mo",
+      "patternSegments": [
+        {
+          "text": "dono N ni mo"
+        }
+      ],
+      "explanation": "With dono, ni mo means “in every” or “at any,” as in every home.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N ya N",
+      "pattern": "N ya N",
+      "patternSegments": [
+        {
+          "text": "N ya N"
+        }
+      ],
+      "explanation": "Ya lists examples, often meaning “N and other things like N.”",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-takunai",
+      "pattern": "V-takunai",
+      "patternSegments": [
+        {
+          "text": "V-takunai"
+        }
+      ],
+      "explanation": "The negative form of tai expresses not wanting to do something.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:de wa arimasen",
+      "pattern": "de wa arimasen",
+      "patternSegments": [
+        {
+          "text": "de wa arimasen"
+        }
+      ],
+      "explanation": "A polite negative form of “to be,” meaning “is not” or “are not.”",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N mo N mo",
+      "pattern": "N mo N mo",
+      "patternSegments": [
+        {
+          "text": "N mo N mo"
+        }
+      ],
+      "explanation": "Repeating mo emphasizes that both listed things apply: “neither N nor N” in a negative sentence.",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-masu yō ni",
+      "pattern": "V-masu yō ni",
+      "patternSegments": [
+        {
+          "text": "V-masu yō ni"
+        }
+      ],
+      "explanation": "Used in a wish or prayer, meaning “may ...” or “I hope ...”.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te kudasai",
+      "pattern": "V-te kudasai",
+      "patternSegments": [
+        {
+          "text": "V-te kudasai"
+        }
+      ],
+      "explanation": "A polite request meaning “please do ...”.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    }
+  ]
+}

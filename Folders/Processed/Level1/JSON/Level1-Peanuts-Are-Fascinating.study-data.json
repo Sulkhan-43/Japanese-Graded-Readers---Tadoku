@@ -1,0 +1,704 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:落花生|らっかせい",
+      "japanese": "落花生",
+      "japaneseSegments": [
+        {
+          "base": "落花生",
+          "reading": "らっかせい"
+        }
+      ],
+      "reading": "らっかせい",
+      "romaji": "rakkasei",
+      "meaning": "peanut; peanut plant",
+      "firstPassage": 1,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:おもしろい|おもしろい",
+      "japanese": "おもしろい",
+      "japaneseSegments": [
+        {
+          "text": "おもしろい"
+        }
+      ],
+      "reading": "おもしろい",
+      "romaji": "omoshiroi",
+      "meaning": "interesting; fascinating",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:落ちる|おちる",
+      "japanese": "落ちる",
+      "japaneseSegments": [
+        {
+          "base": "落",
+          "reading": "お"
+        },
+        {
+          "text": "ちる"
+        }
+      ],
+      "reading": "おちる",
+      "romaji": "ochiru",
+      "meaning": "fall",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:花|はな",
+      "japanese": "花",
+      "japaneseSegments": [
+        {
+          "base": "花",
+          "reading": "はな"
+        }
+      ],
+      "reading": "はな",
+      "romaji": "hana",
+      "meaning": "flower",
+      "firstPassage": 1,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:生まれる|うまれる",
+      "japanese": "生まれる",
+      "japaneseSegments": [
+        {
+          "base": "生",
+          "reading": "う"
+        },
+        {
+          "text": "まれる"
+        }
+      ],
+      "reading": "うまれる",
+      "romaji": "umareru",
+      "meaning": "be born; come into being",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:名前|なまえ",
+      "japanese": "名前",
+      "japaneseSegments": [
+        {
+          "base": "名前",
+          "reading": "なまえ"
+        }
+      ],
+      "reading": "なまえ",
+      "romaji": "namae",
+      "meaning": "name",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:いう|いう",
+      "japanese": "いう",
+      "japaneseSegments": [
+        {
+          "text": "いう"
+        }
+      ],
+      "reading": "いう",
+      "romaji": "iu",
+      "meaning": "say; call",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:種|たね",
+      "japanese": "種",
+      "japaneseSegments": [
+        {
+          "base": "種",
+          "reading": "たね"
+        }
+      ],
+      "reading": "たね",
+      "romaji": "tane",
+      "meaning": "seed",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:まく|まく",
+      "japanese": "まく",
+      "japaneseSegments": [
+        {
+          "text": "まく"
+        }
+      ],
+      "reading": "まく",
+      "romaji": "maku",
+      "meaning": "sow; plant (a seed)",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:水|みず",
+      "japanese": "水",
+      "japaneseSegments": [
+        {
+          "base": "水",
+          "reading": "みず"
+        }
+      ],
+      "reading": "みず",
+      "romaji": "mizu",
+      "meaning": "water",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:やる|やる",
+      "japanese": "やる",
+      "japaneseSegments": [
+        {
+          "text": "やる"
+        }
+      ],
+      "reading": "やる",
+      "romaji": "yaru",
+      "meaning": "give; apply (water to a plant)",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:芽|め",
+      "japanese": "芽",
+      "japaneseSegments": [
+        {
+          "base": "芽",
+          "reading": "め"
+        }
+      ],
+      "reading": "め",
+      "romaji": "me",
+      "meaning": "sprout; bud",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:出る|でる",
+      "japanese": "出る",
+      "japaneseSegments": [
+        {
+          "base": "出",
+          "reading": "で"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "でる",
+      "romaji": "deru",
+      "meaning": "come out; appear",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:本葉|ほんば",
+      "japanese": "本葉",
+      "japaneseSegments": [
+        {
+          "base": "本葉",
+          "reading": "ほんば"
+        }
+      ],
+      "reading": "ほんば",
+      "romaji": "honba",
+      "meaning": "true leaves",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大きい|おおきい",
+      "japanese": "大きい",
+      "japaneseSegments": [
+        {
+          "base": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "きい"
+        }
+      ],
+      "reading": "おおきい",
+      "romaji": "ōkii",
+      "meaning": "big; large",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:黄色い|きいろい",
+      "japanese": "黄色い",
+      "japaneseSegments": [
+        {
+          "base": "黄色",
+          "reading": "きいろ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "きいろい",
+      "romaji": "kiiroi",
+      "meaning": "yellow",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:咲く|さく",
+      "japanese": "咲く",
+      "japaneseSegments": [
+        {
+          "base": "咲",
+          "reading": "さ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "さく",
+      "romaji": "saku",
+      "meaning": "bloom; flower",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:枯れる|かれる",
+      "japanese": "枯れる",
+      "japaneseSegments": [
+        {
+          "base": "枯",
+          "reading": "か"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "かれる",
+      "romaji": "kareru",
+      "meaning": "wither",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:子房柄|しぼうへい",
+      "japanese": "子房柄",
+      "japaneseSegments": [
+        {
+          "base": "子房柄",
+          "reading": "しぼうへい"
+        }
+      ],
+      "reading": "しぼうへい",
+      "romaji": "shibōhei",
+      "meaning": "ovary stalk; peanut peg",
+      "firstPassage": 9,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:伸びる|のびる",
+      "japanese": "伸びる",
+      "japaneseSegments": [
+        {
+          "base": "伸",
+          "reading": "の"
+        },
+        {
+          "text": "びる"
+        }
+      ],
+      "reading": "のびる",
+      "romaji": "nobiru",
+      "meaning": "grow; extend",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:次々|つぎつぎ",
+      "japanese": "次々",
+      "japaneseSegments": [
+        {
+          "base": "次々",
+          "reading": "つぎつぎ"
+        }
+      ],
+      "reading": "つぎつぎ",
+      "romaji": "tsugitsugi",
+      "meaning": "one after another",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:土の中|つちのなか",
+      "japanese": "土の中",
+      "japaneseSegments": [
+        {
+          "base": "土",
+          "reading": "つち"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "base": "中",
+          "reading": "なか"
+        }
+      ],
+      "reading": "つちのなか",
+      "romaji": "tsuchi no naka",
+      "meaning": "underground; inside the soil",
+      "firstPassage": 10,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:入る|はいる",
+      "japanese": "入る",
+      "japaneseSegments": [
+        {
+          "base": "入",
+          "reading": "はい"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "はいる",
+      "romaji": "hairu",
+      "meaning": "enter; go in",
+      "firstPassage": 10,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:初め|はじめ",
+      "japanese": "初め",
+      "japaneseSegments": [
+        {
+          "base": "初",
+          "reading": "はじ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "reading": "はじめ",
+      "romaji": "hajime",
+      "meaning": "beginning; early part",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ごろ|ごろ",
+      "japanese": "ごろ",
+      "japaneseSegments": [
+        {
+          "text": "ごろ"
+        }
+      ],
+      "reading": "ごろ",
+      "romaji": "goro",
+      "meaning": "around (a time)",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:実|み",
+      "japanese": "実",
+      "japaneseSegments": [
+        {
+          "base": "実",
+          "reading": "み"
+        }
+      ],
+      "reading": "み",
+      "romaji": "mi",
+      "meaning": "fruit; pod",
+      "firstPassage": 11,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:できる|できる",
+      "japanese": "できる",
+      "japaneseSegments": [
+        {
+          "text": "できる"
+        }
+      ],
+      "reading": "できる",
+      "romaji": "dekiru",
+      "meaning": "form; be made",
+      "firstPassage": 11,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:様子|ようす",
+      "japanese": "様子",
+      "japaneseSegments": [
+        {
+          "base": "様子",
+          "reading": "ようす"
+        }
+      ],
+      "reading": "ようす",
+      "romaji": "yōsu",
+      "meaning": "state; appearance",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:始める|はじめる",
+      "japanese": "始める",
+      "japaneseSegments": [
+        {
+          "base": "始",
+          "reading": "はじ"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "reading": "はじめる",
+      "romaji": "hajimeru",
+      "meaning": "begin to do",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:掘り出す|ほりだす",
+      "japanese": "掘り出す",
+      "japaneseSegments": [
+        {
+          "base": "掘",
+          "reading": "ほ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "ほりだす",
+      "romaji": "horidasu",
+      "meaning": "dig out",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:干す|ほす",
+      "japanese": "干す",
+      "japaneseSegments": [
+        {
+          "base": "干",
+          "reading": "ほ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "ほす",
+      "romaji": "hosu",
+      "meaning": "dry; hang out to dry",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:取る|とる",
+      "japanese": "取る",
+      "japaneseSegments": [
+        {
+          "base": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "とる",
+      "romaji": "toru",
+      "meaning": "take; pick",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:たくさん|たくさん",
+      "japanese": "たくさん",
+      "japaneseSegments": [
+        {
+          "text": "たくさん"
+        }
+      ],
+      "reading": "たくさん",
+      "romaji": "takusan",
+      "meaning": "many; a lot",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:食べる|たべる",
+      "japanese": "食べる",
+      "japaneseSegments": [
+        {
+          "base": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "reading": "たべる",
+      "romaji": "taberu",
+      "meaning": "eat",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ピーナッツ|ぴーなっつ",
+      "japanese": "ピーナッツ",
+      "japaneseSegments": [
+        {
+          "text": "ピーナッツ"
+        }
+      ],
+      "reading": "ぴーなっつ",
+      "romaji": "pīnattsu",
+      "meaning": "peanuts",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N to iu N",
+      "pattern": "N to iu N",
+      "patternSegments": [
+        {
+          "text": "N to iu N"
+        }
+      ],
+      "explanation": "Use this pattern to identify or name something as a particular noun, as in “a peanut called by this name.”",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-te miru",
+      "pattern": "V-te miru",
+      "patternSegments": [
+        {
+          "text": "V-te miru"
+        }
+      ],
+      "explanation": "Attach miru to the te-form of a verb to say that someone tries doing it.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:i-adjective-ku naru",
+      "pattern": "i-adjective-ku naru",
+      "patternSegments": [
+        {
+          "text": "i-adjective-ku naru"
+        }
+      ],
+      "explanation": "Change an i-adjective to its ku-form and add naru to describe becoming that quality.",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te, ...",
+      "pattern": "V-te, ...",
+      "patternSegments": [
+        {
+          "text": "V-te, ..."
+        }
+      ],
+      "explanation": "The te-form can connect actions or events that happen in sequence or lead into one another.",
+      "firstPassage": 10,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:V-masu-stem + hajimeru",
+      "pattern": "V-masu-stem + hajimeru",
+      "patternSegments": [
+        {
+          "text": "V-masu-stem + hajimeru"
+        }
+      ],
+      "explanation": "Attach hajimeru to a verb stem to say that an action or process begins.",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N kara",
+      "pattern": "N kara",
+      "patternSegments": [
+        {
+          "text": "N kara"
+        }
+      ],
+      "explanation": "Kara after a noun can mark a source or starting point, here the soil the peanuts are dug out of.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-mashou",
+      "pattern": "V-mashou",
+      "patternSegments": [
+        {
+          "text": "V-mashou"
+        }
+      ],
+      "explanation": "The mashou form makes a friendly suggestion or invitation: “let's do ...”.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N to mo iu",
+      "pattern": "N to mo iu",
+      "patternSegments": [
+        {
+          "text": "N to mo iu"
+        }
+      ],
+      "explanation": "Use to mo iu to say that something is also called or known by another name.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:clause kara",
+      "pattern": "clause kara",
+      "patternSegments": [
+        {
+          "text": "clause kara"
+        }
+      ],
+      "explanation": "Kara after a clause gives the reason for what follows: “because ...”.",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te kuru",
+      "pattern": "V-te kuru",
+      "patternSegments": [
+        {
+          "text": "V-te kuru"
+        }
+      ],
+      "explanation": "Kuru after a te-form can describe something emerging or moving toward the speaker's point of view.",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    }
+  ]
+}

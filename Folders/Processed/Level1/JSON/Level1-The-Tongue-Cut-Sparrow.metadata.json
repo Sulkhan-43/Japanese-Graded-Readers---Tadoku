@@ -1,0 +1,586 @@
+{
+  "id": "level1-the-tongue-cut-sparrow",
+  "name": "The Tongue-Cut Sparrow",
+  "japaneseTitle": "舌切り雀",
+  "slug": "level1-the-tongue-cut-sparrow",
+  "level": "Level 1",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level1-the-tongue-cut-sparrow/source.pdf",
+  "ocrR2Key": "books/level1-the-tongue-cut-sparrow/source-ocr.txt",
+  "coverR2Key": "books/level1-the-tongue-cut-sparrow/cover.jpg",
+  "htmlR2Key": "books/level1-the-tongue-cut-sparrow/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 747,
+  "createdAt": "2026-10-09T17:11:50.182Z",
+  "updatedAt": "2026-10-09T17:11:50.182Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:雀|すずめ",
+        "japanese": "雀",
+        "japaneseSegments": [
+          {
+            "base": "雀",
+            "reading": "すずめ"
+          }
+        ],
+        "reading": "すずめ",
+        "romaji": "suzume",
+        "meaning": "sparrow",
+        "firstPassage": 1,
+        "occurrenceCount": 48
+      },
+      {
+        "key": "vocabulary:おじいさん|おじいさん",
+        "japanese": "おじいさん",
+        "japaneseSegments": [
+          {
+            "text": "おじいさん"
+          }
+        ],
+        "reading": "おじいさん",
+        "romaji": "ojiisan",
+        "meaning": "old man; grandfather",
+        "firstPassage": 1,
+        "occurrenceCount": 29
+      },
+      {
+        "key": "vocabulary:おばあさん|おばあさん",
+        "japanese": "おばあさん",
+        "japaneseSegments": [
+          {
+            "text": "おばあさん"
+          }
+        ],
+        "reading": "おばあさん",
+        "romaji": "obaasan",
+        "meaning": "old woman; grandmother",
+        "firstPassage": 1,
+        "occurrenceCount": 20
+      },
+      {
+        "key": "vocabulary:古い|ふるい",
+        "japanese": "古い",
+        "japaneseSegments": [
+          {
+            "base": "古",
+            "reading": "ふる"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "ふるい",
+        "romaji": "furui",
+        "meaning": "old; ancient",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:話|はなし",
+        "japanese": "話",
+        "japaneseSegments": [
+          {
+            "base": "話",
+            "reading": "はなし"
+          }
+        ],
+        "reading": "はなし",
+        "romaji": "hanashi",
+        "meaning": "story; tale",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:毎日|まいにち",
+        "japanese": "毎日",
+        "japaneseSegments": [
+          {
+            "base": "毎日",
+            "reading": "まいにち"
+          }
+        ],
+        "reading": "まいにち",
+        "romaji": "mainichi",
+        "meaning": "every day",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:山|やま",
+        "japanese": "山",
+        "japaneseSegments": [
+          {
+            "base": "山",
+            "reading": "やま"
+          }
+        ],
+        "reading": "やま",
+        "romaji": "yama",
+        "meaning": "mountain",
+        "firstPassage": 1,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:行く|いく",
+        "japanese": "行く",
+        "japaneseSegments": [
+          {
+            "base": "行",
+            "reading": "い"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "いく",
+        "romaji": "iku",
+        "meaning": "to go",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:一羽|いちわ",
+        "japanese": "一羽",
+        "japaneseSegments": [
+          {
+            "base": "一羽",
+            "reading": "いちわ"
+          }
+        ],
+        "reading": "いちわ",
+        "romaji": "ichiwa",
+        "meaning": "one bird (counter)",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:近く|ちかく",
+        "japanese": "近く",
+        "japaneseSegments": [
+          {
+            "base": "近",
+            "reading": "ちか"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "ちかく",
+        "romaji": "chikaku",
+        "meaning": "nearby; vicinity",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:来る|くる",
+        "japanese": "来る",
+        "japaneseSegments": [
+          {
+            "base": "来",
+            "reading": "く"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "くる",
+        "romaji": "kuru",
+        "meaning": "to come",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:家|いえ",
+        "japanese": "家",
+        "japaneseSegments": [
+          {
+            "base": "家",
+            "reading": "いえ"
+          }
+        ],
+        "reading": "いえ",
+        "romaji": "ie",
+        "meaning": "house; home",
+        "firstPassage": 1,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:帰る|かえる",
+        "japanese": "帰る",
+        "japaneseSegments": [
+          {
+            "base": "帰",
+            "reading": "かえ"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return; go home",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:遊ぶ|あそぶ",
+        "japanese": "遊ぶ",
+        "japaneseSegments": [
+          {
+            "base": "遊",
+            "reading": "あそ"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "あそぶ",
+        "romaji": "asobu",
+        "meaning": "to play",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:嫌い|きらい",
+        "japanese": "嫌い",
+        "japaneseSegments": [
+          {
+            "base": "嫌",
+            "reading": "きら"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "きらい",
+        "romaji": "kirai",
+        "meaning": "disliked; disliked by someone",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:洗濯のり|せんたくのり",
+        "japanese": "洗濯のり",
+        "japaneseSegments": [
+          {
+            "base": "洗濯",
+            "reading": "せんたく"
+          },
+          {
+            "text": "のり"
+          }
+        ],
+        "reading": "せんたくのり",
+        "romaji": "sentaku nori",
+        "meaning": "laundry starch",
+        "firstPassage": 2,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:食べる|たべる",
+        "japanese": "食べる",
+        "japaneseSegments": [
+          {
+            "base": "食",
+            "reading": "た"
+          },
+          {
+            "text": "べる"
+          }
+        ],
+        "reading": "たべる",
+        "romaji": "taberu",
+        "meaning": "to eat",
+        "firstPassage": 2,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:着物|きもの",
+        "japanese": "着物",
+        "japaneseSegments": [
+          {
+            "base": "着物",
+            "reading": "きもの"
+          }
+        ],
+        "reading": "きもの",
+        "romaji": "kimono",
+        "meaning": "kimono; traditional robe",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:舌|した",
+        "japanese": "舌",
+        "japaneseSegments": [
+          {
+            "base": "舌",
+            "reading": "した"
+          }
+        ],
+        "reading": "した",
+        "romaji": "shita",
+        "meaning": "tongue",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:切る|きる",
+        "japanese": "切る",
+        "japaneseSegments": [
+          {
+            "base": "切",
+            "reading": "き"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "きる",
+        "romaji": "kiru",
+        "meaning": "to cut",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:大丈夫|だいじょうぶ",
+        "japanese": "大丈夫",
+        "japaneseSegments": [
+          {
+            "base": "大丈夫",
+            "reading": "だいじょうぶ"
+          }
+        ],
+        "reading": "だいじょうぶ",
+        "romaji": "daijōbu",
+        "meaning": "all right; okay",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:お茶|おちゃ",
+        "japanese": "お茶",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "茶",
+            "reading": "ちゃ"
+          }
+        ],
+        "reading": "おちゃ",
+        "romaji": "ocha",
+        "meaning": "tea",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:お菓子|おかし",
+        "japanese": "お菓子",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "菓子",
+            "reading": "かし"
+          }
+        ],
+        "reading": "おかし",
+        "romaji": "okashi",
+        "meaning": "sweets; snack",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:箱|はこ",
+        "japanese": "箱",
+        "japaneseSegments": [
+          {
+            "base": "箱",
+            "reading": "はこ"
+          }
+        ],
+        "reading": "はこ",
+        "romaji": "hako",
+        "meaning": "box",
+        "firstPassage": 7,
+        "occurrenceCount": 15
+      },
+      {
+        "key": "vocabulary:大きい|おおきい",
+        "japanese": "大きい",
+        "japaneseSegments": [
+          {
+            "base": "大",
+            "reading": "おお"
+          },
+          {
+            "text": "きい"
+          }
+        ],
+        "reading": "おおきい",
+        "romaji": "ōkii",
+        "meaning": "large; big",
+        "firstPassage": 7,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:小さい|ちいさい",
+        "japanese": "小さい",
+        "japaneseSegments": [
+          {
+            "base": "小",
+            "reading": "ちい"
+          },
+          {
+            "text": "さい"
+          }
+        ],
+        "reading": "ちいさい",
+        "romaji": "chiisai",
+        "meaning": "small",
+        "firstPassage": 7,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:重い|おもい",
+        "japanese": "重い",
+        "japaneseSegments": [
+          {
+            "base": "重",
+            "reading": "おも"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "おもい",
+        "romaji": "omoi",
+        "meaning": "heavy",
+        "firstPassage": 7,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:お金|おかね",
+        "japanese": "お金",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "金",
+            "reading": "かね"
+          }
+        ],
+        "reading": "おかね",
+        "romaji": "okane",
+        "meaning": "money",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:お化け|おばけ",
+        "japanese": "お化け",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "化",
+            "reading": "ば"
+          },
+          {
+            "text": "け"
+          }
+        ],
+        "reading": "おばけ",
+        "romaji": "obake",
+        "meaning": "ghost; monster",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N e iku",
+        "pattern": "N e iku",
+        "patternSegments": [
+          {
+            "text": "N e iku"
+          }
+        ],
+        "explanation": "This pattern marks movement toward a destination. The particle signals where someone is going.",
+        "firstPassage": 1,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:N to V",
+        "pattern": "N to V",
+        "patternSegments": [
+          {
+            "text": "N to V"
+          }
+        ],
+        "explanation": "This pattern marks doing an action together with someone or something.",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N ga imasu/arimasu",
+        "pattern": "N ga imasu/arimasu",
+        "patternSegments": [
+          {
+            "text": "N ga imasu/arimasu"
+          }
+        ],
+        "explanation": "This pattern says that a person, animal, or thing exists or is present.",
+        "firstPassage": 1,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "grammar:N kara (origin)",
+        "pattern": "N kara (origin)",
+        "patternSegments": [
+          {
+            "text": "N kara (origin)"
+          }
+        ],
+        "explanation": "This pattern marks the place someone or something comes from.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:S kara (reason)",
+        "pattern": "S kara (reason)",
+        "patternSegments": [
+          {
+            "text": "S kara (reason)"
+          }
+        ],
+        "explanation": "This pattern gives a reason for the preceding statement.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V te shimau",
+        "pattern": "V te shimau",
+        "patternSegments": [
+          {
+            "text": "V te shimau"
+          }
+        ],
+        "explanation": "This pattern shows that an action is completed, often with a sense of regret or an unwanted result.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}
