@@ -69,7 +69,6 @@ for (const metadataPath of metadataPaths) {
     pdfPath: path.join(outputRoot, 'PDF', `${filename}.pdf`),
     ocrPath: metadata.ocrR2Key ? path.join(outputRoot, 'OCR', `${filename}-SuryaOCR.txt`) : null,
     coverPath: path.join(outputRoot, 'COVER', `${filename}.jpg`),
-    studyDataPath: `${basePath}.study-data.json`,
     pdfKey: metadata.pdfR2Key || `books/${metadata.slug}/source.pdf`,
   });
 }
@@ -112,7 +111,7 @@ async function worker() {
   while (true) {
     const index = next++;
     if (index >= books.length) return;
-    const { metadata, metadataPath, htmlPath, pdfPath, ocrPath, coverPath, studyDataPath, pdfKey } = books[index];
+    const { metadata, metadataPath, htmlPath, pdfPath, ocrPath, coverPath, pdfKey } = books[index];
     const publicMetadata = { ...metadata };
     delete publicMetadata.studyData;
     const publicMetadataPath = `${metadataPath}.public-tmp`;
@@ -121,7 +120,6 @@ async function worker() {
       await wranglerCommand(['r2', 'object', 'put', `todaku/${pdfKey}`, '--remote', '--file', pdfPath, '--content-type', 'application/pdf']);
       if (ocrPath) await wranglerCommand(['r2', 'object', 'put', `todaku/${metadata.ocrR2Key}`, '--remote', '--file', ocrPath, '--content-type', 'text/plain; charset=utf-8']);
       await wranglerCommand(['r2', 'object', 'put', `todaku/${metadata.coverR2Key || `books/${metadata.slug}/cover.jpg`}`, '--remote', '--file', coverPath, '--content-type', 'image/jpeg']);
-      await wranglerCommand(['r2', 'object', 'put', `todaku/books/${metadata.slug}/study-data.json`, '--remote', '--file', studyDataPath, '--content-type', 'application/json; charset=utf-8']);
       await wranglerCommand(['r2', 'object', 'put', `todaku/books/${metadata.slug}/metadata.json`, '--remote', '--file', publicMetadataPath, '--content-type', 'application/json; charset=utf-8']);
       await wranglerCommand(['r2', 'object', 'put', `todaku/books/${metadata.slug}/study-guide.html`, '--remote', '--file', htmlPath, '--content-type', 'text/html; charset=utf-8']);
       completed += 1;
@@ -142,7 +140,7 @@ try {
 
   await writeFile(libraryPath, `${JSON.stringify(library, null, 2)}\n`, 'utf8');
   await wranglerCommand(['r2', 'object', 'put', 'todaku/library.json', '--remote', '--file', libraryPath, '--content-type', 'application/json; charset=utf-8']);
-  console.log(`Published ${books.length} reader(s) (PDF${books.some((book) => book.ocrPath) ? ', OCR' : ''}, cover, private study data, public metadata, and guide) and updated library.json with ${library.books.length} reader(s).`);
+  console.log(`Published ${books.length} reader(s) (PDF${books.some((book) => book.ocrPath) ? ', OCR' : ''}, cover, public metadata, guide, and library catalog) and updated library.json with ${library.books.length} reader(s).`);
 } finally {
   await rm(libraryPath, { force: true });
 }
