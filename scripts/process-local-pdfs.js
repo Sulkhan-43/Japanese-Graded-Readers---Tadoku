@@ -263,12 +263,18 @@ async function uploadPdf(pdfPath, displayName) {
   return file;
 }
 
-async function generateStudyData(file, prompt) {
+async function generateStudyData(file, prompt, ocrText = '') {
+  const transcriptPrompt = ocrText
+    ? `${prompt}\n\nUse the paired Surya OCR transcript as the story source. Preserve its reading order, repair only clear OCR errors, and do not invent missing story content.\n\n--- BEGIN SURYA OCR TEXT ---\n${ocrText}\n--- END SURYA OCR TEXT ---\n\nReturn only the JSON object specified above.`
+    : prompt;
+  const parts = [{ text: transcriptPrompt }];
+  if (file?.uri) parts.push({ file_data: { mime_type: 'application/pdf', file_uri: file.uri } });
+  else if (!ocrText) throw new Error('Gemini needs either the source PDF or its paired OCR transcript.');
   const response = await fetchWithRetry(`${apiRoot}/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(apiKey)}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }, { file_data: { mime_type: 'application/pdf', file_uri: file.uri } }] }],
+      contents: [{ parts }],
       generationConfig: { responseMimeType: 'application/json', temperature: 0.2, maxOutputTokens: 65536 },
     }),
     signal: AbortSignal.timeout(15 * 60 * 1000),
@@ -582,7 +588,7 @@ async function processOne(pdfPath, manifest, slugs) {
       ? sourceOcr
         ? await generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText: await readFile(sourceOcr, 'utf8') })
         : await generateStudyDataWithCodex(pdfPath, prompt, hash)
-      : await generateStudyData(file, prompt);
+      : await generateStudyData(file, prompt, sourceOcr ? await readFile(sourceOcr, 'utf8') : '');
     const data = validateStudyData(raw, path.basename(pdfPath));
     if (codexProvider) await rm(path.join(tmpdir(), 'tadoku-codex-responses', `${hash}.json`), { force: true });
     const title = normalizeTitle(data.title);
