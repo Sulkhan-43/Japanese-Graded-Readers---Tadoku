@@ -57,6 +57,7 @@ function libraryMarkup(books, user, progress) {
   const levels = [...new Set(books.map((book) => book.level).filter(Boolean))].sort((a, b) => a.localeCompare(b));
   const control = books.length ? `<div class="library-tools"><label class="search-field"><span class="sr-only">Search books</span><span class="search-icon" aria-hidden="true">⌕</span><input id="book-search" type="search" placeholder="Find a story" autocomplete="off"></label>
     <label class="select-field"><span class="sr-only">Filter by level</span><select id="level-filter"><option value="">All levels</option>${levels.map((level) => `<option value="${escapeHTML(level)}">${escapeHTML(level)}</option>`).join('')}</select></label>
+    ${user ? '<label class="select-field"><span class="sr-only">Filter by status</span><select id="status-filter"><option value="">All statuses</option><option value="In_Progress">In progress</option><option value="To_Do">To do</option><option value="Finished">Finished</option></select></label>' : ''}
     <span class="book-count"><strong id="visible-count">${books.length}</strong> ${books.length === 1 ? 'reader' : 'readers'}</span></div>` : '';
   const cards = books.length
     ? `<div id="book-grid" class="book-grid">${shelfBooks.map(({ book, index }) => bookCard(book, index, user, statuses)).join('')}</div><p id="no-filter-results" class="filter-empty" hidden>No readers match those filters.</p>`
@@ -73,6 +74,7 @@ function libraryMarkup(books, user, progress) {
 function bindFilters() {
   const search = document.querySelector('#book-search');
   const level = document.querySelector('#level-filter');
+  const status = document.querySelector('#status-filter');
   if (!search || !level) return;
   const cards = [...document.querySelectorAll('.book-card')];
   const count = document.querySelector('#visible-count');
@@ -81,7 +83,9 @@ function bindFilters() {
     const query = search.value.trim().toLowerCase();
     let visible = 0;
     for (const card of cards) {
-      const matches = card.textContent.toLowerCase().includes(query) && (!level.value || card.querySelector('.eyebrow').textContent === level.value);
+      const matches = card.textContent.toLowerCase().includes(query)
+        && (!level.value || card.querySelector('.eyebrow').textContent === level.value)
+        && (!status?.value || card.dataset.readingStatus === status.value);
       card.hidden = !matches;
       if (matches) visible += 1;
     }
@@ -90,6 +94,7 @@ function bindFilters() {
   };
   search.addEventListener('input', update);
   level.addEventListener('change', update);
+  status?.addEventListener('change', update);
 }
 
 function bindProgressControls() {
