@@ -325,6 +325,26 @@ export async function updateReadingProgress(env, userId, slug, status) {
   }
 }
 
+export async function startReadingProgress(env, userId, slug) {
+  const client = openDatabase(env);
+  try {
+    await client.connect();
+    const result = await client.query(
+      `INSERT INTO reader_book_progress AS current_progress (user_id, book_slug, status)
+       SELECT $1, slug, 'In_Progress' FROM study_books WHERE slug = $2
+       ON CONFLICT (user_id, book_slug) DO UPDATE SET
+         status = CASE WHEN current_progress.status = 'To_Do' THEN 'In_Progress' ELSE current_progress.status END,
+         updated_at = CASE WHEN current_progress.status = 'To_Do' THEN NOW() ELSE current_progress.updated_at END
+       RETURNING book_slug AS slug, status, updated_at AS "updatedAt"`,
+      [userId, slug],
+    );
+    if (!result.rowCount) throw new AuthError('Reader not found.', 404);
+    return result.rows[0];
+  } finally {
+    await client.end().catch(() => {});
+  }
+}
+
 export async function bookIsFinished(env, userId, slug) {
   const client = openDatabase(env);
   try {

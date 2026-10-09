@@ -15,12 +15,62 @@ import {
   login,
   logout,
   readingProgress,
+  startReadingProgress,
   updateReadingProgress,
 } from './lib/auth.js';
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const STUDY_GUIDE_LANGUAGE_STYLES = `
 /* TADOKU-GUIDE-LANGUAGE-STYLES */
+.study-guide-navigation {
+  width: min(1040px, calc(100% - 32px));
+  margin: 16px auto -12px;
+}
+.study-guide-back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 .8rem;
+  border: 1px solid #d9ddd4;
+  border-radius: 999px;
+  background: #fffefa;
+  color: #426b50;
+  font: 600 .72rem/1.2 ui-monospace, monospace;
+  text-decoration: none;
+}
+.study-guide-back:hover { border-color: #9caf9b; background: #edf3eb; }
+.study-guide-back:focus-visible,
+.study-index-hide:focus-visible { outline: 2px solid #426b50; outline-offset: 2px; }
+.study-index-preference-note {
+  margin: 0 0 12px;
+  color: #6f7c72;
+  font: 12px/1.6 Arial, sans-serif;
+}
+.study-index-status:not(:empty) {
+  margin: 0 0 12px;
+  padding: .55rem .75rem;
+  border-left: 2px solid #73927a;
+  background: #eef3ed;
+  color: #315f3d;
+  font: 12px/1.5 Arial, sans-serif;
+}
+.study-index-status[data-state="error"] {
+  border-color: #ae573e;
+  background: #fbf1e9;
+  color: #754522;
+}
+.study-index-hide {
+  min-height: 29px;
+  padding: .3rem .62rem;
+  border: 1px solid #dfc6bd;
+  border-radius: 999px;
+  background: #fff8f4;
+  color: #8b4938;
+  cursor: pointer;
+  font: 600 .65rem/1.2 ui-monospace, monospace;
+}
+.study-index-hide:hover { border-color: #c76b4d; background: #fbf1e9; }
+.study-index-hide:disabled { cursor: wait; opacity: .7; }
 .romaji,
 .translation {
   display: block;
@@ -63,9 +113,51 @@ const STUDY_GUIDE_LANGUAGE_STYLES = `
 }
 .guide-note-meaning { color: #754522; font-weight: 500; }
 @media (max-width: 560px) {
+  .study-guide-navigation { width: calc(100% - 20px); margin-top: 10px; }
   .romaji, .translation { padding: .55rem .65rem; }
 }
 `;
+
+const STUDY_INDEX_HIDE_SCRIPT = `(() => {
+  document.addEventListener('click', async (event) => {
+    const button = event.target?.closest?.('[data-study-index-hide]');
+    if (!button || button.disabled) return;
+
+    const status = document.querySelector('[data-study-index-status]');
+    const label = button.textContent;
+    button.disabled = true;
+    button.textContent = 'Saving…';
+    if (status) {
+      status.removeAttribute('data-state');
+      status.textContent = 'Saving this preference…';
+    }
+
+    try {
+      const response = await fetch('/api/study-terms', {
+        method: 'PATCH',
+        credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          kind: button.dataset.studyTermKind,
+          key: button.dataset.studyTermKey,
+          showInReport: false
+        })
+      });
+      let result = {};
+      try { result = await response.json(); } catch {}
+      if (!response.ok) throw new Error(result.error || 'Could not hide this item.');
+      if (status) status.textContent = 'Hidden from all of your study reports. Refreshing this guide…';
+      window.location.reload();
+    } catch (error) {
+      button.disabled = false;
+      button.textContent = label;
+      if (status) {
+        status.dataset.state = 'error';
+        status.textContent = error.message || 'Could not hide this item.';
+      }
+    }
+  });
+})();`;
 
 function json(data, status = 200, extraHeaders = {}) {
   return Response.json(data, {
@@ -103,6 +195,21 @@ function replaceMasterIndex(html, markup) {
   const end = html.indexOf(endMarker);
   if (start < 0 || end <= start) throw new Error('Study guide is missing its master-index markers.');
   return `${html.slice(0, start)}${startMarker}\n${markup}\n${endMarker}${html.slice(end + endMarker.length)}`;
+}
+
+function createScriptNonce() {
+  const bytes = crypto.getRandomValues(new Uint8Array(16));
+  let binary = '';
+  for (const byte of bytes) binary += String.fromCharCode(byte);
+  return btoa(binary);
+}
+
+function addStudyGuideControls(html, slug, nonce) {
+  const backLink = `<nav class="study-guide-navigation" aria-label="Study guide navigation"><a class="study-guide-back" href="/book/${encodeURIComponent(slug)}">← Back to this book</a></nav>`;
+  let output = html.replace(/<body\b[^>]*>/i, (openingTag) => `${openingTag}${backLink}`);
+  if (output === html) output = `${backLink}${output}`;
+  const script = `<script nonce="${nonce}">${STUDY_INDEX_HIDE_SCRIPT}</script>`;
+  return output.replace(/<\/body\s*>/i, `${script}</body>`);
 }
 
 function presentStudyGuideLanguages(html) {
@@ -226,6 +333,17 @@ async function route(request, env) {
   }
 
   const progressMatch = url.pathname.match(/^\/api\/progress\/([^/]+)$/);
+  const startProgressMatch = url.pathname.match(/^\/api\/progress\/([^/]+)\/start$/);
+  if (request.method === 'POST' && startProgressMatch) {
+    requireSameOrigin(request);
+    const user = await currentUser(request, env);
+    if (!user) return privateJson({ error: 'Sign in to save your reading progress.' }, 401);
+    const slug = decodeURIComponent(startProgressMatch[1]);
+    if (!isSlug(slug) || !(await getPublishedBook(env.BOOKS_BUCKET, slug))) return notFound('Reader not found.');
+    await readJsonBody(request);
+    return privateJson({ progress: await startReadingProgress(env, user.id, slug) });
+  }
+
   if (progressMatch && request.method === 'PATCH') {
     requireSameOrigin(request);
     const user = await currentUser(request, env);
@@ -282,11 +400,12 @@ async function route(request, env) {
     const filteredHtml = await filterUserHiddenStudyNotes(env, slug, user.id, sourceHtml);
     const studyIndexMarkup = await renderBookStudyIndex(env, slug, user.id);
     const styledHtml = presentStudyGuideLanguages(filteredHtml);
-    const html = replaceMasterIndex(styledHtml, studyIndexMarkup);
+    const nonce = createScriptNonce();
+    const html = addStudyGuideControls(replaceMasterIndex(styledHtml, studyIndexMarkup), slug, nonce);
     return new Response(html, {
       headers: {
         'Content-Type': 'text/html; charset=utf-8',
-        'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'self'",
+        'Content-Security-Policy': `default-src 'none'; script-src 'nonce-${nonce}'; connect-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'self'`,
         'X-Content-Type-Options': 'nosniff',
         'Referrer-Policy': 'no-referrer',
         'Cache-Control': 'private, no-store',

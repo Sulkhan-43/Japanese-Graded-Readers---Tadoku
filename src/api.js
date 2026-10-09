@@ -20,6 +20,11 @@ export const api = {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ status }),
   })),
+  startProgress: async (slug) => readJSON(await fetch(`/api/progress/${encodeURIComponent(slug)}/start`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: '{}',
+  })),
   setStudyTermVisibility: async (kind, key, showInReport) => readJSON(await fetch('/api/study-terms', {
     method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },

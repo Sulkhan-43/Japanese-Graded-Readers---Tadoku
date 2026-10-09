@@ -32,13 +32,39 @@ export async function showReader(slug, user) {
       : `<p class="access-note">The PDF is open to everyone. <span>Sign in from the top of the page to save progress.</span></p>`;
     const content = `<main class="reader-page" data-reading-status="${status}">
       <a class="back-link" href="/book/${encodeURIComponent(book.slug)}">← Reader details</a>
-      <header class="reader-heading"><div><span class="eyebrow">${escapeHTML(book.level || 'Japanese reader')}</span><h1>${escapeHTML(book.name)}</h1>${book.japaneseTitle ? `<p class="book-japanese" lang="ja">${escapeHTML(book.japaneseTitle)}</p>` : ''}</div><a class="button button-quiet" href="/pdf/${encodeURIComponent(book.slug)}" target="_blank" rel="noopener noreferrer">Open PDF in a new tab <span aria-hidden="true">↗</span></a></header>
+      <header class="reader-heading"><div><span class="eyebrow">${escapeHTML(book.level || 'Japanese reader')}</span><h1>${escapeHTML(book.name)}</h1>${book.japaneseTitle ? `<p class="book-japanese" lang="ja">${escapeHTML(book.japaneseTitle)}</p>` : ''}</div><a class="button button-quiet" id="open-reader-pdf" href="/pdf/${encodeURIComponent(book.slug)}" target="_blank" rel="noopener noreferrer">Open PDF in a new tab <span aria-hidden="true">↗</span></a></header>
       <div class="pdf-viewer"><iframe src="/pdf/${encodeURIComponent(book.slug)}" title="${escapeHTML(book.name)} Japanese PDF"></iframe></div>
       <section class="finish-reading" aria-labelledby="finish-title"><div><span class="eyebrow">YOUR READING PROGRESS</span><h2 id="finish-title">${status === 'Finished' ? 'You finished this reader.' : 'Reached the last page?'}</h2><p>${status === 'Finished' ? 'Your translated study guide is ready whenever you want to review it.' : 'Mark it finished to unlock the Japanese study guide and its vocabulary and grammar notes.'}</p></div>${note}<div class="finish-actions">${finishAction}${guideAction}</div><p class="reader-feedback" id="reader-feedback" role="status" hidden></p></section>
     </main>`;
     setPage(book.name, shell(content));
 
     const select = document.querySelector('#reader-status');
+    const openPdf = document.querySelector('#open-reader-pdf');
+    if (openPdf && user && status === 'To_Do') {
+      let savingProgress = false;
+      let progressStarted = false;
+      openPdf.addEventListener('click', async () => {
+        if (savingProgress || progressStarted) return;
+        savingProgress = true;
+        const feedback = document.querySelector('#reader-feedback');
+        try {
+          const { progress } = await api.startProgress(book.slug);
+          progressStarted = true;
+          document.querySelector('.reader-page').dataset.readingStatus = progress.status;
+          if (select) select.value = progress.status;
+          feedback.textContent = progress.status === 'In_Progress'
+            ? 'Marked In progress when you opened the PDF.'
+            : `Your progress is already marked ${progress.status.replace('_', ' ')}.`;
+          feedback.hidden = false;
+        } catch (error) {
+          feedback.textContent = `The PDF opened, but progress could not be saved: ${error.message}`;
+          feedback.hidden = false;
+        } finally {
+          savingProgress = false;
+        }
+      });
+    }
+
     if (select) {
       select.addEventListener('change', async () => {
         select.disabled = true;

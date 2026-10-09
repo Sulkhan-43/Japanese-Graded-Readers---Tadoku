@@ -77,25 +77,29 @@ function renderIndexMarkup(vocabulary, grammar) {
   const vocabRows = vocabulary.map((record) => (
     `<tr><td class="index-japanese">${renderJapanese(record.japaneseSegments)}</td>` +
     `<td>${escapeHtml(record.romaji)}</td><td>${escapeHtml(record.meaning)}</td>` +
-    `<td>${escapeHtml(record.firstPassage)}</td><td>${escapeHtml(record.totalOccurrences)}</td></tr>`
+    `<td>${escapeHtml(record.firstPassage)}</td><td>${escapeHtml(record.totalOccurrences)}</td>` +
+    `<td><button type="button" class="study-index-hide" data-study-index-hide data-study-term-kind="vocabulary" data-study-term-key="${escapeHtml(record.key)}" aria-label="Hide ${escapeHtml(record.japanese)} from all study reports">Hide</button></td></tr>`
   )).join('\n');
 
   const grammarRows = grammar.map((record) => (
     `<tr><td class="index-japanese">${renderJapanese(record.patternSegments)}</td>` +
     `<td>${escapeHtml(record.explanation)}</td><td>${escapeHtml(record.firstPassage)}</td>` +
-    `<td>${escapeHtml(record.totalOccurrences)}</td></tr>`
+    `<td>${escapeHtml(record.totalOccurrences)}</td>` +
+    `<td><button type="button" class="study-index-hide" data-study-index-hide data-study-term-kind="grammar" data-study-term-key="${escapeHtml(record.key)}" aria-label="Hide ${escapeHtml(record.pattern)} from all study reports">Hide</button></td></tr>`
   )).join('\n');
 
   return `<section class="master-index" aria-label="Master vocabulary and grammar indexes">
+      <p class="study-index-preference-note">Hide an item to remove it from all of your study reports.</p>
+      <p class="study-index-status" data-study-index-status role="status" aria-live="polite"></p>
       <section class="index-card" aria-labelledby="vocabulary-index-title">
         <div class="index-card-head"><h2 id="vocabulary-index-title">Master vocabulary index</h2><p>Unique vocabulary introduced in this reader. Rows are ordered by this reader's frequency; the count shows all readers.</p></div>
-        <div class="index-table-wrap"><table class="master-table"><thead><tr><th scope="col">Japanese</th><th scope="col">Romaji</th><th scope="col">Meaning</th><th scope="col">First passage</th><th scope="col">Total occurrences</th></tr></thead><tbody>
+        <div class="index-table-wrap"><table class="master-table"><thead><tr><th scope="col">Japanese</th><th scope="col">Romaji</th><th scope="col">Meaning</th><th scope="col">First passage</th><th scope="col">Total occurrences</th><th scope="col">Hide</th></tr></thead><tbody>
 ${vocabRows}
         </tbody></table></div>
       </section>
       <section class="index-card" aria-labelledby="grammar-index-title">
         <div class="index-card-head"><h2 id="grammar-index-title">Master grammar index</h2><p>Rows are ordered by this reader's frequency; the count shows all readers. Repeated uses in one sentence count separately.</p></div>
-        <div class="index-table-wrap"><table class="master-table grammar-table"><thead><tr><th scope="col">Pattern</th><th scope="col">Meaning / use</th><th scope="col">First passage</th><th scope="col">Total occurrences</th></tr></thead><tbody>
+        <div class="index-table-wrap"><table class="master-table grammar-table"><thead><tr><th scope="col">Pattern</th><th scope="col">Meaning / use</th><th scope="col">First passage</th><th scope="col">Total occurrences</th><th scope="col">Hide</th></tr></thead><tbody>
 ${grammarRows}
         </tbody></table></div>
       </section>
