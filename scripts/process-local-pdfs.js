@@ -604,6 +604,7 @@ async function processOne(pdfPath, manifest, slugs) {
       vocabulary: data.vocabulary,
       grammar: data.grammar,
     };
+    const guideHtml = buildGuide(data, folderLevel);
     const metadata = {
       id: slug,
       name: title,
@@ -624,7 +625,6 @@ async function processOne(pdfPath, manifest, slugs) {
       updatedAt: new Date().toISOString(),
       studyData,
     };
-    const guideHtml = buildGuide(data, folderLevel);
     for (const category of ['OCR', 'JSON', 'HTML', 'COVER', 'PDF']) await mkdir(path.join(outputRoot, category), { recursive: true });
     if (path.resolve(pdfPath) !== path.resolve(pdfOutput)) await copyFile(pdfPath, pdfOutput);
     if (sourceOcr) await copyFile(sourceOcr, ocrOutput);
