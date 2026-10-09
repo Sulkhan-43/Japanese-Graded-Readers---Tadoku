@@ -643,7 +643,7 @@ async function processOne(pdfPath, manifest, slugs) {
     };
     for (const category of ['OCR', 'JSON', 'HTML', 'COVER', 'PDF']) await mkdir(path.join(outputRoot, category), { recursive: true });
     if (path.resolve(pdfPath) !== path.resolve(pdfOutput)) await copyFile(pdfPath, pdfOutput);
-    if (sourceOcr) await copyFile(sourceOcr, ocrOutput);
+    if (sourceOcr && path.resolve(sourceOcr) !== path.resolve(ocrOutput)) await copyFile(sourceOcr, ocrOutput);
     await renderCover(pdfPath, coverOutput);
     await writeFile(htmlOutput, guideHtml, 'utf8');
     await writeFile(metadataOutput, `${JSON.stringify(metadata, null, 2)}\n`, 'utf8');
