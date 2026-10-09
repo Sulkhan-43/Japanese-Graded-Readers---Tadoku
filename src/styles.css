@@ -51,25 +51,23 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .aside-rule { width: 33px; height: 1px; background: var(--rust); margin: 0 0 24px; }
 .aside-japanese { margin: 0 0 16px; font: 24px/1.7 "Yu Mincho", "Hiragino Mincho ProN", serif; letter-spacing: .04em; }
 .intro-aside > span { color: #81857b; font: 9px var(--font-mono); letter-spacing: .14em; }
+.hero-reading-progress { width: min(100%, 320px); margin-top: 27px; padding-top: 15px; border-top: 1px solid var(--line); color: var(--ink); }
+.hero-reading-progress > .eyebrow { display: block; }
+.hero-word-tally { display: flex; align-items: baseline; gap: 9px; margin-top: 8px; color: var(--moss-dark); font-variant-numeric: tabular-nums; }
+.hero-word-tally strong { font: 400 clamp(34px, 3.3vw, 43px)/1 var(--font-display); letter-spacing: -.04em; }
+.hero-word-tally > span { color: #8b8d82; font: 18px var(--font-display); }
+.hero-word-label { display: block; margin-top: 3px; color: #777f75; font: 9px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; }
+.hero-word-progress-track { height: 4px; margin-top: 13px; overflow: hidden; background: #d9ddd3; }
+.hero-word-progress-track > span { width: 0; height: 100%; display: block; background: var(--moss); transition: width .22s ease; }
+.hero-reading-progress > p { margin: 9px 0 0; color: #68766b; font: 10px var(--font-mono); }
+.hero-reading-progress > p strong { color: var(--rust); font-weight: 500; }
+.hero-reading-progress > small { display: block; margin-top: 8px; color: #83877d; font-size: 9px; line-height: 1.5; }
 .library-section { padding: 51px 0 15px; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
 .section-heading h2 { margin: 10px 0 0; color: var(--ink); font: 400 clamp(26px, 3.1vw, 38px)/1.13 var(--font-display); letter-spacing: -.035em; }
 .collection-count { display: flex; align-items: baseline; gap: 9px; color: var(--rust); font: 20px var(--font-display); white-space: nowrap; }
 .collection-count span { color: #888a81; font: 8px var(--font-mono); letter-spacing: .13em; }
 .library-tools { display: flex; align-items: center; gap: 10px; padding: 22px 0 18px; }
-.word-progress { margin: 0 0 22px; padding: 20px 22px 16px; border: 1px solid var(--line); background: #eeefe8; }
-.word-progress-heading { display: flex; justify-content: space-between; align-items: end; gap: 16px; }
-.word-progress-heading h3 { margin: 7px 0 0; color: var(--ink); font: 400 23px/1.1 var(--font-display); letter-spacing: -.025em; }
-.word-progress-reader-count { color: #777f75; font: 9px var(--font-mono); letter-spacing: .035em; }
-.word-progress-reader-count strong { color: var(--ink); font-weight: 500; }
-.word-progress-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 17px 0 13px; }
-.word-progress-metric { display: grid; gap: 4px; }
-.word-progress-metric strong { color: var(--moss-dark); font: 400 35px/.95 var(--font-display); letter-spacing: -.035em; font-variant-numeric: tabular-nums; }
-.word-progress-metric span { color: #717a70; font: 9px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; }
-.word-progress-metric.is-to-learn strong { color: var(--rust); }
-.word-progress-track { height: 5px; overflow: hidden; background: #d9ddd3; }
-.word-progress-track > span { width: 0; height: 100%; display: block; background: var(--moss); transition: width .22s ease; }
-.word-progress > p { margin: 9px 0 0; color: #83877d; font-size: 10px; line-height: 1.5; }
 .search-field { position: relative; width: min(320px, 100%); }
 .search-field input, .select-field select { height: 41px; border: 1px solid var(--line); border-radius: 0; background: var(--surface); color: var(--ink); font-size: 12px; }
 .search-field input { width: 100%; padding: 0 14px 0 36px; }
@@ -180,13 +178,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .library-tools { display: grid; grid-template-columns: 1fr auto; }
   .search-field { width: 100%; }
   .book-count { grid-column: 1 / -1; justify-self: end; margin: 2px 0 0; }
-  .word-progress { padding: 16px 15px 13px; }
-  .word-progress-heading { align-items: start; }
-  .word-progress-heading h3 { font-size: 20px; }
-  .word-progress-reader-count { max-width: 112px; padding-top: 17px; text-align: right; line-height: 1.5; }
-  .word-progress-metrics { gap: 12px; }
-  .word-progress-metric strong { font-size: 30px; }
-  .word-progress-metric span { font-size: 8px; }
   .book-grid { grid-template-columns: 1fr; gap: 12px; }
   .book-card { display: grid; grid-template-columns: 38% minmax(0, 1fr); min-height: 205px; }
   .cover-link { min-height: 205px; }
