@@ -173,7 +173,7 @@ function studyPrompt(relativePath, useOcr = false) {
 
 First identify the story's actual beginning and end. Preserve page order and include every relevant Japanese story sentence, title, narration, dialogue, caption, story heading, and story-specific synopsis. Exclude publisher/NPO introductions and descriptions, imprints, colophons, credits, dates and print details, ISBN/catalog data, addresses, URLs, copyright/legal matter, advertisements, mascots, learning instructions, level charts, and page numbers. For a mixed back cover, include only the story-specific synopsis. ${readingOrderInstruction}
 
-Keep prose fields (`title`, `synopsis`, passage `label`, `romaji`, English `translation`, vocabulary `meaning`, and grammar `explanation`) in English or Latin-script romaji only. Do not put Japanese kana or kanji in prose fields: the guide renders prose as plain text and cannot add ruby there. Keep Japanese script in the structured Japanese fields (`japaneseTitleSegments`, sentence/vocabulary `japaneseSegments`, vocabulary `reading`, and grammar `patternSegments`) so each kanji occurrence can receive furigana.
+Keep prose fields (title, synopsis, passage label, romaji, English translation, vocabulary meaning, and grammar explanation) in English or Latin-script romaji only. Do not put Japanese kana or kanji in prose fields: the guide renders prose as plain text and cannot add ruby there. Keep Japanese script in the structured Japanese fields (japaneseTitleSegments, sentence/vocabulary japaneseSegments, vocabulary reading, and grammar patternSegments) so each kanji occurrence can receive furigana.
 
 Return only valid JSON with this shape:
 {
