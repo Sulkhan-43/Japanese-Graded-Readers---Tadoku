@@ -1,0 +1,776 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:武士|ぶし",
+      "japanese": "武士",
+      "japaneseSegments": [
+        {
+          "base": "武士",
+          "reading": "ぶし"
+        }
+      ],
+      "reading": "ぶし",
+      "romaji": "bushi",
+      "meaning": "samurai; warrior",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大男|おおおとこ",
+      "japanese": "大男",
+      "japaneseSegments": [
+        {
+          "base": "大男",
+          "reading": "おおおとこ"
+        }
+      ],
+      "reading": "おおおとこ",
+      "romaji": "ōotoko",
+      "meaning": "very large man",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:国際的|こくさいてき",
+      "japanese": "国際的",
+      "japaneseSegments": [
+        {
+          "base": "国際的",
+          "reading": "こくさいてき"
+        }
+      ],
+      "reading": "こくさいてき",
+      "romaji": "kokusaiteki",
+      "meaning": "international",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:台風|たいふう",
+      "japanese": "台風",
+      "japaneseSegments": [
+        {
+          "base": "台風",
+          "reading": "たいふう"
+        }
+      ],
+      "reading": "たいふう",
+      "romaji": "taifū",
+      "meaning": "typhoon",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:地震|じしん",
+      "japanese": "地震",
+      "japaneseSegments": [
+        {
+          "base": "地震",
+          "reading": "じしん"
+        }
+      ],
+      "reading": "じしん",
+      "romaji": "jishin",
+      "meaning": "earthquake",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:病気|びょうき",
+      "japanese": "病気",
+      "japaneseSegments": [
+        {
+          "base": "病気",
+          "reading": "びょうき"
+        }
+      ],
+      "reading": "びょうき",
+      "romaji": "byōki",
+      "meaning": "illness",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大名|だいみょう",
+      "japanese": "大名",
+      "japaneseSegments": [
+        {
+          "base": "大名",
+          "reading": "だいみょう"
+        }
+      ],
+      "reading": "だいみょう",
+      "romaji": "daimyō",
+      "meaning": "feudal domain lord",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:俵|たわら",
+      "japanese": "俵",
+      "japaneseSegments": [
+        {
+          "base": "俵",
+          "reading": "たわら"
+        }
+      ],
+      "reading": "たわら",
+      "romaji": "tawara",
+      "meaning": "straw bale used for rice",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:火事|かじ",
+      "japanese": "火事",
+      "japaneseSegments": [
+        {
+          "base": "火事",
+          "reading": "かじ"
+        }
+      ],
+      "reading": "かじ",
+      "romaji": "kaji",
+      "meaning": "destructive fire",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:戦争|せんそう",
+      "japanese": "戦争",
+      "japaneseSegments": [
+        {
+          "base": "戦争",
+          "reading": "せんそう"
+        }
+      ],
+      "reading": "せんそう",
+      "romaji": "sensō",
+      "meaning": "war",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:西洋|せいよう",
+      "japanese": "西洋",
+      "japaneseSegments": [
+        {
+          "base": "西洋",
+          "reading": "せいよう"
+        }
+      ],
+      "reading": "せいよう",
+      "romaji": "seiyō",
+      "meaning": "the West; Western countries",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:禁止|きんし",
+      "japanese": "禁止",
+      "japaneseSegments": [
+        {
+          "base": "禁止",
+          "reading": "きんし"
+        }
+      ],
+      "reading": "きんし",
+      "romaji": "kinshi",
+      "meaning": "prohibition; banning",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:まわし|まわし",
+      "japanese": "まわし",
+      "japaneseSegments": [
+        {
+          "text": "まわし"
+        }
+      ],
+      "reading": "まわし",
+      "romaji": "mawashi",
+      "meaning": "sumo wrestler's belt and loincloth",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:拳|こぶし",
+      "japanese": "拳",
+      "japaneseSegments": [
+        {
+          "base": "拳",
+          "reading": "こぶし"
+        }
+      ],
+      "reading": "こぶし",
+      "romaji": "kobushi",
+      "meaning": "fist",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:決まり手|きまりて",
+      "japanese": "決まり手",
+      "japaneseSegments": [
+        {
+          "base": "決",
+          "reading": "き"
+        },
+        {
+          "text": "まり"
+        },
+        {
+          "base": "手",
+          "reading": "て"
+        }
+      ],
+      "reading": "きまりて",
+      "romaji": "kimarite",
+      "meaning": "winning technique in sumo",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:上手投げ|うわてなげ",
+      "japanese": "上手投げ",
+      "japaneseSegments": [
+        {
+          "base": "上手投",
+          "reading": "うわてな"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "reading": "うわてなげ",
+      "romaji": "uwatenage",
+      "meaning": "overarm throw using an outside belt grip",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:引き落とし|ひきおとし",
+      "japanese": "引き落とし",
+      "japaneseSegments": [
+        {
+          "base": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "base": "落",
+          "reading": "お"
+        },
+        {
+          "text": "とし"
+        }
+      ],
+      "reading": "ひきおとし",
+      "romaji": "hikiotoshi",
+      "meaning": "hand pull-down technique",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:呼出|よびだし",
+      "japanese": "呼出",
+      "japaneseSegments": [
+        {
+          "base": "呼出",
+          "reading": "よびだし"
+        }
+      ],
+      "reading": "よびだし",
+      "romaji": "yobidashi",
+      "meaning": "sumo announcer who calls wrestlers to the ring",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:四股|しこ",
+      "japanese": "四股",
+      "japaneseSegments": [
+        {
+          "base": "四股",
+          "reading": "しこ"
+        }
+      ],
+      "reading": "しこ",
+      "romaji": "shiko",
+      "meaning": "sumo exercise of raising and stamping the legs",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:塩|しお",
+      "japanese": "塩",
+      "japaneseSegments": [
+        {
+          "base": "塩",
+          "reading": "しお"
+        }
+      ],
+      "reading": "しお",
+      "romaji": "shio",
+      "meaning": "salt",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:撒く|まく",
+      "japanese": "撒く",
+      "japaneseSegments": [
+        {
+          "base": "撒",
+          "reading": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "まく",
+      "romaji": "maku",
+      "meaning": "scatter; sprinkle",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:見合う|みあう",
+      "japanese": "見合う",
+      "japaneseSegments": [
+        {
+          "base": "見合",
+          "reading": "みあ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "みあう",
+      "romaji": "miau",
+      "meaning": "look at one another; face off",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:発気揚々|はっきようよう",
+      "japanese": "発気揚々",
+      "japaneseSegments": [
+        {
+          "base": "発気揚々",
+          "reading": "はっきようよう"
+        }
+      ],
+      "reading": "はっきようよう",
+      "romaji": "hakki yōyō",
+      "meaning": "an expression urging spirited effort",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:軍配|ぐんばい",
+      "japanese": "軍配",
+      "japaneseSegments": [
+        {
+          "base": "軍配",
+          "reading": "ぐんばい"
+        }
+      ],
+      "reading": "ぐんばい",
+      "romaji": "gunbai",
+      "meaning": "referee's fan used to indicate the winner",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:懸賞金|けんしょうきん",
+      "japanese": "懸賞金",
+      "japaneseSegments": [
+        {
+          "base": "懸賞金",
+          "reading": "けんしょうきん"
+        }
+      ],
+      "reading": "けんしょうきん",
+      "romaji": "kenshōkin",
+      "meaning": "sponsorship prize money for winning a match",
+      "firstPassage": 9,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:地方巡業|ちほうじゅんぎょう",
+      "japanese": "地方巡業",
+      "japaneseSegments": [
+        {
+          "base": "地方巡業",
+          "reading": "ちほうじゅんぎょう"
+        }
+      ],
+      "reading": "ちほうじゅんぎょう",
+      "romaji": "chihō jungyō",
+      "meaning": "regional sumo exhibition tour",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:幕内力士|まくうちりきし",
+      "japanese": "幕内力士",
+      "japaneseSegments": [
+        {
+          "base": "幕内力士",
+          "reading": "まくうちりきし"
+        }
+      ],
+      "reading": "まくうちりきし",
+      "romaji": "makuuchi rikishi",
+      "meaning": "wrestler in sumo's top division",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:賞金|しょうきん",
+      "japanese": "賞金",
+      "japaneseSegments": [
+        {
+          "base": "賞金",
+          "reading": "しょうきん"
+        }
+      ],
+      "reading": "しょうきん",
+      "romaji": "shōkin",
+      "meaning": "prize money",
+      "firstPassage": 11,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:身長|しんちょう",
+      "japanese": "身長",
+      "japaneseSegments": [
+        {
+          "base": "身長",
+          "reading": "しんちょう"
+        }
+      ],
+      "reading": "しんちょう",
+      "romaji": "shinchō",
+      "meaning": "height of a person",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:親方|おやかた",
+      "japanese": "親方",
+      "japaneseSegments": [
+        {
+          "base": "親方",
+          "reading": "おやかた"
+        }
+      ],
+      "reading": "おやかた",
+      "romaji": "oyakata",
+      "meaning": "sumo stable master",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:おかみさん|おかみさん",
+      "japanese": "おかみさん",
+      "japaneseSegments": [
+        {
+          "text": "おかみさん"
+        }
+      ],
+      "reading": "おかみさん",
+      "romaji": "okamisan",
+      "meaning": "sumo stable master's wife",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:稽古|けいこ",
+      "japanese": "稽古",
+      "japaneseSegments": [
+        {
+          "base": "稽古",
+          "reading": "けいこ"
+        }
+      ],
+      "reading": "けいこ",
+      "romaji": "keiko",
+      "meaning": "practice; training",
+      "firstPassage": 13,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:ちゃんこ|ちゃんこ",
+      "japanese": "ちゃんこ",
+      "japaneseSegments": [
+        {
+          "text": "ちゃんこ"
+        }
+      ],
+      "reading": "ちゃんこ",
+      "romaji": "chanko",
+      "meaning": "food prepared and eaten at a sumo stable",
+      "firstPassage": 13,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:お小遣い|おこづかい",
+      "japanese": "お小遣い",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "小遣",
+          "reading": "こづか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "おこづかい",
+      "romaji": "okozukai",
+      "meaning": "allowance; spending money",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:付き人|つきびと",
+      "japanese": "付き人",
+      "japaneseSegments": [
+        {
+          "base": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "base": "人",
+          "reading": "びと"
+        }
+      ],
+      "reading": "つきびと",
+      "romaji": "tsukibito",
+      "meaning": "personal attendant",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:しこ名|しこな",
+      "japanese": "しこ名",
+      "japaneseSegments": [
+        {
+          "text": "しこ"
+        },
+        {
+          "base": "名",
+          "reading": "な"
+        }
+      ],
+      "reading": "しこな",
+      "romaji": "shikona",
+      "meaning": "professional wrestling name",
+      "firstPassage": 14,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:故郷|ふるさと",
+      "japanese": "故郷",
+      "japaneseSegments": [
+        {
+          "base": "故郷",
+          "reading": "ふるさと"
+        }
+      ],
+      "reading": "ふるさと",
+      "romaji": "furusato",
+      "meaning": "hometown; homeland",
+      "firstPassage": 14,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:無理|むり",
+      "japanese": "無理",
+      "japaneseSegments": [
+        {
+          "base": "無理",
+          "reading": "むり"
+        }
+      ],
+      "reading": "むり",
+      "romaji": "muri",
+      "meaning": "impossible; beyond one's ability",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:衛星放送|えいせいほうそう",
+      "japanese": "衛星放送",
+      "japaneseSegments": [
+        {
+          "base": "衛星放送",
+          "reading": "えいせいほうそう"
+        }
+      ],
+      "reading": "えいせいほうそう",
+      "romaji": "eisei hōsō",
+      "meaning": "satellite broadcasting",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:V-tari V-tari",
+      "pattern": "V-tari V-tari",
+      "patternSegments": [
+        {
+          "text": "〜たり〜たり"
+        }
+      ],
+      "explanation": "This pattern lists representative actions without implying that the list is exhaustive.",
+      "firstPassage": 1,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "grammar:V-ba V-hodo",
+      "pattern": "V-ba V-hodo",
+      "patternSegments": [
+        {
+          "text": "〜ば〜ほど"
+        }
+      ],
+      "explanation": "This pattern means that the more an action occurs, the more another quality or result increases.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-beki de wa nai",
+      "pattern": "V-beki de wa nai",
+      "patternSegments": [
+        {
+          "text": "〜べきではない"
+        }
+      ],
+      "explanation": "This pattern states that an action should not be done.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Plain clause + sou da",
+      "pattern": "Plain clause + sou da",
+      "patternSegments": [
+        {
+          "text": "〜そうだ"
+        }
+      ],
+      "explanation": "After a complete plain-form clause, this pattern reports information heard from another source.",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-nakute mo ii",
+      "pattern": "V-nakute mo ii",
+      "patternSegments": [
+        {
+          "text": "〜なくてもいい"
+        }
+      ],
+      "explanation": "This pattern says that an action is unnecessary or that someone is permitted not to do it.",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-te mo ii",
+      "pattern": "V-te mo ii",
+      "patternSegments": [
+        {
+          "text": "〜てもいい"
+        }
+      ],
+      "explanation": "This pattern grants permission to perform an action.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te wa ikenai",
+      "pattern": "V-te wa ikenai",
+      "patternSegments": [
+        {
+          "text": "〜てはいけない"
+        }
+      ],
+      "explanation": "This pattern prohibits an action.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Negative conditional + naranai",
+      "pattern": "Negative conditional + naranai",
+      "patternSegments": [
+        {
+          "text": "〜なければならない"
+        }
+      ],
+      "explanation": "This pattern expresses an obligation or necessary condition. It can require an action, possession, or qualifying state.",
+      "firstPassage": 7,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:V-stem + sou da",
+      "pattern": "V-stem + sou da",
+      "patternSegments": [
+        {
+          "text": "〜そうだ"
+        }
+      ],
+      "explanation": "After a verb stem, this pattern expresses that an action appears likely or possible based on available signs.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te kureru",
+      "pattern": "V-te kureru",
+      "patternSegments": [
+        {
+          "text": "〜てくれる"
+        }
+      ],
+      "explanation": "This pattern presents another person's action as a favor or benefit to the speaker or someone whose perspective the speaker adopts.",
+      "firstPassage": 12,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:Plain form + kamo shirenai",
+      "pattern": "Plain form + kamo shirenai",
+      "patternSegments": [
+        {
+          "text": "〜かもしれない"
+        }
+      ],
+      "explanation": "This pattern expresses possibility or uncertainty, meaning that something might happen or be true.",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N + shika + negative",
+      "pattern": "N + shika + negative",
+      "patternSegments": [
+        {
+          "text": "〜しか〜ない"
+        }
+      ],
+      "explanation": "This pattern combines a limited amount or category with a negative predicate to mean only that amount or category.",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    }
+  ]
+}
