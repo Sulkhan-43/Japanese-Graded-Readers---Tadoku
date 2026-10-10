@@ -682,6 +682,11 @@ function mergeDuplicateGrammarRecords(data) {
       continue;
     }
 
+    const identicalRecord = existing.explanation === record.explanation
+      && Number(existing.firstPassage) === Number(record.firstPassage)
+      && Number(existing.occurrenceCount) === Number(record.occurrenceCount);
+    if (identicalRecord) continue;
+
     const explanations = [...new Set([existing.explanation, record.explanation].map((value) => String(value || '').trim()).filter(Boolean))];
     existing.explanation = explanations.map((value, index) => index === 0
       ? value
@@ -691,6 +696,42 @@ function mergeDuplicateGrammarRecords(data) {
     existing.occurrenceCount = (Number(existing.occurrenceCount) || 0) + (Number(record.occurrenceCount) || 0);
   }
   data.grammar = [...records.values()];
+}
+
+function mergeDuplicateVocabularyRecords(data) {
+  const records = new Map();
+  for (const record of data.vocabulary || []) {
+    const existing = records.get(record.key);
+    if (!existing) {
+      records.set(record.key, { ...record });
+      continue;
+    }
+
+    if (existing.meaning !== record.meaning) {
+      throw new Error(`Vocabulary key ${record.key} has conflicting meanings; each sense needs its own key.`);
+    }
+
+    const identicalRecord = existing.firstPassage === record.firstPassage
+      && existing.occurrenceCount === record.occurrenceCount;
+    if (identicalRecord) continue;
+
+    existing.firstPassage = Math.min(existing.firstPassage, record.firstPassage);
+    existing.occurrenceCount = Math.max(existing.occurrenceCount, record.occurrenceCount);
+  }
+  data.vocabulary = [...records.values()];
+}
+
+function deduplicatePassageStudyNotes(data) {
+  const seenVocabulary = new Set();
+  const seenGrammar = new Set();
+  for (const passage of data.passages || []) {
+    passage.vocabularyKeys = [...new Set(passage.vocabularyKeys || [])]
+      .filter((key) => !seenVocabulary.has(key));
+    passage.grammarKeys = [...new Set(passage.grammarKeys || [])]
+      .filter((key) => !seenGrammar.has(key));
+    passage.vocabularyKeys.forEach((key) => seenVocabulary.add(key));
+    passage.grammarKeys.forEach((key) => seenGrammar.add(key));
+  }
 }
 
 function mergeChunkRecords(responses, kind) {
@@ -987,7 +1028,9 @@ async function processOne(pdfPath, manifest, slugs) {
       data = validateStudyData(candidate, path.basename(pdfPath), ocrText);
     }
     if (codexProvider) await rm(path.join(tmpdir(), 'tadoku-codex-responses', `${hash}.json`), { force: true });
+    mergeDuplicateVocabularyRecords(data);
     mergeDuplicateGrammarRecords(data);
+    deduplicatePassageStudyNotes(data);
     const title = normalizeTitle(data.title);
     const titleSlug = slugPart(title) || `reader-${hash.slice(0, 8)}`;
     const stableSlug = regenerate ? existingMetadata.slug : '';
