@@ -670,6 +670,26 @@ function canonicalStudyKey(item, kind) {
     : `grammar:${String(item.pattern).normalize('NFKC').replace(/\s+/g, ' ').trim()}`;
 }
 
+function mergeDuplicateGrammarRecords(data) {
+  const records = new Map();
+  for (const record of data.grammar || []) {
+    const existing = records.get(record.key);
+    if (!existing) {
+      records.set(record.key, { ...record });
+      continue;
+    }
+
+    const explanations = [...new Set([existing.explanation, record.explanation].map((value) => String(value || '').trim()).filter(Boolean))];
+    existing.explanation = explanations.map((value, index) => index === 0
+      ? value
+      : `Also, ${value.charAt(0).toLowerCase()}${value.slice(1)}`).join(' ');
+    const passages = [Number(existing.firstPassage), Number(record.firstPassage)].filter((value) => Number.isInteger(value) && value > 0);
+    existing.firstPassage = passages.length ? Math.min(...passages) : 1;
+    existing.occurrenceCount = (Number(existing.occurrenceCount) || 0) + (Number(record.occurrenceCount) || 0);
+  }
+  data.grammar = [...records.values()];
+}
+
 function mergeChunkRecords(responses, kind) {
   const records = new Map();
   const aliases = new Map();
@@ -964,6 +984,7 @@ async function processOne(pdfPath, manifest, slugs) {
       data = validateStudyData(candidate, path.basename(pdfPath), ocrText);
     }
     if (codexProvider) await rm(path.join(tmpdir(), 'tadoku-codex-responses', `${hash}.json`), { force: true });
+    mergeDuplicateGrammarRecords(data);
     const title = normalizeTitle(data.title);
     const titleSlug = slugPart(title) || `reader-${hash.slice(0, 8)}`;
     const stableSlug = regenerate ? existingMetadata.slug : '';
