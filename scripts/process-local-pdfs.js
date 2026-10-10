@@ -365,6 +365,8 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
       { type: 'object', properties: { text: { type: 'string', pattern: '^[^\\u3400-\\u4dbf\\u4e00-\\u9fff]*$' } }, required: ['text'], additionalProperties: false },
     ],
   };
+  const vocabularyMinimum = ocrText.length >= 3000 ? 8 : 4;
+  const grammarMinimum = ocrText.length >= 3000 ? 4 : 2;
   const studySchema = {
     type: 'object',
     properties: {
@@ -392,7 +394,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         required: ['label', 'sentences', 'vocabularyKeys', 'grammarKeys'],
         additionalProperties: false,
       } },
-      vocabulary: { type: 'array', minItems: 1, items: {
+      vocabulary: { type: 'array', minItems: vocabularyMinimum, items: {
         type: 'object',
         properties: {
           key: { type: 'string' }, japanese: { type: 'string' }, japaneseSegments: { type: 'array', items: segmentSchema },
@@ -402,7 +404,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         required: ['key', 'japanese', 'japaneseSegments', 'reading', 'romaji', 'meaning', 'firstPassage', 'occurrenceCount'],
         additionalProperties: false,
       } },
-      grammar: { type: 'array', minItems: 1, items: {
+      grammar: { type: 'array', minItems: grammarMinimum, items: {
         type: 'object',
         properties: {
           key: { type: 'string' }, pattern: { type: 'string' }, patternSegments: { type: 'array', items: segmentSchema },

@@ -53,6 +53,7 @@ IMPORTANT RULES:
 
 - Use standard Hepburn romaji.
 - For a long reader or a collection of stories, extract useful vocabulary and grammar across the complete story text. Do not return empty vocabulary or grammar lists as a shortcut; an empty list is valid only after checking the full source and finding no useful items of that type.
+- Meet the study-data minimums in the response schema with items supported by the story text; never add invented items just to meet a minimum.
 - Use natural English translations, while staying close enough to the Japanese to help me learn.
 - Preserve the original sentence order.
 - Do not skip Japanese sentences.
