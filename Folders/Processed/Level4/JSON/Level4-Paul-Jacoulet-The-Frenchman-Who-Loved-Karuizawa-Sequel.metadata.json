@@ -1,0 +1,897 @@
+{
+  "id": "level4-paul-jacoulet-the-frenchman-who-loved-karuizawa-sequel",
+  "name": "Paul Jacoulet The Frenchman Who Loved Karuizawa — Sequel",
+  "japaneseTitle": "ポール・ジャクレー ～軽井沢を愛したフランス人 [続編] ～",
+  "slug": "level4-paul-jacoulet-the-frenchman-who-loved-karuizawa-sequel",
+  "level": "Level 4",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level4-paul-jacoulet-the-frenchman-who-loved-karuizawa-sequel/source.pdf",
+  "ocrR2Key": "books/level4-paul-jacoulet-the-frenchman-who-loved-karuizawa-sequel/source-ocr.txt",
+  "coverR2Key": "books/level4-paul-jacoulet-the-frenchman-who-loved-karuizawa-sequel/cover.jpg",
+  "htmlR2Key": "books/level4-paul-jacoulet-the-frenchman-who-loved-karuizawa-sequel/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 1660,
+  "createdAt": "2026-10-10T11:14:57.072Z",
+  "updatedAt": "2026-10-10T11:14:57.072Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:慣れる|なれる",
+        "japanese": "慣れる",
+        "japaneseSegments": [
+          {
+            "base": "慣",
+            "reading": "な"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "なれる",
+        "romaji": "nareru",
+        "meaning": "to get used to",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:引っ越す|ひっこす",
+        "japanese": "引っ越す",
+        "japaneseSegments": [
+          {
+            "base": "引",
+            "reading": "ひ"
+          },
+          {
+            "text": "っ"
+          },
+          {
+            "base": "越",
+            "reading": "こ"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "ひっこす",
+        "romaji": "hikkosu",
+        "meaning": "to move house",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:見張る|みはる",
+        "japanese": "見張る",
+        "japaneseSegments": [
+          {
+            "base": "見張",
+            "reading": "みは"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "みはる",
+        "romaji": "miharu",
+        "meaning": "to keep watch over",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:避難|ひなん",
+        "japanese": "避難",
+        "japaneseSegments": [
+          {
+            "base": "避難",
+            "reading": "ひなん"
+          }
+        ],
+        "reading": "ひなん",
+        "romaji": "hinan",
+        "meaning": "evacuation; taking refuge",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:別荘|べっそう",
+        "japanese": "別荘",
+        "japaneseSegments": [
+          {
+            "base": "別荘",
+            "reading": "べっそう"
+          }
+        ],
+        "reading": "べっそう",
+        "romaji": "bessō",
+        "meaning": "vacation home",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:版画|はんが",
+        "japanese": "版画",
+        "japaneseSegments": [
+          {
+            "base": "版画",
+            "reading": "はんが"
+          }
+        ],
+        "reading": "はんが",
+        "romaji": "hanga",
+        "meaning": "print made from a printing block",
+        "firstPassage": 3,
+        "occurrenceCount": 22
+      },
+      {
+        "key": "vocabulary:身近|みぢか",
+        "japanese": "身近",
+        "japaneseSegments": [
+          {
+            "base": "身近",
+            "reading": "みぢか"
+          }
+        ],
+        "reading": "みぢか",
+        "romaji": "mijika",
+        "meaning": "close at hand; familiar",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:水彩画|すいさいが",
+        "japanese": "水彩画",
+        "japaneseSegments": [
+          {
+            "base": "水彩画",
+            "reading": "すいさいが"
+          }
+        ],
+        "reading": "すいさいが",
+        "romaji": "suisaiga",
+        "meaning": "watercolor painting",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:南洋|なんよう",
+        "japanese": "南洋",
+        "japaneseSegments": [
+          {
+            "base": "南洋",
+            "reading": "なんよう"
+          }
+        ],
+        "reading": "なんよう",
+        "romaji": "nan'yō",
+        "meaning": "the South Seas",
+        "firstPassage": 5,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:熱中|ねっちゅう",
+        "japanese": "熱中",
+        "japaneseSegments": [
+          {
+            "base": "熱中",
+            "reading": "ねっちゅう"
+          }
+        ],
+        "reading": "ねっちゅう",
+        "romaji": "netchū",
+        "meaning": "absorption; enthusiastic concentration",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:交流|こうりゅう",
+        "japanese": "交流",
+        "japaneseSegments": [
+          {
+            "base": "交流",
+            "reading": "こうりゅう"
+          }
+        ],
+        "reading": "こうりゅう",
+        "romaji": "kōryū",
+        "meaning": "interaction; personal association",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:養女|ようじょ",
+        "japanese": "養女",
+        "japaneseSegments": [
+          {
+            "base": "養女",
+            "reading": "ようじょ"
+          }
+        ],
+        "reading": "ようじょ",
+        "romaji": "yōjo",
+        "meaning": "adopted daughter",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:生涯|しょうがい",
+        "japanese": "生涯",
+        "japaneseSegments": [
+          {
+            "base": "生涯",
+            "reading": "しょうがい"
+          }
+        ],
+        "reading": "しょうがい",
+        "romaji": "shōgai",
+        "meaning": "one's entire lifetime",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:寄付|きふ",
+        "japanese": "寄付",
+        "japaneseSegments": [
+          {
+            "base": "寄付",
+            "reading": "きふ"
+          }
+        ],
+        "reading": "きふ",
+        "romaji": "kifu",
+        "meaning": "donation",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:再開|さいかい",
+        "japanese": "再開",
+        "japaneseSegments": [
+          {
+            "base": "再開",
+            "reading": "さいかい"
+          }
+        ],
+        "reading": "さいかい",
+        "romaji": "saikai",
+        "meaning": "resumption; restarting",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:提供|ていきょう",
+        "japanese": "提供",
+        "japaneseSegments": [
+          {
+            "base": "提供",
+            "reading": "ていきょう"
+          }
+        ],
+        "reading": "ていきょう",
+        "romaji": "teikyō",
+        "meaning": "provision; supplying",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:摺師|すりし",
+        "japanese": "摺師",
+        "japaneseSegments": [
+          {
+            "base": "摺師",
+            "reading": "すりし"
+          }
+        ],
+        "reading": "すりし",
+        "romaji": "surishi",
+        "meaning": "craftsperson who prints from the carved blocks",
+        "firstPassage": 10,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:彫師|ほりし",
+        "japanese": "彫師",
+        "japaneseSegments": [
+          {
+            "base": "彫師",
+            "reading": "ほりし"
+          }
+        ],
+        "reading": "ほりし",
+        "romaji": "horishi",
+        "meaning": "woodblock carver",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:版木|はんぎ",
+        "japanese": "版木",
+        "japaneseSegments": [
+          {
+            "base": "版木",
+            "reading": "はんぎ"
+          }
+        ],
+        "reading": "はんぎ",
+        "romaji": "hangi",
+        "meaning": "woodblock used for printing",
+        "firstPassage": 12,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:翡翠|ひすい",
+        "japanese": "翡翠",
+        "japaneseSegments": [
+          {
+            "base": "翡翠",
+            "reading": "ひすい"
+          }
+        ],
+        "reading": "ひすい",
+        "romaji": "hisui",
+        "meaning": "jade",
+        "firstPassage": 12,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:仕上げる|しあげる",
+        "japanese": "仕上げる",
+        "japaneseSegments": [
+          {
+            "base": "仕上",
+            "reading": "しあ"
+          },
+          {
+            "text": "げる"
+          }
+        ],
+        "reading": "しあげる",
+        "romaji": "shiageru",
+        "meaning": "to finish; complete the final work on",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:工程|こうてい",
+        "japanese": "工程",
+        "japaneseSegments": [
+          {
+            "base": "工程",
+            "reading": "こうてい"
+          }
+        ],
+        "reading": "こうてい",
+        "romaji": "kōtei",
+        "meaning": "stage in a production process",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:見比べる|みくらべる",
+        "japanese": "見比べる",
+        "japaneseSegments": [
+          {
+            "base": "見比",
+            "reading": "みくら"
+          },
+          {
+            "text": "べる"
+          }
+        ],
+        "reading": "みくらべる",
+        "romaji": "mikuraberu",
+        "meaning": "to compare by looking",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:こだわる|こだわる",
+        "japanese": "こだわる",
+        "japaneseSegments": [
+          {
+            "text": "こだわる"
+          }
+        ],
+        "reading": "こだわる",
+        "romaji": "kodawaru",
+        "meaning": "to be particular about; insist on getting right",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:老若男女|ろうにゃくなんにょ",
+        "japanese": "老若男女",
+        "japaneseSegments": [
+          {
+            "base": "老若男女",
+            "reading": "ろうにゃくなんにょ"
+          }
+        ],
+        "reading": "ろうにゃくなんにょ",
+        "romaji": "rōnyaku nannyo",
+        "meaning": "men and women of all ages",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:木版画|もくはんが",
+        "japanese": "木版画",
+        "japaneseSegments": [
+          {
+            "base": "木版画",
+            "reading": "もくはんが"
+          }
+        ],
+        "reading": "もくはんが",
+        "romaji": "mokuhanga",
+        "meaning": "woodblock print",
+        "firstPassage": 16,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:弱|じゃく",
+        "japanese": "弱",
+        "japaneseSegments": [
+          {
+            "base": "弱",
+            "reading": "じゃく"
+          }
+        ],
+        "reading": "じゃく",
+        "romaji": "jaku",
+        "meaning": "slightly less than the preceding amount",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:心境|しんきょう",
+        "japanese": "心境",
+        "japaneseSegments": [
+          {
+            "base": "心境",
+            "reading": "しんきょう"
+          }
+        ],
+        "reading": "しんきょう",
+        "romaji": "shinkyō",
+        "meaning": "state of mind; inner feelings",
+        "firstPassage": 17,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:修行僧|しゅぎょうそう",
+        "japanese": "修行僧",
+        "japaneseSegments": [
+          {
+            "base": "修行僧",
+            "reading": "しゅぎょうそう"
+          }
+        ],
+        "reading": "しゅぎょうそう",
+        "romaji": "shugyōsō",
+        "meaning": "monk undergoing spiritual training",
+        "firstPassage": 17,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:題材|だいざい",
+        "japanese": "題材",
+        "japaneseSegments": [
+          {
+            "base": "題材",
+            "reading": "だいざい"
+          }
+        ],
+        "reading": "だいざい",
+        "romaji": "daizai",
+        "meaning": "subject matter for an artwork",
+        "firstPassage": 18,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:下絵|したえ",
+        "japanese": "下絵",
+        "japaneseSegments": [
+          {
+            "base": "下絵",
+            "reading": "したえ"
+          }
+        ],
+        "reading": "したえ",
+        "romaji": "shitae",
+        "meaning": "preparatory drawing",
+        "firstPassage": 18,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:日課|にっか",
+        "japanese": "日課",
+        "japaneseSegments": [
+          {
+            "base": "日課",
+            "reading": "にっか"
+          }
+        ],
+        "reading": "にっか",
+        "romaji": "nikka",
+        "meaning": "daily routine",
+        "firstPassage": 19,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:麓|ふもと",
+        "japanese": "麓",
+        "japaneseSegments": [
+          {
+            "base": "麓",
+            "reading": "ふもと"
+          }
+        ],
+        "reading": "ふもと",
+        "romaji": "fumoto",
+        "meaning": "foot of a mountain",
+        "firstPassage": 19,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:挑戦|ちょうせん",
+        "japanese": "挑戦",
+        "japaneseSegments": [
+          {
+            "base": "挑戦",
+            "reading": "ちょうせん"
+          }
+        ],
+        "reading": "ちょうせん",
+        "romaji": "chōsen",
+        "meaning": "taking on a challenge",
+        "firstPassage": 20,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:連作|れんさく",
+        "japanese": "連作",
+        "japaneseSegments": [
+          {
+            "base": "連作",
+            "reading": "れんさく"
+          }
+        ],
+        "reading": "れんさく",
+        "romaji": "rensaku",
+        "meaning": "series of related artworks",
+        "firstPassage": 22,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:絢爛豪華|けんらんごうか",
+        "japanese": "絢爛豪華",
+        "japaneseSegments": [
+          {
+            "base": "絢爛豪華",
+            "reading": "けんらんごうか"
+          }
+        ],
+        "reading": "けんらんごうか",
+        "romaji": "kenran gōka",
+        "meaning": "magnificent; dazzlingly splendid",
+        "firstPassage": 22,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:錦絵|にしきえ",
+        "japanese": "錦絵",
+        "japaneseSegments": [
+          {
+            "base": "錦絵",
+            "reading": "にしきえ"
+          }
+        ],
+        "reading": "にしきえ",
+        "romaji": "nishiki-e",
+        "meaning": "multicolor Japanese woodblock print",
+        "firstPassage": 22,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:多色摺|たしょくずり",
+        "japanese": "多色摺",
+        "japaneseSegments": [
+          {
+            "base": "多色摺",
+            "reading": "たしょくずり"
+          }
+        ],
+        "reading": "たしょくずり",
+        "romaji": "tashokuzuri",
+        "meaning": "printing in multiple colors",
+        "firstPassage": 23,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:思索|しさく",
+        "japanese": "思索",
+        "japaneseSegments": [
+          {
+            "base": "思索",
+            "reading": "しさく"
+          }
+        ],
+        "reading": "しさく",
+        "romaji": "shisaku",
+        "meaning": "reflection; contemplation",
+        "firstPassage": 23,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:哀感|あいかん",
+        "japanese": "哀感",
+        "japaneseSegments": [
+          {
+            "base": "哀感",
+            "reading": "あいかん"
+          }
+        ],
+        "reading": "あいかん",
+        "romaji": "aikan",
+        "meaning": "a feeling of sorrow or pathos",
+        "firstPassage": 23,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:V-te kara",
+        "pattern": "V-te kara",
+        "patternSegments": [
+          {
+            "text": "〜てから"
+          }
+        ],
+        "explanation": "This pattern means after doing an action and establishes the starting point for what follows.",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:darou",
+        "pattern": "darou",
+        "patternSegments": [
+          {
+            "text": "〜だろう"
+          }
+        ],
+        "explanation": "This pattern expresses a conjecture. Here it sympathetically imagines how difficult life must have been.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-te morau",
+        "pattern": "V-te morau",
+        "patternSegments": [
+          {
+            "text": "〜てもらう"
+          }
+        ],
+        "explanation": "This pattern presents another person's action as something received or done for the beneficiary.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:plain form + sou da",
+        "pattern": "plain form + sou da",
+        "patternSegments": [
+          {
+            "text": "〜そうだ"
+          }
+        ],
+        "explanation": "This pattern reports information learned from another source, equivalent to apparently or reportedly.",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-nai de",
+        "pattern": "V-nai de",
+        "patternSegments": [
+          {
+            "text": "〜ないで"
+          }
+        ],
+        "explanation": "This pattern means without doing an action. Here he continued sketching without stopping his drawing.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-te shikata ga nai",
+        "pattern": "V-te shikata ga nai",
+        "patternSegments": [
+          {
+            "text": "〜てしかたがない"
+          }
+        ],
+        "explanation": "This pattern expresses an intense feeling or condition that cannot be helped or endured.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:volitional + to omou",
+        "pattern": "volitional + to omou",
+        "patternSegments": [
+          {
+            "text": "〜ようと"
+          },
+          {
+            "base": "思",
+            "reading": "おも"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "explanation": "This pattern expresses an intention or contemplated action, equivalent to thinking of doing something.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-you ni naru",
+        "pattern": "V-you ni naru",
+        "patternSegments": [
+          {
+            "text": "〜ようになる"
+          }
+        ],
+        "explanation": "This pattern describes a change into a new habit, situation, or ability.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni wataru",
+        "pattern": "N ni wataru",
+        "patternSegments": [
+          {
+            "text": "〜にわたる"
+          }
+        ],
+        "explanation": "This pattern indicates that something extends throughout a period or across a range.",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N o moto ni",
+        "pattern": "N o moto ni",
+        "patternSegments": [
+          {
+            "text": "〜をもとに"
+          }
+        ],
+        "explanation": "This pattern identifies the material or information used as the basis for creating something.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-you ni suru",
+        "pattern": "V-you ni suru",
+        "patternSegments": [
+          {
+            "text": "〜ようにする"
+          }
+        ],
+        "explanation": "This pattern expresses arranging matters so that a desired action or situation becomes possible.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:quantity + zutsu",
+        "pattern": "quantity + zutsu",
+        "patternSegments": [
+          {
+            "text": "〜ずつ"
+          }
+        ],
+        "explanation": "This pattern marks equal increments or gradual progress, here little by little.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:adjective stem + sou da",
+        "pattern": "adjective stem + sou da",
+        "patternSegments": [
+          {
+            "text": "〜そうだ"
+          }
+        ],
+        "explanation": "This pattern describes an impression based on appearance, equivalent to looks or seems.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N dake de naku",
+        "pattern": "N dake de naku",
+        "patternSegments": [
+          {
+            "text": "〜だけでなく"
+          }
+        ],
+        "explanation": "This pattern means not only and introduces an additional category included in the statement.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N o chuushin to suru",
+        "pattern": "N o chuushin to suru",
+        "patternSegments": [
+          {
+            "text": "〜を"
+          },
+          {
+            "base": "中心",
+            "reading": "ちゅうしん"
+          },
+          {
+            "text": "とする"
+          }
+        ],
+        "explanation": "This pattern describes a group or activity centered on the preceding noun.",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:N ni sotte",
+        "pattern": "N ni sotte",
+        "patternSegments": [
+          {
+            "text": "〜に"
+          },
+          {
+            "base": "沿",
+            "reading": "そ"
+          },
+          {
+            "text": "って"
+          }
+        ],
+        "explanation": "This pattern indicates movement along a route, boundary, or geographical feature.",
+        "firstPassage": 19,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:A katsu B",
+        "pattern": "A katsu B",
+        "patternSegments": [
+          {
+            "text": "〜かつ〜"
+          }
+        ],
+        "explanation": "This pattern formally connects two descriptions, meaning and or as well as.",
+        "firstPassage": 22,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:negative conditional",
+        "pattern": "negative conditional",
+        "patternSegments": [
+          {
+            "text": "〜なければ"
+          }
+        ],
+        "explanation": "This pattern means if something is absent or unless a condition is met. It states a prerequisite for successful art.",
+        "firstPassage": 23,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:negative conditional + naranai",
+        "pattern": "negative conditional + naranai",
+        "patternSegments": [
+          {
+            "text": "〜なければならない"
+          }
+        ],
+        "explanation": "This pattern expresses necessity or obligation, equivalent to must. The passage uses its polite form.",
+        "firstPassage": 23,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}
