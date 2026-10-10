@@ -134,9 +134,10 @@ function isExactSourceLabel(value, sourceText) {
   if (!text || text.length > 64) return false;
   const normalizedText = text.normalize('NFKC').replace(/\s+/g, ' ').toLowerCase();
   const normalizedSource = String(sourceText || '').normalize('NFKC').replace(/\s+/g, ' ').toLowerCase();
-  if (!normalizedSource.includes(normalizedText)) return false;
+  const exactSourceLabel = normalizedSource.includes(normalizedText);
 
-  const latinOrNumericLabel = /^[\p{Script=Latin}\p{Number}\p{Punctuation}\p{Zs}]+$/u.test(text)
+  const latinOrNumericLabel = exactSourceLabel
+    && /^[\p{Script=Latin}\p{Number}\p{Punctuation}\p{Zs}]+$/u.test(text)
     && /[\p{Script=Latin}\p{Number}]/u.test(text);
   const numericTableMatch = text.match(/^(\d{3,4})\s+([\p{Script=Han}]{1,12})$/u);
   const numericTableEntry = numericTableMatch && String(sourceText || '').split(/--- Page \d+ ---/).some((page) => {
