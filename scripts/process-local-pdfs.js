@@ -25,6 +25,7 @@ const ocrDirectoryArg = process.argv.find((arg) => arg.startsWith('--ocr-dir='))
 const pdfOnlyNames = new Set((process.argv.find((arg) => arg.startsWith('--pdf-only='))?.split('=')[1] || '').split(',').map((value) => value.trim().toLowerCase()).filter(Boolean));
 const sourceFilesArg = process.argv.find((arg) => arg.startsWith('--source-files-json='))?.slice('--source-files-json='.length);
 const sourceFiles = new Set(sourceFilesArg ? JSON.parse(decodeURIComponent(sourceFilesArg)) : []);
+const additionalInstructions = process.env.PDF_PROCESSING_EXTRA_INSTRUCTIONS?.trim() || '';
 const regenerateSlugs = new Set(process.argv.find((arg) => arg.startsWith('--regenerate='))?.split('=')[1].split(',').map((slug) => slug.trim()).filter(Boolean) || []);
 const regenerateAll = process.argv.includes('--regenerate-all');
 const uploadRoot = 'https://generativelanguage.googleapis.com/upload/v1beta/files';
@@ -705,7 +706,10 @@ async function processOne(pdfPath, manifest, slugs) {
       if (await stat(processedOcr).then(() => true).catch(() => false)) sourceOcr = processedOcr;
     }
     if (ocrDirectoryArg && !sourceOcr && !pdfOnly) throw new Error('No matching Surya OCR text was found; the source PDF was left in place.');
-    const prompt = studyPrompt(relative, Boolean(sourceOcr));
+    const basePrompt = studyPrompt(relative, Boolean(sourceOcr));
+    const prompt = additionalInstructions
+      ? `${basePrompt}\n\nReader-specific instructions:\n${additionalInstructions}`
+      : basePrompt;
     if (!codexProvider && !sourceOcr) file = await uploadPdf(pdfPath, path.basename(pdfPath));
     const ocrText = sourceOcr ? await readFile(sourceOcr, 'utf8') : '';
     let raw = codexProvider
