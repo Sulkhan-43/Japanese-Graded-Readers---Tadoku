@@ -380,7 +380,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
             type: 'object',
             properties: {
               japaneseSegments: { type: 'array', items: segmentSchema },
-              romaji: { type: 'string' },
+              romaji: { type: 'string', pattern: '^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff]*$' },
               translation: { type: 'string' },
             },
             required: ['japaneseSegments', 'romaji', 'translation'],
@@ -396,7 +396,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         type: 'object',
         properties: {
           key: { type: 'string' }, japanese: { type: 'string' }, japaneseSegments: { type: 'array', items: segmentSchema },
-          reading: { type: 'string' }, romaji: { type: 'string' }, meaning: { type: 'string' },
+          reading: { type: 'string' }, romaji: { type: 'string', pattern: '^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff]*$' }, meaning: { type: 'string' },
           firstPassage: { type: 'integer' }, occurrenceCount: { type: 'integer' },
         },
         required: ['key', 'japanese', 'japaneseSegments', 'reading', 'romaji', 'meaning', 'firstPassage', 'occurrenceCount'],

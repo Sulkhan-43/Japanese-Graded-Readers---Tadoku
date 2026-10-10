@@ -52,6 +52,7 @@ Grammar Notes:
 IMPORTANT RULES:
 
 - Use standard Hepburn romaji.
+- For a long reader or a collection of stories, extract useful vocabulary and grammar across the complete story text. Do not return empty vocabulary or grammar lists as a shortcut; an empty list is valid only after checking the full source and finding no useful items of that type.
 - Use natural English translations, while staying close enough to the Japanese to help me learn.
 - Preserve the original sentence order.
 - Do not skip Japanese sentences.
