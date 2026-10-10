@@ -12,9 +12,18 @@ const manifestPath = path.join(foldersRoot, '.processed-pdf-sources.json');
 const model = process.env.GEMINI_MODEL || 'gemini-3.1-flash-lite';
 const apiKey = process.env.GEMINI_API_KEY;
 const maxPdfBytes = Number(process.env.MAX_PDF_SIZE_MB || 50) * 1024 * 1024;
-const codexProvider = process.argv.includes('--codex') || process.env.PDF_AI_PROVIDER === 'codex';
-const codexModel = process.env.CODEX_MODEL || 'gpt-6-luna';
-const codexReasoning = process.env.CODEX_REASONING_EFFORT || 'xhigh';
+const forceCodexProvider = process.argv.includes('--codex');
+const forceGeminiProvider = process.argv.includes('--gemini');
+if (forceCodexProvider && forceGeminiProvider) throw new Error('Choose either --codex or --gemini, not both.');
+const configuredProvider = forceCodexProvider ? 'codex'
+  : forceGeminiProvider ? 'gemini'
+    : (process.env.PDF_AI_PROVIDER || 'codex').trim().toLowerCase();
+if (!['codex', 'gemini'].includes(configuredProvider)) {
+  throw new Error('PDF_AI_PROVIDER must be codex or gemini.');
+}
+const codexProvider = configuredProvider === 'codex';
+const codexModel = process.env.CODEX_MODEL || 'gpt-6.1-sol';
+const codexReasoning = process.env.CODEX_REASONING_EFFORT || 'medium';
 const concurrency = codexProvider
   ? Math.max(1, Math.min(2, Number(process.env.MAX_CONCURRENT_CODEX || 1)))
   : Math.max(1, Math.min(3, Number(process.env.MAX_CONCURRENT_PAGES || 2)));
