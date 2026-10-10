@@ -139,6 +139,9 @@ function isExactSourceLabel(value, sourceText) {
   const latinOrNumericLabel = exactSourceLabel
     && /^[\p{Script=Latin}\p{Number}\p{Punctuation}\p{Zs}]+$/u.test(text)
     && /[\p{Script=Latin}\p{Number}]/u.test(text);
+  const punctuationOnlyLabel = exactSourceLabel
+    && !/[\p{Letter}\p{Number}]/u.test(text)
+    && /[\p{Punctuation}\p{Symbol}\p{Zs}]/u.test(text);
   const numericTableMatch = text.match(/^(\d{3,4})\s+([\p{Script=Han}]{1,12})$/u);
   const numericTableEntry = numericTableMatch && String(sourceText || '').split(/--- Page \d+ ---/).some((page) => {
     const normalizedPage = page.normalize('NFKC').replace(/\s+/g, ' ').toLowerCase();
@@ -146,7 +149,7 @@ function isExactSourceLabel(value, sourceText) {
     const entryIndex = normalizedPage.indexOf(numericTableMatch[2].toLowerCase(), yearIndex + numericTableMatch[1].length);
     return yearIndex >= 0 && entryIndex >= yearIndex && entryIndex - yearIndex <= 80;
   });
-  return latinOrNumericLabel || numericTableEntry;
+  return latinOrNumericLabel || punctuationOnlyLabel || numericTableEntry;
 }
 
 function parseOcrPageChunks(ocrText, specification) {
