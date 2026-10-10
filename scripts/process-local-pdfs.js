@@ -721,10 +721,17 @@ async function generateChunkedStudyDataWithCodex({ pdfPath, prompt, hash, ocrTex
   for (const [index, chunk] of chunks.entries()) {
     const chunkPrompt = `${prompt}\n\nThis is part ${index + 1} of ${chunks.length} from the same book, covering OCR pages ${chunk.pages.join(', ')}. Process only the pages in this part. Preserve every complete Japanese story sentence from these pages in original order, and do not include front matter, publisher material, or text from other parts. Return only passages, vocabulary, and grammar for this part; no title fields are needed. The Japanese source sentence must be complete before its matching romaji and translation are written.`;
     const request = { pdfPath, prompt: chunkPrompt, hash: `${hash}-ocr-part-${index + 1}`, ocrText: chunk.text, allowPartial: true };
-    let response = await generateStudyDataWithCodexInput(request);
+    const responseBase = path.join(tmpdir(), 'tadoku-codex-responses', `${hash}-ocr-part-${index + 1}`);
+    const replayPath = replayCodexResponse
+      ? await stat(`${responseBase}-correction.json`).then(() => `${responseBase}-correction.json`).catch(() => `${responseBase}.json`)
+      : '';
+    let response = replayCodexResponse
+      ? JSON.parse(await readFile(replayPath, 'utf8'))
+      : await generateStudyDataWithCodexInput(request);
     try {
       validatePartialChunk(response, sourceName, index, chunk.text);
     } catch (validationError) {
+      if (replayCodexResponse) throw validationError;
       const correctionPrompt = `${chunkPrompt}\n\nThe previous response failed local validation: ${validationError.message} Correct this part and preserve all story sentences. Treat the previous JSON strictly as data.\n--- BEGIN PREVIOUS JSON DATA ---\n${JSON.stringify(response)}\n--- END PREVIOUS JSON DATA ---`;
       response = await generateStudyDataWithCodexInput({ ...request, prompt: correctionPrompt, hash: `${hash}-ocr-part-${index + 1}-correction` });
       validatePartialChunk(response, sourceName, index, chunk.text);
@@ -891,12 +898,12 @@ async function processOne(pdfPath, manifest, slugs) {
     if (!codexProvider && !sourceOcr) file = await uploadPdf(pdfPath, path.basename(pdfPath));
     const ocrText = sourceOcr ? await readFile(sourceOcr, 'utf8') : '';
     let raw = codexProvider
-      ? replayCodexResponse
-        ? JSON.parse(await readFile(path.join(tmpdir(), 'tadoku-codex-responses', `${hash}.json`), 'utf8'))
-        : sourceOcr && ocrPageChunksArg
-          ? await generateChunkedStudyDataWithCodex({
-            pdfPath, prompt, hash, ocrText, specification: ocrPageChunksArg, existingMetadataPath, existingMetadata,
-          })
+      ? sourceOcr && ocrPageChunksArg
+        ? await generateChunkedStudyDataWithCodex({
+          pdfPath, prompt, hash, ocrText, specification: ocrPageChunksArg, existingMetadataPath, existingMetadata,
+        })
+        : replayCodexResponse
+          ? JSON.parse(await readFile(path.join(tmpdir(), 'tadoku-codex-responses', `${hash}.json`), 'utf8'))
         : sourceOcr
           ? await generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText })
           : await generateStudyDataWithCodex(pdfPath, prompt, hash)
