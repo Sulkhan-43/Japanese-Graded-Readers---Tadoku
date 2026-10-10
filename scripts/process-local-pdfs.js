@@ -19,6 +19,7 @@ const concurrency = codexProvider
   ? Math.max(1, Math.min(2, Number(process.env.MAX_CONCURRENT_CODEX || 1)))
   : Math.max(1, Math.min(3, Number(process.env.MAX_CONCURRENT_PAGES || 2)));
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith('--limit='))?.split('=')[1] || 0);
+const replayCodexResponse = process.argv.includes('--replay-codex-response');
 const sourceDirectoryArg = process.argv.find((arg) => arg.startsWith('--source-dir='))?.slice('--source-dir='.length);
 const ocrDirectoryArg = process.argv.find((arg) => arg.startsWith('--ocr-dir='))?.slice('--ocr-dir='.length);
 const pdfOnlyNames = new Set((process.argv.find((arg) => arg.startsWith('--pdf-only='))?.split('=')[1] || '').split(',').map((value) => value.trim().toLowerCase()).filter(Boolean));
@@ -30,6 +31,7 @@ const uploadRoot = 'https://generativelanguage.googleapis.com/upload/v1beta/file
 const apiRoot = 'https://generativelanguage.googleapis.com/v1beta';
 
 if (!codexProvider && !apiKey) throw new Error('GEMINI_API_KEY is missing from the root .env file.');
+if (replayCodexResponse && !codexProvider) throw new Error('--replay-codex-response requires the Codex provider.');
 if (codexProvider && !['low', 'medium', 'high', 'xhigh'].includes(codexReasoning)) {
   throw new Error('CODEX_REASONING_EFFORT must be low, medium, high, or xhigh.');
 }
@@ -636,9 +638,11 @@ async function processOne(pdfPath, manifest, slugs) {
     if (!codexProvider && !sourceOcr) file = await uploadPdf(pdfPath, path.basename(pdfPath));
     const ocrText = sourceOcr ? await readFile(sourceOcr, 'utf8') : '';
     let raw = codexProvider
-      ? sourceOcr
-        ? await generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText })
-        : await generateStudyDataWithCodex(pdfPath, prompt, hash)
+      ? replayCodexResponse
+        ? JSON.parse(await readFile(path.join(tmpdir(), 'tadoku-codex-responses', `${hash}.json`), 'utf8'))
+        : sourceOcr
+          ? await generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText })
+          : await generateStudyDataWithCodex(pdfPath, prompt, hash)
       : await generateStudyData(file, prompt, ocrText);
     let data;
     try {
