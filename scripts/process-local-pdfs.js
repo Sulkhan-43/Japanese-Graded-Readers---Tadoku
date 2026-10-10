@@ -422,7 +422,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
     if (/^(GEMINI_|OPENROUTER_|DATABASE_URL$|R2_|AWS_|CLOUDFLARE_|HYPERDRIVE)/i.test(name)) delete codexEnvironment[name];
   }
   const args = [
-    'exec', '--model', codexModel,
+    'exec', '--ignore-user-config', '--model', codexModel,
     '--config', `model_reasoning_effort="${codexReasoning}"`,
     '--sandbox', 'read-only', '--ephemeral',
     '--cd', codexWorkingDirectory, '--skip-git-repo-check', '--output-schema', schemaPath, '--output-last-message', responsePath,
