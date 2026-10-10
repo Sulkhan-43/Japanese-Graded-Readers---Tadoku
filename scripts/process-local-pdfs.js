@@ -9,6 +9,22 @@ import { countJapaneseWordsInReport } from './japanese-word-count.js';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const foldersRoot = path.join(root, 'Folders');
 const manifestPath = path.join(foldersRoot, '.processed-pdf-sources.json');
+if (process.argv.includes('--help') || process.argv.includes('-h')) {
+  console.log(`Usage: node --env-file=.env scripts/process-local-pdfs.js [options]
+
+Options:
+  --codex                         Use Codex (default provider).
+  --gemini                        Use Gemini explicitly.
+  --source-dir=<path>             Search this path under the repository root.
+  --source-files-json=<encoded>   Select exact PDF basenames from a URL-encoded JSON array.
+  --ocr-dir=<path>                Search for matching OCR files (defaults to Folders/OCR).
+  --ocr-page-chunks=<ranges>      Split matching OCR pages, e.g. 3-8/9-15.
+  --pdf-only=<names>              Read these PDF(s) directly without OCR.
+  --regenerate=<slugs>            Regenerate comma-separated existing reader slugs.
+  --limit=<count>                 Process at most this many queued PDFs.
+  --help, -h                      Show this help without starting a processing run.`);
+  process.exit(0);
+}
 const model = process.env.GEMINI_MODEL || 'gemini-3.1-flash-lite';
 const apiKey = process.env.GEMINI_API_KEY;
 const maxPdfBytes = Number(process.env.MAX_PDF_SIZE_MB || 50) * 1024 * 1024;
@@ -30,7 +46,7 @@ const concurrency = codexProvider
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith('--limit='))?.split('=')[1] || 0);
 const replayCodexResponse = process.argv.includes('--replay-codex-response');
 const sourceDirectoryArg = process.argv.find((arg) => arg.startsWith('--source-dir='))?.slice('--source-dir='.length);
-const ocrDirectoryArg = process.argv.find((arg) => arg.startsWith('--ocr-dir='))?.slice('--ocr-dir='.length);
+const ocrDirectoryArg = process.argv.find((arg) => arg.startsWith('--ocr-dir='))?.slice('--ocr-dir='.length) || 'Folders/OCR';
 const pdfOnlyNames = new Set((process.argv.find((arg) => arg.startsWith('--pdf-only='))?.split('=')[1] || '').split(',').map((value) => value.trim().toLowerCase()).filter(Boolean));
 const sourceFilesArg = process.argv.find((arg) => arg.startsWith('--source-files-json='))?.slice('--source-files-json='.length);
 const sourceFiles = new Set(sourceFilesArg ? JSON.parse(decodeURIComponent(sourceFilesArg)) : []);
@@ -897,6 +913,32 @@ async function walkPdfs(directory) {
   return files;
 }
 
+async function ignoredSourcePdfs() {
+  const booksRoot = path.join(foldersRoot, 'Books');
+  const ignored = new Set();
+  let levels;
+  try {
+    levels = await readdir(booksRoot, { withFileTypes: true });
+  } catch (error) {
+    if (error.code === 'ENOENT') return ignored;
+    throw error;
+  }
+
+  for (const level of levels) {
+    if (!level.isDirectory() || !/^\d+$/.test(level.name)) continue;
+    const reviewPath = path.join(booksRoot, level.name, 'PROCESSING-REVIEW.md');
+    let review;
+    try { review = await readFile(reviewPath, 'utf8'); } catch (error) {
+      if (error.code === 'ENOENT') continue;
+      throw error;
+    }
+    for (const match of review.matchAll(/^## IGNORED:\s*(.+?)\s*$/gim)) {
+      ignored.add(path.resolve(booksRoot, level.name, match[1].trim()));
+    }
+  }
+  return ignored;
+}
+
 async function readManifest() {
   try { return JSON.parse(await readFile(manifestPath, 'utf8')); } catch { return { processedHashes: {} }; }
 }
@@ -1124,6 +1166,13 @@ const pdfSearchRoot = sourceDirectoryArg ? path.resolve(root, sourceDirectoryArg
 const naturalOrder = new Intl.Collator('en', { numeric: true, sensitivity: 'base' });
 let pdfFiles = (await walkPdfs(pdfSearchRoot)).sort((a, b) => naturalOrder.compare(a, b));
 if (sourceFiles.size) pdfFiles = pdfFiles.filter((pdfPath) => sourceFiles.has(path.basename(pdfPath)));
+const ignoredPdfs = await ignoredSourcePdfs();
+if (ignoredPdfs.size) {
+  const before = pdfFiles.length;
+  pdfFiles = pdfFiles.filter((pdfPath) => !ignoredPdfs.has(path.resolve(pdfPath)));
+  const ignoredCount = before - pdfFiles.length;
+  if (ignoredCount) console.log(`Skipped ${ignoredCount} source PDF(s) marked IGNORED in PROCESSING-REVIEW.md.`);
+}
 const metadataFiles = (await (async function walk(directory) {
   const found = [];
   for (const item of await readdir(directory, { withFileTypes: true })) {
