@@ -155,6 +155,17 @@ function validateStudyData(data, sourceName) {
     grammarKeyAliases.set(canonicalKey, canonicalKey);
     item.key = canonicalKey;
   }
+  for (const item of data.vocabulary || []) {
+    const alreadyLinked = data.passages.some((passage) => (passage.vocabularyKeys || [])
+      .some((key) => vocabularyKeyAliases.get(key) === item.key));
+    if (alreadyLinked) continue;
+    const headword = plainSegments(item.japaneseSegments) || item.japanese;
+    const passageIndex = data.passages.findIndex((passage) => passage.sentences
+      .some((sentence) => plainSegments(sentence.japaneseSegments).includes(headword)));
+    if (passageIndex < 0) continue;
+    data.passages[passageIndex].vocabularyKeys ||= [];
+    data.passages[passageIndex].vocabularyKeys.push(item.key);
+  }
   const vocabularyKeys = new Set((data.vocabulary || []).map((item) => item.key));
   const grammarKeys = new Set((data.grammar || []).map((item) => item.key));
   const firstVocabularyPassage = new Map();
