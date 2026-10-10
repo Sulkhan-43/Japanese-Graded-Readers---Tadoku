@@ -402,23 +402,24 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
   };
   const vocabularyMinimum = ocrText.length >= 3000 ? 8 : 4;
   const grammarMinimum = ocrText.length >= 3000 ? 4 : 2;
+  const englishProsePattern = '^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff]*$';
   const studySchema = {
     type: 'object',
     properties: {
-      title: { type: 'string' },
+      title: { type: 'string', pattern: englishProsePattern },
       japaneseTitle: { type: 'string' },
       japaneseTitleSegments: { type: 'array', items: segmentSchema },
-      synopsis: { type: 'string' },
+      synopsis: { type: 'string', pattern: englishProsePattern },
       passages: { type: 'array', minItems: 1, items: {
         type: 'object',
         properties: {
-          label: { type: 'string' },
+          label: { type: 'string', pattern: englishProsePattern },
           sentences: { type: 'array', minItems: 1, items: {
             type: 'object',
             properties: {
               japaneseSegments: { type: 'array', items: segmentSchema },
-              romaji: { type: 'string', minLength: 1, pattern: '^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff]*$' },
-              translation: { type: 'string', minLength: 1 },
+              romaji: { type: 'string', minLength: 1, pattern: englishProsePattern },
+              translation: { type: 'string', minLength: 1, pattern: englishProsePattern },
             },
             required: ['japaneseSegments', 'romaji', 'translation'],
             additionalProperties: false,
@@ -433,7 +434,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         type: 'object',
         properties: {
           key: { type: 'string' }, japanese: { type: 'string' }, japaneseSegments: { type: 'array', items: segmentSchema },
-          reading: { type: 'string' }, romaji: { type: 'string', pattern: '^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff]*$' }, meaning: { type: 'string' },
+          reading: { type: 'string' }, romaji: { type: 'string', pattern: englishProsePattern }, meaning: { type: 'string', pattern: englishProsePattern },
           firstPassage: { type: 'integer' }, occurrenceCount: { type: 'integer' },
         },
         required: ['key', 'japanese', 'japaneseSegments', 'reading', 'romaji', 'meaning', 'firstPassage', 'occurrenceCount'],
@@ -443,7 +444,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         type: 'object',
         properties: {
           key: { type: 'string' }, pattern: { type: 'string' }, patternSegments: { type: 'array', items: segmentSchema },
-          explanation: { type: 'string' }, firstPassage: { type: 'integer' }, occurrenceCount: { type: 'integer' },
+          explanation: { type: 'string', pattern: englishProsePattern }, firstPassage: { type: 'integer' }, occurrenceCount: { type: 'integer' },
         },
         required: ['key', 'pattern', 'patternSegments', 'explanation', 'firstPassage', 'occurrenceCount'],
         additionalProperties: false,
