@@ -577,7 +577,7 @@ async function generateStudyDataWithCodex(pdfPath, prompt, hash) {
   return generateStudyDataWithCodexInput({ pdfPath, prompt, hash });
 }
 
-async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText = '', allowPartial = false }) {
+async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText = '', allowPartial = false, includeBookHeader = false }) {
   const images = ocrText ? [] : await renderCodexPages(pdfPath, hash);
   const responseDirectory = path.join(tmpdir(), 'tadoku-codex-responses');
   const codexWorkingDirectory = path.join(tmpdir(), 'tadoku-codex-readonly-workspace');
@@ -645,12 +645,21 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
     additionalProperties: false,
   };
   if (allowPartial) {
-    studySchema.properties = {
+    const partialProperties = {
       passages: { ...studySchema.properties.passages, minItems: 0 },
       vocabulary: { ...studySchema.properties.vocabulary, minItems: 0 },
       grammar: { ...studySchema.properties.grammar, minItems: 0 },
     };
-    studySchema.required = ['passages', 'vocabulary', 'grammar'];
+    if (includeBookHeader) {
+      partialProperties.title = studySchema.properties.title;
+      partialProperties.japaneseTitle = studySchema.properties.japaneseTitle;
+      partialProperties.japaneseTitleSegments = studySchema.properties.japaneseTitleSegments;
+      partialProperties.synopsis = studySchema.properties.synopsis;
+      studySchema.required = ['title', 'japaneseTitle', 'japaneseTitleSegments', 'synopsis', 'passages', 'vocabulary', 'grammar'];
+    } else {
+      studySchema.required = ['passages', 'vocabulary', 'grammar'];
+    }
+    studySchema.properties = partialProperties;
   }
   await writeFile(schemaPath, `${JSON.stringify(studySchema, null, 2)}\n`, 'utf8');
   await rm(responsePath, { force: true });
@@ -665,8 +674,11 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
     '--cd', codexWorkingDirectory, '--skip-git-repo-check', '--output-schema', schemaPath, '--output-last-message', responsePath,
     ...(images.length ? ['--image', ...images] : []), '-',
   ];
+  const partialInstructions = includeBookHeader
+    ? 'Return only JSON with the fields title, japaneseTitle, japaneseTitleSegments, synopsis, passages, vocabulary, and grammar. Identify the story title and any story-specific synopsis from the OCR. Keep passages, vocabulary, and grammar as empty arrays; exclude publisher matter.'
+    : 'For this chunk, return only a JSON object with exactly these fields: passages, vocabulary, and grammar. Include every story sentence in these pages in order; do not include sentences from another chunk. Return empty arrays only if these pages contain no story text. The output schema above defines the required structure.';
   const fullPrompt = ocrText
-    ? `${prompt}\n\nUse this Surya OCR text as the source transcript. Preserve its order, repair obvious OCR errors only when the reading is clear, and do not invent missing content.\n\n--- BEGIN SURYA OCR TEXT ---\n${ocrText}\n--- END SURYA OCR TEXT ---\n\n${allowPartial ? 'For this chunk, return only a JSON object with exactly these fields: passages, vocabulary, and grammar. Include every story sentence in these pages in order; do not include sentences from another chunk. Return empty arrays only if these pages contain no story text. The output schema above defines the required structure.' : 'Return only the JSON object specified above.'} Do not call external services or modify files.`
+      ? `${prompt}\n\nUse this Surya OCR text as the source transcript. Preserve its order, repair obvious OCR errors only when the reading is clear, and do not invent missing content.\n\n--- BEGIN SURYA OCR TEXT ---\n${ocrText}\n--- END SURYA OCR TEXT ---\n\n${allowPartial ? partialInstructions : 'Return only the JSON object specified above.'} Do not call external services or modify files.`
     : `${prompt}\n\nThe attached images are every page of this PDF, in original order. Read the page images directly, including vertical Japanese and furigana; do not depend on extracted text alone. Return only the JSON object specified above. Do not call external services or modify files.`;
   await runProcess(process.env.CODEX_CLI_PATH || 'codex', args, {
     env: codexEnvironment,
@@ -827,6 +839,25 @@ async function generateChunkedStudyDataWithCodex({ pdfPath, prompt, hash, ocrTex
   const sourceName = path.basename(pdfPath);
   const chunks = parseOcrPageChunks(ocrText, specification);
   if (chunks.length < 2) throw new Error('OCR chunk processing requires at least two page groups.');
+  let existingHtml = '';
+  if (existingMetadata) {
+    const titleFile = path.basename(existingMetadataPath).replace(/\.metadata\.json$/i, '.html');
+    const htmlPath = path.join(path.dirname(path.dirname(existingMetadataPath)), 'HTML', titleFile);
+    try { existingHtml = await readFile(htmlPath, 'utf8'); } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
+  }
+  const generatedHeader = existingHtml ? null : await generateStudyDataWithCodexInput({
+    pdfPath,
+    prompt: `${prompt}\n\nExtract only the story title, Japanese title, and a short story-specific synopsis from the OCR. Do not include publisher or series material.`,
+    hash: `${hash}-ocr-header`,
+    ocrText,
+    allowPartial: true,
+    includeBookHeader: true,
+  });
+  if (generatedHeader && (!generatedHeader.title || !generatedHeader.japaneseTitle || !Array.isArray(generatedHeader.japaneseTitleSegments))) {
+    throw new Error(`${sourceName}: Codex returned an incomplete story header.`);
+  }
   const responses = [];
   for (const [index, chunk] of chunks.entries()) {
     const chunkPrompt = `${prompt}\n\nThis is part ${index + 1} of ${chunks.length} from the same book, covering OCR pages ${chunk.pages.join(', ')}. Process only the pages in this part. Preserve every complete Japanese story sentence from these pages in original order, and do not include front matter, publisher material, or text from other parts. Return only passages, vocabulary, and grammar for this part; no title fields are needed. The Japanese source sentence must be complete before its matching romaji and translation are written.`;
@@ -835,9 +866,8 @@ async function generateChunkedStudyDataWithCodex({ pdfPath, prompt, hash, ocrTex
     const replayPath = replayCodexResponse
       ? await stat(`${responseBase}-correction.json`).then(() => `${responseBase}-correction.json`).catch(() => `${responseBase}.json`)
       : '';
-    let response = replayCodexResponse
-      ? JSON.parse(await readFile(replayPath, 'utf8'))
-      : await generateStudyDataWithCodexInput(request);
+    const hasReplay = replayCodexResponse && await stat(replayPath).then(() => true).catch(() => false);
+    let response = hasReplay ? JSON.parse(await readFile(replayPath, 'utf8')) : await generateStudyDataWithCodexInput(request);
     try {
       validatePartialChunk(response, sourceName, index, chunk.text);
     } catch (validationError) {
@@ -851,9 +881,6 @@ async function generateChunkedStudyDataWithCodex({ pdfPath, prompt, hash, ocrTex
 
   const vocabulary = mergeChunkRecords(responses, 'vocabulary');
   const grammar = mergeChunkRecords(responses, 'grammar');
-  const titleFile = path.basename(existingMetadataPath).replace(/\.metadata\.json$/i, '.html');
-  const htmlPath = path.join(path.dirname(path.dirname(existingMetadataPath)), 'HTML', titleFile);
-  const existingHtml = await readFile(htmlPath, 'utf8');
   const titleMarkup = existingHtml.match(/<div class="japanese-title" lang="ja">([\s\S]*?)<\/div>/)?.[1] || '';
   const synopsisMarkup = existingHtml.match(/<section class="synopsis"><h2>Story summary<\/h2><p>([\s\S]*?)<\/p>/)?.[1] || '';
   const passageData = responses.flatMap((response) => response.passages || []).map((passage) => ({
@@ -861,11 +888,12 @@ async function generateChunkedStudyDataWithCodex({ pdfPath, prompt, hash, ocrTex
     vocabularyKeys: (passage.vocabularyKeys || []).map((key) => vocabulary.aliases.get(key) || key),
     grammarKeys: (passage.grammarKeys || []).map((key) => grammar.aliases.get(key) || key),
   }));
+  const header = generatedHeader || responses.find((response) => response.title) || {};
   return {
-    title: existingMetadata.name,
-    japaneseTitle: existingMetadata.japaneseTitle,
-    japaneseTitleSegments: segmentsFromHtml(titleMarkup),
-    synopsis: decodeHtmlText(synopsisMarkup),
+    title: existingMetadata?.name || header.title,
+    japaneseTitle: existingMetadata?.japaneseTitle || header.japaneseTitle,
+    japaneseTitleSegments: titleMarkup ? segmentsFromHtml(titleMarkup) : header.japaneseTitleSegments,
+    synopsis: synopsisMarkup ? decodeHtmlText(synopsisMarkup) : header.synopsis || '',
     passages: passageData,
     vocabulary: vocabulary.records,
     grammar: grammar.records,
