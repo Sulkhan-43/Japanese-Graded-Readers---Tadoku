@@ -380,8 +380,8 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
             type: 'object',
             properties: {
               japaneseSegments: { type: 'array', items: segmentSchema },
-              romaji: { type: 'string', pattern: '^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff]*$' },
-              translation: { type: 'string' },
+              romaji: { type: 'string', minLength: 1, pattern: '^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff]*$' },
+              translation: { type: 'string', minLength: 1 },
             },
             required: ['japaneseSegments', 'romaji', 'translation'],
             additionalProperties: false,
@@ -392,7 +392,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         required: ['label', 'sentences', 'vocabularyKeys', 'grammarKeys'],
         additionalProperties: false,
       } },
-      vocabulary: { type: 'array', items: {
+      vocabulary: { type: 'array', minItems: 1, items: {
         type: 'object',
         properties: {
           key: { type: 'string' }, japanese: { type: 'string' }, japaneseSegments: { type: 'array', items: segmentSchema },
@@ -402,7 +402,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
         required: ['key', 'japanese', 'japaneseSegments', 'reading', 'romaji', 'meaning', 'firstPassage', 'occurrenceCount'],
         additionalProperties: false,
       } },
-      grammar: { type: 'array', items: {
+      grammar: { type: 'array', minItems: 1, items: {
         type: 'object',
         properties: {
           key: { type: 'string' }, pattern: { type: 'string' }, patternSegments: { type: 'array', items: segmentSchema },
