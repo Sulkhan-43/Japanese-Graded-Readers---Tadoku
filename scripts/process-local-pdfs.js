@@ -62,6 +62,30 @@ function plainSegments(segments = []) {
   return segments.map((segment) => segment.base || segment.text || '').join('');
 }
 
+function repairJapaneseTitleSegments(data) {
+  const title = data?.japaneseTitle;
+  const segments = data?.japaneseTitleSegments;
+  if (!title || !Array.isArray(segments) || plainSegments(segments) === title) return;
+
+  const repaired = [];
+  let cursor = 0;
+  for (const segment of segments) {
+    const value = segment.base || segment.text || '';
+    const position = title.indexOf(value, cursor);
+    if (!value || position < cursor) return;
+    const gap = title.slice(cursor, position);
+    if (/[\u3400-\u4dbf\u4e00-\u9fff]/u.test(gap)) return;
+    if (gap) repaired.push({ text: gap });
+    repaired.push(segment);
+    cursor = position + value.length;
+  }
+
+  const trailing = title.slice(cursor);
+  if (/[\u3400-\u4dbf\u4e00-\u9fff]/u.test(trailing)) return;
+  if (trailing) repaired.push({ text: trailing });
+  if (plainSegments(repaired) === title) data.japaneseTitleSegments = repaired;
+}
+
 function validateSegments(segments, context) {
   if (!Array.isArray(segments)) throw new Error(`${context}: furigana segments are missing.`);
   for (const segment of segments) {
@@ -593,6 +617,7 @@ async function processOne(pdfPath, manifest, slugs) {
         ? await generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText: await readFile(sourceOcr, 'utf8') })
         : await generateStudyDataWithCodex(pdfPath, prompt, hash)
       : await generateStudyData(file, prompt, sourceOcr ? await readFile(sourceOcr, 'utf8') : '');
+    repairJapaneseTitleSegments(raw);
     const data = validateStudyData(raw, path.basename(pdfPath));
     if (codexProvider) await rm(path.join(tmpdir(), 'tadoku-codex-responses', `${hash}.json`), { force: true });
     const title = normalizeTitle(data.title);
