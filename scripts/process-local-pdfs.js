@@ -656,6 +656,7 @@ function canonicalStudyKey(item, kind) {
 function mergeChunkRecords(responses, kind) {
   const records = new Map();
   const aliases = new Map();
+  let passageOffset = 0;
   for (const response of responses) {
     for (const item of response[kind] || []) {
       const key = canonicalStudyKey(item, kind);
@@ -663,8 +664,14 @@ function mergeChunkRecords(responses, kind) {
       aliases.set(key, key);
       const existing = records.get(key);
       if (existing) existing.occurrenceCount += Number(item.occurrenceCount) || 0;
-      else records.set(key, { ...item, key, occurrenceCount: Number(item.occurrenceCount) || 0 });
+      else records.set(key, {
+        ...item,
+        key,
+        firstPassage: (Number(item.firstPassage) || 1) + passageOffset,
+        occurrenceCount: Number(item.occurrenceCount) || 0,
+      });
     }
+    passageOffset += response.passages?.length || 0;
   }
   return { records: [...records.values()], aliases };
 }
