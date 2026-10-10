@@ -1,0 +1,3554 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:イルミネーション|いるみねーしょん",
+      "japanese": "イルミネーション",
+      "japaneseSegments": [
+        {
+          "text": "イルミネーション"
+        }
+      ],
+      "reading": "いるみねーしょん",
+      "romaji": "iruminēshon",
+      "meaning": "decorative lighting",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:過ごす|すごす",
+      "japanese": "過ごす",
+      "japaneseSegments": [
+        {
+          "base": "過",
+          "reading": "す"
+        },
+        {
+          "text": "ごす"
+        }
+      ],
+      "reading": "すごす",
+      "romaji": "sugosu",
+      "meaning": "to spend time",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:就職|しゅうしょく",
+      "japanese": "就職",
+      "japaneseSegments": [
+        {
+          "base": "就職",
+          "reading": "しゅうしょく"
+        }
+      ],
+      "reading": "しゅうしょく",
+      "romaji": "shūshoku",
+      "meaning": "getting a job; entering employment",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:満員電車|まんいんでんしゃ",
+      "japanese": "満員電車",
+      "japaneseSegments": [
+        {
+          "base": "満員電車",
+          "reading": "まんいんでんしゃ"
+        }
+      ],
+      "reading": "まんいんでんしゃ",
+      "romaji": "man'in densha",
+      "meaning": "packed train",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:満足|まんぞく",
+      "japanese": "満足",
+      "japaneseSegments": [
+        {
+          "base": "満足",
+          "reading": "まんぞく"
+        }
+      ],
+      "reading": "まんぞく",
+      "romaji": "manzoku",
+      "meaning": "satisfaction; being satisfied",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:恋人|こいびと",
+      "japanese": "恋人",
+      "japaneseSegments": [
+        {
+          "base": "恋人",
+          "reading": "こいびと"
+        }
+      ],
+      "reading": "こいびと",
+      "romaji": "koibito",
+      "meaning": "romantic partner",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ちょっぴり|ちょっぴり",
+      "japanese": "ちょっぴり",
+      "japaneseSegments": [
+        {
+          "text": "ちょっぴり"
+        }
+      ],
+      "reading": "ちょっぴり",
+      "romaji": "choppiri",
+      "meaning": "a little bit",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:不安|ふあん",
+      "japanese": "不安",
+      "japaneseSegments": [
+        {
+          "base": "不安",
+          "reading": "ふあん"
+        }
+      ],
+      "reading": "ふあん",
+      "romaji": "fuan",
+      "meaning": "anxiety; uneasiness",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:懐かしい|なつかしい",
+      "japanese": "懐かしい",
+      "japaneseSegments": [
+        {
+          "base": "懐",
+          "reading": "なつ"
+        },
+        {
+          "text": "かしい"
+        }
+      ],
+      "reading": "なつかしい",
+      "romaji": "natsukashii",
+      "meaning": "fondly remembered; bringing back memories",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:人気者|にんきもの",
+      "japanese": "人気者",
+      "japaneseSegments": [
+        {
+          "base": "人気者",
+          "reading": "にんきもの"
+        }
+      ],
+      "reading": "にんきもの",
+      "romaji": "ninkimono",
+      "meaning": "popular person",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:美術部|びじゅつぶ",
+      "japanese": "美術部",
+      "japaneseSegments": [
+        {
+          "base": "美術部",
+          "reading": "びじゅつぶ"
+        }
+      ],
+      "reading": "びじゅつぶ",
+      "romaji": "bijutsubu",
+      "meaning": "art club",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:美術室|びじゅつしつ",
+      "japanese": "美術室",
+      "japaneseSegments": [
+        {
+          "base": "美術室",
+          "reading": "びじゅつしつ"
+        }
+      ],
+      "reading": "びじゅつしつ",
+      "romaji": "bijutsushitsu",
+      "meaning": "art room",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:校庭|こうてい",
+      "japanese": "校庭",
+      "japaneseSegments": [
+        {
+          "base": "校庭",
+          "reading": "こうてい"
+        }
+      ],
+      "reading": "こうてい",
+      "romaji": "kōtei",
+      "meaning": "schoolyard",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:追いかける|おいかける",
+      "japanese": "追いかける",
+      "japaneseSegments": [
+        {
+          "base": "追",
+          "reading": "お"
+        },
+        {
+          "text": "いかける"
+        }
+      ],
+      "reading": "おいかける",
+      "romaji": "oikakeru",
+      "meaning": "to chase",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:走り回る|はしりまわる",
+      "japanese": "走り回る",
+      "japaneseSegments": [
+        {
+          "base": "走",
+          "reading": "はし"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "回",
+          "reading": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "はしりまわる",
+      "romaji": "hashirimawaru",
+      "meaning": "to run around",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:見つめる|みつめる",
+      "japanese": "見つめる",
+      "japaneseSegments": [
+        {
+          "base": "見",
+          "reading": "み"
+        },
+        {
+          "text": "つめる"
+        }
+      ],
+      "reading": "みつめる",
+      "romaji": "mitsumeru",
+      "meaning": "to gaze at; to look steadily at",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:次々|つぎつぎ",
+      "japanese": "次々",
+      "japaneseSegments": [
+        {
+          "base": "次々",
+          "reading": "つぎつぎ"
+        }
+      ],
+      "reading": "つぎつぎ",
+      "romaji": "tsugitsugi",
+      "meaning": "one after another",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:マフラー|まふらー",
+      "japanese": "マフラー",
+      "japaneseSegments": [
+        {
+          "text": "マフラー"
+        }
+      ],
+      "reading": "まふらー",
+      "romaji": "mafurā",
+      "meaning": "scarf",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:活かす|いかす",
+      "japanese": "活かす",
+      "japaneseSegments": [
+        {
+          "base": "活",
+          "reading": "い"
+        },
+        {
+          "text": "かす"
+        }
+      ],
+      "reading": "いかす",
+      "romaji": "ikasu",
+      "meaning": "to put to good use",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:読者モデル|どくしゃもでる",
+      "japanese": "読者モデル",
+      "japaneseSegments": [
+        {
+          "base": "読者",
+          "reading": "どくしゃ"
+        },
+        {
+          "text": "モデル"
+        }
+      ],
+      "reading": "どくしゃもでる",
+      "romaji": "dokusha moderu",
+      "meaning": "magazine reader who appears as a model",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:給料|きゅうりょう",
+      "japanese": "給料",
+      "japaneseSegments": [
+        {
+          "base": "給料",
+          "reading": "きゅうりょう"
+        }
+      ],
+      "reading": "きゅうりょう",
+      "romaji": "kyūryō",
+      "meaning": "salary; wages",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:飲食|いんしょく",
+      "japanese": "飲食",
+      "japaneseSegments": [
+        {
+          "base": "飲食",
+          "reading": "いんしょく"
+        }
+      ],
+      "reading": "いんしょく",
+      "romaji": "inshoku",
+      "meaning": "eating and drinking",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:空く|あく",
+      "japanese": "空く",
+      "japaneseSegments": [
+        {
+          "base": "空",
+          "reading": "あ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "あく",
+      "romaji": "aku",
+      "meaning": "to be free or available, of time",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:手帳|てちょう",
+      "japanese": "手帳",
+      "japaneseSegments": [
+        {
+          "base": "手帳",
+          "reading": "てちょう"
+        }
+      ],
+      "reading": "てちょう",
+      "romaji": "techō",
+      "meaning": "pocket planner; small notebook",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:見上げる|みあげる",
+      "japanese": "見上げる",
+      "japaneseSegments": [
+        {
+          "base": "見上",
+          "reading": "みあ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "reading": "みあげる",
+      "romaji": "miageru",
+      "meaning": "to look up at",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:夜空|よぞら",
+      "japanese": "夜空",
+      "japaneseSegments": [
+        {
+          "base": "夜空",
+          "reading": "よぞら"
+        }
+      ],
+      "reading": "よぞら",
+      "romaji": "yozora",
+      "meaning": "night sky",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:化粧|けしょう",
+      "japanese": "化粧",
+      "japaneseSegments": [
+        {
+          "base": "化粧",
+          "reading": "けしょう"
+        }
+      ],
+      "reading": "けしょう",
+      "romaji": "keshō",
+      "meaning": "makeup",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:蕎麦屋|そばや",
+      "japanese": "蕎麦屋",
+      "japaneseSegments": [
+        {
+          "base": "蕎麦屋",
+          "reading": "そばや"
+        }
+      ],
+      "reading": "そばや",
+      "romaji": "sobaya",
+      "meaning": "soba noodle restaurant",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:夜景|やけい",
+      "japanese": "夜景",
+      "japaneseSegments": [
+        {
+          "base": "夜景",
+          "reading": "やけい"
+        }
+      ],
+      "reading": "やけい",
+      "romaji": "yakei",
+      "meaning": "night view; scenery at night",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:満月|まんげつ",
+      "japanese": "満月",
+      "japaneseSegments": [
+        {
+          "base": "満月",
+          "reading": "まんげつ"
+        }
+      ],
+      "reading": "まんげつ",
+      "romaji": "mangetsu",
+      "meaning": "full moon",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:付き合う|つきあう",
+      "japanese": "付き合う",
+      "japaneseSegments": [
+        {
+          "base": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "base": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "つきあう",
+      "romaji": "tsukiau",
+      "meaning": "to date; to be in a relationship",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:予約|よやく",
+      "japanese": "予約",
+      "japaneseSegments": [
+        {
+          "base": "予約",
+          "reading": "よやく"
+        }
+      ],
+      "reading": "よやく",
+      "romaji": "yoyaku",
+      "meaning": "reservation; booking",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:映る|うつる",
+      "japanese": "映る",
+      "japaneseSegments": [
+        {
+          "base": "映",
+          "reading": "うつ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "うつる",
+      "romaji": "utsuru",
+      "meaning": "to be reflected",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:素敵|すてき",
+      "japanese": "素敵",
+      "japaneseSegments": [
+        {
+          "base": "素敵",
+          "reading": "すてき"
+        }
+      ],
+      "reading": "すてき",
+      "romaji": "suteki",
+      "meaning": "wonderful; lovely",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:料理長|りょうりちょう",
+      "japanese": "料理長",
+      "japaneseSegments": [
+        {
+          "base": "料理長",
+          "reading": "りょうりちょう"
+        }
+      ],
+      "reading": "りょうりちょう",
+      "romaji": "ryōrichō",
+      "meaning": "head chef",
+      "firstPassage": 9,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:眺める|ながめる",
+      "japanese": "眺める",
+      "japaneseSegments": [
+        {
+          "base": "眺",
+          "reading": "なが"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "reading": "ながめる",
+      "romaji": "nagameru",
+      "meaning": "to gaze at; to admire a view",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:花束|はなたば",
+      "japanese": "花束",
+      "japaneseSegments": [
+        {
+          "base": "花束",
+          "reading": "はなたば"
+        }
+      ],
+      "reading": "はなたば",
+      "romaji": "hanataba",
+      "meaning": "bouquet",
+      "firstPassage": 10,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:迷い|まよい",
+      "japanese": "迷い",
+      "japaneseSegments": [
+        {
+          "base": "迷",
+          "reading": "まよ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "まよい",
+      "romaji": "mayoi",
+      "meaning": "uncertainty; indecision",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:半年|はんとし",
+      "japanese": "半年",
+      "japaneseSegments": [
+        {
+          "base": "半年",
+          "reading": "はんとし"
+        }
+      ],
+      "reading": "はんとし",
+      "romaji": "hantoshi",
+      "meaning": "half a year; six months",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:夕食|ゆうしょく",
+      "japanese": "夕食",
+      "japaneseSegments": [
+        {
+          "base": "夕食",
+          "reading": "ゆうしょく"
+        }
+      ],
+      "reading": "ゆうしょく",
+      "romaji": "yūshoku",
+      "meaning": "dinner; evening meal",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:携帯電話|けいたいでんわ",
+      "japanese": "携帯電話",
+      "japaneseSegments": [
+        {
+          "base": "携帯電話",
+          "reading": "けいたいでんわ"
+        }
+      ],
+      "reading": "けいたいでんわ",
+      "romaji": "keitai denwa",
+      "meaning": "cell phone",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:相談|そうだん",
+      "japanese": "相談",
+      "japaneseSegments": [
+        {
+          "base": "相談",
+          "reading": "そうだん"
+        }
+      ],
+      "reading": "そうだん",
+      "romaji": "sōdan",
+      "meaning": "consultation; talking something over",
+      "firstPassage": 13,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:毎晩|まいばん",
+      "japanese": "毎晩",
+      "japaneseSegments": [
+        {
+          "base": "毎晩",
+          "reading": "まいばん"
+        }
+      ],
+      "reading": "まいばん",
+      "romaji": "maiban",
+      "meaning": "every night",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:関係|かんけい",
+      "japanese": "関係",
+      "japaneseSegments": [
+        {
+          "base": "関係",
+          "reading": "かんけい"
+        }
+      ],
+      "reading": "かんけい",
+      "romaji": "kankei",
+      "meaning": "relationship; connection",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:思い出す|おもいだす",
+      "japanese": "思い出す",
+      "japaneseSegments": [
+        {
+          "base": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "base": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "おもいだす",
+      "romaji": "omoidasu",
+      "meaning": "to remember; recall",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:卒業|そつぎょう",
+      "japanese": "卒業",
+      "japaneseSegments": [
+        {
+          "base": "卒業",
+          "reading": "そつぎょう"
+        }
+      ],
+      "reading": "そつぎょう",
+      "romaji": "sotsugyō",
+      "meaning": "graduation",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:比べる|くらべる",
+      "japanese": "比べる",
+      "japaneseSegments": [
+        {
+          "base": "比",
+          "reading": "くら"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "reading": "くらべる",
+      "romaji": "kuraberu",
+      "meaning": "to compare",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:興味|きょうみ",
+      "japanese": "興味",
+      "japaneseSegments": [
+        {
+          "base": "興味",
+          "reading": "きょうみ"
+        }
+      ],
+      "reading": "きょうみ",
+      "romaji": "kyōmi",
+      "meaning": "interest",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:育てる|そだてる",
+      "japanese": "育てる",
+      "japaneseSegments": [
+        {
+          "base": "育",
+          "reading": "そだ"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "reading": "そだてる",
+      "romaji": "sodateru",
+      "meaning": "to grow; raise; nurture",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:気づく|きづく",
+      "japanese": "気づく",
+      "japaneseSegments": [
+        {
+          "base": "気",
+          "reading": "き"
+        },
+        {
+          "text": "づく"
+        }
+      ],
+      "reading": "きづく",
+      "romaji": "kizuku",
+      "meaning": "to notice; realize",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:自然|しぜん",
+      "japanese": "自然",
+      "japaneseSegments": [
+        {
+          "base": "自然",
+          "reading": "しぜん"
+        }
+      ],
+      "reading": "しぜん",
+      "romaji": "shizen",
+      "meaning": "nature; the natural world",
+      "firstPassage": 16,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:慣れる|なれる",
+      "japanese": "慣れる",
+      "japaneseSegments": [
+        {
+          "base": "慣",
+          "reading": "な"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "なれる",
+      "romaji": "nareru",
+      "meaning": "to become accustomed to",
+      "firstPassage": 17,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:外出|がいしゅつ",
+      "japanese": "外出",
+      "japaneseSegments": [
+        {
+          "base": "外出",
+          "reading": "がいしゅつ"
+        }
+      ],
+      "reading": "がいしゅつ",
+      "romaji": "gaishutsu",
+      "meaning": "going out",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:気分|きぶん",
+      "japanese": "気分",
+      "japaneseSegments": [
+        {
+          "base": "気分",
+          "reading": "きぶん"
+        }
+      ],
+      "reading": "きぶん",
+      "romaji": "kibun",
+      "meaning": "mood; how one feels",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:入院|にゅういん",
+      "japanese": "入院",
+      "japaneseSegments": [
+        {
+          "base": "入院",
+          "reading": "にゅういん"
+        }
+      ],
+      "reading": "にゅういん",
+      "romaji": "nyūin",
+      "meaning": "hospitalization; staying in hospital",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:見舞い|みまい",
+      "japanese": "見舞い",
+      "japaneseSegments": [
+        {
+          "base": "見舞",
+          "reading": "みま"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "みまい",
+      "romaji": "mimai",
+      "meaning": "a visit to someone who is ill",
+      "firstPassage": 19,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:突然|とつぜん",
+      "japanese": "突然",
+      "japaneseSegments": [
+        {
+          "base": "突然",
+          "reading": "とつぜん"
+        }
+      ],
+      "reading": "とつぜん",
+      "romaji": "totsuzen",
+      "meaning": "sudden; unexpected",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:好み|このみ",
+      "japanese": "好み",
+      "japaneseSegments": [
+        {
+          "base": "好",
+          "reading": "この"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "reading": "このみ",
+      "romaji": "konomi",
+      "meaning": "taste; preference",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:無理|むり",
+      "japanese": "無理",
+      "japaneseSegments": [
+        {
+          "base": "無理",
+          "reading": "むり"
+        }
+      ],
+      "reading": "むり",
+      "romaji": "muri",
+      "meaning": "strain; doing something beyond one's comfort or limits",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:関わる|かかわる",
+      "japanese": "関わる",
+      "japaneseSegments": [
+        {
+          "base": "関",
+          "reading": "かか"
+        },
+        {
+          "text": "わる"
+        }
+      ],
+      "reading": "かかわる",
+      "romaji": "kakawaru",
+      "meaning": "to involve; be connected with",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:募集|ぼしゅう",
+      "japanese": "募集",
+      "japaneseSegments": [
+        {
+          "base": "募集",
+          "reading": "ぼしゅう"
+        }
+      ],
+      "reading": "ぼしゅう",
+      "romaji": "boshū",
+      "meaning": "recruitment; seeking applicants",
+      "firstPassage": 19,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:さとうきび刈り|さとうきびがり",
+      "japanese": "さとうきび刈り",
+      "japaneseSegments": [
+        {
+          "text": "さとうきび"
+        },
+        {
+          "base": "刈",
+          "reading": "が"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "reading": "さとうきびがり",
+      "romaji": "satōkibi-gari",
+      "meaning": "sugarcane harvesting",
+      "firstPassage": 19,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:窓際|まどぎわ",
+      "japanese": "窓際",
+      "japaneseSegments": [
+        {
+          "base": "窓際",
+          "reading": "まどぎわ"
+        }
+      ],
+      "reading": "まどぎわ",
+      "romaji": "madogiwa",
+      "meaning": "beside a window",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:嘘|うそ",
+      "japanese": "嘘",
+      "japaneseSegments": [
+        {
+          "base": "嘘",
+          "reading": "うそ"
+        }
+      ],
+      "reading": "うそ",
+      "romaji": "uso",
+      "meaning": "lie; falsehood",
+      "firstPassage": 21,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:雑誌|ざっし",
+      "japanese": "雑誌",
+      "japaneseSegments": [
+        {
+          "base": "雑誌",
+          "reading": "ざっし"
+        }
+      ],
+      "reading": "ざっし",
+      "romaji": "zasshi",
+      "meaning": "magazine",
+      "firstPassage": 21,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:連絡する|れんらくする",
+      "japanese": "連絡する",
+      "japaneseSegments": [
+        {
+          "base": "連絡",
+          "reading": "れんらく"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "reading": "れんらくする",
+      "romaji": "renraku suru",
+      "meaning": "contact; get in touch",
+      "firstPassage": 21,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:黙る|だまる",
+      "japanese": "黙る",
+      "japaneseSegments": [
+        {
+          "base": "黙",
+          "reading": "だま"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "だまる",
+      "romaji": "damaru",
+      "meaning": "remain silent; here, do something without telling someone",
+      "firstPassage": 22,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:似る|にる",
+      "japanese": "似る",
+      "japaneseSegments": [
+        {
+          "base": "似",
+          "reading": "に"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "にる",
+      "romaji": "niru",
+      "meaning": "resemble; look like",
+      "firstPassage": 22,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:気になる|きになる",
+      "japanese": "気になる",
+      "japaneseSegments": [
+        {
+          "base": "気",
+          "reading": "き"
+        },
+        {
+          "text": "になる"
+        }
+      ],
+      "reading": "きになる",
+      "romaji": "ki ni naru",
+      "meaning": "be on one's mind; feel interested in someone",
+      "firstPassage": 23,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:別れる|わかれる",
+      "japanese": "別れる",
+      "japaneseSegments": [
+        {
+          "base": "別",
+          "reading": "わか"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "わかれる",
+      "romaji": "wakareru",
+      "meaning": "part; break up",
+      "firstPassage": 23,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:姿|すがた",
+      "japanese": "姿",
+      "japaneseSegments": [
+        {
+          "base": "姿",
+          "reading": "すがた"
+        }
+      ],
+      "reading": "すがた",
+      "romaji": "sugata",
+      "meaning": "figure; appearance; sight of someone",
+      "firstPassage": 23,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:飲み干す|のみほす",
+      "japanese": "飲み干す",
+      "japaneseSegments": [
+        {
+          "base": "飲",
+          "reading": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "base": "干",
+          "reading": "ほ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "のみほす",
+      "romaji": "nomihosu",
+      "meaning": "drink up; drain a drink",
+      "firstPassage": 23,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:再出発|さいしゅっぱつ",
+      "japanese": "再出発",
+      "japaneseSegments": [
+        {
+          "base": "再出発",
+          "reading": "さいしゅっぱつ"
+        }
+      ],
+      "reading": "さいしゅっぱつ",
+      "romaji": "saishuppatsu",
+      "meaning": "fresh start; starting over",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:辞める|やめる",
+      "japanese": "辞める",
+      "japaneseSegments": [
+        {
+          "base": "辞",
+          "reading": "や"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "reading": "やめる",
+      "romaji": "yameru",
+      "meaning": "quit a job; leave employment",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:南西|なんせい",
+      "japanese": "南西",
+      "japaneseSegments": [
+        {
+          "base": "南西",
+          "reading": "なんせい"
+        }
+      ],
+      "reading": "なんせい",
+      "romaji": "nansei",
+      "meaning": "southwest",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:高速船|こうそくせん",
+      "japanese": "高速船",
+      "japaneseSegments": [
+        {
+          "base": "高速船",
+          "reading": "こうそくせん"
+        }
+      ],
+      "reading": "こうそくせん",
+      "romaji": "kōsokusen",
+      "meaning": "high-speed boat",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:まぶしい|まぶしい",
+      "japanese": "まぶしい",
+      "japaneseSegments": [
+        {
+          "text": "まぶしい"
+        }
+      ],
+      "reading": "まぶしい",
+      "romaji": "mabushii",
+      "meaning": "dazzling; glaringly bright",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:匂い|におい",
+      "japanese": "匂い",
+      "japaneseSegments": [
+        {
+          "base": "匂",
+          "reading": "にお"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "におい",
+      "romaji": "nioi",
+      "meaning": "smell; scent",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:故郷|ふるさと",
+      "japanese": "故郷",
+      "japaneseSegments": [
+        {
+          "base": "故郷",
+          "reading": "ふるさと"
+        }
+      ],
+      "reading": "ふるさと",
+      "romaji": "furusato",
+      "meaning": "hometown; native place",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:懐かしさ|なつかしさ",
+      "japanese": "懐かしさ",
+      "japaneseSegments": [
+        {
+          "base": "懐",
+          "reading": "なつ"
+        },
+        {
+          "text": "かしさ"
+        }
+      ],
+      "reading": "なつかしさ",
+      "romaji": "natsukashisa",
+      "meaning": "nostalgia; fond familiarity",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:宿|やど",
+      "japanese": "宿",
+      "japaneseSegments": [
+        {
+          "base": "宿",
+          "reading": "やど"
+        }
+      ],
+      "reading": "やど",
+      "romaji": "yado",
+      "meaning": "lodging; inn",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:荷台|にだい",
+      "japanese": "荷台",
+      "japaneseSegments": [
+        {
+          "base": "荷台",
+          "reading": "にだい"
+        }
+      ],
+      "reading": "にだい",
+      "romaji": "nidai",
+      "meaning": "truck bed; cargo platform",
+      "firstPassage": 25,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:前方|ぜんぽう",
+      "japanese": "前方",
+      "japaneseSegments": [
+        {
+          "base": "前方",
+          "reading": "ぜんぽう"
+        }
+      ],
+      "reading": "ぜんぽう",
+      "romaji": "zenpō",
+      "meaning": "ahead; in front",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:わくわくする|わくわくする",
+      "japanese": "わくわくする",
+      "japaneseSegments": [
+        {
+          "text": "わくわくする"
+        }
+      ],
+      "reading": "わくわくする",
+      "romaji": "wakuwaku suru",
+      "meaning": "feel excited with anticipation",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:届く|とどく",
+      "japanese": "届く",
+      "japaneseSegments": [
+        {
+          "base": "届",
+          "reading": "とど"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "とどく",
+      "romaji": "todoku",
+      "meaning": "reach; extend far enough",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:砂糖|さとう",
+      "japanese": "砂糖",
+      "japaneseSegments": [
+        {
+          "base": "砂糖",
+          "reading": "さとう"
+        }
+      ],
+      "reading": "さとう",
+      "romaji": "satō",
+      "meaning": "sugar",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:刈り取る|かりとる",
+      "japanese": "刈り取る",
+      "japaneseSegments": [
+        {
+          "base": "刈",
+          "reading": "か"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "かりとる",
+      "romaji": "karitoru",
+      "meaning": "harvest by cutting",
+      "firstPassage": 26,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:切り落とす|きりおとす",
+      "japanese": "切り落とす",
+      "japaneseSegments": [
+        {
+          "base": "切",
+          "reading": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "落",
+          "reading": "お"
+        },
+        {
+          "text": "とす"
+        }
+      ],
+      "reading": "きりおとす",
+      "romaji": "kiriotosu",
+      "meaning": "cut off",
+      "firstPassage": 26,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:くたくた|くたくた",
+      "japanese": "くたくた",
+      "japaneseSegments": [
+        {
+          "text": "くたくた"
+        }
+      ],
+      "reading": "くたくた",
+      "romaji": "kutakuta",
+      "meaning": "utterly exhausted",
+      "firstPassage": 26,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:夕焼け|ゆうやけ",
+      "japanese": "夕焼け",
+      "japaneseSegments": [
+        {
+          "base": "夕焼",
+          "reading": "ゆうや"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "reading": "ゆうやけ",
+      "romaji": "yūyake",
+      "meaning": "sunset glow",
+      "firstPassage": 26,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:輝く|かがやく",
+      "japanese": "輝く",
+      "japaneseSegments": [
+        {
+          "base": "輝",
+          "reading": "かがや"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "かがやく",
+      "romaji": "kagayaku",
+      "meaning": "shine; sparkle",
+      "firstPassage": 26,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:青年|せいねん",
+      "japanese": "青年",
+      "japaneseSegments": [
+        {
+          "base": "青年",
+          "reading": "せいねん"
+        }
+      ],
+      "reading": "せいねん",
+      "romaji": "seinen",
+      "meaning": "young man",
+      "firstPassage": 26,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:一人旅|ひとりたび",
+      "japanese": "一人旅",
+      "japaneseSegments": [
+        {
+          "base": "一人旅",
+          "reading": "ひとりたび"
+        }
+      ],
+      "reading": "ひとりたび",
+      "romaji": "hitoritabi",
+      "meaning": "solo trip; traveling alone",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:気に入る|きにいる",
+      "japanese": "気に入る",
+      "japaneseSegments": [
+        {
+          "base": "気",
+          "reading": "き"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "base": "入",
+          "reading": "い"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "きにいる",
+      "romaji": "ki ni iru",
+      "meaning": "like; take a liking to",
+      "firstPassage": 27,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:目が合う|めがあう",
+      "japanese": "目が合う",
+      "japaneseSegments": [
+        {
+          "base": "目",
+          "reading": "め"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "base": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "めがあう",
+      "romaji": "me ga au",
+      "meaning": "make eye contact; have one's eyes meet",
+      "firstPassage": 27,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:経つ|たつ",
+      "japanese": "経つ",
+      "japaneseSegments": [
+        {
+          "base": "経",
+          "reading": "た"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "reading": "たつ",
+      "romaji": "tatsu",
+      "meaning": "elapse; pass, of time",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:血|ち",
+      "japanese": "血",
+      "japaneseSegments": [
+        {
+          "base": "血",
+          "reading": "ち"
+        }
+      ],
+      "reading": "ち",
+      "romaji": "chi",
+      "meaning": "blood",
+      "firstPassage": 28,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:押さえる|おさえる",
+      "japanese": "押さえる",
+      "japaneseSegments": [
+        {
+          "base": "押",
+          "reading": "お"
+        },
+        {
+          "text": "さえる"
+        }
+      ],
+      "reading": "おさえる",
+      "romaji": "osaeru",
+      "meaning": "press against; hold down",
+      "firstPassage": 28,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:勇気|ゆうき",
+      "japanese": "勇気",
+      "japaneseSegments": [
+        {
+          "base": "勇気",
+          "reading": "ゆうき"
+        }
+      ],
+      "reading": "ゆうき",
+      "romaji": "yūki",
+      "meaning": "courage",
+      "firstPassage": 28,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:隠す|かくす",
+      "japanese": "隠す",
+      "japaneseSegments": [
+        {
+          "base": "隠",
+          "reading": "かく"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "かくす",
+      "romaji": "kakusu",
+      "meaning": "hide; conceal",
+      "firstPassage": 29,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:波|なみ",
+      "japanese": "波",
+      "japaneseSegments": [
+        {
+          "base": "波",
+          "reading": "なみ"
+        }
+      ],
+      "reading": "なみ",
+      "romaji": "nami",
+      "meaning": "wave",
+      "firstPassage": 29,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:落ち着く|おちつく",
+      "japanese": "落ち着く",
+      "japaneseSegments": [
+        {
+          "base": "落",
+          "reading": "お"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "base": "着",
+          "reading": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "おちつく",
+      "romaji": "ochitsuku",
+      "meaning": "calm down; feel settled",
+      "firstPassage": 29,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:勇気づける|ゆうきづける",
+      "japanese": "勇気づける",
+      "japaneseSegments": [
+        {
+          "base": "勇気",
+          "reading": "ゆうき"
+        },
+        {
+          "text": "づける"
+        }
+      ],
+      "reading": "ゆうきづける",
+      "romaji": "yūkizukeru",
+      "meaning": "encourage; give someone courage",
+      "firstPassage": 30,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:沈む|しずむ",
+      "japanese": "沈む",
+      "japaneseSegments": [
+        {
+          "base": "沈",
+          "reading": "しず"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "reading": "しずむ",
+      "romaji": "shizumu",
+      "meaning": "sink; set, of the sun",
+      "firstPassage": 30,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:辺り|あたり",
+      "japanese": "辺り",
+      "japaneseSegments": [
+        {
+          "base": "辺",
+          "reading": "あた"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "reading": "あたり",
+      "romaji": "atari",
+      "meaning": "surroundings; nearby area",
+      "firstPassage": 30,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:言い合う|いいあう",
+      "japanese": "言い合う",
+      "japaneseSegments": [
+        {
+          "base": "言",
+          "reading": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "base": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "いいあう",
+      "romaji": "iiau",
+      "meaning": "to say to one another; exchange remarks",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:失敗|しっぱい",
+      "japanese": "失敗",
+      "japaneseSegments": [
+        {
+          "base": "失敗",
+          "reading": "しっぱい"
+        }
+      ],
+      "reading": "しっぱい",
+      "romaji": "shippai",
+      "meaning": "failure; an unsuccessful attempt",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:生い茂る|おいしげる",
+      "japanese": "生い茂る",
+      "japaneseSegments": [
+        {
+          "base": "生",
+          "reading": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "base": "茂",
+          "reading": "しげ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "おいしげる",
+      "romaji": "oishigeru",
+      "meaning": "to grow thickly or luxuriantly",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:風景|ふうけい",
+      "japanese": "風景",
+      "japaneseSegments": [
+        {
+          "base": "風景",
+          "reading": "ふうけい"
+        }
+      ],
+      "reading": "ふうけい",
+      "romaji": "fūkei",
+      "meaning": "scenery; landscape",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:三線|さんしん",
+      "japanese": "三線",
+      "japaneseSegments": [
+        {
+          "base": "三線",
+          "reading": "さんしん"
+        }
+      ],
+      "reading": "さんしん",
+      "romaji": "sanshin",
+      "meaning": "an Okinawan three-stringed musical instrument",
+      "firstPassage": 32,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:滝|たき",
+      "japanese": "滝",
+      "japaneseSegments": [
+        {
+          "base": "滝",
+          "reading": "たき"
+        }
+      ],
+      "reading": "たき",
+      "romaji": "taki",
+      "meaning": "waterfall",
+      "firstPassage": 32,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:釣り竿|つりざお",
+      "japanese": "釣り竿",
+      "japaneseSegments": [
+        {
+          "base": "釣",
+          "reading": "つ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "竿",
+          "reading": "ざお"
+        }
+      ],
+      "reading": "つりざお",
+      "romaji": "tsurizao",
+      "meaning": "fishing rod",
+      "firstPassage": 33,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:抱える|かかえる",
+      "japanese": "抱える",
+      "japaneseSegments": [
+        {
+          "base": "抱",
+          "reading": "かか"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "reading": "かかえる",
+      "romaji": "kakaeru",
+      "meaning": "to hold or carry in one's arms",
+      "firstPassage": 33,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:投げ入れる|なげいれる",
+      "japanese": "投げ入れる",
+      "japaneseSegments": [
+        {
+          "base": "投",
+          "reading": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "base": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "なげいれる",
+      "romaji": "nageireru",
+      "meaning": "to throw or cast into",
+      "firstPassage": 33,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:真似|まね",
+      "japanese": "真似",
+      "japaneseSegments": [
+        {
+          "base": "真似",
+          "reading": "まね"
+        }
+      ],
+      "reading": "まね",
+      "romaji": "mane",
+      "meaning": "imitation; doing the same as someone else",
+      "firstPassage": 33,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:川原|かわら",
+      "japanese": "川原",
+      "japaneseSegments": [
+        {
+          "base": "川原",
+          "reading": "かわら"
+        }
+      ],
+      "reading": "かわら",
+      "romaji": "kawara",
+      "meaning": "riverbank; dry riverbed",
+      "firstPassage": 34,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:塩焼き|しおやき",
+      "japanese": "塩焼き",
+      "japaneseSegments": [
+        {
+          "base": "塩焼",
+          "reading": "しおや"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "reading": "しおやき",
+      "romaji": "shioyaki",
+      "meaning": "fish or other food grilled with salt",
+      "firstPassage": 34,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:煮物|にもの",
+      "japanese": "煮物",
+      "japaneseSegments": [
+        {
+          "base": "煮物",
+          "reading": "にもの"
+        }
+      ],
+      "reading": "にもの",
+      "romaji": "nimono",
+      "meaning": "a simmered dish",
+      "firstPassage": 34,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:泡盛|あわもり",
+      "japanese": "泡盛",
+      "japaneseSegments": [
+        {
+          "base": "泡盛",
+          "reading": "あわもり"
+        }
+      ],
+      "reading": "あわもり",
+      "romaji": "awamori",
+      "meaning": "an Okinawan distilled rice spirit",
+      "firstPassage": 34,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:胸|むね",
+      "japanese": "胸",
+      "japaneseSegments": [
+        {
+          "base": "胸",
+          "reading": "むね"
+        }
+      ],
+      "reading": "むね",
+      "romaji": "mune",
+      "meaning": "chest; heart as the seat of emotion",
+      "firstPassage": 35,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:思い切る|おもいきる",
+      "japanese": "思い切る",
+      "japaneseSegments": [
+        {
+          "base": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "base": "切",
+          "reading": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "おもいきる",
+      "romaji": "omoikiru",
+      "meaning": "to resolve to act; work up one's courage",
+      "firstPassage": 36,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:展望台|てんぼうだい",
+      "japanese": "展望台",
+      "japaneseSegments": [
+        {
+          "base": "展望台",
+          "reading": "てんぼうだい"
+        }
+      ],
+      "reading": "てんぼうだい",
+      "romaji": "tenbōdai",
+      "meaning": "observation deck; lookout",
+      "firstPassage": 36,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:寝袋|ねぶくろ",
+      "japanese": "寝袋",
+      "japaneseSegments": [
+        {
+          "base": "寝袋",
+          "reading": "ねぶくろ"
+        }
+      ],
+      "reading": "ねぶくろ",
+      "romaji": "nebukuro",
+      "meaning": "sleeping bag",
+      "firstPassage": 36,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:無言|むごん",
+      "japanese": "無言",
+      "japaneseSegments": [
+        {
+          "base": "無言",
+          "reading": "むごん"
+        }
+      ],
+      "reading": "むごん",
+      "romaji": "mugon",
+      "meaning": "silence; saying nothing",
+      "firstPassage": 37,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:横顔|よこがお",
+      "japanese": "横顔",
+      "japaneseSegments": [
+        {
+          "base": "横顔",
+          "reading": "よこがお"
+        }
+      ],
+      "reading": "よこがお",
+      "romaji": "yokogao",
+      "meaning": "a person's face seen from the side; profile",
+      "firstPassage": 37,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:言い残す|いいのこす",
+      "japanese": "言い残す",
+      "japaneseSegments": [
+        {
+          "base": "言",
+          "reading": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "base": "残",
+          "reading": "のこ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "いいのこす",
+      "romaji": "iinokosu",
+      "meaning": "to leave something unsaid",
+      "firstPassage": 40,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:玄関|げんかん",
+      "japanese": "玄関",
+      "japaneseSegments": [
+        {
+          "base": "玄関",
+          "reading": "げんかん"
+        }
+      ],
+      "reading": "げんかん",
+      "romaji": "genkan",
+      "meaning": "entrance; entryway",
+      "firstPassage": 40,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:投げ出す|なげだす",
+      "japanese": "投げ出す",
+      "japaneseSegments": [
+        {
+          "base": "投",
+          "reading": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "base": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "なげだす",
+      "romaji": "nagedasu",
+      "meaning": "to stretch out one's limbs carelessly",
+      "firstPassage": 40,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:寂しい|さびしい",
+      "japanese": "寂しい",
+      "japaneseSegments": [
+        {
+          "base": "寂",
+          "reading": "さび"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "reading": "さびしい",
+      "romaji": "sabishii",
+      "meaning": "lonely; missing someone's company",
+      "firstPassage": 40,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:気にする|きにする",
+      "japanese": "気にする",
+      "japaneseSegments": [
+        {
+          "base": "気",
+          "reading": "き"
+        },
+        {
+          "text": "にする"
+        }
+      ],
+      "reading": "きにする",
+      "romaji": "ki ni suru",
+      "meaning": "to worry about; to be bothered by",
+      "firstPassage": 41,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:どうでもいい|どうでもいい",
+      "japanese": "どうでもいい",
+      "japaneseSegments": [
+        {
+          "text": "どうでもいい"
+        }
+      ],
+      "reading": "どうでもいい",
+      "romaji": "dō demo ii",
+      "meaning": "not to matter; to be of no concern",
+      "firstPassage": 41,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:無理する|むりする",
+      "japanese": "無理する",
+      "japaneseSegments": [
+        {
+          "base": "無理",
+          "reading": "むり"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "reading": "むりする",
+      "romaji": "muri suru",
+      "meaning": "to force oneself; to overdo it",
+      "firstPassage": 41,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:航空券|こうくうけん",
+      "japanese": "航空券",
+      "japaneseSegments": [
+        {
+          "base": "航空券",
+          "reading": "こうくうけん"
+        }
+      ],
+      "reading": "こうくうけん",
+      "romaji": "kōkūken",
+      "meaning": "plane ticket",
+      "firstPassage": 42,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:忘れ物|わすれもの",
+      "japanese": "忘れ物",
+      "japaneseSegments": [
+        {
+          "base": "忘",
+          "reading": "わす"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "base": "物",
+          "reading": "もの"
+        }
+      ],
+      "reading": "わすれもの",
+      "romaji": "wasuremono",
+      "meaning": "something left behind or forgotten",
+      "firstPassage": 42,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:振りほどく|ふりほどく",
+      "japanese": "振りほどく",
+      "japaneseSegments": [
+        {
+          "base": "振",
+          "reading": "ふ"
+        },
+        {
+          "text": "りほどく"
+        }
+      ],
+      "reading": "ふりほどく",
+      "romaji": "furihodoku",
+      "meaning": "to shake off; to pull free of",
+      "firstPassage": 42,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:無理やり|むりやり",
+      "japanese": "無理やり",
+      "japaneseSegments": [
+        {
+          "base": "無理",
+          "reading": "むり"
+        },
+        {
+          "text": "やり"
+        }
+      ],
+      "reading": "むりやり",
+      "romaji": "muriyari",
+      "meaning": "forcibly; against someone's will",
+      "firstPassage": 42,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:息を吐く|いきをはく",
+      "japanese": "息を吐く",
+      "japaneseSegments": [
+        {
+          "base": "息",
+          "reading": "いき"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "base": "吐",
+          "reading": "は"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "いきをはく",
+      "romaji": "iki o haku",
+      "meaning": "to breathe out; to exhale",
+      "firstPassage": 43,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ようやく|ようやく",
+      "japanese": "ようやく",
+      "japaneseSegments": [
+        {
+          "text": "ようやく"
+        }
+      ],
+      "reading": "ようやく",
+      "romaji": "yōyaku",
+      "meaning": "at last; finally",
+      "firstPassage": 43,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:間に合う|まにあう",
+      "japanese": "間に合う",
+      "japaneseSegments": [
+        {
+          "base": "間",
+          "reading": "ま"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "base": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "まにあう",
+      "romaji": "ma ni au",
+      "meaning": "to make it in time",
+      "firstPassage": 44,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:息を切らす|いきをきらす",
+      "japanese": "息を切らす",
+      "japaneseSegments": [
+        {
+          "base": "息",
+          "reading": "いき"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "base": "切",
+          "reading": "き"
+        },
+        {
+          "text": "らす"
+        }
+      ],
+      "reading": "いきをきらす",
+      "romaji": "iki o kirasu",
+      "meaning": "to be out of breath",
+      "firstPassage": 44,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:遠ざかる|とおざかる",
+      "japanese": "遠ざかる",
+      "japaneseSegments": [
+        {
+          "base": "遠",
+          "reading": "とお"
+        },
+        {
+          "text": "ざかる"
+        }
+      ],
+      "reading": "とおざかる",
+      "romaji": "tōzakaru",
+      "meaning": "to move farther away; to recede",
+      "firstPassage": 44,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:あふれる|あふれる",
+      "japanese": "あふれる",
+      "japaneseSegments": [
+        {
+          "text": "あふれる"
+        }
+      ],
+      "reading": "あふれる",
+      "romaji": "afureru",
+      "meaning": "to overflow; to spill over",
+      "firstPassage": 44,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:抱きしめる|だきしめる",
+      "japanese": "抱きしめる",
+      "japaneseSegments": [
+        {
+          "base": "抱",
+          "reading": "だ"
+        },
+        {
+          "text": "きしめる"
+        }
+      ],
+      "reading": "だきしめる",
+      "romaji": "dakishimeru",
+      "meaning": "to hug tightly; to embrace",
+      "firstPassage": 45,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:握り返す|にぎりかえす",
+      "japanese": "握り返す",
+      "japaneseSegments": [
+        {
+          "base": "握",
+          "reading": "にぎ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "返",
+          "reading": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "にぎりかえす",
+      "romaji": "nigirikaesu",
+      "meaning": "to squeeze someone's hand in return",
+      "firstPassage": 45,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:浜辺|はまべ",
+      "japanese": "浜辺",
+      "japaneseSegments": [
+        {
+          "base": "浜辺",
+          "reading": "はまべ"
+        }
+      ],
+      "reading": "はまべ",
+      "romaji": "hamabe",
+      "meaning": "beach; seashore",
+      "firstPassage": 45,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:沸かす|わかす",
+      "japanese": "沸かす",
+      "japaneseSegments": [
+        {
+          "base": "沸",
+          "reading": "わ"
+        },
+        {
+          "text": "かす"
+        }
+      ],
+      "reading": "わかす",
+      "romaji": "wakasu",
+      "meaning": "to boil water or another liquid",
+      "firstPassage": 46,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:景色|けしき",
+      "japanese": "景色",
+      "japaneseSegments": [
+        {
+          "base": "景色",
+          "reading": "けしき"
+        }
+      ],
+      "reading": "けしき",
+      "romaji": "keshiki",
+      "meaning": "scenery; view",
+      "firstPassage": 46,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:天井|てんじょう",
+      "japanese": "天井",
+      "japaneseSegments": [
+        {
+          "base": "天井",
+          "reading": "てんじょう"
+        }
+      ],
+      "reading": "てんじょう",
+      "romaji": "tenjō",
+      "meaning": "ceiling",
+      "firstPassage": 46,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:扇風機|せんぷうき",
+      "japanese": "扇風機",
+      "japaneseSegments": [
+        {
+          "base": "扇風機",
+          "reading": "せんぷうき"
+        }
+      ],
+      "reading": "せんぷうき",
+      "romaji": "senpūki",
+      "meaning": "electric fan",
+      "firstPassage": 46,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:材料|ざいりょう",
+      "japanese": "材料",
+      "japaneseSegments": [
+        {
+          "base": "材料",
+          "reading": "ざいりょう"
+        }
+      ],
+      "reading": "ざいりょう",
+      "romaji": "zairyō",
+      "meaning": "ingredients; materials",
+      "firstPassage": 47,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:あっという間に|あっというまに",
+      "japanese": "あっという間に",
+      "japaneseSegments": [
+        {
+          "text": "あっという"
+        },
+        {
+          "base": "間",
+          "reading": "ま"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "reading": "あっというまに",
+      "romaji": "atto iu ma ni",
+      "meaning": "in no time; in the blink of an eye",
+      "firstPassage": 48,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:手伝う|てつだう",
+      "japanese": "手伝う",
+      "japaneseSegments": [
+        {
+          "base": "手伝",
+          "reading": "てつだ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "てつだう",
+      "romaji": "tetsudau",
+      "meaning": "to help; to assist",
+      "firstPassage": 48,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:流れ星|ながれぼし",
+      "japanese": "流れ星",
+      "japaneseSegments": [
+        {
+          "base": "流",
+          "reading": "なが"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "base": "星",
+          "reading": "ぼし"
+        }
+      ],
+      "reading": "ながれぼし",
+      "romaji": "nagareboshi",
+      "meaning": "shooting star",
+      "firstPassage": 48,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:見合わせる|みあわせる",
+      "japanese": "見合わせる",
+      "japaneseSegments": [
+        {
+          "base": "見合",
+          "reading": "みあ"
+        },
+        {
+          "text": "わせる"
+        }
+      ],
+      "reading": "みあわせる",
+      "romaji": "miawaseru",
+      "meaning": "to exchange looks; to look at each other",
+      "firstPassage": 49,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:星空|ほしぞら",
+      "japanese": "星空",
+      "japaneseSegments": [
+        {
+          "base": "星空",
+          "reading": "ほしぞら"
+        }
+      ],
+      "reading": "ほしぞら",
+      "romaji": "hoshizora",
+      "meaning": "starry sky",
+      "firstPassage": 49,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:西表島|いりおもてじま",
+      "japanese": "西表島",
+      "japaneseSegments": [
+        {
+          "base": "西表島",
+          "reading": "いりおもてじま"
+        }
+      ],
+      "reading": "いりおもてじま",
+      "romaji": "Iriomote-jima",
+      "meaning": "Iriomote Island",
+      "firstPassage": 49,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:様々|さまざま",
+      "japanese": "様々",
+      "japaneseSegments": [
+        {
+          "base": "様々",
+          "reading": "さまざま"
+        }
+      ],
+      "reading": "さまざま",
+      "romaji": "samazama",
+      "meaning": "various; diverse",
+      "firstPassage": 49,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:実る|みのる",
+      "japanese": "実る",
+      "japaneseSegments": [
+        {
+          "base": "実",
+          "reading": "みの"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "みのる",
+      "romaji": "minoru",
+      "meaning": "to bear fruit; to yield a harvest",
+      "firstPassage": 49,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:旅人|たびびと",
+      "japanese": "旅人",
+      "japaneseSegments": [
+        {
+          "base": "旅人",
+          "reading": "たびびと"
+        }
+      ],
+      "reading": "たびびと",
+      "romaji": "tabibito",
+      "meaning": "traveler",
+      "firstPassage": 50,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:人気|にんき",
+      "japanese": "人気",
+      "japaneseSegments": [
+        {
+          "base": "人気",
+          "reading": "にんき"
+        }
+      ],
+      "reading": "にんき",
+      "romaji": "ninki",
+      "meaning": "popularity; being popular",
+      "firstPassage": 50,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:早速|さっそく",
+      "japanese": "早速",
+      "japaneseSegments": [
+        {
+          "base": "早速",
+          "reading": "さっそく"
+        }
+      ],
+      "reading": "さっそく",
+      "romaji": "sassoku",
+      "meaning": "right away; without delay",
+      "firstPassage": 50,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:いらっしゃいませ|いらっしゃいませ",
+      "japanese": "いらっしゃいませ",
+      "japaneseSegments": [
+        {
+          "text": "いらっしゃいませ"
+        }
+      ],
+      "reading": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "meaning": "welcome, said to a customer",
+      "firstPassage": 50,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:かしこまりました|かしこまりました",
+      "japanese": "かしこまりました",
+      "japaneseSegments": [
+        {
+          "text": "かしこまりました"
+        }
+      ],
+      "reading": "かしこまりました",
+      "romaji": "kashikomarimashita",
+      "meaning": "certainly; a formal acknowledgment of a request",
+      "firstPassage": 50,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:adjective stem + sou",
+      "pattern": "adjective stem + sou",
+      "patternSegments": [
+        {
+          "text": "Adjective stem + そう"
+        }
+      ],
+      "explanation": "This pattern describes an impression based on appearance: someone or something looks a certain way.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:verb stem + nagara",
+      "pattern": "verb stem + nagara",
+      "patternSegments": [
+        {
+          "text": "Verb stem + ながら"
+        }
+      ],
+      "explanation": "This pattern means doing one action while doing another. The same person performs both actions.",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:dictionary-form verb + koto ni suru",
+      "pattern": "dictionary-form verb + koto ni suru",
+      "patternSegments": [
+        {
+          "text": "Dictionary-form verb + ことにする"
+        }
+      ],
+      "explanation": "This pattern expresses a decision to do something.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:volitional verb + to suru",
+      "pattern": "volitional verb + to suru",
+      "patternSegments": [
+        {
+          "text": "Volitional verb + とする"
+        }
+      ],
+      "explanation": "This pattern expresses attempting an action or being just about to perform it.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:verb te-form + kureru",
+      "pattern": "verb te-form + kureru",
+      "patternSegments": [
+        {
+          "text": "Verb te-form + くれる"
+        }
+      ],
+      "explanation": "This pattern presents another person's action as a favor or something appreciated by the speaker or viewpoint character.",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:verb + dake de",
+      "pattern": "verb + dake de",
+      "patternSegments": [
+        {
+          "text": "Verb + だけで"
+        }
+      ],
+      "explanation": "This pattern means that merely doing the stated action is enough to produce the following result.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:verb stem + sou",
+      "pattern": "verb stem + sou",
+      "patternSegments": [
+        {
+          "text": "Verb stem + そう"
+        }
+      ],
+      "explanation": "This pattern indicates that an event appears likely or seems about to happen.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:verb ta-form + koto ga aru",
+      "pattern": "verb ta-form + koto ga aru",
+      "patternSegments": [
+        {
+          "text": "Verb ta-form + ことがある / こともある"
+        }
+      ],
+      "explanation": "This pattern expresses having had an experience. The additive version emphasizes that the experience has also occurred.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:noun + koso",
+      "pattern": "noun + koso",
+      "patternSegments": [
+        {
+          "text": "Noun + こそ"
+        }
+      ],
+      "explanation": "This pattern strongly emphasizes the preceding noun. Here it conveys determination that this year, especially, should be different.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:polite verb + you ni",
+      "pattern": "polite verb + you ni",
+      "patternSegments": [
+        {
+          "text": "Polite verb + ように"
+        }
+      ],
+      "explanation": "This pattern at the end of a sentence expresses a wish or prayer that something will happen.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:verb te-form + shimau",
+      "pattern": "verb te-form + shimau",
+      "patternSegments": [
+        {
+          "text": "Verb te-form + しまう"
+        }
+      ],
+      "explanation": "This pattern can express completion or an unintended action. Here it describes laughing involuntarily.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:phrase + nante",
+      "pattern": "phrase + nante",
+      "patternSegments": [
+        {
+          "text": "Phrase + なんて"
+        }
+      ],
+      "explanation": "This pattern highlights a surprising or emotionally striking situation, often conveying disbelief.",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:nante + description + n darou",
+      "pattern": "nante + description + n darou",
+      "patternSegments": [
+        {
+          "text": "なんて + Description + んだろう"
+        }
+      ],
+      "explanation": "This pattern forms an emotional exclamation meaning how or what a, emphasizing the degree of a quality.",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ta koto mo nai",
+      "pattern": "V-ta koto mo nai",
+      "patternSegments": [
+        {
+          "text": "〜たこともない"
+        }
+      ],
+      "explanation": "This pattern says that someone has never had the stated experience, adding it to other experiences they have not had. The past negative form describes experience up to a past point.",
+      "firstPassage": 11,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:kke",
+      "pattern": "kke",
+      "patternSegments": [
+        {
+          "text": "〜っけ"
+        }
+      ],
+      "explanation": "This pattern checks a memory or asks for confirmation of something the speaker cannot clearly recall.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:nakanaka V-nai",
+      "pattern": "nakanaka V-nai",
+      "patternSegments": [
+        {
+          "text": "なかなか〜ない"
+        }
+      ],
+      "explanation": "This pattern expresses that an action does not happen easily or despite an expectation that it would.",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-dictionary you ni naru",
+      "pattern": "V-dictionary you ni naru",
+      "patternSegments": [
+        {
+          "text": "〜ようになる"
+        }
+      ],
+      "explanation": "This pattern describes a change into a new habit, behavior, or ability.",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-dictionary koto ni suru",
+      "pattern": "V-dictionary koto ni suru",
+      "patternSegments": [
+        {
+          "text": "〜ことにする"
+        }
+      ],
+      "explanation": "This pattern expresses a deliberate decision to do something.",
+      "firstPassage": 16,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:V-ba ii ja nai",
+      "pattern": "V-ba ii ja nai",
+      "patternSegments": [
+        {
+          "text": "〜ばいいじゃない"
+        }
+      ],
+      "explanation": "This pattern offers a suggestion, often with the conversational force of asking why someone does not simply take that action.",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-dictionary koto ni naru",
+      "pattern": "V-dictionary koto ni naru",
+      "patternSegments": [
+        {
+          "text": "〜ことになる"
+        }
+      ],
+      "explanation": "This pattern presents an action as an arrangement or outcome that has come about, rather than emphasizing a personal decision.",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:shika nai",
+      "pattern": "shika nai",
+      "patternSegments": [
+        {
+          "text": "〜しか〜ない"
+        }
+      ],
+      "explanation": "This pattern combines a limiting expression with a negative predicate to mean that only the stated option is available.",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-tagaru",
+      "pattern": "V-tagaru",
+      "patternSegments": [
+        {
+          "text": "〜たがる"
+        }
+      ],
+      "explanation": "This pattern describes another person's apparent desire based on their words or behavior.",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-volitional to suru",
+      "pattern": "V-volitional to suru",
+      "patternSegments": [
+        {
+          "text": "〜ようとする"
+        }
+      ],
+      "explanation": "This pattern describes attempting an action or being just about to perform it.",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:hazu na noni",
+      "pattern": "hazu na noni",
+      "patternSegments": [
+        {
+          "text": "〜はずなのに"
+        }
+      ],
+      "explanation": "This pattern contrasts what is expected to be true with an observed situation that contradicts it.",
+      "firstPassage": 20,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:たことがある",
+      "pattern": "たことがある",
+      "patternSegments": [
+        {
+          "text": "たことがある"
+        }
+      ],
+      "explanation": "This pattern expresses previous experience. Its past form here says that Michiko had seen the photograph before.",
+      "firstPassage": 21,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ます形の語幹+ながら",
+      "pattern": "ます形の語幹＋ながら",
+      "patternSegments": [
+        {
+          "text": "ます"
+        },
+        {
+          "base": "形",
+          "reading": "けい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "base": "語幹",
+          "reading": "ごかん"
+        },
+        {
+          "text": "＋ながら"
+        }
+      ],
+      "explanation": "This pattern connects two actions performed by the same person at the same time, meaning while doing something.",
+      "firstPassage": 21,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:意向形+とする",
+      "pattern": "意向形＋とする",
+      "patternSegments": [
+        {
+          "base": "意向形",
+          "reading": "いこうけい"
+        },
+        {
+          "text": "＋とする"
+        }
+      ],
+      "explanation": "This pattern expresses an attempt or being about to do something. Here Michiko was about to start reading.",
+      "firstPassage": 21,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:てある",
+      "pattern": "てある",
+      "patternSegments": [
+        {
+          "text": "てある"
+        }
+      ],
+      "explanation": "This pattern describes a resulting state created by someone's deliberate action. The magazine has been placed on the table and remains there.",
+      "firstPassage": 23,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ほどの+名詞",
+      "pattern": "ほどの＋名詞",
+      "patternSegments": [
+        {
+          "text": "ほどの＋"
+        },
+        {
+          "base": "名詞",
+          "reading": "めいし"
+        }
+      ],
+      "explanation": "This pattern describes the degree of a quality through a result or comparison. Here the heat is enough to cause sweating.",
+      "firstPassage": 24,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:まるで〜ような",
+      "pattern": "まるで〜ような",
+      "patternSegments": [
+        {
+          "text": "まるで〜ような"
+        }
+      ],
+      "explanation": "This pattern presents an imagined resemblance, meaning as though or just like. It describes the feeling of having returned home.",
+      "firstPassage": 25,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:たり〜たりする",
+      "pattern": "たり〜たりする",
+      "patternSegments": [
+        {
+          "text": "たり〜たりする"
+        }
+      ],
+      "explanation": "This pattern lists representative activities without claiming to list everything. One paired list counts as one occurrence.",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ようになる",
+      "pattern": "ようになる",
+      "patternSegments": [
+        {
+          "text": "ようになる"
+        }
+      ],
+      "explanation": "This pattern describes a change in ability or habitual behavior. Here it means that Sosuke began doing seasonal work regularly.",
+      "firstPassage": 27,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:てもらう",
+      "pattern": "てもらう",
+      "patternSegments": [
+        {
+          "text": "てもらう"
+        }
+      ],
+      "explanation": "This pattern presents an action as something the subject receives from another person. Here Sosuke receives instruction from an elderly neighbor.",
+      "firstPassage": 27,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:てしかたがない",
+      "pattern": "てしかたがない",
+      "patternSegments": [
+        {
+          "text": "てしかたがない"
+        }
+      ],
+      "explanation": "This pattern emphasizes an overwhelming feeling or condition, meaning extremely or so much that one cannot help it.",
+      "firstPassage": 28,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ていい",
+      "pattern": "ていい",
+      "patternSegments": [
+        {
+          "text": "ていい"
+        }
+      ],
+      "explanation": "This pattern expresses permission. In a question, it asks whether doing something is allowed.",
+      "firstPassage": 29,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:たらいいなあ",
+      "pattern": "たらいいなあ",
+      "patternSegments": [
+        {
+          "text": "たらいいなあ"
+        }
+      ],
+      "explanation": "This pattern expresses a wish that a situation would become possible or come true, meaning I wish or it would be nice if.",
+      "firstPassage": 30,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:じゃえば?",
+      "pattern": "じゃえば？",
+      "patternSegments": [
+        {
+          "text": "じゃえば？"
+        }
+      ],
+      "explanation": "This pattern is a casual contraction combining completion with a conditional suggestion. Here it means why don't you just go ahead and do it.",
+      "firstPassage": 30,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:てくれる",
+      "pattern": "てくれる",
+      "patternSegments": [
+        {
+          "text": "てくれる"
+        }
+      ],
+      "explanation": "This pattern presents another person's action as welcome or beneficial to the speaker. Here Sosuke imagines how happy Michiko's staying would make him.",
+      "firstPassage": 30,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:といい",
+      "pattern": "といい",
+      "patternSegments": [
+        {
+          "text": "といい"
+        }
+      ],
+      "explanation": "This pattern expresses a hope that something will happen or turn out well.",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:なかなか~ない",
+      "pattern": "なかなか～ない",
+      "patternSegments": [
+        {
+          "text": "なかなか～ない"
+        }
+      ],
+      "explanation": "With a negative predicate, this pattern means that something does not happen easily or readily, despite expectations or effort.",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ことができない",
+      "pattern": "ことができない",
+      "patternSegments": [
+        {
+          "text": "ことができない"
+        }
+      ],
+      "explanation": "After a dictionary-form verb, this pattern expresses inability to perform that action.",
+      "firstPassage": 31,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ないうちに",
+      "pattern": "ないうちに",
+      "patternSegments": [
+        {
+          "text": "ないうちに"
+        }
+      ],
+      "explanation": "This pattern means before an action or change has happened. Here it emphasizes that fewer than five minutes had passed.",
+      "firstPassage": 33,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ため",
+      "pattern": "ため",
+      "patternSegments": [
+        {
+          "text": "ため"
+        }
+      ],
+      "explanation": "After a dictionary-form verb, this pattern states the purpose of an action, meaning in order to.",
+      "firstPassage": 34,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:そうになる",
+      "pattern": "そうになる",
+      "patternSegments": [
+        {
+          "text": "そうになる"
+        }
+      ],
+      "explanation": "With a verb stem, this pattern describes an action that is about to happen or nearly happens. Its attributive form can describe a feeling strong enough to bring about an action.",
+      "firstPassage": 35,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:ちゃった",
+      "pattern": "ちゃった",
+      "patternSegments": [
+        {
+          "text": "ちゃった"
+        }
+      ],
+      "explanation": "This pattern is a conversational contraction expressing a completed action, often with surprise, regret, or a sense that it happened unintentionally.",
+      "firstPassage": 35,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:なくちゃ",
+      "pattern": "なくちゃ",
+      "patternSegments": [
+        {
+          "text": "なくちゃ"
+        }
+      ],
+      "explanation": "This pattern informally expresses necessity. The rest of the obligation expression is often omitted in conversation.",
+      "firstPassage": 35,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ては",
+      "pattern": "ては",
+      "patternSegments": [
+        {
+          "text": "ては"
+        }
+      ],
+      "explanation": "Between actions, this pattern describes a repeated sequence: one action happens, then the other, over and over.",
+      "firstPassage": 36,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ますように",
+      "pattern": "ますように",
+      "patternSegments": [
+        {
+          "text": "ますように"
+        }
+      ],
+      "explanation": "At the end of a statement, this pattern expresses a wish or prayer that the stated situation will come true.",
+      "firstPassage": 37,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:んだって",
+      "pattern": "んだって",
+      "patternSegments": [
+        {
+          "text": "んだって"
+        }
+      ],
+      "explanation": "This conversational pattern reports an explanation heard from someone else, meaning apparently or they say.",
+      "firstPassage": 39,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:なんて",
+      "pattern": "なんて",
+      "patternSegments": [
+        {
+          "text": "なんて"
+        }
+      ],
+      "explanation": "This pattern singles something out with dismissive or emphatic feeling. Here it dismisses concern about Sachi and strongly rejects the claim that the inn is dirty.",
+      "firstPassage": 41,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:辞書形+な",
+      "pattern": "辞書形＋な",
+      "patternSegments": [
+        {
+          "base": "辞書形",
+          "reading": "じしょけい"
+        },
+        {
+          "text": "＋な"
+        }
+      ],
+      "explanation": "This pattern places a prohibitive ending after a dictionary-form verb to give a direct command not to do something.",
+      "firstPassage": 41,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:意向形+と",
+      "pattern": "意向形＋と",
+      "patternSegments": [
+        {
+          "base": "意向形",
+          "reading": "いこうけい"
+        },
+        {
+          "text": "＋と"
+        }
+      ],
+      "explanation": "This pattern presents an intended or attempted action. Here the following action is performed in an attempt to hand over the ticket.",
+      "firstPassage": 42,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:たまま",
+      "pattern": "たまま",
+      "patternSegments": [
+        {
+          "text": "たまま"
+        }
+      ],
+      "explanation": "This pattern follows a past-form verb and indicates that the resulting state continues while another action occurs.",
+      "firstPassage": 42,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ず",
+      "pattern": "ず",
+      "patternSegments": [
+        {
+          "text": "ず"
+        }
+      ],
+      "explanation": "This pattern attaches to a negative verb stem and means without doing the action. Here it describes leaving without speaking.",
+      "firstPassage": 42,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ちゃう",
+      "pattern": "ちゃう",
+      "patternSegments": [
+        {
+          "text": "ちゃう"
+        }
+      ],
+      "explanation": "This pattern is a casual contraction expressing completion, often with regret or concern. Here its past form conveys fear that Michiko has already left.",
+      "firstPassage": 45,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:なら",
+      "pattern": "なら",
+      "patternSegments": [
+        {
+          "text": "なら"
+        }
+      ],
+      "explanation": "This pattern takes a proposed topic or condition as its premise. Here it means that if the coffee is Sōsuke's, its quality will be fine.",
+      "firstPassage": 46,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:てもらえる",
+      "pattern": "てもらえる",
+      "patternSegments": [
+        {
+          "text": "てもらえる"
+        }
+      ],
+      "explanation": "This pattern expresses being able to receive someone else's action as help or a favor. The person performing the action is marked as its source.",
+      "firstPassage": 48,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:どの+名詞+も",
+      "pattern": "どの＋名詞＋も",
+      "patternSegments": [
+        {
+          "text": "どの＋"
+        },
+        {
+          "base": "名詞",
+          "reading": "めいし"
+        },
+        {
+          "text": "＋も"
+        }
+      ],
+      "explanation": "This pattern means every member of a set, regardless of which one is considered. Here it includes the sea at every time of day.",
+      "firstPassage": 49,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:にも~にも",
+      "pattern": "にも～にも",
+      "patternSegments": [
+        {
+          "text": "にも～にも"
+        }
+      ],
+      "explanation": "This pattern repeats the same marking to include both groups equally. Here the cafe is popular with travelers and island residents alike.",
+      "firstPassage": 50,
+      "occurrenceCount": 1
+    }
+  ]
+}
