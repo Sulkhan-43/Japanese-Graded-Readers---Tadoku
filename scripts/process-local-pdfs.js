@@ -119,6 +119,76 @@ function validateEnglishText(value, context) {
   }
 }
 
+function countMatches(text, expression) {
+  return [...text.matchAll(expression)].length;
+}
+
+function repairKnownMissingStudyRecords(data) {
+  const sentences = data.passages.map((passage) => passage.sentences
+    .map((sentence) => plainSegments(sentence.japaneseSegments)).join(''));
+  const addVocabulary = (record) => {
+    let occurrenceCount = 0;
+    let firstPassage = 0;
+    for (const [index, text] of sentences.entries()) {
+      const matches = text.split(record.japanese).length - 1;
+      if (matches && !firstPassage) firstPassage = index + 1;
+      occurrenceCount += matches;
+    }
+    if (!occurrenceCount) return;
+    data.vocabulary.push({ ...record, firstPassage, occurrenceCount });
+  };
+  const knownVocabulary = new Map([
+    ['vocabulary:葬式|そうしき', {
+      key: 'vocabulary:葬式|そうしき', japanese: '葬式', japaneseSegments: [{ base: '葬式', reading: 'そうしき' }],
+      reading: 'そうしき', romaji: 'sōshiki', meaning: 'funeral service',
+    }],
+  ]);
+  for (const passage of data.passages) {
+    for (const key of passage.vocabularyKeys || []) {
+      if (data.vocabulary.some((item) => item.key === key)) continue;
+      const record = knownVocabulary.get(key);
+      if (record) addVocabulary(record);
+    }
+  }
+
+  const knownGrammar = new Map([
+    ['grammar:ように', {
+      pattern: 'ように', patternSegments: [{ text: 'ように' }],
+      explanation: 'This construction connects an action or state to a purpose or desired result, often meaning “so that” or “in a way that.”',
+      expression: /ように(?!な)/gu,
+    }],
+    ['grammar:ため', {
+      pattern: 'ため', patternSegments: [{ text: 'ため' }],
+      explanation: 'This pattern marks a cause or purpose, often meaning “because of” or “for the purpose of.”',
+      expression: /ため/gu,
+    }],
+    ['grammar:こともある', {
+      pattern: 'こともある', patternSegments: [{ text: 'こともある' }],
+      explanation: 'A verb in plain form followed by this pattern describes something that sometimes happens or is sometimes possible.',
+      expression: /こともある/gu,
+    }],
+  ]);
+  for (const passage of data.passages) {
+    for (const key of passage.grammarKeys || []) {
+      if (data.grammar.some((item) => item.key === key)) continue;
+      const record = knownGrammar.get(key);
+      if (!record) continue;
+      let occurrenceCount = 0;
+      let firstPassage = 0;
+      for (const [index, text] of sentences.entries()) {
+        const matches = countMatches(text, record.expression);
+        if (matches && !firstPassage) firstPassage = index + 1;
+        occurrenceCount += matches;
+      }
+      if (!occurrenceCount) continue;
+      data.grammar.push({
+        key, pattern: record.pattern, patternSegments: record.patternSegments,
+        explanation: record.explanation, firstPassage, occurrenceCount,
+      });
+    }
+  }
+}
+
 function validateStudyData(data, sourceName) {
   if (!data || typeof data.title !== 'string' || !Array.isArray(data.passages) || !data.passages.length
     || !Array.isArray(data.vocabulary) || !Array.isArray(data.grammar)) {
@@ -144,6 +214,7 @@ function validateStudyData(data, sourceName) {
       validateEnglishText(sentence.translation, `${sourceName} passage ${index + 1} translation`);
     }
   }
+  repairKnownMissingStudyRecords(data);
   for (const [index, item] of (data.vocabulary || []).entries()) {
     validateSegments(item.japaneseSegments, `${sourceName} vocabulary ${index + 1}`);
     if (!item.japanese || !item.reading || !item.romaji || !item.meaning || !Number.isInteger(item.occurrenceCount) || item.occurrenceCount < 0) {
@@ -661,9 +732,19 @@ async function processOne(pdfPath, manifest, slugs) {
         JSON.stringify(raw),
         '--- END PREVIOUS JSON DATA ---',
       ].join('\n');
+      const previousSentenceText = raw.passages.flatMap((passage) => passage.sentences
+        .map((sentence) => plainSegments(sentence.japaneseSegments)));
       raw = ocrText
         ? await generateStudyDataWithCodexInput({ pdfPath, prompt: correctionPrompt, hash, ocrText })
         : await generateStudyDataWithCodex(pdfPath, correctionPrompt, hash);
+      const correctedSentenceText = (raw.passages || []).flatMap((passage) => (passage.sentences || [])
+        .map((sentence) => plainSegments(sentence.japaneseSegments || [])));
+      const previousJapaneseLength = previousSentenceText.reduce((total, sentence) => total + sentence.length, 0);
+      const correctedJapaneseLength = correctedSentenceText.reduce((total, sentence) => total + sentence.length, 0);
+      if (correctedSentenceText.length < previousSentenceText.length
+        || correctedJapaneseLength < previousJapaneseLength * 0.9) {
+        throw new Error(`${path.basename(pdfPath)}: Codex correction shortened the story text; the previous local report was kept.`);
+      }
       const candidate = structuredClone(raw);
       repairJapaneseTitleSegments(candidate);
       data = validateStudyData(candidate, path.basename(pdfPath));
