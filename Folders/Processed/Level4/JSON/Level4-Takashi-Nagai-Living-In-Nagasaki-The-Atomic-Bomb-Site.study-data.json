@@ -1,0 +1,2102 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:原爆|げんばく",
+      "japanese": "原爆",
+      "japaneseSegments": [
+        {
+          "base": "原爆",
+          "reading": "げんばく"
+        }
+      ],
+      "reading": "げんばく",
+      "romaji": "genbaku",
+      "meaning": "atomic bomb",
+      "firstPassage": 1,
+      "occurrenceCount": 13
+    },
+    {
+      "key": "vocabulary:原子爆弾|げんしばくだん",
+      "japanese": "原子爆弾",
+      "japaneseSegments": [
+        {
+          "base": "原子爆弾",
+          "reading": "げんしばくだん"
+        }
+      ],
+      "reading": "げんしばくだん",
+      "romaji": "genshi bakudan",
+      "meaning": "atomic bomb; the full term",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:落とす|おとす",
+      "japanese": "落とす",
+      "japaneseSegments": [
+        {
+          "base": "落",
+          "reading": "お"
+        },
+        {
+          "text": "とす"
+        }
+      ],
+      "reading": "おとす",
+      "romaji": "otosu",
+      "meaning": "to drop; used in the passive here for bombs being dropped",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:怪我|けが",
+      "japanese": "怪我",
+      "japaneseSegments": [
+        {
+          "base": "怪我",
+          "reading": "けが"
+        }
+      ],
+      "reading": "けが",
+      "romaji": "kega",
+      "meaning": "injury",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:命を落とす|いのちをおとす",
+      "japanese": "命を落とす",
+      "japaneseSegments": [
+        {
+          "base": "命",
+          "reading": "いのち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "base": "落",
+          "reading": "お"
+        },
+        {
+          "text": "とす"
+        }
+      ],
+      "reading": "いのちをおとす",
+      "romaji": "inochi o otosu",
+      "meaning": "to lose one's life",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:生き残る|いきのこる",
+      "japanese": "生き残る",
+      "japaneseSegments": [
+        {
+          "base": "生",
+          "reading": "い"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "base": "残",
+          "reading": "のこ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "いきのこる",
+      "romaji": "ikinokoru",
+      "meaning": "to survive",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:原爆症|げんばくしょう",
+      "japanese": "原爆症",
+      "japaneseSegments": [
+        {
+          "base": "原爆症",
+          "reading": "げんばくしょう"
+        }
+      ],
+      "reading": "げんばくしょう",
+      "romaji": "genbakushō",
+      "meaning": "atomic bomb sickness",
+      "firstPassage": 1,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:放射能|ほうしゃのう",
+      "japanese": "放射能",
+      "japaneseSegments": [
+        {
+          "base": "放射能",
+          "reading": "ほうしゃのう"
+        }
+      ],
+      "reading": "ほうしゃのう",
+      "romaji": "hōshanō",
+      "meaning": "radioactivity; radiation in this context",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:浴びる|あびる",
+      "japanese": "浴びる",
+      "japaneseSegments": [
+        {
+          "base": "浴",
+          "reading": "あ"
+        },
+        {
+          "text": "びる"
+        }
+      ],
+      "reading": "あびる",
+      "romaji": "abiru",
+      "meaning": "to be exposed to; to receive over one's body",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:病気|びょうき",
+      "japanese": "病気",
+      "japaneseSegments": [
+        {
+          "base": "病気",
+          "reading": "びょうき"
+        }
+      ],
+      "reading": "びょうき",
+      "romaji": "byōki",
+      "meaning": "illness; sickness",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:苦しむ|くるしむ",
+      "japanese": "苦しむ",
+      "japaneseSegments": [
+        {
+          "base": "苦",
+          "reading": "くる"
+        },
+        {
+          "text": "しむ"
+        }
+      ],
+      "reading": "くるしむ",
+      "romaji": "kurushimu",
+      "meaning": "to suffer",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:助ける|たすける",
+      "japanese": "助ける",
+      "japaneseSegments": [
+        {
+          "base": "助",
+          "reading": "たす"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "reading": "たすける",
+      "romaji": "tasukeru",
+      "meaning": "to help; to save",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:医者|いしゃ",
+      "japanese": "医者",
+      "japaneseSegments": [
+        {
+          "base": "医者",
+          "reading": "いしゃ"
+        }
+      ],
+      "reading": "いしゃ",
+      "romaji": "isha",
+      "meaning": "doctor",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:引っ越す|ひっこす",
+      "japanese": "引っ越す",
+      "japaneseSegments": [
+        {
+          "base": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "base": "越",
+          "reading": "こ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "ひっこす",
+      "romaji": "hikkosu",
+      "meaning": "to move to a new home",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:生活|せいかつ",
+      "japanese": "生活",
+      "japaneseSegments": [
+        {
+          "base": "生活",
+          "reading": "せいかつ"
+        }
+      ],
+      "reading": "せいかつ",
+      "romaji": "seikatsu",
+      "meaning": "daily life; living",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:貧乏|びんぼう",
+      "japanese": "貧乏",
+      "japaneseSegments": [
+        {
+          "base": "貧乏",
+          "reading": "びんぼう"
+        }
+      ],
+      "reading": "びんぼう",
+      "romaji": "binbō",
+      "meaning": "poor; poverty",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:一生懸命|いっしょうけんめい",
+      "japanese": "一生懸命",
+      "japaneseSegments": [
+        {
+          "base": "一生懸命",
+          "reading": "いっしょうけんめい"
+        }
+      ],
+      "reading": "いっしょうけんめい",
+      "romaji": "isshōkenmei",
+      "meaning": "with all one's effort; very hard",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:話し合う|はなしあう",
+      "japanese": "話し合う",
+      "japaneseSegments": [
+        {
+          "base": "話",
+          "reading": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "base": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "はなしあう",
+      "romaji": "hanashiau",
+      "meaning": "to discuss; to talk together",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:興味|きょうみ",
+      "japanese": "興味",
+      "japaneseSegments": [
+        {
+          "base": "興味",
+          "reading": "きょうみ"
+        }
+      ],
+      "reading": "きょうみ",
+      "romaji": "kyōmi",
+      "meaning": "interest",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:短歌|たんか",
+      "japanese": "短歌",
+      "japaneseSegments": [
+        {
+          "base": "短歌",
+          "reading": "たんか"
+        }
+      ],
+      "reading": "たんか",
+      "romaji": "tanka",
+      "meaning": "a Japanese poem with thirty-one sound units",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:得意|とくい",
+      "japanese": "得意",
+      "japaneseSegments": [
+        {
+          "base": "得意",
+          "reading": "とくい"
+        }
+      ],
+      "reading": "とくい",
+      "romaji": "tokui",
+      "meaning": "good at; skilled in",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:練習|れんしゅう",
+      "japanese": "練習",
+      "japaneseSegments": [
+        {
+          "base": "練習",
+          "reading": "れんしゅう"
+        }
+      ],
+      "reading": "れんしゅう",
+      "romaji": "renshū",
+      "meaning": "practice; training",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:努力家|どりょくか",
+      "japanese": "努力家",
+      "japaneseSegments": [
+        {
+          "base": "努力家",
+          "reading": "どりょくか"
+        }
+      ],
+      "reading": "どりょくか",
+      "romaji": "doryokuka",
+      "meaning": "a hardworking person",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:通う|かよう",
+      "japanese": "通う",
+      "japaneseSegments": [
+        {
+          "base": "通",
+          "reading": "かよ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "かよう",
+      "romaji": "kayou",
+      "meaning": "to attend regularly; to commute",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:熱心|ねっしん",
+      "japanese": "熱心",
+      "japaneseSegments": [
+        {
+          "base": "熱心",
+          "reading": "ねっしん"
+        }
+      ],
+      "reading": "ねっしん",
+      "romaji": "nesshin",
+      "meaning": "enthusiastic; devoted; devout",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:信者|しんじゃ",
+      "japanese": "信者",
+      "japaneseSegments": [
+        {
+          "base": "信者",
+          "reading": "しんじゃ"
+        }
+      ],
+      "reading": "しんじゃ",
+      "romaji": "shinja",
+      "meaning": "religious believer",
+      "firstPassage": 3,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:聴診器|ちょうしんき",
+      "japanese": "聴診器",
+      "japaneseSegments": [
+        {
+          "base": "聴診器",
+          "reading": "ちょうしんき"
+        }
+      ],
+      "reading": "ちょうしんき",
+      "romaji": "chōshinki",
+      "meaning": "stethoscope",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:聴診|ちょうしん",
+      "japanese": "聴診",
+      "japaneseSegments": [
+        {
+          "base": "聴診",
+          "reading": "ちょうしん"
+        }
+      ],
+      "reading": "ちょうしん",
+      "romaji": "chōshin",
+      "meaning": "listening to internal body sounds as a medical examination",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:放射線医学|ほうしゃせんいがく",
+      "japanese": "放射線医学",
+      "japaneseSegments": [
+        {
+          "base": "放射線医学",
+          "reading": "ほうしゃせんいがく"
+        }
+      ],
+      "reading": "ほうしゃせんいがく",
+      "romaji": "hōshasen igaku",
+      "meaning": "radiology; medical study and use of radiation",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:専門|せんもん",
+      "japanese": "専門",
+      "japaneseSegments": [
+        {
+          "base": "専門",
+          "reading": "せんもん"
+        }
+      ],
+      "reading": "せんもん",
+      "romaji": "senmon",
+      "meaning": "specialty; field of expertise",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:軍医|ぐんい",
+      "japanese": "軍医",
+      "japaneseSegments": [
+        {
+          "base": "軍医",
+          "reading": "ぐんい"
+        }
+      ],
+      "reading": "ぐんい",
+      "romaji": "gun'i",
+      "meaning": "military doctor",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:手伝い|てつだい",
+      "japanese": "手伝い",
+      "japaneseSegments": [
+        {
+          "base": "手伝",
+          "reading": "てつだ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "reading": "てつだい",
+      "romaji": "tetsudai",
+      "meaning": "help; assistance",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:治療|ちりょう",
+      "japanese": "治療",
+      "japaneseSegments": [
+        {
+          "base": "治療",
+          "reading": "ちりょう"
+        }
+      ],
+      "reading": "ちりょう",
+      "romaji": "chiryō",
+      "meaning": "medical treatment",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:助教授|じょきょうじゅ",
+      "japanese": "助教授",
+      "japaneseSegments": [
+        {
+          "base": "助教授",
+          "reading": "じょきょうじゅ"
+        }
+      ],
+      "reading": "じょきょうじゅ",
+      "romaji": "jokyōju",
+      "meaning": "associate professor",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:叱る|しかる",
+      "japanese": "叱る",
+      "japaneseSegments": [
+        {
+          "base": "叱",
+          "reading": "しか"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "しかる",
+      "romaji": "shikaru",
+      "meaning": "to scold; reprimand",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:冗談|じょうだん",
+      "japanese": "冗談",
+      "japaneseSegments": [
+        {
+          "base": "冗談",
+          "reading": "じょうだん"
+        }
+      ],
+      "reading": "じょうだん",
+      "romaji": "jōdan",
+      "meaning": "joke",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:医学博士|いがくはくし",
+      "japanese": "医学博士",
+      "japaneseSegments": [
+        {
+          "base": "医学博士",
+          "reading": "いがくはくし"
+        }
+      ],
+      "reading": "いがくはくし",
+      "romaji": "igaku hakushi",
+      "meaning": "holder of a doctorate in medicine",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:結核|けっかく",
+      "japanese": "結核",
+      "japaneseSegments": [
+        {
+          "base": "結核",
+          "reading": "けっかく"
+        }
+      ],
+      "reading": "けっかく",
+      "romaji": "kekkaku",
+      "meaning": "tuberculosis",
+      "firstPassage": 5,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:咳|せき",
+      "japanese": "咳",
+      "japaneseSegments": [
+        {
+          "base": "咳",
+          "reading": "せき"
+        }
+      ],
+      "reading": "せき",
+      "romaji": "seki",
+      "meaning": "cough",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:検査|けんさ",
+      "japanese": "検査",
+      "japaneseSegments": [
+        {
+          "base": "検査",
+          "reading": "けんさ"
+        }
+      ],
+      "reading": "けんさ",
+      "romaji": "kensa",
+      "meaning": "examination; diagnostic test",
+      "firstPassage": 5,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:救う|すくう",
+      "japanese": "救う",
+      "japaneseSegments": [
+        {
+          "base": "救",
+          "reading": "すく"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "reading": "すくう",
+      "romaji": "sukuu",
+      "meaning": "to save; rescue",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:世話|せわ",
+      "japanese": "世話",
+      "japaneseSegments": [
+        {
+          "base": "世話",
+          "reading": "せわ"
+        }
+      ],
+      "reading": "せわ",
+      "romaji": "sewa",
+      "meaning": "care; looking after someone",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:白血病|はっけつびょう",
+      "japanese": "白血病",
+      "japaneseSegments": [
+        {
+          "base": "白血病",
+          "reading": "はっけつびょう"
+        }
+      ],
+      "reading": "はっけつびょう",
+      "romaji": "hakketsubyō",
+      "meaning": "leukemia",
+      "firstPassage": 6,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:血液|けつえき",
+      "japanese": "血液",
+      "japaneseSegments": [
+        {
+          "base": "血液",
+          "reading": "けつえき"
+        }
+      ],
+      "reading": "けつえき",
+      "romaji": "ketsueki",
+      "meaning": "blood",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:癌|がん",
+      "japanese": "癌",
+      "japaneseSegments": [
+        {
+          "base": "癌",
+          "reading": "がん"
+        }
+      ],
+      "reading": "がん",
+      "romaji": "gan",
+      "meaning": "cancer",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:原因|げんいん",
+      "japanese": "原因",
+      "japaneseSegments": [
+        {
+          "base": "原因",
+          "reading": "げんいん"
+        }
+      ],
+      "reading": "げんいん",
+      "romaji": "gen'in",
+      "meaning": "cause",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:爆弾|ばくだん",
+      "japanese": "爆弾",
+      "japaneseSegments": [
+        {
+          "base": "爆弾",
+          "reading": "ばくだん"
+        }
+      ],
+      "reading": "ばくだん",
+      "romaji": "bakudan",
+      "meaning": "bomb",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:煙|けむり",
+      "japanese": "煙",
+      "japaneseSegments": [
+        {
+          "base": "煙",
+          "reading": "けむり"
+        }
+      ],
+      "reading": "けむり",
+      "romaji": "kemuri",
+      "meaning": "smoke",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:浦上|うらかみ",
+      "japanese": "浦上",
+      "japaneseSegments": [
+        {
+          "base": "浦上",
+          "reading": "うらかみ"
+        }
+      ],
+      "reading": "うらかみ",
+      "romaji": "Urakami",
+      "meaning": "Urakami, a district of Nagasaki",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:教会|きょうかい",
+      "japanese": "教会",
+      "japaneseSegments": [
+        {
+          "base": "教会",
+          "reading": "きょうかい"
+        }
+      ],
+      "reading": "きょうかい",
+      "romaji": "kyōkai",
+      "meaning": "church",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:突然|とつぜん",
+      "japanese": "突然",
+      "japaneseSegments": [
+        {
+          "base": "突然",
+          "reading": "とつぜん"
+        }
+      ],
+      "reading": "とつぜん",
+      "romaji": "totsuzen",
+      "meaning": "suddenly",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:あっと言う間に|あっというまに",
+      "japanese": "あっと言う間に",
+      "japaneseSegments": [
+        {
+          "text": "あっと"
+        },
+        {
+          "base": "言",
+          "reading": "い"
+        },
+        {
+          "text": "う"
+        },
+        {
+          "base": "間",
+          "reading": "ま"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "reading": "あっというまに",
+      "romaji": "atto iu ma ni",
+      "meaning": "in an instant",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:きのこ雲|きのこぐも",
+      "japanese": "きのこ雲",
+      "japaneseSegments": [
+        {
+          "text": "きのこ"
+        },
+        {
+          "base": "雲",
+          "reading": "ぐも"
+        }
+      ],
+      "reading": "きのこぐも",
+      "romaji": "kinoko-gumo",
+      "meaning": "mushroom cloud",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大怪我|おおけが",
+      "japanese": "大怪我",
+      "japaneseSegments": [
+        {
+          "base": "大怪我",
+          "reading": "おおけが"
+        }
+      ],
+      "reading": "おおけが",
+      "romaji": "ōkega",
+      "meaning": "serious injury",
+      "firstPassage": 7,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:研究室|けんきゅうしつ",
+      "japanese": "研究室",
+      "japaneseSegments": [
+        {
+          "base": "研究室",
+          "reading": "けんきゅうしつ"
+        }
+      ],
+      "reading": "けんきゅうしつ",
+      "romaji": "kenkyūshitsu",
+      "meaning": "laboratory; research room",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:赤茶色|あかちゃいろ",
+      "japanese": "赤茶色",
+      "japaneseSegments": [
+        {
+          "base": "赤茶色",
+          "reading": "あかちゃいろ"
+        }
+      ],
+      "reading": "あかちゃいろ",
+      "romaji": "akachairo",
+      "meaning": "reddish brown",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:空中|くうちゅう",
+      "japanese": "空中",
+      "japaneseSegments": [
+        {
+          "base": "空中",
+          "reading": "くうちゅう"
+        }
+      ],
+      "reading": "くうちゅう",
+      "romaji": "kūchū",
+      "meaning": "the air; midair",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:怪我人|けがにん",
+      "japanese": "怪我人",
+      "japaneseSegments": [
+        {
+          "base": "怪我人",
+          "reading": "けがにん"
+        }
+      ],
+      "reading": "けがにん",
+      "romaji": "keganin",
+      "meaning": "injured person",
+      "firstPassage": 7,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:火の海|ひのうみ",
+      "japanese": "火の海",
+      "japaneseSegments": [
+        {
+          "base": "火",
+          "reading": "ひ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "base": "海",
+          "reading": "うみ"
+        }
+      ],
+      "reading": "ひのうみ",
+      "romaji": "hi no umi",
+      "meaning": "sea of flames",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:焼け野原|やけのはら",
+      "japanese": "焼け野原",
+      "japaneseSegments": [
+        {
+          "base": "焼",
+          "reading": "や"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "base": "野原",
+          "reading": "のはら"
+        }
+      ],
+      "reading": "やけのはら",
+      "romaji": "yakenohara",
+      "meaning": "burned wasteland",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:看護婦|かんごふ",
+      "japanese": "看護婦",
+      "japaneseSegments": [
+        {
+          "base": "看護婦",
+          "reading": "かんごふ"
+        }
+      ],
+      "reading": "かんごふ",
+      "romaji": "kangofu",
+      "meaning": "female nurse; an older gender-specific term",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:放射線|ほうしゃせん",
+      "japanese": "放射線",
+      "japaneseSegments": [
+        {
+          "base": "放射線",
+          "reading": "ほうしゃせん"
+        }
+      ],
+      "reading": "ほうしゃせん",
+      "romaji": "hōshasen",
+      "meaning": "radiation",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:地獄|じごく",
+      "japanese": "地獄",
+      "japaneseSegments": [
+        {
+          "base": "地獄",
+          "reading": "じごく"
+        }
+      ],
+      "reading": "じごく",
+      "romaji": "jigoku",
+      "meaning": "hell",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:浦上天主堂|うらかみてんしゅどう",
+      "japanese": "浦上天主堂",
+      "japaneseSegments": [
+        {
+          "base": "浦上天主堂",
+          "reading": "うらかみてんしゅどう"
+        }
+      ],
+      "reading": "うらかみてんしゅどう",
+      "romaji": "Urakami Tenshudō",
+      "meaning": "Urakami Cathedral",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:台所|だいどころ",
+      "japanese": "台所",
+      "japaneseSegments": [
+        {
+          "base": "台所",
+          "reading": "だいどころ"
+        }
+      ],
+      "reading": "だいどころ",
+      "romaji": "daidokoro",
+      "meaning": "kitchen",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ロザリオ|ロザリオ",
+      "japanese": "ロザリオ",
+      "japaneseSegments": [
+        {
+          "text": "ロザリオ"
+        }
+      ],
+      "reading": "ロザリオ",
+      "romaji": "rozario",
+      "meaning": "rosary",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:骨|ほね",
+      "japanese": "骨",
+      "japaneseSegments": [
+        {
+          "base": "骨",
+          "reading": "ほね"
+        }
+      ],
+      "reading": "ほね",
+      "romaji": "hone",
+      "meaning": "bone; bones",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:奇跡|きせき",
+      "japanese": "奇跡",
+      "japaneseSegments": [
+        {
+          "base": "奇跡",
+          "reading": "きせき"
+        }
+      ],
+      "reading": "きせき",
+      "romaji": "kiseki",
+      "meaning": "miracle",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:決心|けっしん",
+      "japanese": "決心",
+      "japaneseSegments": [
+        {
+          "base": "決心",
+          "reading": "けっしん"
+        }
+      ],
+      "reading": "けっしん",
+      "romaji": "kesshin",
+      "meaning": "determination; decision to act",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:具合|ぐあい",
+      "japanese": "具合",
+      "japaneseSegments": [
+        {
+          "base": "具合",
+          "reading": "ぐあい"
+        }
+      ],
+      "reading": "ぐあい",
+      "romaji": "guai",
+      "meaning": "condition; state of health",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:汽車|きしゃ",
+      "japanese": "汽車",
+      "japaneseSegments": [
+        {
+          "base": "汽車",
+          "reading": "きしゃ"
+        }
+      ],
+      "reading": "きしゃ",
+      "romaji": "kisha",
+      "meaning": "train, especially a steam train",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:暇|ひま",
+      "japanese": "暇",
+      "japaneseSegments": [
+        {
+          "base": "暇",
+          "reading": "ひま"
+        }
+      ],
+      "reading": "ひま",
+      "romaji": "hima",
+      "meaning": "free time; time to spare",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:楽譜|がくふ",
+      "japanese": "楽譜",
+      "japaneseSegments": [
+        {
+          "base": "楽譜",
+          "reading": "がくふ"
+        }
+      ],
+      "reading": "がくふ",
+      "romaji": "gakufu",
+      "meaning": "sheet music; musical score",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:如己堂|にょこどう",
+      "japanese": "如己堂",
+      "japaneseSegments": [
+        {
+          "base": "如己堂",
+          "reading": "にょこどう"
+        }
+      ],
+      "reading": "にょこどう",
+      "romaji": "Nyokodō",
+      "meaning": "Nyokodo, the name of Takashi's small house",
+      "firstPassage": 12,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:如己愛人|にょこあいじん",
+      "japanese": "如己愛人",
+      "japaneseSegments": [
+        {
+          "base": "如己愛人",
+          "reading": "にょこあいじん"
+        }
+      ],
+      "reading": "にょこあいじん",
+      "romaji": "nyoko aijin",
+      "meaning": "love others as yourself",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:次々|つぎつぎ",
+      "japanese": "次々",
+      "japaneseSegments": [
+        {
+          "base": "次々",
+          "reading": "つぎつぎ"
+        }
+      ],
+      "reading": "つぎつぎ",
+      "romaji": "tsugitsugi",
+      "meaning": "one after another; in succession",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:翻訳|ほんやく",
+      "japanese": "翻訳",
+      "japaneseSegments": [
+        {
+          "base": "翻訳",
+          "reading": "ほんやく"
+        }
+      ],
+      "reading": "ほんやく",
+      "romaji": "hon'yaku",
+      "meaning": "translation",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:去る|さる",
+      "japanese": "去る",
+      "japaneseSegments": [
+        {
+          "base": "去",
+          "reading": "さ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "さる",
+      "romaji": "saru",
+      "meaning": "leave; depart",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:植える|うえる",
+      "japanese": "植える",
+      "japaneseSegments": [
+        {
+          "base": "植",
+          "reading": "う"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "reading": "うえる",
+      "romaji": "ueru",
+      "meaning": "plant",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:相談|そうだん",
+      "japanese": "相談",
+      "japaneseSegments": [
+        {
+          "base": "相談",
+          "reading": "そうだん"
+        }
+      ],
+      "reading": "そうだん",
+      "romaji": "sōdan",
+      "meaning": "consultation; asking for advice",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:応える|こたえる",
+      "japanese": "応える",
+      "japaneseSegments": [
+        {
+          "base": "応",
+          "reading": "こた"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "reading": "こたえる",
+      "romaji": "kotaeru",
+      "meaning": "respond to a request or need",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:握る|にぎる",
+      "japanese": "握る",
+      "japaneseSegments": [
+        {
+          "base": "握",
+          "reading": "にぎ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "にぎる",
+      "romaji": "nigiru",
+      "meaning": "grasp; hold in one's hand",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:教育者|きょういくしゃ",
+      "japanese": "教育者",
+      "japaneseSegments": [
+        {
+          "base": "教育者",
+          "reading": "きょういくしゃ"
+        }
+      ],
+      "reading": "きょういくしゃ",
+      "romaji": "kyōikusha",
+      "meaning": "educator",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:勇気|ゆうき",
+      "japanese": "勇気",
+      "japaneseSegments": [
+        {
+          "base": "勇気",
+          "reading": "ゆうき"
+        }
+      ],
+      "reading": "ゆうき",
+      "romaji": "yūki",
+      "meaning": "courage",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:葬式|そうしき",
+      "japanese": "葬式",
+      "japaneseSegments": [
+        {
+          "base": "葬式",
+          "reading": "そうしき"
+        }
+      ],
+      "reading": "そうしき",
+      "romaji": "sōshiki",
+      "meaning": "funeral",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:鳴り響く|なりひびく",
+      "japanese": "鳴り響く",
+      "japaneseSegments": [
+        {
+          "base": "鳴",
+          "reading": "な"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "base": "響",
+          "reading": "ひび"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "なりひびく",
+      "romaji": "narihibiku",
+      "meaning": "ring out; resound",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:記念館|きねんかん",
+      "japanese": "記念館",
+      "japaneseSegments": [
+        {
+          "base": "記念館",
+          "reading": "きねんかん"
+        }
+      ],
+      "reading": "きねんかん",
+      "romaji": "kinenkan",
+      "meaning": "memorial museum",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:原爆記念日|げんばくきねんび",
+      "japanese": "原爆記念日",
+      "japaneseSegments": [
+        {
+          "base": "原爆記念日",
+          "reading": "げんばくきねんび"
+        }
+      ],
+      "reading": "げんばくきねんび",
+      "romaji": "genbaku kinenbi",
+      "meaning": "anniversary commemorating an atomic bombing",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:祈る|いのる",
+      "japanese": "祈る",
+      "japaneseSegments": [
+        {
+          "base": "祈",
+          "reading": "いの"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "いのる",
+      "romaji": "inoru",
+      "meaning": "pray",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:年表|ねんぴょう",
+      "japanese": "年表",
+      "japaneseSegments": [
+        {
+          "base": "年表",
+          "reading": "ねんぴょう"
+        }
+      ],
+      "reading": "ねんぴょう",
+      "romaji": "nenpyō",
+      "meaning": "chronological table; timeline",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:医学博士|いがくはかせ",
+      "japanese": "医学博士",
+      "japaneseSegments": [
+        {
+          "base": "医学博士",
+          "reading": "いがくはかせ"
+        }
+      ],
+      "reading": "いがくはかせ",
+      "romaji": "igaku hakase",
+      "meaning": "holder of a doctorate in medicine",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:死亡|しぼう",
+      "japanese": "死亡",
+      "japaneseSegments": [
+        {
+          "base": "死亡",
+          "reading": "しぼう"
+        }
+      ],
+      "reading": "しぼう",
+      "romaji": "shibō",
+      "meaning": "death",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:病人|びょうにん",
+      "japanese": "病人",
+      "japaneseSegments": [
+        {
+          "base": "病人",
+          "reading": "びょうにん"
+        }
+      ],
+      "reading": "びょうにん",
+      "romaji": "byōnin",
+      "meaning": "sick person; patient",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:れる・られる",
+      "pattern": "れる・られる",
+      "patternSegments": [
+        {
+          "text": "れる・られる"
+        }
+      ],
+      "explanation": "This pattern forms the passive, presenting the subject as receiving an action. Here, the bombs are described as being dropped.",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:たり〜たりする",
+      "pattern": "たり〜たりする",
+      "patternSegments": [
+        {
+          "text": "たり〜たりする"
+        }
+      ],
+      "explanation": "This pattern lists representative actions without implying that the list is exhaustive. Each verb takes its past plain form followed by the listing ending.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:という",
+      "pattern": "という",
+      "patternSegments": [
+        {
+          "text": "という"
+        }
+      ],
+      "explanation": "This pattern introduces a name or designation, meaning called. With a following topic expression, it can introduce a definition.",
+      "firstPassage": 1,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "grammar:動詞ます形+続ける",
+      "pattern": "動詞ます形＋続ける",
+      "patternSegments": [
+        {
+          "base": "動詞",
+          "reading": "どうし"
+        },
+        {
+          "text": "ます"
+        },
+        {
+          "base": "形",
+          "reading": "けい"
+        },
+        {
+          "text": "＋"
+        },
+        {
+          "base": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "explanation": "This pattern attaches to a verb's polite-form stem to mean continuing to perform that action.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:くらい",
+      "pattern": "くらい",
+      "patternSegments": [
+        {
+          "text": "くらい"
+        }
+      ],
+      "explanation": "This pattern expresses degree, meaning to such an extent that. The preceding clause shows how great that degree is.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:のでしょうか",
+      "pattern": "のでしょうか",
+      "patternSegments": [
+        {
+          "text": "のでしょうか"
+        }
+      ],
+      "explanation": "This pattern poses a reflective question, often conveying I wonder and inviting the reader to consider an explanation.",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:からです",
+      "pattern": "からです",
+      "patternSegments": [
+        {
+          "text": "からです"
+        }
+      ],
+      "explanation": "This pattern gives the reason for the preceding statement, meaning it is because.",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:ために",
+      "pattern": "ために",
+      "patternSegments": [
+        {
+          "text": "ために"
+        }
+      ],
+      "explanation": "This pattern follows a dictionary-form verb to express purpose, meaning in order to.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:のに",
+      "pattern": "のに",
+      "patternSegments": [
+        {
+          "text": "のに"
+        }
+      ],
+      "explanation": "This pattern connects a fact with an unexpected or contrasting result, meaning although or despite.",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:形容詞語幹+そう",
+      "pattern": "形容詞語幹＋そう",
+      "patternSegments": [
+        {
+          "base": "形容詞語幹",
+          "reading": "けいようしごかん"
+        },
+        {
+          "text": "＋そう"
+        }
+      ],
+      "explanation": "This pattern attaches to an adjective stem to describe an apparent condition, meaning looks or seems.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ので",
+      "pattern": "ので",
+      "patternSegments": [
+        {
+          "text": "ので"
+        }
+      ],
+      "explanation": "This pattern introduces a reason or cause for the following statement, meaning because or since.",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:だろう",
+      "pattern": "だろう",
+      "patternSegments": [
+        {
+          "text": "だろう"
+        }
+      ],
+      "explanation": "This pattern expresses a prediction or supposition. Here it appears inside a reported thought about what Takashi would probably do.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:疑問節+か",
+      "pattern": "疑問節＋か",
+      "patternSegments": [
+        {
+          "base": "疑問節",
+          "reading": "ぎもんせつ"
+        },
+        {
+          "text": "＋か"
+        }
+      ],
+      "explanation": "This pattern embeds a question within a larger sentence, allowing expressions such as knowing what will happen.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:だけでなく",
+      "pattern": "だけでなく",
+      "patternSegments": [
+        {
+          "text": "だけでなく"
+        }
+      ],
+      "explanation": "This pattern means not only and introduces something additional to the preceding item.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:普通形+そうです",
+      "pattern": "普通形＋そうです",
+      "patternSegments": [
+        {
+          "base": "普通形",
+          "reading": "ふつうけい"
+        },
+        {
+          "text": "＋そうです"
+        }
+      ],
+      "explanation": "This pattern follows a complete plain-form statement to report information heard from another source, meaning it is said that.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:のです",
+      "pattern": "のです",
+      "patternSegments": [
+        {
+          "text": "のです"
+        }
+      ],
+      "explanation": "This pattern gives a statement explanatory emphasis. Here it highlights the later bombing as a significant fact in the narrative.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-nakereba naranai",
+      "pattern": "V-nakereba naranai",
+      "patternSegments": [
+        {
+          "text": "なければならない"
+        }
+      ],
+      "explanation": "This pattern expresses necessity or obligation: must do something. Polite and past forms retain the same meaning.",
+      "firstPassage": 4,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:V-te shimau",
+      "pattern": "V-te shimau",
+      "patternSegments": [
+        {
+          "text": "てしまう"
+        }
+      ],
+      "explanation": "This pattern presents an action or change as completed, often with a sense of regret or an unwanted outcome.",
+      "firstPassage": 4,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "grammar:N to shite",
+      "pattern": "N to shite",
+      "patternSegments": [
+        {
+          "text": "として"
+        }
+      ],
+      "explanation": "This pattern identifies the role or capacity in which someone acts.",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:tame ni",
+      "pattern": "tame ni",
+      "patternSegments": [
+        {
+          "text": "ために"
+        }
+      ],
+      "explanation": "This pattern expresses purpose after a dictionary-form verb or a noun linked by a possessive particle. With an event noun, it can also express a cause.",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:dake de wa naku",
+      "pattern": "dake de wa naku",
+      "patternSegments": [
+        {
+          "text": "だけではなく"
+        }
+      ],
+      "explanation": "This pattern adds another group or item to the first: not only one, but also another.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:plain form sou da",
+      "pattern": "plain form sou da",
+      "patternSegments": [
+        {
+          "text": "そうだ"
+        }
+      ],
+      "explanation": "After a plain-form clause, this pattern reports information received from another source: reportedly or it is said that.",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:to iu N",
+      "pattern": "to iu N",
+      "patternSegments": [
+        {
+          "text": "という"
+        }
+      ],
+      "explanation": "This pattern introduces the name or designation of the noun that follows.",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N no sei de",
+      "pattern": "N no sei de",
+      "patternSegments": [
+        {
+          "text": "のせいで"
+        }
+      ],
+      "explanation": "This pattern attributes an undesirable result to a cause, often conveying blame.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te kureru",
+      "pattern": "V-te kureru",
+      "patternSegments": [
+        {
+          "text": "てくれる"
+        }
+      ],
+      "explanation": "This pattern describes someone doing something beneficial for the speaker or a person whose perspective the narrative adopts.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:donna koto ga atte mo",
+      "pattern": "donna koto ga atte mo",
+      "patternSegments": [
+        {
+          "text": "どんなことがあっても"
+        }
+      ],
+      "explanation": "This pattern means whatever happens, presenting the following statement as true regardless of circumstances.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:shika negative",
+      "pattern": "shika negative",
+      "patternSegments": [
+        {
+          "text": "しか"
+        }
+      ],
+      "explanation": "This pattern combines a limiting particle with a negative predicate to mean only, emphasizing that nothing beyond the stated amount is possible.",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ru yotei da",
+      "pattern": "V-ru yotei da",
+      "patternSegments": [
+        {
+          "base": "予定",
+          "reading": "よてい"
+        },
+        {
+          "text": "だ"
+        }
+      ],
+      "explanation": "After a dictionary-form verb, this pattern expresses a plan or scheduled action.",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V passive",
+      "pattern": "V passive",
+      "patternSegments": [
+        {
+          "text": "れる・られる"
+        }
+      ],
+      "explanation": "This pattern presents the subject as receiving an action. Here the bombs are described as being dropped.",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:kurai no",
+      "pattern": "kurai no",
+      "patternSegments": [
+        {
+          "text": "くらいの"
+        }
+      ],
+      "explanation": "This pattern uses the preceding situation to express the degree of the following quality, such as brightness or loudness.",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:verb-stem + きれない",
+      "pattern": "verb-stem + きれない",
+      "patternSegments": [
+        {
+          "text": "verb-stem + きれない"
+        }
+      ],
+      "explanation": "This pattern expresses being unable to complete an action fully, often because the amount is too great. Here, the people are too numerous to count.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:verb-stem + ながら",
+      "pattern": "verb-stem + ながら",
+      "patternSegments": [
+        {
+          "text": "verb-stem + ながら"
+        }
+      ],
+      "explanation": "This pattern connects two actions or conditions occurring at the same time, usually involving the same subject.",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:せいで",
+      "pattern": "せいで",
+      "patternSegments": [
+        {
+          "text": "せいで"
+        }
+      ],
+      "explanation": "This pattern identifies the cause of an undesirable result, often with a sense of blame.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:verb-stem + 続ける",
+      "pattern": "verb-stem + 続ける",
+      "patternSegments": [
+        {
+          "text": "verb-stem + "
+        },
+        {
+          "base": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "explanation": "This pattern attaches to a verb stem to express continuing to perform that action.",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:past-verb + ほうがいい",
+      "pattern": "past-verb + ほうがいい",
+      "patternSegments": [
+        {
+          "text": "past-verb + ほうがいい"
+        }
+      ],
+      "explanation": "This pattern gives advice, meaning that someone should or had better perform an action. The past verb form does not indicate past time here.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:plain-clause + そうだ",
+      "pattern": "plain-clause + そうだ",
+      "patternSegments": [
+        {
+          "text": "plain-clause + そうだ"
+        }
+      ],
+      "explanation": "This pattern reports information heard from another source, meaning it is said that or reportedly. Here it follows a complete past-tense clause.",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:どんなに + clause + か",
+      "pattern": "どんなに + clause + か",
+      "patternSegments": [
+        {
+          "text": "どんなに + clause + か"
+        }
+      ],
+      "explanation": "This pattern emphasizes the extent or degree of something, meaning how much or how very. Here, three concluding clauses state what Takashi wanted to convey.",
+      "firstPassage": 10,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:ta hou ga ii",
+      "pattern": "ta hou ga ii",
+      "patternSegments": [
+        {
+          "text": "〜たほうがいい"
+        }
+      ],
+      "explanation": "After a verb in the past form, this pattern gives advice: it would be better to do something.",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:donna ni ... darou ka",
+      "pattern": "donna ni ... darou ka",
+      "patternSegments": [
+        {
+          "text": "どんなに〜だろうか／でしょうか"
+        }
+      ],
+      "explanation": "This pattern expresses wonder at the degree of a feeling or state. Here it conveys how happy the people must have been.",
+      "firstPassage": 11,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ta mama",
+      "pattern": "ta mama",
+      "patternSegments": [
+        {
+          "text": "〜たまま"
+        }
+      ],
+      "explanation": "After a verb in the past form, this pattern indicates that a resulting state remains unchanged while another action takes place.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:nakereba naranai",
+      "pattern": "nakereba naranai",
+      "patternSegments": [
+        {
+          "text": "〜なければならない"
+        }
+      ],
+      "explanation": "This pattern expresses necessity or obligation: must or have to. Here it describes the unavoidable prospect of death.",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:plain form sou da hearsay",
+      "pattern": "plain form sou da hearsay",
+      "patternSegments": [
+        {
+          "text": "〜そうだ／そうです"
+        }
+      ],
+      "explanation": "After a plain-form clause, this pattern reports information heard from others: it is said that or apparently.",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:quantity mo no",
+      "pattern": "quantity mo no",
+      "patternSegments": [
+        {
+          "text": "〜もの"
+        }
+      ],
+      "explanation": "After a quantity, this pattern emphasizes that the number is strikingly large: as many as.",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:no de wa naku",
+      "pattern": "no de wa naku",
+      "patternSegments": [
+        {
+          "text": "〜のではなく"
+        }
+      ],
+      "explanation": "This pattern rejects one explanation or alternative and introduces another. Here it contrasts two possible sources of peace.",
+      "firstPassage": 15,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:de arinagara",
+      "pattern": "de arinagara",
+      "patternSegments": [
+        {
+          "text": "〜でありながら"
+        }
+      ],
+      "explanation": "After a noun, this pattern expresses a contrast between a state and an unexpected action: despite being.",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    }
+  ]
+}
