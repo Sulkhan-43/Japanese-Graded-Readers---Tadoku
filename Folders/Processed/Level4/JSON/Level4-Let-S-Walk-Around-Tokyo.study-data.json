@@ -1,0 +1,2029 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:政治|せいじ",
+      "japanese": "政治",
+      "japaneseSegments": [
+        {
+          "base": "政治",
+          "reading": "せいじ"
+        }
+      ],
+      "reading": "せいじ",
+      "romaji": "seiji",
+      "meaning": "politics; government",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:天皇|てんのう",
+      "japanese": "天皇",
+      "japaneseSegments": [
+        {
+          "base": "天皇",
+          "reading": "てんのう"
+        }
+      ],
+      "reading": "てんのう",
+      "romaji": "tennō",
+      "meaning": "emperor of Japan",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:漁村|ぎょそん",
+      "japanese": "漁村",
+      "japaneseSegments": [
+        {
+          "base": "漁村",
+          "reading": "ぎょそん"
+        }
+      ],
+      "reading": "ぎょそん",
+      "romaji": "gyoson",
+      "meaning": "fishing village",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:武士|ぶし",
+      "japanese": "武士",
+      "japaneseSegments": [
+        {
+          "base": "武士",
+          "reading": "ぶし"
+        }
+      ],
+      "reading": "ぶし",
+      "romaji": "bushi",
+      "meaning": "warrior; samurai",
+      "firstPassage": 1,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:与える|あたえる",
+      "japanese": "与える",
+      "japaneseSegments": [
+        {
+          "base": "与",
+          "reading": "あた"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "reading": "あたえる",
+      "romaji": "ataeru",
+      "meaning": "to give; to grant",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:征夷大将軍|せいいたいしょうぐん",
+      "japanese": "征夷大将軍",
+      "japaneseSegments": [
+        {
+          "base": "征夷大将軍",
+          "reading": "せいいたいしょうぐん"
+        }
+      ],
+      "reading": "せいいたいしょうぐん",
+      "romaji": "seii taishōgun",
+      "meaning": "shogun; title granted to Japan's military ruler",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:幕府|ばくふ",
+      "japanese": "幕府",
+      "japaneseSegments": [
+        {
+          "base": "幕府",
+          "reading": "ばくふ"
+        }
+      ],
+      "reading": "ばくふ",
+      "romaji": "bakufu",
+      "meaning": "shogunate; military government",
+      "firstPassage": 1,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:藩|はん",
+      "japanese": "藩",
+      "japaneseSegments": [
+        {
+          "base": "藩",
+          "reading": "はん"
+        }
+      ],
+      "reading": "はん",
+      "romaji": "han",
+      "meaning": "feudal domain",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:地位|ちい",
+      "japanese": "地位",
+      "japaneseSegments": [
+        {
+          "base": "地位",
+          "reading": "ちい"
+        }
+      ],
+      "reading": "ちい",
+      "romaji": "chii",
+      "meaning": "rank; social position",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大名|だいみょう",
+      "japanese": "大名",
+      "japaneseSegments": [
+        {
+          "base": "大名",
+          "reading": "だいみょう"
+        }
+      ],
+      "reading": "だいみょう",
+      "romaji": "daimyō",
+      "meaning": "feudal lord",
+      "firstPassage": 1,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:参勤交代|さんきんこうたい",
+      "japanese": "参勤交代",
+      "japaneseSegments": [
+        {
+          "base": "参勤交代",
+          "reading": "さんきんこうたい"
+        }
+      ],
+      "reading": "さんきんこうたい",
+      "romaji": "sankin kōtai",
+      "meaning": "alternate attendance, requiring daimyo to alternate residence between their domains and Edo",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:家来|けらい",
+      "japanese": "家来",
+      "japaneseSegments": [
+        {
+          "base": "家来",
+          "reading": "けらい"
+        }
+      ],
+      "reading": "けらい",
+      "romaji": "kerai",
+      "meaning": "retainer; a lord's follower",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:町人|ちょうにん",
+      "japanese": "町人",
+      "japaneseSegments": [
+        {
+          "base": "町人",
+          "reading": "ちょうにん"
+        }
+      ],
+      "reading": "ちょうにん",
+      "romaji": "chōnin",
+      "meaning": "townspeople, especially merchants and artisans in Edo society",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:商人|しょうにん",
+      "japanese": "商人",
+      "japaneseSegments": [
+        {
+          "base": "商人",
+          "reading": "しょうにん"
+        }
+      ],
+      "reading": "しょうにん",
+      "romaji": "shōnin",
+      "meaning": "merchant",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:職人|しょくにん",
+      "japanese": "職人",
+      "japaneseSegments": [
+        {
+          "base": "職人",
+          "reading": "しょくにん"
+        }
+      ],
+      "reading": "しょくにん",
+      "romaji": "shokunin",
+      "meaning": "artisan; craftsperson",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:人口|じんこう",
+      "japanese": "人口",
+      "japaneseSegments": [
+        {
+          "base": "人口",
+          "reading": "じんこう"
+        }
+      ],
+      "reading": "じんこう",
+      "romaji": "jinkō",
+      "meaning": "population",
+      "firstPassage": 1,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:下町|したまち",
+      "japanese": "下町",
+      "japaneseSegments": [
+        {
+          "base": "下町",
+          "reading": "したまち"
+        }
+      ],
+      "reading": "したまち",
+      "romaji": "shitamachi",
+      "meaning": "traditional low-lying district where merchants and artisans lived",
+      "firstPassage": 1,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "vocabulary:鎖国|さこく",
+      "japanese": "鎖国",
+      "japaneseSegments": [
+        {
+          "base": "鎖国",
+          "reading": "さこく"
+        }
+      ],
+      "reading": "さこく",
+      "romaji": "sakoku",
+      "meaning": "national isolation; restriction of foreign relations",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:貿易|ぼうえき",
+      "japanese": "貿易",
+      "japaneseSegments": [
+        {
+          "base": "貿易",
+          "reading": "ぼうえき"
+        }
+      ],
+      "reading": "ぼうえき",
+      "romaji": "bōeki",
+      "meaning": "international trade",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:反対する|はんたいする",
+      "japanese": "反対する",
+      "japaneseSegments": [
+        {
+          "base": "反対",
+          "reading": "はんたい"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "reading": "はんたいする",
+      "romaji": "hantai suru",
+      "meaning": "to oppose; to object",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:倒れる|たおれる",
+      "japanese": "倒れる",
+      "japaneseSegments": [
+        {
+          "base": "倒",
+          "reading": "たお"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "たおれる",
+      "romaji": "taoreru",
+      "meaning": "to fall; to collapse, including a government",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:皇居|こうきょ",
+      "japanese": "皇居",
+      "japaneseSegments": [
+        {
+          "base": "皇居",
+          "reading": "こうきょ"
+        }
+      ],
+      "reading": "こうきょ",
+      "romaji": "kōkyo",
+      "meaning": "Imperial Palace",
+      "firstPassage": 2,
+      "occurrenceCount": 9
+    },
+    {
+      "key": "vocabulary:政府|せいふ",
+      "japanese": "政府",
+      "japaneseSegments": [
+        {
+          "base": "政府",
+          "reading": "せいふ"
+        }
+      ],
+      "reading": "せいふ",
+      "romaji": "seifu",
+      "meaning": "government",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:西洋|せいよう",
+      "japanese": "西洋",
+      "japaneseSegments": [
+        {
+          "base": "西洋",
+          "reading": "せいよう"
+        }
+      ],
+      "reading": "せいよう",
+      "romaji": "seiyō",
+      "meaning": "the West; Western countries",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:工業|こうぎょう",
+      "japanese": "工業",
+      "japaneseSegments": [
+        {
+          "base": "工業",
+          "reading": "こうぎょう"
+        }
+      ],
+      "reading": "こうぎょう",
+      "romaji": "kōgyō",
+      "meaning": "industry; manufacturing",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:力を入れる|ちからをいれる",
+      "japanese": "力を入れる",
+      "japaneseSegments": [
+        {
+          "base": "力",
+          "reading": "ちから"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "base": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "reading": "ちからをいれる",
+      "romaji": "chikara o ireru",
+      "meaning": "to put effort into; to focus on",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:湾岸|わんがん",
+      "japanese": "湾岸",
+      "japaneseSegments": [
+        {
+          "base": "湾岸",
+          "reading": "わんがん"
+        }
+      ],
+      "reading": "わんがん",
+      "romaji": "wangan",
+      "meaning": "bay shore; waterfront around a bay",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:関東大震災|かんとうだいしんさい",
+      "japanese": "関東大震災",
+      "japaneseSegments": [
+        {
+          "base": "関東大震災",
+          "reading": "かんとうだいしんさい"
+        }
+      ],
+      "reading": "かんとうだいしんさい",
+      "romaji": "Kantō Daishinsai",
+      "meaning": "Great Kanto Earthquake",
+      "firstPassage": 2,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "vocabulary:東京大空襲|とうきょうだいくうしゅう",
+      "japanese": "東京大空襲",
+      "japaneseSegments": [
+        {
+          "base": "東京大空襲",
+          "reading": "とうきょうだいくうしゅう"
+        }
+      ],
+      "reading": "とうきょうだいくうしゅう",
+      "romaji": "Tōkyō Daikūshū",
+      "meaning": "Great Tokyo Air Raid",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:燃える|もえる",
+      "japanese": "燃える",
+      "japaneseSegments": [
+        {
+          "base": "燃",
+          "reading": "も"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "reading": "もえる",
+      "romaji": "moeru",
+      "meaning": "to burn",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:すっかり|すっかり",
+      "japanese": "すっかり",
+      "japaneseSegments": [
+        {
+          "text": "すっかり"
+        }
+      ],
+      "reading": "すっかり",
+      "romaji": "sukkari",
+      "meaning": "completely; entirely",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:爆弾|ばくだん",
+      "japanese": "爆弾",
+      "japaneseSegments": [
+        {
+          "base": "爆弾",
+          "reading": "ばくだん"
+        }
+      ],
+      "reading": "ばくだん",
+      "romaji": "bakudan",
+      "meaning": "bomb",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:戦後|せんご",
+      "japanese": "戦後",
+      "japaneseSegments": [
+        {
+          "base": "戦後",
+          "reading": "せんご"
+        }
+      ],
+      "reading": "せんご",
+      "romaji": "sengo",
+      "meaning": "postwar; after the war",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:新幹線|しんかんせん",
+      "japanese": "新幹線",
+      "japaneseSegments": [
+        {
+          "base": "新幹線",
+          "reading": "しんかんせん"
+        }
+      ],
+      "reading": "しんかんせん",
+      "romaji": "shinkansen",
+      "meaning": "Shinkansen; Japan's high-speed railway",
+      "firstPassage": 2,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:発展する|はってんする",
+      "japanese": "発展する",
+      "japaneseSegments": [
+        {
+          "base": "発展",
+          "reading": "はってん"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "reading": "はってんする",
+      "romaji": "hatten suru",
+      "meaning": "to develop; to grow",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:開通|かいつう",
+      "japanese": "開通",
+      "japaneseSegments": [
+        {
+          "base": "開通",
+          "reading": "かいつう"
+        }
+      ],
+      "reading": "かいつう",
+      "romaji": "kaitsū",
+      "meaning": "opening of a transport route to service",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:玄関|げんかん",
+      "japanese": "玄関",
+      "japaneseSegments": [
+        {
+          "base": "玄関",
+          "reading": "げんかん"
+        }
+      ],
+      "reading": "げんかん",
+      "romaji": "genkan",
+      "meaning": "entrance; figuratively, a city's gateway",
+      "firstPassage": 3,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:周辺|しゅうへん",
+      "japanese": "周辺",
+      "japaneseSegments": [
+        {
+          "base": "周辺",
+          "reading": "しゅうへん"
+        }
+      ],
+      "reading": "しゅうへん",
+      "romaji": "shūhen",
+      "meaning": "surrounding area; vicinity",
+      "firstPassage": 3,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:将軍|しょうぐん",
+      "japanese": "将軍",
+      "japaneseSegments": [
+        {
+          "base": "将軍",
+          "reading": "しょうぐん"
+        }
+      ],
+      "reading": "しょうぐん",
+      "romaji": "shōgun",
+      "meaning": "shogun; military ruler",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:堀|ほり",
+      "japanese": "堀",
+      "japaneseSegments": [
+        {
+          "base": "堀",
+          "reading": "ほり"
+        }
+      ],
+      "reading": "ほり",
+      "romaji": "hori",
+      "meaning": "moat",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:二重|にじゅう",
+      "japanese": "二重",
+      "japaneseSegments": [
+        {
+          "base": "二重",
+          "reading": "にじゅう"
+        }
+      ],
+      "reading": "にじゅう",
+      "romaji": "nijū",
+      "meaning": "double; in two layers or rings",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:火事|かじ",
+      "japanese": "火事",
+      "japaneseSegments": [
+        {
+          "base": "火事",
+          "reading": "かじ"
+        }
+      ],
+      "reading": "かじ",
+      "romaji": "kaji",
+      "meaning": "fire; destructive blaze",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:庭園|ていえん",
+      "japanese": "庭園",
+      "japaneseSegments": [
+        {
+          "base": "庭園",
+          "reading": "ていえん"
+        }
+      ],
+      "reading": "ていえん",
+      "romaji": "teien",
+      "meaning": "landscaped garden",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:無料|むりょう",
+      "japanese": "無料",
+      "japaneseSegments": [
+        {
+          "base": "無料",
+          "reading": "むりょう"
+        }
+      ],
+      "reading": "むりょう",
+      "romaji": "muryō",
+      "meaning": "free of charge",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:水路|すいろ",
+      "japanese": "水路",
+      "japaneseSegments": [
+        {
+          "base": "水路",
+          "reading": "すいろ"
+        }
+      ],
+      "reading": "すいろ",
+      "romaji": "suiro",
+      "meaning": "waterway; canal",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:呉服屋|ごふくや",
+      "japanese": "呉服屋",
+      "japaneseSegments": [
+        {
+          "base": "呉服屋",
+          "reading": "ごふくや"
+        }
+      ],
+      "reading": "ごふくや",
+      "romaji": "gofukuya",
+      "meaning": "kimono and traditional fabric shop",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:高速道路|こうそくどうろ",
+      "japanese": "高速道路",
+      "japaneseSegments": [
+        {
+          "base": "高速道路",
+          "reading": "こうそくどうろ"
+        }
+      ],
+      "reading": "こうそくどうろ",
+      "romaji": "kōsoku dōro",
+      "meaning": "expressway",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:銀貨|ぎんか",
+      "japanese": "銀貨",
+      "japaneseSegments": [
+        {
+          "base": "銀貨",
+          "reading": "ぎんか"
+        }
+      ],
+      "reading": "ぎんか",
+      "romaji": "ginka",
+      "meaning": "silver coin",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:柳|やなぎ",
+      "japanese": "柳",
+      "japaneseSegments": [
+        {
+          "base": "柳",
+          "reading": "やなぎ"
+        }
+      ],
+      "reading": "やなぎ",
+      "romaji": "yanagi",
+      "meaning": "willow",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:商店街|しょうてんがい",
+      "japanese": "商店街",
+      "japaneseSegments": [
+        {
+          "base": "商店街",
+          "reading": "しょうてんがい"
+        }
+      ],
+      "reading": "しょうてんがい",
+      "romaji": "shōtengai",
+      "meaning": "shopping street; shopping district",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:伝統芸能|でんとうげいのう",
+      "japanese": "伝統芸能",
+      "japaneseSegments": [
+        {
+          "base": "伝統芸能",
+          "reading": "でんとうげいのう"
+        }
+      ],
+      "reading": "でんとうげいのう",
+      "romaji": "dentō geinō",
+      "meaning": "traditional performing arts",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:衆議院|しゅうぎいん",
+      "japanese": "衆議院",
+      "japaneseSegments": [
+        {
+          "base": "衆議院",
+          "reading": "しゅうぎいん"
+        }
+      ],
+      "reading": "しゅうぎいん",
+      "romaji": "Shūgiin",
+      "meaning": "House of Representatives",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:参議院|さんぎいん",
+      "japanese": "参議院",
+      "japaneseSegments": [
+        {
+          "base": "参議院",
+          "reading": "さんぎいん"
+        }
+      ],
+      "reading": "さんぎいん",
+      "romaji": "Sangiin",
+      "meaning": "House of Councillors",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:首相官邸|しゅしょうかんてい",
+      "japanese": "首相官邸",
+      "japaneseSegments": [
+        {
+          "base": "首相官邸",
+          "reading": "しゅしょうかんてい"
+        }
+      ],
+      "reading": "しゅしょうかんてい",
+      "romaji": "Shushō Kantei",
+      "meaning": "Prime Minister's Office",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:法務省|ほうむしょう",
+      "japanese": "法務省",
+      "japaneseSegments": [
+        {
+          "base": "法務省",
+          "reading": "ほうむしょう"
+        }
+      ],
+      "reading": "ほうむしょう",
+      "romaji": "Hōmushō",
+      "meaning": "Ministry of Justice",
+      "firstPassage": 6,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:目を引く|めをひく",
+      "japanese": "目を引く",
+      "japaneseSegments": [
+        {
+          "base": "目",
+          "reading": "め"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "base": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "reading": "めをひく",
+      "romaji": "me o hiku",
+      "meaning": "to catch the eye; attract attention",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:提灯|ちょうちん",
+      "japanese": "提灯",
+      "japaneseSegments": [
+        {
+          "base": "提灯",
+          "reading": "ちょうちん"
+        }
+      ],
+      "reading": "ちょうちん",
+      "romaji": "chōchin",
+      "meaning": "paper lantern",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:神輿|みこし",
+      "japanese": "神輿",
+      "japaneseSegments": [
+        {
+          "base": "神輿",
+          "reading": "みこし"
+        }
+      ],
+      "reading": "みこし",
+      "romaji": "mikoshi",
+      "meaning": "portable shrine carried in a festival",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:服装|ふくそう",
+      "japanese": "服装",
+      "japaneseSegments": [
+        {
+          "base": "服装",
+          "reading": "ふくそう"
+        }
+      ],
+      "reading": "ふくそう",
+      "romaji": "fukusō",
+      "meaning": "clothing; dress",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:花火大会|はなびたいかい",
+      "japanese": "花火大会",
+      "japaneseSegments": [
+        {
+          "base": "花火大会",
+          "reading": "はなびたいかい"
+        }
+      ],
+      "reading": "はなびたいかい",
+      "romaji": "hanabi taikai",
+      "meaning": "fireworks display",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:相撲|すもう",
+      "japanese": "相撲",
+      "japaneseSegments": [
+        {
+          "base": "相撲",
+          "reading": "すもう"
+        }
+      ],
+      "reading": "すもう",
+      "romaji": "sumō",
+      "meaning": "sumo wrestling",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:力士|りきし",
+      "japanese": "力士",
+      "japaneseSegments": [
+        {
+          "base": "力士",
+          "reading": "りきし"
+        }
+      ],
+      "reading": "りきし",
+      "romaji": "rikishi",
+      "meaning": "sumo wrestler",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:相撲部屋|すもうべや",
+      "japanese": "相撲部屋",
+      "japaneseSegments": [
+        {
+          "base": "相撲部屋",
+          "reading": "すもうべや"
+        }
+      ],
+      "reading": "すもうべや",
+      "romaji": "sumōbeya",
+      "meaning": "sumo stable where wrestlers train and live",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:浴衣|ゆかた",
+      "japanese": "浴衣",
+      "japaneseSegments": [
+        {
+          "base": "浴衣",
+          "reading": "ゆかた"
+        }
+      ],
+      "reading": "ゆかた",
+      "romaji": "yukata",
+      "meaning": "light cotton kimono",
+      "firstPassage": 9,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:模型|もけい",
+      "japanese": "模型",
+      "japaneseSegments": [
+        {
+          "base": "模型",
+          "reading": "もけい"
+        }
+      ],
+      "reading": "もけい",
+      "romaji": "mokei",
+      "meaning": "model; miniature replica",
+      "firstPassage": 9,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:花見客|はなみきゃく",
+      "japanese": "花見客",
+      "japaneseSegments": [
+        {
+          "base": "花見客",
+          "reading": "はなみきゃく"
+        }
+      ],
+      "reading": "はなみきゃく",
+      "romaji": "hanami-kyaku",
+      "meaning": "visitors viewing cherry blossoms",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:受験生|じゅけんせい",
+      "japanese": "受験生",
+      "japaneseSegments": [
+        {
+          "base": "受験生",
+          "reading": "じゅけんせい"
+        }
+      ],
+      "reading": "じゅけんせい",
+      "romaji": "jukensei",
+      "meaning": "student preparing for or taking an entrance examination",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:合格|ごうかく",
+      "japanese": "合格",
+      "japaneseSegments": [
+        {
+          "base": "合格",
+          "reading": "ごうかく"
+        }
+      ],
+      "reading": "ごうかく",
+      "romaji": "gōkaku",
+      "meaning": "passing an examination",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:祈る|いのる",
+      "japanese": "祈る",
+      "japaneseSegments": [
+        {
+          "base": "祈",
+          "reading": "いの"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "いのる",
+      "romaji": "inoru",
+      "meaning": "to pray",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:電気街|でんきがい",
+      "japanese": "電気街",
+      "japaneseSegments": [
+        {
+          "base": "電気街",
+          "reading": "でんきがい"
+        }
+      ],
+      "reading": "でんきがい",
+      "romaji": "denkigai",
+      "meaning": "electronics shopping district",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:値切る|ねぎる",
+      "japanese": "値切る",
+      "japaneseSegments": [
+        {
+          "base": "値切",
+          "reading": "ねぎ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "reading": "ねぎる",
+      "romaji": "negiru",
+      "meaning": "to bargain over a price; haggle",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:数え切れない|かぞえきれない",
+      "japanese": "数え切れない",
+      "japaneseSegments": [
+        {
+          "base": "数",
+          "reading": "かぞ"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "base": "切",
+          "reading": "き"
+        },
+        {
+          "text": "れない"
+        }
+      ],
+      "reading": "かぞえきれない",
+      "romaji": "kazoekirenai",
+      "meaning": "too numerous to count",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:立体映像|りったいえいぞう",
+      "japanese": "立体映像",
+      "japaneseSegments": [
+        {
+          "base": "立体映像",
+          "reading": "りったいえいぞう"
+        }
+      ],
+      "reading": "りったいえいぞう",
+      "romaji": "rittai eizō",
+      "meaning": "three-dimensional images",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:喫茶店|きっさてん",
+      "japanese": "喫茶店",
+      "japaneseSegments": [
+        {
+          "base": "喫茶店",
+          "reading": "きっさてん"
+        }
+      ],
+      "reading": "きっさてん",
+      "romaji": "kissaten",
+      "meaning": "cafe; coffee shop",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:利用者数|りようしゃすう",
+      "japanese": "利用者数",
+      "japaneseSegments": [
+        {
+          "base": "利用者数",
+          "reading": "りようしゃすう"
+        }
+      ],
+      "reading": "りようしゃすう",
+      "romaji": "riyōshasū",
+      "meaning": "number of users",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:都庁|とちょう",
+      "japanese": "都庁",
+      "japaneseSegments": [
+        {
+          "base": "都庁",
+          "reading": "とちょう"
+        }
+      ],
+      "reading": "とちょう",
+      "romaji": "tochō",
+      "meaning": "metropolitan government office",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:居酒屋|いざかや",
+      "japanese": "居酒屋",
+      "japaneseSegments": [
+        {
+          "base": "居酒屋",
+          "reading": "いざかや"
+        }
+      ],
+      "reading": "いざかや",
+      "romaji": "izakaya",
+      "meaning": "Japanese pub serving food",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:水族館|すいぞくかん",
+      "japanese": "水族館",
+      "japaneseSegments": [
+        {
+          "base": "水族館",
+          "reading": "すいぞくかん"
+        }
+      ],
+      "reading": "すいぞくかん",
+      "romaji": "suizokukan",
+      "meaning": "aquarium",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:都電|とでん",
+      "japanese": "都電",
+      "japaneseSegments": [
+        {
+          "base": "都電",
+          "reading": "とでん"
+        }
+      ],
+      "reading": "とでん",
+      "romaji": "toden",
+      "meaning": "Tokyo metropolitan streetcar",
+      "firstPassage": 12,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "vocabulary:下着|したぎ",
+      "japanese": "下着",
+      "japaneseSegments": [
+        {
+          "base": "下着",
+          "reading": "したぎ"
+        }
+      ],
+      "reading": "したぎ",
+      "romaji": "shitagi",
+      "meaning": "underwear",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:お年寄り|おとしより",
+      "japanese": "お年寄り",
+      "japaneseSegments": [
+        {
+          "text": "お"
+        },
+        {
+          "base": "年寄",
+          "reading": "としよ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "reading": "おとしより",
+      "romaji": "otoshiyori",
+      "meaning": "elderly person",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:最新|さいしん",
+      "japanese": "最新",
+      "japaneseSegments": [
+        {
+          "base": "最新",
+          "reading": "さいしん"
+        }
+      ],
+      "reading": "さいしん",
+      "romaji": "saishin",
+      "meaning": "latest; newest",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:観光地|かんこうち",
+      "japanese": "観光地",
+      "japaneseSegments": [
+        {
+          "base": "観光地",
+          "reading": "かんこうち"
+        }
+      ],
+      "reading": "かんこうち",
+      "romaji": "kankōchi",
+      "meaning": "sightseeing destination",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:展望台|てんぼうだい",
+      "japanese": "展望台",
+      "japaneseSegments": [
+        {
+          "base": "展望台",
+          "reading": "てんぼうだい"
+        }
+      ],
+      "reading": "てんぼうだい",
+      "romaji": "tenbōdai",
+      "meaning": "observation deck",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:特徴的|とくちょうてき",
+      "japanese": "特徴的",
+      "japaneseSegments": [
+        {
+          "base": "特徴的",
+          "reading": "とくちょうてき"
+        }
+      ],
+      "reading": "とくちょうてき",
+      "romaji": "tokuchōteki",
+      "meaning": "distinctive; characteristic",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:電波塔|でんぱとう",
+      "japanese": "電波塔",
+      "japaneseSegments": [
+        {
+          "base": "電波塔",
+          "reading": "でんぱとう"
+        }
+      ],
+      "reading": "でんぱとう",
+      "romaji": "denpatō",
+      "meaning": "radio transmission tower",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:経済|けいざい",
+      "japanese": "経済",
+      "japaneseSegments": [
+        {
+          "base": "経済",
+          "reading": "けいざい"
+        }
+      ],
+      "reading": "けいざい",
+      "romaji": "keizai",
+      "meaning": "economy",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:完成|かんせい",
+      "japanese": "完成",
+      "japaneseSegments": [
+        {
+          "base": "完成",
+          "reading": "かんせい"
+        }
+      ],
+      "reading": "かんせい",
+      "romaji": "kansei",
+      "meaning": "completion",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:予定|よてい",
+      "japanese": "予定",
+      "japaneseSegments": [
+        {
+          "base": "予定",
+          "reading": "よてい"
+        }
+      ],
+      "reading": "よてい",
+      "romaji": "yotei",
+      "meaning": "plan; schedule",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:皇后|こうごう",
+      "japanese": "皇后",
+      "japaneseSegments": [
+        {
+          "base": "皇后",
+          "reading": "こうごう"
+        }
+      ],
+      "reading": "こうごう",
+      "romaji": "kōgō",
+      "meaning": "empress; emperor's wife",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:参道|さんどう",
+      "japanese": "参道",
+      "japaneseSegments": [
+        {
+          "base": "参道",
+          "reading": "さんどう"
+        }
+      ],
+      "reading": "さんどう",
+      "romaji": "sandō",
+      "meaning": "approach to a shrine or temple",
+      "firstPassage": 16,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:鳥居|とりい",
+      "japanese": "鳥居",
+      "japaneseSegments": [
+        {
+          "base": "鳥居",
+          "reading": "とりい"
+        }
+      ],
+      "reading": "とりい",
+      "romaji": "torii",
+      "meaning": "Shinto shrine gateway",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:初詣|はつもうで",
+      "japanese": "初詣",
+      "japaneseSegments": [
+        {
+          "base": "初詣",
+          "reading": "はつもうで"
+        }
+      ],
+      "reading": "はつもうで",
+      "romaji": "hatsumōde",
+      "meaning": "first shrine or temple visit of the New Year",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:浮世絵|うきよえ",
+      "japanese": "浮世絵",
+      "japaneseSegments": [
+        {
+          "base": "浮世絵",
+          "reading": "うきよえ"
+        }
+      ],
+      "reading": "うきよえ",
+      "romaji": "ukiyo-e",
+      "meaning": "traditional Japanese pictures and woodblock prints",
+      "firstPassage": 16,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:影響|えいきょう",
+      "japanese": "影響",
+      "japaneseSegments": [
+        {
+          "base": "影響",
+          "reading": "えいきょう"
+        }
+      ],
+      "reading": "えいきょう",
+      "romaji": "eikyō",
+      "meaning": "influence; effect",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:骨董市|こっとういち",
+      "japanese": "骨董市",
+      "japaneseSegments": [
+        {
+          "base": "骨董市",
+          "reading": "こっとういち"
+        }
+      ],
+      "reading": "こっとういち",
+      "romaji": "kottōichi",
+      "meaning": "antiques market",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:公共放送局|こうきょうほうそうきょく",
+      "japanese": "公共放送局",
+      "japaneseSegments": [
+        {
+          "base": "公共放送局",
+          "reading": "こうきょうほうそうきょく"
+        }
+      ],
+      "reading": "こうきょうほうそうきょく",
+      "romaji": "kōkyō hōsōkyoku",
+      "meaning": "public broadcaster",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:交差点|こうさてん",
+      "japanese": "交差点",
+      "japaneseSegments": [
+        {
+          "base": "交差点",
+          "reading": "こうさてん"
+        }
+      ],
+      "reading": "こうさてん",
+      "romaji": "kōsaten",
+      "meaning": "intersection",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大砲|たいほう",
+      "japanese": "大砲",
+      "japaneseSegments": [
+        {
+          "base": "大砲",
+          "reading": "たいほう"
+        }
+      ],
+      "reading": "たいほう",
+      "romaji": "taihō",
+      "meaning": "cannon",
+      "firstPassage": 18,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:無人電車|むじんでんしゃ",
+      "japanese": "無人電車",
+      "japaneseSegments": [
+        {
+          "base": "無人電車",
+          "reading": "むじんでんしゃ"
+        }
+      ],
+      "reading": "むじんでんしゃ",
+      "romaji": "mujin densha",
+      "meaning": "driverless train",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:砂浜|すなはま",
+      "japanese": "砂浜",
+      "japaneseSegments": [
+        {
+          "base": "砂浜",
+          "reading": "すなはま"
+        }
+      ],
+      "reading": "すなはま",
+      "romaji": "sunahama",
+      "meaning": "sandy beach",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:足湯|あしゆ",
+      "japanese": "足湯",
+      "japaneseSegments": [
+        {
+          "base": "足湯",
+          "reading": "あしゆ"
+        }
+      ],
+      "reading": "あしゆ",
+      "romaji": "ashiyu",
+      "meaning": "footbath",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:首都|しゅと",
+      "japanese": "首都",
+      "japaneseSegments": [
+        {
+          "base": "首都",
+          "reading": "しゅと"
+        }
+      ],
+      "reading": "しゅと",
+      "romaji": "shuto",
+      "meaning": "capital city",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大都市|だいとし",
+      "japanese": "大都市",
+      "japaneseSegments": [
+        {
+          "base": "大都市",
+          "reading": "だいとし"
+        }
+      ],
+      "reading": "だいとし",
+      "romaji": "daitoshi",
+      "meaning": "large city; metropolis",
+      "firstPassage": 19,
+      "occurrenceCount": 1
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:ていく",
+      "pattern": "ていく",
+      "patternSegments": [
+        {
+          "text": "ていく"
+        }
+      ],
+      "explanation": "After a verb's connecting form, this pattern describes an action or change continuing and developing over time.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:なければならない",
+      "pattern": "なければならない",
+      "patternSegments": [
+        {
+          "text": "なければならない"
+        }
+      ],
+      "explanation": "Attach this pattern to a verb's negative stem to express an obligation: must or have to.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ようになる",
+      "pattern": "ようになる",
+      "patternSegments": [
+        {
+          "text": "ようになる"
+        }
+      ],
+      "explanation": "After a dictionary-form verb, this pattern expresses a change into a new situation or behavior: come to do something.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:そうだ",
+      "pattern": "そうだ",
+      "patternSegments": [
+        {
+          "text": "そうだ"
+        }
+      ],
+      "explanation": "After a plain-form clause, this pattern reports information heard from another source: it is said that or apparently.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:意向形+と考える",
+      "pattern": "意向形＋と考える",
+      "patternSegments": [
+        {
+          "base": "意向形",
+          "reading": "いこうけい"
+        },
+        {
+          "text": "＋と"
+        },
+        {
+          "base": "考",
+          "reading": "かんが"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "explanation": "With a volitional verb form, this pattern expresses thinking of doing something or intending to do it.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:ために",
+      "pattern": "ために",
+      "patternSegments": [
+        {
+          "text": "ために"
+        }
+      ],
+      "explanation": "After a dictionary-form verb, this pattern states the purpose of an action: in order to.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:てしまう",
+      "pattern": "てしまう",
+      "patternSegments": [
+        {
+          "text": "てしまう"
+        }
+      ],
+      "explanation": "After a verb's connecting form, this pattern emphasizes completion and can convey regret about an unwanted result.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:と言われている",
+      "pattern": "と言われている",
+      "patternSegments": [
+        {
+          "text": "と"
+        },
+        {
+          "base": "言",
+          "reading": "い"
+        },
+        {
+          "text": "われている"
+        }
+      ],
+      "explanation": "After a plain-form clause, this pattern reports an accepted or commonly repeated claim: it is said that.",
+      "firstPassage": 2,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:意向形",
+      "pattern": "意向形",
+      "patternSegments": [
+        {
+          "base": "意向形",
+          "reading": "いこうけい"
+        }
+      ],
+      "explanation": "Used as an invitation, this pattern proposes doing an action together: let's do something.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Nをはじめ",
+      "pattern": "Nをはじめ",
+      "patternSegments": [
+        {
+          "text": "Nをはじめ"
+        }
+      ],
+      "explanation": "This pattern names a prominent example before referring to other members of the same group: including or starting with.",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Plain form + そうだ",
+      "pattern": "Plain form + そうだ",
+      "patternSegments": [
+        {
+          "text": "Plain form + そうだ"
+        }
+      ],
+      "explanation": "This pattern reports information learned from another source, meaning it is said that or apparently. It follows a complete plain-form clause.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Nさえ",
+      "pattern": "Nさえ",
+      "patternSegments": [
+        {
+          "text": "Nさえ"
+        }
+      ],
+      "explanation": "This pattern means even and emphasizes an unexpected or extreme example. With a negative predicate, it can mean not even.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Plain clause + ため",
+      "pattern": "Plain clause + ため",
+      "patternSegments": [
+        {
+          "text": "Plain clause + ため"
+        }
+      ],
+      "explanation": "This pattern gives the cause of a following result, meaning because or due to. Here it explains why the present buildings date from after the war.",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Dictionary-form verb + ために",
+      "pattern": "Dictionary-form verb + ために",
+      "patternSegments": [
+        {
+          "text": "Dictionary-form verb + ために"
+        }
+      ],
+      "explanation": "This pattern expresses the purpose of an intentional action, meaning in order to.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Plain form + かもしれない",
+      "pattern": "Plain form + かもしれない",
+      "patternSegments": [
+        {
+          "text": "Plain form + かもしれない"
+        }
+      ],
+      "explanation": "This pattern expresses an uncertain possibility, meaning may or might. The polite ending keeps the same meaning.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Plain clause + としたら",
+      "pattern": "Plain clause + としたら",
+      "patternSegments": [
+        {
+          "text": "Plain clause + としたら"
+        }
+      ],
+      "explanation": "This pattern introduces a supposition, meaning if we take it that or assuming that. Here it sets up a comparison between two districts.",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:Clause + ほど",
+      "pattern": "Clause + ほど",
+      "patternSegments": [
+        {
+          "text": "Clause + ほど"
+        }
+      ],
+      "explanation": "This pattern describes the extent or degree of something, meaning to the point that. Here the number of shops is so large that they cannot all be counted.",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-te miru",
+      "pattern": "V-te miru",
+      "patternSegments": [
+        {
+          "text": "Vてみる"
+        }
+      ],
+      "explanation": "This pattern means to try doing something to see what it is like. It also appears in suggestions, requests, and invitations.",
+      "firstPassage": 12,
+      "occurrenceCount": 6
+    },
+    {
+      "key": "grammar:N o hajime",
+      "pattern": "N o hajime",
+      "patternSegments": [
+        {
+          "text": "Nをはじめ"
+        }
+      ],
+      "explanation": "This pattern introduces a representative example from a larger group, meaning including or starting with.",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-dictionary koto ga dekiru",
+      "pattern": "V-dictionary koto ga dekiru",
+      "patternSegments": [
+        {
+          "text": "Vことができる"
+        }
+      ],
+      "explanation": "This pattern follows a dictionary-form verb and expresses the ability or opportunity to perform that action.",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:V-te shimau",
+      "pattern": "V-te shimau",
+      "patternSegments": [
+        {
+          "text": "Vてしまう"
+        }
+      ],
+      "explanation": "This pattern marks an action or change as completed, often with a feeling of regret or an unwanted result.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:plain form + kamoshirenai",
+      "pattern": "plain form + kamoshirenai",
+      "patternSegments": [
+        {
+          "text": "plain form＋かもしれない"
+        }
+      ],
+      "explanation": "This pattern expresses an uncertain possibility, meaning may or might.",
+      "firstPassage": 12,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N ni taishite",
+      "pattern": "N ni taishite",
+      "patternSegments": [
+        {
+          "text": "Nに"
+        },
+        {
+          "base": "対",
+          "reading": "たい"
+        },
+        {
+          "text": "して"
+        }
+      ],
+      "explanation": "This pattern marks something as a point of comparison. Here it means in contrast to.",
+      "firstPassage": 12,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:plain form + sō da",
+      "pattern": "plain form + sō da",
+      "patternSegments": [
+        {
+          "text": "plain form＋そうだ"
+        }
+      ],
+      "explanation": "This pattern reports information learned from another source, meaning reportedly or it is said that.",
+      "firstPassage": 14,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:V-dictionary yotei da",
+      "pattern": "V-dictionary yotei da",
+      "patternSegments": [
+        {
+          "text": "V"
+        },
+        {
+          "base": "予定",
+          "reading": "よてい"
+        },
+        {
+          "text": "だ"
+        }
+      ],
+      "explanation": "This pattern follows a dictionary-form verb and states that an action is planned or scheduled.",
+      "firstPassage": 14,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N to shite",
+      "pattern": "N to shite",
+      "patternSegments": [
+        {
+          "text": "Nとして"
+        }
+      ],
+      "explanation": "This pattern identifies the role or category in which something is considered, meaning as.",
+      "firstPassage": 14,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-tari V-tari",
+      "pattern": "V-tari V-tari",
+      "patternSegments": [
+        {
+          "text": "VたりVたり"
+        }
+      ],
+      "explanation": "This pattern lists representative activities without implying that the list is exhaustive.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N rashii",
+      "pattern": "N rashii",
+      "patternSegments": [
+        {
+          "text": "Nらしい"
+        }
+      ],
+      "explanation": "This pattern describes something as having the qualities typical of the preceding noun.",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-stem + yasui",
+      "pattern": "V-stem + yasui",
+      "patternSegments": [
+        {
+          "text": "V-stem＋やすい"
+        }
+      ],
+      "explanation": "This pattern attaches to a verb stem and means that the action is easy to do.",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-ta mama",
+      "pattern": "V-ta mama",
+      "patternSegments": [
+        {
+          "text": "Vたまま"
+        }
+      ],
+      "explanation": "This pattern indicates that the state resulting from an action remains unchanged during another action.",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:V-stem + nagara",
+      "pattern": "V-stem + nagara",
+      "patternSegments": [
+        {
+          "text": "V-stem＋ながら"
+        }
+      ],
+      "explanation": "This pattern joins two actions performed at the same time by the same subject, meaning while.",
+      "firstPassage": 18,
+      "occurrenceCount": 1
+    }
+  ]
+}

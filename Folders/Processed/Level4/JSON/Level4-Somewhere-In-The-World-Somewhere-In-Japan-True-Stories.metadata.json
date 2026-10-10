@@ -1,0 +1,201 @@
+{
+  "id": "level4-somewhere-in-the-world-somewhere-in-japan-true-stories",
+  "name": "Somewhere in the World, Somewhere in Japan True Stories",
+  "japaneseTitle": "世界のどこかで 日本のどこかで ～本当にあった話～",
+  "slug": "level4-somewhere-in-the-world-somewhere-in-japan-true-stories",
+  "level": "Level 4",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level4-somewhere-in-the-world-somewhere-in-japan-true-stories/source.pdf",
+  "ocrR2Key": "books/level4-somewhere-in-the-world-somewhere-in-japan-true-stories/source-ocr.txt",
+  "coverR2Key": "books/level4-somewhere-in-the-world-somewhere-in-japan-true-stories/cover.jpg",
+  "htmlR2Key": "books/level4-somewhere-in-the-world-somewhere-in-japan-true-stories/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 4491,
+  "createdAt": "2026-10-10T07:50:32.221Z",
+  "updatedAt": "2026-10-10T07:50:32.221Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:盗む|ぬすむ",
+        "japanese": "盗む",
+        "japaneseSegments": [
+          {
+            "base": "盗",
+            "reading": "ぬす"
+          },
+          {
+            "text": "む"
+          }
+        ],
+        "reading": "ぬすむ",
+        "romaji": "nusumu",
+        "meaning": "to steal",
+        "firstPassage": 1,
+        "occurrenceCount": 16
+      },
+      {
+        "key": "vocabulary:犯人|はんにん",
+        "japanese": "犯人",
+        "japaneseSegments": [
+          {
+            "base": "犯人",
+            "reading": "はんにん"
+          }
+        ],
+        "reading": "はんにん",
+        "romaji": "hannin",
+        "meaning": "culprit",
+        "firstPassage": 1,
+        "occurrenceCount": 22
+      },
+      {
+        "key": "vocabulary:捕まる|つかまる",
+        "japanese": "捕まる",
+        "japaneseSegments": [
+          {
+            "base": "捕",
+            "reading": "つか"
+          },
+          {
+            "text": "まる"
+          }
+        ],
+        "reading": "つかまる",
+        "romaji": "tsukamaru",
+        "meaning": "to be caught",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:交換|こうかん",
+        "japanese": "交換",
+        "japaneseSegments": [
+          {
+            "base": "交換",
+            "reading": "こうかん"
+          }
+        ],
+        "reading": "こうかん",
+        "romaji": "kōkan",
+        "meaning": "exchange; trade",
+        "firstPassage": 7,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "vocabulary:救護|きゅうご",
+        "japanese": "救護",
+        "japaneseSegments": [
+          {
+            "base": "救護",
+            "reading": "きゅうご"
+          }
+        ],
+        "reading": "きゅうご",
+        "romaji": "kyūgo",
+        "meaning": "rescue; aid",
+        "firstPassage": 11,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:世話|せわ",
+        "japanese": "世話",
+        "japaneseSegments": [
+          {
+            "base": "世話",
+            "reading": "せわ"
+          }
+        ],
+        "reading": "せわ",
+        "romaji": "sewa",
+        "meaning": "care; looking after someone",
+        "firstPassage": 11,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:大噴火|だいふんか",
+        "japanese": "大噴火",
+        "japaneseSegments": [
+          {
+            "base": "大噴火",
+            "reading": "だいふんか"
+          }
+        ],
+        "reading": "だいふんか",
+        "romaji": "daifunka",
+        "meaning": "major eruption",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:三億円事件|さんおくえんじけん",
+        "japanese": "三億円事件",
+        "japaneseSegments": [
+          {
+            "base": "三億円事件",
+            "reading": "さんおくえんじけん"
+          }
+        ],
+        "reading": "さんおくえんじけん",
+        "romaji": "san'okuen jiken",
+        "meaning": "the three-hundred-million-yen robbery",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:Nai de",
+        "pattern": "Nai de",
+        "patternSegments": [
+          {
+            "text": "nai de"
+          }
+        ],
+        "explanation": "This pattern means doing something without doing the action described by the verb.",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:Koto ni naru",
+        "pattern": "Koto ni naru",
+        "patternSegments": [
+          {
+            "text": "koto ni naru"
+          }
+        ],
+        "explanation": "This pattern describes an outcome that has been decided or comes about.",
+        "firstPassage": 5,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:Tame",
+        "pattern": "Tame",
+        "patternSegments": [
+          {
+            "text": "tame"
+          }
+        ],
+        "explanation": "This pattern gives a purpose or reason, often meaning “for” or “in order to.”",
+        "firstPassage": 1,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "grammar:Noni",
+        "pattern": "Noni",
+        "patternSegments": [
+          {
+            "text": "noni"
+          }
+        ],
+        "explanation": "This pattern marks a contrast between an expectation and what actually happens.",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      }
+    ]
+  }
+}

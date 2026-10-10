@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:季節|きせつ",
+      "japanese": "季節",
+      "japaneseSegments": [
+        {
+          "base": "季節",
+          "reading": "きせつ"
+        }
+      ],
+      "reading": "きせつ",
+      "romaji": "kisetsu",
+      "meaning": "season",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:妹|いもうと",
+      "japanese": "妹",
+      "japaneseSegments": [
+        {
+          "base": "妹",
+          "reading": "いもうと"
+        }
+      ],
+      "reading": "いもうと",
+      "romaji": "imōto",
+      "meaning": "younger sister",
+      "firstPassage": 1,
+      "occurrenceCount": 44
+    },
+    {
+      "key": "vocabulary:思い出す|おもいだす",
+      "japanese": "思い出す",
+      "japaneseSegments": [
+        {
+          "base": "思",
+          "reading": "おも"
+        },
+        {
+          "base": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "reading": "おもいだす",
+      "romaji": "omoidasu",
+      "meaning": "to remember",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:手紙|てがみ",
+      "japanese": "手紙",
+      "japaneseSegments": [
+        {
+          "base": "手紙",
+          "reading": "てがみ"
+        }
+      ],
+      "reading": "てがみ",
+      "romaji": "tegami",
+      "meaning": "letter",
+      "firstPassage": 2,
+      "occurrenceCount": 28
+    },
+    {
+      "key": "vocabulary:恋|こい",
+      "japanese": "恋",
+      "japaneseSegments": [
+        {
+          "base": "恋",
+          "reading": "こい"
+        }
+      ],
+      "reading": "こい",
+      "romaji": "koi",
+      "meaning": "romantic love",
+      "firstPassage": 2,
+      "occurrenceCount": 7
+    },
+    {
+      "key": "vocabulary:口笛|くちぶえ",
+      "japanese": "口笛",
+      "japaneseSegments": [
+        {
+          "base": "口笛",
+          "reading": "くちぶえ"
+        }
+      ],
+      "reading": "くちぶえ",
+      "romaji": "kuchibue",
+      "meaning": "whistle; whistling",
+      "firstPassage": 2,
+      "occurrenceCount": 8
+    },
+    {
+      "key": "vocabulary:詩人|しじん",
+      "japanese": "詩人",
+      "japaneseSegments": [
+        {
+          "base": "詩人",
+          "reading": "しじん"
+        }
+      ],
+      "reading": "しじん",
+      "romaji": "shijin",
+      "meaning": "poet",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:信じる|しんじる",
+      "japanese": "信じる",
+      "japaneseSegments": [
+        {
+          "base": "信",
+          "reading": "しん"
+        },
+        {
+          "text": "じる"
+        }
+      ],
+      "reading": "しんじる",
+      "romaji": "shinjiru",
+      "meaning": "to believe",
+      "firstPassage": 8,
+      "occurrenceCount": 3
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:to naru to",
+      "pattern": "to naru to",
+      "patternSegments": [
+        {
+          "text": "N ni naru to"
+        }
+      ],
+      "explanation": "This pattern means “when it becomes” or “when a certain condition arrives,” often introducing a regular result.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:te mo",
+      "pattern": "te mo",
+      "patternSegments": [
+        {
+          "text": "V-te mo"
+        }
+      ],
+      "explanation": "This pattern means “even if” or “even though,” showing that the following result holds despite the action or condition.",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:tara",
+      "pattern": "tara",
+      "patternSegments": [
+        {
+          "text": "V-tara"
+        }
+      ],
+      "explanation": "This pattern marks a condition meaning “if” or “when” the action happens.",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:te miru",
+      "pattern": "te miru",
+      "patternSegments": [
+        {
+          "text": "V-te miru"
+        }
+      ],
+      "explanation": "This pattern means to try doing something and see what happens.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:te mo ii",
+      "pattern": "te mo ii",
+      "patternSegments": [
+        {
+          "text": "V-te mo ii"
+        }
+      ],
+      "explanation": "This pattern asks or states whether an action is permitted.",
+      "firstPassage": 5,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:shika ... nai",
+      "pattern": "shika ... nai",
+      "patternSegments": [
+        {
+          "text": "N shika V-nai"
+        }
+      ],
+      "explanation": "This pattern means “only” and emphasizes that there is nothing beyond the stated option.",
+      "firstPassage": 6,
+      "occurrenceCount": 4
+    },
+    {
+      "key": "grammar:nakute mo ii",
+      "pattern": "nakute mo ii",
+      "patternSegments": [
+        {
+          "text": "V-nakute mo ii"
+        }
+      ],
+      "explanation": "This pattern means that doing something is not necessary.",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:ba yokatta",
+      "pattern": "ba yokatta",
+      "patternSegments": [
+        {
+          "text": "V-ba yokatta"
+        }
+      ],
+      "explanation": "This pattern expresses regret that something should have been done.",
+      "firstPassage": 7,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:kamo shirenai",
+      "pattern": "kamo shirenai",
+      "patternSegments": [
+        {
+          "text": "V-kamo shirenai"
+        }
+      ],
+      "explanation": "This pattern expresses possibility or uncertainty: “might” or “perhaps.”",
+      "firstPassage": 8,
+      "occurrenceCount": 2
+    }
+  ]
+}

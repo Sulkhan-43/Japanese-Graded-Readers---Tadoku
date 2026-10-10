@@ -1,0 +1,618 @@
+{
+  "id": "level4-roman-holiday",
+  "name": "Roman Holiday",
+  "japaneseTitle": "ローマの休日",
+  "slug": "level4-roman-holiday",
+  "level": "Level 4",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level4-roman-holiday/source.pdf",
+  "ocrR2Key": "books/level4-roman-holiday/source-ocr.txt",
+  "coverR2Key": "books/level4-roman-holiday/cover.jpg",
+  "htmlR2Key": "books/level4-roman-holiday/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 5437,
+  "createdAt": "2026-10-10T07:22:07.882Z",
+  "updatedAt": "2026-10-10T07:22:07.882Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:王女|おうじょ",
+        "japanese": "王女",
+        "japaneseSegments": [
+          {
+            "base": "王女",
+            "reading": "おうじょ"
+          }
+        ],
+        "reading": "おうじょ",
+        "romaji": "ōjo",
+        "meaning": "princess",
+        "firstPassage": 1,
+        "occurrenceCount": 110
+      },
+      {
+        "key": "vocabulary:訪問|ほうもん",
+        "japanese": "訪問",
+        "japaneseSegments": [
+          {
+            "base": "訪問",
+            "reading": "ほうもん"
+          }
+        ],
+        "reading": "ほうもん",
+        "romaji": "hōmon",
+        "meaning": "visit",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:挨拶|あいさつ",
+        "japanese": "挨拶",
+        "japaneseSegments": [
+          {
+            "base": "挨拶",
+            "reading": "あいさつ"
+          }
+        ],
+        "reading": "あいさつ",
+        "romaji": "aisatsu",
+        "meaning": "greeting",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:予定|よてい",
+        "japanese": "予定",
+        "japaneseSegments": [
+          {
+            "base": "予定",
+            "reading": "よてい"
+          }
+        ],
+        "reading": "よてい",
+        "romaji": "yotei",
+        "meaning": "plan; schedule",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:泣く|なく",
+        "japanese": "泣く",
+        "japaneseSegments": [
+          {
+            "base": "泣",
+            "reading": "な"
+          },
+          {
+            "text": "く"
+          }
+        ],
+        "reading": "なく",
+        "romaji": "naku",
+        "meaning": "to cry",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:注射|ちゅうしゃ",
+        "japanese": "注射",
+        "japaneseSegments": [
+          {
+            "base": "注射",
+            "reading": "ちゅうしゃ"
+          }
+        ],
+        "reading": "ちゅうしゃ",
+        "romaji": "chūsha",
+        "meaning": "injection",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:荷台|にだい",
+        "japanese": "荷台",
+        "japaneseSegments": [
+          {
+            "base": "荷台",
+            "reading": "にだい"
+          }
+        ],
+        "reading": "にだい",
+        "romaji": "nidai",
+        "meaning": "cargo bed; truck bed",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:新聞社|しんぶんしゃ",
+        "japanese": "新聞社",
+        "japaneseSegments": [
+          {
+            "base": "新聞社",
+            "reading": "しんぶんしゃ"
+          }
+        ],
+        "reading": "しんぶんしゃ",
+        "romaji": "shinbunsha",
+        "meaning": "newspaper company",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:興味|きょうみ",
+        "japanese": "興味",
+        "japaneseSegments": [
+          {
+            "base": "興味",
+            "reading": "きょうみ"
+          }
+        ],
+        "reading": "きょうみ",
+        "romaji": "kyōmi",
+        "meaning": "interest",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:住所|じゅうしょ",
+        "japanese": "住所",
+        "japaneseSegments": [
+          {
+            "base": "住所",
+            "reading": "じゅうしょ"
+          }
+        ],
+        "reading": "じゅうしょ",
+        "romaji": "jūsho",
+        "meaning": "address",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:支社長|ししゃちょう",
+        "japanese": "支社長",
+        "japaneseSegments": [
+          {
+            "base": "支社長",
+            "reading": "ししゃちょう"
+          }
+        ],
+        "reading": "ししゃちょう",
+        "romaji": "shishachō",
+        "meaning": "branch chief; bureau chief",
+        "firstPassage": 6,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:計画|けいかく",
+        "japanese": "計画",
+        "japaneseSegments": [
+          {
+            "base": "計画",
+            "reading": "けいかく"
+          }
+        ],
+        "reading": "けいかく",
+        "romaji": "keikaku",
+        "meaning": "plan",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:狭い|せまい",
+        "japanese": "狭い",
+        "japaneseSegments": [
+          {
+            "base": "狭",
+            "reading": "せま"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "せまい",
+        "romaji": "semai",
+        "meaning": "narrow; small",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:慌てる|あわてる",
+        "japanese": "慌てる",
+        "japaneseSegments": [
+          {
+            "base": "慌",
+            "reading": "あわ"
+          },
+          {
+            "text": "てる"
+          }
+        ],
+        "reading": "あわてる",
+        "romaji": "awateru",
+        "meaning": "to panic; to be flustered",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:撮影|さつえい",
+        "japanese": "撮影",
+        "japaneseSegments": [
+          {
+            "base": "撮影",
+            "reading": "さつえい"
+          }
+        ],
+        "reading": "さつえい",
+        "romaji": "satsuei",
+        "meaning": "photography; photo shoot",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:必ず|かならず",
+        "japanese": "必ず",
+        "japaneseSegments": [
+          {
+            "base": "必",
+            "reading": "かなら"
+          },
+          {
+            "text": "ず"
+          }
+        ],
+        "reading": "かならず",
+        "romaji": "kanarazu",
+        "meaning": "certainly; definitely",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:美容師|びようし",
+        "japanese": "美容師",
+        "japaneseSegments": [
+          {
+            "base": "美容師",
+            "reading": "びようし"
+          }
+        ],
+        "reading": "びようし",
+        "romaji": "biyōshi",
+        "meaning": "hairdresser",
+        "firstPassage": 8,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:髪型|かみがた",
+        "japanese": "髪型",
+        "japaneseSegments": [
+          {
+            "base": "髪型",
+            "reading": "かみがた"
+          }
+        ],
+        "reading": "かみがた",
+        "romaji": "kamigata",
+        "meaning": "hairstyle",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:身分証明書|みぶんしょうめいしょ",
+        "japanese": "身分証明書",
+        "japaneseSegments": [
+          {
+            "base": "身分証明書",
+            "reading": "みぶんしょうめいしょ"
+          }
+        ],
+        "reading": "みぶんしょうめいしょ",
+        "romaji": "mibun shōmeisho",
+        "meaning": "identification document",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:警察署|けいさつしょ",
+        "japanese": "警察署",
+        "japaneseSegments": [
+          {
+            "base": "警察署",
+            "reading": "けいさつしょ"
+          }
+        ],
+        "reading": "けいさつしょ",
+        "romaji": "keisatsusho",
+        "meaning": "police station",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:秘密警察|ひみつけいさつ",
+        "japanese": "秘密警察",
+        "japaneseSegments": [
+          {
+            "base": "秘密警察",
+            "reading": "ひみつけいさつ"
+          }
+        ],
+        "reading": "ひみつけいさつ",
+        "romaji": "himitsu keisatsu",
+        "meaning": "secret police",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:申す|もうす",
+        "japanese": "申す",
+        "japaneseSegments": [
+          {
+            "base": "申",
+            "reading": "もう"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "もうす",
+        "romaji": "mōsu",
+        "meaning": "to say; humble form",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:友情|ゆうじょう",
+        "japanese": "友情",
+        "japaneseSegments": [
+          {
+            "base": "友情",
+            "reading": "ゆうじょう"
+          }
+        ],
+        "reading": "ゆうじょう",
+        "romaji": "yūjō",
+        "meaning": "friendship",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:記念|きねん",
+        "japanese": "記念",
+        "japaneseSegments": [
+          {
+            "base": "記念",
+            "reading": "きねん"
+          }
+        ],
+        "reading": "きねん",
+        "romaji": "kinen",
+        "meaning": "commemoration; memento",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:N no yō ni",
+        "pattern": "N no yō ni",
+        "patternSegments": [
+          {
+            "text": "N no yō ni"
+          }
+        ],
+        "explanation": "Compares an action or quality to a noun, meaning “like” or “in the same way as.”",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-te iru",
+        "pattern": "V-te iru",
+        "patternSegments": [
+          {
+            "text": "V-te iru"
+          }
+        ],
+        "explanation": "Describes an ongoing action, a continuing state, or a repeated activity, depending on the verb and context.",
+        "firstPassage": 1,
+        "occurrenceCount": 65
+      },
+      {
+        "key": "grammar:V-te miru",
+        "pattern": "V-te miru",
+        "patternSegments": [
+          {
+            "text": "V-te miru"
+          }
+        ],
+        "explanation": "Expresses trying an action to see what it is like or what happens.",
+        "firstPassage": 2,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-tari V-tari suru",
+        "pattern": "V-tari V-tari suru",
+        "patternSegments": [
+          {
+            "text": "V-tari V-tari suru"
+          }
+        ],
+        "explanation": "Lists representative activities without implying that the list is complete.",
+        "firstPassage": 2,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:V-te kuru",
+        "pattern": "V-te kuru",
+        "patternSegments": [
+          {
+            "text": "V-te kuru"
+          }
+        ],
+        "explanation": "Shows movement or a change developing toward the speaker or the present point in the story.",
+        "firstPassage": 3,
+        "occurrenceCount": 11
+      },
+      {
+        "key": "grammar:V-yō to suru",
+        "pattern": "V-yō to suru",
+        "patternSegments": [
+          {
+            "text": "V-yō to suru"
+          }
+        ],
+        "explanation": "Describes an attempt or intention to do something.",
+        "firstPassage": 3,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:V-te shimau",
+        "pattern": "V-te shimau",
+        "patternSegments": [
+          {
+            "text": "V-te shimau"
+          }
+        ],
+        "explanation": "Marks an action as completed, often with a sense of regret, surprise, or an unintended result.",
+        "firstPassage": 4,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "grammar:V-tara",
+        "pattern": "V-tara",
+        "patternSegments": [
+          {
+            "text": "V-tara"
+          }
+        ],
+        "explanation": "Introduces a condition or the event that happens next, often translated as “when” or “if.”",
+        "firstPassage": 6,
+        "occurrenceCount": 12
+      },
+      {
+        "key": "grammar:hazu",
+        "pattern": "hazu",
+        "patternSegments": [
+          {
+            "text": "hazu"
+          }
+        ],
+        "explanation": "Expresses an expectation or conclusion based on what the speaker believes or knows.",
+        "firstPassage": 6,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:V-hajimeru",
+        "pattern": "V-hajimeru",
+        "patternSegments": [
+          {
+            "text": "V-hajimeru"
+          }
+        ],
+        "explanation": "Attaches to a verb stem to mean that an action begins.",
+        "firstPassage": 5,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:V-takunai",
+        "pattern": "V-takunai",
+        "patternSegments": [
+          {
+            "text": "V-takunai"
+          }
+        ],
+        "explanation": "Expresses that the speaker or subject does not want to do something.",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-te itadakemasen ka",
+        "pattern": "V-te itadakemasen ka",
+        "patternSegments": [
+          {
+            "text": "V-te itadakemasen ka"
+          }
+        ],
+        "explanation": "A polite and deferential way to ask someone to do something.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-tari suru",
+        "pattern": "V-tari suru",
+        "patternSegments": [
+          {
+            "text": "V-tari suru"
+          }
+        ],
+        "explanation": "Names an example action or activity, leaving room for other similar actions.",
+        "firstPassage": 8,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-te mitai",
+        "pattern": "V-te mitai",
+        "patternSegments": [
+          {
+            "text": "V-te mitai"
+          }
+        ],
+        "explanation": "Expresses a wish to try doing something.",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-nai yō ni",
+        "pattern": "V-nai yō ni",
+        "patternSegments": [
+          {
+            "text": "V-nai yō ni"
+          }
+        ],
+        "explanation": "Describes taking care so that something does not happen.",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-ta mama",
+        "pattern": "V-ta mama",
+        "patternSegments": [
+          {
+            "text": "V-ta mama"
+          }
+        ],
+        "explanation": "Shows that a state remains unchanged while another action happens.",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-nagara",
+        "pattern": "V-nagara",
+        "patternSegments": [
+          {
+            "text": "V-nagara"
+          }
+        ],
+        "explanation": "Connects two actions done at the same time by the same subject.",
+        "firstPassage": 11,
+        "occurrenceCount": 14
+      },
+      {
+        "key": "grammar:yō ni",
+        "pattern": "yō ni",
+        "patternSegments": [
+          {
+            "text": "yō ni"
+          }
+        ],
+        "explanation": "Expresses manner, resemblance, or a desired result, according to context.",
+        "firstPassage": 11,
+        "occurrenceCount": 9
+      }
+    ]
+  }
+}

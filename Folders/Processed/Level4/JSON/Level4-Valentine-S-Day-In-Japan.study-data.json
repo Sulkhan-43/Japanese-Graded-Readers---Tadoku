@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:本命チョコ|ほんめいちょこ",
+      "japanese": "本命チョコ",
+      "japaneseSegments": [
+        {
+          "base": "本",
+          "reading": "ほん"
+        },
+        {
+          "base": "命",
+          "reading": "めい"
+        },
+        {
+          "text": "チョコ"
+        }
+      ],
+      "reading": "ほんめいちょこ",
+      "romaji": "honmei choko",
+      "meaning": "Chocolate given to someone one truly loves.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:義理チョコ|ぎりちょこ",
+      "japanese": "義理チョコ",
+      "japaneseSegments": [
+        {
+          "base": "義",
+          "reading": "ぎ"
+        },
+        {
+          "base": "理",
+          "reading": "り"
+        },
+        {
+          "text": "チョコ"
+        }
+      ],
+      "reading": "ぎりちょこ",
+      "romaji": "giri choko",
+      "meaning": "Chocolate given out of social obligation, often to coworkers.",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:友チョコ|ともチョコ",
+      "japanese": "友チョコ",
+      "japaneseSegments": [
+        {
+          "base": "友",
+          "reading": "とも"
+        },
+        {
+          "text": "チョコ"
+        }
+      ],
+      "reading": "ともチョコ",
+      "romaji": "tomo choko",
+      "meaning": "Chocolate given to friends.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ご褒美チョコ|ごほうびちょこ",
+      "japanese": "ご褒美チョコ",
+      "japaneseSegments": [
+        {
+          "text": "ご"
+        },
+        {
+          "base": "褒",
+          "reading": "ほう"
+        },
+        {
+          "base": "美",
+          "reading": "び"
+        },
+        {
+          "text": "チョコ"
+        }
+      ],
+      "reading": "ごほうびちょこ",
+      "romaji": "gohōbi choko",
+      "meaning": "Chocolate bought as a treat for oneself.",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:家族チョコ|かぞくちょこ",
+      "japanese": "家族チョコ",
+      "japaneseSegments": [
+        {
+          "base": "家",
+          "reading": "か"
+        },
+        {
+          "base": "族",
+          "reading": "ぞく"
+        },
+        {
+          "text": "チョコ"
+        }
+      ],
+      "reading": "かぞくちょこ",
+      "romaji": "kazoku choko",
+      "meaning": "Chocolate given to family members.",
+      "firstPassage": 10,
+      "occurrenceCount": 3
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:N ni yotte",
+      "pattern": "N ni yotte",
+      "patternSegments": [
+        {
+          "text": "N ni yotte"
+        }
+      ],
+      "explanation": "This pattern means that something varies depending on a person, situation, or other factor.",
+      "firstPassage": 3,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N to iimasu",
+      "pattern": "N to iimasu",
+      "patternSegments": [
+        {
+          "text": "N to iimasu"
+        }
+      ],
+      "explanation": "This pattern introduces the name or label used for something.",
+      "firstPassage": 3,
+      "occurrenceCount": 5
+    },
+    {
+      "key": "grammar:N node",
+      "pattern": "N node",
+      "patternSegments": [
+        {
+          "text": "N node"
+        }
+      ],
+      "explanation": "This pattern gives a reason or cause, often with a neutral explanatory tone.",
+      "firstPassage": 4,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:N hodo",
+      "pattern": "N hodo",
+      "patternSegments": [
+        {
+          "text": "N hodo"
+        }
+      ],
+      "explanation": "This pattern indicates an extent or degree, such as more than can be finished.",
+      "firstPassage": 7,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N yō ni",
+      "pattern": "N yō ni",
+      "patternSegments": [
+        {
+          "text": "N yō ni"
+        }
+      ],
+      "explanation": "This pattern can express a goal or desired outcome, such as doing something so that an event does not happen.",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:N tame ni",
+      "pattern": "N tame ni",
+      "patternSegments": [
+        {
+          "text": "N tame ni"
+        }
+      ],
+      "explanation": "This pattern means for the sake or benefit of someone or something.",
+      "firstPassage": 9,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:N kamo shiremasen",
+      "pattern": "N kamo shiremasen",
+      "patternSegments": [
+        {
+          "text": "N kamo shiremasen"
+        }
+      ],
+      "explanation": "This pattern expresses a possibility or a cautious guess: something may be the case.",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    }
+  ]
+}

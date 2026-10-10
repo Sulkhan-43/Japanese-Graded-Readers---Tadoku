@@ -1,0 +1,555 @@
+{
+  "id": "level4-bocchan-part-2",
+  "name": "Botchan, Part Two",
+  "japaneseTitle": "坊っちゃん（下）",
+  "slug": "level4-bocchan-part-2",
+  "level": "Level 4",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level4-bocchan-part-2/source.pdf",
+  "ocrR2Key": "books/level4-bocchan-part-2/source-ocr.txt",
+  "coverR2Key": "books/level4-bocchan-part-2/cover.jpg",
+  "htmlR2Key": "books/level4-bocchan-part-2/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 4869,
+  "createdAt": "2026-10-10T07:02:47.705Z",
+  "updatedAt": "2026-10-10T07:02:47.706Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:嘘|うそ",
+        "japanese": "嘘",
+        "japaneseSegments": [
+          {
+            "base": "嘘",
+            "reading": "うそ"
+          }
+        ],
+        "reading": "うそ",
+        "romaji": "uso",
+        "meaning": "lie; falsehood",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:給料|きゅうりょう",
+        "japanese": "給料",
+        "japaneseSegments": [
+          {
+            "base": "給料",
+            "reading": "きゅうりょう"
+          }
+        ],
+        "reading": "きゅうりょう",
+        "romaji": "kyūryō",
+        "meaning": "salary; wages",
+        "firstPassage": 1,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "vocabulary:希望|きぼう",
+        "japanese": "希望",
+        "japaneseSegments": [
+          {
+            "base": "希望",
+            "reading": "きぼう"
+          }
+        ],
+        "reading": "きぼう",
+        "romaji": "kibō",
+        "meaning": "wish; hope",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:責任|せきにん",
+        "japanese": "責任",
+        "japaneseSegments": [
+          {
+            "base": "責任",
+            "reading": "せきにん"
+          }
+        ],
+        "reading": "せきにん",
+        "romaji": "sekinin",
+        "meaning": "responsibility",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:仕方|しかた",
+        "japanese": "仕方",
+        "japaneseSegments": [
+          {
+            "base": "仕方",
+            "reading": "しかた"
+          }
+        ],
+        "reading": "しかた",
+        "romaji": "shikata",
+        "meaning": "way; means; often used in the expression meaning “there is nothing to be done”",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:結局|けっきょく",
+        "japanese": "結局",
+        "japaneseSegments": [
+          {
+            "base": "結局",
+            "reading": "けっきょく"
+          }
+        ],
+        "reading": "けっきょく",
+        "romaji": "kekkyoku",
+        "meaning": "in the end; after all",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:冗談|じょうだん",
+        "japanese": "冗談",
+        "japaneseSegments": [
+          {
+            "base": "冗談",
+            "reading": "じょうだん"
+          }
+        ],
+        "reading": "じょうだん",
+        "romaji": "jōdan",
+        "meaning": "joke; kidding",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:挨拶|あいさつ",
+        "japanese": "挨拶",
+        "japaneseSegments": [
+          {
+            "base": "挨拶",
+            "reading": "あいさつ"
+          }
+        ],
+        "reading": "あいさつ",
+        "romaji": "aisatsu",
+        "meaning": "greeting; formal words of greeting",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:芸者|げいしゃ",
+        "japanese": "芸者",
+        "japaneseSegments": [
+          {
+            "base": "芸者",
+            "reading": "げいしゃ"
+          }
+        ],
+        "reading": "げいしゃ",
+        "romaji": "geisha",
+        "meaning": "geisha; traditional female entertainer",
+        "firstPassage": 4,
+        "occurrenceCount": 16
+      },
+      {
+        "key": "vocabulary:宿屋|やどや",
+        "japanese": "宿屋",
+        "japaneseSegments": [
+          {
+            "base": "宿屋",
+            "reading": "やどや"
+          }
+        ],
+        "reading": "やどや",
+        "romaji": "yadoya",
+        "meaning": "inn; lodging house",
+        "firstPassage": 5,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:捕まえる|つかまえる",
+        "japanese": "捕まえる",
+        "japaneseSegments": [
+          {
+            "base": "捕",
+            "reading": "つか"
+          },
+          {
+            "text": "まえる"
+          }
+        ],
+        "reading": "つかまえる",
+        "romaji": "tsukamaeru",
+        "meaning": "to catch; to seize",
+        "firstPassage": 5,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:師範学校|しはんがっこう",
+        "japanese": "師範学校",
+        "japaneseSegments": [
+          {
+            "base": "師範学校",
+            "reading": "しはんがっこう"
+          }
+        ],
+        "reading": "しはんがっこう",
+        "romaji": "shihangakkō",
+        "meaning": "teacher-training school",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:警官|けいかん",
+        "japanese": "警官",
+        "japaneseSegments": [
+          {
+            "base": "警官",
+            "reading": "けいかん"
+          }
+        ],
+        "reading": "けいかん",
+        "romaji": "keikan",
+        "meaning": "police officer",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:記事|きじ",
+        "japanese": "記事",
+        "japaneseSegments": [
+          {
+            "base": "記事",
+            "reading": "きじ"
+          }
+        ],
+        "reading": "きじ",
+        "romaji": "kiji",
+        "meaning": "news article; report",
+        "firstPassage": 7,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:紫色|むらさきいろ",
+        "japanese": "紫色",
+        "japaneseSegments": [
+          {
+            "base": "紫色",
+            "reading": "むらさきいろ"
+          }
+        ],
+        "reading": "むらさきいろ",
+        "romaji": "murasaki-iro",
+        "meaning": "purple; violet color",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:世間知らず|せけんしらず",
+        "japanese": "世間知らず",
+        "japaneseSegments": [
+          {
+            "base": "世間知ら",
+            "reading": "せけんし"
+          },
+          {
+            "text": "らず"
+          }
+        ],
+        "reading": "せけんしらず",
+        "romaji": "seken shirazu",
+        "meaning": "naïve; inexperienced with the ways of the world",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:我慢|がまん",
+        "japanese": "我慢",
+        "japaneseSegments": [
+          {
+            "base": "我慢",
+            "reading": "がまん"
+          }
+        ],
+        "reading": "がまん",
+        "romaji": "gaman",
+        "meaning": "patience; endurance; holding back",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:辞表|じひょう",
+        "japanese": "辞表",
+        "japaneseSegments": [
+          {
+            "base": "辞表",
+            "reading": "じひょう"
+          }
+        ],
+        "reading": "じひょう",
+        "romaji": "jihyō",
+        "meaning": "letter of resignation",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:離れる|はなれる",
+        "japanese": "離れる",
+        "japaneseSegments": [
+          {
+            "base": "離",
+            "reading": "はな"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "はなれる",
+        "romaji": "hanareru",
+        "meaning": "to move away; to leave",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:満足|まんぞく",
+        "japanese": "満足",
+        "japaneseSegments": [
+          {
+            "base": "満足",
+            "reading": "まんぞく"
+          }
+        ],
+        "reading": "まんぞく",
+        "romaji": "manzoku",
+        "meaning": "satisfaction; contentment",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:墓|はか",
+        "japanese": "墓",
+        "japaneseSegments": [
+          {
+            "base": "墓",
+            "reading": "はか"
+          }
+        ],
+        "reading": "はか",
+        "romaji": "haka",
+        "meaning": "grave; tomb",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:〜てから",
+        "pattern": "〜てから",
+        "patternSegments": [
+          {
+            "text": "V-te kara"
+          }
+        ],
+        "explanation": "This pattern marks an action that happens after another action has been completed.",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜かもしれない",
+        "pattern": "〜かもしれない",
+        "patternSegments": [
+          {
+            "text": "〜kamo shirenai"
+          }
+        ],
+        "explanation": "This pattern expresses possibility or uncertainty: something may happen or may be true.",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:〜ようになる",
+        "pattern": "〜ようになる",
+        "patternSegments": [
+          {
+            "text": "〜yō ni naru"
+          }
+        ],
+        "explanation": "This pattern describes a change that results in a new state or habit.",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜に違いない",
+        "pattern": "〜に違いない",
+        "patternSegments": [
+          {
+            "text": "〜ni chigai nai"
+          }
+        ],
+        "explanation": "This pattern expresses a strong conclusion that something must be true.",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:〜なら",
+        "pattern": "〜なら",
+        "patternSegments": [
+          {
+            "text": "〜nara"
+          }
+        ],
+        "explanation": "This pattern sets a condition or topic, often meaning “if that is the case.”",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:〜と同時に",
+        "pattern": "〜と同時に",
+        "patternSegments": [
+          {
+            "text": "〜to dōji ni"
+          }
+        ],
+        "explanation": "This pattern means that one event happens at the same time as another.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜のに",
+        "pattern": "〜のに",
+        "patternSegments": [
+          {
+            "text": "〜no ni"
+          }
+        ],
+        "explanation": "This pattern marks a contrast between an expected result and what actually happens.",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:〜ながら",
+        "pattern": "〜ながら",
+        "patternSegments": [
+          {
+            "text": "〜nagara"
+          }
+        ],
+        "explanation": "This pattern describes two actions happening at the same time, performed by the same subject.",
+        "firstPassage": 6,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "grammar:〜たら",
+        "pattern": "〜たら",
+        "patternSegments": [
+          {
+            "text": "〜tara"
+          }
+        ],
+        "explanation": "This pattern introduces a condition or an event that occurs after another action.",
+        "firstPassage": 6,
+        "occurrenceCount": 13
+      },
+      {
+        "key": "grammar:〜くせに",
+        "pattern": "〜くせに",
+        "patternSegments": [
+          {
+            "text": "〜kuse ni"
+          }
+        ],
+        "explanation": "This pattern expresses criticism or contradiction, often meaning “even though” or “despite.”",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜ことにする",
+        "pattern": "〜ことにする",
+        "patternSegments": [
+          {
+            "text": "〜koto ni suru"
+          }
+        ],
+        "explanation": "This pattern expresses a decision made by the speaker.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜たくない",
+        "pattern": "〜たくない",
+        "patternSegments": [
+          {
+            "text": "V-takunai"
+          }
+        ],
+        "explanation": "This pattern expresses that the speaker does not want to do an action.",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜しかない",
+        "pattern": "〜しかない",
+        "patternSegments": [
+          {
+            "text": "〜shika nai"
+          }
+        ],
+        "explanation": "This pattern expresses that there is no choice other than the stated action.",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜ばかり",
+        "pattern": "〜ばかり",
+        "patternSegments": [
+          {
+            "text": "〜bakari"
+          }
+        ],
+        "explanation": "This pattern can emphasize that someone does only the stated action or that a situation is limited to it.",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜れば〜ほど",
+        "pattern": "〜れば〜ほど",
+        "patternSegments": [
+          {
+            "text": "〜reba 〜hodo"
+          }
+        ],
+        "explanation": "This pattern describes two qualities or changes increasing together: the more one happens, the more the other does.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜たまま",
+        "pattern": "〜たまま",
+        "patternSegments": [
+          {
+            "text": "〜ta mama"
+          }
+        ],
+        "explanation": "This pattern describes a state that continues unchanged after an action.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ても",
+        "pattern": "〜ても",
+        "patternSegments": [
+          {
+            "text": "〜te mo"
+          }
+        ],
+        "explanation": "This pattern means “even if” or “even though,” introducing a condition that does not change the outcome.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

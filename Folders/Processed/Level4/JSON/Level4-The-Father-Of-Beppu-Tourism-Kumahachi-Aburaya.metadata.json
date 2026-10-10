@@ -1,0 +1,195 @@
+{
+  "id": "level4-the-father-of-beppu-tourism-kumahachi-aburaya",
+  "name": "The Father of Beppu Tourism Kumahachi Aburaya",
+  "japaneseTitle": "油屋熊八　別府観光の父",
+  "slug": "level4-the-father-of-beppu-tourism-kumahachi-aburaya",
+  "level": "Level 4",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level4-the-father-of-beppu-tourism-kumahachi-aburaya/source.pdf",
+  "ocrR2Key": "books/level4-the-father-of-beppu-tourism-kumahachi-aburaya/source-ocr.txt",
+  "coverR2Key": "books/level4-the-father-of-beppu-tourism-kumahachi-aburaya/cover.jpg",
+  "htmlR2Key": "books/level4-the-father-of-beppu-tourism-kumahachi-aburaya/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 1769,
+  "createdAt": "2026-10-10T07:36:14.601Z",
+  "updatedAt": "2026-10-10T07:36:14.601Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:温泉|おんせん",
+        "japanese": "温泉",
+        "japaneseSegments": [
+          {
+            "base": "温泉",
+            "reading": "おんせん"
+          }
+        ],
+        "reading": "おんせん",
+        "romaji": "onsen",
+        "meaning": "hot spring",
+        "firstPassage": 1,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:観光|かんこう",
+        "japanese": "観光",
+        "japaneseSegments": [
+          {
+            "base": "観光",
+            "reading": "かんこう"
+          }
+        ],
+        "reading": "かんこう",
+        "romaji": "kankō",
+        "meaning": "sightseeing; tourism",
+        "firstPassage": 1,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:議員|ぎいん",
+        "japanese": "議員",
+        "japaneseSegments": [
+          {
+            "base": "議員",
+            "reading": "ぎいん"
+          }
+        ],
+        "reading": "ぎいん",
+        "romaji": "giin",
+        "meaning": "council member",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:経験|けいけん",
+        "japanese": "経験",
+        "japaneseSegments": [
+          {
+            "base": "経験",
+            "reading": "けいけん"
+          }
+        ],
+        "reading": "けいけん",
+        "romaji": "keiken",
+        "meaning": "experience",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:親切|しんせつ",
+        "japanese": "親切",
+        "japaneseSegments": [
+          {
+            "base": "親切",
+            "reading": "しんせつ"
+          }
+        ],
+        "reading": "しんせつ",
+        "romaji": "shinsetsu",
+        "meaning": "kindness; kind",
+        "firstPassage": 3,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:旅館|りょかん",
+        "japanese": "旅館",
+        "japaneseSegments": [
+          {
+            "base": "旅館",
+            "reading": "りょかん"
+          }
+        ],
+        "reading": "りょかん",
+        "romaji": "ryokan",
+        "meaning": "Japanese-style inn",
+        "firstPassage": 4,
+        "occurrenceCount": 14
+      },
+      {
+        "key": "vocabulary:宣伝|せんでん",
+        "japanese": "宣伝",
+        "japaneseSegments": [
+          {
+            "base": "宣伝",
+            "reading": "せんでん"
+          }
+        ],
+        "reading": "せんでん",
+        "romaji": "senden",
+        "meaning": "promotion; advertising",
+        "firstPassage": 13,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:名前|なまえ",
+        "japanese": "名前",
+        "japaneseSegments": [
+          {
+            "base": "名前",
+            "reading": "なまえ"
+          }
+        ],
+        "reading": "なまえ",
+        "romaji": "namae",
+        "meaning": "name",
+        "firstPassage": 11,
+        "occurrenceCount": 2
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:〜ようになる",
+        "pattern": "〜ようになる",
+        "patternSegments": [
+          {
+            "text": "V dictionary form + you ni naru"
+          }
+        ],
+        "explanation": "This pattern describes a change that makes an action possible or causes a new state to begin.",
+        "firstPassage": 5,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:〜ために",
+        "pattern": "〜ために",
+        "patternSegments": [
+          {
+            "text": "N / V dictionary form + tame ni"
+          }
+        ],
+        "explanation": "This pattern expresses a purpose or a reason, depending on context.",
+        "firstPassage": 6,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "grammar:〜たり〜たりする",
+        "pattern": "〜たり〜たりする",
+        "patternSegments": [
+          {
+            "text": "V ta-form + tari, V ta-form + tari suru"
+          }
+        ],
+        "explanation": "This pattern gives non-exhaustive examples of actions.",
+        "firstPassage": 2,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "grammar:〜なければならない",
+        "pattern": "〜なければならない",
+        "patternSegments": [
+          {
+            "text": "V negative form + nakereba naranai"
+          }
+        ],
+        "explanation": "This pattern expresses that something must be done.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}

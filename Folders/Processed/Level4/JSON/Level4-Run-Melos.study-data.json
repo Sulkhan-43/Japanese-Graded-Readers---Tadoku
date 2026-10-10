@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+  "vocabulary": [
+    {
+      "key": "vocabulary:羊|ひつじ",
+      "japanese": "羊",
+      "japaneseSegments": [
+        {
+          "base": "羊",
+          "reading": "ひつじ"
+        }
+      ],
+      "reading": "ひつじ",
+      "romaji": "hitsuji",
+      "meaning": "sheep",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:まじめ|まじめ",
+      "japanese": "まじめ",
+      "japaneseSegments": [
+        {
+          "text": "まじめ"
+        }
+      ],
+      "reading": "まじめ",
+      "romaji": "majime",
+      "meaning": "serious; conscientious",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:市場|いちば",
+      "japanese": "市場",
+      "japaneseSegments": [
+        {
+          "base": "市場",
+          "reading": "いちば"
+        }
+      ],
+      "reading": "いちば",
+      "romaji": "ichiba",
+      "meaning": "market; marketplace",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:大通り|おおどおり",
+      "japanese": "大通り",
+      "japaneseSegments": [
+        {
+          "base": "大通",
+          "reading": "おおどお"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "reading": "おおどおり",
+      "romaji": "ōdōri",
+      "meaning": "main street",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:様子|ようす",
+      "japanese": "様子",
+      "japaneseSegments": [
+        {
+          "base": "様子",
+          "reading": "ようす"
+        }
+      ],
+      "reading": "ようす",
+      "romaji": "yōsu",
+      "meaning": "appearance; state of affairs",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:不安|ふあん",
+      "japanese": "不安",
+      "japaneseSegments": [
+        {
+          "base": "不安",
+          "reading": "ふあん"
+        }
+      ],
+      "reading": "ふあん",
+      "romaji": "fuan",
+      "meaning": "anxiety; uneasiness",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:家来|けらい",
+      "japanese": "家来",
+      "japaneseSegments": [
+        {
+          "base": "家来",
+          "reading": "けらい"
+        }
+      ],
+      "reading": "けらい",
+      "romaji": "kerai",
+      "meaning": "a ruler's servant or retainer",
+      "firstPassage": 2,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:ナイフ|ナイフ",
+      "japanese": "ナイフ",
+      "japaneseSegments": [
+        {
+          "text": "ナイフ"
+        }
+      ],
+      "reading": "ナイフ",
+      "romaji": "naifu",
+      "meaning": "knife",
+      "firstPassage": 2,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:心配|しんぱい",
+      "japanese": "心配",
+      "japaneseSegments": [
+        {
+          "base": "心配",
+          "reading": "しんぱい"
+        }
+      ],
+      "reading": "しんぱい",
+      "romaji": "shinpai",
+      "meaning": "worry; concern",
+      "firstPassage": 4,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "vocabulary:小鳥|ことり",
+      "japanese": "小鳥",
+      "japaneseSegments": [
+        {
+          "base": "小鳥",
+          "reading": "ことり"
+        }
+      ],
+      "reading": "ことり",
+      "romaji": "kotori",
+      "meaning": "small bird",
+      "firstPassage": 4,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:星|ほし",
+      "japanese": "星",
+      "japaneseSegments": [
+        {
+          "base": "星",
+          "reading": "ほし"
+        }
+      ],
+      "reading": "ほし",
+      "romaji": "hoshi",
+      "meaning": "star",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:畑|はたけ",
+      "japanese": "畑",
+      "japaneseSegments": [
+        {
+          "base": "畑",
+          "reading": "はたけ"
+        }
+      ],
+      "reading": "はたけ",
+      "romaji": "hatake",
+      "meaning": "cultivated field",
+      "firstPassage": 6,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:花嫁|はなよめ",
+      "japanese": "花嫁",
+      "japaneseSegments": [
+        {
+          "base": "花嫁",
+          "reading": "はなよめ"
+        }
+      ],
+      "reading": "はなよめ",
+      "romaji": "hanayome",
+      "meaning": "bride",
+      "firstPassage": 8,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:ふるさと|ふるさと",
+      "japanese": "ふるさと",
+      "japaneseSegments": [
+        {
+          "text": "ふるさと"
+        }
+      ],
+      "reading": "ふるさと",
+      "romaji": "furusato",
+      "meaning": "hometown; native place",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:舟|ふね",
+      "japanese": "舟",
+      "japaneseSegments": [
+        {
+          "base": "舟",
+          "reading": "ふね"
+        }
+      ],
+      "reading": "ふね",
+      "romaji": "fune",
+      "meaning": "boat",
+      "firstPassage": 9,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:邪魔|じゃま",
+      "japanese": "邪魔",
+      "japaneseSegments": [
+        {
+          "base": "邪魔",
+          "reading": "じゃま"
+        }
+      ],
+      "reading": "じゃま",
+      "romaji": "jama",
+      "meaning": "obstruction; interference",
+      "firstPassage": 10,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:棒|ぼう",
+      "japanese": "棒",
+      "japaneseSegments": [
+        {
+          "base": "棒",
+          "reading": "ぼう"
+        }
+      ],
+      "reading": "ぼう",
+      "romaji": "bō",
+      "meaning": "stick; club",
+      "firstPassage": 10,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "vocabulary:同時|どうじ",
+      "japanese": "同時",
+      "japaneseSegments": [
+        {
+          "base": "同時",
+          "reading": "どうじ"
+        }
+      ],
+      "reading": "どうじ",
+      "romaji": "dōji",
+      "meaning": "the same time; simultaneously",
+      "firstPassage": 16,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "vocabulary:コート|コート",
+      "japanese": "コート",
+      "japaneseSegments": [
+        {
+          "text": "コート"
+        }
+      ],
+      "reading": "コート",
+      "romaji": "kōto",
+      "meaning": "coat",
+      "firstPassage": 17,
+      "occurrenceCount": 2
+    }
+  ],
+  "grammar": [
+    {
+      "key": "grammar:〜ことになっている",
+      "pattern": "〜ことになっている",
+      "patternSegments": [
+        {
+          "text": "〜ことになっている"
+        }
+      ],
+      "explanation": "This pattern describes an arrangement or decision already established, rather than merely the speaker's intention.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:〜に来る",
+      "pattern": "〜に来る",
+      "patternSegments": [
+        {
+          "text": "〜に"
+        },
+        {
+          "base": "来",
+          "reading": "く"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "explanation": "This pattern attaches to a verb stem to state the purpose of coming somewhere.",
+      "firstPassage": 1,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:〜すぎる",
+      "pattern": "〜すぎる",
+      "patternSegments": [
+        {
+          "text": "〜すぎる"
+        }
+      ],
+      "explanation": "This pattern follows a verb stem or adjective stem and means that something happens or has a quality excessively.",
+      "firstPassage": 1,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:〜ぶり",
+      "pattern": "〜ぶり",
+      "patternSegments": [
+        {
+          "text": "〜ぶり"
+        }
+      ],
+      "explanation": "This pattern follows a duration and indicates the first occurrence after that length of time.",
+      "firstPassage": 5,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:〜ようとする",
+      "pattern": "〜ようとする",
+      "patternSegments": [
+        {
+          "text": "〜ようとする"
+        }
+      ],
+      "explanation": "This pattern combines a verb's volitional form with an attempt, meaning to try to do something.",
+      "firstPassage": 6,
+      "occurrenceCount": 3
+    },
+    {
+      "key": "grammar:〜しか〜ない",
+      "pattern": "〜しか〜ない",
+      "patternSegments": [
+        {
+          "text": "〜しか〜ない"
+        }
+      ],
+      "explanation": "This pattern requires a negative ending and emphasizes that only the stated option remains.",
+      "firstPassage": 10,
+      "occurrenceCount": 2
+    },
+    {
+      "key": "grammar:〜たり〜たりする",
+      "pattern": "〜たり〜たりする",
+      "patternSegments": [
+        {
+          "text": "〜たり〜たりする"
+        }
+      ],
+      "explanation": "This pattern lists representative actions without claiming to name every action performed.",
+      "firstPassage": 13,
+      "occurrenceCount": 1
+    },
+    {
+      "key": "grammar:〜じゃないか",
+      "pattern": "〜じゃないか",
+      "patternSegments": [
+        {
+          "text": "〜じゃないか"
+        }
+      ],
+      "explanation": "This pattern can express an emphatic observation or surprised realization rather than a literal negative question.",
+      "firstPassage": 17,
+      "occurrenceCount": 1
+    }
+  ]
+}
