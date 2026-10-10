@@ -1,0 +1,2790 @@
+{
+  "id": "level4-the-japanese-dining-table",
+  "name": "The Japanese Dining Table",
+  "japaneseTitle": "日本の食卓",
+  "slug": "level4-the-japanese-dining-table",
+  "level": "Level 4",
+  "description": "",
+  "originalUrl": "",
+  "pdfR2Key": "books/level4-the-japanese-dining-table/source.pdf",
+  "ocrR2Key": "books/level4-the-japanese-dining-table/source-ocr.txt",
+  "coverR2Key": "books/level4-the-japanese-dining-table/cover.jpg",
+  "htmlR2Key": "books/level4-the-japanese-dining-table/study-guide.html",
+  "generationStatus": "completed",
+  "generationProgress": 100,
+  "generationError": null,
+  "wordCount": 2497,
+  "createdAt": "2026-10-10T12:52:56.116Z",
+  "updatedAt": "2026-10-10T12:52:56.116Z",
+  "studyData": {
+    "version": 1,
+    "countScope": "Original Japanese story passages, story-related captions, title, and story-specific synopsis; excludes generated notes, romaji, translations, and publisher material.",
+    "vocabulary": [
+      {
+        "key": "vocabulary:島国|しまぐに",
+        "japanese": "島国",
+        "japaneseSegments": [
+          {
+            "base": "島国",
+            "reading": "しまぐに"
+          }
+        ],
+        "reading": "しまぐに",
+        "romaji": "shimaguni",
+        "meaning": "island country",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:森林|しんりん",
+        "japanese": "森林",
+        "japaneseSegments": [
+          {
+            "base": "森林",
+            "reading": "しんりん"
+          }
+        ],
+        "reading": "しんりん",
+        "romaji": "shinrin",
+        "meaning": "forest; woodland",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:米|こめ",
+        "japanese": "米",
+        "japaneseSegments": [
+          {
+            "base": "米",
+            "reading": "こめ"
+          }
+        ],
+        "reading": "こめ",
+        "romaji": "kome",
+        "meaning": "rice as a crop or uncooked grain",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:一汁三菜|いちじゅうさんさい",
+        "japanese": "一汁三菜",
+        "japaneseSegments": [
+          {
+            "base": "一汁三菜",
+            "reading": "いちじゅうさんさい"
+          }
+        ],
+        "reading": "いちじゅうさんさい",
+        "romaji": "ichijū sansai",
+        "meaning": "a meal of rice, one soup, and three accompanying dishes",
+        "firstPassage": 1,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:味噌汁|みそしる",
+        "japanese": "味噌汁",
+        "japaneseSegments": [
+          {
+            "base": "味噌汁",
+            "reading": "みそしる"
+          }
+        ],
+        "reading": "みそしる",
+        "romaji": "misoshiru",
+        "meaning": "miso soup",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:大豆食品|だいずしょくひん",
+        "japanese": "大豆食品",
+        "japaneseSegments": [
+          {
+            "base": "大豆食品",
+            "reading": "だいずしょくひん"
+          }
+        ],
+        "reading": "だいずしょくひん",
+        "romaji": "daizu shokuhin",
+        "meaning": "soybean-based foods; soy products",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:栄養|えいよう",
+        "japanese": "栄養",
+        "japaneseSegments": [
+          {
+            "base": "栄養",
+            "reading": "えいよう"
+          }
+        ],
+        "reading": "えいよう",
+        "romaji": "eiyō",
+        "meaning": "nutrition",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:膳|ぜん",
+        "japanese": "膳",
+        "japaneseSegments": [
+          {
+            "base": "膳",
+            "reading": "ぜん"
+          }
+        ],
+        "reading": "ぜん",
+        "romaji": "zen",
+        "meaning": "individual meal tray or small dining stand",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:箸|はし",
+        "japanese": "箸",
+        "japaneseSegments": [
+          {
+            "base": "箸",
+            "reading": "はし"
+          }
+        ],
+        "reading": "はし",
+        "romaji": "hashi",
+        "meaning": "chopsticks",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:茶碗|ちゃわん",
+        "japanese": "茶碗",
+        "japaneseSegments": [
+          {
+            "base": "茶碗",
+            "reading": "ちゃわん"
+          }
+        ],
+        "reading": "ちゃわん",
+        "romaji": "chawan",
+        "meaning": "rice bowl",
+        "firstPassage": 1,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:銘々膳|めいめいぜん",
+        "japanese": "銘々膳",
+        "japaneseSegments": [
+          {
+            "base": "銘々膳",
+            "reading": "めいめいぜん"
+          }
+        ],
+        "reading": "めいめいぜん",
+        "romaji": "meimeizen",
+        "meaning": "individual meal trays, one for each diner",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:しょう油|しょうゆ",
+        "japanese": "しょう油",
+        "japaneseSegments": [
+          {
+            "text": "しょう"
+          },
+          {
+            "base": "油",
+            "reading": "ゆ"
+          }
+        ],
+        "reading": "しょうゆ",
+        "romaji": "shōyu",
+        "meaning": "soy sauce",
+        "firstPassage": 2,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:出汁|だし",
+        "japanese": "出汁",
+        "japaneseSegments": [
+          {
+            "base": "出汁",
+            "reading": "だし"
+          }
+        ],
+        "reading": "だし",
+        "romaji": "dashi",
+        "meaning": "stock used as a foundation of flavor in Japanese cooking",
+        "firstPassage": 2,
+        "occurrenceCount": 12
+      },
+      {
+        "key": "vocabulary:調味料|ちょうみりょう",
+        "japanese": "調味料",
+        "japaneseSegments": [
+          {
+            "base": "調味料",
+            "reading": "ちょうみりょう"
+          }
+        ],
+        "reading": "ちょうみりょう",
+        "romaji": "chōmiryō",
+        "meaning": "seasoning; condiment",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:小麦|こむぎ",
+        "japanese": "小麦",
+        "japaneseSegments": [
+          {
+            "base": "小麦",
+            "reading": "こむぎ"
+          }
+        ],
+        "reading": "こむぎ",
+        "romaji": "komugi",
+        "meaning": "wheat",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:刺身|さしみ",
+        "japanese": "刺身",
+        "japaneseSegments": [
+          {
+            "base": "刺身",
+            "reading": "さしみ"
+          }
+        ],
+        "reading": "さしみ",
+        "romaji": "sashimi",
+        "meaning": "sliced raw fish",
+        "firstPassage": 2,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:鰹節|かつおぶし",
+        "japanese": "鰹節",
+        "japaneseSegments": [
+          {
+            "base": "鰹節",
+            "reading": "かつおぶし"
+          }
+        ],
+        "reading": "かつおぶし",
+        "romaji": "katsuobushi",
+        "meaning": "dried, smoked bonito used to make stock",
+        "firstPassage": 2,
+        "occurrenceCount": 9
+      },
+      {
+        "key": "vocabulary:昆布|こんぶ",
+        "japanese": "昆布",
+        "japaneseSegments": [
+          {
+            "base": "昆布",
+            "reading": "こんぶ"
+          }
+        ],
+        "reading": "こんぶ",
+        "romaji": "konbu",
+        "meaning": "edible kelp used to make stock",
+        "firstPassage": 2,
+        "occurrenceCount": 8
+      },
+      {
+        "key": "vocabulary:鰹|かつお",
+        "japanese": "鰹",
+        "japaneseSegments": [
+          {
+            "base": "鰹",
+            "reading": "かつお"
+          }
+        ],
+        "reading": "かつお",
+        "romaji": "katsuo",
+        "meaning": "bonito; skipjack tuna",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:うま味|うまみ",
+        "japanese": "うま味",
+        "japaneseSegments": [
+          {
+            "text": "うま"
+          },
+          {
+            "base": "味",
+            "reading": "み"
+          }
+        ],
+        "reading": "うまみ",
+        "romaji": "umami",
+        "meaning": "savory taste, one of the five basic tastes",
+        "firstPassage": 2,
+        "occurrenceCount": 12
+      },
+      {
+        "key": "vocabulary:発見|はっけん",
+        "japanese": "発見",
+        "japaneseSegments": [
+          {
+            "base": "発見",
+            "reading": "はっけん"
+          }
+        ],
+        "reading": "はっけん",
+        "romaji": "hakken",
+        "meaning": "discovery; discovering",
+        "firstPassage": 3,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:舌|した",
+        "japanese": "舌",
+        "japaneseSegments": [
+          {
+            "base": "舌",
+            "reading": "した"
+          }
+        ],
+        "reading": "した",
+        "romaji": "shita",
+        "meaning": "tongue",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:成分|せいぶん",
+        "japanese": "成分",
+        "japaneseSegments": [
+          {
+            "base": "成分",
+            "reading": "せいぶん"
+          }
+        ],
+        "reading": "せいぶん",
+        "romaji": "seibun",
+        "meaning": "component; constituent substance",
+        "firstPassage": 3,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:煮干し|にぼし",
+        "japanese": "煮干し",
+        "japaneseSegments": [
+          {
+            "base": "煮干",
+            "reading": "にぼ"
+          },
+          {
+            "text": "し"
+          }
+        ],
+        "reading": "にぼし",
+        "romaji": "niboshi",
+        "meaning": "small fish boiled and dried for making stock",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:弱火|よわび",
+        "japanese": "弱火",
+        "japaneseSegments": [
+          {
+            "base": "弱火",
+            "reading": "よわび"
+          }
+        ],
+        "reading": "よわび",
+        "romaji": "yowabi",
+        "meaning": "low heat",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:中火|ちゅうび",
+        "japanese": "中火",
+        "japaneseSegments": [
+          {
+            "base": "中火",
+            "reading": "ちゅうび"
+          }
+        ],
+        "reading": "ちゅうび",
+        "romaji": "chūbi",
+        "meaning": "medium heat",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:こす|こす",
+        "japanese": "こす",
+        "japaneseSegments": [
+          {
+            "text": "こす"
+          }
+        ],
+        "reading": "こす",
+        "romaji": "kosu",
+        "meaning": "to strain; to filter",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:食材|しょくざい",
+        "japanese": "食材",
+        "japaneseSegments": [
+          {
+            "base": "食材",
+            "reading": "しょくざい"
+          }
+        ],
+        "reading": "しょくざい",
+        "romaji": "shokuzai",
+        "meaning": "food ingredient",
+        "firstPassage": 4,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:四季|しき",
+        "japanese": "四季",
+        "japaneseSegments": [
+          {
+            "base": "四季",
+            "reading": "しき"
+          }
+        ],
+        "reading": "しき",
+        "romaji": "shiki",
+        "meaning": "the four seasons",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:気を使う|きをつかう",
+        "japanese": "気を使う",
+        "japaneseSegments": [
+          {
+            "base": "気",
+            "reading": "き"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "base": "使",
+            "reading": "つか"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "きをつかう",
+        "romaji": "ki o tsukau",
+        "meaning": "to pay attention to; to take care over",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:和食|わしょく",
+        "japanese": "和食",
+        "japaneseSegments": [
+          {
+            "base": "和食",
+            "reading": "わしょく"
+          }
+        ],
+        "reading": "わしょく",
+        "romaji": "washoku",
+        "meaning": "Japanese cuisine, especially traditional Japanese food",
+        "firstPassage": 4,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:無形文化遺産|むけいぶんかいさん",
+        "japanese": "無形文化遺産",
+        "japaneseSegments": [
+          {
+            "base": "無形文化遺産",
+            "reading": "むけいぶんかいさん"
+          }
+        ],
+        "reading": "むけいぶんかいさん",
+        "romaji": "mukei bunka isan",
+        "meaning": "intangible cultural heritage",
+        "firstPassage": 4,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:登録|とうろく",
+        "japanese": "登録",
+        "japaneseSegments": [
+          {
+            "base": "登録",
+            "reading": "とうろく"
+          }
+        ],
+        "reading": "とうろく",
+        "romaji": "tōroku",
+        "meaning": "registration; inscription on a list",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:交流|こうりゅう",
+        "japanese": "交流",
+        "japaneseSegments": [
+          {
+            "base": "交流",
+            "reading": "こうりゅう"
+          }
+        ],
+        "reading": "こうりゅう",
+        "romaji": "kōryū",
+        "meaning": "contact; exchange between people or countries",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:明治時代|めいじじだい",
+        "japanese": "明治時代",
+        "japaneseSegments": [
+          {
+            "base": "明治時代",
+            "reading": "めいじじだい"
+          }
+        ],
+        "reading": "めいじじだい",
+        "romaji": "Meiji jidai",
+        "meaning": "the Meiji era, 1868–1912",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:西洋|せいよう",
+        "japanese": "西洋",
+        "japaneseSegments": [
+          {
+            "base": "西洋",
+            "reading": "せいよう"
+          }
+        ],
+        "reading": "せいよう",
+        "romaji": "seiyō",
+        "meaning": "the West; Europe and America",
+        "firstPassage": 5,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:取り入れる|とりいれる",
+        "japanese": "取り入れる",
+        "japaneseSegments": [
+          {
+            "base": "取",
+            "reading": "と"
+          },
+          {
+            "text": "り"
+          },
+          {
+            "base": "入",
+            "reading": "い"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "とりいれる",
+        "romaji": "toriireru",
+        "meaning": "to adopt; to incorporate",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:洋食|ようしょく",
+        "japanese": "洋食",
+        "japaneseSegments": [
+          {
+            "base": "洋食",
+            "reading": "ようしょく"
+          }
+        ],
+        "reading": "ようしょく",
+        "romaji": "yōshoku",
+        "meaning": "Western-derived dishes adapted to Japanese tastes",
+        "firstPassage": 5,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:誕生|たんじょう",
+        "japanese": "誕生",
+        "japaneseSegments": [
+          {
+            "base": "誕生",
+            "reading": "たんじょう"
+          }
+        ],
+        "reading": "たんじょう",
+        "romaji": "tanjō",
+        "meaning": "birth; emergence",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:カレールー|カレールー",
+        "japanese": "カレールー",
+        "japaneseSegments": [
+          {
+            "text": "カレールー"
+          }
+        ],
+        "reading": "カレールー",
+        "romaji": "karē rū",
+        "meaning": "prepared curry roux used to make Japanese curry",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:売り出す|うりだす",
+        "japanese": "売り出す",
+        "japaneseSegments": [
+          {
+            "base": "売",
+            "reading": "う"
+          },
+          {
+            "text": "り"
+          },
+          {
+            "base": "出",
+            "reading": "だ"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "うりだす",
+        "romaji": "uridasu",
+        "meaning": "to put on sale; to launch a product",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ラーメン|らーめん",
+        "japanese": "ラーメン",
+        "japaneseSegments": [
+          {
+            "text": "ラーメン"
+          }
+        ],
+        "reading": "らーめん",
+        "romaji": "rāmen",
+        "meaning": "ramen; Chinese-derived noodles served in broth",
+        "firstPassage": 6,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:そば|そば",
+        "japanese": "そば",
+        "japaneseSegments": [
+          {
+            "text": "そば"
+          }
+        ],
+        "reading": "そば",
+        "romaji": "soba",
+        "meaning": "noodles; here Chinese noodles in the historical account",
+        "firstPassage": 6,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:港|みなと",
+        "japanese": "港",
+        "japaneseSegments": [
+          {
+            "base": "港",
+            "reading": "みなと"
+          }
+        ],
+        "reading": "みなと",
+        "romaji": "minato",
+        "meaning": "port; harbor",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:塩味|しおあじ",
+        "japanese": "塩味",
+        "japaneseSegments": [
+          {
+            "base": "塩味",
+            "reading": "しおあじ"
+          }
+        ],
+        "reading": "しおあじ",
+        "romaji": "shioaji",
+        "meaning": "salt flavor",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:慣れる|なれる",
+        "japanese": "慣れる",
+        "japaneseSegments": [
+          {
+            "base": "慣",
+            "reading": "な"
+          },
+          {
+            "text": "れる"
+          }
+        ],
+        "reading": "なれる",
+        "romaji": "nareru",
+        "meaning": "to become accustomed to",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:餃子|ぎょうざ",
+        "japanese": "餃子",
+        "japaneseSegments": [
+          {
+            "base": "餃子",
+            "reading": "ぎょうざ"
+          }
+        ],
+        "reading": "ぎょうざ",
+        "romaji": "gyōza",
+        "meaning": "gyoza dumplings",
+        "firstPassage": 6,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:牛乳|ぎゅうにゅう",
+        "japanese": "牛乳",
+        "japaneseSegments": [
+          {
+            "base": "牛乳",
+            "reading": "ぎゅうにゅう"
+          }
+        ],
+        "reading": "ぎゅうにゅう",
+        "romaji": "gyūnyū",
+        "meaning": "cow's milk",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:台所|だいどころ",
+        "japanese": "台所",
+        "japaneseSegments": [
+          {
+            "base": "台所",
+            "reading": "だいどころ"
+          }
+        ],
+        "reading": "だいどころ",
+        "romaji": "daidokoro",
+        "meaning": "kitchen",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:火力|かりょく",
+        "japanese": "火力",
+        "japaneseSegments": [
+          {
+            "base": "火力",
+            "reading": "かりょく"
+          }
+        ],
+        "reading": "かりょく",
+        "romaji": "karyoku",
+        "meaning": "heating power; strength of a flame",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ガスコンロ|がすこんろ",
+        "japanese": "ガスコンロ",
+        "japaneseSegments": [
+          {
+            "text": "ガスコンロ"
+          }
+        ],
+        "reading": "がすこんろ",
+        "romaji": "gasu konro",
+        "meaning": "gas stove",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:伝統的|でんとうてき",
+        "japanese": "伝統的",
+        "japaneseSegments": [
+          {
+            "base": "伝統的",
+            "reading": "でんとうてき"
+          }
+        ],
+        "reading": "でんとうてき",
+        "romaji": "dentōteki",
+        "meaning": "traditional",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:現代|げんだい",
+        "japanese": "現代",
+        "japaneseSegments": [
+          {
+            "base": "現代",
+            "reading": "げんだい"
+          }
+        ],
+        "reading": "げんだい",
+        "romaji": "gendai",
+        "meaning": "the modern era; present day",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:仕方|しかた",
+        "japanese": "仕方",
+        "japaneseSegments": [
+          {
+            "base": "仕方",
+            "reading": "しかた"
+          }
+        ],
+        "reading": "しかた",
+        "romaji": "shikata",
+        "meaning": "way of doing something; method",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:載せる|のせる",
+        "japanese": "載せる",
+        "japaneseSegments": [
+          {
+            "base": "載",
+            "reading": "の"
+          },
+          {
+            "text": "せる"
+          }
+        ],
+        "reading": "のせる",
+        "romaji": "noseru",
+        "meaning": "to place on",
+        "firstPassage": 7,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ちゃぶ台|ちゃぶだい",
+        "japanese": "ちゃぶ台",
+        "japaneseSegments": [
+          {
+            "text": "ちゃぶ"
+          },
+          {
+            "base": "台",
+            "reading": "だい"
+          }
+        ],
+        "reading": "ちゃぶだい",
+        "romaji": "chabudai",
+        "meaning": "low dining table used while sitting on the floor",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:おかず|おかず",
+        "japanese": "おかず",
+        "japaneseSegments": [
+          {
+            "text": "おかず"
+          }
+        ],
+        "reading": "おかず",
+        "romaji": "okazu",
+        "meaning": "side dishes; food eaten with rice or bread",
+        "firstPassage": 7,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "vocabulary:大皿|おおざら",
+        "japanese": "大皿",
+        "japaneseSegments": [
+          {
+            "base": "大皿",
+            "reading": "おおざら"
+          }
+        ],
+        "reading": "おおざら",
+        "romaji": "ōzara",
+        "meaning": "large plate; serving platter",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:小皿|こざら",
+        "japanese": "小皿",
+        "japaneseSegments": [
+          {
+            "base": "小皿",
+            "reading": "こざら"
+          }
+        ],
+        "reading": "こざら",
+        "romaji": "kozara",
+        "meaning": "small plate",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:食卓|しょくたく",
+        "japanese": "食卓",
+        "japaneseSegments": [
+          {
+            "base": "食卓",
+            "reading": "しょくたく"
+          }
+        ],
+        "reading": "しょくたく",
+        "romaji": "shokutaku",
+        "meaning": "dining table",
+        "firstPassage": 7,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:並ぶ|ならぶ",
+        "japanese": "並ぶ",
+        "japaneseSegments": [
+          {
+            "base": "並",
+            "reading": "なら"
+          },
+          {
+            "text": "ぶ"
+          }
+        ],
+        "reading": "ならぶ",
+        "romaji": "narabu",
+        "meaning": "to be arranged; to stand in a row",
+        "firstPassage": 7,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:朝ご飯|あさごはん",
+        "japanese": "朝ご飯",
+        "japaneseSegments": [
+          {
+            "base": "朝",
+            "reading": "あさ"
+          },
+          {
+            "text": "ご"
+          },
+          {
+            "base": "飯",
+            "reading": "はん"
+          }
+        ],
+        "reading": "あさごはん",
+        "romaji": "asa gohan",
+        "meaning": "breakfast",
+        "firstPassage": 8,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:忙しい|いそがしい",
+        "japanese": "忙しい",
+        "japaneseSegments": [
+          {
+            "base": "忙",
+            "reading": "いそが"
+          },
+          {
+            "text": "しい"
+          }
+        ],
+        "reading": "いそがしい",
+        "romaji": "isogashii",
+        "meaning": "busy",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:簡単|かんたん",
+        "japanese": "簡単",
+        "japaneseSegments": [
+          {
+            "base": "簡単",
+            "reading": "かんたん"
+          }
+        ],
+        "reading": "かんたん",
+        "romaji": "kantan",
+        "meaning": "simple; easy",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:卵|たまご",
+        "japanese": "卵",
+        "japaneseSegments": [
+          {
+            "base": "卵",
+            "reading": "たまご"
+          }
+        ],
+        "reading": "たまご",
+        "romaji": "tamago",
+        "meaning": "egg",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:納豆|なっとう",
+        "japanese": "納豆",
+        "japaneseSegments": [
+          {
+            "base": "納豆",
+            "reading": "なっとう"
+          }
+        ],
+        "reading": "なっとう",
+        "romaji": "nattō",
+        "meaning": "fermented soybeans",
+        "firstPassage": 8,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:昼ご飯|ひるごはん",
+        "japanese": "昼ご飯",
+        "japaneseSegments": [
+          {
+            "base": "昼",
+            "reading": "ひる"
+          },
+          {
+            "text": "ご"
+          },
+          {
+            "base": "飯",
+            "reading": "はん"
+          }
+        ],
+        "reading": "ひるごはん",
+        "romaji": "hiru gohan",
+        "meaning": "lunch",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:給食|きゅうしょく",
+        "japanese": "給食",
+        "japaneseSegments": [
+          {
+            "base": "給食",
+            "reading": "きゅうしょく"
+          }
+        ],
+        "reading": "きゅうしょく",
+        "romaji": "kyūshoku",
+        "meaning": "meals provided by an institution; school lunch",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:配る|くばる",
+        "japanese": "配る",
+        "japaneseSegments": [
+          {
+            "base": "配",
+            "reading": "くば"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "くばる",
+        "romaji": "kubaru",
+        "meaning": "to distribute; to serve out",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:弁当|べんとう",
+        "japanese": "弁当",
+        "japaneseSegments": [
+          {
+            "base": "弁当",
+            "reading": "べんとう"
+          }
+        ],
+        "reading": "べんとう",
+        "romaji": "bentō",
+        "meaning": "boxed lunch; packed meal",
+        "firstPassage": 9,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:幼稚園|ようちえん",
+        "japanese": "幼稚園",
+        "japaneseSegments": [
+          {
+            "base": "幼稚園",
+            "reading": "ようちえん"
+          }
+        ],
+        "reading": "ようちえん",
+        "romaji": "yōchien",
+        "meaning": "kindergarten",
+        "firstPassage": 9,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:弁当屋|べんとうや",
+        "japanese": "弁当屋",
+        "japaneseSegments": [
+          {
+            "base": "弁当屋",
+            "reading": "べんとうや"
+          }
+        ],
+        "reading": "べんとうや",
+        "romaji": "bentōya",
+        "meaning": "shop selling boxed lunches",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:外食|がいしょく",
+        "japanese": "外食",
+        "japaneseSegments": [
+          {
+            "base": "外食",
+            "reading": "がいしょく"
+          }
+        ],
+        "reading": "がいしょく",
+        "romaji": "gaishoku",
+        "meaning": "eating out",
+        "firstPassage": 10,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:牛丼|ぎゅうどん",
+        "japanese": "牛丼",
+        "japaneseSegments": [
+          {
+            "base": "牛丼",
+            "reading": "ぎゅうどん"
+          }
+        ],
+        "reading": "ぎゅうどん",
+        "romaji": "gyūdon",
+        "meaning": "rice bowl topped with beef",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:かつ丼|かつどん",
+        "japanese": "かつ丼",
+        "japaneseSegments": [
+          {
+            "text": "かつ"
+          },
+          {
+            "base": "丼",
+            "reading": "どん"
+          }
+        ],
+        "reading": "かつどん",
+        "romaji": "katsudon",
+        "meaning": "rice bowl topped with a pork cutlet",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:丼もの|どんぶりもの",
+        "japanese": "丼もの",
+        "japaneseSegments": [
+          {
+            "base": "丼",
+            "reading": "どんぶり"
+          },
+          {
+            "text": "もの"
+          }
+        ],
+        "reading": "どんぶりもの",
+        "romaji": "donburimono",
+        "meaning": "rice-bowl dish with toppings",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:うどん|うどん",
+        "japanese": "うどん",
+        "japaneseSegments": [
+          {
+            "text": "うどん"
+          }
+        ],
+        "reading": "うどん",
+        "romaji": "udon",
+        "meaning": "thick wheat noodles",
+        "firstPassage": 10,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:食堂|しょくどう",
+        "japanese": "食堂",
+        "japaneseSegments": [
+          {
+            "base": "食堂",
+            "reading": "しょくどう"
+          }
+        ],
+        "reading": "しょくどう",
+        "romaji": "shokudō",
+        "meaning": "cafeteria; dining hall",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:行列|ぎょうれつ",
+        "japanese": "行列",
+        "japaneseSegments": [
+          {
+            "base": "行列",
+            "reading": "ぎょうれつ"
+          }
+        ],
+        "reading": "ぎょうれつ",
+        "romaji": "gyōretsu",
+        "meaning": "line of people; queue",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:麺|めん",
+        "japanese": "麺",
+        "japaneseSegments": [
+          {
+            "base": "麺",
+            "reading": "めん"
+          }
+        ],
+        "reading": "めん",
+        "romaji": "men",
+        "meaning": "noodles",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:社員食堂|しゃいんしょくどう",
+        "japanese": "社員食堂",
+        "japaneseSegments": [
+          {
+            "base": "社員食堂",
+            "reading": "しゃいんしょくどう"
+          }
+        ],
+        "reading": "しゃいんしょくどう",
+        "romaji": "shain shokudō",
+        "meaning": "employee cafeteria",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:天丼|てんどん",
+        "japanese": "天丼",
+        "japaneseSegments": [
+          {
+            "base": "天丼",
+            "reading": "てんどん"
+          }
+        ],
+        "reading": "てんどん",
+        "romaji": "tendon",
+        "meaning": "rice bowl topped with tempura",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:海鮮丼|かいせんどん",
+        "japanese": "海鮮丼",
+        "japaneseSegments": [
+          {
+            "base": "海鮮丼",
+            "reading": "かいせんどん"
+          }
+        ],
+        "reading": "かいせんどん",
+        "romaji": "kaisendon",
+        "meaning": "rice bowl topped with seafood",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:晩ご飯|ばんごはん",
+        "japanese": "晩ご飯",
+        "japaneseSegments": [
+          {
+            "base": "晩",
+            "reading": "ばん"
+          },
+          {
+            "text": "ご"
+          },
+          {
+            "base": "飯",
+            "reading": "はん"
+          }
+        ],
+        "reading": "ばんごはん",
+        "romaji": "bangohan",
+        "meaning": "dinner; evening meal",
+        "firstPassage": 11,
+        "occurrenceCount": 5
+      },
+      {
+        "key": "vocabulary:サンマ|さんま",
+        "japanese": "サンマ",
+        "japaneseSegments": [
+          {
+            "text": "サンマ"
+          }
+        ],
+        "reading": "さんま",
+        "romaji": "sanma",
+        "meaning": "Pacific saury",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:塩焼き|しおやき",
+        "japanese": "塩焼き",
+        "japaneseSegments": [
+          {
+            "base": "塩焼",
+            "reading": "しおや"
+          },
+          {
+            "text": "き"
+          }
+        ],
+        "reading": "しおやき",
+        "romaji": "shioyaki",
+        "meaning": "salt-grilling; food grilled with salt",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:人気|にんき",
+        "japanese": "人気",
+        "japaneseSegments": [
+          {
+            "base": "人気",
+            "reading": "にんき"
+          }
+        ],
+        "reading": "にんき",
+        "romaji": "ninki",
+        "meaning": "popularity",
+        "firstPassage": 11,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:寿司|すし",
+        "japanese": "寿司",
+        "japaneseSegments": [
+          {
+            "base": "寿司",
+            "reading": "すし"
+          }
+        ],
+        "reading": "すし",
+        "romaji": "sushi",
+        "meaning": "sushi",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:生|なま",
+        "japanese": "生",
+        "japaneseSegments": [
+          {
+            "base": "生",
+            "reading": "なま"
+          }
+        ],
+        "reading": "なま",
+        "romaji": "nama",
+        "meaning": "raw; uncooked",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:焼き魚|やきざかな",
+        "japanese": "焼き魚",
+        "japaneseSegments": [
+          {
+            "base": "焼",
+            "reading": "や"
+          },
+          {
+            "text": "き"
+          },
+          {
+            "base": "魚",
+            "reading": "ざかな"
+          }
+        ],
+        "reading": "やきざかな",
+        "romaji": "yakizakana",
+        "meaning": "grilled fish",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:豚かつ|とんかつ",
+        "japanese": "豚かつ",
+        "japaneseSegments": [
+          {
+            "base": "豚",
+            "reading": "とん"
+          },
+          {
+            "text": "かつ"
+          }
+        ],
+        "reading": "とんかつ",
+        "romaji": "tonkatsu",
+        "meaning": "breaded, deep-fried pork cutlet",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:豚肉|ぶたにく",
+        "japanese": "豚肉",
+        "japaneseSegments": [
+          {
+            "base": "豚肉",
+            "reading": "ぶたにく"
+          }
+        ],
+        "reading": "ぶたにく",
+        "romaji": "butaniku",
+        "meaning": "pork",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:千切り|せんぎり",
+        "japanese": "千切り",
+        "japaneseSegments": [
+          {
+            "base": "千切",
+            "reading": "せんぎ"
+          },
+          {
+            "text": "り"
+          }
+        ],
+        "reading": "せんぎり",
+        "romaji": "sengiri",
+        "meaning": "cutting into fine strips; shredded vegetables",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:天ぷら|てんぷら",
+        "japanese": "天ぷら",
+        "japaneseSegments": [
+          {
+            "base": "天",
+            "reading": "てん"
+          },
+          {
+            "text": "ぷら"
+          }
+        ],
+        "reading": "てんぷら",
+        "romaji": "tenpura",
+        "meaning": "seafood or vegetables deep-fried in light batter",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:寄せ鍋|よせなべ",
+        "japanese": "寄せ鍋",
+        "japaneseSegments": [
+          {
+            "base": "寄",
+            "reading": "よ"
+          },
+          {
+            "text": "せ"
+          },
+          {
+            "base": "鍋",
+            "reading": "なべ"
+          }
+        ],
+        "reading": "よせなべ",
+        "romaji": "yosenabe",
+        "meaning": "hot pot with assorted ingredients",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:おでん|おでん",
+        "japanese": "おでん",
+        "japaneseSegments": [
+          {
+            "text": "おでん"
+          }
+        ],
+        "reading": "おでん",
+        "romaji": "oden",
+        "meaning": "assorted ingredients simmered in seasoned broth",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:唐揚げ|からあげ",
+        "japanese": "唐揚げ",
+        "japaneseSegments": [
+          {
+            "base": "唐揚",
+            "reading": "からあ"
+          },
+          {
+            "text": "げ"
+          }
+        ],
+        "reading": "からあげ",
+        "romaji": "karaage",
+        "meaning": "Japanese deep-frying with a light flour or starch coating",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:すき焼き|すきやき",
+        "japanese": "すき焼き",
+        "japaneseSegments": [
+          {
+            "text": "すき"
+          },
+          {
+            "base": "焼",
+            "reading": "や"
+          },
+          {
+            "text": "き"
+          }
+        ],
+        "reading": "すきやき",
+        "romaji": "sukiyaki",
+        "meaning": "beef and vegetables cooked in a sweet soy-based sauce",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:カレーライス|かれーらいす",
+        "japanese": "カレーライス",
+        "japaneseSegments": [
+          {
+            "text": "カレーライス"
+          }
+        ],
+        "reading": "かれーらいす",
+        "romaji": "karē raisu",
+        "meaning": "curry served with rice",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ハンバーグ|はんばーぐ",
+        "japanese": "ハンバーグ",
+        "japaneseSegments": [
+          {
+            "text": "ハンバーグ"
+          }
+        ],
+        "reading": "はんばーぐ",
+        "romaji": "hanbāgu",
+        "meaning": "hamburger steak served without a bun",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ごちそうさまでした|ごちそうさまでした",
+        "japanese": "ごちそうさまでした",
+        "japaneseSegments": [
+          {
+            "text": "ごちそうさまでした"
+          }
+        ],
+        "reading": "ごちそうさまでした",
+        "romaji": "gochisōsama deshita",
+        "meaning": "expression of thanks after a meal",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:焼肉|やきにく",
+        "japanese": "焼肉",
+        "japaneseSegments": [
+          {
+            "base": "焼肉",
+            "reading": "やきにく"
+          }
+        ],
+        "reading": "やきにく",
+        "romaji": "yakiniku",
+        "meaning": "grilled meat",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:麻婆豆腐|まーぼーどうふ",
+        "japanese": "麻婆豆腐",
+        "japaneseSegments": [
+          {
+            "base": "麻婆豆腐",
+            "reading": "まーぼーどうふ"
+          }
+        ],
+        "reading": "まーぼーどうふ",
+        "romaji": "mābō dōfu",
+        "meaning": "tofu in a spicy sauce with minced meat",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:肉じゃが|にくじゃが",
+        "japanese": "肉じゃが",
+        "japaneseSegments": [
+          {
+            "base": "肉",
+            "reading": "にく"
+          },
+          {
+            "text": "じゃが"
+          }
+        ],
+        "reading": "にくじゃが",
+        "romaji": "nikujaga",
+        "meaning": "simmered meat and potatoes",
+        "firstPassage": 13,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:特別|とくべつ",
+        "japanese": "特別",
+        "japaneseSegments": [
+          {
+            "base": "特別",
+            "reading": "とくべつ"
+          }
+        ],
+        "reading": "とくべつ",
+        "romaji": "tokubetsu",
+        "meaning": "special",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:正月|しょうがつ",
+        "japanese": "正月",
+        "japaneseSegments": [
+          {
+            "base": "正月",
+            "reading": "しょうがつ"
+          }
+        ],
+        "reading": "しょうがつ",
+        "romaji": "shōgatsu",
+        "meaning": "New Year holiday",
+        "firstPassage": 14,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:雑煮|ぞうに",
+        "japanese": "雑煮",
+        "japaneseSegments": [
+          {
+            "base": "雑煮",
+            "reading": "ぞうに"
+          }
+        ],
+        "reading": "ぞうに",
+        "romaji": "zōni",
+        "meaning": "New Year soup containing rice cakes",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:お節料理|おせちりょうり",
+        "japanese": "お節料理",
+        "japaneseSegments": [
+          {
+            "text": "お"
+          },
+          {
+            "base": "節料理",
+            "reading": "せちりょうり"
+          }
+        ],
+        "reading": "おせちりょうり",
+        "romaji": "osechi ryōri",
+        "meaning": "traditional dishes prepared for New Year",
+        "firstPassage": 14,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "vocabulary:ひな祭り|ひなまつり",
+        "japanese": "ひな祭り",
+        "japaneseSegments": [
+          {
+            "text": "ひな"
+          },
+          {
+            "base": "祭",
+            "reading": "まつ"
+          },
+          {
+            "text": "り"
+          }
+        ],
+        "reading": "ひなまつり",
+        "romaji": "hinamatsuri",
+        "meaning": "Doll Festival on March 3, celebrating girls",
+        "firstPassage": 14,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:ちらし寿司|ちらしずし",
+        "japanese": "ちらし寿司",
+        "japaneseSegments": [
+          {
+            "text": "ちらし"
+          },
+          {
+            "base": "寿司",
+            "reading": "ずし"
+          }
+        ],
+        "reading": "ちらしずし",
+        "romaji": "chirashizushi",
+        "meaning": "sushi rice with assorted toppings scattered over it",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:ハマグリ|はまぐり",
+        "japanese": "ハマグリ",
+        "japaneseSegments": [
+          {
+            "text": "ハマグリ"
+          }
+        ],
+        "reading": "はまぐり",
+        "romaji": "hamaguri",
+        "meaning": "hard-shell clam",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:すまし汁|すましじる",
+        "japanese": "すまし汁",
+        "japaneseSegments": [
+          {
+            "text": "すまし"
+          },
+          {
+            "base": "汁",
+            "reading": "じる"
+          }
+        ],
+        "reading": "すましじる",
+        "romaji": "sumashijiru",
+        "meaning": "clear soup",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:尾頭つき|おかしらつき",
+        "japanese": "尾頭つき",
+        "japaneseSegments": [
+          {
+            "base": "尾頭",
+            "reading": "おかしら"
+          },
+          {
+            "text": "つき"
+          }
+        ],
+        "reading": "おかしらつき",
+        "romaji": "okashiratsuki",
+        "meaning": "whole fish with its head and tail attached",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:赤飯|せきはん",
+        "japanese": "赤飯",
+        "japaneseSegments": [
+          {
+            "base": "赤飯",
+            "reading": "せきはん"
+          }
+        ],
+        "reading": "せきはん",
+        "romaji": "sekihan",
+        "meaning": "rice cooked with red beans, served for celebrations",
+        "firstPassage": 14,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "vocabulary:行事|ぎょうじ",
+        "japanese": "行事",
+        "japaneseSegments": [
+          {
+            "base": "行事",
+            "reading": "ぎょうじ"
+          }
+        ],
+        "reading": "ぎょうじ",
+        "romaji": "gyōji",
+        "meaning": "event; observance",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:祝う|いわう",
+        "japanese": "祝う",
+        "japaneseSegments": [
+          {
+            "base": "祝",
+            "reading": "いわ"
+          },
+          {
+            "text": "う"
+          }
+        ],
+        "reading": "いわう",
+        "romaji": "iwau",
+        "meaning": "to celebrate",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:準備|じゅんび",
+        "japanese": "準備",
+        "japaneseSegments": [
+          {
+            "base": "準備",
+            "reading": "じゅんび"
+          }
+        ],
+        "reading": "じゅんび",
+        "romaji": "junbi",
+        "meaning": "preparation; to prepare when used as a verb",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "vocabulary:神様|かみさま",
+        "japanese": "神様",
+        "japaneseSegments": [
+          {
+            "base": "神様",
+            "reading": "かみさま"
+          }
+        ],
+        "reading": "かみさま",
+        "romaji": "kamisama",
+        "meaning": "deity; respectful term for a god",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ひな人形|ひなにんぎょう",
+        "japanese": "ひな人形",
+        "japaneseSegments": [
+          {
+            "text": "ひな"
+          },
+          {
+            "base": "人形",
+            "reading": "にんぎょう"
+          }
+        ],
+        "reading": "ひなにんぎょう",
+        "romaji": "hina ningyō",
+        "meaning": "dolls displayed for the Doll Festival",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:入学祝い|にゅうがくいわい",
+        "japanese": "入学祝い",
+        "japaneseSegments": [
+          {
+            "base": "入学祝",
+            "reading": "にゅうがくいわ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "にゅうがくいわい",
+        "romaji": "nyūgaku iwai",
+        "meaning": "celebration of entering school",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:卒業祝い|そつぎょういわい",
+        "japanese": "卒業祝い",
+        "japaneseSegments": [
+          {
+            "base": "卒業祝",
+            "reading": "そつぎょういわ"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "reading": "そつぎょういわい",
+        "romaji": "sotsugyō iwai",
+        "meaning": "graduation celebration",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:食生活|しょくせいかつ",
+        "japanese": "食生活",
+        "japaneseSegments": [
+          {
+            "base": "食生活",
+            "reading": "しょくせいかつ"
+          }
+        ],
+        "reading": "しょくせいかつ",
+        "romaji": "shokuseikatsu",
+        "meaning": "eating habits; dietary life",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:日本食|にほんしょく",
+        "japanese": "日本食",
+        "japaneseSegments": [
+          {
+            "base": "日本食",
+            "reading": "にほんしょく"
+          }
+        ],
+        "reading": "にほんしょく",
+        "romaji": "Nihonshoku",
+        "meaning": "Japanese food",
+        "firstPassage": 15,
+        "occurrenceCount": 7
+      },
+      {
+        "key": "vocabulary:技術|ぎじゅつ",
+        "japanese": "技術",
+        "japaneseSegments": [
+          {
+            "base": "技術",
+            "reading": "ぎじゅつ"
+          }
+        ],
+        "reading": "ぎじゅつ",
+        "romaji": "gijutsu",
+        "meaning": "technology; technique",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:ますます|ますます",
+        "japanese": "ますます",
+        "japaneseSegments": [
+          {
+            "text": "ますます"
+          }
+        ],
+        "reading": "ますます",
+        "romaji": "masumasu",
+        "meaning": "more and more; increasingly",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:食品|しょくひん",
+        "japanese": "食品",
+        "japaneseSegments": [
+          {
+            "base": "食品",
+            "reading": "しょくひん"
+          }
+        ],
+        "reading": "しょくひん",
+        "romaji": "shokuhin",
+        "meaning": "food product; foodstuff",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:基本|きほん",
+        "japanese": "基本",
+        "japaneseSegments": [
+          {
+            "base": "基本",
+            "reading": "きほん"
+          }
+        ],
+        "reading": "きほん",
+        "romaji": "kihon",
+        "meaning": "foundation; basis",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:出汁の素|だしのもと",
+        "japanese": "出汁の素",
+        "japaneseSegments": [
+          {
+            "base": "出汁",
+            "reading": "だし"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "base": "素",
+            "reading": "もと"
+          }
+        ],
+        "reading": "だしのもと",
+        "romaji": "dashi no moto",
+        "meaning": "instant dashi stock base",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:見直す|みなおす",
+        "japanese": "見直す",
+        "japaneseSegments": [
+          {
+            "base": "見直",
+            "reading": "みなお"
+          },
+          {
+            "text": "す"
+          }
+        ],
+        "reading": "みなおす",
+        "romaji": "minaosu",
+        "meaning": "to reassess; to appreciate anew",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:食文化|しょくぶんか",
+        "japanese": "食文化",
+        "japaneseSegments": [
+          {
+            "base": "食文化",
+            "reading": "しょくぶんか"
+          }
+        ],
+        "reading": "しょくぶんか",
+        "romaji": "shokubunka",
+        "meaning": "food culture",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:守る|まもる",
+        "japanese": "守る",
+        "japaneseSegments": [
+          {
+            "base": "守",
+            "reading": "まも"
+          },
+          {
+            "text": "る"
+          }
+        ],
+        "reading": "まもる",
+        "romaji": "mamoru",
+        "meaning": "to protect; to preserve",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "vocabulary:歴史|れきし",
+        "japanese": "歴史",
+        "japaneseSegments": [
+          {
+            "base": "歴史",
+            "reading": "れきし"
+          }
+        ],
+        "reading": "れきし",
+        "romaji": "rekishi",
+        "meaning": "history",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      }
+    ],
+    "grammar": [
+      {
+        "key": "grammar:ので",
+        "pattern": "ので",
+        "patternSegments": [
+          {
+            "text": "ので"
+          }
+        ],
+        "explanation": "This pattern gives a reason or cause. After a noun or a nominal adjective, it follows the linking form ending in na.",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:てくる",
+        "pattern": "てくる",
+        "patternSegments": [
+          {
+            "text": "てくる"
+          }
+        ],
+        "explanation": "This pattern describes an action continuing from the past toward the present, or movement toward the speaker's location.",
+        "firstPassage": 1,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:というのは",
+        "pattern": "というのは",
+        "patternSegments": [
+          {
+            "text": "というのは"
+          }
+        ],
+        "explanation": "This pattern introduces a term as the topic of a definition or explanation.",
+        "firstPassage": 1,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:と言われている",
+        "pattern": "と言われている",
+        "patternSegments": [
+          {
+            "text": "と"
+          },
+          {
+            "base": "言",
+            "reading": "い"
+          },
+          {
+            "text": "われている"
+          }
+        ],
+        "explanation": "This pattern reports a generally held view or description, meaning is said to. The simple passive form can serve the same reporting function.",
+        "firstPassage": 1,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:たり...たりする",
+        "pattern": "たり…たりする",
+        "patternSegments": [
+          {
+            "text": "たり…たりする"
+          }
+        ],
+        "explanation": "This pattern lists representative actions without implying that the list is exhaustive. Each listed action counts as one occurrence.",
+        "firstPassage": 2,
+        "occurrenceCount": 10
+      },
+      {
+        "key": "grammar:ず",
+        "pattern": "ず",
+        "patternSegments": [
+          {
+            "text": "ず"
+          }
+        ],
+        "explanation": "This pattern is a written-style negative connection meaning without doing. It may be followed by ni.",
+        "firstPassage": 2,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:なくても",
+        "pattern": "なくても",
+        "patternSegments": [
+          {
+            "text": "なくても"
+          }
+        ],
+        "explanation": "This pattern means even without doing something, showing that the result holds despite the action's absence.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:のは...からです",
+        "pattern": "のは…からです",
+        "patternSegments": [
+          {
+            "text": "のは…からです"
+          }
+        ],
+        "explanation": "This pattern makes an event or situation the topic and then explains its cause: the reason something happens is that.",
+        "firstPassage": 2,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:ようになる",
+        "pattern": "ようになる",
+        "patternSegments": [
+          {
+            "text": "ようになる"
+          }
+        ],
+        "explanation": "This pattern expresses a change in ability, habit, or state: becoming able to do something or beginning to do it regularly.",
+        "firstPassage": 3,
+        "occurrenceCount": 6
+      },
+      {
+        "key": "grammar:ておく",
+        "pattern": "ておく",
+        "patternSegments": [
+          {
+            "text": "ておく"
+          }
+        ],
+        "explanation": "This pattern means doing something in preparation or leaving the resulting state in place.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:たら",
+        "pattern": "たら",
+        "patternSegments": [
+          {
+            "text": "たら"
+          }
+        ],
+        "explanation": "This pattern introduces a condition or a completed prerequisite, meaning if or when. Here it marks when to take the next cooking step.",
+        "firstPassage": 3,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:ことができる",
+        "pattern": "ことができる",
+        "patternSegments": [
+          {
+            "text": "ことができる"
+          }
+        ],
+        "explanation": "This pattern follows a dictionary-form verb and expresses ability or possibility.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:だけでなく",
+        "pattern": "だけでなく",
+        "patternSegments": [
+          {
+            "text": "だけでなく"
+          }
+        ],
+        "explanation": "This pattern adds another quality or fact, meaning not only but also.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:として",
+        "pattern": "として",
+        "patternSegments": [
+          {
+            "text": "として"
+          }
+        ],
+        "explanation": "This pattern marks the role, status, or category in which something is regarded, meaning as.",
+        "firstPassage": 4,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:ようとする",
+        "pattern": "ようとする",
+        "patternSegments": [
+          {
+            "text": "ようとする"
+          }
+        ],
+        "explanation": "This pattern combines a verb's volitional form with an attempt or intention to perform the action.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:やすい",
+        "pattern": "やすい",
+        "patternSegments": [
+          {
+            "text": "やすい"
+          }
+        ],
+        "explanation": "This pattern attaches to a verb stem to describe something as easy to do. Here it describes food as easy or agreeable to eat.",
+        "firstPassage": 5,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:ていく",
+        "pattern": "ていく",
+        "patternSegments": [
+          {
+            "text": "ていく"
+          }
+        ],
+        "explanation": "This pattern describes an action or change developing onward over time.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:たことがない",
+        "pattern": "たことがない",
+        "patternSegments": [
+          {
+            "text": "たことがない"
+          }
+        ],
+        "explanation": "This pattern states that someone has never had a particular experience. In the past tense, it means had never done something before that time.",
+        "firstPassage": 5,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-te kuru",
+        "pattern": "V-te kuru",
+        "patternSegments": [
+          {
+            "text": "てくる"
+          }
+        ],
+        "explanation": "This pattern expresses movement toward the speaker or a change developing over time up to the point being described.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-stem + yasui",
+        "pattern": "V-stem + yasui",
+        "patternSegments": [
+          {
+            "text": "やすい"
+          }
+        ],
+        "explanation": "This pattern attaches to a verb stem to mean that an action is easy to do.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:to iwarete iru",
+        "pattern": "to iwarete iru",
+        "patternSegments": [
+          {
+            "text": "と"
+          },
+          {
+            "base": "言",
+            "reading": "い"
+          },
+          {
+            "text": "われている"
+          }
+        ],
+        "explanation": "This pattern reports a generally accepted statement or explanation, meaning that something is said to be the case.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V + you ni naru",
+        "pattern": "V + you ni naru",
+        "patternSegments": [
+          {
+            "text": "ようになる"
+          }
+        ],
+        "explanation": "This pattern describes a change in habitual behavior or ability: someone begins doing something or becomes able to do it.",
+        "firstPassage": 6,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:V-tari V-tari suru",
+        "pattern": "V-tari V-tari suru",
+        "patternSegments": [
+          {
+            "text": "たり…たりする"
+          }
+        ],
+        "explanation": "This pattern lists representative activities without presenting an exhaustive list.",
+        "firstPassage": 6,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:V-dictionary + koto",
+        "pattern": "V-dictionary + koto",
+        "patternSegments": [
+          {
+            "text": "こと"
+          }
+        ],
+        "explanation": "This pattern turns an action into a noun-like expression so it can be discussed as an activity or occurrence.",
+        "firstPassage": 6,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:clause + node",
+        "pattern": "clause + node",
+        "patternSegments": [
+          {
+            "text": "ので"
+          }
+        ],
+        "explanation": "This pattern introduces the reason or cause for the following statement.",
+        "firstPassage": 6,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:V-dictionary + to",
+        "pattern": "V-dictionary + to",
+        "patternSegments": [
+          {
+            "text": "と"
+          }
+        ],
+        "explanation": "This pattern links a condition or event to a natural consequence, often meaning when or once.",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:V-te iku",
+        "pattern": "V-te iku",
+        "patternSegments": [
+          {
+            "text": "ていく"
+          }
+        ],
+        "explanation": "This pattern expresses carrying an action forward or movement away; it can describe proceeding with an examination or taking something along.",
+        "firstPassage": 7,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:N no toki",
+        "pattern": "N no toki",
+        "patternSegments": [
+          {
+            "text": "のとき"
+          }
+        ],
+        "explanation": "This pattern identifies a time or situation associated with a noun, here the occasions when bread or rice is eaten.",
+        "firstPassage": 8,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:clause + no deshou ka",
+        "pattern": "clause + no deshou ka",
+        "patternSegments": [
+          {
+            "text": "のでしょうか"
+          }
+        ],
+        "explanation": "This pattern poses a reflective or explanatory question, inviting the reader to consider what the answer might be.",
+        "firstPassage": 9,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:potential verb form",
+        "pattern": "potential verb form",
+        "patternSegments": [
+          {
+            "text": "れる／られる"
+          }
+        ],
+        "explanation": "This pattern expresses the ability or opportunity to perform an action. Context distinguishes it from passive forms with similar endings.",
+        "firstPassage": 9,
+        "occurrenceCount": 3
+      },
+      {
+        "key": "grammar:passive verb form",
+        "pattern": "passive verb form",
+        "patternSegments": [
+          {
+            "text": "れる／られる"
+          }
+        ],
+        "explanation": "This pattern presents the subject as receiving an action, as when food is sold or prepared; the person performing it may be omitted.",
+        "firstPassage": 9,
+        "occurrenceCount": 4
+      },
+      {
+        "key": "grammar:i-adjective stem + kute",
+        "pattern": "i-adjective stem + kute",
+        "patternSegments": [
+          {
+            "text": "くて"
+          }
+        ],
+        "explanation": "This pattern connects an adjective to another description, often corresponding to and.",
+        "firstPassage": 10,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ことで知られている",
+        "pattern": "〜ことで知られている",
+        "patternSegments": [
+          {
+            "text": "〜ことで"
+          },
+          {
+            "base": "知",
+            "reading": "し"
+          },
+          {
+            "text": "られている"
+          }
+        ],
+        "explanation": "This pattern means to be known for doing something. A plain-form verb names the activity for which someone is known.",
+        "firstPassage": 11,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ことが多い",
+        "pattern": "〜ことが多い",
+        "patternSegments": [
+          {
+            "text": "〜ことが"
+          },
+          {
+            "base": "多",
+            "reading": "おお"
+          },
+          {
+            "text": "い"
+          }
+        ],
+        "explanation": "This pattern says that an action happens often. Replacing the subject marker with the additive marker includes it among other frequent actions.",
+        "firstPassage": 12,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜のに",
+        "pattern": "〜のに",
+        "patternSegments": [
+          {
+            "text": "〜のに"
+          }
+        ],
+        "explanation": "This pattern means although or even though and often conveys surprise that the following situation contradicts expectations.",
+        "firstPassage": 12,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜のための",
+        "pattern": "〜のための",
+        "patternSegments": [
+          {
+            "text": "〜のための"
+          }
+        ],
+        "explanation": "This pattern links two nouns to show that the second is intended for the first, such as food intended for a particular occasion.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ておく",
+        "pattern": "〜ておく",
+        "patternSegments": [
+          {
+            "text": "〜ておく"
+          }
+        ],
+        "explanation": "This pattern expresses doing something in advance for a later purpose. Its past form describes preparation already completed.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜てはいけない",
+        "pattern": "〜てはいけない",
+        "patternSegments": [
+          {
+            "text": "〜てはいけない"
+          }
+        ],
+        "explanation": "This pattern expresses prohibition: an action must not be done.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ように",
+        "pattern": "〜ように",
+        "patternSegments": [
+          {
+            "text": "〜ように"
+          }
+        ],
+        "explanation": "This pattern expresses a desired result or purpose, meaning so that. It often follows a potential verb describing what someone will be able to do.",
+        "firstPassage": 14,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜ようになる",
+        "pattern": "〜ようになる",
+        "patternSegments": [
+          {
+            "text": "〜ようになる"
+          }
+        ],
+        "explanation": "This pattern describes a change into a new habit or state, meaning to begin doing something or to come to do it.",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜と言われる",
+        "pattern": "〜と言われる",
+        "patternSegments": [
+          {
+            "text": "〜と"
+          },
+          {
+            "base": "言",
+            "reading": "い"
+          },
+          {
+            "text": "われる"
+          }
+        ],
+        "explanation": "This pattern reports a generally held statement or belief, meaning it is said that. Its continuing-state form emphasizes that the statement is commonly repeated.",
+        "firstPassage": 14,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜続ける",
+        "pattern": "〜続ける",
+        "patternSegments": [
+          {
+            "text": "〜"
+          },
+          {
+            "base": "続",
+            "reading": "つづ"
+          },
+          {
+            "text": "ける"
+          }
+        ],
+        "explanation": "This pattern attaches to a verb stem to express continuing to perform an action or continuing to undergo a change.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜に比べて",
+        "pattern": "〜に比べて",
+        "patternSegments": [
+          {
+            "text": "〜に"
+          },
+          {
+            "base": "比",
+            "reading": "くら"
+          },
+          {
+            "text": "べて"
+          }
+        ],
+        "explanation": "This pattern introduces a comparison, meaning compared with. The preceding noun supplies the comparison standard.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜なくなる",
+        "pattern": "〜なくなる",
+        "patternSegments": [
+          {
+            "text": "〜なくなる"
+          }
+        ],
+        "explanation": "This pattern follows a verb's negative form to express a change in which an action stops happening or becomes less customary.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜の代わりに",
+        "pattern": "〜の代わりに",
+        "patternSegments": [
+          {
+            "text": "〜の"
+          },
+          {
+            "base": "代",
+            "reading": "か"
+          },
+          {
+            "text": "わりに"
+          }
+        ],
+        "explanation": "This pattern means instead of or in place of the preceding noun.",
+        "firstPassage": 15,
+        "occurrenceCount": 1
+      },
+      {
+        "key": "grammar:〜たり〜たりする",
+        "pattern": "〜たり〜たりする",
+        "patternSegments": [
+          {
+            "text": "〜たり〜たりする"
+          }
+        ],
+        "explanation": "This pattern lists representative actions without claiming to list every possibility. It can also use a single listed action before the sentence continues.",
+        "firstPassage": 15,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜のでしょうか",
+        "pattern": "〜のでしょうか",
+        "patternSegments": [
+          {
+            "text": "〜のでしょうか"
+          }
+        ],
+        "explanation": "This pattern asks a reflective or gently phrased question about an explanation or uncertain situation. After a noun predicate, an additional linking syllable is required.",
+        "firstPassage": 15,
+        "occurrenceCount": 2
+      },
+      {
+        "key": "grammar:〜とは",
+        "pattern": "〜とは",
+        "patternSegments": [
+          {
+            "text": "〜とは"
+          }
+        ],
+        "explanation": "This pattern singles out a term as the topic of a definition or explanation, often asking what it really means.",
+        "firstPassage": 16,
+        "occurrenceCount": 1
+      }
+    ]
+  }
+}
