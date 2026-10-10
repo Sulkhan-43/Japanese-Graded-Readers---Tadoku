@@ -99,7 +99,7 @@ function repairJapaneseTitleSegments(data) {
 }
 
 function validateSegments(segments, context) {
-  if (!Array.isArray(segments)) throw new Error(`${context}: furigana segments are missing.`);
+  if (!Array.isArray(segments) || !segments.length) throw new Error(`${context}: furigana segments are missing.`);
   for (const segment of segments) {
     if (typeof segment.text === 'string') {
       if (/\p{Script=Han}/u.test(segment.text)) {
@@ -491,7 +491,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
     properties: {
       title: { type: 'string', pattern: englishProsePattern },
       japaneseTitle: { type: 'string' },
-      japaneseTitleSegments: { type: 'array', items: segmentSchema },
+      japaneseTitleSegments: { type: 'array', minItems: 1, items: segmentSchema },
       synopsis: { type: 'string', pattern: englishProsePattern },
       passages: { type: 'array', minItems: 1, items: {
         type: 'object',
@@ -500,7 +500,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
           sentences: { type: 'array', minItems: 1, items: {
             type: 'object',
             properties: {
-              japaneseSegments: { type: 'array', items: segmentSchema },
+              japaneseSegments: { type: 'array', minItems: 1, items: segmentSchema },
               romaji: { type: 'string', minLength: 1, pattern: englishProsePattern },
               translation: { type: 'string', minLength: 1, pattern: englishProsePattern },
             },
@@ -516,7 +516,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
       vocabulary: { type: 'array', minItems: vocabularyMinimum, items: {
         type: 'object',
         properties: {
-          key: { type: 'string' }, japanese: { type: 'string' }, japaneseSegments: { type: 'array', items: segmentSchema },
+          key: { type: 'string' }, japanese: { type: 'string' }, japaneseSegments: { type: 'array', minItems: 1, items: segmentSchema },
           reading: { type: 'string' }, romaji: { type: 'string', pattern: englishProsePattern }, meaning: { type: 'string', pattern: englishProsePattern },
           firstPassage: { type: 'integer' }, occurrenceCount: { type: 'integer' },
         },
@@ -526,7 +526,7 @@ async function generateStudyDataWithCodexInput({ pdfPath, prompt, hash, ocrText 
       grammar: { type: 'array', minItems: grammarMinimum, items: {
         type: 'object',
         properties: {
-          key: { type: 'string' }, pattern: { type: 'string' }, patternSegments: { type: 'array', items: segmentSchema },
+          key: { type: 'string' }, pattern: { type: 'string' }, patternSegments: { type: 'array', minItems: 1, items: segmentSchema },
           explanation: { type: 'string', pattern: englishProsePattern }, firstPassage: { type: 'integer' }, occurrenceCount: { type: 'integer' },
         },
         required: ['key', 'pattern', 'patternSegments', 'explanation', 'firstPassage', 'occurrenceCount'],
@@ -788,6 +788,8 @@ async function processOne(pdfPath, manifest, slugs) {
       grammar: data.grammar,
     };
     const guideHtml = buildGuide(data, folderLevel);
+    const wordCount = countJapaneseWordsInReport(guideHtml);
+    if (!wordCount) throw new Error(`${path.basename(pdfPath)}: generated guide contains no Japanese story text.`);
     const metadata = {
       id: slug,
       name: title,
@@ -803,7 +805,7 @@ async function processOne(pdfPath, manifest, slugs) {
       generationStatus: 'completed',
       generationProgress: 100,
       generationError: null,
-      wordCount: countJapaneseWordsInReport(guideHtml),
+      wordCount,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       studyData,
