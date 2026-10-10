@@ -129,6 +129,25 @@ function countJapaneseCharacters(value) {
   return [...String(value || '')].filter((character) => /[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}]/u.test(character)).length;
 }
 
+function isExactSourceLabel(value, sourceText) {
+  const text = String(value || '').trim();
+  if (!text || text.length > 64) return false;
+  const normalizedText = text.normalize('NFKC').replace(/\s+/g, ' ').toLowerCase();
+  const normalizedSource = String(sourceText || '').normalize('NFKC').replace(/\s+/g, ' ').toLowerCase();
+  if (!normalizedSource.includes(normalizedText)) return false;
+
+  const latinOrNumericLabel = /^[\p{Script=Latin}\p{Number}\p{Punctuation}\p{Zs}]+$/u.test(text)
+    && /[\p{Script=Latin}\p{Number}]/u.test(text);
+  const numericTableMatch = text.match(/^(\d{3,4})\s+([\p{Script=Han}]{1,12})$/u);
+  const numericTableEntry = numericTableMatch && String(sourceText || '').split(/--- Page \d+ ---/).some((page) => {
+    const normalizedPage = page.normalize('NFKC').replace(/\s+/g, ' ').toLowerCase();
+    const yearIndex = normalizedPage.indexOf(numericTableMatch[1]);
+    const entryIndex = normalizedPage.indexOf(numericTableMatch[2].toLowerCase(), yearIndex + numericTableMatch[1].length);
+    return yearIndex >= 0 && entryIndex >= yearIndex && entryIndex - yearIndex <= 80;
+  });
+  return latinOrNumericLabel || numericTableEntry;
+}
+
 function parseOcrPageChunks(ocrText, specification) {
   const pages = new Map();
   const markers = [...ocrText.matchAll(/--- Page (\d+) ---/g)];
@@ -160,10 +179,7 @@ function validateJapaneseSourceCoverage(data, sourceName, ocrText = '') {
       const japanese = plainSegments(sentence.japaneseSegments);
       const japaneseCharacters = countJapaneseCharacters(japanese);
       const romajiLetters = [...String(sentence.romaji || '')].filter((character) => /\p{Letter}/u.test(character)).length;
-      const sourceLabel = /^[\p{Script=Latin}\p{Number}\p{Punctuation}\p{Zs}]+$/u.test(japanese.trim())
-        && /[\p{Script=Latin}\p{Number}]/u.test(japanese)
-        && japanese.trim().length <= 64
-        && ocrText.toLowerCase().includes(japanese.trim().toLowerCase());
+      const sourceLabel = isExactSourceLabel(japanese, ocrText);
       if (sourceLabel) continue;
       const minimumJapaneseCharacters = Math.max(1, Math.ceil(romajiLetters * 0.12));
       if (japaneseCharacters < minimumJapaneseCharacters) {
@@ -708,10 +724,7 @@ function validatePartialChunk(data, sourceName, chunkIndex, ocrText = '') {
       const japaneseCharacters = countJapaneseCharacters(plainSegments(sentence.japaneseSegments));
       const romajiLetters = [...String(sentence.romaji || '')].filter((character) => /\p{Letter}/u.test(character)).length;
       const japanese = plainSegments(sentence.japaneseSegments);
-      const sourceLabel = /^[\p{Script=Latin}\p{Number}\p{Punctuation}\p{Zs}]+$/u.test(japanese.trim())
-        && /[\p{Script=Latin}\p{Number}]/u.test(japanese)
-        && japanese.trim().length <= 64
-        && ocrText.toLowerCase().includes(japanese.trim().toLowerCase());
+      const sourceLabel = isExactSourceLabel(japanese, ocrText);
       if (sourceLabel && sentence.romaji && sentence.translation) continue;
       if (!sentence.romaji || !sentence.translation || japaneseCharacters < Math.max(1, Math.ceil(romajiLetters * 0.12))) {
         throw new Error(`${sourceName}: OCR chunk ${chunkIndex + 1}, passage ${passageIndex + 1}, sentence ${sentenceIndex + 1} is incomplete.`);
